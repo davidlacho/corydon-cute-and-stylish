@@ -21,7 +21,7 @@
     <meta property="og:url" content="https://staywinnipeg.ca">
     <meta property="og:title" content="Corydon Cute & Stylish - Your Perfect Winnipeg Getaway">
     <meta property="og:description" content="Step into a quirky mid-century modern haven in the heart of Winnipeg's vibrant Corydon neighborhood. 3-bedroom home with retro charm, modern comfort, and over 40 5* reviews.">
-    <meta property="og:image" content="https://a0.muscache.com/im/pictures/user/User/original/f7bf775a-fc88-419a-9553-6261a3e6ee33.jpeg?im_w=720">
+    <meta property="og:image" content="https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00000.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Corydon Cute & Stylish - Mid-Century Modern Airbnb in Winnipeg">
@@ -33,7 +33,7 @@
     <meta name="twitter:url" content="https://staywinnipeg.ca">
     <meta name="twitter:title" content="Corydon Cute & Stylish - Your Perfect Winnipeg Getaway">
     <meta name="twitter:description" content="Step into a quirky mid-century modern haven in the heart of Winnipeg's vibrant Corydon neighborhood. 3-bedroom home with retro charm, modern comfort, and over 40 5* reviews.">
-    <meta name="twitter:image" content="https://a0.muscache.com/im/pictures/user/User/original/f7bf775a-fc88-419a-9553-6261a3e6ee33.jpeg?im_w=720">
+    <meta name="twitter:image" content="https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00000.jpg">
     <meta name="twitter:image:alt" content="Corydon Cute & Stylish - Mid-Century Modern Airbnb in Winnipeg">
     
     <!-- Additional SEO -->
@@ -49,26 +49,19 @@
     <meta name="application-name" content="Stay Winnipeg">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="shortcut icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="favicon.svg">
+    <link rel="manifest" href="/site.webmanifest">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
     
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossorigin=""/>
-    
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
     <style>
         * {
             margin: 0;
@@ -104,15 +97,64 @@
             background: var(--bg);
             overflow-x: hidden;
             position: relative;
+            text-align: left;
         }
 
         /* Ensure consistent typography inheritance */
         p {
             line-height: 1.7;
+            text-align: left;
         }
 
         li, span, div, a, button, input, textarea, select {
             line-height: inherit;
+        }
+
+        /* Page Loader */
+        .page-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 1;
+            transition: opacity 0.5s ease-out;
+        }
+
+        .loader-content {
+            text-align: center;
+        }
+
+        .loader-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid var(--border);
+            border-top-color: var(--teal);
+            border-right-color: var(--mustard);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1.5rem;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .loader-text {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            font-family: var(--font-body);
+            margin: 0;
         }
 
         /* Skip Link for Accessibility */
@@ -124,14 +166,24 @@
             color: white;
             padding: 1rem 2rem;
             text-decoration: none;
-            z-index: 10000;
+            z-index: 10001;
             font-weight: 600;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
         }
 
         .skip-link:focus {
             top: 0;
+            opacity: 1 !important;
+            pointer-events: auto !important;
             outline: var(--focus-outline);
             outline-offset: var(--focus-outline-offset);
+        }
+
+        .skip-link.visible {
+            opacity: 1;
+            pointer-events: auto;
         }
 
         /* Focus Styles for All Interactive Elements */
@@ -161,6 +213,7 @@
             font-weight: 600;
             letter-spacing: -0.02em;
             line-height: 1.3;
+            text-align: left;
         }
 
         p, span, div, a, li, td, th, label, input, textarea, select, button {
@@ -207,13 +260,35 @@
             font-family: var(--font-heading);
             letter-spacing: -0.03em;
             position: relative;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
         }
 
-        .logo::after {
+        .logo-title {
+            display: inline-flex;
+            align-items: center;
+            font-family: var(--font-heading);
+        }
+
+        .logo-title::after {
             content: '✦';
             color: var(--mustard);
             margin-left: 0.5rem;
             font-size: 1.2rem;
+        }
+
+        .logo-subtitle {
+            font-size: 0.65rem;
+            font-weight: 400;
+            color: var(--text-light);
+            font-family: var(--font-body);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 0.2rem;
+            opacity: 0.8;
+            text-align: left;
+            align-self: flex-start;
         }
 
         .nav-links {
@@ -361,6 +436,7 @@
             margin-bottom: 1.5rem;
             line-height: 1.1;
             letter-spacing: -0.03em;
+            text-align: left;
         }
 
         .hero-text h1::before {
@@ -371,12 +447,27 @@
             vertical-align: middle;
         }
 
+        .hero-subtitle {
+            display: block;
+            font-size: 0.5em;
+            font-weight: 400;
+            font-family: var(--font-body);
+            color: var(--text-light);
+            margin-top: 0.5rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            opacity: 0.9;
+            text-align: left;
+            line-height: 1.4;
+        }
+
         .hero-text p {
             font-size: 1.2rem;
             color: var(--text);
             margin-bottom: 2rem;
             line-height: 1.9;
             max-width: 90%;
+            text-align: left;
         }
 
         .hero-badges {
@@ -505,6 +596,164 @@
             border-radius: 50%;
             opacity: 0.2;
             z-index: -1;
+        }
+
+        /* Hero Slideshow */
+        .hero-slideshow {
+            width: 100%;
+            position: relative;
+        }
+
+        .hero-slideshow-wrapper {
+            position: relative;
+            border-radius: 24px;
+            overflow: hidden;
+            background: var(--warm-beige);
+            box-shadow: 0 20px 60px rgba(38, 70, 83, 0.15), 0 0 0 1px rgba(38, 70, 83, 0.08);
+            border: 2px solid var(--mustard);
+        }
+
+        .hero-slideshow-image-container {
+            position: relative;
+            width: 100%;
+            padding-top: 66.67%; /* 3:2 aspect ratio */
+            overflow: hidden;
+            background: var(--bg-light);
+        }
+
+        .hero-slideshow-skeleton {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, var(--warm-beige) 0%, var(--cream) 50%, var(--warm-beige) 100%);
+            background-size: 200% 100%;
+            overflow: hidden;
+        }
+
+        .skeleton-shimmer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                transparent 0%,
+                rgba(255, 255, 255, 0.4) 50%,
+                transparent 100%
+            );
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: -200% 0;
+            }
+            100% {
+                background-position: 200% 0;
+            }
+        }
+
+        .hero-slideshow-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            will-change: opacity;
+        }
+
+        .hero-slideshow-image.loading {
+            opacity: 0;
+        }
+
+        .hero-slideshow-image.loaded {
+            opacity: 1;
+        }
+
+        .hero-slideshow-image.active {
+            opacity: 1;
+            z-index: 2;
+        }
+
+        .hero-slideshow-image.inactive {
+            opacity: 0;
+            z-index: 1;
+        }
+
+        .hero-slideshow-prev,
+        .hero-slideshow-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.95);
+            color: var(--charcoal);
+            border: 2px solid rgba(38, 70, 83, 0.1);
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-size: 1.5rem;
+            font-weight: bold;
+            z-index: 10;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 12px rgba(38, 70, 83, 0.15);
+        }
+
+        .hero-slideshow-prev:hover,
+        .hero-slideshow-next:hover {
+            background: var(--teal);
+            color: white;
+            border-color: var(--teal);
+            transform: translateY(-50%) scale(1.05);
+            box-shadow: 0 6px 20px rgba(42, 157, 143, 0.3);
+        }
+
+        .hero-slideshow-prev:active,
+        .hero-slideshow-next:active {
+            transform: translateY(-50%) scale(0.95);
+        }
+
+        .hero-slideshow-prev:focus,
+        .hero-slideshow-next:focus {
+            outline: var(--focus-outline);
+            outline-offset: var(--focus-outline-offset);
+        }
+
+        .hero-slideshow-prev {
+            left: 15px;
+        }
+
+        .hero-slideshow-next {
+            right: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .hero-slideshow-prev,
+            .hero-slideshow-next {
+                width: 35px;
+                height: 35px;
+                font-size: 1.2rem;
+            }
+
+            .hero-slideshow-prev {
+                left: 10px;
+            }
+
+            .hero-slideshow-next {
+                right: 10px;
+            }
+
         }
 
         /* Features Section */
@@ -931,6 +1180,10 @@
                 font-size: 1.4rem;
             }
 
+            .logo-subtitle {
+                font-size: 0.55rem;
+            }
+
             /* Container */
             .container {
                 padding: 0 1rem;
@@ -946,7 +1199,7 @@
                 margin-bottom: 2rem;
             }
 
-            .features, .blog, .nearby, .reviews, .amenities {
+            .features, .blog, .nearby, .reviews, .amenities, .slideshow {
                 padding: 3rem 1rem;
             }
 
@@ -1198,7 +1451,7 @@
                 padding: 1.5rem 0.75rem;
             }
 
-            .features, .blog, .nearby, .reviews, .amenities {
+            .features, .blog, .nearby, .reviews, .amenities, .slideshow {
                 padding: 2.5rem 0.75rem;
             }
         }
@@ -1682,6 +1935,138 @@
             margin-top: 1rem;
         }
 
+        /* Slideshow Section */
+        .slideshow {
+            padding: 6rem 2rem;
+            background: linear-gradient(135deg, var(--warm-beige) 0%, rgba(244, 162, 97, 0.05) 50%, var(--cream) 100%);
+            position: relative;
+        }
+
+        .slideshow::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--teal), transparent);
+        }
+
+        .slideshow-container {
+            max-width: 1200px;
+            margin: 4rem auto 0;
+            position: relative;
+        }
+
+        .slideshow-wrapper {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 50px var(--shadow-strong);
+            border: 3px solid var(--mustard);
+            background: white;
+        }
+
+        .slideshow-image-container {
+            position: relative;
+            width: 100%;
+            padding-top: 66.67%; /* 3:2 aspect ratio */
+            overflow: hidden;
+            background: var(--bg-light);
+        }
+
+        .slideshow-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .slideshow-image.fade-in {
+            opacity: 1;
+        }
+
+        .slideshow-image.fade-out {
+            opacity: 0;
+        }
+
+        .slideshow-controls {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(38, 70, 83, 0.85);
+            color: white;
+            border: 2px solid var(--mustard);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.5rem;
+            font-weight: bold;
+            z-index: 10;
+            backdrop-filter: blur(5px);
+        }
+
+        .slideshow-controls:hover {
+            background: var(--teal);
+            border-color: var(--teal);
+            transform: translateY(-50%) scale(1.1);
+            box-shadow: 0 4px 15px rgba(42, 157, 143, 0.4);
+        }
+
+        .slideshow-controls:focus {
+            outline: var(--focus-outline);
+            outline-offset: var(--focus-outline-offset);
+        }
+
+        .slideshow-prev {
+            left: 20px;
+        }
+
+        .slideshow-next {
+            right: 20px;
+        }
+
+        .slideshow-counter {
+            text-align: center;
+            margin-top: 1.5rem;
+            color: var(--text-light);
+            font-size: 0.95rem;
+            font-family: var(--font-body);
+        }
+
+        @media (max-width: 768px) {
+            .slideshow {
+                padding: 4rem 1rem;
+            }
+
+            .slideshow-container {
+                margin-top: 3rem;
+            }
+
+            .slideshow-controls {
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
+            }
+
+            .slideshow-prev {
+                left: 10px;
+            }
+
+            .slideshow-next {
+                right: 10px;
+            }
+
+        }
+
         .amenities-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -1973,69 +2358,259 @@
         }
     }
     </script>
+    
+    <!-- Update meta tags with random image -->
+    <script>
+        (function() {
+            const images = [
+                'images/2025-10-09-5-Ruskin-Row-00000.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00001.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00002.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00003.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00004.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00005.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00006.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00007.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00008.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00009.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00010.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00011.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00012.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00013.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00014.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00015.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00016.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00017.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00018.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00019.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00020.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00021.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00022.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00023.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00024.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00025.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00026.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00027.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00028.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00029.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00030.jpg'
+            ];
+            
+            // Pick a random image
+            const randomImage = images[Math.floor(Math.random() * images.length)];
+            
+            // Get the base URL - try canonical URL first, then construct from window.location
+            let baseUrl = 'https://staywinnipeg.ca';
+            const canonicalLink = document.querySelector('link[rel="canonical"]');
+            if (canonicalLink) {
+                const canonicalHref = canonicalLink.getAttribute('href');
+                if (canonicalHref) {
+                    baseUrl = canonicalHref.replace(/\/$/, ''); // Remove trailing slash if present
+                }
+            } else if (typeof window !== 'undefined' && window.location) {
+                baseUrl = window.location.protocol + '//' + window.location.host;
+            }
+            const imageUrl = baseUrl + '/' + randomImage;
+            
+            // Update Open Graph image meta tag
+            let ogImage = document.querySelector('meta[property="og:image"]');
+            if (ogImage) {
+                ogImage.setAttribute('content', imageUrl);
+            } else {
+                ogImage = document.createElement('meta');
+                ogImage.setAttribute('property', 'og:image');
+                ogImage.setAttribute('content', imageUrl);
+                document.head.appendChild(ogImage);
+            }
+            
+            // Update Twitter image meta tag
+            let twitterImage = document.querySelector('meta[name="twitter:image"]');
+            if (twitterImage) {
+                twitterImage.setAttribute('content', imageUrl);
+            } else {
+                twitterImage = document.createElement('meta');
+                twitterImage.setAttribute('name', 'twitter:image');
+                twitterImage.setAttribute('content', imageUrl);
+                document.head.appendChild(twitterImage);
+            }
+        })();
+    </script>
+    
+    <!-- Preload all images for slideshow -->
+    <script>
+        (function() {
+            const images = [
+                'images/2025-10-09-5-Ruskin-Row-00000.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00001.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00002.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00003.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00004.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00005.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00006.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00007.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00008.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00009.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00010.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00011.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00012.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00013.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00014.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00015.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00016.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00017.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00018.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00019.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00020.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00021.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00022.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00023.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00024.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00025.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00026.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00027.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00028.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00029.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00030.jpg'
+            ];
+            
+            // Preload all images
+            images.forEach((src) => {
+                const link = document.createElement('link');
+                link.rel = 'preload';
+                link.as = 'image';
+                link.href = src;
+                document.head.appendChild(link);
+            });
+        })();
+    </script>
 </head>
 <body>
-    <a href="#main-content" className="skip-link">Skip to main content</a>
+    <div id="page-loader" class="page-loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+    <a href="#main-content" class="skip-link" style="position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden;">Skip to main content</a>
     <div id="root"></div>
 
-    <script type="text/babel">
+    <script type="text/babel" defer>
         const { useState, useEffect } = React;
 
         // Nearby Component with Map
         function Nearby() {
             const [activeFilter, setActiveFilter] = useState('all');
+            const [mapLoaded, setMapLoaded] = useState(false);
+            const [mapLoading, setMapLoading] = useState(false);
             
-            // Initialize map
+            // Lazy load Leaflet and initialize map
             useEffect(() => {
-                if (typeof L !== 'undefined') {
-                    // Coordinates for Enderton Park (Peanut Park), 11 Ruskin Row, Winnipeg
-                    // Airbnb location
-                    const airbnbLat = 49.87275;
-                    const airbnbLng = -97.16177;
+                if (mapLoaded || mapLoading) return;
 
-                    // Create map centered on the Airbnb location
-                    const map = L.map('location-map').setView([airbnbLat, airbnbLng], 15);
+                const mapContainer = document.getElementById('location-map');
+                if (!mapContainer) return;
 
-                    // Add OpenStreetMap tiles
-                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                        maxZoom: 19
-                    }).addTo(map);
+                const initializeMap = () => {
+                    if (typeof L === 'undefined') {
+                        console.error('Leaflet not loaded');
+                        return;
+                    }
+                    
+                    try {
+                        // Coordinates for Enderton Park (Peanut Park), 11 Ruskin Row, Winnipeg
+                        // Airbnb location
+                        const airbnbLat = 49.87275;
+                        const airbnbLng = -97.16177;
 
-                    // Custom icon for Airbnb location
-                    const airbnbIcon = L.divIcon({
-                        className: 'custom-airbnb-marker',
-                        html: '<div style="background-color: #2A9D8F; width: 32px; height: 32px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 3px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.3); position: relative;"><span style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(45deg); font-size: 18px; line-height: 1;">🏠</span></div>',
-                        iconSize: [32, 32],
-                        iconAnchor: [16, 32],
-                        popupAnchor: [0, -32]
-                    });
+                        // Create map centered on the Airbnb location
+                        const map = L.map('location-map').setView([airbnbLat, airbnbLng], 15);
 
-                    // Add marker for Airbnb location
-                    const airbnbMarker = L.marker([airbnbLat, airbnbLng], { icon: airbnbIcon }).addTo(map);
-                    airbnbMarker.bindPopup(`
-                        <div style="text-align: center; padding: 5px;">
-                            <strong style="color: #2A9D8F; font-size: 16px;">Corydon Cute & Stylish</strong><br>
-                            <span style="color: #6B6B6B; font-size: 14px;">Your Perfect Winnipeg Getaway</span>
-                        </div>
-                    `).openPopup();
+                        // Add OpenStreetMap tiles
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                            maxZoom: 19
+                        }).addTo(map);
 
-                    // Add a circle to show the walking distance area
-                    L.circle([airbnbLat, airbnbLng], {
-                        color: '#2A9D8F',
-                        fillColor: '#2A9D8F',
-                        fillOpacity: 0.1,
-                        radius: 500 // 500 meters radius for walking distance
-                    }).addTo(map);
+                        // Custom icon for Airbnb location
+                        const airbnbIcon = L.divIcon({
+                            className: 'custom-airbnb-marker',
+                            html: '<div style="background-color: #2A9D8F; width: 32px; height: 32px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 3px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.3); position: relative;"><span style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(45deg); font-size: 18px; line-height: 1;">🏠</span></div>',
+                            iconSize: [32, 32],
+                            iconAnchor: [16, 32],
+                            popupAnchor: [0, -32]
+                        });
 
-                    // Cleanup function
-                    return () => {
-                        if (map) {
-                            map.remove();
+                        // Add marker for Airbnb location
+                        const airbnbMarker = L.marker([airbnbLat, airbnbLng], { icon: airbnbIcon }).addTo(map);
+                        airbnbMarker.bindPopup(`
+                            <div style="text-align: center; padding: 5px;">
+                                <strong style="color: #2A9D8F; font-size: 16px;">Corydon Cute & Stylish</strong><br>
+                                <span style="color: #6B6B6B; font-size: 14px;">Your Perfect Winnipeg Getaway</span>
+                            </div>
+                        `).openPopup();
+
+                        // Add a circle to show the walking distance area
+                        L.circle([airbnbLat, airbnbLng], {
+                            color: '#2A9D8F',
+                            fillColor: '#2A9D8F',
+                            fillOpacity: 0.1,
+                            radius: 500 // 500 meters radius for walking distance
+                        }).addTo(map);
+
+                        setMapLoaded(true);
+                        setMapLoading(false);
+                    } catch (error) {
+                        console.error('Error initializing map:', error);
+                        setMapLoading(false);
+                    }
+                };
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting && !mapLoaded && !mapLoading) {
+                            setMapLoading(true);
+                            
+                            // Load Leaflet CSS if not already loaded
+                            if (!document.querySelector('link[href*="leaflet"]')) {
+                                const leafletCSS = document.createElement('link');
+                                leafletCSS.rel = 'stylesheet';
+                                leafletCSS.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+                                leafletCSS.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+                                leafletCSS.crossOrigin = '';
+                                document.head.appendChild(leafletCSS);
+                            }
+
+                            // Load Leaflet JS
+                            if (typeof L === 'undefined') {
+                                const script = document.createElement('script');
+                                script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+                                script.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
+                                script.crossOrigin = '';
+                                script.onload = () => {
+                                    // Wait a bit for Leaflet to fully initialize
+                                    setTimeout(() => {
+                                        initializeMap();
+                                    }, 100);
+                                };
+                                script.onerror = () => {
+                                    console.error('Failed to load Leaflet');
+                                    setMapLoading(false);
+                                };
+                                document.body.appendChild(script);
+                            } else {
+                                initializeMap();
+                            }
+                            
+                            observer.disconnect();
                         }
-                    };
-                }
-            }, []);
+                    });
+                }, { rootMargin: '50px' });
+
+                observer.observe(mapContainer);
+
+                return () => {
+                    observer.disconnect();
+                };
+            }, [mapLoaded, mapLoading]);
 
             const allLocations = [
                 // Walking Distance
@@ -2099,7 +2674,7 @@
                         
                         {/* Map Section */}
                         <div className="map-container" style={{marginTop: '3rem', marginBottom: '4rem'}}>
-                            <div id="location-map"></div>
+                            <div id="location-map" aria-label="Interactive map showing property location"></div>
                         </div>
                         
                         <div className="nearby-tabs">
@@ -2137,6 +2712,374 @@
             );
         }
 
+        // Utility function to shuffle array
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        // Preload images function
+        function preloadImages(imagePaths) {
+            imagePaths.forEach((src) => {
+                const img = new Image();
+                img.src = src;
+            });
+        }
+
+        // Hero Slideshow Component (simplified for hero section)
+        function HeroSlideshow() {
+            const baseImages = [
+                'images/2025-10-09-5-Ruskin-Row-00000.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00001.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00002.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00003.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00004.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00005.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00006.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00007.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00008.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00009.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00010.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00011.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00012.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00013.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00014.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00015.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00016.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00017.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00018.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00019.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00020.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00021.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00022.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00023.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00024.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00025.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00026.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00027.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00028.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00029.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00030.jpg'
+            ];
+            
+            // Shuffle images on component mount
+            const [images] = useState(() => {
+                const shuffled = shuffleArray(baseImages);
+                return shuffled;
+            });
+
+            const [currentIndex, setCurrentIndex] = useState(0);
+            const [isTransitioning, setIsTransitioning] = useState(false);
+            const [imagesLoaded, setImagesLoaded] = useState(false);
+            const [loadedCount, setLoadedCount] = useState(0);
+
+            // Track image loading - ensure ALL images are loaded before hiding skeleton
+            useEffect(() => {
+                setImagesLoaded(false);
+                setLoadedCount(0);
+                
+                const totalImages = images.length;
+                let loaded = 0;
+                
+                const imagePromises = images.map((src) => {
+                    return new Promise((resolve) => {
+                        const img = new Image();
+                        img.onload = () => {
+                            loaded++;
+                            setLoadedCount(loaded);
+                            resolve();
+                        };
+                        img.onerror = () => {
+                            loaded++;
+                            setLoadedCount(loaded);
+                            resolve(); // Resolve even on error to not block
+                        };
+                        img.src = src;
+                    });
+                });
+
+                Promise.all(imagePromises).then(() => {
+                    // Only set imagesLoaded to true when ALL images have attempted to load
+                    // Promise.all ensures all promises have resolved (either success or error)
+                    setImagesLoaded(true);
+                });
+            }, [images]);
+
+            const goToNext = () => {
+                if (isTransitioning) return;
+                setIsTransitioning(true);
+                const newIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
+                setCurrentIndex(newIndex);
+                setTimeout(() => {
+                    setIsTransitioning(false);
+                }, 800);
+            };
+
+            // Auto-transition effect (paused on hover/focus for accessibility)
+            useEffect(() => {
+                if (!imagesLoaded) return;
+                
+                let interval;
+                const slideshowWrapper = document.querySelector('.hero-slideshow-wrapper');
+                
+                const startInterval = () => {
+                    interval = setInterval(() => {
+                        if (!isTransitioning) {
+                            setIsTransitioning(true);
+                            const newIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
+                            setCurrentIndex(newIndex);
+                            setTimeout(() => {
+                                setIsTransitioning(false);
+                            }, 800);
+                        }
+                    }, 5000);
+                };
+
+                const stopInterval = () => {
+                    if (interval) {
+                        clearInterval(interval);
+                    }
+                };
+
+                startInterval();
+
+                // Pause on hover/focus for better UX and accessibility
+                if (slideshowWrapper) {
+                    slideshowWrapper.addEventListener('mouseenter', stopInterval);
+                    slideshowWrapper.addEventListener('mouseleave', startInterval);
+                    slideshowWrapper.addEventListener('focusin', stopInterval);
+                    slideshowWrapper.addEventListener('focusout', startInterval);
+                }
+
+                return () => {
+                    stopInterval();
+                    if (slideshowWrapper) {
+                        slideshowWrapper.removeEventListener('mouseenter', stopInterval);
+                        slideshowWrapper.removeEventListener('mouseleave', startInterval);
+                        slideshowWrapper.removeEventListener('focusin', stopInterval);
+                        slideshowWrapper.removeEventListener('focusout', startInterval);
+                    }
+                };
+            }, [isTransitioning, images.length, currentIndex, imagesLoaded]);
+
+            const goToPrevious = () => {
+                if (isTransitioning) return;
+                setIsTransitioning(true);
+                const newIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
+                setCurrentIndex(newIndex);
+                setTimeout(() => {
+                    setIsTransitioning(false);
+                }, 800);
+            };
+
+            // Keyboard navigation
+            useEffect(() => {
+                const handleKeyPress = (e) => {
+                    if (!imagesLoaded || isTransitioning) return;
+                    if (e.key === 'ArrowLeft') {
+                        e.preventDefault();
+                        goToPrevious();
+                    } else if (e.key === 'ArrowRight') {
+                        e.preventDefault();
+                        goToNext();
+                    }
+                };
+
+                window.addEventListener('keydown', handleKeyPress);
+                return () => window.removeEventListener('keydown', handleKeyPress);
+            }, [imagesLoaded, isTransitioning, images.length, currentIndex]);
+
+            return (
+                <div className="hero-slideshow" tabIndex={-1}>
+                    <div className="hero-slideshow-wrapper" tabIndex={0} role="region" aria-label="Property photo slideshow" aria-live="polite">
+                        <div className="hero-slideshow-image-container">
+                            {!imagesLoaded && (
+                                <div className="hero-slideshow-skeleton">
+                                    <div className="skeleton-shimmer"></div>
+                                </div>
+                            )}
+                            {imagesLoaded && images.map((src, index) => (
+                                <img
+                                    key={index}
+                                    src={src}
+                                    alt={`Property photo ${index + 1} of ${images.length}`}
+                                    className={`hero-slideshow-image loaded ${index === currentIndex ? 'active' : 'inactive'}`}
+                                />
+                            ))}
+                        </div>
+                        {imagesLoaded && (
+                            <>
+                        <button
+                            className="hero-slideshow-prev"
+                            onClick={goToPrevious}
+                            aria-label="Previous image"
+                            tabIndex={imagesLoaded ? 0 : -1}
+                        >
+                            ‹
+                        </button>
+                        <button
+                            className="hero-slideshow-next"
+                            onClick={goToNext}
+                            aria-label="Next image"
+                            tabIndex={imagesLoaded ? 0 : -1}
+                        >
+                            ›
+                        </button>
+                            </>
+                        )}
+                    </div>
+                </div>
+            );
+        }
+
+        // Slideshow Component
+        function Slideshow() {
+            const baseImages = [
+                'images/2025-10-09-5-Ruskin-Row-00000.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00001.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00002.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00003.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00004.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00005.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00006.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00007.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00008.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00009.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00010.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00011.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00012.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00013.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00014.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00015.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00016.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00017.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00018.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00019.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00020.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00021.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00022.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00023.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00024.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00025.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00026.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00027.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00028.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00029.jpg',
+                'images/2025-10-09-5-Ruskin-Row-00030.jpg'
+            ];
+            
+            // Shuffle images on component mount and preload
+            const [images] = useState(() => {
+                const shuffled = shuffleArray(baseImages);
+                // Preload all images
+                preloadImages(shuffled);
+                return shuffled;
+            });
+
+            const [currentIndex, setCurrentIndex] = useState(0);
+            const [isTransitioning, setIsTransitioning] = useState(false);
+
+            const goToSlide = (index) => {
+                if (isTransitioning) return;
+                setIsTransitioning(true);
+                setTimeout(() => {
+                    setCurrentIndex(index);
+                    setIsTransitioning(false);
+                }, 250);
+            };
+
+            const goToPrevious = () => {
+                if (isTransitioning) return;
+                const newIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
+                goToSlide(newIndex);
+            };
+
+            const goToNext = () => {
+                if (isTransitioning) return;
+                const newIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
+                goToSlide(newIndex);
+            };
+
+            useEffect(() => {
+                const handleKeyPress = (e) => {
+                    if (isTransitioning) return;
+                    let newIndex;
+                    if (e.key === 'ArrowLeft') {
+                        newIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
+                    } else if (e.key === 'ArrowRight') {
+                        newIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
+                    } else {
+                        return;
+                    }
+                    setIsTransitioning(true);
+                    setTimeout(() => {
+                        setCurrentIndex(newIndex);
+                        setIsTransitioning(false);
+                    }, 250);
+                };
+
+                window.addEventListener('keydown', handleKeyPress);
+                return () => window.removeEventListener('keydown', handleKeyPress);
+            }, [currentIndex, isTransitioning, images.length]);
+
+            // Auto-transition effect
+            useEffect(() => {
+                const interval = setInterval(() => {
+                    if (!isTransitioning) {
+                        setIsTransitioning(true);
+                        setTimeout(() => {
+                            setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+                            setIsTransitioning(false);
+                        }, 250);
+                    }
+                }, 5000); // Change image every 5 seconds
+
+                return () => clearInterval(interval);
+            }, [isTransitioning, images.length]);
+
+            return (
+                <section id="slideshow" className="slideshow" aria-label="Property photos">
+                    <div className="container">
+                        <h2 id="slideshow-heading" className="section-title">Photo Gallery</h2>
+                        <p className="section-subtitle">Take a virtual tour of our beautiful space</p>
+                        <div className="slideshow-container">
+                            <div className="slideshow-wrapper">
+                                <div className="slideshow-image-container">
+                                    <img
+                                        src={images[currentIndex]}
+                                        alt={`Property photo ${currentIndex + 1} of ${images.length}`}
+                                        className={`slideshow-image ${isTransitioning ? 'fade-out' : 'fade-in'}`}
+                                        loading={currentIndex < 3 ? 'eager' : 'lazy'}
+                                    />
+                                </div>
+                                <button
+                                    className="slideshow-controls slideshow-prev"
+                                    onClick={goToPrevious}
+                                    aria-label="Previous image"
+                                >
+                                    ‹
+                                </button>
+                                <button
+                                    className="slideshow-controls slideshow-next"
+                                    onClick={goToNext}
+                                    aria-label="Next image"
+                                >
+                                    ›
+                                </button>
+                            </div>
+                            <div className="slideshow-counter">
+                                {currentIndex + 1} / {images.length}
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            );
+        }
+
         function App() {
             const [scrolled, setScrolled] = useState(false);
             const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -2157,15 +3100,6 @@
                 setMobileMenuOpen(false);
             };
 
-            useEffect(() => {
-                // Load Airbnb embed script
-                if (!document.querySelector('script[src="https://www.airbnb.ca/embeddable/airbnb_jssdk"]')) {
-                    const script = document.createElement('script');
-                    script.src = 'https://www.airbnb.ca/embeddable/airbnb_jssdk';
-                    script.async = true;
-                    document.body.appendChild(script);
-                }
-            }, []);
 
             useEffect(() => {
                 // Close mobile menu on window resize to desktop
@@ -2302,7 +3236,10 @@
                 <>
                     <nav className={scrolled ? 'scrolled' : ''} role="navigation" aria-label="Main navigation">
                         <div className="nav-container">
-                            <div className="logo" role="banner">Corydon Cute & Stylish</div>
+                            <div className="logo" role="banner">
+                                <span className="logo-title">Corydon Cute & Stylish</span>
+                                <span className="logo-subtitle">Boutique Airbnb in Winnipeg</span>
+                            </div>
                             <button 
                                 className="mobile-menu-toggle" 
                                 onClick={toggleMobileMenu}
@@ -2375,7 +3312,10 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <h1>Corydon Cute & Stylish</h1>
+                                    <h1>
+                                        Corydon Cute & Stylish
+                                        <span className="hero-subtitle">Boutique Airbnb in Winnipeg</span>
+                                    </h1>
                                     <p>
                                         Step into a quirky mid-century modern haven in the heart of Winnipeg's vibrant 
                                         Corydon neighborhood. This thoughtfully curated 3-bedroom home blends retro charm 
@@ -2399,12 +3339,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div className="hero-widget fade-in-up">
-                                    <div 
-                                        dangerouslySetInnerHTML={{
-                                            __html: `<div class="airbnb-embed-frame" data-id="716340250371431352" data-view="home" data-hide-price="true" style="width: 100%; height: 300px; margin: auto;"><a href="https://www.airbnb.ca/rooms/716340250371431352?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget">View On Airbnb</a><a href="https://www.airbnb.ca/rooms/716340250371431352?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget" rel="nofollow">Home in Winnipeg · ★4.93 · 3 bedrooms · 3 beds · 2 baths</a></div>`
-                                        }}
-                                    />
+                                <div className="fade-in-up">
+                                    <HeroSlideshow />
                                 </div>
                             </div>
                         </div>
@@ -2625,7 +3561,9 @@
                             </div>
                             <p>&copy; 2025 Corydon Cute & Stylish. All rights reserved.</p>
                             <p className="footer-text">
-                                airbnb.ca/h/corydon-cute-and-stylish
+                                <a href="https://www.airbnb.ca/h/corydon-cute-and-stylish" style={{color: 'inherit', textDecoration: 'underline'}}>
+                                    airbnb.ca/h/corydon-cute-and-stylish
+                                </a>
                             </p>
                             <p className="footer-registration">
                                 Registration details: STRA-2025-2600298
@@ -2649,6 +3587,36 @@
 
         const root = ReactDOM.createRoot(document.getElementById('root'));
         root.render(<App />);
+        
+        // Hide loader once React has rendered
+        const hideLoader = () => {
+            const loader = document.getElementById('page-loader');
+            const skipLink = document.querySelector('.skip-link');
+            if (loader) {
+                loader.style.opacity = '0';
+                loader.style.transition = 'opacity 0.5s ease-out';
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                    // Show skip link after loader is hidden
+                    if (skipLink) {
+                        skipLink.classList.add('visible');
+                    }
+                }, 500);
+            }
+        };
+        
+        // Try to hide loader after React renders
+        // Use requestAnimationFrame to wait for React to render
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                setTimeout(hideLoader, 200);
+            });
+        });
+        
+        // Fallback: hide after page load
+        window.addEventListener('load', () => {
+            setTimeout(hideLoader, 300);
+        });
     </script>
 </body>
 </html>

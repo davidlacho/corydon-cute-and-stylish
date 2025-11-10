@@ -1,0 +1,22 @@
+{
+  "name": "Stay Winnipeg - Corydon Cute & Stylish",
+  "short_name": "Stay Winnipeg",
+  "description": "Mid-century modern Airbnb in Winnipeg's vibrant Corydon neighborhood",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#F4A261",
+  "background_color": "#FEF9E7",
+  "display": "standalone",
+  "start_url": "/"
+}
+
