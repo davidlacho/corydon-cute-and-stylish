@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>When Things Go Wrong: Lessons from a Marseille Airbnb Disaster | Stay Winnipeg Blog</title>
+    <meta name="title" content="When Things Go Wrong: Lessons from a Marseille Airbnb Disaster | Stay Winnipeg Blog">
+    <meta name="description" content="Sometimes even experienced travelers encounter nightmare Airbnbs. Our Marseille stay taught us what to look for—and what to avoid—when booking accommodations. Learn from our mistakes.">
+    <meta name="keywords" content="bad Airbnb experience, Marseille Airbnb, Airbnb problems, vacation rental issues, what to avoid Airbnb, Airbnb disaster, travel mistakes, Airbnb red flags">
+    <meta name="author" content="David">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://staywinnipeg.ca/blog-marseille-trip-gone-wrong.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://staywinnipeg.ca/blog-marseille-trip-gone-wrong.html">
+    <meta property="og:title" content="When Things Go Wrong: Lessons from a Marseille Airbnb Disaster">
+    <meta property="og:description" content="Sometimes even experienced travelers encounter nightmare Airbnbs. Our Marseille stay taught us what to look for—and what to avoid—when booking accommodations.">
+    <meta property="og:image" content="https://staywinnipeg.ca/images/marseille.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://staywinnipeg.ca/blog-marseille-trip-gone-wrong.html">
+    <meta name="twitter:title" content="When Things Go Wrong: Lessons from a Marseille Airbnb Disaster">
+    <meta name="twitter:description" content="Sometimes even experienced travelers encounter nightmare Airbnbs. Our Marseille stay taught us what to look for—and what to avoid—when booking accommodations.">
+    <meta name="twitter:image" content="https://staywinnipeg.ca/images/marseille.png">
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --mustard: #F4A261;
+            --teal: #2A9D8F;
+            --burnt-orange: #E76F51;
+            --charcoal: #264653;
+            --text: #1A1A1A;
+            --text-light: #4A4A4A;
+            --bg: #FEF9E7;
+            --bg-light: #F5E6D3;
+            --cream: #FEF9E7;
+            --border: #E8D5C4;
+            --shadow: rgba(38, 70, 83, 0.15);
+            --font-body: 'Manrope', 'Helvetica Neue', Arial, sans-serif;
+            --font-heading: 'Playfair Display', 'Times New Roman', serif;
+        }
+        body { font-family: var(--font-body); line-height: 1.7; color: var(--text); background: var(--bg); }
+        h1, h2, h3 { font-family: var(--font-heading); font-weight: 600; line-height: 1.3; margin-bottom: 1rem; }
+        h1 { font-size: 2.5rem; margin-bottom: 1.5rem; }
+        h2 { font-size: 2rem; margin-top: 2.5rem; margin-bottom: 1.25rem; }
+        h3 { font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; }
+        .container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+        nav { position: fixed; top: 0; width: 100%; background: rgba(254, 249, 231, 0.98); backdrop-filter: blur(10px); box-shadow: 0 2px 20px var(--shadow); z-index: 1000; border-bottom: 2px solid var(--mustard); }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 2rem; max-width: 1200px; margin: 0 auto; }
+        .logo { font-size: 1.75rem; font-weight: 700; color: var(--charcoal); text-decoration: none; display: flex; flex-direction: column; }
+        .logo-title { display: inline-flex; align-items: center; }
+        .logo-title::after { content: '✦'; color: var(--mustard); margin-left: 0.5rem; font-size: 1.2rem; }
+        .logo-subtitle { font-size: 0.65rem; font-weight: 400; color: var(--text-light); font-family: var(--font-body); letter-spacing: 0.05em; text-transform: uppercase; margin-top: 0.2rem; opacity: 0.8; }
+        .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+        .nav-links a { color: var(--text); text-decoration: none; font-weight: 500; }
+        .article-header { margin-top: 100px; padding: 3rem 0 2rem; text-align: center; }
+        .article-meta { color: var(--text-light); font-size: 0.95rem; margin-bottom: 2rem; }
+        .article-hero-image { margin: 2rem 0 3rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px var(--shadow); }
+        .article-hero-image img { width: 100%; height: auto; display: block; }
+        .article-body { padding: 2rem 0 4rem; }
+        .article-body p { margin-bottom: 1.25rem; }
+        .article-body ul { margin-left: 2rem; margin-bottom: 1.5rem; }
+        .article-body li { margin-bottom: 0.75rem; }
+        .highlight-box { background: var(--bg-light); border-left: 4px solid var(--mustard); padding: 1.5rem; margin: 2rem 0; border-radius: 4px; }
+        .warning-box { background: #ffe6e6; border-left: 4px solid var(--burnt-orange); padding: 1.5rem; margin: 2rem 0; border-radius: 4px; }
+        .back-link { display: inline-block; color: var(--teal); text-decoration: none; margin-bottom: 2rem; font-weight: 500; }
+        .back-link:hover { text-decoration: underline; }
+        footer { background: var(--charcoal); color: var(--cream); padding: 4rem 2rem; text-align: center; position: relative; }
+        footer::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--mustard), var(--teal), var(--burnt-orange)); }
+        .footer-content { max-width: 1200px; margin: 0 auto; }
+        .footer-links { display: flex; justify-content: center; gap: 2.5rem; margin-bottom: 2.5rem; flex-wrap: wrap; }
+        .footer-links a { color: var(--cream); text-decoration: none; transition: all 0.3s ease; font-weight: 500; position: relative; padding: 0.5rem 0; }
+        .footer-links a::after { content: '✦'; color: var(--mustard); margin-left: 0.5rem; opacity: 0; transition: opacity 0.3s ease; }
+        .footer-links a:hover { color: var(--mustard); }
+        .footer-links a:hover::after { opacity: 1; }
+        .footer-text { margin: 1rem 0; color: var(--cream); }
+        .footer-text a { color: inherit; text-decoration: underline; }
+        .footer-registration { margin-top: 1rem; font-size: 0.9rem; color: var(--cream); opacity: 0.8; }
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.75rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="https://staywinnipeg.ca/" class="logo" role="banner">
+                <span class="logo-title">Corydon Cute & Stylish</span>
+                <span class="logo-subtitle">Boutique Airbnb in Winnipeg</span>
+            </a>
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="https://staywinnipeg.ca/" role="menuitem">Home</a></li>
+                <li role="none"><a href="https://staywinnipeg.ca/#features" role="menuitem">Features</a></li>
+                <li role="none"><a href="https://staywinnipeg.ca/#reviews" role="menuitem">Reviews</a></li>
+                <li role="none"><a href="https://staywinnipeg.ca/#amenities" role="menuitem">Amenities</a></li>
+                <li role="none"><a href="https://staywinnipeg.ca/#nearby" role="menuitem">Nearby</a></li>
+                <li role="none"><a href="https://staywinnipeg.ca/blog.html" class="active" role="menuitem">Blog</a></li>
+                <li role="none"><a href="https://www.airbnb.ca/rooms/716340250371431352" class="nav-cta" role="menuitem" aria-label="Book your stay on Airbnb">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <article class="container">
+            <div class="article-header">
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <h1>When Things Go Wrong: Lessons from a Marseille Airbnb Disaster</h1>
+                <div class="article-meta">
+                    <span>⚠️ Travel Lessons</span> • <span>⏱️ 8 min read</span> • <span>📅 March 10, 2025</span>
+                </div>
+            </div>
+
+            <div class="article-hero-image">
+                <img src="images/marseille.png" alt="Marseille cityscape" loading="eager">
+            </div>
+
+            <div class="article-body">
+                <p>Not every Airbnb stay is a success story. Sometimes, despite our best efforts to research and choose wisely, we end up in accommodations that fall far short of expectations. Our stay in Marseille in March 2024 was one of those experiences—a perfect storm of problems that taught us valuable lessons about what to look for (and what to avoid) when booking accommodations.</p>
+
+                <h2>The Check-In Disaster</h2>
+                <p>It started before we even set foot in the apartment. The check-in instructions directed us to collect keys from a lockbox located at a completely different address—a 10-minute walk from the actual accommodation. With two large suitcases in tow, this was already problematic. But it got worse.</p>
+                <p>When we arrived at the apartment building, we discovered the lockbox wasn't there at all. After frantically searching and messaging the host, a kind neighbor let us into the building. That's when we discovered the elevator was broken. We had to carry our heavy luggage up six flights of stairs to reach the 5th-floor studio.</p>
+                <p><strong>Lesson learned:</strong> Always verify that check-in instructions make sense. If keys are far from the property or instructions seem convoluted, that's a red flag. Good hosts make check-in as smooth as possible.</p>
+
+                <h2>The Apartment Itself</h2>
+                <p>Once we finally made it inside, the problems continued. The studio looked nothing like the photos—it appeared the listing photos were taken years ago, and the space had significantly deteriorated since then.</p>
+
+                <h3>Maintenance Issues</h3>
+                <p>The apartment had numerous maintenance problems that should have been addressed long before our arrival:</p>
+                <ul>
+                    <li><strong>Broken door handle:</strong> The front door handle was missing, making it difficult to close the door properly</li>
+                    <li><strong>Window that wouldn't close:</strong> A critical issue for security, temperature control, and noise</li>
+                    <li><strong>Broken shower head:</strong> Water sprayed everywhere except where it should, including onto the ceiling</li>
+                    <li><strong>Clogged drains:</strong> Both the shower and bathroom sink drained extremely slowly, leaving you standing in dirty water</li>
+                    <li><strong>Broken electrical socket:</strong> A safety hazard that should never be ignored</li>
+                    <li><strong>Non-functional TV:</strong> Could turn on but couldn't access any channels</li>
+                </ul>
+
+                <h3>Cleanliness Problems</h3>
+                <p>The cleanliness issues were extensive. The stove had burnt-in areas that clearly hadn't been cleaned in a long time. The floor was dirty. Storage areas were cluttered with untidy belongings. The building's common areas—staircases, entrance, and elevator—were extremely dirty and run-down. The elevator, when it was working, had visible urine stains.</p>
+                <p>Other guests reported finding cockroaches and other insects, which suggests deeper hygiene problems.</p>
+
+                <h3>Comfort Issues</h3>
+                <p>The bed was so uncomfortable that multiple guests reported back pain. The apartment was extremely hot despite having a fan, making sleep difficult. Cigarette smoke wafted in from neighboring units, creating an unpleasant and unhealthy environment.</p>
+
+                <div class="warning-box">
+                    <p><strong>Red Flags We Missed:</strong> Looking back, there were warning signs in the reviews we should have paid more attention to. Multiple guests had reported similar issues—broken windows, clogged drains, cleanliness problems. When multiple reviews mention the same issues, that's a clear sign the host isn't addressing problems.</p>
+                </div>
+
+                <h2>The Communication Breakdown</h2>
+                <p>Perhaps the most frustrating aspect was the complete lack of responsive communication from the host. Throughout our stay, we received only automated messages. When we reported problems—the broken elevator, the missing lockbox, the cigarette smoke, the WiFi issues—we got no response.</p>
+                <p>Even basic questions went unanswered. We had to figure out the WiFi password ourselves. Check-out instructions were never provided, leaving us uncertain about what to do with the keys.</p>
+                <p><strong>Lesson learned:</strong> Responsive communication is essential. If a host doesn't respond to messages before booking, or only sends automated responses, that's a major red flag. Good hosts are available and responsive.</p>
+
+                <h2>What We Learned: Red Flags to Watch For</h2>
+                <p>This experience taught us to be more vigilant when booking. Here are the warning signs we now look for:</p>
+
+                <h3>1. Recurring Problems in Reviews</h3>
+                <p>If multiple reviews mention the same issues (broken windows, clogged drains, cleanliness problems), that's a pattern. One guest might have bad luck, but when several guests report identical problems, the host isn't maintaining the property.</p>
+
+                <h3>2. Complicated Check-In Process</h3>
+                <p>If check-in instructions are confusing, require you to go to multiple locations, or seem unnecessarily complicated, that's a warning sign. Good hosts make check-in simple and straightforward.</p>
+
+                <h3>3. Poor Communication</h3>
+                <p>If a host only sends automated messages, doesn't respond to questions, or seems unavailable, that's a problem. You need a host who can help if something goes wrong.</p>
+
+                <h3>4. Photos That Look Dated</h3>
+                <p>If the photos look old or the property looks significantly different from the photos, that's a red flag. Hosts should keep their listings current and accurate.</p>
+
+                <h3>5. Building Condition</h3>
+                <p>Pay attention to reviews mentioning the building's condition. Dirty common areas, broken elevators, and run-down buildings affect your entire stay, not just the apartment itself.</p>
+
+                <h2>How This Shapes Our Hosting</h2>
+                <p>As hosts ourselves, this experience reinforced the importance of things we already prioritize:</p>
+
+                <h3>Maintenance Matters</h3>
+                <p>We immediately address any maintenance issues reported by guests. A broken door handle or window isn't just an inconvenience—it's a safety and security issue. We do regular inspections to catch problems before guests do.</p>
+
+                <h3>Cleanliness is Non-Negotiable</h3>
+                <p>Every guest deserves a clean space. We have a thorough cleaning checklist and never cut corners. If something isn't clean, it gets cleaned again.</p>
+
+                <h3>Communication is Key</h3>
+                <p>We respond to all guest messages promptly, usually within an hour during waking hours. We provide clear check-in and check-out instructions. We're available if problems arise. This isn't just good hosting—it's basic respect for our guests.</p>
+
+                <h3>Honest Listings</h3>
+                <p>Our photos are current and accurate. We don't hide problems or use misleading angles. If something isn't perfect, we're upfront about it. Honesty builds trust.</p>
+
+                <div class="highlight-box">
+                    <p><strong>The Silver Lining:</strong> While this Marseille stay was a disaster, it reinforced our commitment to being better hosts. Every problem we encountered is something we actively work to prevent in our own property. Bad experiences, while frustrating, can be powerful teachers.</p>
+                </div>
+
+                <h2>What to Do If You Find Yourself in a Bad Situation</h2>
+                <p>If you encounter serious problems during a stay:</p>
+                <ul>
+                    <li><strong>Document everything:</strong> Take photos and videos of problems</li>
+                    <li><strong>Contact the host immediately:</strong> Give them a chance to fix issues</li>
+                    <li><strong>Contact Airbnb support:</strong> If the host doesn't respond or can't fix problems, reach out to Airbnb</li>
+                    <li><strong>Leave an honest review:</strong> Help other travelers avoid the same problems</li>
+                    <li><strong>Request a refund if appropriate:</strong> For serious issues that make the stay unlivable, you may be entitled to compensation</li>
+                </ul>
+
+                <h2>Final Thoughts</h2>
+                <p>Bad Airbnb experiences happen, even to experienced travelers. The key is learning from them—both as guests and as hosts. Our Marseille stay was a reminder that hosting isn't just about providing a space—it's about providing an experience. And that experience starts with basic maintenance, cleanliness, and communication.</p>
+                <p>As hosts, we're committed to ensuring our guests never have to deal with the problems we encountered in Marseille. Every broken handle, every clogged drain, every unanswered message is a lesson in what not to do—and a reminder of why we do what we do.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://staywinnipeg.ca/">Home</a>
+                <a href="https://staywinnipeg.ca/#features">Features</a>
+                <a href="https://staywinnipeg.ca/#reviews">Reviews</a>
+                <a href="https://staywinnipeg.ca/#amenities">Amenities</a>
+                <a href="https://staywinnipeg.ca/#nearby">Nearby</a>
+                <a href="https://staywinnipeg.ca/blog.html">Blog</a>
+                <a href="https://www.airbnb.ca/rooms/716340250371431352">Book Now</a>
+            </div>
+            <p>&copy; 2025 Corydon Cute & Stylish. All rights reserved.</p>
+            <p class="footer-text">
+                <a href="https://www.airbnb.ca/h/corydon-cute-and-stylish">
+                    airbnb.ca/h/corydon-cute-and-stylish
+                </a>
+            </p>
+            <p class="footer-registration">
+                Registration details: STRA-2025-2600298
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
