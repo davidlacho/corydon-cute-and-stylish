@@ -78,8 +78,8 @@
             --cream: #FEF9E7;
             --warm-beige: #F5E6D3;
             --charcoal: #264653;
-            --text: #2B2B2B;
-            --text-light: #6B6B6B;
+            --text: #1A1A1A;
+            --text-light: #4A4A4A;
             --bg: #FEF9E7;
             --bg-light: #F5E6D3;
             --border: #E8D5C4;
@@ -87,6 +87,8 @@
             --shadow-strong: rgba(38, 70, 83, 0.25);
             --font-body: 'Manrope', 'Helvetica Neue', Arial, sans-serif;
             --font-heading: 'Playfair Display', 'Times New Roman', serif;
+            --focus-outline: 3px solid var(--teal);
+            --focus-outline-offset: 2px;
         }
 
         body {
@@ -95,12 +97,68 @@
             color: var(--text);
             background: var(--bg);
             overflow-x: hidden;
+            position: relative;
         }
 
+        /* Ensure consistent typography inheritance */
+        p {
+            line-height: 1.7;
+        }
+
+        li, span, div, a, button, input, textarea, select {
+            line-height: inherit;
+        }
+
+        /* Skip Link for Accessibility */
+        .skip-link {
+            position: absolute;
+            top: -100px;
+            left: 0;
+            background: var(--charcoal);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            z-index: 10000;
+            font-weight: 600;
+        }
+
+        .skip-link:focus {
+            top: 0;
+            outline: var(--focus-outline);
+            outline-offset: var(--focus-outline-offset);
+        }
+
+        /* Focus Styles for All Interactive Elements */
+        a:focus,
+        button:focus,
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: var(--focus-outline);
+            outline-offset: var(--focus-outline-offset);
+        }
+
+        a:focus-visible,
+        button:focus-visible {
+            outline: var(--focus-outline);
+            outline-offset: var(--focus-outline-offset);
+        }
+
+        /* Remove default outline for mouse users but keep for keyboard */
+        *:focus:not(:focus-visible) {
+            outline: none;
+        }
+
+        /* Typography System */
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--font-heading);
             font-weight: 600;
             letter-spacing: -0.02em;
+            line-height: 1.3;
+        }
+
+        p, span, div, a, li, td, th, label, input, textarea, select, button {
+            font-family: var(--font-body);
         }
 
         .container {
@@ -121,6 +179,7 @@
             transition: all 0.3s ease;
             border-bottom: 2px solid var(--mustard);
         }
+
 
         nav.scrolled {
             box-shadow: 0 4px 30px var(--shadow-strong);
@@ -157,6 +216,27 @@
             list-style: none;
         }
 
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--charcoal);
+            cursor: pointer;
+            padding: 0.5rem;
+            z-index: 1001;
+            min-width: 44px;
+            min-height: 44px;
+            align-items: center;
+            justify-content: center;
+            touch-action: manipulation;
+        }
+
+        .mobile-menu-toggle:focus {
+            outline: 2px solid var(--teal);
+            outline-offset: 2px;
+        }
+
         .nav-links a {
             text-decoration: none;
             color: var(--text);
@@ -166,6 +246,9 @@
             transition: all 0.3s ease;
             position: relative;
             padding: 0.5rem 0;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
         }
 
         .nav-links a::before {
@@ -189,12 +272,12 @@
         }
 
         .nav-links a.nav-cta {
-            background: var(--teal);
+            background: var(--charcoal);
             color: white !important;
             padding: 0.6rem 1.5rem;
             border-radius: 25px;
             font-weight: 600;
-            box-shadow: 0 4px 15px rgba(42, 157, 143, 0.3);
+            box-shadow: 0 4px 15px rgba(38, 70, 83, 0.3);
             transition: all 0.3s ease;
         }
 
@@ -203,19 +286,20 @@
         }
 
         .nav-links a.nav-cta:hover {
-            background: var(--charcoal);
+            background: var(--teal);
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(38, 70, 83, 0.4);
+            box-shadow: 0 6px 20px rgba(42, 157, 143, 0.4);
             color: white !important;
         }
 
         /* Hero Section */
         .hero {
-            margin-top: 80px;
+            margin-top: 0;
+            padding-top: 80px;
             min-height: 90vh;
             display: flex;
             align-items: center;
-            background: linear-gradient(135deg, var(--warm-beige) 0%, var(--cream) 50%, var(--sage) 100%);
+            background: linear-gradient(180deg, var(--warm-beige) 0%, var(--cream) 50%, var(--warm-beige) 100%);
             position: relative;
             overflow: hidden;
         }
@@ -372,6 +456,29 @@
             color: var(--text-light);
         }
 
+        .host-section-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--charcoal);
+            margin-bottom: 0.75rem;
+            font-family: var(--font-heading);
+        }
+
+        .footer-text {
+            margin-top: 1rem;
+            opacity: 0.8;
+            font-size: 0.9rem;
+            font-family: var(--font-body);
+        }
+
+        .footer-registration {
+            margin-top: 1rem;
+            opacity: 0.7;
+            font-size: 0.85rem;
+            font-family: var(--font-body);
+            letter-spacing: 0.05em;
+        }
+
         .hero-widget {
             background: white;
             border-radius: 25px;
@@ -397,8 +504,13 @@
         /* Features Section */
         .features {
             padding: 6rem 2rem;
-            background: var(--cream);
+            background: linear-gradient(135deg, var(--cream) 0%, rgba(168, 198, 159, 0.05) 50%, var(--cream) 100%);
             position: relative;
+        }
+
+        /* Book Section */
+        #book {
+            background: linear-gradient(270deg, var(--cream) 0%, rgba(42, 157, 143, 0.03) 50%, var(--cream) 100%);
         }
 
         .features::before {
@@ -422,6 +534,7 @@
             display: inline-block;
             width: 100%;
             font-family: var(--font-heading);
+            text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
         }
 
         .section-title::after {
@@ -512,7 +625,7 @@
         /* Blog Section */
         .blog {
             padding: 6rem 2rem;
-            background: var(--warm-beige);
+            background: linear-gradient(90deg, var(--warm-beige) 0%, rgba(42, 157, 143, 0.02) 50%, var(--warm-beige) 100%);
             position: relative;
         }
 
@@ -607,7 +720,7 @@
             font-size: 0.85rem;
             font-weight: 600;
             margin-bottom: 1.25rem;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-family: var(--font-body);
             letter-spacing: 0.5px;
         }
 
@@ -639,6 +752,7 @@
             padding: 4rem 2rem;
             text-align: center;
             position: relative;
+            z-index: 1;
         }
 
         footer::before {
@@ -691,51 +805,190 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            .hero-content {
-                grid-template-columns: 1fr;
-                gap: 3rem;
-                padding: 3rem 1.5rem;
-            }
-
-            .hero-text h1 {
-                font-size: 2.5rem;
-            }
-
-            .hero-text h1::before {
-                font-size: 1.5rem;
+            /* Navigation Mobile */
+            .mobile-menu-toggle {
+                display: flex;
             }
 
             .nav-links {
-                gap: 1rem;
-                font-size: 0.85rem;
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 80%;
+                max-width: 300px;
+                height: 100vh;
+                background: var(--cream);
+                flex-direction: column;
+                gap: 0;
+                padding: 5rem 2rem 2rem;
+                box-shadow: -5px 0 20px var(--shadow-strong);
+                transition: right 0.3s ease;
+                z-index: 1000;
+                overflow-y: auto;
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            .nav-links li {
+                width: 100%;
+                border-bottom: 1px solid var(--border);
+            }
+
+            .nav-links a {
+                display: block;
+                padding: 1rem 0;
+                font-size: 1rem;
+                width: 100%;
             }
 
             .nav-links a.nav-cta {
-                padding: 0.5rem 1rem;
-                font-size: 0.85rem;
+                margin-top: 1rem;
+                text-align: center;
+                padding: 0.75rem 1.5rem;
             }
 
+            .nav-links a::before {
+                display: none;
+            }
+
+            /* Mobile Menu Overlay */
+            .nav-overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 999;
+            }
+
+            .nav-overlay.active {
+                display: block;
+            }
+
+            /* Hero Section */
+            .hero {
+                margin-top: 0;
+                padding-top: 70px;
+                min-height: auto;
+            }
+
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                padding: 2rem 1rem;
+            }
+
+            .hero-text h1 {
+                font-size: 2rem;
+                line-height: 1.2;
+            }
+
+            .hero-text h1::before {
+                font-size: 1.2rem;
+            }
+
+            .hero-text p {
+                font-size: 1rem;
+                max-width: 100%;
+            }
+
+            .hero-badges {
+                gap: 0.5rem;
+            }
+
+            .badge, .badge-guest-favorite {
+                font-size: 0.8rem;
+                padding: 0.3rem 0.6rem;
+            }
+
+            .hero-widget {
+                padding: 1.5rem;
+            }
+
+            .primary-cta {
+                padding: 0.75rem 1.5rem;
+                font-size: 0.95rem;
+                width: 100%;
+                text-align: center;
+            }
+
+            /* Navigation Container */
             .nav-container {
                 padding: 1rem 1.5rem;
             }
 
+            .logo {
+                font-size: 1.4rem;
+            }
+
+            /* Container */
+            .container {
+                padding: 0 1rem;
+            }
+
+            /* Sections */
             .section-title {
-                font-size: 2.25rem;
+                font-size: 2rem;
             }
 
-            .features, .blog, .nearby {
-                padding: 4rem 1.5rem;
+            .section-subtitle {
+                font-size: 1rem;
+                margin-bottom: 2rem;
             }
 
-            .features-grid, .blog-grid {
-                gap: 2rem;
+            .features, .blog, .nearby, .reviews, .amenities {
+                padding: 3rem 1rem;
             }
 
+            /* Features Grid */
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .feature-card {
+                padding: 1.5rem;
+            }
+
+            .feature-icon {
+                font-size: 2.5rem;
+            }
+
+            .feature-card h3 {
+                font-size: 1.3rem;
+            }
+
+            /* Reviews Grid */
+            .reviews-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .review-card {
+                padding: 1.5rem;
+            }
+
+            /* Amenities Grid */
+            .amenities-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .amenity-category {
+                padding: 1rem;
+            }
+
+            /* Nearby */
             .nearby-tabs {
                 justify-content: flex-start;
                 overflow-x: auto;
                 -webkit-overflow-scrolling: touch;
                 scrollbar-width: none;
+                padding-bottom: 0.5rem;
             }
 
             .nearby-tabs::-webkit-scrollbar {
@@ -743,12 +996,64 @@
             }
 
             .nearby-tab {
-                padding: 0.6rem 1.25rem;
+                padding: 0.6rem 1rem;
                 font-size: 0.85rem;
+                min-width: auto;
             }
 
             .nearby-list {
                 grid-template-columns: 1fr;
+            }
+
+            /* Map */
+            .map-container {
+                height: 300px;
+                margin-top: 2rem;
+            }
+
+            /* Footer */
+            footer {
+                padding: 3rem 1rem;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 1rem;
+                margin-bottom: 2rem;
+            }
+
+            .footer-links a {
+                padding: 0.75rem 0;
+            }
+
+            /* Floating Button */
+            .floating-book-button {
+                bottom: 1rem;
+                right: 1rem;
+                padding: 0.85rem 1.5rem;
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-text h1 {
+                font-size: 1.75rem;
+            }
+
+            .section-title {
+                font-size: 1.75rem;
+            }
+
+            .nav-links {
+                width: 85%;
+            }
+
+            .hero-content {
+                padding: 1.5rem 0.75rem;
+            }
+
+            .features, .blog, .nearby, .reviews, .amenities {
+                padding: 2.5rem 0.75rem;
             }
         }
 
@@ -778,21 +1083,21 @@
             align-items: center;
             justify-content: center;
             padding: 1rem 2rem;
-            background: var(--teal);
+            background: var(--charcoal);
             color: white;
             border-radius: 50px;
             font-weight: 600;
             font-size: 1.1rem;
             text-decoration: none;
-            box-shadow: 0 8px 25px rgba(42, 157, 143, 0.4);
+            box-shadow: 0 8px 25px rgba(38, 70, 83, 0.4);
             transition: all 0.3s ease;
             animation: pulse 2s ease-in-out infinite;
         }
 
         .floating-book-button:hover {
-            background: var(--charcoal);
+            background: var(--teal);
             transform: translateY(-3px);
-            box-shadow: 0 12px 35px rgba(38, 70, 83, 0.5);
+            box-shadow: 0 12px 35px rgba(42, 157, 143, 0.5);
         }
 
         .floating-book-button::before {
@@ -851,21 +1156,28 @@
             align-items: center;
             justify-content: center;
             padding: 0.85rem 2.5rem;
-            background: var(--teal);
+            background: var(--charcoal);
             color: white;
             border-radius: 999px;
             font-weight: 600;
             font-size: 1.05rem;
             letter-spacing: 0.01em;
             text-decoration: none;
-            box-shadow: 0 10px 25px rgba(42, 157, 143, 0.25);
+            box-shadow: 0 10px 25px rgba(38, 70, 83, 0.25);
             transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+            min-height: 44px;
+            touch-action: manipulation;
         }
 
         .primary-cta:hover {
-            background: var(--charcoal);
+            background: var(--teal);
             transform: translateY(-3px);
-            box-shadow: 0 16px 35px rgba(38, 70, 83, 0.22);
+            box-shadow: 0 16px 35px rgba(42, 157, 143, 0.22);
+        }
+
+        .primary-cta-large {
+            font-size: 1.3rem;
+            padding: 1.2rem 3rem;
         }
 
         .hero-actions {
@@ -875,7 +1187,7 @@
         /* Reviews Section */
         .reviews {
             padding: 6rem 2rem;
-            background: var(--cream);
+            background: linear-gradient(180deg, var(--warm-beige) 0%, rgba(244, 162, 97, 0.04) 50%, var(--warm-beige) 100%);
             position: relative;
         }
 
@@ -955,7 +1267,7 @@
             font-size: 1.1rem;
             color: var(--charcoal);
             margin-bottom: 0.25rem;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-family: var(--font-body);
         }
 
         .review-date {
@@ -1013,14 +1325,14 @@
         /* Host Section - Brief */
         .host {
             padding: 3rem 2rem;
-            background: var(--bg-light);
+            background: linear-gradient(90deg, var(--warm-beige) 0%, rgba(254, 249, 231, 0.3) 50%, var(--warm-beige) 100%);
             text-align: center;
         }
 
         /* Nearby Section */
         .nearby {
             padding: 6rem 2rem;
-            background: var(--warm-beige);
+            background: linear-gradient(225deg, var(--cream) 0%, rgba(231, 111, 81, 0.03) 40%, rgba(244, 162, 97, 0.02) 80%, var(--cream) 100%);
             position: relative;
         }
 
@@ -1127,7 +1439,7 @@
         /* Map Section */
         .map-section {
             padding: 6rem 2rem;
-            background: var(--cream);
+            background: linear-gradient(135deg, var(--cream) 0%, rgba(245, 230, 211, 0.5) 50%, rgba(168, 198, 159, 0.02) 100%);
             position: relative;
         }
 
@@ -1199,6 +1511,124 @@
             .map-container {
                 height: 400px;
                 margin-top: 3rem;
+            }
+        }
+
+        /* Amenities Section */
+        .amenities {
+            padding: 4rem 2rem;
+            background: linear-gradient(45deg, var(--warm-beige) 0%, rgba(42, 157, 143, 0.02) 25%, rgba(168, 198, 159, 0.03) 50%, var(--warm-beige) 75%, var(--cream) 100%);
+            position: relative;
+        }
+
+        .amenities::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--mustard), transparent);
+        }
+
+        .amenities .section-subtitle {
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+        }
+
+        .amenities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.25rem;
+            margin-top: 2rem;
+        }
+
+        .amenity-category {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px var(--shadow);
+            border: 2px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .amenity-category:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px var(--shadow-strong);
+            border-color: var(--teal);
+        }
+
+        .amenity-category-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--charcoal);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: var(--font-heading);
+        }
+
+        .amenity-category-icon {
+            font-size: 1.3rem;
+        }
+
+        .amenity-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+
+        .amenity-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text);
+            font-size: 0.9rem;
+            padding: 0.25rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .amenity-item:last-child {
+            border-bottom: none;
+        }
+
+        .amenity-item-icon {
+            font-size: 0.9rem;
+            color: var(--teal);
+            flex-shrink: 0;
+        }
+
+        .amenity-item-text {
+            flex: 1;
+            line-height: 1.4;
+        }
+
+        .amenity-note {
+            font-size: 0.75rem;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 0.25rem;
+            padding: 0.25rem 0 0.25rem 1.5rem;
+            border-bottom: none !important;
+            list-style: none;
+            line-height: 1.3;
+        }
+
+        .amenity-unavailable {
+            opacity: 0.5;
+            text-decoration: line-through;
+        }
+
+        @media (max-width: 768px) {
+            .amenities {
+                padding: 3rem 1.5rem;
+            }
+
+            .amenities-grid {
+                gap: 1rem;
+                grid-template-columns: 1fr;
             }
         }
 
@@ -1397,6 +1827,7 @@
     </script>
 </head>
 <body>
+    <a href="#main-content" className="skip-link">Skip to main content</a>
     <div id="root"></div>
 
     <script type="text/babel">
@@ -1513,9 +1944,9 @@
             };
 
             return (
-                <section id="nearby" className="nearby">
+                <section id="nearby" className="nearby" aria-labelledby="nearby-heading">
                     <div className="container">
-                        <h2 className="section-title">Explore the Neighborhood</h2>
+                        <h2 id="nearby-heading" className="section-title">Explore the Neighborhood</h2>
                         <p className="section-subtitle">Everything you need is just steps away</p>
                         
                         {/* Map Section */}
@@ -1529,8 +1960,11 @@
                                     key={filter.id}
                                     className={`nearby-tab ${activeFilter === filter.id ? 'active' : ''}`}
                                     onClick={() => setActiveFilter(filter.id)}
+                                    aria-label={`Filter by ${filter.label}`}
+                                    aria-pressed={activeFilter === filter.id}
+                                    role="tab"
                                 >
-                                    <span>{filter.icon}</span> {filter.label}
+                                    <span aria-hidden="true">{filter.icon}</span> {filter.label}
                                 </button>
                             ))}
                         </div>
@@ -1557,6 +1991,7 @@
 
         function App() {
             const [scrolled, setScrolled] = useState(false);
+            const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
             useEffect(() => {
                 const handleScroll = () => {
@@ -1565,6 +2000,14 @@
                 window.addEventListener('scroll', handleScroll);
                 return () => window.removeEventListener('scroll', handleScroll);
             }, []);
+
+            const toggleMobileMenu = () => {
+                setMobileMenuOpen(!mobileMenuOpen);
+            };
+
+            const closeMobileMenu = () => {
+                setMobileMenuOpen(false);
+            };
 
             useEffect(() => {
                 // Load Airbnb embed script
@@ -1575,6 +2018,29 @@
                     document.body.appendChild(script);
                 }
             }, []);
+
+            useEffect(() => {
+                // Close mobile menu on window resize to desktop
+                const handleResize = () => {
+                    if (window.innerWidth > 768 && mobileMenuOpen) {
+                        setMobileMenuOpen(false);
+                    }
+                };
+                window.addEventListener('resize', handleResize);
+                return () => window.removeEventListener('resize', handleResize);
+            }, [mobileMenuOpen]);
+
+            useEffect(() => {
+                // Prevent body scroll when mobile menu is open
+                if (mobileMenuOpen) {
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    document.body.style.overflow = '';
+                }
+                return () => {
+                    document.body.style.overflow = '';
+                };
+            }, [mobileMenuOpen]);
 
             const features = [
                 {
@@ -1686,20 +2152,36 @@
 
             return (
                 <>
-                    <nav className={scrolled ? 'scrolled' : ''}>
+                    <nav className={scrolled ? 'scrolled' : ''} role="navigation" aria-label="Main navigation">
                         <div className="nav-container">
-                            <div className="logo">Corydon Cute & Stylish</div>
-                            <ul className="nav-links">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#features">Features</a></li>
-                                <li><a href="#reviews">Reviews</a></li>
-                                <li><a href="#nearby">Nearby</a></li>
-                                <li><a href="https://www.airbnb.ca/rooms/716340250371431352" className="nav-cta">Book Now</a></li>
+                            <div className="logo" role="banner">Corydon Cute & Stylish</div>
+                            <button 
+                                className="mobile-menu-toggle" 
+                                onClick={toggleMobileMenu}
+                                aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+                                aria-expanded={mobileMenuOpen}
+                                aria-controls="main-navigation"
+                            >
+                                {mobileMenuOpen ? '✕' : '☰'}
+                            </button>
+                            <div 
+                                className={`nav-overlay ${mobileMenuOpen ? 'active' : ''}`}
+                                onClick={closeMobileMenu}
+                                aria-hidden="true"
+                            ></div>
+                            <ul id="main-navigation" className={`nav-links ${mobileMenuOpen ? 'active' : ''}`} role="menubar">
+                                <li role="none"><a href="#home" onClick={closeMobileMenu} role="menuitem">Home</a></li>
+                                <li role="none"><a href="#features" onClick={closeMobileMenu} role="menuitem">Features</a></li>
+                                <li role="none"><a href="#reviews" onClick={closeMobileMenu} role="menuitem">Reviews</a></li>
+                                <li role="none"><a href="#amenities" onClick={closeMobileMenu} role="menuitem">Amenities</a></li>
+                                <li role="none"><a href="#nearby" onClick={closeMobileMenu} role="menuitem">Nearby</a></li>
+                                <li role="none"><a href="https://www.airbnb.ca/rooms/716340250371431352" className="nav-cta" onClick={closeMobileMenu} role="menuitem" aria-label="Book your stay on Airbnb">Book Now</a></li>
                             </ul>
                         </div>
                     </nav>
 
-                    <section id="home" className="hero">
+                    <main id="main-content">
+                    <section id="home" className="hero" aria-label="Hero section">
                         <div className="container">
                             <div className="hero-content">
                                 <div className="hero-text fade-in-up">
@@ -1754,12 +2236,12 @@
                                         best that Winnipeg has to offer.
                                     </p>
                                     <div className="hero-actions">
-                                        <a className="primary-cta" href="https://www.airbnb.ca/rooms/716340250371431352">
+                                        <a className="primary-cta" href="https://www.airbnb.ca/rooms/716340250371431352" aria-label="Book your stay on Airbnb">
                                             Book Your Stay on Airbnb
                                         </a>
                                     </div>
                                     <div className="hero-host-info">
-                                        <h3 style={{fontSize: '1.1rem', fontWeight: '600', color: 'var(--charcoal)', marginBottom: '0.75rem', fontFamily: 'var(--font-heading)'}}>Meet Your Host</h3>
+                                        <h3 className="host-section-title">Meet Your Host</h3>
                                         <div style={{display: 'flex', alignItems: 'center', gap: '1rem'}}>
                                             <div className="host-badge-avatar" aria-hidden="true"></div>
                                             <div className="host-badge-text">
@@ -1780,14 +2262,14 @@
                         </div>
                     </section>
 
-                    <section id="features" className="features">
+                    <section id="features" className="features" aria-labelledby="features-heading">
                         <div className="container">
-                            <h2 className="section-title">What Makes It Special</h2>
+                            <h2 id="features-heading" className="section-title">What Makes It Special</h2>
                             <p className="section-subtitle">A home that's equal parts cozy, quirky, and comfortable</p>
                             <div className="features-grid">
                                 {features.map((feature, index) => (
                                     <div key={index} className="feature-card fade-in-up">
-                                        <div className="feature-icon">{feature.icon}</div>
+                                        <div className="feature-icon" aria-hidden="true">{feature.icon}</div>
                                         <h3>{feature.title}</h3>
                                         <p>{feature.description}</p>
                                     </div>
@@ -1796,9 +2278,9 @@
                         </div>
                     </section>
 
-                    <section id="reviews" className="reviews">
+                    <section id="reviews" className="reviews" aria-labelledby="reviews-heading">
                         <div className="container">
-                            <h2 className="section-title">What Guests Say</h2>
+                            <h2 id="reviews-heading" className="section-title">What Guests Say</h2>
                             <p className="section-subtitle">Real experiences from travelers who've stayed with us</p>
                             <div className="reviews-grid">
                                 {reviews.map((review) => (
@@ -1810,9 +2292,9 @@
                                                 <div className="review-date">{review.date}</div>
                                             </div>
                                         </div>
-                                        <div className="review-rating">
+                                        <div className="review-rating" aria-label={`${review.rating} out of 5 stars`}>
                                             {[...Array(review.rating)].map((_, i) => (
-                                                <span key={i} className="review-star">★</span>
+                                                <span key={i} className="review-star" aria-hidden="true">★</span>
                                             ))}
                                         </div>
                                         <div className="review-text">{review.text}</div>
@@ -1823,9 +2305,143 @@
                                 <a 
                                     href="https://www.airbnb.ca/rooms/716340250371431352"
                                     className="primary-cta"
+                                    aria-label="View availability and book your stay on Airbnb"
                                 >
                                     View Availability & Book Now
                                 </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="amenities" className="amenities" aria-labelledby="amenities-heading">
+                        <div className="container">
+                            <h2 id="amenities-heading" className="section-title">What This Place Offers</h2>
+                            <div className="amenities-grid">
+                                <div className="amenity-category fade-in-up">
+                                    <h3 className="amenity-category-title">
+                                        <span className="amenity-category-icon" aria-hidden="true">💻</span>
+                                        Essentials
+                                    </h3>
+                                    <ul className="amenity-list">
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">WiFi</span>
+                                        </li>
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Dedicated workspace</span>
+                                        </li>
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Air conditioning</span>
+                                        </li>
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Heating</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="amenity-category fade-in-up">
+                                    <h3 className="amenity-category-title">
+                                        <span className="amenity-category-icon" aria-hidden="true">🍳</span>
+                                        Kitchen
+                                    </h3>
+                                    <ul className="amenity-list">
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Full kitchen</span>
+                                        </li>
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Dishwasher</span>
+                                        </li>
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Coffee maker</span>
+                                        </li>
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Cooking basics</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="amenity-category fade-in-up">
+                                    <h3 className="amenity-category-title">
+                                        <span className="amenity-category-icon" aria-hidden="true">🛏️</span>
+                                        Bedroom
+                                    </h3>
+                                    <ul className="amenity-list">
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Essentials provided</span>
+                                        </li>
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Hangers</span>
+                                        </li>
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Iron</span>
+                                        </li>
+                                        <li className="amenity-item amenity-unavailable">
+                                            <span className="amenity-item-icon" aria-hidden="true">✗</span>
+                                            <span className="amenity-item-text">Washer/Dryer</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="amenity-category fade-in-up">
+                                    <h3 className="amenity-category-title">
+                                        <span className="amenity-category-icon" aria-hidden="true">📺</span>
+                                        Entertainment
+                                    </h3>
+                                    <ul className="amenity-list">
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">HDTV</span>
+                                        </li>
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Bluetooth sound system</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="amenity-category fade-in-up">
+                                    <h3 className="amenity-category-title">
+                                        <span className="amenity-category-icon" aria-hidden="true">🚗</span>
+                                        Parking
+                                    </h3>
+                                    <ul className="amenity-list">
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Free parking on premises</span>
+                                        </li>
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Free street parking</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="amenity-category fade-in-up">
+                                    <h3 className="amenity-category-title">
+                                        <span className="amenity-category-icon" aria-hidden="true">⚙️</span>
+                                        Services
+                                    </h3>
+                                    <ul className="amenity-list">
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Self check-in</span>
+                                        </li>
+                                        <li className="amenity-item">
+                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                            <span className="amenity-item-text">Long-term stays</span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -1839,27 +2455,32 @@
                             <div style={{marginTop: '3rem', textAlign: 'center'}}>
                                 <a 
                                     href="https://www.airbnb.ca/rooms/716340250371431352" 
-                                    className="primary-cta"
-                                    style={{fontSize: '1.3rem', padding: '1.2rem 3rem'}}
+                                    className="primary-cta primary-cta-large"
+                                    aria-label="Book your stay on Airbnb"
                                 >
                                     Book on Airbnb
                                 </a>
                             </div>
                         </div>
                     </section>
+                    </main>
 
-                    <footer>
+                    <footer role="contentinfo">
                         <div className="footer-content">
                             <div className="footer-links">
                                 <a href="#home">Home</a>
                                 <a href="#features">Features</a>
                                 <a href="#reviews">Reviews</a>
+                                <a href="#amenities">Amenities</a>
                                 <a href="#nearby">Nearby</a>
                                 <a href="https://www.airbnb.ca/rooms/716340250371431352">Book Now</a>
                             </div>
                             <p>&copy; 2025 Corydon Cute & Stylish. All rights reserved.</p>
-                            <p style={{marginTop: '1rem', opacity: 0.8, fontSize: '0.9rem'}}>
+                            <p className="footer-text">
                                 airbnb.ca/h/corydon-cute-and-stylish
+                            </p>
+                            <p className="footer-registration">
+                                Registration details: STRA-2025-2600298
                             </p>
                         </div>
                     </footer>
@@ -1870,6 +2491,7 @@
                         className="floating-book-button"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Book your stay on Airbnb - opens in new tab"
                     >
                         Book Now
                     </a>
