@@ -34,8 +34,8 @@
     <!-- Additional SEO -->
     <meta name="geo.region" content="CA-MB">
     <meta name="geo.placename" content="Winnipeg">
-    <meta name="geo.position" content="49.8951;-97.1384">
-    <meta name="ICBM" content="49.8951, -97.1384">
+    <meta name="geo.position" content="49.8758;-97.1642">
+    <meta name="ICBM" content="49.8758, -97.1642">
     <meta name="theme-color" content="#F4A261">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -944,65 +944,205 @@
                 padding: 3rem 1rem;
             }
 
-            /* Features Grid */
+            /* Features Grid - List Style on Mobile */
             .features-grid {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-
-            .feature-card {
-                padding: 1.5rem;
-            }
-
-            .feature-icon {
-                font-size: 2.5rem;
-            }
-
-            .feature-card h3 {
-                font-size: 1.3rem;
-            }
-
-            /* Reviews Grid */
-            .reviews-grid {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-
-            .review-card {
-                padding: 1.5rem;
-            }
-
-            /* Amenities Grid */
-            .amenities-grid {
                 grid-template-columns: 1fr;
                 gap: 1rem;
             }
 
-            .amenity-category {
-                padding: 1rem;
+            .feature-card {
+                padding: 1.25rem;
+                border-radius: 10px;
+                box-shadow: 0 2px 8px var(--shadow);
+                border: 1px solid var(--border);
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                gap: 1rem;
             }
 
-            /* Nearby */
-            .nearby-tabs {
-                justify-content: flex-start;
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-                scrollbar-width: none;
-                padding-bottom: 0.5rem;
-            }
-
-            .nearby-tabs::-webkit-scrollbar {
+            .feature-card::before {
                 display: none;
             }
 
-            .nearby-tab {
-                padding: 0.6rem 1rem;
+            .feature-card:hover {
+                transform: none;
+                box-shadow: 0 2px 8px var(--shadow);
+            }
+
+            .feature-icon {
+                font-size: 2rem;
+                margin-bottom: 0;
+                flex-shrink: 0;
+                width: 2.5rem;
+            }
+
+            .feature-card h3 {
+                font-size: 1.1rem;
+                margin-bottom: 0.5rem;
+                line-height: 1.3;
+            }
+
+            .feature-card p {
+                font-size: 0.95rem;
+                line-height: 1.6;
+                margin: 0;
+            }
+
+            /* Reviews Grid - List Style on Mobile */
+            .reviews-grid {
+                grid-template-columns: 1fr;
+                gap: 1.25rem;
+            }
+
+            .review-card {
+                padding: 1.25rem;
+                border-radius: 10px;
+                box-shadow: 0 2px 8px var(--shadow);
+                border: 1px solid var(--border);
+            }
+
+            .review-card::before {
+                display: none;
+            }
+
+            .review-card:hover {
+                transform: none;
+                box-shadow: 0 2px 8px var(--shadow);
+            }
+
+            .review-header {
+                margin-bottom: 1rem;
+            }
+
+            .review-avatar {
+                width: 50px;
+                height: 50px;
+                font-size: 1.2rem;
+            }
+
+            .review-name {
+                font-size: 1rem;
+            }
+
+            .review-date {
                 font-size: 0.85rem;
-                min-width: auto;
+            }
+
+            .review-rating {
+                margin-bottom: 0.75rem;
+            }
+
+            .review-text {
+                font-size: 0.95rem;
+                line-height: 1.6;
+            }
+
+            /* Amenities Grid - List Style on Mobile */
+            .amenities-grid {
+                grid-template-columns: 1fr;
+                gap: 0.75rem;
+            }
+
+            .amenity-category {
+                padding: 1rem;
+                border-radius: 10px;
+                box-shadow: 0 2px 8px var(--shadow);
+                border: 1px solid var(--border);
+            }
+
+            .amenity-category:hover {
+                transform: none;
+                box-shadow: 0 2px 8px var(--shadow);
+            }
+
+            .amenity-category-title {
+                font-size: 1rem;
+                margin-bottom: 0.75rem;
+            }
+
+            .amenity-category-icon {
+                font-size: 1.2rem;
+            }
+
+            .amenity-item {
+                padding: 0.4rem 0;
+                font-size: 0.9rem;
+            }
+
+            /* Nearby - List Style on Mobile */
+            .nearby-tabs {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                margin-bottom: 2rem;
+                overflow: visible;
+            }
+
+            .nearby-tab {
+                width: 100%;
+                padding: 1rem 1.25rem;
+                font-size: 0.95rem;
+                font-weight: 500;
+                border-radius: 10px;
+                text-align: left;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+                background: white;
+                border: 1px solid var(--border);
+                box-shadow: 0 2px 4px var(--shadow);
+                transition: all 0.2s ease;
+            }
+
+            .nearby-tab:hover {
+                transform: none;
+                border-color: var(--teal);
+                box-shadow: 0 2px 8px var(--shadow);
+                background: rgba(42, 157, 143, 0.05);
+            }
+
+            .nearby-tab.active {
+                background: var(--teal);
+                color: white;
+                border-color: var(--teal);
+                box-shadow: 0 2px 8px rgba(42, 157, 143, 0.3);
+                font-weight: 600;
+            }
+
+            .nearby-tab.active:hover {
+                background: var(--charcoal);
+                border-color: var(--charcoal);
+            }
+
+            .nearby-tab span {
+                font-size: 1.1rem;
+                flex-shrink: 0;
             }
 
             .nearby-list {
                 grid-template-columns: 1fr;
+                gap: 0.75rem;
+            }
+
+            .nearby-item {
+                padding: 1rem 1.25rem;
+                border-radius: 10px;
+                box-shadow: 0 2px 8px var(--shadow);
+                border: 1px solid var(--border);
+            }
+
+            .nearby-item:hover {
+                transform: none;
+                box-shadow: 0 2px 8px var(--shadow);
+            }
+
+            .nearby-item-name {
+                font-size: 0.95rem;
+            }
+
+            .nearby-item-time {
+                font-size: 0.85rem;
             }
 
             /* Map */
@@ -1646,16 +1786,16 @@
         "telephone": "+1-204-XXX-XXXX",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Corydon Avenue",
+            "streetAddress": "11 Yale Avenue",
             "addressLocality": "Winnipeg",
             "addressRegion": "MB",
-            "postalCode": "R3M",
+            "postalCode": "R3M 0L6",
             "addressCountry": "CA"
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "49.8951",
-            "longitude": "-97.1384"
+            "latitude": "49.8758",
+            "longitude": "-97.1642"
         },
         "priceRange": "$$",
         "numberOfRooms": "3",
@@ -1798,16 +1938,16 @@
         "telephone": "+1-204-XXX-XXXX",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Corydon Avenue",
+            "streetAddress": "11 Yale Avenue",
             "addressLocality": "Winnipeg",
             "addressRegion": "MB",
-            "postalCode": "R3M",
+            "postalCode": "R3M 0L6",
             "addressCountry": "CA"
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 49.8951,
-            "longitude": -97.1384
+            "latitude": 49.8758,
+            "longitude": -97.1642
         },
         "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
@@ -1840,10 +1980,10 @@
             // Initialize map
             useEffect(() => {
                 if (typeof L !== 'undefined') {
-                    // Coordinates for Corydon area near Peanut Park, Winnipeg
+                    // Coordinates for 11 Yale Avenue, Winnipeg
                     // Airbnb location
-                    const airbnbLat = 49.8732;
-                    const airbnbLng = -97.1615;
+                    const airbnbLat = 49.8758;
+                    const airbnbLng = -97.1642;
 
                     // Create map centered on the Airbnb location
                     const map = L.map('location-map').setView([airbnbLat, airbnbLng], 15);
