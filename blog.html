@@ -60,6 +60,7 @@
     <meta name="ICBM" content="49.87275, -97.16177">
     <meta name="theme-color" content="#F4A261">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Stay Winnipeg">
     <meta name="format-detection" content="telephone=no">
@@ -1252,9 +1253,11 @@
                     article.classList.add('hidden');
                 });
 
-                // Show filtered and sorted articles
+                // Show filtered articles and reorder them in the DOM
                 filteredArticles.forEach(article => {
                     article.classList.remove('hidden');
+                    // appendChild automatically moves elements if they're already in the DOM
+                    articlesGrid.appendChild(article);
                 });
 
                 // Update results count
