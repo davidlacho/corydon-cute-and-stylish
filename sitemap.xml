@@ -52,6 +52,12 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://staywinnipeg.ca/blog-crescentwood-history.html</loc>
+        <lastmod>2025-01-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://staywinnipeg.ca/blog-things-to-do.html</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>monthly</changefreq>
