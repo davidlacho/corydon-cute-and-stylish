@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Primary Meta Tags -->
-    <title>Winnipeg Travel Blog - Your Guide to Corydon & Beyond | Stay Winnipeg</title>
-    <meta name="title" content="Winnipeg Travel Blog - Your Guide to Corydon & Beyond | Stay Winnipeg">
-    <meta name="description" content="Discover the best of Winnipeg with our travel blog. Explore Corydon Village, top restaurants, attractions, and insider tips for your perfect Winnipeg getaway. Stay in our mid-century modern Airbnb.">
-    <meta name="keywords" content="Winnipeg travel blog, Corydon neighborhood guide, things to do Winnipeg, Winnipeg restaurants, Winnipeg attractions, Winnipeg travel tips, Corydon Village, Winnipeg vacation guide, Winnipeg tourism, best places Winnipeg, Winnipeg activities, Corydon Avenue restaurants, Winnipeg local guide">
+    <title>Travel Blog - Stories from Around the World & Winnipeg | Stay Winnipeg</title>
+    <meta name="title" content="Travel Blog - Stories from Around the World & Winnipeg | Stay Winnipeg">
+    <meta name="description" content="Explore our travel blog featuring stories from around the world, Winnipeg travel guides, Airbnb hosting insights, and unforgettable travel experiences. From Bali to Budapest, discover what we've learned from 14 years of travel.">
+    <meta name="keywords" content="travel blog, Winnipeg travel guide, Airbnb hosting tips, travel experiences, Bali travel, Budapest travel, Lisbon travel, Puerto Vallarta travel, Corydon neighborhood guide, things to do Winnipeg, Winnipeg restaurants, travel stories, vacation rental tips">
     <meta name="author" content="David">
     <meta name="publisher" content="David">
     <meta name="robots" content="index, follow">
@@ -26,32 +26,32 @@
     <meta name="rating" content="General">
     <meta name="target" content="all">
     <meta name="audience" content="all">
-    <meta name="DC.title" content="Winnipeg Travel Blog - Guide to Corydon & Beyond">
-    <meta name="DC.subject" content="Travel, Blog, Winnipeg, Corydon, Tourism">
-    <meta name="DC.description" content="Your comprehensive guide to Winnipeg travel, featuring Corydon neighborhood insights, restaurant recommendations, and local attractions.">
+    <meta name="DC.title" content="Travel Blog - Stories from Around the World & Winnipeg">
+    <meta name="DC.subject" content="Travel, Blog, Winnipeg, Tourism, Airbnb, Hosting">
+    <meta name="DC.description" content="A travel blog featuring stories from around the world, Winnipeg travel guides, Airbnb hosting insights, and unforgettable travel experiences.">
     <meta name="DC.creator" content="David">
     <meta name="DC.language" content="en-CA">
-    <meta name="DC.coverage" content="Winnipeg, Manitoba, Canada">
+    <meta name="DC.coverage" content="Worldwide">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://staywinnipeg.ca/blog.html">
-    <meta property="og:title" content="Winnipeg Travel Blog - Your Guide to Corydon & Beyond">
-    <meta property="og:description" content="Discover the best of Winnipeg with our travel blog. Explore Corydon Village, top restaurants, attractions, and insider tips for your perfect Winnipeg getaway.">
+    <meta property="og:title" content="Travel Blog - Stories from Around the World & Winnipeg">
+    <meta property="og:description" content="Explore our travel blog featuring stories from around the world, Winnipeg travel guides, Airbnb hosting insights, and unforgettable travel experiences.">
     <meta property="og:image" content="https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Winnipeg Travel Blog - Stay Winnipeg">
+    <meta property="og:image:alt" content="Travel Blog - Stay Winnipeg">
     <meta property="og:site_name" content="Stay Winnipeg">
     <meta property="og:locale" content="en_CA">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://staywinnipeg.ca/blog.html">
-    <meta name="twitter:title" content="Winnipeg Travel Blog - Your Guide to Corydon & Beyond">
-    <meta name="twitter:description" content="Discover the best of Winnipeg with our travel blog. Explore Corydon Village, top restaurants, attractions, and insider tips.">
+    <meta name="twitter:title" content="Travel Blog - Stories from Around the World & Winnipeg">
+    <meta name="twitter:description" content="Explore our travel blog featuring stories from around the world, Winnipeg travel guides, Airbnb hosting insights, and unforgettable travel experiences.">
     <meta name="twitter:image" content="https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg">
-    <meta name="twitter:image:alt" content="Winnipeg Travel Blog - Stay Winnipeg">
+    <meta name="twitter:image:alt" content="Travel Blog - Stay Winnipeg">
     
     <!-- Additional SEO -->
     <meta name="geo.region" content="CA-MB">
@@ -338,6 +338,104 @@
             color: var(--text-light);
         }
 
+        /* Filter and Sort Controls */
+        .blog-controls {
+            max-width: 1200px;
+            margin: 0 auto 3rem;
+            padding: 0 20px;
+        }
+
+        .filter-sort-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+        }
+
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            flex: 1;
+        }
+
+        .filter-btn {
+            padding: 0.6rem 1.25rem;
+            background: white;
+            border: 2px solid var(--border);
+            border-radius: 25px;
+            color: var(--text);
+            font-weight: 500;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: var(--font-body);
+        }
+
+        .filter-btn:hover {
+            border-color: var(--teal);
+            color: var(--teal);
+            transform: translateY(-2px);
+        }
+
+        .filter-btn.active {
+            background: var(--teal);
+            border-color: var(--teal);
+            color: white;
+        }
+
+        .sort-container {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .sort-container label {
+            font-weight: 500;
+            color: var(--text);
+            font-size: 0.95rem;
+        }
+
+        .sort-select {
+            padding: 0.6rem 1.25rem;
+            background: white;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            color: var(--text);
+            font-weight: 500;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: var(--font-body);
+            min-width: 180px;
+        }
+
+        .sort-select:focus {
+            outline: var(--focus-outline);
+            outline-offset: var(--focus-outline-offset);
+            border-color: var(--teal);
+        }
+
+        .sort-select:hover {
+            border-color: var(--teal);
+        }
+
+        .results-count {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-top: 1rem;
+            padding: 0 20px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .article-card.hidden {
+            display: none;
+        }
+
         /* Article Cards */
         .articles-grid {
             display: grid;
@@ -573,6 +671,25 @@
             h2 {
                 font-size: 1.75rem;
             }
+
+            .filter-sort-container {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-buttons {
+                justify-content: center;
+            }
+
+            .sort-container {
+                justify-content: center;
+                width: 100%;
+            }
+
+            .sort-select {
+                flex: 1;
+                max-width: 100%;
+            }
         }
     </style>
 </head>
@@ -600,20 +717,41 @@
     <main id="main-content">
         <section class="blog-hero">
             <div class="container">
-                <h1>Winnipeg Travel Blog</h1>
-                <p>Your insider's guide to exploring Winnipeg, from the vibrant Corydon neighborhood to hidden gems across the city</p>
+                <h1>Travel Blog</h1>
+                <p>Stories from around the world, Winnipeg travel guides, and insights from 14 years of Airbnb hosting</p>
             </div>
         </section>
 
         <section class="blog-content">
             <div class="container">
                 <div class="blog-intro">
-                    <p>Welcome to our Winnipeg travel blog! Whether you're planning a weekend getaway or an extended stay, we've curated the best local insights, restaurant recommendations, and must-see attractions to help you make the most of your time in the Heart of the Continent.</p>
+                    <p>Welcome to our travel blog! From exploring Winnipeg's vibrant Corydon neighborhood to unforgettable stays in Bali, Budapest, Lisbon, and beyond, we share our travel experiences, hosting insights, and the lessons we've learned from staying in Airbnbs across five continents.</p>
                 </div>
 
-                <div class="articles-grid">
+                <div class="blog-controls">
+                    <div class="filter-sort-container">
+                        <div class="filter-buttons" role="group" aria-label="Filter blog posts by category">
+                            <button class="filter-btn active" data-filter="all" aria-pressed="true">All Posts</button>
+                            <button class="filter-btn" data-filter="winnipeg" aria-pressed="false">Winnipeg Guides</button>
+                            <button class="filter-btn" data-filter="travel" aria-pressed="false">Travel Experiences</button>
+                            <button class="filter-btn" data-filter="hosting" aria-pressed="false">Hosting & Design</button>
+                        </div>
+                        <div class="sort-container">
+                            <label for="sort-select">Sort by:</label>
+                            <select id="sort-select" class="sort-select" aria-label="Sort blog posts">
+                                <option value="date-desc">Newest First</option>
+                                <option value="date-asc">Oldest First</option>
+                                <option value="title-asc">Title A-Z</option>
+                                <option value="title-desc">Title Z-A</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="results-count" id="results-count" aria-live="polite"></div>
+                </div>
+
+                <div class="articles-grid" id="articles-grid">
                     <!-- Article 1: Corydon Guide -->
-                    <a href="/blog-corydon-guide.html" class="article-card">
+                    <a href="/blog-corydon-guide.html" class="article-card" data-category="winnipeg" data-date="2025-01-15" data-title="Exploring Corydon Village: Winnipeg's Most Vibrant Neighborhood">
                         <div class="article-image">
                             <img src="https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=800&h=600&fit=crop" alt="Delicious pasta dish at a Corydon restaurant" loading="lazy">
                         </div>
@@ -630,7 +768,7 @@
                     </a>
 
                     <!-- Article 2: Things to Do -->
-                    <a href="/blog-things-to-do.html" class="article-card">
+                    <a href="/blog-things-to-do.html" class="article-card" data-category="winnipeg" data-date="2025-01-20" data-title="Top 15 Things to Do in Winnipeg: A Complete Visitor's Guide">
                         <div class="article-image">
                             <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=600&fit=crop" alt="Wine and fine dining experience in Winnipeg" loading="lazy">
                         </div>
@@ -647,7 +785,7 @@
                     </a>
 
                     <!-- Article 3: Restaurants -->
-                    <a href="/blog-restaurants.html" class="article-card">
+                    <a href="/blog-restaurants.html" class="article-card" data-category="winnipeg" data-date="2025-01-25" data-title="Winnipeg's Best Restaurants: A Food Lover's Guide">
                         <div class="article-image">
                             <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop" alt="Restaurant dining scene in Winnipeg" loading="lazy">
                         </div>
@@ -664,7 +802,7 @@
                     </a>
 
                     <!-- Article 4: Family Activities -->
-                    <a href="/blog-family-activities.html" class="article-card">
+                    <a href="/blog-family-activities.html" class="article-card" data-category="winnipeg" data-date="2025-02-01" data-title="Family-Friendly Activities in Winnipeg: Fun for All Ages">
                         <div class="article-image">
                             <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=600&fit=crop" alt="Family enjoying activities together" loading="lazy">
                         </div>
@@ -681,7 +819,7 @@
                     </a>
 
                     <!-- Article 5: Transportation -->
-                    <a href="/blog-transportation.html" class="article-card">
+                    <a href="/blog-transportation.html" class="article-card" data-category="winnipeg" data-date="2025-02-05" data-title="Getting Around Winnipeg: Transportation Guide for Visitors">
                         <div class="article-image">
                             <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=600&fit=crop" alt="Winnipeg airport terminal" loading="lazy">
                         </div>
@@ -698,7 +836,7 @@
                     </a>
 
                     <!-- Article 6: Airbnb Design Lessons -->
-                    <a href="/blog-airbnb-design-lessons.html" class="article-card">
+                    <a href="/blog-airbnb-design-lessons.html" class="article-card" data-category="hosting" data-date="2025-02-10" data-title="Design Lessons from Airbnbs Around the World">
                         <div class="article-image">
                             <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop" alt="Beautiful Airbnb interior design" loading="lazy">
                         </div>
@@ -715,7 +853,7 @@
                     </a>
 
                     <!-- Article 7: Hosting Best Practices -->
-                    <a href="/blog-hosting-best-practices.html" class="article-card">
+                    <a href="/blog-hosting-best-practices.html" class="article-card" data-category="hosting" data-date="2025-02-15" data-title="Hosting Best Practices: What We've Learned from 14 Years">
                         <div class="article-image">
                             <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop" alt="Airbnb host preparing guest welcome" loading="lazy">
                         </div>
@@ -732,7 +870,7 @@
                     </a>
 
                     <!-- Article 8: Unique Airbnb Features -->
-                    <a href="/blog-unique-airbnb-features.html" class="article-card">
+                    <a href="/blog-unique-airbnb-features.html" class="article-card" data-category="hosting" data-date="2025-02-20" data-title="Most Memorable Airbnb Features We've Encountered">
                         <div class="article-image">
                             <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&h=600&fit=crop" alt="Unique and creative Airbnb features" loading="lazy">
                         </div>
@@ -749,7 +887,7 @@
                     </a>
 
                     <!-- Article 9: Puerto Vallarta Stay -->
-                    <a href="/blog-puerto-vallarta-stay.html" class="article-card">
+                    <a href="/blog-puerto-vallarta-stay.html" class="article-card" data-category="travel" data-date="2025-02-25" data-title="What We Learned from a Modern Puerto Vallarta Apartment">
                         <div class="article-image">
                             <img src="images/puertovallarta.png" alt="Puerto Vallarta apartment interior" loading="lazy">
                         </div>
@@ -766,7 +904,7 @@
                     </a>
 
                     <!-- Article 10: Lisbon 2015 -->
-                    <a href="/blog-lisbon-2015.html" class="article-card">
+                    <a href="/blog-lisbon-2015.html" class="article-card" data-category="travel" data-date="2025-03-01" data-title="The Airbnb That Shaped Our Hosting Philosophy: A 2015 Lisbon Stay">
                         <div class="article-image">
                             <img src="images/lisbon.png" alt="Lisbon apartment interior" loading="lazy">
                         </div>
@@ -783,7 +921,7 @@
                     </a>
 
                     <!-- Article 11: Marseille Trip Gone Wrong -->
-                    <a href="/blog-marseille-trip-gone-wrong.html" class="article-card">
+                    <a href="/blog-marseille-trip-gone-wrong.html" class="article-card" data-category="travel" data-date="2025-03-10" data-title="When Things Go Wrong: Lessons from a Marseille Airbnb Disaster">
                         <div class="article-image">
                             <img src="images/marseille.png" alt="Marseille cityscape" loading="lazy">
                         </div>
@@ -800,7 +938,7 @@
                     </a>
 
                     <!-- Article 12: Bali Nyaman -->
-                    <a href="/blog-bali-nyaman.html" class="article-card">
+                    <a href="/blog-bali-nyaman.html" class="article-card" data-category="travel" data-date="2025-11-10" data-title="The Stay That Became a Lifelong Friendship: Nyaman Apartments Canggu">
                         <div class="article-image">
                             <img src="images/bali.png" alt="Bali landscape with rice terraces" loading="lazy">
                         </div>
@@ -817,7 +955,7 @@
                     </a>
 
                     <!-- Article 13: Budapest Caving -->
-                    <a href="/blog-budapest-caving.html" class="article-card">
+                    <a href="/blog-budapest-caving.html" class="article-card" data-category="travel" data-date="2025-11-13" data-title="Exploring Budapest's Longest Cave: An Unforgettable Caving Adventure">
                         <div class="article-image">
                             <img src="images/5bc00765-8f84-45d9-978c-82340d16d163.avif" alt="Caving adventure in Pálvölgyi Cave, Budapest" loading="lazy">
                         </div>
@@ -871,8 +1009,8 @@
     {
         "@context": "https://schema.org",
         "@type": "Blog",
-        "name": "Winnipeg Travel Blog",
-        "description": "Your insider's guide to exploring Winnipeg, from the vibrant Corydon neighborhood to hidden gems across the city",
+        "name": "Travel Blog - Stories from Around the World & Winnipeg",
+        "description": "A travel blog featuring stories from around the world, Winnipeg travel guides, Airbnb hosting insights, and unforgettable travel experiences",
         "url": "https://staywinnipeg.ca/blog.html",
         "publisher": {
             "@type": "Organization",
@@ -1038,6 +1176,96 @@
             }
         ]
     }
+    </script>
+
+    <script>
+        // Blog filtering and sorting functionality
+        (function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const sortSelect = document.getElementById('sort-select');
+            const articlesGrid = document.getElementById('articles-grid');
+            const articles = Array.from(document.querySelectorAll('.article-card'));
+            const resultsCount = document.getElementById('results-count');
+            
+            let currentFilter = 'all';
+            let currentSort = 'date-desc';
+
+            // Initialize
+            updateDisplay();
+
+            // Filter button event listeners
+            filterButtons.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Update active state
+                    filterButtons.forEach(b => {
+                        b.classList.remove('active');
+                        b.setAttribute('aria-pressed', 'false');
+                    });
+                    this.classList.add('active');
+                    this.setAttribute('aria-pressed', 'true');
+                    
+                    currentFilter = this.getAttribute('data-filter');
+                    updateDisplay();
+                });
+            });
+
+            // Sort select event listener
+            sortSelect.addEventListener('change', function() {
+                currentSort = this.value;
+                updateDisplay();
+            });
+
+            function updateDisplay() {
+                // Filter articles
+                let filteredArticles = articles;
+                
+                if (currentFilter !== 'all') {
+                    filteredArticles = articles.filter(article => {
+                        return article.getAttribute('data-category') === currentFilter;
+                    });
+                }
+
+                // Sort articles
+                filteredArticles.sort((a, b) => {
+                    if (currentSort === 'date-desc') {
+                        const dateA = new Date(a.getAttribute('data-date'));
+                        const dateB = new Date(b.getAttribute('data-date'));
+                        return dateB - dateA;
+                    } else if (currentSort === 'date-asc') {
+                        const dateA = new Date(a.getAttribute('data-date'));
+                        const dateB = new Date(b.getAttribute('data-date'));
+                        return dateA - dateB;
+                    } else if (currentSort === 'title-asc') {
+                        const titleA = a.getAttribute('data-title').toLowerCase();
+                        const titleB = b.getAttribute('data-title').toLowerCase();
+                        return titleA.localeCompare(titleB);
+                    } else if (currentSort === 'title-desc') {
+                        const titleA = a.getAttribute('data-title').toLowerCase();
+                        const titleB = b.getAttribute('data-title').toLowerCase();
+                        return titleB.localeCompare(titleA);
+                    }
+                    return 0;
+                });
+
+                // Hide all articles first
+                articles.forEach(article => {
+                    article.classList.add('hidden');
+                });
+
+                // Show filtered and sorted articles
+                filteredArticles.forEach(article => {
+                    article.classList.remove('hidden');
+                });
+
+                // Update results count
+                const count = filteredArticles.length;
+                const filterText = currentFilter === 'all' ? 'All Posts' : 
+                                 currentFilter === 'winnipeg' ? 'Winnipeg Guides' :
+                                 currentFilter === 'travel' ? 'Travel Experiences' :
+                                 'Hosting & Design';
+                resultsCount.textContent = `Showing ${count} ${count === 1 ? 'post' : 'posts'} in ${filterText}`;
+            }
+        })();
     </script>
 </body>
 </html>
