@@ -58,6 +58,12 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://staywinnipeg.ca/blog-festival-du-voyageur.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://staywinnipeg.ca/blog-things-to-do.html</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>monthly</changefreq>
@@ -132,6 +138,12 @@
     <url>
         <loc>https://staywinnipeg.ca/blog-budapest-caving.html</loc>
         <lastmod>2025-11-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://staywinnipeg.ca/blog-winnipeg-folk-festival.html</loc>
+        <lastmod>2025-07-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
