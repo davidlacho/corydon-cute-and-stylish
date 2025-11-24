@@ -84,6 +84,15 @@
     <!-- Google Search Console Verification (add your verification code when available) -->
     <!-- <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE"> -->
     
+    <!-- Google Analytics (replace G-XXXXXXXXXX with your actual Google Analytics 4 Measurement ID) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script> -->
+    
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="https://staywinnipeg.ca/favicon.svg">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -1975,6 +1984,49 @@
             z-index: -1;
         }
 
+        /* Additional utility classes for inline style replacements */
+        .map-container-spacing {
+            margin-top: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .features-book-section {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .margin-top-3 {
+            margin-top: 3rem;
+        }
+
+        .flex-center {
+            display: flex;
+            align-items: center;
+        }
+
+        .flex-center-gap {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .flex-1 {
+            flex: 1;
+        }
+
+        .link-inherit {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        .laurel-flip {
+            transform: scaleX(-1);
+        }
+
         #location-map {
             width: 100%;
             height: 100%;
@@ -3315,7 +3367,7 @@
 <body>
     <!-- Static content for SEO crawlers - accessible to search engines and screen readers -->
     <main id="seo-content" class="visually-hidden">
-        <h1>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h1>
+        <h2>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h2>
         <h2>Winnipeg Vacation Rental in Corydon Neighborhood</h2>
         <p>Discover the best Airbnb in Winnipeg! Stay at Corydon Cute & Stylish, a mid-century modern 3-bedroom home in Winnipeg's vibrant Corydon neighborhood. This thoughtfully curated vacation rental blends retro charm with modern comfort, featuring unique vintage touches and a cozy atmosphere.</p>
         <p>Perfect for families, couples, or business travelers seeking a unique Winnipeg experience. Located in one of Winnipeg's best neighborhoods, close to Winnipeg attractions, Winnipeg restaurants, and Winnipeg cultural sites. Over 40 5-star reviews from satisfied guests.</p>
@@ -3357,7 +3409,7 @@
     <!-- Fallback content for users without JavaScript -->
     <noscript>
         <main id="main-content">
-            <h1>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h1>
+            <h2>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h2>
             <h2>Winnipeg Vacation Rental in Corydon Neighborhood</h2>
             <p>Discover the best Airbnb in Winnipeg! Stay at Corydon Cute & Stylish, a mid-century modern 3-bedroom home in Winnipeg's vibrant Corydon neighborhood. This thoughtfully curated vacation rental blends retro charm with modern comfort, featuring unique vintage touches and a cozy atmosphere.</p>
             <p>Perfect for families, couples, or business travelers seeking a unique Winnipeg experience. Located in one of Winnipeg's best neighborhoods, close to Winnipeg attractions, Winnipeg restaurants, and Winnipeg cultural sites. Over 40 5-star reviews from satisfied guests.</p>
@@ -3402,7 +3454,7 @@
             <div class="loader-spinner"></div>
         </div>
     </div>
-    <a href="#main-content" class="skip-link" style="position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden;">Skip to main content</a>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <div id="root"></div>
 
     <script type="text/babel" defer>
@@ -3585,7 +3637,7 @@
                         <p className="section-subtitle">Discover the best of Winnipeg - everything you need is just steps away</p>
                         
                         {/* Map Section */}
-                        <div className="map-container" style={{marginTop: '3rem', marginBottom: '4rem'}}>
+                        <div className="map-container map-container-spacing">
                             <div id="location-map" aria-label="Interactive map showing property location"></div>
                         </div>
                         
@@ -3608,7 +3660,7 @@
                             <div className="nearby-list">
                                 {getFilteredLocations().map((item, index) => (
                                     <div key={index} className="nearby-item fade-in-up">
-                                        <div style={{display: 'flex', alignItems: 'center', flex: 1}}>
+                                        <div className="flex-center flex-1">
                                             <span className="nearby-icon">{item.icon}</span>
                                             <span className="nearby-item-name">{item.name}</span>
                                         </div>
@@ -4291,7 +4343,7 @@
                                                 </defs>
                                             </svg>
                                             Guest favorite
-                                            <svg className="laurel" viewBox="0 0 20 32" fill="none" xmlns="http://www.w3.org/2000/svg" height="16" style={{transform: 'scaleX(-1)'}}>
+                                            <svg className="laurel laurel-flip" viewBox="0 0 20 32" fill="none" xmlns="http://www.w3.org/2000/svg" height="16">
                                                 <g clipPath="url(#clip0_5880_37773_right)">
                                                     <path fillRule="evenodd" clipRule="evenodd" d="M15.4895 25.417L14.8276 24.4547L16.5303 23.6492L17.1923 24.6116L16.3409 25.0143L17.1923 24.6116C18.6638 26.751 17.9509 29.3868 15.5999 30.4989C14.8548 30.8513 14.0005 31.0196 13.1221 30.987L12.8044 30.9752L12.7297 29.2305L13.0474 29.2423C13.5744 29.2618 14.0871 29.1608 14.5341 28.9494C15.9447 28.2821 16.3725 26.7007 15.4895 25.417Z" fill="#222222"></path>
                                                     <path fillRule="evenodd" clipRule="evenodd" d="M8.32441 10.235C10.0819 8.96204 10.9247 7.4878 10.853 5.81232C10.7813 4.13685 9.80929 2.59524 7.93708 1.18749C6.17964 2.46049 5.33678 3.93473 5.40851 5.6102C5.48024 7.28568 6.45221 8.82729 8.32441 10.235Z" fill="#F7F7F7"></path>
@@ -4312,8 +4364,8 @@
                                         </span>
                                     </div>
                                     <h1>
-                                        Winnipeg's Best Airbnb: Corydon Cute & Stylish
-                                        <span className="hero-subtitle">Mid-Century Modern Vacation Rental in Winnipeg's Corydon Neighborhood</span>
+                                        Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb
+                                        <span className="hero-subtitle">Winnipeg Vacation Rental in Corydon Neighborhood</span>
                                     </h1>
                                     <p>
                                         Discover Winnipeg's premier vacation rental! Step into a quirky mid-century modern haven in the heart of Winnipeg's vibrant 
@@ -4329,7 +4381,7 @@
                                     </div>
                                     <div className="hero-host-info">
                                         <h3 className="host-section-title">Meet Your Host</h3>
-                                        <div style={{display: 'flex', alignItems: 'center', gap: '1rem'}}>
+                                        <div className="flex-center-gap">
                                             <div className="host-badge-avatar" aria-hidden="true"></div>
                                             <div className="host-badge-text">
                                                 <div className="host-badge-name">{hostInfo.name}</div>
@@ -4531,11 +4583,11 @@
 
                     <Nearby />
 
-                    <section id="book" className="features" style={{paddingTop: '4rem', paddingBottom: '4rem'}}>
+                    <section id="book" className="features features-book-section">
                         <div className="container">
                             <h2 className="section-title">Ready to Stay?</h2>
                             <p className="section-subtitle">Book your cozy mid-century escape in Winnipeg</p>
-                            <div style={{marginTop: '3rem', textAlign: 'center'}}>
+                            <div className="margin-top-3 text-center">
                                 <a 
                                     href="https://www.airbnb.ca/rooms/716340250371431352" 
                                     className="primary-cta primary-cta-large"
@@ -4561,7 +4613,7 @@
                             </div>
                             <p>&copy; 2025 Corydon Cute & Stylish. All rights reserved.</p>
                             <p className="footer-text">
-                                <a href="https://www.airbnb.ca/h/corydon-cute-and-stylish" style={{color: 'inherit', textDecoration: 'underline'}}>
+                                <a href="https://www.airbnb.ca/h/corydon-cute-and-stylish" className="link-inherit">
                                     airbnb.ca/h/corydon-cute-and-stylish
                                 </a>
                             </p>

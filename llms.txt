@@ -1,0 +1,51 @@
+# llms.txt for staywinnipeg.ca
+# This file helps LLMs understand the structure and content of this website
+
+# Site Information
+Site: https://staywinnipeg.ca
+Purpose: Vacation rental listing for a mid-century modern Airbnb in Winnipeg's Corydon neighborhood
+Owner: David
+
+# Main Pages
+Home: https://staywinnipeg.ca/
+Blog: https://staywinnipeg.ca/blog.html
+
+# Key Content Pages
+- /blog-corydon-guide.html - Guide to Corydon Avenue neighborhood
+- /blog-exchange-district.html - Information about Winnipeg's Exchange District
+- /blog-family-activities.html - Family-friendly activities in Winnipeg
+- /blog-human-rights-museum.html - Canadian Museum for Human Rights guide
+- /blog-peanut-park.html - Information about Enderton (Peanut) Park
+- /blog-restaurants.html - Winnipeg restaurant recommendations
+- /blog-the-forks.html - The Forks market and area guide
+- /blog-things-to-do.html - Things to do in Winnipeg
+- /blog-transportation.html - Getting around Winnipeg
+- /blog-winnipeg-art-gallery.html - Winnipeg Art Gallery information
+- /blog-winnipeg-folk-festival.html - Winnipeg Folk Festival guide
+- /blog-winnipeg-guest-guide.html - Comprehensive guest guide for Winnipeg
+- /blog-winnipeg-murals.html - Winnipeg murals and street art
+- /blog-winnipeg-winter-activities.html - Winter activities in Winnipeg
+
+# Property Information
+Property Name: Corydon Cute & Stylish
+Type: Mid-century modern 3-bedroom vacation rental
+Location: Corydon neighborhood, Winnipeg, Manitoba, Canada
+Airbnb Listing: https://www.airbnb.ca/rooms/716340250371431352
+Registration: STRA-2025-2600298
+
+# Key Features
+- Mid-century modern design
+- 3 bedrooms, 2 bathrooms
+- Located in Corydon neighborhood
+- Over 40 5-star reviews
+- Superhost and Guest Favorite status
+- Family-friendly
+- Pet-friendly (dogs welcome)
+
+# Main Keywords
+Primary: Winnipeg Airbnb, vacation rental Winnipeg, Corydon neighborhood
+Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Winnipeg
+
+# Contact
+Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431352
+
