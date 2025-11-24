@@ -77,6 +77,12 @@
     <meta http-equiv="content-language" content="en-CA">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
+    <!-- Security Headers -->
+    <!-- Note: X-Frame-Options must be set via HTTP headers, not meta tags -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: https://*.tile.openstreetmap.org; connect-src 'self' https://unpkg.com https://www.google-analytics.com https://*.tile.openstreetmap.org; frame-src 'self' https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    
     <!-- Microsoft Tiles -->
     <meta name="msapplication-TileColor" content="#F4A261">
     <meta name="msapplication-config" content="/browserconfig.xml">
@@ -210,6 +216,7 @@
             border-radius: 50%;
             animation: spin 1s linear infinite;
             margin: 0 auto 1.5rem;
+            will-change: transform;
         }
 
         @keyframes spin {
@@ -364,13 +371,12 @@
 
         .logo-subtitle {
             font-size: 0.65rem;
-            font-weight: 400;
-            color: var(--text-light);
+            font-weight: 500;
+            color: #3A3A3A;
             font-family: var(--font-body);
             letter-spacing: 0.05em;
             text-transform: uppercase;
             margin-top: 0.2rem;
-            opacity: 0.8;
             text-align: left;
             align-self: flex-start;
         }
@@ -455,6 +461,7 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(42, 157, 143, 0.4);
             color: white !important;
+            will-change: transform;
         }
 
         /* Hero Section */
@@ -534,13 +541,12 @@
         .hero-subtitle {
             display: block;
             font-size: 0.5em;
-            font-weight: 400;
+            font-weight: 500;
             font-family: var(--font-body);
-            color: var(--text-light);
+            color: #3A3A3A;
             margin-top: 0.5rem;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-            opacity: 0.9;
             text-align: left;
             line-height: 1.4;
         }
@@ -751,6 +757,7 @@
             opacity: 0;
             transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
             will-change: opacity;
+            transform: translateZ(0);
         }
 
         .hero-slideshow-image.loading {
@@ -890,7 +897,7 @@
 
         .section-subtitle {
             text-align: center;
-            color: var(--text-light);
+            color: #3A3A3A;
             font-size: 1.15rem;
             margin-bottom: 4rem;
             margin-top: 2rem;
@@ -934,6 +941,7 @@
             transform: translateY(-8px) rotate(0.5deg);
             box-shadow: 0 15px 40px var(--shadow-strong);
             border-color: var(--mustard);
+            will-change: transform;
         }
 
         .feature-icon {
@@ -1017,6 +1025,7 @@
             transform: translateY(-8px) rotate(-0.5deg);
             box-shadow: 0 15px 40px var(--shadow-strong);
             border-color: var(--sage);
+            will-change: transform;
         }
 
         .blog-image {
@@ -1625,6 +1634,7 @@
             background: var(--teal);
             transform: translateY(-3px);
             box-shadow: 0 12px 35px rgba(42, 157, 143, 0.5);
+            will-change: transform;
         }
 
         .floating-book-button::before {
@@ -1700,6 +1710,7 @@
             background: var(--teal);
             transform: translateY(-3px);
             box-shadow: 0 16px 35px rgba(42, 157, 143, 0.22);
+            will-change: transform;
         }
 
         .primary-cta-large {
@@ -1762,6 +1773,7 @@
             transform: translateY(-5px) rotate(0.5deg);
             box-shadow: 0 15px 40px var(--shadow-strong);
             border-color: var(--teal);
+            will-change: transform;
         }
 
         .review-header {
@@ -3398,7 +3410,7 @@
 <body>
     <!-- Static content for SEO crawlers - accessible to search engines and screen readers -->
     <main id="seo-content" class="visually-hidden">
-        <h2>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h2>
+        <h1>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h1>
         <h2>Winnipeg Airbnb Vacation Rental in Corydon Neighborhood</h2>
         <p>Discover the best Airbnb in Winnipeg! Stay at Corydon Cute & Stylish, a mid-century modern 3-bedroom home in Winnipeg's vibrant Corydon neighborhood. This thoughtfully curated vacation rental blends retro charm with modern comfort, featuring unique vintage touches and a cozy atmosphere.</p>
         <p>Perfect for families, couples, or business travelers seeking a unique Winnipeg experience. Located in one of Winnipeg's best neighborhoods, close to Winnipeg attractions, Winnipeg restaurants, and Winnipeg cultural sites. Over 40 5-star reviews from satisfied guests.</p>
@@ -3440,7 +3452,7 @@
     <!-- Fallback content for users without JavaScript -->
     <noscript>
         <main id="main-content">
-            <h2>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h2>
+            <h1>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h1>
             <h2>Winnipeg Airbnb Vacation Rental in Corydon Neighborhood</h2>
             <p>Discover the best Airbnb in Winnipeg! Stay at Corydon Cute & Stylish, a mid-century modern 3-bedroom home in Winnipeg's vibrant Corydon neighborhood. This thoughtfully curated vacation rental blends retro charm with modern comfort, featuring unique vintage touches and a cozy atmosphere.</p>
             <p>Perfect for families, couples, or business travelers seeking a unique Winnipeg experience. Located in one of Winnipeg's best neighborhoods, close to Winnipeg attractions, Winnipeg restaurants, and Winnipeg cultural sites. Over 40 5-star reviews from satisfied guests.</p>
@@ -3489,13 +3501,14 @@
     <div id="root"></div>
 
     <script type="text/babel" defer>
-        const { useState, useEffect } = React;
+        const { useState, useEffect, useRef } = React;
 
         // Nearby Component with Map
         function Nearby() {
             const [activeFilter, setActiveFilter] = useState('all');
             const [mapLoaded, setMapLoaded] = useState(false);
             const [mapLoading, setMapLoading] = useState(false);
+            const mapInstanceRef = useRef(null);
             
             // Lazy load Leaflet and initialize map
             useEffect(() => {
@@ -3518,6 +3531,7 @@
 
                         // Create map centered on the Airbnb location
                         const map = L.map('location-map').setView([airbnbLat, airbnbLng], 15);
+                        mapInstanceRef.current = map;
 
                         // Add OpenStreetMap tiles
                         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -3551,6 +3565,17 @@
                             radius: 500 // 500 meters radius for walking distance
                         }).addTo(map);
 
+                        // Invalidate map size to ensure proper rendering after container is visible
+                        const invalidateMapSize = () => {
+                            if (mapInstanceRef.current) {
+                                mapInstanceRef.current.invalidateSize();
+                            }
+                        };
+                        
+                        // Invalidate immediately and after a short delay to handle any layout shifts
+                        setTimeout(invalidateMapSize, 100);
+                        setTimeout(invalidateMapSize, 500);
+
                         setMapLoaded(true);
                         setMapLoading(false);
                     } catch (error) {
@@ -3571,6 +3596,9 @@
                                 leafletCSS.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
                                 leafletCSS.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
                                 leafletCSS.crossOrigin = '';
+                                leafletCSS.onload = () => {
+                                    // CSS loaded, ready to initialize map
+                                };
                                 document.head.appendChild(leafletCSS);
                             }
 
@@ -3581,10 +3609,10 @@
                                 script.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
                                 script.crossOrigin = '';
                                 script.onload = () => {
-                                    // Wait a bit for Leaflet to fully initialize
+                                    // Wait a bit for Leaflet to fully initialize and CSS to load
                                     setTimeout(() => {
                                         initializeMap();
-                                    }, 100);
+                                    }, 200);
                                 };
                                 script.onerror = () => {
                                     console.error('Failed to load Leaflet');
@@ -3680,7 +3708,6 @@
                                     onClick={() => setActiveFilter(filter.id)}
                                     aria-label={`Filter by ${filter.label}`}
                                     aria-pressed={activeFilter === filter.id}
-                                    role="tab"
                                 >
                                     <span aria-hidden="true">{filter.icon}</span> {filter.label}
                                 </button>
@@ -3717,12 +3744,24 @@
             return shuffled;
         }
 
-        // Preload images function
+        // Preload images function (optimized with requestIdleCallback)
         function preloadImages(imagePaths) {
-            imagePaths.forEach((src) => {
-                const img = new Image();
-                img.src = src;
-            });
+            if ('requestIdleCallback' in window) {
+                requestIdleCallback(() => {
+                    imagePaths.forEach((src) => {
+                        const img = new Image();
+                        img.src = src;
+                    });
+                }, { timeout: 2000 });
+            } else {
+                // Fallback: load after a short delay
+                setTimeout(() => {
+                    imagePaths.forEach((src) => {
+                        const img = new Image();
+                        img.src = src;
+                    });
+                }, 100);
+            }
         }
 
         // Hero Slideshow Component (simplified for hero section)
@@ -4026,11 +4065,11 @@
                 'images/2025-10-09-5-Ruskin-Row-00030.jpg'
             ];
             
-            // Shuffle images on component mount and preload
+            // Shuffle images on component mount (lazy load instead of preloading all)
             const [images] = useState(() => {
                 const shuffled = shuffleArray(baseImages);
-                // Preload all images
-                preloadImages(shuffled);
+                // Only preload first 3 images for faster initial load
+                preloadImages(shuffled.slice(0, 3));
                 return shuffled;
             });
 
@@ -4111,19 +4150,38 @@
                 return () => window.removeEventListener('keydown', handleKeyPress);
             }, [currentIndex, isTransitioning, images.length]);
 
-            // Auto-transition effect
+            // Auto-transition effect (optimized with requestIdleCallback)
             useEffect(() => {
-                const interval = setInterval(() => {
-                    if (!isTransitioning) {
-                        setIsTransitioning(true);
-                        setTimeout(() => {
-                            setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-                            setIsTransitioning(false);
-                        }, 250);
+                let intervalId;
+                const setupInterval = () => {
+                    if ('requestIdleCallback' in window) {
+                        requestIdleCallback(() => {
+                            intervalId = setInterval(() => {
+                                if (!isTransitioning) {
+                                    setIsTransitioning(true);
+                                    setTimeout(() => {
+                                        setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+                                        setIsTransitioning(false);
+                                    }, 250);
+                                }
+                            }, 5000);
+                        }, { timeout: 1000 });
+                    } else {
+                        intervalId = setInterval(() => {
+                            if (!isTransitioning) {
+                                setIsTransitioning(true);
+                                setTimeout(() => {
+                                    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+                                    setIsTransitioning(false);
+                                }, 250);
+                            }
+                        }, 5000);
                     }
-                }, 5000); // Change image every 5 seconds
-
-                return () => clearInterval(interval);
+                };
+                setupInterval();
+                return () => {
+                    if (intervalId) clearInterval(intervalId);
+                };
             }, [isTransitioning, images.length]);
 
             return (
@@ -4324,7 +4382,7 @@
                 <>
                     <nav className={scrolled ? 'scrolled' : ''} role="navigation" aria-label="Main navigation">
                         <div className="nav-container">
-                            <div className="logo" role="banner">
+                            <div className="logo">
                                 <span className="logo-title">Corydon Cute & Stylish</span>
                                 <span className="logo-subtitle">Boutique Airbnb in Winnipeg</span>
                             </div>
@@ -4342,12 +4400,12 @@
                                 onClick={closeMobileMenu}
                                 aria-hidden="true"
                             ></div>
-                            <ul id="main-navigation" className={`nav-links ${mobileMenuOpen ? 'active' : ''}`} role="menubar">
-                                <li role="none"><a href="#home" onClick={closeMobileMenu} role="menuitem">Home</a></li>
-                                <li role="none"><a href="#features" onClick={closeMobileMenu} role="menuitem">Features</a></li>
-                                <li role="none"><a href="#reviews" onClick={closeMobileMenu} role="menuitem">Reviews</a></li>
-                                <li role="none"><a href="#amenities" onClick={closeMobileMenu} role="menuitem">Amenities</a></li>
-                                <li role="none"><a href="#nearby" onClick={closeMobileMenu} role="menuitem">Nearby</a></li>
+                            <ul id="main-navigation" className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
+                                <li><a href="#home" onClick={closeMobileMenu}>Home</a></li>
+                                <li><a href="#features" onClick={closeMobileMenu}>Features</a></li>
+                                <li><a href="#reviews" onClick={closeMobileMenu}>Reviews</a></li>
+                                <li><a href="#amenities" onClick={closeMobileMenu}>Amenities</a></li>
+                                <li><a href="#nearby" onClick={closeMobileMenu}>Nearby</a></li>
                                 <li role="none"><a href="/blog.html" onClick={closeMobileMenu} role="menuitem">Blog</a></li>
                                 <li role="none"><a href="https://www.airbnb.ca/rooms/716340250371431352" className="nav-cta" onClick={closeMobileMenu} role="menuitem" aria-label="Book your stay on Airbnb">Book Now</a></li>
                             </ul>
