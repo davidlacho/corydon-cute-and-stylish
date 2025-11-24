@@ -84,21 +84,26 @@
     <!-- Google Search Console Verification (add your verification code when available) -->
     <!-- <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE"> -->
     
-    <!-- Google Analytics (replace G-XXXXXXXXXX with your actual Google Analytics 4 Measurement ID) -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <!-- Google Analytics 4 (GA4) -->
+    <!-- To enable: Replace G-XXXXXXXXXX with your actual Google Analytics 4 Measurement ID -->
+    <!-- Get your Measurement ID from: https://analytics.google.com/ -->
+    <!-- Uncomment the code below and add your Measurement ID to enable tracking -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-XXXXXXXXXX');
-    </script> -->
+    </script>
+    -->
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="https://staywinnipeg.ca/favicon.svg">
+    <!-- Favicon - Multiple formats for better browser support -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="shortcut icon" href="https://staywinnipeg.ca/favicon.svg">
-    <link rel="apple-touch-icon" href="https://staywinnipeg.ca/favicon.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://staywinnipeg.ca/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.svg">
     <link rel="manifest" href="/site.webmanifest">
     
     <!-- Preconnect to external domains for faster resource loading -->
@@ -3958,7 +3963,10 @@
                                         loading={index === 0 ? 'eager' : 'lazy'}
                                         fetchPriority={index === 0 ? 'high' : 'auto'}
                                         alt={getImageAltText(index, images.length)}
+                                        width="1200"
+                                        height="800"
                                         className={`hero-slideshow-image loaded ${index === currentIndex ? 'active' : 'inactive'}`}
+                                        style={{aspectRatio: '3/2'}}
                                     />
                                 );
                             })}
@@ -4131,6 +4139,9 @@
                                         alt={getImageAltText(currentIndex, images.length)}
                                         className={`slideshow-image ${isTransitioning ? 'fade-out' : 'fade-in'}`}
                                         loading={currentIndex < 3 ? 'eager' : 'lazy'}
+                                        width="1200"
+                                        height="800"
+                                        style={{aspectRatio: '3/2'}}
                                     />
                                 </div>
                                 <button
