@@ -7,7 +7,7 @@
     <!-- Primary Meta Tags -->
     <title>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</title>
     <meta name="title" content="Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb">
-    <meta name="description" content="Mid-century modern 3-bedroom Winnipeg Airbnb in Corydon. Over 40 5-star reviews. Perfect for exploring Winnipeg attractions, restaurants, and culture.">
+    <meta name="description" content="Mid-century modern 3-bedroom Winnipeg Airbnb vacation rental in Corydon neighborhood. Over 40 5-star reviews. Perfect for exploring Winnipeg attractions, restaurants, and culture.">
     <meta name="keywords" content="Winnipeg, Winnipeg Airbnb, Airbnb Winnipeg, vacation rental Winnipeg, Winnipeg accommodation, Winnipeg vacation rental, things to do Winnipeg, Winnipeg attractions, Winnipeg restaurants, Winnipeg hotels, Winnipeg bed and breakfast, Corydon neighborhood Winnipeg, Corydon Avenue, mid-century modern Winnipeg, 3 bedroom Winnipeg, Winnipeg rental, short term rental Winnipeg, Winnipeg stay, family friendly Winnipeg, Winnipeg home rental, Winnipeg Airbnb near downtown, Winnipeg Airbnb Corydon, best Airbnb Winnipeg, Winnipeg Superhost, Winnipeg guest favorite, Winnipeg travel, visit Winnipeg, Winnipeg tourism, Winnipeg Manitoba, Winnipeg Canada">
     <meta name="author" content="David">
     <meta name="publisher" content="David">
@@ -38,7 +38,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://staywinnipeg.ca/">
     <meta property="og:title" content="Winnipeg Airbnb - Corydon Cute & Stylish | Best Vacation Rental in Winnipeg">
-    <meta property="og:description" content="Mid-century modern 3-bedroom Winnipeg Airbnb in Corydon. Over 40 5-star reviews. Perfect for exploring Winnipeg attractions, restaurants, and culture.">
+    <meta property="og:description" content="Mid-century modern 3-bedroom Winnipeg Airbnb vacation rental in Corydon neighborhood. Over 40 5-star reviews. Perfect for exploring Winnipeg attractions, restaurants, and culture.">
     <meta property="og:image" content="https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg">
     <meta property="og:image:secure_url" content="https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg">
     <meta property="og:image:type" content="image/jpeg">
@@ -54,7 +54,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://staywinnipeg.ca/">
     <meta name="twitter:title" content="Winnipeg Airbnb - Corydon Cute & Stylish | Best Vacation Rental in Winnipeg">
-    <meta name="twitter:description" content="Mid-century modern 3-bedroom Winnipeg Airbnb in Corydon. Over 40 5-star reviews. Perfect for exploring Winnipeg attractions, restaurants, and culture.">
+    <meta name="twitter:description" content="Mid-century modern 3-bedroom Winnipeg Airbnb vacation rental in Corydon neighborhood. Over 40 5-star reviews. Perfect for exploring Winnipeg attractions, restaurants, and culture.">
     <meta name="twitter:image" content="https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg">
     <meta name="twitter:image:alt" content="Corydon Cute & Stylish - Mid-Century Modern Airbnb in Winnipeg">
     <meta name="twitter:domain" content="staywinnipeg.ca">
@@ -101,17 +101,27 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://staywinnipeg.ca/favicon.svg">
     <link rel="manifest" href="/site.webmanifest">
     
+    <!-- Preconnect to external domains for faster resource loading -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://unpkg.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    
+    <!-- Preload LCP image for faster Largest Contentful Paint -->
+    <link rel="preload" as="image" href="images/2025-10-09-5-Ruskin-Row-00001.jpg" fetchpriority="high">
+    
+    <!-- Optimized font loading with font-display: swap (async load) -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
     
+    <!-- Load React libraries with defer for non-blocking execution -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
     <!-- TODO: Remove Babel standalone (653KB) - requires pre-compiling JSX with a build process -->
     <!-- For production, use a build tool (Webpack, Vite, etc.) to compile JSX to regular JavaScript -->
+    <!-- Load Babel last to ensure React is ready -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
     <style>
         * {
@@ -149,6 +159,10 @@
             overflow-x: hidden;
             position: relative;
             text-align: left;
+            /* Optimize font rendering */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
 
         /* Ensure consistent typography inheritance */
@@ -3368,7 +3382,7 @@
     <!-- Static content for SEO crawlers - accessible to search engines and screen readers -->
     <main id="seo-content" class="visually-hidden">
         <h2>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h2>
-        <h2>Winnipeg Vacation Rental in Corydon Neighborhood</h2>
+        <h2>Winnipeg Airbnb Vacation Rental in Corydon Neighborhood</h2>
         <p>Discover the best Airbnb in Winnipeg! Stay at Corydon Cute & Stylish, a mid-century modern 3-bedroom home in Winnipeg's vibrant Corydon neighborhood. This thoughtfully curated vacation rental blends retro charm with modern comfort, featuring unique vintage touches and a cozy atmosphere.</p>
         <p>Perfect for families, couples, or business travelers seeking a unique Winnipeg experience. Located in one of Winnipeg's best neighborhoods, close to Winnipeg attractions, Winnipeg restaurants, and Winnipeg cultural sites. Over 40 5-star reviews from satisfied guests.</p>
         <p>Explore Winnipeg's premier vacation rental in the heart of Corydon Avenue. Just steps from local cafes, boutiques, and the best that Winnipeg has to offer. This mid-century modern Winnipeg Airbnb features three comfortable bedrooms, two full bathrooms, and a fully equipped kitchen perfect for preparing meals during your stay.</p>
@@ -3410,7 +3424,7 @@
     <noscript>
         <main id="main-content">
             <h2>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h2>
-            <h2>Winnipeg Vacation Rental in Corydon Neighborhood</h2>
+            <h2>Winnipeg Airbnb Vacation Rental in Corydon Neighborhood</h2>
             <p>Discover the best Airbnb in Winnipeg! Stay at Corydon Cute & Stylish, a mid-century modern 3-bedroom home in Winnipeg's vibrant Corydon neighborhood. This thoughtfully curated vacation rental blends retro charm with modern comfort, featuring unique vintage touches and a cozy atmosphere.</p>
             <p>Perfect for families, couples, or business travelers seeking a unique Winnipeg experience. Located in one of Winnipeg's best neighborhoods, close to Winnipeg attractions, Winnipeg restaurants, and Winnipeg cultural sites. Over 40 5-star reviews from satisfied guests.</p>
             <p>Explore Winnipeg's premier vacation rental in the heart of Corydon Avenue. Just steps from local cafes, boutiques, and the best that Winnipeg has to offer. This mid-century modern Winnipeg Airbnb features three comfortable bedrooms, two full bathrooms, and a fully equipped kitchen perfect for preparing meals during your stay.</p>
@@ -3633,7 +3647,7 @@
             return (
                 <section id="nearby" className="nearby" aria-labelledby="nearby-heading">
                     <div className="container">
-                        <h2 id="nearby-heading" className="section-title">Explore Winnipeg's Corydon Neighborhood</h2>
+                        <h2 id="nearby-heading" className="section-title">Explore Winnipeg's Corydon Neighborhood - Vacation Rental Location</h2>
                         <p className="section-subtitle">Discover the best of Winnipeg - everything you need is just steps away</p>
                         
                         {/* Map Section */}
@@ -3930,6 +3944,7 @@
                                         data-src={!shouldLoadInitially ? src : undefined}
                                         data-index={index}
                                         loading={index === 0 ? 'eager' : 'lazy'}
+                                        fetchPriority={index === 0 ? 'high' : 'auto'}
                                         alt={getImageAltText(index, images.length)}
                                         className={`hero-slideshow-image loaded ${index === currentIndex ? 'active' : 'inactive'}`}
                                     />
@@ -4365,7 +4380,7 @@
                                     </div>
                                     <h1>
                                         Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb
-                                        <span className="hero-subtitle">Winnipeg Vacation Rental in Corydon Neighborhood</span>
+                                        <span className="hero-subtitle">Winnipeg Airbnb Vacation Rental in Corydon Neighborhood</span>
                                     </h1>
                                     <p>
                                         Discover Winnipeg's premier vacation rental! Step into a quirky mid-century modern haven in the heart of Winnipeg's vibrant 
@@ -4450,7 +4465,7 @@
 
                     <section id="amenities" className="amenities" aria-labelledby="amenities-heading">
                         <div className="container">
-                            <h2 id="amenities-heading" className="section-title">What This Place Offers</h2>
+                            <h2 id="amenities-heading" className="section-title">Winnipeg Airbnb Amenities & Features</h2>
                             <div className="amenities-grid">
                                 <div className="amenity-category fade-in-up">
                                     <h3 className="amenity-category-title">
@@ -4585,7 +4600,7 @@
 
                     <section id="book" className="features features-book-section">
                         <div className="container">
-                            <h2 className="section-title">Ready to Stay?</h2>
+                            <h2 className="section-title">Book Your Winnipeg Vacation Rental</h2>
                             <p className="section-subtitle">Book your cozy mid-century escape in Winnipeg</p>
                             <div className="margin-top-3 text-center">
                                 <a 
