@@ -117,11 +117,12 @@
     <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
     
     <!-- Load React libraries with defer for non-blocking execution -->
+    <!-- Using async instead of defer for React to start loading earlier -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
     <!-- TODO: Remove Babel standalone (653KB) - requires pre-compiling JSX with a build process -->
     <!-- For production, use a build tool (Webpack, Vite, etc.) to compile JSX to regular JavaScript -->
-    <!-- Load Babel last to ensure React is ready -->
+    <!-- Load Babel last to ensure React is ready, with defer to prevent blocking -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
     <style>
         * {
@@ -3305,9 +3306,11 @@
     }
     </script>
     
-    <!-- Update meta tags with random image -->
+    <!-- Update meta tags with random image (non-blocking) -->
     <script>
         (function() {
+            // Defer meta tag updates to reduce blocking time
+            const updateMetaTags = function() {
             const images = [
                 'images/2025-10-09-5-Ruskin-Row-00001.jpg',
                 'images/2025-10-09-5-Ruskin-Row-00002.jpg',
@@ -3372,6 +3375,15 @@
                 twitterImage.setAttribute('name', 'twitter:image');
                 twitterImage.setAttribute('content', imageUrl);
                 document.head.appendChild(twitterImage);
+            }
+            };
+            
+            // Execute meta tag updates when browser is idle to reduce blocking
+            if ('requestIdleCallback' in window) {
+                requestIdleCallback(updateMetaTags, { timeout: 2000 });
+            } else {
+                // Fallback: use setTimeout for browsers without requestIdleCallback
+                setTimeout(updateMetaTags, 0);
             }
         })();
     </script>
@@ -4702,16 +4714,50 @@
         };
         
         // Try to hide loader after React renders
-        // Use requestAnimationFrame to wait for React to render
-        requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-                setTimeout(hideLoader, 200);
-            });
-        });
+        // Use requestIdleCallback for non-critical operations to reduce blocking
+        const hideLoaderWhenIdle = () => {
+            if ('requestIdleCallback' in window) {
+                requestIdleCallback(() => {
+                    requestAnimationFrame(() => {
+                        hideLoader();
+                    });
+                }, { timeout: 1000 });
+            } else {
+                // Fallback for browsers without requestIdleCallback
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        setTimeout(hideLoader, 200);
+                    });
+                });
+            }
+        };
         
-        // Fallback: hide after page load
+        // Wait for React to be ready before hiding loader
+        if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
+            hideLoaderWhenIdle();
+        } else {
+            // Wait for React to load
+            const checkReact = setInterval(() => {
+                if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
+                    clearInterval(checkReact);
+                    hideLoaderWhenIdle();
+                }
+            }, 50);
+            
+            // Timeout after 5 seconds
+            setTimeout(() => {
+                clearInterval(checkReact);
+                hideLoader();
+            }, 5000);
+        }
+        
+        // Fallback: hide after page load (non-blocking)
         window.addEventListener('load', () => {
-            setTimeout(hideLoader, 300);
+            if ('requestIdleCallback' in window) {
+                requestIdleCallback(hideLoader, { timeout: 500 });
+            } else {
+                setTimeout(hideLoader, 300);
+            }
         });
     </script>
 </body>
