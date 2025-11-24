@@ -360,6 +360,79 @@
                 font-size: 1.75rem;
             }
         }
+
+        /* Floating Book Now Button */
+        .floating-book-button {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 2rem;
+            background: var(--charcoal);
+            color: white;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(38, 70, 83, 0.4);
+            transition: all 0.3s ease;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .floating-book-button:hover {
+            background: var(--teal);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(42, 157, 143, 0.5);
+        }
+
+        .floating-book-button::before {
+            content: '';
+            position: absolute;
+            inset: -8px;
+            border-radius: 50px;
+            background: var(--teal);
+            opacity: 0.3;
+            z-index: -1;
+            animation: pulse-ring 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 8px 25px rgba(42, 157, 143, 0.4);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 12px 35px rgba(42, 157, 143, 0.6);
+            }
+        }
+
+        @keyframes pulse-ring {
+            0% {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.1;
+            }
+            100% {
+                transform: scale(1.4);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .floating-book-button {
+                bottom: 1.5rem;
+                right: 1.5rem;
+                padding: 0.85rem 1.5rem;
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -406,7 +479,7 @@
                 <h2>What to See and Do at The Forks</h2>
                 
                 <h3>The Forks Market</h3>
-                <p>The Forks Market is the vibrant heart of this historic site. Housed in a beautifully restored stable building, the market features over 50 vendors offering everything from fresh produce and artisanal foods to unique crafts and souvenirs. Whether you're looking for a quick snack, a full meal, or a special gift, you'll find it here.</p>
+                <p><a href="https://www.theforks.com" target="_blank" rel="noopener noreferrer">The Forks Market</a> is the vibrant heart of this historic site. Housed in a beautifully restored stable building, the market features over 50 vendors offering everything from fresh produce and artisanal foods to unique crafts and souvenirs. Whether you're looking for a quick snack, a full meal, or a special gift, you'll find it here.</p>
 
                 <h3>Forks Market Tower</h3>
                 <p>Climb the Forks Market Tower for panoramic views of the rivers, downtown Winnipeg, and the surrounding area. The tower offers a unique perspective on the city and helps you understand why this location has been so important throughout history.</p>
@@ -415,7 +488,7 @@
                 <p>This outdoor amphitheater is a beautiful space for events, performances, and gatherings. The name "Oodena" means "heart of the community" in Ojibwe, reflecting the site's significance to Indigenous peoples. Check the schedule for concerts, cultural events, and festivals throughout the year.</p>
 
                 <h3>Johnston Terminal</h3>
-                <p>This historic warehouse building now houses restaurants, shops, and the Manitoba Children's Museum. The building itself is a testament to Winnipeg's industrial past, beautifully preserved and repurposed for modern use.</p>
+                <p>This historic warehouse building now houses restaurants, shops, and the <a href="https://childrensmuseum.com" target="_blank" rel="noopener noreferrer">Manitoba Children's Museum</a>. The building itself is a testament to Winnipeg's industrial past, beautifully preserved and repurposed for modern use.</p>
 
                 <h3>River Walk</h3>
                 <p>Take a stroll along the river walkways that connect The Forks to other parts of the city. The paths offer beautiful views of the rivers, downtown skyline, and are perfect for walking, jogging, or cycling. In winter, parts of the river become skating trails—a truly magical Winnipeg experience.</p>
@@ -434,7 +507,7 @@
                 <p>The Forks is a food lover's paradise, with options ranging from casual market fare to fine dining. Sample local specialties, international cuisine, or grab a coffee and watch the world go by. Many restaurants offer patios with river views, perfect for enjoying Winnipeg's beautiful summer weather.</p>
 
                 <div class="highlight-box">
-                    <p><strong>Pro Tip:</strong> Visit The Forks early in the morning to experience it at its most peaceful, or come in the evening when the area comes alive with activity. The market is open year-round, but hours vary by season, so check ahead. Parking is available, but The Forks is also easily accessible by public transit or a pleasant walk from downtown.</p>
+                    <p><strong>Pro Tip:</strong> Visit <a href="https://www.theforks.com" target="_blank" rel="noopener noreferrer">The Forks</a> early in the morning to experience it at its most peaceful, or come in the evening when the area comes alive with activity. The market is open year-round, but hours vary by season, so <a href="https://www.theforks.com/hours" target="_blank" rel="noopener noreferrer">check ahead</a>. Parking is available, but The Forks is also easily accessible by public transit or a pleasant walk from downtown.</p>
                 </div>
 
                 <h2>Cultural Significance</h2>
@@ -495,6 +568,17 @@
         "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop"
     }
     </script>
+
+    <!-- Floating Book Now Button -->
+    <a 
+        href="https://www.airbnb.ca/rooms/716340250371431352"
+        class="floating-book-button"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Book your stay on Airbnb - opens in new tab"
+    >
+        Book Now
+    </a>
 </body>
 </html>
 

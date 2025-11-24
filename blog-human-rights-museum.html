@@ -360,6 +360,79 @@
                 font-size: 1.75rem;
             }
         }
+
+        /* Floating Book Now Button */
+        .floating-book-button {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 2rem;
+            background: var(--charcoal);
+            color: white;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(38, 70, 83, 0.4);
+            transition: all 0.3s ease;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .floating-book-button:hover {
+            background: var(--teal);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(42, 157, 143, 0.5);
+        }
+
+        .floating-book-button::before {
+            content: '';
+            position: absolute;
+            inset: -8px;
+            border-radius: 50px;
+            background: var(--teal);
+            opacity: 0.3;
+            z-index: -1;
+            animation: pulse-ring 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 8px 25px rgba(42, 157, 143, 0.4);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 12px 35px rgba(42, 157, 143, 0.6);
+            }
+        }
+
+        @keyframes pulse-ring {
+            0% {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.1;
+            }
+            100% {
+                transform: scale(1.4);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .floating-book-button {
+                bottom: 1.5rem;
+                right: 1.5rem;
+                padding: 0.85rem 1.5rem;
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -396,7 +469,7 @@
             </div>
 
             <div class="article-body">
-                <p>Rising from the banks of the Red River, the Canadian Museum for Human Rights (CMHR) stands as one of Winnipeg's most iconic and meaningful landmarks. As Canada's national museum dedicated to human rights, it's not just a building—it's a journey through the struggles, triumphs, and ongoing work of human rights around the world. A visit here is transformative, educational, and essential for anyone seeking to understand both Canada's history and the universal quest for dignity and justice.</p>
+                <p>Rising from the banks of the Red River, the <a href="https://humanrights.ca" target="_blank" rel="noopener noreferrer">Canadian Museum for Human Rights (CMHR)</a> stands as one of Winnipeg's most iconic and meaningful landmarks. As Canada's national museum dedicated to human rights, it's not just a building—it's a journey through the struggles, triumphs, and ongoing work of human rights around the world. A visit here is transformative, educational, and essential for anyone seeking to understand both Canada's history and the universal quest for dignity and justice.</p>
 
                 <h2>An Architectural Marvel</h2>
                 <p>Designed by architect Antoine Predock, the museum's striking design is itself a statement. The building appears to rise from the earth like a dove taking flight, with its white alabaster and glass exterior creating a sense of lightness and hope. The interior is designed as a journey upward, with ramps and galleries that guide visitors from darkness toward light—a powerful metaphor for the human rights movement itself.</p>
@@ -419,7 +492,7 @@
                 <p>This gallery addresses human rights violations around the world, from genocides to modern-day slavery, encouraging visitors to think about their role in preventing and addressing these issues.</p>
 
                 <h2>Special Exhibitions</h2>
-                <p>In addition to its permanent galleries, the CMHR hosts rotating special exhibitions that explore contemporary human rights issues, celebrate activists and movements, and provide deeper dives into specific topics. Check the museum's website before your visit to see what special exhibitions are currently on display.</p>
+                <p>In addition to its permanent galleries, the CMHR hosts rotating special exhibitions that explore contemporary human rights issues, celebrate activists and movements, and provide deeper dives into specific topics. Check the <a href="https://humanrights.ca" target="_blank" rel="noopener noreferrer">museum's website</a> before your visit to see what special exhibitions are currently on display.</p>
 
                 <h2>Interactive Experiences</h2>
                 <p>The museum uses cutting-edge technology to create immersive experiences. Interactive displays, multimedia presentations, and digital archives allow visitors to explore topics in depth. The museum's approach makes complex and often difficult topics accessible to visitors of all ages.</p>
@@ -494,6 +567,17 @@
         "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=1200&h=600&fit=crop"
     }
     </script>
+
+    <!-- Floating Book Now Button -->
+    <a 
+        href="https://www.airbnb.ca/rooms/716340250371431352"
+        class="floating-book-button"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Book your stay on Airbnb - opens in new tab"
+    >
+        Book Now
+    </a>
 </body>
 </html>
 

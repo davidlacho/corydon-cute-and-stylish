@@ -540,35 +540,77 @@
             transform: translateX(5px);
         }
 
-        /* CTA Box */
-        .cta-box {
-            background: linear-gradient(135deg, var(--teal) 0%, var(--mustard) 100%);
-            color: white;
-            padding: 2.5rem;
-            border-radius: 12px;
-            text-align: center;
-            margin: 3rem 0;
-        }
-
-        .cta-box h3 {
-            color: white;
-            margin-bottom: 1rem;
-        }
-
-        .cta-box a {
-            display: inline-block;
-            background: white;
-            color: var(--charcoal);
+        /* Floating Book Now Button */
+        .floating-book-button {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             padding: 1rem 2rem;
-            border-radius: 8px;
-            text-decoration: none;
+            background: var(--charcoal);
+            color: white;
+            border-radius: 50px;
             font-weight: 600;
-            margin-top: 1rem;
-            transition: transform 0.3s ease;
+            font-size: 1.1rem;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(38, 70, 83, 0.4);
+            transition: all 0.3s ease;
+            animation: pulse 2s ease-in-out infinite;
         }
 
-        .cta-box a:hover {
-            transform: scale(1.05);
+        .floating-book-button:hover {
+            background: var(--teal);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(42, 157, 143, 0.5);
+        }
+
+        .floating-book-button::before {
+            content: '';
+            position: absolute;
+            inset: -8px;
+            border-radius: 50px;
+            background: var(--teal);
+            opacity: 0.3;
+            z-index: -1;
+            animation: pulse-ring 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 8px 25px rgba(42, 157, 143, 0.4);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 12px 35px rgba(42, 157, 143, 0.6);
+            }
+        }
+
+        @keyframes pulse-ring {
+            0% {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.1;
+            }
+            100% {
+                transform: scale(1.4);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .floating-book-button {
+                bottom: 1.5rem;
+                right: 1.5rem;
+                padding: 0.85rem 1.5rem;
+                font-size: 1rem;
+            }
         }
 
         /* Footer */
@@ -1211,7 +1253,7 @@
                     </a>
 
                     <!-- Article 28: Winnipeg Winter Activities -->
-                    <a href="/blog-winnipeg-winter-activities.html" class="article-card" data-category="winnipeg" data-date="2025-12-12" data-title="Embracing Winter: Outdoor Activities in Winnipeg">
+                    <a href="/blog-winnipeg-winter-activities.html" class="article-card" data-category="winnipeg" data-date="2025-11-24" data-title="Embracing Winter: Outdoor Activities in Winnipeg">
                         <div class="article-image">
                             <img src="https://images.unsplash.com/photo-1610595161872-a2118a7940f0?w=800&h=600&fit=crop" alt="People enjoying winter activities on frozen river in Winnipeg" loading="lazy">
                         </div>
@@ -1219,7 +1261,7 @@
                             <div class="article-meta">
                                 <span>❄️ Winter Activities</span>
                                 <span>⏱️ 7 min read</span>
-                                <span>📅 December 12, 2025</span>
+                                <span>📅 November 24, 2025</span>
                             </div>
                             <h2>Embracing Winter: Outdoor Activities in Winnipeg</h2>
                             <p>Discover how Winnipeggers embrace winter with skating trails, cross-country skiing, winter festivals, and outdoor activities that make the cold season enjoyable and fun.</p>
@@ -1228,12 +1270,6 @@
                     </a>
                 </div>
 
-                <!-- CTA Section -->
-                <div class="cta-box">
-                    <h3>Ready to Experience Winnipeg?</h3>
-                    <p>Stay in our beautifully designed mid-century modern home in the heart of Corydon Village. Perfect location, comfortable accommodations, and over 40 five-star reviews.</p>
-                    <a href="/">Book Your Stay</a>
-                </div>
             </div>
         </section>
     </main>
@@ -1595,8 +1631,8 @@
                     "@type": "Person",
                     "name": "David"
                 },
-                "datePublished": "2025-12-12",
-                "dateModified": "2025-12-12"
+                "datePublished": "2025-11-24",
+                "dateModified": "2025-11-24"
             }
         ]
     }
@@ -1693,5 +1729,16 @@
             }
         })();
     </script>
+
+    <!-- Floating Book Now Button -->
+    <a 
+        href="https://www.airbnb.ca/rooms/716340250371431352"
+        class="floating-book-button"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Book your stay on Airbnb - opens in new tab"
+    >
+        Book Now
+    </a>
 </body>
 </html>

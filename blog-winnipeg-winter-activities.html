@@ -360,6 +360,79 @@
                 font-size: 1.75rem;
             }
         }
+
+        /* Floating Book Now Button */
+        .floating-book-button {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 2rem;
+            background: var(--charcoal);
+            color: white;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(38, 70, 83, 0.4);
+            transition: all 0.3s ease;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .floating-book-button:hover {
+            background: var(--teal);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(42, 157, 143, 0.5);
+        }
+
+        .floating-book-button::before {
+            content: '';
+            position: absolute;
+            inset: -8px;
+            border-radius: 50px;
+            background: var(--teal);
+            opacity: 0.3;
+            z-index: -1;
+            animation: pulse-ring 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 8px 25px rgba(42, 157, 143, 0.4);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 12px 35px rgba(42, 157, 143, 0.6);
+            }
+        }
+
+        @keyframes pulse-ring {
+            0% {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.1;
+            }
+            100% {
+                transform: scale(1.4);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .floating-book-button {
+                bottom: 1.5rem;
+                right: 1.5rem;
+                padding: 0.85rem 1.5rem;
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -387,7 +460,7 @@
                 <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
                 <h1>Embracing Winter: Outdoor Activities in Winnipeg</h1>
                 <div class="article-meta">
-                    <span>❄️ Winter Activities</span> • <span>⏱️ 7 min read</span> • <span>📅 December 12, 2025</span>
+                    <span>❄️ Winter Activities</span> • <span>⏱️ 7 min read</span> • <span>📅 November 24, 2025</span>
                 </div>
             </div>
 
@@ -480,8 +553,8 @@
             "@type": "Person",
             "name": "David"
         },
-        "datePublished": "2025-12-12",
-        "dateModified": "2025-12-12",
+        "datePublished": "2025-11-24",
+        "dateModified": "2025-11-24",
         "publisher": {
             "@type": "Organization",
             "name": "Stay Winnipeg"
@@ -489,6 +562,17 @@
         "image": "https://images.unsplash.com/photo-1551524164-6cf77f7f1f33?w=1200&h=600&fit=crop"
     }
     </script>
+
+    <!-- Floating Book Now Button -->
+    <a 
+        href="https://www.airbnb.ca/rooms/716340250371431352"
+        class="floating-book-button"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Book your stay on Airbnb - opens in new tab"
+    >
+        Book Now
+    </a>
 </body>
 </html>
 
