@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Winnipeg's Murals and Street Art: A City Canvas | Stay Winnipeg Blog</title>
+    <meta name="title" content="Winnipeg's Murals and Street Art: A City Canvas | Stay Winnipeg Blog">
+    <meta name="description" content="Discover Winnipeg's vibrant street art scene. Explore colorful murals, public art installations, and creative expressions that transform the city into an open-air gallery.">
+    <meta name="keywords" content="Winnipeg murals, street art Winnipeg, public art Winnipeg, Winnipeg graffiti art, urban art Winnipeg, Winnipeg art walk">
+    <meta name="author" content="David">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://staywinnipeg.ca/blog-winnipeg-murals.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://staywinnipeg.ca/blog-winnipeg-murals.html">
+    <meta property="og:title" content="Winnipeg's Murals and Street Art: A City Canvas">
+    <meta property="og:description" content="Discover Winnipeg's vibrant street art scene. Explore colorful murals, public art installations, and creative expressions throughout the city.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=1200&h=600&fit=crop">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://staywinnipeg.ca/blog-winnipeg-murals.html">
+    <meta name="twitter:title" content="Winnipeg's Murals and Street Art: A City Canvas">
+    <meta name="twitter:description" content="Discover Winnipeg's vibrant street art scene. Explore colorful murals, public art installations, and creative expressions throughout the city.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=1200&h=600&fit=crop">
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --mustard: #F4A261;
+            --teal: #2A9D8F;
+            --burnt-orange: #E76F51;
+            --charcoal: #264653;
+            --text: #1A1A1A;
+            --text-light: #4A4A4A;
+            --bg: #FEF9E7;
+            --bg-light: #F5E6D3;
+            --cream: #FEF9E7;
+            --border: #E8D5C4;
+            --shadow: rgba(38, 70, 83, 0.15);
+            --font-body: 'Manrope', 'Helvetica Neue', Arial, sans-serif;
+            --font-heading: 'Playfair Display', 'Times New Roman', serif;
+        }
+
+        body {
+            font-family: var(--font-body);
+            line-height: 1.7;
+            color: var(--text);
+            background: var(--bg);
+        }
+
+        h1, h2, h3 {
+            font-family: var(--font-heading);
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1.25rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(254, 249, 231, 0.98);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px var(--shadow);
+            z-index: 1000;
+            border-bottom: 2px solid var(--mustard);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--charcoal);
+            font-family: var(--font-heading);
+            letter-spacing: -0.03em;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+            text-decoration: none;
+        }
+
+        .logo-title {
+            display: inline-flex;
+            align-items: center;
+            font-family: var(--font-heading);
+        }
+
+        .logo-title::after {
+            content: '✦';
+            color: var(--mustard);
+            margin-left: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .logo-subtitle {
+            font-size: 0.65rem;
+            font-weight: 400;
+            color: var(--text-light);
+            font-family: var(--font-body);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 0.2rem;
+            opacity: 0.8;
+            text-align: left;
+            align-self: flex-start;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 500;
+            font-size: 1rem;
+            font-family: var(--font-body);
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 0.5rem 0;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links a::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background: var(--teal);
+            border-radius: 2px;
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--teal);
+        }
+
+        .nav-links a:hover::before {
+            width: 100%;
+        }
+
+        .nav-links a.active {
+            color: var(--teal);
+        }
+
+        .nav-links a.nav-cta {
+            background: var(--charcoal);
+            color: white !important;
+            padding: 0.6rem 1.5rem;
+            border-radius: 25px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(38, 70, 83, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a.nav-cta::before {
+            display: none;
+        }
+
+        .nav-links a.nav-cta:hover {
+            background: var(--teal);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(42, 157, 143, 0.4);
+            color: white !important;
+        }
+
+        .article-header {
+            margin-top: 100px;
+            padding: 3rem 0 2rem;
+            text-align: center;
+        }
+
+        .article-meta {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+
+        .article-hero-image {
+            margin: 2rem 0 3rem;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px var(--shadow);
+        }
+
+        .article-hero-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .article-body {
+            padding: 2rem 0 4rem;
+        }
+
+        .article-body p {
+            margin-bottom: 1.25rem;
+        }
+
+        .article-body ul {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .article-body li {
+            margin-bottom: 0.75rem;
+        }
+
+        .highlight-box {
+            background: var(--bg-light);
+            border-left: 4px solid var(--mustard);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--teal);
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: var(--charcoal);
+            color: var(--cream);
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--mustard), var(--teal), var(--burnt-orange));
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+            margin-bottom: 2.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--cream);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        .footer-links a::after {
+            content: '✦';
+            color: var(--mustard);
+            margin-left: 0.5rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--mustard);
+        }
+
+        .footer-links a:hover::after {
+            opacity: 1;
+        }
+
+        .footer-text {
+            margin: 1rem 0;
+            color: var(--cream);
+        }
+
+        .footer-text a {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        .footer-registration {
+            margin-top: 1rem;
+            font-size: 0.875rem;
+            color: rgba(254, 249, 231, 0.7);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="https://staywinnipeg.ca/" class="logo" role="banner">
+                <span class="logo-title">Corydon Cute & Stylish</span>
+                <span class="logo-subtitle">Boutique Airbnb in Winnipeg</span>
+            </a>
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="https://staywinnipeg.ca/" role="menuitem">Home</a></li>
+                <li role="none"><a href="https://staywinnipeg.ca/#features" role="menuitem">Features</a></li>
+                <li role="none"><a href="https://staywinnipeg.ca/#reviews" role="menuitem">Reviews</a></li>
+                <li role="none"><a href="https://staywinnipeg.ca/#amenities" role="menuitem">Amenities</a></li>
+                <li role="none"><a href="https://staywinnipeg.ca/#nearby" role="menuitem">Nearby</a></li>
+                <li role="none"><a href="https://staywinnipeg.ca/blog.html" class="active" role="menuitem">Blog</a></li>
+                <li role="none"><a href="https://www.airbnb.ca/rooms/716340250371431352" class="nav-cta" role="menuitem" aria-label="Book your stay on Airbnb">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <article class="container">
+            <div class="article-header">
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <h1>Winnipeg's Murals and Street Art: A City Canvas</h1>
+                <div class="article-meta">
+                    <span>🎨 Street Art</span> • <span>⏱️ 6 min read</span> • <span>📅 October 2, 2025</span>
+                </div>
+            </div>
+
+            <div class="article-hero-image">
+                <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=1200&h=600&fit=crop" alt="Colorful street art mural in Winnipeg" loading="eager">
+            </div>
+
+            <div class="article-body">
+                <p>As you explore Winnipeg, you'll discover that the city itself is a canvas. From large-scale murals covering entire building walls to smaller street art pieces tucked into alleys, Winnipeg's public art scene is vibrant, diverse, and constantly evolving. These artworks tell stories, celebrate culture, beautify neighborhoods, and transform ordinary urban spaces into galleries that everyone can enjoy.</p>
+
+                <h2>A Growing Art Scene</h2>
+                <p>Winnipeg's street art scene has grown significantly in recent years, with both commissioned murals and community-driven projects adding color and creativity throughout the city. What makes Winnipeg's street art special is its diversity—you'll find everything from large, professional murals celebrating local culture to smaller pieces that reflect the city's creative spirit.</p>
+
+                <p>The city has embraced street art as a way to beautify neighborhoods, deter graffiti, and celebrate local artists. Organizations and businesses have commissioned murals, while community groups have organized projects that bring artists and neighborhoods together.</p>
+
+                <h2>Where to Find Street Art</h2>
+                <p>Street art can be found throughout Winnipeg, but some areas are particularly rich in murals:</p>
+
+                <h3>The Exchange District</h3>
+                <p>The historic Exchange District is home to numerous murals, many of which celebrate the area's history and culture. The combination of historic architecture and contemporary art creates a unique and visually striking environment.</p>
+
+                <h3>West Broadway</h3>
+                <p>This neighborhood has become a hub for street art, with numerous murals celebrating community, culture, and local stories. The art here often reflects the diverse and vibrant community that calls West Broadway home.</p>
+
+                <h3>Osborne Village</h3>
+                <p>Osborne Village, near Corydon, features several murals that add to the neighborhood's creative and eclectic atmosphere. The art here ranges from playful to thought-provoking.</p>
+
+                <h3>Downtown</h3>
+                <p>Downtown Winnipeg features several large-scale murals, often on the sides of buildings, creating dramatic and impressive works of art that can be seen from a distance.</p>
+
+                <h2>Notable Murals and Artists</h2>
+                <p>Winnipeg is home to many talented mural artists, both local and from across Canada. Some murals have become landmarks, while others are hidden gems waiting to be discovered. The themes are diverse, including:</p>
+
+                <ul>
+                    <li>Celebrations of Indigenous culture and history</li>
+                    <li>Portraits of notable Winnipeggers</li>
+                    <li>Abstract and geometric designs</li>
+                    <li>Nature and wildlife</li>
+                    <li>Social and political commentary</li>
+                    <li>Celebrations of community and diversity</li>
+                </ul>
+
+                <h2>Street Art Tours</h2>
+                <p>One of the best ways to experience Winnipeg's street art is on foot. Many neighborhoods are walkable, making it easy to discover murals as you explore. Some organizations offer guided street art tours, providing context and stories behind the artworks.</p>
+
+                <p>You can also create your own walking tour, using online maps and resources to find murals in different neighborhoods. The joy of street art is often in the discovery—turning a corner and finding a beautiful piece you didn't know was there.</p>
+
+                <h2>The Impact of Street Art</h2>
+                <p>Street art does more than just beautify—it can transform neighborhoods, create community pride, and provide opportunities for local artists. In Winnipeg, murals have been used to:</p>
+
+                <ul>
+                    <li>Celebrate and honor local culture and history</li>
+                    <li>Create landmarks and gathering places</li>
+                    <li>Support local artists and provide them with opportunities</li>
+                    <li>Engage communities in the creative process</li>
+                    <li>Address social issues and start conversations</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <p><strong>Pro Tip:</strong> The best time to view street art is during daylight hours when you can see the colors and details clearly. Bring a camera—many of these murals are Instagram-worthy! Be respectful when photographing—these are works of art and should be treated with respect. Also, keep in mind that street art is often temporary, so if you see something you love, photograph it—it might not be there on your next visit.</p>
+                </div>
+
+                <h2>Community and Culture</h2>
+                <p>Many of Winnipeg's murals are created through community partnerships, bringing together artists, residents, and organizations. This collaborative approach ensures that the art reflects the communities it serves and creates a sense of ownership and pride.</p>
+
+                <p>Some murals tell specific stories about neighborhoods, celebrating their history, culture, and people. Others address broader themes, connecting local stories to universal experiences.</p>
+
+                <h2>Photography and Social Media</h2>
+                <p>Winnipeg's street art has become popular on social media, with locals and visitors sharing photos of their favorite murals. This has helped raise awareness of the city's art scene and has even become a form of tourism, with people seeking out specific murals to photograph.</p>
+
+                <p>If you're interested in photography, the murals provide excellent subjects. The large scale, vibrant colors, and interesting compositions make for striking images. Just remember to be respectful and follow any posted guidelines.</p>
+
+                <h2>Getting Around</h2>
+                <p>Many of Winnipeg's murals are located in walkable neighborhoods, making it easy to explore on foot. The Exchange District, West Broadway, and Osborne Village are all great areas to start. You can also combine a street art walk with other activities—grab coffee, visit shops, or have a meal while you explore.</p>
+
+                <p>From our Airbnb in Crescentwood, you're close to Osborne Village and the Exchange District, both of which feature numerous murals. A walk through these neighborhoods will reveal art around many corners.</p>
+
+                <h2>Why Street Art Matters</h2>
+                <p>Street art makes art accessible to everyone—you don't need to go to a gallery or pay admission. It's art that lives in the city, that you encounter as you go about your day. It can surprise you, inspire you, make you think, or simply make you smile.</p>
+
+                <p>In Winnipeg, street art also reflects the city's creative spirit and its commitment to supporting artists and celebrating culture. The murals you see are the work of talented artists who are contributing to the city's visual landscape and cultural identity.</p>
+
+                <h2>Discovering the Art</h2>
+                <p>One of the joys of exploring Winnipeg's street art is the element of discovery. You might be walking to a restaurant and notice a beautiful mural you hadn't seen before. You might turn down an alley and find a hidden piece of art. The art is integrated into the city, making exploration itself part of the experience.</p>
+
+                <p>Take your time as you walk through Winnipeg's neighborhoods. Look up at building walls, check out alleys, and keep your eyes open. The city's street art is constantly evolving, with new pieces appearing and old ones being refreshed or replaced. Every visit can reveal something new.</p>
+
+                <p>Winnipeg's murals and street art are more than decoration—they're expressions of the city's creativity, culture, and community. They transform ordinary spaces into places of beauty and meaning, making the city itself a gallery that's open to all.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://staywinnipeg.ca/">Home</a>
+                <a href="https://staywinnipeg.ca/#features">Features</a>
+                <a href="https://staywinnipeg.ca/#reviews">Reviews</a>
+                <a href="https://staywinnipeg.ca/#amenities">Amenities</a>
+                <a href="https://staywinnipeg.ca/#nearby">Nearby</a>
+                <a href="https://staywinnipeg.ca/blog.html">Blog</a>
+                <a href="https://www.airbnb.ca/rooms/716340250371431352">Book Now</a>
+            </div>
+            <p>&copy; 2025 Corydon Cute & Stylish. All rights reserved.</p>
+            <p class="footer-text">
+                <a href="https://www.airbnb.ca/h/corydon-cute-and-stylish">
+                    airbnb.ca/h/corydon-cute-and-stylish
+                </a>
+            </p>
+            <p class="footer-registration">
+                Registration details: STRA-2025-2600298
+            </p>
+        </div>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Winnipeg's Murals and Street Art: A City Canvas",
+        "description": "Discover Winnipeg's vibrant street art scene. Explore colorful murals, public art installations, and creative expressions that transform the city into an open-air gallery.",
+        "author": {
+            "@type": "Person",
+            "name": "David"
+        },
+        "datePublished": "2025-10-02",
+        "dateModified": "2025-10-02",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Stay Winnipeg"
+        },
+        "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=1200&h=600&fit=crop"
+    }
+    </script>
+</body>
+</html>
+
+
