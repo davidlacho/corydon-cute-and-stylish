@@ -1489,6 +1489,7 @@
                 border: 1px solid var(--border);
                 box-shadow: 0 2px 4px var(--shadow);
                 transition: all 0.2s ease;
+                color: #0A0A0A;
             }
 
             .nearby-tab:hover {
@@ -1904,7 +1905,7 @@
             cursor: pointer;
             font-weight: 600;
             font-size: 0.9rem;
-            color: var(--text);
+            color: #0A0A0A;
             transition: all 0.3s ease;
             display: flex;
             align-items: center;
@@ -2331,7 +2332,7 @@
         }
 
         .amenity-unavailable {
-            opacity: 0.5;
+            color: #6B6B6B;
             text-decoration: line-through;
         }
 
@@ -3697,7 +3698,7 @@
                         
                         {/* Map Section */}
                         <div className="map-container map-container-spacing">
-                            <div id="location-map" aria-label="Interactive map showing property location"></div>
+                            <div id="location-map" role="img" aria-label="Interactive map showing property location"></div>
                         </div>
                         
                         <div className="nearby-tabs">
@@ -4406,8 +4407,8 @@
                                 <li><a href="#reviews" onClick={closeMobileMenu}>Reviews</a></li>
                                 <li><a href="#amenities" onClick={closeMobileMenu}>Amenities</a></li>
                                 <li><a href="#nearby" onClick={closeMobileMenu}>Nearby</a></li>
-                                <li role="none"><a href="/blog.html" onClick={closeMobileMenu} role="menuitem">Blog</a></li>
-                                <li role="none"><a href="https://www.airbnb.ca/rooms/716340250371431352" className="nav-cta" onClick={closeMobileMenu} role="menuitem" aria-label="Book your stay on Airbnb">Book Now</a></li>
+                                <li><a href="/blog.html" onClick={closeMobileMenu}>Blog</a></li>
+                                <li><a href="https://www.airbnb.ca/rooms/716340250371431352" className="nav-cta" onClick={closeMobileMenu} aria-label="Book your stay on Airbnb">Book Now</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -4476,7 +4477,7 @@
                                         </a>
                                     </div>
                                     <div className="hero-host-info">
-                                        <h3 className="host-section-title">Meet Your Host</h3>
+                                        <h2 className="host-section-title">Meet Your Host</h2>
                                         <div className="flex-center-gap">
                                             <div className="host-badge-avatar" aria-hidden="true"></div>
                                             <div className="host-badge-text">
@@ -4523,7 +4524,7 @@
                                                 <div className="review-date">{review.date}</div>
                                             </div>
                                         </div>
-                                        <div className="review-rating" aria-label={`${review.rating} out of 5 stars`}>
+                                        <div className="review-rating" role="img" aria-label={`${review.rating} out of 5 stars`}>
                                             {[...Array(review.rating)].map((_, i) => (
                                                 <span key={i} className="review-star" aria-hidden="true">★</span>
                                             ))}
