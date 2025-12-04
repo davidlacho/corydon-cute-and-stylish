@@ -10,6 +10,12 @@ Owner: David
 Home: https://staywinnipeg.ca/
 Blog: https://staywinnipeg.ca/blog.html
 
+# Content Overview
+Total Blog Posts: 32
+- Winnipeg Attractions & Activities: 23 guides
+- Hosting & Airbnb Philosophy: 4 posts
+- Travel Experiences & Stories: 5 posts
+
 # Content Pages by Category
 
 ## Winnipeg Attractions & Activities (23 guides)
@@ -70,6 +76,31 @@ Registration: STRA-2025-2600298
 Primary: Winnipeg Airbnb, vacation rental Winnipeg, Corydon neighborhood
 Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Winnipeg
 
-# Contact
+# Site Structure
+- Main homepage with property showcase and booking information
+- Blog index page listing all 32 blog posts by category
+- 32 individual blog post pages covering local guides, hosting insights, and travel stories
+- Image gallery with 70+ property and local attraction photos
+- Sitemap.xml for search engine indexing
+- Robots.txt for search engine crawling guidelines
+
+# Content Strategy
+The site combines three content pillars:
+1. **Local Expertise**: Comprehensive guides to Winnipeg attractions, neighborhoods, restaurants, and activities to help guests plan their visit
+2. **Hosting Philosophy**: Insights into Airbnb hosting best practices, design lessons, and customer service approach
+3. **Travel Stories**: Personal travel experiences that inform and inspire the hosting approach
+
+# Target Audience
+- Families visiting Winnipeg for vacation or events
+- Business travelers seeking comfortable accommodation
+- Tourists exploring Manitoba and wanting local expertise
+- People attending Winnipeg festivals and cultural events
+- Guests looking for pet-friendly accommodation in central location
+
+# Contact & Booking
 Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431352
+Host: David (Superhost, 14+ years hosting experience)
+
+# Last Updated
+December 2025
 
