@@ -36,10 +36,3 @@ Allow: /
 # Sitemap location
 Sitemap: https://staywinnipeg.ca/sitemap.xml
 
-# LLM-specific information file
-# See https://llmstxt.org/ for more information
-llms.txt: https://staywinnipeg.ca/llms.txt
-
-# Preferred domain
-Host: https://staywinnipeg.ca
-
