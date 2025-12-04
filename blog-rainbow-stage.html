@@ -237,8 +237,7 @@
         }
 
         .article-header {
-            margin-top: 100px;
-            padding: 3rem 0 2rem;
+            padding: 2rem 0 2rem;
             text-align: center;
         }
 
@@ -298,42 +297,8 @@
             text-decoration: underline;
         }
 
-        /* Breadcrumb Navigation */
-        .breadcrumb {
-            padding: 1rem 0;
-            font-size: 0.9rem;
-        }
-
-        .breadcrumb ol {
-            list-style: none;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .breadcrumb li {
-            display: flex;
-            align-items: center;
-        }
-
-        .breadcrumb li:not(:last-child)::after {
-            content: '›';
-            margin-left: 0.5rem;
-            color: var(--text-light);
-        }
-
-        .breadcrumb a {
-            color: var(--teal);
-            text-decoration: none;
-        }
-
-        .breadcrumb a:hover {
-            text-decoration: underline;
-        }
-
-        .breadcrumb li:last-child {
-            color: var(--text-light);
+        article.container {
+            margin-top: 100px;
         }
 
         /* Skip Link for Accessibility */
@@ -477,27 +442,6 @@
             <meta itemprop="dateModified" content="2025-12-03T00:00:00+00:00">
             <meta itemprop="author" content="David">
             <meta itemprop="timeRequired" content="PT12M">
-            
-            <nav class="breadcrumb" aria-label="Breadcrumb">
-                <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                        <a itemprop="item" href="https://staywinnipeg.ca/">
-                            <span itemprop="name">Home</span>
-                        </a>
-                        <meta itemprop="position" content="1" />
-                    </li>
-                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                        <a itemprop="item" href="https://staywinnipeg.ca/blog.html">
-                            <span itemprop="name">Blog</span>
-                        </a>
-                        <meta itemprop="position" content="2" />
-                    </li>
-                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                        <span itemprop="name">Rainbow Stage: Canada's Longest-Running Outdoor Theatre</span>
-                        <meta itemprop="position" content="3" />
-                    </li>
-                </ol>
-            </nav>
 
             <div class="article-header">
                 <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
