@@ -1,9 +1,45 @@
+# robots.txt for staywinnipeg.ca
+# Allow all search engines and AI crawlers to index this site
+
+# Default rule for all crawlers
 User-agent: *
+Allow: /
+
+# Explicitly allow common AI/LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Perplexity
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Diffbot
 Allow: /
 
 # Sitemap location
 Sitemap: https://staywinnipeg.ca/sitemap.xml
 
-# Crawl-delay (optional, helps prevent overloading server)
-Crawl-delay: 1
+# LLM-specific information file
+# See https://llmstxt.org/ for more information
+llms.txt: https://staywinnipeg.ca/llms.txt
+
+# Preferred domain
+Host: https://staywinnipeg.ca
 

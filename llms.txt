@@ -10,21 +10,45 @@ Owner: David
 Home: https://staywinnipeg.ca/
 Blog: https://staywinnipeg.ca/blog.html
 
-# Key Content Pages
-- /blog-corydon-guide.html - Guide to Corydon Avenue neighborhood
-- /blog-exchange-district.html - Information about Winnipeg's Exchange District
-- /blog-family-activities.html - Family-friendly activities in Winnipeg
-- /blog-human-rights-museum.html - Canadian Museum for Human Rights guide
-- /blog-peanut-park.html - Information about Enderton (Peanut) Park
-- /blog-restaurants.html - Winnipeg restaurant recommendations
-- /blog-the-forks.html - The Forks market and area guide
-- /blog-things-to-do.html - Things to do in Winnipeg
-- /blog-transportation.html - Getting around Winnipeg
-- /blog-winnipeg-art-gallery.html - Winnipeg Art Gallery information
-- /blog-winnipeg-folk-festival.html - Winnipeg Folk Festival guide
-- /blog-winnipeg-guest-guide.html - Comprehensive guest guide for Winnipeg
-- /blog-winnipeg-murals.html - Winnipeg murals and street art
-- /blog-winnipeg-winter-activities.html - Winter activities in Winnipeg
+# Content Pages by Category
+
+## Winnipeg Attractions & Activities (23 guides)
+- /blog-assiniboine-park.html - Assiniboine Park & The Leaf: Zoo, Gardens & Complete Visitor Guide
+- /blog-corydon-guide.html - Corydon Village: Little Italy Guide (Restaurants, Cafes & Things to Do)
+- /blog-crescentwood-history.html - The History of Crescentwood: Winnipeg's Most Prestigious Neighborhood
+- /blog-exchange-district.html - Exchange District: Historic Architecture, Murals & Things to Do
+- /blog-family-activities.html - Things to Do with Kids in Winnipeg: 20+ Family Activities
+- /blog-festival-du-voyageur.html - Festival du Voyageur: Celebrating Winnipeg's Winter Heritage
+- /blog-gunns-bakery.html - Gunn's Bakery: A Winnipeg Tradition Since 1937
+- /blog-human-rights-museum.html - Canadian Museum for Human Rights: A Journey of Understanding
+- /blog-peanut-park.html - Peanut Park (Enderton Park): A Hidden Gem in Crescentwood
+- /blog-rainbow-stage.html - Rainbow Stage: Canada's Longest-Running Outdoor Theatre
+- /blog-restaurants.html - Good Winnipeg Restaurants 2026: Best Dining, Hidden Gems & Local Favorites
+- /blog-river-walks.html - Best Trails in Winnipeg: River Walks, Bike Paths & Walking Routes
+- /blog-ruskin-row-residents.html - The Original Residents of Ruskin Row: Winnipeg's Historic Crescentwood Street
+- /blog-st-vital-park.html - St. Vital Park: Winnipeg's Riverside Oasis
+- /blog-the-forks.html - The Forks: Where Winnipeg's History and Culture Converge
+- /blog-things-to-do.html - Top 15 Things to Do in Winnipeg: A Complete Visitor's Guide
+- /blog-transportation.html - Getting Around Winnipeg: Complete 2026 Transportation Guide
+- /blog-winnipeg-art-gallery.html - Winnipeg Art Gallery (WAG) & Qaumajuq: Hours, Tickets & Inuit Art Collection
+- /blog-winnipeg-coffee.html - Best Coffee Shops in Winnipeg 2026: Specialty Coffee, Roasters & Cute Cafes
+- /blog-winnipeg-folk-festival.html - Winnipeg Folk Festival: A Summer Music Celebration
+- /blog-winnipeg-guest-guide.html - Setting Up Guests for Success: Our Complete Winnipeg Airbnb Guide
+- /blog-winnipeg-murals.html - Murals of Winnipeg: Complete Street Art Map & Best Instagram Spots
+- /blog-winnipeg-winter-activities.html - Things to Do in Winter in Winnipeg: Ice Skating, Festivals & Indoor Activities
+
+## Hosting & Airbnb Philosophy (4 posts)
+- /blog-airbnb-design-lessons.html - Design Lessons from Airbnbs Around the World
+- /blog-hosting-best-practices.html - Hosting Best Practices: What We've Learned from 14 Years
+- /blog-post-review-philosophy.html - Feedback as a Gift: Our Philosophy on Continuous Improvement
+- /blog-unique-airbnb-features.html - Most Memorable Airbnb Features We've Encountered
+
+## Travel Experiences & Stories (5 posts)
+- /blog-bali-nyaman.html - The Stay That Became a Lifelong Friendship: Nyaman Apartments Canggu
+- /blog-budapest-caving.html - Exploring Budapest's Longest Cave: An Unforgettable Caving Adventure
+- /blog-lisbon-2015.html - The Airbnb That Shaped Our Hosting Philosophy: A 2015 Lisbon Stay
+- /blog-marseille-trip-gone-wrong.html - When Things Go Wrong: Lessons from a Marseille Airbnb Disaster
+- /blog-puerto-vallarta-stay.html - What We Learned from a Modern Puerto Vallarta Apartment
 
 # Property Information
 Property Name: Corydon Cute & Stylish
