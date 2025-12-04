@@ -438,6 +438,66 @@
             display: none;
         }
 
+        /* No-script styles */
+        .noscript-warning {
+            background: var(--mustard);
+            color: var(--charcoal);
+            padding: 1rem 2rem;
+            text-align: center;
+            font-weight: 500;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+
+        .noscript-info {
+            background: white;
+            border: 2px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+        }
+
+        .noscript-info h3 {
+            color: var(--teal);
+            margin-top: 0;
+            font-size: 1.25rem;
+        }
+
+        .noscript-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .noscript-links a {
+            display: block;
+            padding: 0.75rem 1.25rem;
+            background: var(--teal);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .noscript-links a:hover {
+            background: var(--charcoal);
+            transform: translateY(-2px);
+        }
+
+        /* Category headers - only visible when JS is disabled */
+        .category-header {
+            display: none;
+            margin: 3rem 0 2rem 0;
+            padding-bottom: 0.75rem;
+            border-bottom: 3px solid var(--teal);
+            color: var(--charcoal);
+            font-size: 2rem;
+            scroll-margin-top: 100px;
+        }
+
         /* Article Cards */
         .articles-grid {
             display: grid;
@@ -736,6 +796,24 @@
             }
         }
     </style>
+    
+    <noscript>
+        <style>
+            /* Show category headers when JavaScript is disabled */
+            .category-header {
+                display: block !important;
+            }
+            
+            /* Hide interactive controls when JavaScript is disabled */
+            .filter-sort-container {
+                display: none !important;
+            }
+            
+            .results-count {
+                display: none !important;
+            }
+        </style>
+    </noscript>
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -772,6 +850,21 @@
                     <p>Welcome to our travel blog! From exploring Winnipeg's vibrant Corydon neighborhood to unforgettable stays in Bali, Budapest, Lisbon, and beyond, we share our travel experiences, hosting insights, and the lessons we've learned from staying in Airbnbs across five continents.</p>
                 </div>
 
+                <noscript>
+                    <div class="noscript-warning">
+                        📌 Interactive features are disabled. All blog posts are displayed below in their default order.
+                    </div>
+                    <div class="noscript-info">
+                        <h3>Browse by Category</h3>
+                        <p>Click a category below to jump to those posts, or scroll down to see all articles:</p>
+                        <div class="noscript-links">
+                            <a href="#winnipeg-posts">Winnipeg Guides</a>
+                            <a href="#travel-posts">Travel Experiences</a>
+                            <a href="#hosting-posts">Hosting & Design</a>
+                        </div>
+                    </div>
+                </noscript>
+
                 <div class="blog-controls">
                     <div class="filter-sort-container">
                         <div class="filter-buttons" role="group" aria-label="Filter blog posts by category">
@@ -794,6 +887,8 @@
                 </div>
 
                 <div class="articles-grid" id="articles-grid">
+                    <h2 class="category-header" id="hosting-posts" style="grid-column: 1 / -1;">🏠 Hosting & Design</h2>
+                    
                     <!-- Article: Review Philosophy -->
                     <a href="/blog-post-review-philosophy.html" class="article-card" data-category="hosting" data-date="2025-12-04" data-title="Feedback as a Gift: Our Philosophy on Continuous Improvement">
                         <div class="article-image">
@@ -810,6 +905,76 @@
                             <span class="read-more">Read Article</span>
                         </div>
                     </a>
+
+                    <!-- Article 2: Winnipeg Guest Guide -->
+                    <a href="/blog-winnipeg-guest-guide.html" class="article-card" data-category="hosting" data-date="2025-11-20" data-title="Setting Up Guests for Success: Our Complete Winnipeg Airbnb Guide">
+                        <div class="article-image">
+                            <img src="images/2025-10-09-5-Ruskin-Row-00001.jpg" alt="Corydon Cute & Stylish Airbnb in Winnipeg's Corydon neighborhood" loading="lazy">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span>🏠 Hosting Tips</span>
+                                <span>⏱️ 12 min read</span>
+                                <span>📅 November 20, 2025</span>
+                            </div>
+                            <h2>Setting Up Guests for Success: Our Complete Winnipeg Airbnb Guide</h2>
+                            <p>Discover how we set up our guests for a successful stay in Winnipeg. From winter parking tips to energy conservation, learn about our comprehensive guest guide and house rules designed to help ensure a comfortable Winnipeg experience.</p>
+                            <span class="read-more">Read Article</span>
+                        </div>
+                    </a>
+
+                    <!-- Article 7: Airbnb Design Lessons -->
+                    <a href="/blog-airbnb-design-lessons.html" class="article-card" data-category="hosting" data-date="2025-02-10" data-title="Design Lessons from Airbnbs Around the World">
+                        <div class="article-image">
+                            <img src="images/airbnb-interior.jpg" alt="Beautiful Airbnb interior design" loading="lazy">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span>🏠 Design & Hosting</span>
+                                <span>⏱️ 7 min read</span>
+                                <span>📅 February 10, 2025</span>
+                            </div>
+                            <h2>Design Lessons from Airbnbs Around the World</h2>
+                            <p>What makes an Airbnb truly memorable? We've traveled the globe staying in unique properties and learned valuable design lessons that we've applied to our Winnipeg home. Discover what works and what doesn't.</p>
+                            <span class="read-more">Read Article</span>
+                        </div>
+                    </a>
+
+                    <!-- Article 8: Hosting Best Practices -->
+                    <a href="/blog-hosting-best-practices.html" class="article-card" data-category="hosting" data-date="2025-02-15" data-title="Hosting Best Practices: What We've Learned from 14 Years">
+                        <div class="article-image">
+                            <img src="images/airbnb-host.jpg" alt="Airbnb host preparing guest welcome" loading="lazy">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span>⭐ Hosting Tips</span>
+                                <span>⏱️ 6 min read</span>
+                                <span>📅 February 15, 2025</span>
+                            </div>
+                            <h2>Hosting Best Practices: What We've Learned from 14 Years</h2>
+                            <p>After staying in Airbnbs across five continents, we've identified the key practices that separate good hosts from great ones. Learn how we've incorporated these insights to create exceptional guest experiences.</p>
+                            <span class="read-more">Read Article</span>
+                        </div>
+                    </a>
+
+                    <!-- Article 9: Unique Airbnb Features -->
+                    <a href="/blog-unique-airbnb-features.html" class="article-card" data-category="hosting" data-date="2025-02-20" data-title="Most Memorable Airbnb Features We've Encountered">
+                        <div class="article-image">
+                            <img src="images/unique-airbnb-features.jpg" alt="Unique and creative Airbnb features" loading="lazy">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span>✨ Unique Features</span>
+                                <span>⏱️ 5 min read</span>
+                                <span>📅 February 20, 2025</span>
+                            </div>
+                            <h2>Most Memorable Airbnb Features We've Encountered</h2>
+                            <p>From rooftop gardens in Barcelona to vintage record collections in Tokyo, we've seen some incredible touches that made stays unforgettable. Here are the features that inspired our own space.</p>
+                            <span class="read-more">Read Article</span>
+                        </div>
+                    </a>
+
+                    <h2 class="category-header" id="winnipeg-posts" style="grid-column: 1 / -1;">📍 Winnipeg Guides</h2>
 
                     <!-- Article: Rainbow Stage -->
                     <a href="/blog-rainbow-stage.html" class="article-card" data-category="winnipeg" data-date="2025-12-03" data-title="Rainbow Stage: Canada's Longest-Running Outdoor Theatre">
@@ -841,23 +1006,6 @@
                             </div>
                             <h2>Exploring Corydon Village: Winnipeg's Most Vibrant Neighborhood</h2>
                             <p>Discover the heart of Winnipeg's Corydon Avenue, from authentic Italian restaurants to cozy cafes and unique boutiques. Your complete guide to "Little Italy" and why it's the perfect place to stay.</p>
-                            <span class="read-more">Read Article</span>
-                        </div>
-                    </a>
-
-                    <!-- Article 2: Winnipeg Guest Guide -->
-                    <a href="/blog-winnipeg-guest-guide.html" class="article-card" data-category="hosting" data-date="2025-11-20" data-title="Setting Up Guests for Success: Our Complete Winnipeg Airbnb Guide">
-                        <div class="article-image">
-                            <img src="images/2025-10-09-5-Ruskin-Row-00001.jpg" alt="Corydon Cute & Stylish Airbnb in Winnipeg's Corydon neighborhood" loading="lazy">
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span>🏠 Hosting Tips</span>
-                                <span>⏱️ 12 min read</span>
-                                <span>📅 November 20, 2025</span>
-                            </div>
-                            <h2>Setting Up Guests for Success: Our Complete Winnipeg Airbnb Guide</h2>
-                            <p>Discover how we set up our guests for a successful stay in Winnipeg. From winter parking tips to energy conservation, learn about our comprehensive guest guide and house rules designed to help ensure a comfortable Winnipeg experience.</p>
                             <span class="read-more">Read Article</span>
                         </div>
                     </a>
@@ -981,125 +1129,6 @@
                         </div>
                     </a>
 
-                    <!-- Article 7: Airbnb Design Lessons -->
-                    <a href="/blog-airbnb-design-lessons.html" class="article-card" data-category="hosting" data-date="2025-02-10" data-title="Design Lessons from Airbnbs Around the World">
-                        <div class="article-image">
-                            <img src="images/airbnb-interior.jpg" alt="Beautiful Airbnb interior design" loading="lazy">
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span>🏠 Design & Hosting</span>
-                                <span>⏱️ 7 min read</span>
-                                <span>📅 February 10, 2025</span>
-                            </div>
-                            <h2>Design Lessons from Airbnbs Around the World</h2>
-                            <p>What makes an Airbnb truly memorable? We've traveled the globe staying in unique properties and learned valuable design lessons that we've applied to our Winnipeg home. Discover what works and what doesn't.</p>
-                            <span class="read-more">Read Article</span>
-                        </div>
-                    </a>
-
-                    <!-- Article 8: Hosting Best Practices -->
-                    <a href="/blog-hosting-best-practices.html" class="article-card" data-category="hosting" data-date="2025-02-15" data-title="Hosting Best Practices: What We've Learned from 14 Years">
-                        <div class="article-image">
-                            <img src="images/airbnb-host.jpg" alt="Airbnb host preparing guest welcome" loading="lazy">
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span>⭐ Hosting Tips</span>
-                                <span>⏱️ 6 min read</span>
-                                <span>📅 February 15, 2025</span>
-                            </div>
-                            <h2>Hosting Best Practices: What We've Learned from 14 Years</h2>
-                            <p>After staying in Airbnbs across five continents, we've identified the key practices that separate good hosts from great ones. Learn how we've incorporated these insights to create exceptional guest experiences.</p>
-                            <span class="read-more">Read Article</span>
-                        </div>
-                    </a>
-
-                    <!-- Article 9: Unique Airbnb Features -->
-                    <a href="/blog-unique-airbnb-features.html" class="article-card" data-category="hosting" data-date="2025-02-20" data-title="Most Memorable Airbnb Features We've Encountered">
-                        <div class="article-image">
-                            <img src="images/unique-airbnb-features.jpg" alt="Unique and creative Airbnb features" loading="lazy">
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span>✨ Unique Features</span>
-                                <span>⏱️ 5 min read</span>
-                                <span>📅 February 20, 2025</span>
-                            </div>
-                            <h2>Most Memorable Airbnb Features We've Encountered</h2>
-                            <p>From rooftop gardens in Barcelona to vintage record collections in Tokyo, we've seen some incredible touches that made stays unforgettable. Here are the features that inspired our own space.</p>
-                            <span class="read-more">Read Article</span>
-                        </div>
-                    </a>
-
-                    <!-- Article 10: Puerto Vallarta Stay -->
-                    <a href="/blog-puerto-vallarta-stay.html" class="article-card" data-category="travel" data-date="2025-02-25" data-title="What We Learned from a Modern Puerto Vallarta Apartment">
-                        <div class="article-image">
-                            <img src="images/puertovallarta.png" alt="Puerto Vallarta apartment interior" loading="lazy">
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span>🌴 Travel Experience</span>
-                                <span>⏱️ 6 min read</span>
-                                <span>📅 February 25, 2025</span>
-                            </div>
-                            <h2>What We Learned from a Modern Puerto Vallarta Apartment</h2>
-                            <p>Our experience staying at a modern apartment in Puerto Vallarta's Romantic Zone taught us valuable lessons about views, location, and creating memorable guest experiences. Discover what made this stay exceptional.</p>
-                            <span class="read-more">Read Article</span>
-                        </div>
-                    </a>
-
-                    <!-- Article 11: Lisbon 2015 -->
-                    <a href="/blog-lisbon-2015.html" class="article-card" data-category="travel" data-date="2025-03-01" data-title="The Airbnb That Shaped Our Hosting Philosophy: A 2015 Lisbon Stay">
-                        <div class="article-image">
-                            <img src="images/lisbon.png" alt="Lisbon apartment interior" loading="lazy">
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span>💡 Inspiration</span>
-                                <span>⏱️ 7 min read</span>
-                                <span>📅 March 1, 2025</span>
-                            </div>
-                            <h2>The Airbnb That Shaped Our Hosting Philosophy: A 2015 Lisbon Stay</h2>
-                            <p>In 2015, we stayed at a Lisbon apartment that felt like home. This experience fundamentally shaped how we approach hosting and design our own space. Discover the lessons that still inspire us today.</p>
-                            <span class="read-more">Read Article</span>
-                        </div>
-                    </a>
-
-                    <!-- Article 12: Marseille Trip Gone Wrong -->
-                    <a href="/blog-marseille-trip-gone-wrong.html" class="article-card" data-category="travel" data-date="2025-03-10" data-title="When Things Go Wrong: Lessons from a Marseille Airbnb Disaster">
-                        <div class="article-image">
-                            <img src="images/marseille.png" alt="Marseille cityscape" loading="lazy">
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span>⚠️ Travel Lessons</span>
-                                <span>⏱️ 8 min read</span>
-                                <span>📅 March 10, 2025</span>
-                            </div>
-                            <h2>When Things Go Wrong: Lessons from a Marseille Airbnb Disaster</h2>
-                            <p>Sometimes even experienced travelers encounter nightmare Airbnbs. Our Marseille stay taught us what to look for—and what to avoid—when booking accommodations. Learn from our mistakes.</p>
-                            <span class="read-more">Read Article</span>
-                        </div>
-                    </a>
-
-                    <!-- Article 13: Bali Nyaman -->
-                    <a href="/blog-bali-nyaman.html" class="article-card" data-category="travel" data-date="2025-11-10" data-title="The Stay That Became a Lifelong Friendship: Nyaman Apartments Canggu">
-                        <div class="article-image">
-                            <img src="images/bali.png" alt="Bali landscape with rice terraces" loading="lazy">
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span>💚 Hospitality</span>
-                                <span>⏱️ 7 min read</span>
-                                <span>📅 November 10, 2025</span>
-                            </div>
-                            <h2>The Stay That Became a Lifelong Friendship: Nyaman Apartments Canggu</h2>
-                            <p>Our stay at Nyaman Apartments in Canggu, Bali, showed us the true meaning of hospitality. From home-cooked dinners to ongoing friendship, this experience redefined what hosting can be.</p>
-                            <span class="read-more">Read Article</span>
-                        </div>
-                    </a>
-
                     <!-- Article 14: Gunn's Bakery -->
                     <a href="/blog-gunns-bakery.html" class="article-card" data-category="winnipeg" data-date="2025-11-11" data-title="Gunn's Bakery: A Winnipeg Tradition Since 1937">
                         <div class="article-image">
@@ -1113,23 +1142,6 @@
                             </div>
                             <h2>Gunn's Bakery: A Winnipeg Tradition Since 1937</h2>
                             <p>Discover Gunn's Bakery, a beloved Winnipeg institution serving old-country kosher baking since 1937. Famous for their handmade caraway rye bread and traditional baked goods that have been part of Winnipeg families for generations.</p>
-                            <span class="read-more">Read Article</span>
-                        </div>
-                    </a>
-
-                    <!-- Article 15: Budapest Caving -->
-                    <a href="/blog-budapest-caving.html" class="article-card" data-category="travel" data-date="2025-11-13" data-title="Exploring Budapest's Longest Cave: An Unforgettable Caving Adventure">
-                        <div class="article-image">
-                            <img src="images/5bc00765-8f84-45d9-978c-82340d16d163.avif" alt="Caving adventure in Pálvölgyi Cave, Budapest" loading="lazy">
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span>🏔️ Adventure Experience</span>
-                                <span>⏱️ 7 min read</span>
-                                <span>📅 November 13, 2025</span>
-                            </div>
-                            <h2>Exploring Budapest's Longest Cave: An Unforgettable Caving Adventure</h2>
-                            <p>During our travels in Budapest, we participated in an incredible caving adventure in Pálvölgyi Cave. We clambered up steep walls, crept through narrow passages, and discovered the underground world with expert guides. A once-in-a-lifetime experience that challenged and amazed us.</p>
                             <span class="read-more">Read Article</span>
                         </div>
                     </a>
@@ -1334,6 +1346,93 @@
                             </div>
                             <h2>Embracing Winter: Outdoor Activities in Winnipeg</h2>
                             <p>Discover how Winnipeggers embrace winter with skating trails, cross-country skiing, winter festivals, and outdoor activities that make the cold season enjoyable and fun.</p>
+                            <span class="read-more">Read Article</span>
+                        </div>
+                    </a>
+
+                    <h2 class="category-header" id="travel-posts" style="grid-column: 1 / -1;">🌍 Travel Experiences</h2>
+
+                    <!-- Article 10: Puerto Vallarta Stay -->
+                    <a href="/blog-puerto-vallarta-stay.html" class="article-card" data-category="travel" data-date="2025-02-25" data-title="What We Learned from a Modern Puerto Vallarta Apartment">
+                        <div class="article-image">
+                            <img src="images/puertovallarta.png" alt="Puerto Vallarta apartment interior" loading="lazy">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span>🌴 Travel Experience</span>
+                                <span>⏱️ 6 min read</span>
+                                <span>📅 February 25, 2025</span>
+                            </div>
+                            <h2>What We Learned from a Modern Puerto Vallarta Apartment</h2>
+                            <p>Our experience staying at a modern apartment in Puerto Vallarta's Romantic Zone taught us valuable lessons about views, location, and creating memorable guest experiences. Discover what made this stay exceptional.</p>
+                            <span class="read-more">Read Article</span>
+                        </div>
+                    </a>
+
+                    <!-- Article 11: Lisbon 2015 -->
+                    <a href="/blog-lisbon-2015.html" class="article-card" data-category="travel" data-date="2025-03-01" data-title="The Airbnb That Shaped Our Hosting Philosophy: A 2015 Lisbon Stay">
+                        <div class="article-image">
+                            <img src="images/lisbon.png" alt="Lisbon apartment interior" loading="lazy">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span>💡 Inspiration</span>
+                                <span>⏱️ 7 min read</span>
+                                <span>📅 March 1, 2025</span>
+                            </div>
+                            <h2>The Airbnb That Shaped Our Hosting Philosophy: A 2015 Lisbon Stay</h2>
+                            <p>In 2015, we stayed at a Lisbon apartment that felt like home. This experience fundamentally shaped how we approach hosting and design our own space. Discover the lessons that still inspire us today.</p>
+                            <span class="read-more">Read Article</span>
+                        </div>
+                    </a>
+
+                    <!-- Article 12: Marseille Trip Gone Wrong -->
+                    <a href="/blog-marseille-trip-gone-wrong.html" class="article-card" data-category="travel" data-date="2025-03-10" data-title="When Things Go Wrong: Lessons from a Marseille Airbnb Disaster">
+                        <div class="article-image">
+                            <img src="images/marseille.png" alt="Marseille cityscape" loading="lazy">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span>⚠️ Travel Lessons</span>
+                                <span>⏱️ 8 min read</span>
+                                <span>📅 March 10, 2025</span>
+                            </div>
+                            <h2>When Things Go Wrong: Lessons from a Marseille Airbnb Disaster</h2>
+                            <p>Sometimes even experienced travelers encounter nightmare Airbnbs. Our Marseille stay taught us what to look for—and what to avoid—when booking accommodations. Learn from our mistakes.</p>
+                            <span class="read-more">Read Article</span>
+                        </div>
+                    </a>
+
+                    <!-- Article 13: Bali Nyaman -->
+                    <a href="/blog-bali-nyaman.html" class="article-card" data-category="travel" data-date="2025-11-10" data-title="The Stay That Became a Lifelong Friendship: Nyaman Apartments Canggu">
+                        <div class="article-image">
+                            <img src="images/bali.png" alt="Bali landscape with rice terraces" loading="lazy">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span>💚 Hospitality</span>
+                                <span>⏱️ 7 min read</span>
+                                <span>📅 November 10, 2025</span>
+                            </div>
+                            <h2>The Stay That Became a Lifelong Friendship: Nyaman Apartments Canggu</h2>
+                            <p>Our stay at Nyaman Apartments in Canggu, Bali, showed us the true meaning of hospitality. From home-cooked dinners to ongoing friendship, this experience redefined what hosting can be.</p>
+                            <span class="read-more">Read Article</span>
+                        </div>
+                    </a>
+
+                    <!-- Article 15: Budapest Caving -->
+                    <a href="/blog-budapest-caving.html" class="article-card" data-category="travel" data-date="2025-11-13" data-title="Exploring Budapest's Longest Cave: An Unforgettable Caving Adventure">
+                        <div class="article-image">
+                            <img src="images/5bc00765-8f84-45d9-978c-82340d16d163.avif" alt="Caving adventure in Pálvölgyi Cave, Budapest" loading="lazy">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span>🏔️ Adventure Experience</span>
+                                <span>⏱️ 7 min read</span>
+                                <span>📅 November 13, 2025</span>
+                            </div>
+                            <h2>Exploring Budapest's Longest Cave: An Unforgettable Caving Adventure</h2>
+                            <p>During our travels in Budapest, we participated in an incredible caving adventure in Pálvölgyi Cave. We clambered up steep walls, crept through narrow passages, and discovered the underground world with expert guides. A once-in-a-lifetime experience that challenged and amazed us.</p>
                             <span class="read-more">Read Article</span>
                         </div>
                     </a>
