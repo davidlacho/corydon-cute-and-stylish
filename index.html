@@ -126,7 +126,191 @@
     <!-- Optimized font loading with font-display: swap (async load) -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+        <style>
+            /* Hide the page loader when JavaScript is disabled */
+            .page-loader {
+                display: none !important;
+            }
+            
+            /* Simple layout with top navigation */
+            body {
+                font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                line-height: 1.7;
+                color: #333;
+                background: #FAF9F6;
+                margin: 0;
+                padding: 0;
+            }
+            
+            #main-content {
+                padding: 0;
+            }
+            
+            nav {
+                background: white;
+                border-bottom: 2px solid #F4A261;
+                margin-bottom: 2rem;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            }
+            
+            .nav-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1.25rem 2rem;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            
+            .logo {
+                display: flex;
+                flex-direction: column;
+                line-height: 1.2;
+            }
+            
+            .logo-title {
+                font-family: 'Playfair Display', Georgia, serif;
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #264653;
+            }
+            
+            .logo-title::after {
+                content: ' ✦';
+                color: #F4A261;
+                font-size: 1.2rem;
+            }
+            
+            .logo-subtitle {
+                font-size: 0.65rem;
+                font-weight: 500;
+                color: #666;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                margin-top: 0.2rem;
+            }
+            
+            .nav-links {
+                display: flex;
+                gap: 2rem;
+                align-items: center;
+            }
+            
+            .nav-links a {
+                display: inline-block;
+                padding: 0.5rem 1rem;
+                color: #2A9D8F;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 1rem;
+            }
+            
+            .nav-links a:hover {
+                color: #1E7468;
+            }
+            
+            .nav-links a[href*="airbnb.ca"] {
+                background: #E76F51;
+                color: white;
+                font-weight: 600;
+                border-radius: 4px;
+            }
+            
+            .nav-links a[href*="airbnb.ca"]:hover {
+                background: #D8573E;
+            }
+            
+            .content-wrapper {
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 0 2rem 2rem 2rem;
+            }
+            
+            .hero-image {
+                width: 100%;
+                height: auto;
+                margin-bottom: 2rem;
+                display: block;
+            }
+            
+            h1 {
+                font-family: 'Playfair Display', Georgia, serif;
+                font-size: 2.25rem;
+                font-weight: 700;
+                color: #264653;
+                margin: 0 0 2rem 0;
+                line-height: 1.3;
+            }
+            
+            h2 {
+                font-family: 'Playfair Display', Georgia, serif;
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: #2A9D8F;
+                margin: 2.5rem 0 1rem 0;
+                line-height: 1.4;
+            }
+            
+            p {
+                margin: 0 0 1.25rem 0;
+                font-size: 1.05rem;
+                color: #444;
+                text-align: left;
+            }
+            
+            a {
+                color: #2A9D8F;
+                text-decoration: underline;
+            }
+            
+            a:hover {
+                color: #1E7468;
+            }
+            
+            @media (max-width: 768px) {
+                .nav-container {
+                    flex-direction: column;
+                    gap: 1rem;
+                    text-align: center;
+                    padding: 1rem;
+                }
+                
+                .logo {
+                    align-items: center;
+                }
+                
+                .logo-title {
+                    font-size: 1.25rem;
+                }
+                
+                .logo-subtitle {
+                    align-self: center;
+                }
+                
+                .nav-links {
+                    gap: 1rem;
+                }
+                
+                .content-wrapper {
+                    padding: 0 1rem 2rem 1rem;
+                }
+                
+                h1 {
+                    font-size: 1.75rem;
+                }
+                
+                h2 {
+                    font-size: 1.25rem;
+                }
+                
+                p {
+                    font-size: 1rem;
+                }
+            }
+        </style>
+    </noscript>
     
     <!-- Load React libraries with defer for non-blocking execution -->
     <!-- Using async instead of defer for React to start loading earlier -->
@@ -3468,43 +3652,48 @@
     <!-- Fallback content for users without JavaScript -->
     <noscript>
         <main id="main-content">
-            <h1>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h1>
-            <h2>Winnipeg Airbnb Vacation Rental in Corydon Neighborhood</h2>
-            <p>Discover the best Airbnb in Winnipeg! Stay at Corydon Cute & Stylish, a mid-century modern 3-bedroom home in Winnipeg's vibrant Corydon neighborhood. This thoughtfully curated vacation rental blends retro charm with modern comfort, featuring unique vintage touches and a cozy atmosphere.</p>
-            <p>Perfect for families, couples, or business travelers seeking a unique Winnipeg experience. Located in one of Winnipeg's best neighborhoods, close to Winnipeg attractions, Winnipeg restaurants, and Winnipeg cultural sites. Over 40 5-star reviews from satisfied guests.</p>
-            <p>Explore Winnipeg's premier vacation rental in the heart of Corydon Avenue. Just steps from local cafes, boutiques, and the best that Winnipeg has to offer. This mid-century modern Winnipeg Airbnb features three comfortable bedrooms, two full bathrooms, and a fully equipped kitchen perfect for preparing meals during your stay.</p>
-            <p>The Corydon neighborhood is one of Winnipeg's most walkable areas, with excellent restaurants, coffee shops, and boutiques within walking distance. Guests love the proximity to <a href="/blog-the-forks.html">The Forks</a>, <a href="/blog-human-rights-museum.html">the Canadian Museum for Human Rights</a>, and <a href="/blog-winnipeg-art-gallery.html">Winnipeg Art Gallery</a>. Whether you're visiting for business or pleasure, this Winnipeg vacation rental provides the perfect home base.</p>
-            <p>Read our <a href="/blog-winnipeg-guest-guide.html">Winnipeg guest guide</a> for insider tips on the best <a href="/blog-restaurants.html">Winnipeg restaurants</a>, <a href="/blog-things-to-do.html">things to do in Winnipeg</a>, and <a href="/blog-transportation.html">getting around the city</a>. Our <a href="/blog.html">Winnipeg travel blog</a> features detailed guides to <a href="/blog-corydon-guide.html">Corydon Avenue</a>, <a href="/blog-exchange-district.html">the Exchange District</a>, and <a href="/blog-family-activities.html">family-friendly activities</a>.</p>
-            <h2>Property Features and Amenities</h2>
-            <p>This mid-century modern Winnipeg Airbnb has been carefully designed to provide both style and comfort. The living room features original mid-century furniture pieces, curated artwork, and plenty of natural light. The fully equipped kitchen includes modern appliances alongside vintage touches, making it perfect for cooking meals during your stay. Each of the three bedrooms is thoughtfully decorated with comfortable bedding and unique design elements that reflect the home's character.</p>
-            <p>The property includes high-speed WiFi, making it ideal for remote work or staying connected. There's also a dedicated workspace area for business travelers. Families will appreciate the spacious layout, with room for up to six guests. The two full bathrooms ensure convenience for larger groups, and the home includes all the essentials you need for a comfortable stay, from fresh linens to kitchen basics.</p>
-            <h2>Exploring the Corydon Neighborhood</h2>
-            <p>Corydon Avenue is one of Winnipeg's most beloved neighborhoods, known for its European café culture, independent boutiques, and vibrant street life. The area has a rich history, with many buildings dating back to the early 1900s. Today, it's a hub for food lovers, with restaurants serving everything from authentic Italian cuisine to modern Canadian fare. Coffee enthusiasts will find several excellent cafés perfect for morning walks or afternoon breaks.</p>
-            <p>During the summer months, Corydon comes alive with outdoor patios, street festivals, and farmers markets. The neighborhood is also home to several parks, including <a href="/blog-peanut-park.html">Peanut Park</a>, which is just steps from the property. In winter, the area maintains its charm with cozy restaurants and cafes offering warm refuge from the cold. The neighborhood's walkability makes it easy to explore without a car, though street parking is available for those who drive.</p>
-            <h2>Winnipeg Attractions and Activities</h2>
-            <p>Winnipeg offers a wealth of attractions for visitors to explore. <a href="/blog-the-forks.html">The Forks</a> is a historic meeting place where the Red and Assiniboine Rivers converge, now home to shops, restaurants, and year-round activities. The <a href="/blog-human-rights-museum.html">Canadian Museum for Human Rights</a> is an architectural marvel and one of Canada's most important cultural institutions. Art lovers will enjoy the <a href="/blog-winnipeg-art-gallery.html">Winnipeg Art Gallery</a>, which houses the largest collection of contemporary Inuit art in the world.</p>
-            <p>For families, Winnipeg offers numerous activities including the Assiniboine Park Zoo, the Manitoba Museum, and <a href="/blog-family-activities.html">many family-friendly attractions</a>. Sports fans can catch a Winnipeg Jets hockey game or a Blue Bombers football game. The city also has a thriving music and arts scene, with live music venues, theaters, and galleries throughout the downtown and <a href="/blog-exchange-district.html">Exchange District</a>.</p>
-            <p>Seasonal activities vary throughout the year. Summer brings festivals like the <a href="/blog-winnipeg-folk-festival.html">Winnipeg Folk Festival</a>, outdoor concerts, and river activities. Fall offers beautiful foliage and harvest festivals. Winter transforms the city with <a href="/blog-winnipeg-winter-activities.html">winter activities</a> like skating at The Forks, the Festival du Voyageur, and cozy indoor attractions. Spring brings renewal with blooming gardens and outdoor markets reopening.</p>
-            <h2>Dining and Local Recommendations</h2>
-            <p>Winnipeg's food scene has gained recognition in recent years, and Corydon Avenue is at the heart of it. The neighborhood offers everything from casual cafés to fine dining restaurants. Many establishments source ingredients locally, reflecting Manitoba's agricultural heritage. Our <a href="/blog-restaurants.html">Winnipeg restaurants guide</a> provides detailed recommendations for every taste and budget.</p>
-            <p>For coffee lovers, Corydon has several excellent options perfect for starting your day or taking a break. The area is also known for its bakeries, ice cream shops, and specialty food stores. Whether you're looking for a quick breakfast, a leisurely lunch, or a memorable dinner, you'll find excellent options within walking distance of this Winnipeg vacation rental.</p>
-            <h2>Getting Around Winnipeg</h2>
-            <p>Winnipeg is a car-friendly city, but the Corydon neighborhood is also very walkable and bikeable. Public transportation options include buses that connect to downtown and other neighborhoods. For those driving, street parking is available near the property, and the location provides easy access to major routes throughout the city. Our <a href="/blog-transportation.html">Winnipeg transportation guide</a> covers all the options for getting around.</p>
-            <p>The property's central location means you're never far from what you need. Grocery stores, pharmacies, and other essentials are within walking distance or a short drive away. The neighborhood's proximity to downtown makes it convenient for business travelers, while its residential character provides a peaceful retreat after a day of exploring.</p>
-            <h2>Why Choose This Winnipeg Airbnb</h2>
-            <p>With over 40 five-star reviews, this mid-century modern Winnipeg Airbnb has earned its reputation as one of the city's best vacation rentals. Guests consistently praise the unique character of the home, the thoughtful amenities, and the excellent location. The property offers something special that you won't find in a standard hotel room - a true sense of place and connection to Winnipeg's vibrant culture.</p>
-            <p>Whether you're visiting Winnipeg for business, pleasure, or a bit of both, this vacation rental provides the perfect base for your stay. The combination of mid-century modern design, modern comforts, and an unbeatable location in the Corydon neighborhood makes it an ideal choice for travelers seeking an authentic Winnipeg experience. Book your stay today and discover why so many guests return to this special property.</p>
             <nav>
-                <a href="/blog.html">Winnipeg Travel Blog</a>
-                <a href="/blog-winnipeg-guest-guide.html">Winnipeg Guest Guide</a>
-                <a href="/blog-things-to-do.html">Things to Do in Winnipeg</a>
-                <a href="/blog-restaurants.html">Winnipeg Restaurants</a>
-                <a href="/blog-transportation.html">Winnipeg Transportation</a>
-                <a href="/blog-corydon-guide.html">Corydon Avenue Guide</a>
-                <a href="/blog-exchange-district.html">Exchange District</a>
-                <a href="/blog-family-activities.html">Family Activities</a>
-                <a href="https://www.airbnb.ca/rooms/716340250371431352">Book Now</a>
+                <div class="nav-container">
+                    <div class="logo">
+                        <span class="logo-title">Corydon Cute & Stylish</span>
+                        <span class="logo-subtitle">Boutique Airbnb in Winnipeg</span>
+                    </div>
+                    <div class="nav-links">
+                        <a href="/">Home</a>
+                        <a href="/blog.html">Blog</a>
+                        <a href="https://www.airbnb.ca/rooms/716340250371431352">Book Now</a>
+                    </div>
+                </div>
             </nav>
+            <div class="content-wrapper">
+                <img src="https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg" alt="Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb" class="hero-image">
+                <h1>Corydon Cute & Stylish - Mid-Century Modern Winnipeg Airbnb</h1>
+                <h2>Winnipeg Airbnb Vacation Rental in Corydon Neighborhood</h2>
+                <p>Discover the best Airbnb in Winnipeg! Stay at Corydon Cute & Stylish, a mid-century modern 3-bedroom home in Winnipeg's vibrant Corydon neighborhood. This thoughtfully curated vacation rental blends retro charm with modern comfort, featuring unique vintage touches and a cozy atmosphere.</p>
+                <p>Perfect for families, couples, or business travelers seeking a unique Winnipeg experience. Located in one of Winnipeg's best neighborhoods, close to Winnipeg attractions, Winnipeg restaurants, and Winnipeg cultural sites. Over 40 5-star reviews from satisfied guests.</p>
+                <p>Explore Winnipeg's premier vacation rental in the heart of Corydon Avenue. Just steps from local cafes, boutiques, and the best that Winnipeg has to offer. This mid-century modern Winnipeg Airbnb features three comfortable bedrooms, two full bathrooms, and a fully equipped kitchen perfect for preparing meals during your stay.</p>
+                <p>The Corydon neighborhood is one of Winnipeg's most walkable areas, with excellent restaurants, coffee shops, and boutiques within walking distance. Guests love the proximity to <a href="/blog-the-forks.html">The Forks</a>, <a href="/blog-human-rights-museum.html">the Canadian Museum for Human Rights</a>, and <a href="/blog-winnipeg-art-gallery.html">Winnipeg Art Gallery</a>. Whether you're visiting for business or pleasure, this Winnipeg vacation rental provides the perfect home base.</p>
+                <p>Read our <a href="/blog-winnipeg-guest-guide.html">Winnipeg guest guide</a> for insider tips on the best <a href="/blog-restaurants.html">Winnipeg restaurants</a>, <a href="/blog-things-to-do.html">things to do in Winnipeg</a>, and <a href="/blog-transportation.html">getting around the city</a>. Our <a href="/blog.html">Winnipeg travel blog</a> features detailed guides to <a href="/blog-corydon-guide.html">Corydon Avenue</a>, <a href="/blog-exchange-district.html">the Exchange District</a>, and <a href="/blog-family-activities.html">family-friendly activities</a>.</p>
+                <h2>Property Features and Amenities</h2>
+                <p>This mid-century modern Winnipeg Airbnb has been carefully designed to provide both style and comfort. The living room features original mid-century furniture pieces, curated artwork, and plenty of natural light. The fully equipped kitchen includes modern appliances alongside vintage touches, making it perfect for cooking meals during your stay. Each of the three bedrooms is thoughtfully decorated with comfortable bedding and unique design elements that reflect the home's character.</p>
+                <p>The property includes high-speed WiFi, making it ideal for remote work or staying connected. There's also a dedicated workspace area for business travelers. Families will appreciate the spacious layout, with room for up to six guests. The two full bathrooms ensure convenience for larger groups, and the home includes all the essentials you need for a comfortable stay, from fresh linens to kitchen basics.</p>
+                <h2>Exploring the Corydon Neighborhood</h2>
+                <p>Corydon Avenue is one of Winnipeg's most beloved neighborhoods, known for its European café culture, independent boutiques, and vibrant street life. The area has a rich history, with many buildings dating back to the early 1900s. Today, it's a hub for food lovers, with restaurants serving everything from authentic Italian cuisine to modern Canadian fare. Coffee enthusiasts will find several excellent cafés perfect for morning walks or afternoon breaks.</p>
+                <p>During the summer months, Corydon comes alive with outdoor patios, street festivals, and farmers markets. The neighborhood is also home to several parks, including <a href="/blog-peanut-park.html">Peanut Park</a>, which is just steps from the property. In winter, the area maintains its charm with cozy restaurants and cafes offering warm refuge from the cold. The neighborhood's walkability makes it easy to explore without a car, though street parking is available for those who drive.</p>
+                <h2>Winnipeg Attractions and Activities</h2>
+                <p>Winnipeg offers a wealth of attractions for visitors to explore. <a href="/blog-the-forks.html">The Forks</a> is a historic meeting place where the Red and Assiniboine Rivers converge, now home to shops, restaurants, and year-round activities. The <a href="/blog-human-rights-museum.html">Canadian Museum for Human Rights</a> is an architectural marvel and one of Canada's most important cultural institutions. Art lovers will enjoy the <a href="/blog-winnipeg-art-gallery.html">Winnipeg Art Gallery</a>, which houses the largest collection of contemporary Inuit art in the world.</p>
+                <p>For families, Winnipeg offers numerous activities including the Assiniboine Park Zoo, the Manitoba Museum, and <a href="/blog-family-activities.html">many family-friendly attractions</a>. Sports fans can catch a Winnipeg Jets hockey game or a Blue Bombers football game. The city also has a thriving music and arts scene, with live music venues, theaters, and galleries throughout the downtown and <a href="/blog-exchange-district.html">Exchange District</a>.</p>
+                <p>Seasonal activities vary throughout the year. Summer brings festivals like the <a href="/blog-winnipeg-folk-festival.html">Winnipeg Folk Festival</a>, outdoor concerts, and river activities. Fall offers beautiful foliage and harvest festivals. Winter transforms the city with <a href="/blog-winnipeg-winter-activities.html">winter activities</a> like skating at The Forks, the Festival du Voyageur, and cozy indoor attractions. Spring brings renewal with blooming gardens and outdoor markets reopening.</p>
+                <h2>Dining and Local Recommendations</h2>
+                <p>Winnipeg's food scene has gained recognition in recent years, and Corydon Avenue is at the heart of it. The neighborhood offers everything from casual cafés to fine dining restaurants. Many establishments source ingredients locally, reflecting Manitoba's agricultural heritage. Our <a href="/blog-restaurants.html">Winnipeg restaurants guide</a> provides detailed recommendations for every taste and budget.</p>
+                <p>For coffee lovers, Corydon has several excellent options perfect for starting your day or taking a break. The area is also known for its bakeries, ice cream shops, and specialty food stores. Whether you're looking for a quick breakfast, a leisurely lunch, or a memorable dinner, you'll find excellent options within walking distance of this Winnipeg vacation rental.</p>
+                <h2>Getting Around Winnipeg</h2>
+                <p>Winnipeg is a car-friendly city, but the Corydon neighborhood is also very walkable and bikeable. Public transportation options include buses that connect to downtown and other neighborhoods. For those driving, street parking is available near the property, and the location provides easy access to major routes throughout the city. Our <a href="/blog-transportation.html">Winnipeg transportation guide</a> covers all the options for getting around.</p>
+                <p>The property's central location means you're never far from what you need. Grocery stores, pharmacies, and other essentials are within walking distance or a short drive away. The neighborhood's proximity to downtown makes it convenient for business travelers, while its residential character provides a peaceful retreat after a day of exploring.</p>
+                <h2>Why Choose This Winnipeg Airbnb</h2>
+                <p>With over 40 five-star reviews, this mid-century modern Winnipeg Airbnb has earned its reputation as one of the city's best vacation rentals. Guests consistently praise the unique character of the home, the thoughtful amenities, and the excellent location. The property offers something special that you won't find in a standard hotel room - a true sense of place and connection to Winnipeg's vibrant culture.</p>
+                <p>Whether you're visiting Winnipeg for business, pleasure, or a bit of both, this vacation rental provides the perfect base for your stay. The combination of mid-century modern design, modern comforts, and an unbeatable location in the Corydon neighborhood makes it an ideal choice for travelers seeking an authentic Winnipeg experience. Book your stay today and discover why so many guests return to this special property.</p>
+            </div>
         </main>
     </noscript>
     
