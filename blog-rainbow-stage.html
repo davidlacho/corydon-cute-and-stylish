@@ -12,6 +12,8 @@
     <meta name="author" content="David">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://staywinnipeg.ca/blog-rainbow-stage.html">
+    <link rel="alternate" hreflang="en-CA" href="https://staywinnipeg.ca/blog-rainbow-stage.html">
+    <link rel="alternate" hreflang="x-default" href="https://staywinnipeg.ca/blog-rainbow-stage.html">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
@@ -19,6 +21,20 @@
     <meta property="og:title" content="Rainbow Stage: Canada's Longest-Running Outdoor Theatre">
     <meta property="og:description" content="Discover Rainbow Stage, Canada's longest-running outdoor theatre since 1954. Learn about the inspiring origin story and their exciting 72nd season.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1692707483537-8f5e57e71531?q=80&w=2340&auto=format&fit=crop">
+    <meta property="og:image:width" content="2340">
+    <meta property="og:image:height" content="1560">
+    <meta property="og:image:alt" content="Rainbow Stage outdoor theatre in Winnipeg's Kildonan Park with dramatic stage lighting">
+    <meta property="og:site_name" content="Stay Winnipeg">
+    <meta property="og:locale" content="en_CA">
+    <meta property="article:published_time" content="2025-12-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-03T00:00:00+00:00">
+    <meta property="article:author" content="David">
+    <meta property="article:section" content="Winnipeg Guides">
+    <meta property="article:tag" content="Rainbow Stage">
+    <meta property="article:tag" content="Winnipeg Theatre">
+    <meta property="article:tag" content="Kildonan Park">
+    <meta property="article:tag" content="Winnipeg Entertainment">
+    <meta property="article:tag" content="Things to Do Winnipeg">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
@@ -26,10 +42,12 @@
     <meta name="twitter:title" content="Rainbow Stage: Canada's Longest-Running Outdoor Theatre">
     <meta name="twitter:description" content="Discover Rainbow Stage, Canada's longest-running outdoor theatre in Winnipeg's Kildonan Park.">
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1692707483537-8f5e57e71531?q=80&w=2340&auto=format&fit=crop">
+    <meta name="twitter:image:alt" content="Rainbow Stage outdoor theatre in Winnipeg's Kildonan Park with dramatic stage lighting">
     
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" href="/home-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
     
@@ -279,6 +297,75 @@
             text-decoration: underline;
         }
 
+        /* Breadcrumb Navigation */
+        .breadcrumb {
+            padding: 1rem 0;
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb ol {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .breadcrumb li {
+            display: flex;
+            align-items: center;
+        }
+
+        .breadcrumb li:not(:last-child)::after {
+            content: '›';
+            margin-left: 0.5rem;
+            color: var(--text-light);
+        }
+
+        .breadcrumb a {
+            color: var(--teal);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb li:last-child {
+            color: var(--text-light);
+        }
+
+        /* Skip Link for Accessibility */
+        .skip-link {
+            position: absolute;
+            top: -100px;
+            left: 0;
+            background: var(--charcoal);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            z-index: 10001;
+            font-weight: 600;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .skip-link:focus {
+            top: 0;
+            opacity: 1 !important;
+            pointer-events: auto !important;
+            outline: 3px solid var(--teal);
+            outline-offset: 2px;
+        }
+
+        .last-updated {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+
         footer {
             background: var(--charcoal);
             color: var(--cream);
@@ -363,6 +450,8 @@
     </style>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="https://staywinnipeg.ca/" class="logo" role="banner">
@@ -381,26 +470,60 @@
         </div>
     </nav>
 
-    <main>
-        <article class="container">
+    <main id="main-content">
+        <article class="container" itemscope itemtype="https://schema.org/BlogPosting">
+            <meta itemprop="datePublished" content="2025-12-03T00:00:00+00:00">
+            <meta itemprop="dateModified" content="2025-12-03T00:00:00+00:00">
+            <meta itemprop="author" content="David">
+            <meta itemprop="timeRequired" content="PT12M">
+            
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="https://staywinnipeg.ca/">
+                            <span itemprop="name">Home</span>
+                        </a>
+                        <meta itemprop="position" content="1" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="https://staywinnipeg.ca/blog.html">
+                            <span itemprop="name">Blog</span>
+                        </a>
+                        <meta itemprop="position" content="2" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <span itemprop="name">Rainbow Stage: Canada's Longest-Running Outdoor Theatre</span>
+                        <meta itemprop="position" content="3" />
+                    </li>
+                </ol>
+            </nav>
+
             <div class="article-header">
                 <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
-                <h1>Rainbow Stage: Canada's Longest-Running Outdoor Theatre</h1>
+                <h1 itemprop="headline">Rainbow Stage: Canada's Longest-Running Outdoor Theatre</h1>
                 <div class="article-meta">
-                    <span>🎭 Arts & Culture</span> • <span>⏱️ 12 min read</span> • <span>📅 December 3, 2025</span>
+                    <span>🎭 Arts & Culture</span> • <span>⏱️ 12 min read</span> • <span>📅 <time datetime="2025-12-03" itemprop="datePublished">December 3, 2025</time></span>
+                </div>
+                <div class="last-updated">
+                    <time datetime="2025-12-03" itemprop="dateModified">Last updated: December 3, 2025</time>
                 </div>
             </div>
 
             <div class="article-hero-image">
-                <img src="https://images.unsplash.com/photo-1692707483537-8f5e57e71531?q=80&w=2340&auto=format&fit=crop" alt="Theatre stage with dramatic lighting" loading="eager">
+                <img src="https://images.unsplash.com/photo-1692707483537-8f5e57e71531?q=80&w=2340&auto=format&fit=crop" 
+                     alt="Rainbow Stage outdoor theatre in Winnipeg's Kildonan Park with dramatic stage lighting" 
+                     width="2340" 
+                     height="1560" 
+                     loading="eager"
+                     itemprop="image">
             </div>
 
-            <div class="article-body">
-                <p>When summer arrives in Winnipeg, there's something magical happening under the open sky at Kildonan Park. <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer">Rainbow Stage</a>, Canada's longest-running outdoor theatre company, has been entertaining audiences for over seven decades, and they're showing no signs of slowing down.</p>
+            <div class="article-body" itemprop="articleBody">
+                <p>When summer arrives in Winnipeg, there's something magical happening under the open sky at Kildonan Park. <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer nofollow">Rainbow Stage</a>, Canada's longest-running outdoor theatre company, has been entertaining audiences for over seven decades, and they're showing no signs of slowing down.</p>
 
                 <h2>An Exciting 72nd Season Ahead</h2>
 
-                <p>Following their most financially successful season in history, <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer">Rainbow Stage has announced an exciting lineup</a> for their 72nd season in 2026. The season will kick off in June with <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer"><em>Jesus Christ Superstar</em></a>, marking the first time Andrew Lloyd Webber's iconic rock opera has graced the Kildonan Park stage. This groundbreaking musical tells the story of the final weeks of Jesus Christ's life through the eyes of Judas Iscariot, set to an unforgettable rock score.</p>
+                <p>Following their most financially successful season in history, <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer nofollow">Rainbow Stage has announced an exciting lineup</a> for their 72nd season in 2026. The season will kick off in June with <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer nofollow"><em>Jesus Christ Superstar</em></a>, marking the first time Andrew Lloyd Webber's iconic rock opera has graced the Kildonan Park stage. This groundbreaking musical tells the story of the final weeks of Jesus Christ's life through the eyes of Judas Iscariot, set to an unforgettable rock score.</p>
 
                 <p>Next up is <em>Legally Blonde: The Musical</em> (August 13-30), the smash adaptation of the beloved 2001 comedy starring Reese Witherspoon. Follow Elle Woods as she defies stereotypical expectations, nails her LSATs, and proves that you can be both stylish and smart at Harvard Law School. What, like it's hard? Artistic director Carson Nattrass has wanted to stage this musical since starting the job in 2017, making it a particularly special production.</p>
 
@@ -469,7 +592,7 @@
 
                 <h2>Plan Your Visit</h2>
 
-                <p>If you're visiting Winnipeg next summer, consider catching a show at <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer">Rainbow Stage</a>. <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer">Tickets</a> typically go on sale in the spring, and popular productions can sell out quickly—especially after the success of their recent seasons. Ticket prices start at $27 for children, making it an affordable family outing.</p>
+                <p>If you're visiting Winnipeg next summer, consider catching a show at <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer nofollow">Rainbow Stage</a>. <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer nofollow">Tickets</a> typically go on sale in the spring, and popular productions can sell out quickly—especially after the success of their recent seasons. Ticket prices start at $27 for children, making it an affordable family outing.</p>
 
                 <h3>Practical Information for Your Visit</h3>
 
@@ -503,7 +626,7 @@
 
                 <p>From <em>Jesus Christ Superstar</em>'s rock opera revolution to <em>Legally Blonde</em>'s feel-good fun, and <em>Fiddler on the Roof</em>'s timeless tradition, Rainbow Stage's 72nd season promises something for everyone. It's a testament to Winnipeg's vibrant arts scene and the city's commitment to outdoor entertainment that makes the most of our beautiful summer season.</p>
 
-                <p>So mark your calendars, grab your tickets, and get ready to experience the magic of live theatre under the stars at <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer">Rainbow Stage</a>—Canada's longest-running outdoor theatre and one of Winnipeg's most cherished cultural treasures.</p>
+                <p>So mark your calendars, grab your tickets, and get ready to experience the magic of live theatre under the stars at <a href="https://www.rainbowstage.ca/" target="_blank" rel="noopener noreferrer nofollow">Rainbow Stage</a>—Canada's longest-running outdoor theatre and one of Winnipeg's most cherished cultural treasures.</p>
             </div>
         </article>
     </main>
