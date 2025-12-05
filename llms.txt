@@ -18,14 +18,17 @@ Total Blog Posts: 36
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (23 guides)
+## Winnipeg Attractions & Activities (27 guides)
+- /blog-24-hour-winnipeg-budget.html - 24 Hours in Winnipeg on a Budget: Complete Free & Cheap Things Itinerary 2025
 - /blog-assiniboine-park.html - Assiniboine Park & The Leaf: Zoo, Gardens & Complete Visitor Guide
+- /blog-corydon-cute-stylish-winnipeg-airbnb.html - Corydon Cute & Stylish: Your Perfect Winnipeg Airbnb Experience
 - /blog-corydon-guide.html - Corydon Village: Little Italy Guide (Restaurants, Cafes & Things to Do)
 - /blog-crescentwood-history.html - The History of Crescentwood: Winnipeg's Most Prestigious Neighborhood
 - /blog-exchange-district.html - Exchange District: Historic Architecture, Murals & Things to Do
 - /blog-family-activities.html - Things to Do with Kids in Winnipeg: 20+ Family Activities
 - /blog-festival-du-voyageur.html - Festival du Voyageur: Celebrating Winnipeg's Winter Heritage
 - /blog-gunns-bakery.html - Gunn's Bakery: A Winnipeg Tradition Since 1937
+- /blog-hargrave-st-market.html - Hargrave St. Market: Winnipeg's Premier Downtown Food Hall 2025 Guide
 - /blog-human-rights-museum.html - Canadian Museum for Human Rights: A Journey of Understanding
 - /blog-peanut-park.html - Peanut Park (Enderton Park): A Hidden Gem in Crescentwood
 - /blog-rainbow-stage.html - Rainbow Stage: Canada's Longest-Running Outdoor Theatre
@@ -37,6 +40,7 @@ Total Blog Posts: 36
 - /blog-things-to-do.html - Top 15 Things to Do in Winnipeg: A Complete Visitor's Guide
 - /blog-transportation.html - Getting Around Winnipeg: Complete 2026 Transportation Guide
 - /blog-winnipeg-art-gallery.html - Winnipeg Art Gallery (WAG) & Qaumajuq: Hours, Tickets & Inuit Art Collection
+- /blog-winnipeg-breweries.html - Winnipeg's Beer Culture & Best Breweries 2025: Complete Craft Beer Guide
 - /blog-winnipeg-coffee.html - Best Coffee Shops in Winnipeg 2026: Specialty Coffee, Roasters & Cute Cafes
 - /blog-winnipeg-folk-festival.html - Winnipeg Folk Festival: A Summer Music Celebration
 - /blog-winnipeg-guest-guide.html - Setting Up Guests for Success: Our Complete Winnipeg Airbnb Guide
@@ -78,8 +82,8 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage with property showcase and booking information
-- Blog index page listing all 32 blog posts by category
-- 32 individual blog post pages covering local guides, hosting insights, and travel stories
+- Blog index page listing all 36 blog posts by category
+- 36 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
