@@ -173,7 +173,19 @@
     </url>
     <url>
         <loc>https://staywinnipeg.ca/blog-winnipeg-coffee.html</loc>
-        <lastmod>2025-11-07</lastmod>
+        <lastmod>2025-12-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://staywinnipeg.ca/blog-winnipeg-breweries.html</loc>
+        <lastmod>2025-12-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://staywinnipeg.ca/blog-24-hour-winnipeg-budget.html</loc>
+        <lastmod>2025-12-05</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
