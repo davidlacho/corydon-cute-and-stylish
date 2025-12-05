@@ -46,6 +46,7 @@ Total Blog Posts: 37
 - /blog-winnipeg-guest-guide.html - Setting Up Guests for Success: Our Complete Winnipeg Airbnb Guide
 - /blog-winnipeg-murals.html - Murals of Winnipeg: Complete Street Art Map & Best Instagram Spots
 - /blog-winnipeg-winter-activities.html - Things to Do in Winter in Winnipeg: Ice Skating, Festivals & Indoor Activities
+- /blog-winter-driving-winnipeg.html - Winter Driving in Winnipeg: Safety Tips & What to Expect 2025
 
 ## Hosting & Airbnb Philosophy (4 posts)
 - /blog-airbnb-design-lessons.html - Design Lessons from Airbnbs Around the World
@@ -82,8 +83,8 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage with property showcase and booking information
-- Blog index page listing all 36 blog posts by category
-- 36 individual blog post pages covering local guides, hosting insights, and travel stories
+- Blog index page listing all 37 blog posts by category
+- 37 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
