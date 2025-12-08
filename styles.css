@@ -233,6 +233,13 @@ nav.scrolled {
     display: flex;
     flex-direction: column;
     line-height: 1.2;
+    text-decoration: none; /* Remove underline from logo link */
+}
+
+/* Ensure logo link has no underline */
+a.logo,
+.logo a {
+    text-decoration: none;
 }
 
 .logo-title {
