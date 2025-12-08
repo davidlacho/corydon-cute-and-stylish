@@ -290,9 +290,10 @@ p {
 /* Article Cards (for blog listing page) */
 .articles-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 2.5rem;
     margin-bottom: 4rem;
+    width: 100%;
 }
 
 .article-card {
