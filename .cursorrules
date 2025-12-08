@@ -380,6 +380,34 @@ After creating a new blog post, you MUST:
 5. ✅ Add JSON-LD entry to `blog.html` structured data section
    - Include in the `blogListings` array
 
+## Page Update Requirements
+
+**CRITICAL: When updating ANY page on the site (including index.html, blog.html, or any blog post), you MUST also update:**
+
+1. ✅ **Update `sitemap.xml`**
+   - Find the corresponding `<url>` entry for the page
+   - Update the `<lastmod>` date to today's date (format: YYYY-MM-DD)
+   - Example:
+   ```xml
+   <url>
+       <loc>https://staywinnipeg.ca/blog-[topic].html</loc>
+       <lastmod>2025-12-08</lastmod>  <!-- Update this date -->
+       <changefreq>monthly</changefreq>
+       <priority>0.8</priority>
+   </url>
+   ```
+
+2. ✅ **Update `llms.txt`**
+   - If content, structure, or metadata has changed significantly, update the relevant sections
+   - Update counts if pages were added or removed
+   - Update descriptions if page purpose or content has changed
+   - Keep the file accurate and current
+
+**This ensures:**
+- Search engines are notified of content changes via the sitemap
+- LLM documentation remains accurate for future AI interactions
+- SEO and discoverability are maintained
+
 ## Content Categories
 
 Blog posts fall into three main categories:
