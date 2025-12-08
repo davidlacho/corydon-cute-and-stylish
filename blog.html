@@ -119,62 +119,54 @@
     <!-- React will render here -->
     <div id="root"></div>
     
-    <!-- Hide noscript content immediately when JS is enabled -->
+    <!-- Smooth transition script - hide noscript only after React renders -->
     <script>
         (function() {
-            // Hide noscript content immediately when JavaScript is enabled
+            // Add smooth transition styles
             const style = document.createElement('style');
-            style.id = 'hide-noscript-style';
-            style.textContent = 'noscript { display: none !important; visibility: hidden !important; } noscript * { display: none !important; visibility: hidden !important; }';
+            style.id = 'smooth-transition-style';
+            style.textContent = `
+                noscript {
+                    opacity: 1;
+                    transition: opacity 0.3s ease-out;
+                }
+                noscript.fade-out {
+                    opacity: 0;
+                    pointer-events: none;
+                }
+                noscript.hidden {
+                    display: none !important;
+                }
+                #root {
+                    opacity: 0;
+                    transition: opacity 0.3s ease-in;
+                }
+                #root.react-ready {
+                    opacity: 1;
+                }
+            `;
             document.head.appendChild(style);
             
-            // Function to hide noscript and all its content
-            function hideNoscript() {
+            // Function to smoothly hide noscript after React is ready
+            function hideNoscriptSmoothly() {
                 const noscript = document.querySelector('noscript');
                 if (noscript) {
-                    noscript.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; position: absolute !important; left: -9999px !important;';
-                    // Hide all children recursively
-                    const allChildren = noscript.querySelectorAll('*');
-                    allChildren.forEach(el => {
-                        el.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important;';
-                    });
-                }
-            }
-            
-            // Hide immediately
-            hideNoscript();
-            
-            // Also hide on DOMContentLoaded as backup
-            if (document.readyState === 'loading') {
-                document.addEventListener('DOMContentLoaded', hideNoscript);
-            }
-            
-            // Hide again after short delays to catch any late-rendering content
-            setTimeout(hideNoscript, 50);
-            setTimeout(hideNoscript, 100);
-            setTimeout(hideNoscript, 500);
-            
-            // Use MutationObserver to catch any noscript content that appears
-            if (typeof MutationObserver !== 'undefined') {
-                const observer = new MutationObserver(function(mutations) {
-                    hideNoscript();
-                });
-                
-                // Observe the body for any changes
-                if (document.body) {
-                    observer.observe(document.body, {
-                        childList: true,
-                        subtree: true
-                    });
-                } else {
-                    document.addEventListener('DOMContentLoaded', function() {
-                        observer.observe(document.body, {
-                            childList: true,
-                            subtree: true
+                    // First fade out
+                    noscript.classList.add('fade-out');
+                    
+                    // Then hide completely after transition
+                    setTimeout(function() {
+                        noscript.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; position: absolute !important; left: -9999px !important;';
+                        const allChildren = noscript.querySelectorAll('*');
+                        allChildren.forEach(el => {
+                            el.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important;';
                         });
-                    });
+                    }, 300); // Wait for fade transition
                 }
             }
+            
+            // Store function globally so React can call it when ready
+            window.hideNoscriptWhenReady = hideNoscriptSmoothly;
         })();
     </script>
     
@@ -1482,64 +1474,36 @@
         // Wait for React to load, then render
         function initBlogApp() {
             if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
-                // Aggressively hide all noscript fallback content when React is rendering
-                function hideAllNoscriptContent() {
-                    const noscript = document.querySelector('noscript');
-                    if (noscript) {
-                        noscript.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; position: absolute !important; left: -9999px !important;';
-                        
-                        // Force hide all children recursively
-                        const allChildren = noscript.querySelectorAll('*');
-                        allChildren.forEach(el => {
-                            el.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important;';
-                        });
-                    }
-                    
-                    // Also hide any elements by ID that might be duplicated (safety check)
-                    const originalArticlesGrid = document.getElementById('articles-grid');
-                    if (originalArticlesGrid && originalArticlesGrid.closest('noscript')) {
-                        originalArticlesGrid.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important;';
-                    }
-                    
-                    // Hide filter controls from noscript
-                    const originalControls = document.querySelector('noscript .blog-controls, noscript .filter-sort-container, noscript .filter-buttons, noscript .articles-grid');
-                    if (originalControls) {
-                        originalControls.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important;';
-                    }
-                    
-                    // Hide the entire main content from noscript
-                    const originalMain = document.querySelector('noscript main, noscript #main-content');
-                    if (originalMain) {
-                        originalMain.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important;';
-                    }
-                }
-                
-                // Hide noscript content before rendering
-                hideAllNoscriptContent();
-                
                 const root = ReactDOM.createRoot(document.getElementById('root'));
+                
+                // Render React app
                 root.render(React.createElement(BlogApp));
                 
-                // After React renders, ensure no duplicate content appears
+                // After React renders, fade in the root and fade out noscript
                 setTimeout(function() {
-                    hideAllNoscriptContent();
-                    
-                    // Also hide any elements with noscript IDs that appear outside the React root
                     const rootEl = document.getElementById('root');
                     if (rootEl) {
+                        // Fade in React content
+                        rootEl.classList.add('react-ready');
+                    }
+                    
+                    // Smoothly hide noscript content
+                    if (window.hideNoscriptWhenReady) {
+                        window.hideNoscriptWhenReady();
+                    }
+                    
+                    // Also hide any duplicate elements that might appear
+                    const rootElCheck = document.getElementById('root');
+                    if (rootElCheck) {
                         const allElements = document.querySelectorAll('#articles-grid, .blog-controls, .filter-sort-container, .articles-grid');
                         allElements.forEach(el => {
                             // If element is not inside React root and is inside noscript, hide it
-                            if (!rootEl.contains(el) && (el.closest('noscript') || !el.closest('#root'))) {
+                            if (!rootElCheck.contains(el) && el.closest('noscript')) {
                                 el.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important;';
                             }
                         });
                     }
-                }, 100);
-                
-                // Hide again after React fully renders
-                setTimeout(hideAllNoscriptContent, 500);
-                setTimeout(hideAllNoscriptContent, 1000);
+                }, 50); // Small delay to ensure React has started rendering
             } else {
                 setTimeout(initBlogApp, 100);
             }

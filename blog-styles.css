@@ -35,8 +35,18 @@ body {
     position: relative;
 }
 
-/* Hide noscript content when JavaScript is enabled (browsers do this automatically, but this ensures it) */
+/* Smooth transitions for React loading */
 noscript {
+    opacity: 1;
+    transition: opacity 0.3s ease-out;
+}
+
+noscript.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+noscript.hidden {
     display: none !important;
     visibility: hidden !important;
     height: 0 !important;
@@ -45,11 +55,13 @@ noscript {
     left: -9999px !important;
 }
 
-noscript * {
-    display: none !important;
-    visibility: hidden !important;
-    height: 0 !important;
-    overflow: hidden !important;
+#root {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+#root.react-ready {
+    opacity: 1;
 }
 
 /* Hide noscript content when JavaScript is enabled (browsers do this automatically, but this ensures it) */
