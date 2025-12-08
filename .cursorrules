@@ -216,6 +216,7 @@ Blog posts use React to render Navigation, Footer, and FloatingBookButton compon
 - All React code uses `React.createElement` (not JSX) since we're using Babel standalone
 - **Navigation and Footer will NOT show if the React app script is missing or if React fails to load**
 - Do NOT include `<div id="footer-placeholder"></div>` or `<div id="nav-placeholder"></div>` outside of the `<noscript>` tag - React handles this automatically
+- **Smooth Transitions**: The site uses smooth fade transitions to prevent content flash when React loads. The transition function (`window.hideNoscriptWhenReady`) is automatically included in all blog posts
 
 ## Content Structure Guidelines
 

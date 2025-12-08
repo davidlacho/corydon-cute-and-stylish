@@ -62,6 +62,26 @@
     
     <!-- Load shared blog components -->
     <script src="/blog-components.js" defer></script>
+    <!-- Smooth transition function -->
+    <script>
+        (function() {
+            // Function to smoothly hide noscript after React is ready
+            function hideNoscriptSmoothly() {
+                const noscript = document.querySelector('noscript');
+                if (noscript) {
+                    noscript.classList.add('fade-out');
+                    setTimeout(function() {
+                        noscript.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; position: absolute !important; left: -9999px !important;';
+                        const allChildren = noscript.querySelectorAll('*');
+                        allChildren.forEach(el => {
+                            el.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important;';
+                        });
+                    }, 300);
+                }
+            }
+            window.hideNoscriptWhenReady = hideNoscriptSmoothly;
+        })();
+    </script>
 </head>
 <body>
     <!-- React will render here -->

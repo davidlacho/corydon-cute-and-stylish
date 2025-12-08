@@ -35,7 +35,7 @@ body {
     position: relative;
 }
 
-/* Smooth transitions for React loading */
+/* Smooth transitions for React loading - prevents flash of content */
 noscript {
     opacity: 1;
     transition: opacity 0.3s ease-out;
@@ -44,6 +44,7 @@ noscript {
 noscript.fade-out {
     opacity: 0;
     pointer-events: none;
+    transition: opacity 0.3s ease-out;
 }
 
 noscript.hidden {
@@ -58,6 +59,7 @@ noscript.hidden {
 #root {
     opacity: 0;
     transition: opacity 0.3s ease-in;
+    min-height: 100vh; /* Prevent layout shift */
 }
 
 #root.react-ready {
