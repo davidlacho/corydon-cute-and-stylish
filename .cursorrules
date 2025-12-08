@@ -458,11 +458,14 @@ Each blog post:
 - Maintains noscript fallback for accessibility (loads nav/footer via `/load-components.js`)
 - Uses the same CDN approach as `index.html`
 - **Critical**: If Navigation/Footer don't appear, check that:
-  1. React CDN scripts are loaded in `<head>`
+  1. React CDN scripts are loaded in `<head>` (React, ReactDOM, Babel)
   2. `/blog-components.js` is loaded in `<head>`
   3. The React app script (`BlogPostApp`) is present before `</body>`
   4. The `<div id="root"></div>` exists in the body
   5. The `<main id="article-content">` contains the article
+  6. No JavaScript errors in browser console
+  7. The `Navigation`, `Footer`, and `FloatingBookButton` components are defined in `/blog-components.js`
+  8. Do NOT include placeholder divs (`nav-placeholder`, `footer-placeholder`) outside of `<noscript>` - React renders these automatically
 
 ## Example Blog Post Template
 

@@ -38,6 +38,23 @@ body {
 /* Hide noscript content when JavaScript is enabled (browsers do this automatically, but this ensures it) */
 noscript {
     display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    left: -9999px !important;
+}
+
+noscript * {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Hide noscript content when JavaScript is enabled (browsers do this automatically, but this ensures it) */
+noscript {
+    display: none !important;
 }
 
 /* Skip Link for Accessibility */
