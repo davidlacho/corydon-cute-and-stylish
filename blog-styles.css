@@ -121,6 +121,12 @@ p {
     padding: 4rem 0;
 }
 
+.blog-content .container {
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 2rem;
+}
+
 .blog-intro {
     max-width: 800px;
     margin: 0 auto 4rem;
@@ -131,9 +137,9 @@ p {
 
 /* Filter and Sort Controls */
 .blog-controls {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto 3rem;
-    padding: 0 20px;
+    padding: 0 2rem;
 }
 
 .filter-sort-container {
@@ -934,6 +940,10 @@ button:focus {
 
     .blog-content {
         padding: 3rem 0;
+    }
+
+    .blog-content .container {
+        padding: 0 1rem;
     }
 
     .blog-intro {
