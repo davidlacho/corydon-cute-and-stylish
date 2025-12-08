@@ -1,0 +1,342 @@
+# Blog Post Structure Guide for staywinnipeg.ca
+
+This file documents the structure and requirements for creating blog posts on the staywinnipeg.ca website.
+
+## File Naming Convention
+
+- Blog posts must be named: `blog-[topic].html`
+- Use lowercase with hyphens (kebab-case)
+- Examples: `blog-winnipeg-jets.html`, `blog-the-forks.html`, `blog-corydon-guide.html`
+
+## Required HTML Structure
+
+### 1. DOCTYPE and Head Section
+
+```html
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+### 2. Primary Meta Tags (Required)
+
+```html
+<!-- Primary Meta Tags -->
+<title>[Post Title] | Stay Winnipeg Blog</title>
+<meta name="title" content="[Post Title] | Stay Winnipeg Blog">
+<meta name="description" content="[150-160 character description for SEO]">
+<meta name="keywords" content="[comma-separated keywords]">
+<meta name="author" content="David">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://staywinnipeg.ca/blog-[topic].html">
+<link rel="alternate" hreflang="en-CA" href="https://staywinnipeg.ca/blog-[topic].html">
+<link rel="alternate" hreflang="x-default" href="https://staywinnipeg.ca/blog-[topic].html">
+```
+
+### 3. Open Graph Meta Tags (Required for Social Sharing)
+
+```html
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://staywinnipeg.ca/blog-[topic].html">
+<meta property="og:title" content="[Post Title]">
+<meta property="og:description" content="[Description for social sharing]">
+<meta property="og:image" content="[Full URL to hero image]">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta property="og:site_name" content="Stay Winnipeg">
+<meta property="og:locale" content="en_CA">
+<meta property="article:published_time" content="YYYY-MM-DDTHH:MM:SS+00:00">
+<meta property="article:modified_time" content="YYYY-MM-DDTHH:MM:SS+00:00">
+<meta property="article:author" content="David">
+<meta property="article:section" content="[Category]">
+<meta property="article:tag" content="[Tag 1]">
+<meta property="article:tag" content="[Tag 2]">
+```
+
+### 4. Twitter Meta Tags (Required)
+
+```html
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://staywinnipeg.ca/blog-[topic].html">
+<meta name="twitter:title" content="[Post Title]">
+<meta name="twitter:description" content="[Description for Twitter]">
+<meta name="twitter:image" content="[Full URL to hero image]">
+```
+
+### 5. Required Links and Fonts
+
+```html
+<link rel="icon" type="image/png" href="/home-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+```
+
+### 6. CSS Styles
+
+- Copy the complete `<style>` section from an existing blog post
+- Do NOT modify the CSS variables or core styles
+- The styles include: navigation, article layout, typography, highlight boxes, footer, floating book button
+
+### 7. Navigation Structure (Required)
+
+```html
+<nav role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+        <a href="https://staywinnipeg.ca/" class="logo" role="banner">
+            <span class="logo-title">Corydon Cute & Stylish</span>
+            <span class="logo-subtitle">Boutique Airbnb in Winnipeg</span>
+        </a>
+        <ul class="nav-links" role="menubar">
+            <li role="none"><a href="https://staywinnipeg.ca/" role="menuitem">Home</a></li>
+            <li role="none"><a href="https://staywinnipeg.ca/#features" role="menuitem">Features</a></li>
+            <li role="none"><a href="https://staywinnipeg.ca/#reviews" role="menuitem">Reviews</a></li>
+            <li role="none"><a href="https://staywinnipeg.ca/#amenities" role="menuitem">Amenities</a></li>
+            <li role="none"><a href="https://staywinnipeg.ca/#nearby" role="menuitem">Nearby</a></li>
+            <li role="none"><a href="https://staywinnipeg.ca/blog.html" class="active" role="menuitem">Blog</a></li>
+            <li role="none"><a href="https://www.airbnb.ca/rooms/716340250371431352" class="nav-cta" role="menuitem" aria-label="Book your stay on Airbnb">Book Now</a></li>
+        </ul>
+    </div>
+</nav>
+```
+
+### 8. Article Structure
+
+```html
+<main>
+    <article class="container">
+        <div class="article-header">
+            <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+            <h1>[Post Title]</h1>
+            <div class="article-meta">
+                <span>[Emoji] Category</span> • <span>⏱️ X min read</span> • <span>📅 Month Day, Year</span>
+            </div>
+        </div>
+
+        <div class="article-hero-image">
+            <img src="[image URL]" alt="[descriptive alt text]" loading="eager">
+        </div>
+
+        <div class="article-body">
+            <!-- Content goes here -->
+        </div>
+    </article>
+</main>
+```
+
+## Content Structure Guidelines
+
+### Headings Hierarchy
+
+- Use `<h1>` only once for the main title (in article-header)
+- Use `<h2>` for major sections
+- Use `<h3>` for subsections within h2 sections
+- Headings use Playfair Display font automatically
+
+### Paragraphs
+
+- Keep paragraphs focused and readable (3-5 sentences)
+- Use `<p>` tags for all body text
+- Line height is 1.7 for readability
+
+### Special Content Boxes
+
+#### Highlight Box (Yellow/Orange accent)
+```html
+<div class="highlight-box">
+    <p><strong>[Title]:</strong> [Content with helpful tips or interesting facts]</p>
+</div>
+```
+
+#### Info Box (Teal accent)
+```html
+<div class="info-box">
+    <p><strong>[Title]:</strong> [Informational content]</p>
+</div>
+```
+
+#### Warning Box (Orange accent - use sparingly)
+```html
+<div class="warning-box">
+    <p><strong>[Warning Title]:</strong> [Important warning or caution]</p>
+</div>
+```
+
+### Lists
+
+- Use `<ul>` for unordered lists
+- Use `<li>` for list items
+- Lists automatically have proper spacing
+
+### Links
+
+- External links: `<a href="[url]" target="_blank" rel="noopener noreferrer">[text]</a>`
+- Internal links: `<a href="https://staywinnipeg.ca/[page].html">[text]</a>`
+- Always use descriptive link text
+
+### Images
+
+- Hero image: Use in `article-hero-image` div with `loading="eager"`
+- Other images: Use `loading="lazy"` for performance
+- Always include descriptive `alt` text
+- Images can be from `/images/` directory or external URLs (Unsplash, etc.)
+- Recommended size: 1200x800px for hero images
+
+## Footer Structure (Required)
+
+```html
+<footer role="contentinfo">
+    <div class="footer-content">
+        <div class="footer-links">
+            <a href="https://staywinnipeg.ca/">Home</a>
+            <a href="https://staywinnipeg.ca/#features">Features</a>
+            <a href="https://staywinnipeg.ca/#reviews">Reviews</a>
+            <a href="https://staywinnipeg.ca/#amenities">Amenities</a>
+            <a href="https://staywinnipeg.ca/#nearby">Nearby</a>
+            <a href="https://staywinnipeg.ca/blog.html">Blog</a>
+            <a href="https://www.airbnb.ca/rooms/716340250371431352">Book Now</a>
+        </div>
+        <p>&copy; 2025 Corydon Cute & Stylish. All rights reserved.</p>
+        <p class="footer-text">
+            <a href="https://www.airbnb.ca/h/corydon-cute-and-stylish">
+                airbnb.ca/h/corydon-cute-and-stylish
+            </a>
+        </p>
+        <p class="footer-registration">
+            Registration details: STRA-2025-2600298
+        </p>
+    </div>
+</footer>
+```
+
+## JSON-LD Structured Data (Required for SEO)
+
+```html
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "[Post Title]",
+    "description": "[SEO description]",
+    "author": {
+        "@type": "Person",
+        "name": "David"
+    },
+    "datePublished": "YYYY-MM-DD",
+    "dateModified": "YYYY-MM-DD",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Stay Winnipeg"
+    },
+    "image": "[Full URL to hero image]",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://staywinnipeg.ca/blog-[topic].html"
+    }
+}
+</script>
+```
+
+## Floating Book Now Button (Required)
+
+```html
+<a 
+    href="https://www.airbnb.ca/rooms/716340250371431352"
+    class="floating-book-button"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Book your stay on Airbnb - opens in new tab"
+>
+    Book Now
+</a>
+```
+
+## Post-Creation Checklist
+
+After creating a new blog post, you MUST:
+
+1. ✅ Add the post to `blog.html` in the appropriate category section
+   - Format: `<a href="/blog-[topic].html" class="article-card" data-category="[category]" data-date="YYYY-MM-DD" data-title="[Title]">`
+   - Include image, meta info, description, and "Read Article" link
+
+2. ✅ Add the post to `sitemap.xml`
+   - Format:
+   ```xml
+   <url>
+       <loc>https://staywinnipeg.ca/blog-[topic].html</loc>
+       <lastmod>YYYY-MM-DD</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8</priority>
+   </url>
+   ```
+
+3. ✅ Add the post to `llms.txt`
+   - Update total blog post count
+   - Add entry in appropriate category section
+   - Update site structure counts
+
+4. ✅ Add JSON-LD entry to `blog.html` structured data section
+   - Include in the `blogListings` array
+
+## Content Categories
+
+Blog posts fall into three main categories:
+
+1. **Winnipeg Attractions & Activities** (data-category="winnipeg")
+   - Local guides, attractions, restaurants, neighborhoods, activities
+
+2. **Hosting & Airbnb Philosophy** (data-category="hosting")
+   - Hosting tips, design lessons, guest guides, hosting philosophy
+
+3. **Travel Experiences & Stories** (data-category="travel")
+   - Personal travel stories, experiences from other Airbnbs
+
+## Writing Guidelines
+
+- Write in a friendly, informative tone
+- Use Canadian English spelling (e.g., "colour", "neighbourhood")
+- Include relevant local context and connections to the Airbnb location
+- Use descriptive, engaging headings
+- Break up long paragraphs for readability
+- Include practical tips and local insights
+- Link to relevant external resources when appropriate
+- Always mention the Airbnb location when relevant (Crescentwood, Corydon neighborhood)
+
+## Image Guidelines
+
+- Hero images should be high quality and relevant to the topic
+- Use Unsplash or local images from `/images/` directory
+- Optimize images for web (compressed, appropriate size)
+- Always include descriptive alt text for accessibility
+- Recommended formats: JPG, PNG, WebP
+
+## SEO Best Practices
+
+- Title tags: 50-60 characters
+- Meta descriptions: 150-160 characters
+- Use relevant keywords naturally in content
+- Include internal links to other blog posts when relevant
+- Use descriptive headings (H2, H3) with keywords
+- Include structured data (JSON-LD)
+- Ensure all images have alt text
+
+## Example Blog Post Template
+
+See `blog-winnipeg-jets.html` or `blog-the-forks.html` for complete examples of properly structured blog posts.
+
+## Notes
+
+- All dates should use format: YYYY-MM-DD
+- All URLs should use HTTPS
+- Always test links before publishing
+- Ensure proper semantic HTML structure
+- Maintain consistent formatting across all posts
+- Keep file size reasonable (optimize images)
+
