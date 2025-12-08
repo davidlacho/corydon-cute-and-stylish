@@ -261,4 +261,10 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://staywinnipeg.ca/blog-winnipeg-pride.html</loc>
+        <lastmod>2025-12-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>

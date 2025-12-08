@@ -32,6 +32,16 @@ const ARTICLES_DATA = [
     "metaHtml": "<span>🏈 Sports History</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 8, 2025</span>"
   },
   {
+    "url": "/blog-winnipeg-pride.html",
+    "category": "winnipeg",
+    "date": "2025-12-08",
+    "title": "Winnipeg Pride, Rainbow Resource Centre, and LGBTQ+ History",
+    "image": "https://plus.unsplash.com/premium_photo-1670588493386-84435548e2ca?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Colorful rainbow pride flag representing diversity and inclusion",
+    "description": "Discover Winnipeg's vibrant LGBTQ+ community, from the annual Pride Festival to the Rainbow Resource Centre. Learn about the city's rich history of advocacy and celebration, and why we welcome all guests with open arms.",
+    "metaHtml": "<span>🌈 Community & History</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 8, 2025</span>"
+  },
+  {
     "url": "/blog-post-review-philosophy.html",
     "category": "hosting",
     "date": "2025-12-04",
