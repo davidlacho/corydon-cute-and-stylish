@@ -119,6 +119,16 @@
     <!-- React will render here -->
     <div id="root"></div>
     
+    <!-- Hide noscript content immediately when JS is enabled -->
+    <script>
+        (function() {
+            // Hide noscript content immediately
+            const style = document.createElement('style');
+            style.textContent = 'noscript { display: none !important; }';
+            document.head.appendChild(style);
+        })();
+    </script>
+    
     <noscript>
         <!-- Fallback for no JavaScript -->
         <a href="#main-content" class="skip-link">Skip to main content</a>

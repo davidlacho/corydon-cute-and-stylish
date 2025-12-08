@@ -35,11 +35,6 @@ body {
     position: relative;
 }
 
-/* Hide noscript content when JavaScript is enabled */
-noscript {
-    display: none;
-}
-
 /* Skip Link for Accessibility */
 .skip-link {
     position: absolute;
