@@ -132,15 +132,11 @@
             function hideNoscript() {
                 const noscript = document.querySelector('noscript');
                 if (noscript) {
-                    noscript.style.display = 'none';
-                    noscript.style.visibility = 'hidden';
+                    noscript.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; position: absolute !important; left: -9999px !important;';
                     // Hide all children recursively
                     const allChildren = noscript.querySelectorAll('*');
                     allChildren.forEach(el => {
-                        el.style.display = 'none';
-                        el.style.visibility = 'hidden';
-                        el.style.height = '0';
-                        el.style.overflow = 'hidden';
+                        el.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important;';
                     });
                 }
             }
@@ -153,9 +149,32 @@
                 document.addEventListener('DOMContentLoaded', hideNoscript);
             }
             
-            // Hide again after a short delay to catch any late-rendering content
+            // Hide again after short delays to catch any late-rendering content
+            setTimeout(hideNoscript, 50);
             setTimeout(hideNoscript, 100);
             setTimeout(hideNoscript, 500);
+            
+            // Use MutationObserver to catch any noscript content that appears
+            if (typeof MutationObserver !== 'undefined') {
+                const observer = new MutationObserver(function(mutations) {
+                    hideNoscript();
+                });
+                
+                // Observe the body for any changes
+                if (document.body) {
+                    observer.observe(document.body, {
+                        childList: true,
+                        subtree: true
+                    });
+                } else {
+                    document.addEventListener('DOMContentLoaded', function() {
+                        observer.observe(document.body, {
+                            childList: true,
+                            subtree: true
+                        });
+                    });
+                }
+            }
         })();
     </script>
     
@@ -1498,12 +1517,29 @@
                 // Hide noscript content before rendering
                 hideAllNoscriptContent();
                 
-                // Hide again after React renders (in case anything escaped)
-                setTimeout(hideAllNoscriptContent, 100);
-                setTimeout(hideAllNoscriptContent, 500);
-                
                 const root = ReactDOM.createRoot(document.getElementById('root'));
                 root.render(React.createElement(BlogApp));
+                
+                // After React renders, ensure no duplicate content appears
+                setTimeout(function() {
+                    hideAllNoscriptContent();
+                    
+                    // Also hide any elements with noscript IDs that appear outside the React root
+                    const rootEl = document.getElementById('root');
+                    if (rootEl) {
+                        const allElements = document.querySelectorAll('#articles-grid, .blog-controls, .filter-sort-container, .articles-grid');
+                        allElements.forEach(el => {
+                            // If element is not inside React root and is inside noscript, hide it
+                            if (!rootEl.contains(el) && (el.closest('noscript') || !el.closest('#root'))) {
+                                el.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important;';
+                            }
+                        });
+                    }
+                }, 100);
+                
+                // Hide again after React fully renders
+                setTimeout(hideAllNoscriptContent, 500);
+                setTimeout(hideAllNoscriptContent, 1000);
             } else {
                 setTimeout(initBlogApp, 100);
             }
