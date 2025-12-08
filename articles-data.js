@@ -26,7 +26,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2025-12-08",
     "title": "The Winnipeg Blue Bombers: A Legacy of Excellence in Canadian Football",
-    "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Canadian Football League game action at a stadium",
     "description": "Discover the rich history of the Winnipeg Blue Bombers, from their 1930 founding to 12 Grey Cup championships. Learn about Princess Auto Stadium, recent seasons, and why attending a game is a must for any Winnipeg visitor.",
     "metaHtml": "<span>🏈 Sports History</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 8, 2025</span>"
