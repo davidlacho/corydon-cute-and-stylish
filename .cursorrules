@@ -206,11 +206,14 @@ Blog posts use React to render Navigation, Footer, and FloatingBookButton compon
 </body>
 ```
 
-**Important Notes:**
-- The article content must be in a `<main id="article-content">` element so React can extract it
-- React components (Navigation, Footer, FloatingBookButton) are defined in `/blog-components.js`
-- The noscript fallback ensures the page works without JavaScript
+**Critical Requirements:**
+- The article content MUST be in a `<main id="article-content">` element (NOT inside noscript) so React can extract it
+- The `<main id="article-content">` should contain a single `<article class="container">` with all the article content
+- React components (Navigation, Footer, FloatingBookButton) are automatically rendered - you do NOT need to include them manually
+- The React app script MUST be included before the closing `</body>` tag
+- The noscript fallback is for users without JavaScript - it loads navigation/footer via `/load-components.js`
 - All React code uses `React.createElement` (not JSX) since we're using Babel standalone
+- Navigation and Footer will NOT show if the React app script is missing or if React fails to load
 
 ## Content Structure Guidelines
 
@@ -447,10 +450,17 @@ The blog listing page uses React to:
 ### Individual Blog Posts
 
 Each blog post:
-- Extracts article content from the HTML
+- Extracts article content from `<main id="article-content">` element
 - Renders it with Navigation, Footer, and FloatingBookButton via React
-- Maintains noscript fallback for accessibility
+- The React app script MUST be present - without it, Navigation and Footer will not render
+- Maintains noscript fallback for accessibility (loads nav/footer via `/load-components.js`)
 - Uses the same CDN approach as `index.html`
+- **Critical**: If Navigation/Footer don't appear, check that:
+  1. React CDN scripts are loaded in `<head>`
+  2. `/blog-components.js` is loaded in `<head>`
+  3. The React app script (`BlogPostApp`) is present before `</body>`
+  4. The `<div id="root"></div>` exists in the body
+  5. The `<main id="article-content">` contains the article
 
 ## Example Blog Post Template
 
