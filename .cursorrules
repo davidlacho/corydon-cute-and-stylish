@@ -210,10 +210,12 @@ Blog posts use React to render Navigation, Footer, and FloatingBookButton compon
 - The article content MUST be in a `<main id="article-content">` element (NOT inside noscript) so React can extract it
 - The `<main id="article-content">` should contain a single `<article class="container">` with all the article content
 - React components (Navigation, Footer, FloatingBookButton) are automatically rendered - you do NOT need to include them manually
-- The React app script MUST be included before the closing `</body>` tag
+- The React app script (`BlogPostApp`) MUST be included before the closing `</body>` tag
+- The `<div id="root"></div>` MUST exist in the body for React to render into
 - The noscript fallback is for users without JavaScript - it loads navigation/footer via `/load-components.js`
 - All React code uses `React.createElement` (not JSX) since we're using Babel standalone
-- Navigation and Footer will NOT show if the React app script is missing or if React fails to load
+- **Navigation and Footer will NOT show if the React app script is missing or if React fails to load**
+- Do NOT include `<div id="footer-placeholder"></div>` or `<div id="nav-placeholder"></div>` outside of the `<noscript>` tag - React handles this automatically
 
 ## Content Structure Guidelines
 
