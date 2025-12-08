@@ -84,6 +84,7 @@
     </script>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <!-- React will render here -->
     <div id="root"></div>
     
@@ -271,7 +272,7 @@
                 // Still loading
                 return React.createElement('div', null,
                     React.createElement(Navigation),
-                    React.createElement('main', null,
+                    React.createElement('main', { id: 'main-content' },
                         React.createElement('div', { className: 'container' },
                             React.createElement('p', null, 'Loading...')
                         )
@@ -283,7 +284,7 @@
 
             return React.createElement('div', null,
                 React.createElement(Navigation),
-                React.createElement('main', null,
+                React.createElement('main', { id: 'main-content' },
                     React.createElement('article', {
                         className: 'container',
                         dangerouslySetInnerHTML: { __html: articleContent }
