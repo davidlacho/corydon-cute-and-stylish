@@ -468,6 +468,16 @@ Each blog post:
   7. The `Navigation`, `Footer`, and `FloatingBookButton` components are defined in `/blog-components.js`
   8. Do NOT include placeholder divs (`nav-placeholder`, `footer-placeholder`) outside of `<noscript>` - React renders these automatically
 
+### Smooth Transitions
+
+All blog posts and `blog.html` use smooth fade transitions to prevent content flash when React loads:
+
+- **CSS Transitions**: Defined in `blog-styles.css` - `#root` starts with `opacity: 0` and fades in when React is ready
+- **Noscript Fade-Out**: Noscript content fades out smoothly (0.3s transition) before being hidden
+- **Transition Function**: Each blog post includes `window.hideNoscriptWhenReady()` function that smoothly hides noscript content
+- **React Ready Class**: When React finishes rendering, `#root` gets the `react-ready` class which triggers the fade-in
+- **Timing**: Transitions are coordinated so noscript fades out as React content fades in, creating a seamless experience
+
 ## Example Blog Post Template
 
 See `blog-winnipeg-jets.html` for a complete example of a properly structured React-based blog post.

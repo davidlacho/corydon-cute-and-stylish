@@ -312,7 +312,6 @@
                     if (rootEl) {
                         rootEl.classList.add('react-ready');
                     }
-                    
                     // Smoothly hide noscript content if function exists
                     if (window.hideNoscriptWhenReady) {
                         window.hideNoscriptWhenReady();
@@ -323,6 +322,7 @@
             }
         }
 
+        // Initialize when DOM is ready
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', initBlogPostApp);
         } else {
