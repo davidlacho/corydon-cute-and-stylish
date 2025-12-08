@@ -171,6 +171,30 @@
             
             // Store function globally so React can call it when ready
             window.hideNoscriptWhenReady = hideNoscriptSmoothly;
+            
+            // Also add immediate CSS rule to hide noscript content with main content
+            const hideStyle = document.createElement('style');
+            hideStyle.id = 'hide-noscript-main';
+            hideStyle.textContent = `
+                noscript:has(main, #main-content, .blog-hero, .articles-grid) {
+                    display: none !important;
+                    visibility: hidden !important;
+                }
+            `;
+            // Try modern :has() selector, fallback to manual hiding
+            try {
+                document.head.appendChild(hideStyle);
+            } catch(e) {
+                // :has() not supported, use manual approach
+                setTimeout(function() {
+                    const mainNoscript = Array.from(document.querySelectorAll('noscript')).find(n => 
+                        n.querySelector('main, #main-content, .blog-hero, .articles-grid')
+                    );
+                    if (mainNoscript) {
+                        mainNoscript.style.cssText = 'display: none !important; visibility: hidden !important;';
+                    }
+                }, 0);
+            }
         })();
     </script>
     
