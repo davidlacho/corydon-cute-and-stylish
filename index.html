@@ -569,6 +569,13 @@
             margin: 0 auto;
         }
 
+        /* iPad-specific nav container adjustments */
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .nav-container {
+                padding: 1.5rem 2rem; /* Slightly more padding on iPad */
+            }
+        }
+
         .logo {
             font-size: 1.75rem;
             font-weight: 700;
@@ -726,6 +733,13 @@
             background: linear-gradient(180deg, var(--warm-beige) 0%, var(--cream) 50%, var(--warm-beige) 100%);
             position: relative;
             overflow: hidden;
+        }
+
+        /* iPad-specific hero padding */
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .hero {
+                padding-top: 100px; /* Extra space for fixed nav on iPad */
+            }
         }
 
         .hero::before {
