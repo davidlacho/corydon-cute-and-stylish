@@ -240,6 +240,27 @@
             align-self: flex-start;
         }
 
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--charcoal);
+            cursor: pointer;
+            padding: 0.5rem;
+            z-index: 1001;
+            min-width: 44px;
+            min-height: 44px;
+            align-items: center;
+            justify-content: center;
+            touch-action: manipulation;
+        }
+
+        .mobile-menu-toggle:focus {
+            outline: var(--focus-outline);
+            outline-offset: var(--focus-outline-offset);
+        }
+
         .nav-links {
             display: flex;
             gap: 2.5rem;
@@ -750,35 +771,122 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            .nav-links {
-                gap: 1rem;
-                font-size: 0.9rem;
+            /* Navigation Mobile */
+            .mobile-menu-toggle {
+                display: flex;
             }
 
+            .nav-container {
+                padding: 1rem 1.5rem;
+            }
+
+            .logo {
+                font-size: 1.4rem;
+            }
+
+            .logo-subtitle {
+                font-size: 0.55rem;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 80%;
+                max-width: 300px;
+                height: 100vh;
+                background: var(--cream);
+                flex-direction: column;
+                gap: 0;
+                padding: 5rem 2rem 2rem;
+                box-shadow: -5px 0 20px var(--shadow-strong);
+                transition: right 0.3s ease;
+                z-index: 1000;
+                overflow-y: auto;
+                align-items: stretch;
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            .nav-links li {
+                width: 100%;
+                border-bottom: 1px solid var(--border);
+            }
+
+            .nav-links a {
+                display: block;
+                padding: 1rem 0;
+                font-size: 1rem;
+                width: 100%;
+            }
+
+            .nav-links a.nav-cta {
+                margin-top: 1rem;
+                text-align: center;
+                padding: 0.75rem 1.5rem;
+            }
+
+            .nav-links a::before {
+                display: none;
+            }
+
+            /* Mobile Menu Overlay */
+            .nav-overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 999;
+            }
+
+            .nav-overlay.active {
+                display: block;
+            }
+
+            /* Container */
+            .container {
+                padding: 0 1rem;
+            }
+
+            /* Hero Section */
             .blog-hero {
-                padding: 3rem 0;
+                margin-top: 70px;
+                padding: 3rem 1rem;
             }
 
             .blog-hero h1 {
                 font-size: 2rem;
             }
 
-            .articles-grid {
-                grid-template-columns: 1fr;
-                gap: 2rem;
+            .blog-hero p {
+                font-size: 1rem;
             }
 
-            h1 {
-                font-size: 2rem;
+            /* Blog Content */
+            .blog-content {
+                padding: 3rem 0;
             }
 
-            h2 {
-                font-size: 1.75rem;
+            .blog-intro {
+                padding: 0 1rem;
+                font-size: 1rem;
+                margin-bottom: 2rem;
+            }
+
+            /* Filter and Sort */
+            .blog-controls {
+                padding: 0 1rem;
             }
 
             .filter-sort-container {
                 flex-direction: column;
                 align-items: stretch;
+                gap: 1rem;
             }
 
             .filter-buttons {
@@ -788,11 +896,78 @@
             .sort-container {
                 justify-content: center;
                 width: 100%;
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .sort-container label {
+                text-align: center;
             }
 
             .sort-select {
                 flex: 1;
                 max-width: 100%;
+            }
+
+            /* Articles Grid */
+            .articles-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                padding: 0 1rem;
+            }
+
+            .article-card {
+                margin-bottom: 0;
+            }
+
+            .article-content {
+                padding: 1.5rem;
+            }
+
+            .article-card h2 {
+                font-size: 1.5rem;
+            }
+
+            /* Typography */
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.75rem;
+            }
+
+            /* Footer */
+            footer {
+                padding: 3rem 1rem;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 1rem;
+                margin-bottom: 2rem;
+            }
+
+            .footer-links a {
+                padding: 0.75rem 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .blog-hero h1 {
+                font-size: 1.75rem;
+            }
+
+            .nav-links {
+                width: 85%;
+            }
+
+            .article-card h2 {
+                font-size: 1.25rem;
+            }
+
+            .article-content {
+                padding: 1.25rem;
             }
         }
     </style>
@@ -824,7 +999,11 @@
                 <span class="logo-title">Corydon Cute & Stylish</span>
                 <span class="logo-subtitle">Boutique Airbnb in Winnipeg</span>
             </a>
-            <ul class="nav-links" role="menubar">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-navigation">
+                <span id="menu-icon">☰</span>
+            </button>
+            <div class="nav-overlay" aria-hidden="true"></div>
+            <ul class="nav-links" id="main-navigation" role="menubar">
                 <li role="none"><a href="https://staywinnipeg.ca/" role="menuitem">Home</a></li>
                 <li role="none"><a href="https://staywinnipeg.ca/#features" role="menuitem">Features</a></li>
                 <li role="none"><a href="https://staywinnipeg.ca/#reviews" role="menuitem">Reviews</a></li>
@@ -2018,6 +2197,58 @@
 
     <script>
         // Blog filtering and sorting functionality
+        // Mobile Menu Toggle
+        (function() {
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            const navOverlay = document.querySelector('.nav-overlay');
+            const menuIcon = document.getElementById('menu-icon');
+            let mobileMenuOpen = false;
+
+            function toggleMobileMenu() {
+                mobileMenuOpen = !mobileMenuOpen;
+                navLinks.classList.toggle('active', mobileMenuOpen);
+                navOverlay.classList.toggle('active', mobileMenuOpen);
+                mobileMenuToggle.setAttribute('aria-expanded', mobileMenuOpen);
+                menuIcon.textContent = mobileMenuOpen ? '✕' : '☰';
+                
+                // Prevent body scroll when menu is open
+                if (mobileMenuOpen) {
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    document.body.style.overflow = '';
+                }
+            }
+
+            function closeMobileMenu() {
+                if (mobileMenuOpen) {
+                    toggleMobileMenu();
+                }
+            }
+
+            if (mobileMenuToggle) {
+                mobileMenuToggle.addEventListener('click', toggleMobileMenu);
+            }
+
+            if (navOverlay) {
+                navOverlay.addEventListener('click', closeMobileMenu);
+            }
+
+            // Close menu when clicking on a nav link
+            const navLinkItems = document.querySelectorAll('.nav-links a');
+            navLinkItems.forEach(link => {
+                link.addEventListener('click', closeMobileMenu);
+            });
+
+            // Close menu on window resize to desktop
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768 && mobileMenuOpen) {
+                    closeMobileMenu();
+                }
+            });
+        })();
+
+        // Filter and Sort Functionality
         (function() {
             const filterButtons = document.querySelectorAll('.filter-btn');
             const sortSelect = document.getElementById('sort-select');
