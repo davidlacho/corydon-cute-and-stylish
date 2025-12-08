@@ -1455,22 +1455,34 @@
                 const noscript = document.querySelector('noscript');
                 if (noscript) {
                     noscript.style.display = 'none';
+                    noscript.style.visibility = 'hidden';
+                    // Force hide all children recursively
+                    const allChildren = noscript.querySelectorAll('*');
+                    allChildren.forEach(el => {
+                        el.style.display = 'none';
+                        el.style.visibility = 'hidden';
+                    });
                 }
                 
-                // Also hide any elements that might be visible from noscript
-                const originalMain = document.querySelector('noscript main');
-                if (originalMain) {
-                    originalMain.style.display = 'none';
-                }
-                
+                // Also hide any elements by ID that might be duplicated (safety check)
                 const originalArticlesGrid = document.getElementById('articles-grid');
                 if (originalArticlesGrid && originalArticlesGrid.closest('noscript')) {
                     originalArticlesGrid.style.display = 'none';
+                    originalArticlesGrid.style.visibility = 'hidden';
                 }
                 
-                const originalControls = document.querySelector('noscript .blog-controls');
+                // Hide filter controls from noscript
+                const originalControls = document.querySelector('noscript .blog-controls, noscript .filter-sort-container, noscript .filter-buttons');
                 if (originalControls) {
                     originalControls.style.display = 'none';
+                    originalControls.style.visibility = 'hidden';
+                }
+                
+                // Hide the entire main content from noscript
+                const originalMain = document.querySelector('noscript main, noscript #main-content');
+                if (originalMain) {
+                    originalMain.style.display = 'none';
+                    originalMain.style.visibility = 'hidden';
                 }
                 
                 const root = ReactDOM.createRoot(document.getElementById('root'));
