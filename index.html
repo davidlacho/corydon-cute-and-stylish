@@ -4736,10 +4736,7 @@
                             e.preventDefault();
                             window.location.hash = hash;
                             handleAnchorScroll(hash);
-                            // Close mobile menu if open
-                            if (mobileMenuOpen) {
-                                setMobileMenuOpen(false);
-                            }
+                            // Navigation component handles closing mobile menu via its own onClick handlers
                         }
                     }
                 };
@@ -4750,7 +4747,7 @@
                     window.removeEventListener('hashchange', handleHashChange);
                     document.removeEventListener('click', handleAnchorClick);
                 };
-            }, [mobileMenuOpen]);
+            }, []); // No dependencies needed
 
             const features = [
                 {
