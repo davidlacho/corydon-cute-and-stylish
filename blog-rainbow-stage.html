@@ -223,5 +223,70 @@
         <script src="/load-components.js"></script>
     </noscript>
     <div id="footer-placeholder"></div>
-    </html>
+    
+    <!-- React App for Blog Post -->
+    <script type="text/babel" defer>
+        const { useState, useEffect } = React;
 
+        function BlogPostApp() {
+            const [articleContent, setArticleContent] = useState(null);
+
+            useEffect(() => {
+                // Find the article element from the hidden main element
+                const mainEl = document.getElementById('article-content');
+                const articleEl = mainEl ? mainEl.querySelector('article') : null;
+                
+                if (articleEl) {
+                    // Clone and extract the article HTML
+                    const clone = articleEl.cloneNode(true);
+                    setArticleContent(clone.innerHTML);
+                    // Hide the original after extracting
+                    if (mainEl) mainEl.style.display = 'none';
+                }
+            }, []);
+
+            if (!articleContent) {
+                // Still loading
+                return React.createElement('div', null,
+                    React.createElement(Navigation),
+                    React.createElement('main', null,
+                        React.createElement('div', { className: 'container' },
+                            React.createElement('p', null, 'Loading...')
+                        )
+                    ),
+                    React.createElement(Footer),
+                    React.createElement(FloatingBookButton)
+                );
+            }
+
+            return React.createElement('div', null,
+                React.createElement(Navigation),
+                React.createElement('main', null,
+                    React.createElement('article', {
+                        className: 'container',
+                        dangerouslySetInnerHTML: { __html: articleContent }
+                    })
+                ),
+                React.createElement(Footer),
+                React.createElement(FloatingBookButton)
+            );
+        }
+
+        // Wait for React to load, then render
+        function initBlogPostApp() {
+            if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
+                const root = ReactDOM.createRoot(document.getElementById('root'));
+                root.render(React.createElement(BlogPostApp));
+            } else {
+                setTimeout(initBlogPostApp, 100);
+            }
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initBlogPostApp);
+        } else {
+            initBlogPostApp();
+        }
+    </script>
+</body>
+</html>
