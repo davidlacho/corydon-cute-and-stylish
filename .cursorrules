@@ -350,3 +350,58 @@ See `blog-winnipeg-jets.html` or `blog-the-forks.html` for complete examples of 
 - Maintain consistent formatting across all posts
 - Keep file size reasonable (optimize images)
 
+## Mobile-Friendly Requirements
+
+**ALL pages on the site MUST be mobile-responsive.** This includes:
+
+1. **Viewport Meta Tag**: Every HTML page must include:
+   ```html
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   ```
+
+2. **Shared Styles**: All blog posts and blog.html MUST use the shared stylesheet:
+   ```html
+   <link rel="stylesheet" href="/blog-styles.css">
+   ```
+   - Do NOT include inline `<style>` blocks in blog posts
+   - The shared CSS includes comprehensive mobile responsive styles
+
+3. **Shared Components**: Navigation and footer are loaded dynamically:
+   - Use `<div id="nav-placeholder"></div>` for navigation
+   - Use `<div id="footer-placeholder"></div>` for footer
+   - Include `<script src="/load-components.js"></script>` before closing `</body>` tag
+   - Components are loaded from `/nav.html` and `/footer.html`
+
+4. **Mobile Breakpoints**:
+   - `@media (max-width: 768px)` - Tablets and mobile devices
+   - `@media (max-width: 480px)` - Small mobile devices
+   - All layouts must adapt gracefully at these breakpoints
+
+5. **Mobile Navigation**:
+   - Mobile menu toggle button appears on screens ≤768px
+   - Navigation slides in from the right on mobile
+   - Overlay appears when mobile menu is open
+   - Menu closes on link click, overlay click, or Escape key
+
+6. **Responsive Typography**:
+   - Font sizes scale down appropriately on mobile
+   - Line heights remain readable
+   - Headings maintain hierarchy
+
+7. **Touch-Friendly Elements**:
+   - All interactive elements must be at least 44x44px for touch targets
+   - Adequate spacing between clickable elements
+   - Buttons and links should have sufficient padding
+
+8. **Content Layout**:
+   - Single column layout on mobile
+   - Grid layouts collapse to single column
+   - Images scale to fit viewport width
+   - Padding and margins adjust for smaller screens
+
+9. **Testing**: Always test pages on:
+   - Mobile devices (320px - 480px width)
+   - Tablets (481px - 768px width)
+   - Desktop (769px+ width)
+   - Various browsers (Chrome, Safari, Firefox, Edge)
+
