@@ -108,6 +108,7 @@ Blog posts use React to render Navigation, Footer, and FloatingBookButton compon
 
 ```html
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <!-- React will render here -->
     <div id="root"></div>
     
@@ -164,7 +165,7 @@ Blog posts use React to render Navigation, Footer, and FloatingBookButton compon
                 // Still loading
                 return React.createElement('div', null,
                     React.createElement(Navigation),
-                    React.createElement('main', null,
+                    React.createElement('main', { id: 'main-content' },
                         React.createElement('div', { className: 'container' },
                             React.createElement('p', null, 'Loading...')
                         )
@@ -176,7 +177,7 @@ Blog posts use React to render Navigation, Footer, and FloatingBookButton compon
 
             return React.createElement('div', null,
                 React.createElement(Navigation),
-                React.createElement('main', null,
+                React.createElement('main', { id: 'main-content' },
                     React.createElement('article', {
                         className: 'container',
                         dangerouslySetInnerHTML: { __html: articleContent }
@@ -207,8 +208,10 @@ Blog posts use React to render Navigation, Footer, and FloatingBookButton compon
 ```
 
 **Critical Requirements:**
+- **Skip link MUST be present**: `<a href="#main-content" class="skip-link">Skip to main content</a>` immediately after `<body>` tag
 - The article content MUST be in a `<main id="article-content">` element (NOT inside noscript) so React can extract it
 - The `<main id="article-content">` should contain a single `<article class="container">` with all the article content
+- **React main element MUST have id**: `React.createElement('main', { id: 'main-content' }, ...)` - this is REQUIRED for accessibility (skip links target this)
 - React components (Navigation, Footer, FloatingBookButton) are automatically rendered - you do NOT need to include them manually
 - The React app script (`BlogPostApp`) MUST be included before the closing `</body>` tag
 - The `<div id="root"></div>` MUST exist in the body for React to render into
@@ -545,4 +548,225 @@ See `blog-winnipeg-jets.html` for a complete example of a properly structured Re
    - Tablets (481px - 768px width)
    - Desktop (769px+ width)
    - Various browsers (Chrome, Safari, Firefox, Edge)
+
+## Accessibility Requirements (WCAG 2.1 Level AA)
+
+**ALL pages on the site MUST meet WCAG 2.1 Level AA accessibility standards.** This ensures the site is usable by people with disabilities and improves SEO.
+
+### 1. Skip Links (Required)
+
+Every page MUST include a skip link immediately after the `<body>` tag:
+
+```html
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- Rest of content -->
+</body>
+```
+
+- Skip links allow keyboard users to bypass navigation and jump directly to main content
+- The skip link is visually hidden but appears on keyboard focus
+- Must target `#main-content` (the main landmark id)
+- Styled in `blog-styles.css` and `styles.css` with proper focus states
+
+### 2. Main Content Landmarks (Required)
+
+All pages MUST have a properly identified main content area:
+
+**For blog posts:**
+- The React-rendered `<main>` element MUST have `id="main-content"`
+- Example: `React.createElement('main', { id: 'main-content' }, ...)`
+- This applies to both loading and rendered states
+
+**For index.html and blog.html:**
+- Main content area must have `id="main-content"`
+- Example: `<main id="main-content">` or `React.createElement('main', { id: 'main-content' }, ...)`
+
+### 3. Semantic HTML Structure
+
+Use proper semantic HTML elements:
+- `<nav>` for navigation (with `role="navigation"` and `aria-label="Main navigation"`)
+- `<main>` for main content (with `id="main-content"`)
+- `<footer>` for footer (with `role="contentinfo"`)
+- `<article>` for blog post content
+- `<section>` for distinct content sections
+- Proper heading hierarchy: `<h1>` → `<h2>` → `<h3>` (never skip levels)
+
+### 4. ARIA Labels and Roles
+
+**Navigation:**
+- Navigation must have: `role="navigation"` and `aria-label="Main navigation"`
+- Mobile menu toggle must have:
+  - `aria-label="Toggle menu"`
+  - `aria-expanded` (dynamically updated: `true`/`false`)
+  - `aria-controls="main-navigation"`
+- Navigation links should have `role="menuitem"` when in a menu context
+
+**Buttons:**
+- All buttons MUST have descriptive `aria-label` attributes
+- Icon-only buttons MUST have `aria-label` (never rely on icon alone)
+- Example: `<button aria-label="Previous image">‹</button>`
+- Decorative icons inside buttons should have `aria-hidden="true"`
+
+**Interactive Elements:**
+- Links that open in new tabs: `aria-label="[Description] - opens in new tab"`
+- Image carousels/slideshows: `role="region"`, `aria-label="[Description]"`, `aria-live="polite"`
+- Filter buttons: `aria-label="Filter by [category]"`, `aria-pressed="true/false"`
+
+**Decorative Elements:**
+- Purely decorative icons/images: `aria-hidden="true"`
+- Example: `<span aria-hidden="true">✓</span>`
+
+### 5. Images and Alt Text (Required)
+
+**ALL images MUST have descriptive alt text:**
+
+```html
+<!-- Good: Descriptive alt text -->
+<img src="image.jpg" alt="Mid-century modern living room in Corydon Cute & Stylish Airbnb Winnipeg" loading="lazy">
+
+<!-- Good: Decorative image (use empty alt) -->
+<img src="decoration.jpg" alt="" role="presentation">
+
+<!-- Bad: Missing alt text -->
+<img src="image.jpg">
+```
+
+**Guidelines:**
+- Alt text should be descriptive and contextual
+- For hero images: Describe the scene/subject
+- For content images: Describe what's shown and why it's relevant
+- For decorative images: Use `alt=""` and optionally `role="presentation"`
+- Never use "image of" or "picture of" - be direct
+- Keep alt text concise (typically under 125 characters)
+
+**React Components:**
+- Dynamic images in React components should use a function like `getImageAltText(index, total)` to generate descriptive alt text
+- All `<img>` elements in React must include `alt` prop
+
+### 6. Keyboard Navigation
+
+**All interactive elements MUST be keyboard accessible:**
+- All links and buttons must be focusable with Tab key
+- Focus order must be logical (top to bottom, left to right)
+- Focus indicators must be visible (defined in CSS with `:focus` and `:focus-visible`)
+- Skip links must work with keyboard navigation
+- Mobile menu must close on Escape key press
+
+**Focus Styles:**
+- Defined in CSS using `--focus-outline` and `--focus-outline-offset` variables
+- Must be visible and have sufficient contrast
+- Use `:focus-visible` to show focus only for keyboard users (not mouse clicks)
+
+### 7. Heading Hierarchy
+
+**Proper heading structure is REQUIRED:**
+- Use `<h1>` only once per page (main page title)
+- Use `<h2>` for major sections
+- Use `<h3>` for subsections within h2 sections
+- Never skip heading levels (e.g., don't go from h1 to h3)
+- Headings should be descriptive and meaningful (not just for styling)
+
+**Example structure:**
+```html
+<h1>Page Title</h1>
+  <h2>Major Section</h2>
+    <h3>Subsection</h3>
+  <h2>Another Major Section</h2>
+```
+
+### 8. Form Accessibility (When Forms Are Added)
+
+If forms are added to the site:
+- All inputs MUST have associated `<label>` elements
+- Use `for` attribute on labels matching input `id`
+- Or use `<label>` wrapping the input
+- Required fields must be clearly indicated (visually and with `aria-required="true"`)
+- Error messages must be associated with inputs using `aria-describedby`
+- Form validation errors must be announced to screen readers
+
+### 9. Color Contrast
+
+**Text must meet WCAG AA contrast ratios:**
+- Normal text (under 18pt/24px): 4.5:1 contrast ratio
+- Large text (18pt+ or 14pt+ bold): 3:1 contrast ratio
+- Interactive elements (links, buttons): 4.5:1 contrast ratio
+- Focus indicators: Must be clearly visible
+
+**Testing:**
+- Use browser DevTools or tools like WebAIM Contrast Checker
+- Test with various color vision deficiencies
+- Ensure information isn't conveyed by color alone
+
+### 10. Language Attributes
+
+**All pages MUST specify language:**
+```html
+<html lang="en-CA">
+```
+- Helps screen readers pronounce content correctly
+- Required for proper semantic HTML
+
+### 11. Screen Reader Considerations
+
+**Content must be accessible to screen readers:**
+- Use semantic HTML (not just divs with classes)
+- Provide text alternatives for all images
+- Ensure all interactive elements are keyboard accessible
+- Use ARIA labels when semantic HTML isn't sufficient
+- Test with screen readers (NVDA, JAWS, VoiceOver)
+
+**Common Issues to Avoid:**
+- Don't use `<div>` or `<span>` for buttons - use `<button>`
+- Don't use empty links (`<a href="#">`) - use buttons instead
+- Don't hide content with `display: none` if it should be accessible
+- Use `visually-hidden` class for screen-reader-only content
+
+### 12. React Component Accessibility
+
+**When creating React components:**
+- All interactive elements must have proper ARIA attributes
+- Use `React.createElement` with proper props for accessibility
+- Ensure keyboard event handlers (onKeyDown, onKeyPress) when needed
+- Maintain focus management (e.g., trap focus in modals)
+- Update ARIA states dynamically (e.g., `aria-expanded` for menus)
+
+**Example:**
+```javascript
+React.createElement('button', {
+    'aria-label': 'Toggle menu',
+    'aria-expanded': isOpen,
+    'aria-controls': 'main-navigation',
+    onClick: toggleMenu
+}, 'Menu')
+```
+
+### 13. Testing Checklist
+
+Before publishing any page, verify:
+- [ ] Skip link is present and functional
+- [ ] Main content has `id="main-content"`
+- [ ] All images have descriptive alt text
+- [ ] All buttons have aria-labels
+- [ ] Navigation has proper ARIA attributes
+- [ ] Heading hierarchy is correct (h1 → h2 → h3)
+- [ ] Keyboard navigation works (Tab through all interactive elements)
+- [ ] Focus indicators are visible
+- [ ] Color contrast meets WCAG AA standards
+- [ ] Page has `lang="en-CA"` attribute
+- [ ] Test with screen reader (optional but recommended)
+
+### 14. Accessibility Resources
+
+**Tools for Testing:**
+- WAVE (Web Accessibility Evaluation Tool) browser extension
+- axe DevTools browser extension
+- Lighthouse accessibility audit
+- Keyboard-only navigation testing
+- Screen reader testing (NVDA, JAWS, VoiceOver)
+
+**Standards:**
+- WCAG 2.1 Level AA compliance
+- WAI-ARIA best practices
+- Semantic HTML5 guidelines
 
