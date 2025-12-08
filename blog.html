@@ -1282,9 +1282,6 @@
     }
     </script>
 
-    <!-- Article Data for React -->
-    <script src="/articles-data.js"></script>
-
     <!-- React App for Blog Listing -->
     <script type="text/babel" defer>
         const { useState, useMemo } = React;
@@ -1426,6 +1423,12 @@
         // Wait for React to load, then render
         function initBlogApp() {
             if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
+                // Hide any article cards that might be visible from noscript fallback
+                const originalArticlesGrid = document.getElementById('articles-grid');
+                if (originalArticlesGrid) {
+                    originalArticlesGrid.style.display = 'none';
+                }
+                
                 const root = ReactDOM.createRoot(document.getElementById('root'));
                 root.render(React.createElement(BlogApp));
             } else {
