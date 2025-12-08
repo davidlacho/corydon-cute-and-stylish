@@ -35,6 +35,11 @@ body {
     position: relative;
 }
 
+/* Hide noscript content when JavaScript is enabled (browsers do this automatically, but this ensures it) */
+noscript {
+    display: none !important;
+}
+
 /* Skip Link for Accessibility */
 .skip-link {
     position: absolute;

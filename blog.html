@@ -122,10 +122,28 @@
     <!-- Hide noscript content immediately when JS is enabled -->
     <script>
         (function() {
-            // Hide noscript content immediately
+            // Hide noscript content immediately when JavaScript is enabled
             const style = document.createElement('style');
-            style.textContent = 'noscript { display: none !important; }';
+            style.textContent = 'noscript { display: none !important; } noscript * { display: none !important; }';
             document.head.appendChild(style);
+            
+            // Also hide any content that might have escaped noscript
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', hideNoscript);
+            } else {
+                hideNoscript();
+            }
+            
+            function hideNoscript() {
+                const noscript = document.querySelector('noscript');
+                if (noscript) {
+                    noscript.style.display = 'none';
+                    // Hide all children recursively
+                    Array.from(noscript.querySelectorAll('*')).forEach(el => {
+                        el.style.display = 'none';
+                    });
+                }
+            }
         })();
     </script>
     
@@ -133,7 +151,7 @@
         <!-- Fallback for no JavaScript -->
         <a href="#main-content" class="skip-link">Skip to main content</a>
         <div id="nav-placeholder"></div>
-        <main id="main-content">
+    <main id="main-content">
         <section class="blog-hero">
             <div class="container">
                 <h1>Travel Blog</h1>
@@ -1433,10 +1451,26 @@
         // Wait for React to load, then render
         function initBlogApp() {
             if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
-                // Hide any article cards that might be visible from noscript fallback
+                // Hide all noscript fallback content when React is rendering
+                const noscript = document.querySelector('noscript');
+                if (noscript) {
+                    noscript.style.display = 'none';
+                }
+                
+                // Also hide any elements that might be visible from noscript
+                const originalMain = document.querySelector('noscript main');
+                if (originalMain) {
+                    originalMain.style.display = 'none';
+                }
+                
                 const originalArticlesGrid = document.getElementById('articles-grid');
-                if (originalArticlesGrid) {
+                if (originalArticlesGrid && originalArticlesGrid.closest('noscript')) {
                     originalArticlesGrid.style.display = 'none';
+                }
+                
+                const originalControls = document.querySelector('noscript .blog-controls');
+                if (originalControls) {
+                    originalControls.style.display = 'none';
                 }
                 
                 const root = ReactDOM.createRoot(document.getElementById('root'));
