@@ -212,9 +212,14 @@ This file documents the structure and requirements for creating blog posts on th
         <p class="footer-registration">
             Registration details: STRA-2025-2600298
         </p>
+        <p class="footer-acknowledgement">
+            We acknowledge that we are on Treaty 1 territory, the traditional lands of the Anishinaabe, Cree, Oji-Cree, Dakota, and Dene peoples, and the homeland of the Métis Nation.
+        </p>
     </div>
 </footer>
 ```
+
+**IMPORTANT:** The land acknowledgement is REQUIRED for all blog posts. It must be included in the footer with the class `footer-acknowledgement`.
 
 ## JSON-LD Structured Data (Required for SEO)
 
@@ -262,11 +267,16 @@ This file documents the structure and requirements for creating blog posts on th
 
 After creating a new blog post, you MUST:
 
-1. ✅ Add the post to `blog.html` in the appropriate category section
+1. ✅ **Include the land acknowledgement in the footer**
+   - The land acknowledgement is REQUIRED for all blog posts
+   - Must use class `footer-acknowledgement`
+   - Text: "We acknowledge that we are on Treaty 1 territory, the traditional lands of the Anishinaabe, Cree, Oji-Cree, Dakota, and Dene peoples, and the homeland of the Métis Nation."
+
+2. ✅ Add the post to `blog.html` in the appropriate category section
    - Format: `<a href="/blog-[topic].html" class="article-card" data-category="[category]" data-date="YYYY-MM-DD" data-title="[Title]">`
    - Include image, meta info, description, and "Read Article" link
 
-2. ✅ Add the post to `sitemap.xml`
+3. ✅ Add the post to `sitemap.xml`
    - Format:
    ```xml
    <url>
@@ -277,12 +287,12 @@ After creating a new blog post, you MUST:
    </url>
    ```
 
-3. ✅ Add the post to `llms.txt`
+4. ✅ Add the post to `llms.txt`
    - Update total blog post count
    - Add entry in appropriate category section
    - Update site structure counts
 
-4. ✅ Add JSON-LD entry to `blog.html` structured data section
+5. ✅ Add JSON-LD entry to `blog.html` structured data section
    - Include in the `blogListings` array
 
 ## Content Categories
