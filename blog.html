@@ -83,6 +83,18 @@
     <!-- Shared Blog Styles -->
     <link rel="stylesheet" href="/blog-styles.css">
     
+    <!-- Load React libraries with defer for non-blocking execution -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
+    <!-- Load Babel last to ensure React is ready, with defer to prevent blocking -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
+    
+    <!-- Load shared blog components -->
+    <script src="/blog-components.js" defer></script>
+    
+    <!-- Load article data -->
+    <script src="/articles-data.js"></script>
+    
     <noscript>
         <style>
             /* Show category headers when JavaScript is disabled */
@@ -104,10 +116,14 @@
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <!-- Navigation will be loaded here -->
-    <div id="nav-placeholder"></div>
-
-    <main id="main-content">
+    <!-- React will render here -->
+    <div id="root"></div>
+    
+    <noscript>
+        <!-- Fallback for no JavaScript -->
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <div id="nav-placeholder"></div>
+        <main id="main-content">
         <section class="blog-hero">
             <div class="container">
                 <h1>Travel Blog</h1>
@@ -850,9 +866,8 @@
             </div>
         </section>
     </main>
-
-    <!-- Footer will be loaded here -->
     <div id="footer-placeholder"></div>
+    </noscript>
 
     <script type="application/ld+json">
     {
@@ -1267,162 +1282,162 @@
     }
     </script>
 
-    <script>
-        // Blog filtering and sorting functionality
-        // Mobile Menu Toggle
-        (function() {
-            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-            const navLinks = document.querySelector('.nav-links');
-            const navOverlay = document.querySelector('.nav-overlay');
-            const menuIcon = document.getElementById('menu-icon');
-            let mobileMenuOpen = false;
+    <!-- Article Data for React -->
+    <script src="/articles-data.js"></script>
 
-            function toggleMobileMenu() {
-                mobileMenuOpen = !mobileMenuOpen;
-                navLinks.classList.toggle('active', mobileMenuOpen);
-                navOverlay.classList.toggle('active', mobileMenuOpen);
-                mobileMenuToggle.setAttribute('aria-expanded', mobileMenuOpen);
-                menuIcon.textContent = mobileMenuOpen ? '✕' : '☰';
-                
-                // Prevent body scroll when menu is open
-                if (mobileMenuOpen) {
-                    document.body.style.overflow = 'hidden';
-                } else {
-                    document.body.style.overflow = '';
-                }
-            }
+    <!-- React App for Blog Listing -->
+    <script type="text/babel" defer>
+        const { useState, useMemo } = React;
 
-            function closeMobileMenu() {
-                if (mobileMenuOpen) {
-                    toggleMobileMenu();
-                }
-            }
-
-            if (mobileMenuToggle) {
-                mobileMenuToggle.addEventListener('click', toggleMobileMenu);
-            }
-
-            if (navOverlay) {
-                navOverlay.addEventListener('click', closeMobileMenu);
-            }
-
-            // Close menu when clicking on a nav link
-            const navLinkItems = document.querySelectorAll('.nav-links a');
-            navLinkItems.forEach(link => {
-                link.addEventListener('click', closeMobileMenu);
-            });
-
-            // Close menu on window resize to desktop
-            window.addEventListener('resize', function() {
-                if (window.innerWidth > 768 && mobileMenuOpen) {
-                    closeMobileMenu();
-                }
-            });
-        })();
-
-        // Filter and Sort Functionality
-        (function() {
-            const filterButtons = document.querySelectorAll('.filter-btn');
-            const sortSelect = document.getElementById('sort-select');
-            const articlesGrid = document.getElementById('articles-grid');
-            const articles = Array.from(document.querySelectorAll('.article-card'));
-            const resultsCount = document.getElementById('results-count');
+        // Blog Listing App Component
+        function BlogApp() {
+            const [filter, setFilter] = useState('all');
+            const [sort, setSort] = useState('date-desc');
             
-            let currentFilter = 'all';
-            let currentSort = 'date-desc';
+            // Use articles from global ARTICLES_DATA or fallback to empty array
+            const articles = typeof ARTICLES_DATA !== 'undefined' ? ARTICLES_DATA : [];
 
-            // Initialize
-            updateDisplay();
-
-            // Filter button event listeners
-            filterButtons.forEach(btn => {
-                btn.addEventListener('click', function() {
-                    // Update active state
-                    filterButtons.forEach(b => {
-                        b.classList.remove('active');
-                        b.setAttribute('aria-pressed', 'false');
-                    });
-                    this.classList.add('active');
-                    this.setAttribute('aria-pressed', 'true');
-                    
-                    currentFilter = this.getAttribute('data-filter');
-                    updateDisplay();
-                });
-            });
-
-            // Sort select event listener
-            sortSelect.addEventListener('change', function() {
-                currentSort = this.value;
-                updateDisplay();
-            });
-
-            function updateDisplay() {
-                // Filter articles
-                let filteredArticles = articles;
+            const filteredAndSorted = useMemo(() => {
+                let filtered = articles;
                 
-                if (currentFilter !== 'all') {
-                    filteredArticles = articles.filter(article => {
-                        return article.getAttribute('data-category') === currentFilter;
-                    });
+                if (filter !== 'all') {
+                    filtered = articles.filter(a => a.category === filter);
                 }
 
-                // Sort articles
-                filteredArticles.sort((a, b) => {
-                    if (currentSort === 'date-desc') {
-                        const dateA = new Date(a.getAttribute('data-date'));
-                        const dateB = new Date(b.getAttribute('data-date'));
-                        return dateB - dateA;
-                    } else if (currentSort === 'date-asc') {
-                        const dateA = new Date(a.getAttribute('data-date'));
-                        const dateB = new Date(b.getAttribute('data-date'));
-                        return dateA - dateB;
-                    } else if (currentSort === 'title-asc') {
-                        const titleA = a.getAttribute('data-title').toLowerCase();
-                        const titleB = b.getAttribute('data-title').toLowerCase();
-                        return titleA.localeCompare(titleB);
-                    } else if (currentSort === 'title-desc') {
-                        const titleA = a.getAttribute('data-title').toLowerCase();
-                        const titleB = b.getAttribute('data-title').toLowerCase();
-                        return titleB.localeCompare(titleA);
+                return filtered.sort((a, b) => {
+                    if (sort === 'date-desc') {
+                        return new Date(b.date) - new Date(a.date);
+                    } else if (sort === 'date-asc') {
+                        return new Date(a.date) - new Date(b.date);
+                    } else if (sort === 'title-asc') {
+                        return a.title.localeCompare(b.title);
+                    } else if (sort === 'title-desc') {
+                        return b.title.localeCompare(a.title);
                     }
                     return 0;
                 });
+            }, [articles, filter, sort]);
 
-                // Hide all articles first
-                articles.forEach(article => {
-                    article.classList.add('hidden');
-                });
+            const filterText = filter === 'all' ? 'All Posts' : 
+                              filter === 'winnipeg' ? 'Winnipeg Guides' :
+                              filter === 'travel' ? 'Travel Experiences' :
+                              'Hosting & Design';
 
-                // Show filtered articles and reorder them in the DOM
-                filteredArticles.forEach(article => {
-                    article.classList.remove('hidden');
-                    // appendChild automatically moves elements if they're already in the DOM
-                    articlesGrid.appendChild(article);
-                });
+            return React.createElement('div', null,
+                React.createElement(Navigation),
+                React.createElement('main', { id: 'main-content' },
+                    React.createElement('section', { className: 'blog-hero' },
+                        React.createElement('div', { className: 'container' },
+                            React.createElement('h1', null, 'Travel Blog'),
+                            React.createElement('p', null, 'Stories from around the world, Winnipeg travel guides, and insights from 14 years of Airbnb hosting')
+                        )
+                    ),
+                    React.createElement('section', { className: 'blog-content' },
+                        React.createElement('div', { className: 'container' },
+                            React.createElement('div', { className: 'blog-intro' },
+                                React.createElement('p', null, "Welcome to our travel blog! From exploring Winnipeg's vibrant Corydon neighborhood to unforgettable stays in Bali, Budapest, Lisbon, and beyond, we share our travel experiences, hosting insights, and the lessons we've learned from staying in Airbnbs across five continents.")
+                            ),
+                            React.createElement('div', { className: 'blog-controls' },
+                                React.createElement('div', { className: 'filter-sort-container' },
+                                    React.createElement('div', { className: 'filter-buttons', role: 'group', 'aria-label': 'Filter blog posts by category' },
+                                        React.createElement('button', {
+                                            className: `filter-btn ${filter === 'all' ? 'active' : ''}`,
+                                            'data-filter': 'all',
+                                            'aria-pressed': filter === 'all',
+                                            onClick: () => setFilter('all')
+                                        }, 'All Posts'),
+                                        React.createElement('button', {
+                                            className: `filter-btn ${filter === 'winnipeg' ? 'active' : ''}`,
+                                            'data-filter': 'winnipeg',
+                                            'aria-pressed': filter === 'winnipeg',
+                                            onClick: () => setFilter('winnipeg')
+                                        }, 'Winnipeg Guides'),
+                                        React.createElement('button', {
+                                            className: `filter-btn ${filter === 'travel' ? 'active' : ''}`,
+                                            'data-filter': 'travel',
+                                            'aria-pressed': filter === 'travel',
+                                            onClick: () => setFilter('travel')
+                                        }, 'Travel Experiences'),
+                                        React.createElement('button', {
+                                            className: `filter-btn ${filter === 'hosting' ? 'active' : ''}`,
+                                            'data-filter': 'hosting',
+                                            'aria-pressed': filter === 'hosting',
+                                            onClick: () => setFilter('hosting')
+                                        }, 'Hosting & Design')
+                                    ),
+                                    React.createElement('div', { className: 'sort-container' },
+                                        React.createElement('label', { htmlFor: 'sort-select' }, 'Sort by:'),
+                                        React.createElement('select', {
+                                            id: 'sort-select',
+                                            className: 'sort-select',
+                                            'aria-label': 'Sort blog posts',
+                                            value: sort,
+                                            onChange: (e) => setSort(e.target.value)
+                                        },
+                                            React.createElement('option', { value: 'date-desc' }, 'Newest First'),
+                                            React.createElement('option', { value: 'date-asc' }, 'Oldest First'),
+                                            React.createElement('option', { value: 'title-asc' }, 'Title A-Z'),
+                                            React.createElement('option', { value: 'title-desc' }, 'Title Z-A')
+                                        )
+                                    )
+                                ),
+                                React.createElement('div', {
+                                    className: 'results-count',
+                                    'aria-live': 'polite'
+                                }, `Showing ${filteredAndSorted.length} ${filteredAndSorted.length === 1 ? 'post' : 'posts'} in ${filterText}`)
+                            ),
+                            React.createElement('div', { className: 'articles-grid' },
+                                filteredAndSorted.map((article, idx) =>
+                                    React.createElement('a', {
+                                        key: idx,
+                                        href: article.url,
+                                        className: 'article-card',
+                                        'data-category': article.category,
+                                        'data-date': article.date,
+                                        'data-title': article.title
+                                    },
+                                        React.createElement('div', { className: 'article-image' },
+                                            React.createElement('img', {
+                                                src: article.image,
+                                                alt: article.imageAlt,
+                                                loading: 'lazy'
+                                            })
+                                        ),
+                                        React.createElement('div', { className: 'article-content' },
+                                            React.createElement('div', {
+                                                className: 'article-meta',
+                                                dangerouslySetInnerHTML: { __html: article.metaHtml }
+                                            }),
+                                            React.createElement('h2', null, article.title),
+                                            React.createElement('p', null, article.description),
+                                            React.createElement('span', { className: 'read-more' }, 'Read Article')
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                    )
+                ),
+                React.createElement(Footer),
+                React.createElement(FloatingBookButton)
+            );
+        }
 
-                // Update results count
-                const count = filteredArticles.length;
-                const filterText = currentFilter === 'all' ? 'All Posts' : 
-                                 currentFilter === 'winnipeg' ? 'Winnipeg Guides' :
-                                 currentFilter === 'travel' ? 'Travel Experiences' :
-                                 'Hosting & Design';
-                resultsCount.textContent = `Showing ${count} ${count === 1 ? 'post' : 'posts'} in ${filterText}`;
+        // Wait for React to load, then render
+        function initBlogApp() {
+            if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
+                const root = ReactDOM.createRoot(document.getElementById('root'));
+                root.render(React.createElement(BlogApp));
+            } else {
+                setTimeout(initBlogApp, 100);
             }
-        })();
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initBlogApp);
+        } else {
+            initBlogApp();
+        }
     </script>
-
-    <!-- Floating Book Now Button -->
-    <a 
-        href="https://www.airbnb.ca/rooms/716340250371431352"
-        class="floating-book-button"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Book your stay on Airbnb - opens in new tab"
-    >
-        Book Now
-    </a>
-
-    <!-- Load Navigation and Footer Components -->
-    <script src="/load-components.js"></script>
 </body>
 </html>

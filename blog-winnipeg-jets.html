@@ -50,12 +50,22 @@
     
     <!-- Shared Blog Styles -->
     <link rel="stylesheet" href="/blog-styles.css">
+    
+    <!-- Load React libraries with defer for non-blocking execution -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
+    <!-- Load Babel last to ensure React is ready, with defer to prevent blocking -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
+    
+    <!-- Load shared blog components -->
+    <script src="/blog-components.js" defer></script>
 </head>
 <body>
-    <!-- Navigation will be loaded here -->
-    <div id="nav-placeholder"></div>
-
-    <main>
+    <!-- React will render here -->
+    <div id="root"></div>
+    
+    <!-- Article content (will be rendered by React, but also available for noscript fallback) -->
+    <main id="article-content" style="display: none;">
         <article class="container">
             <div class="article-header">
                 <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
@@ -223,19 +233,71 @@
     }
     </script>
 
-    <!-- Floating Book Now Button -->
-    <a 
-        href="https://www.airbnb.ca/rooms/716340250371431352"
-        class="floating-book-button"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Book your stay on Airbnb - opens in new tab"
-    >
-        Book Now
-    </a>
+    <!-- React App for Blog Post -->
+    <script type="text/babel" defer>
+        const { useState, useEffect } = React;
 
-    <!-- Load Navigation and Footer Components -->
-    <script src="/load-components.js"></script>
+        function BlogPostApp() {
+            // Extract article content from existing HTML
+            const [articleContent, setArticleContent] = useState(null);
+
+            useEffect(() => {
+                // Find the article element from the hidden main element
+                const mainEl = document.getElementById('article-content');
+                const articleEl = mainEl ? mainEl.querySelector('article') : null;
+                
+                if (articleEl) {
+                    // Clone and extract the article HTML
+                    const clone = articleEl.cloneNode(true);
+                    setArticleContent(clone.innerHTML);
+                    // Hide the original after extracting
+                    if (mainEl) mainEl.style.display = 'none';
+                }
+            }, []);
+
+            if (!articleContent) {
+                // Still loading or article not found
+                return React.createElement('div', null,
+                    React.createElement(Navigation),
+                    React.createElement('main', null,
+                        React.createElement('div', { className: 'container' },
+                            React.createElement('p', null, 'Loading...')
+                        )
+                    ),
+                    React.createElement(Footer),
+                    React.createElement(FloatingBookButton)
+                );
+            }
+
+            return React.createElement('div', null,
+                React.createElement(Navigation),
+                React.createElement('main', null,
+                    React.createElement('article', {
+                        className: 'container',
+                        dangerouslySetInnerHTML: { __html: articleContent }
+                    })
+                ),
+                React.createElement(Footer),
+                React.createElement(FloatingBookButton)
+            );
+        }
+
+        // Wait for React to load, then render
+        function initBlogPostApp() {
+            if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
+                const root = ReactDOM.createRoot(document.getElementById('root'));
+                root.render(React.createElement(BlogPostApp));
+            } else {
+                setTimeout(initBlogPostApp, 100);
+            }
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initBlogPostApp);
+        } else {
+            initBlogPostApp();
+        }
+    </script>
 </body>
 </html>
 

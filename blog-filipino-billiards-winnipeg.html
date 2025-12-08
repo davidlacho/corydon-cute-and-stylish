@@ -54,10 +54,21 @@
     
     <!-- Shared Blog Styles -->
     <link rel="stylesheet" href="/blog-styles.css">
+    <!-- Load React libraries with defer for non-blocking execution -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
+    <!-- Load Babel last to ensure React is ready, with defer to prevent blocking -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
+    
+    <!-- Load shared blog components -->
+    <script src="/blog-components.js" defer></script>
 </head>
 <body>
-    <!-- Navigation will be loaded here -->
-    <div id="nav-placeholder"></div>
+    <!-- React will render here -->
+    <div id="root"></div>
+    
+    <!-- Article content (accessible to React and noscript fallback) -->
+    <main id="article-content">
 
     <main>
         <article class="container">
@@ -177,8 +188,14 @@
             </div>
         </article>
     </main>
-
-    <!-- Footer will be loaded here -->
+    </main>
+    
+    <noscript>
+        <!-- Fallback for no JavaScript -->
+        <div id="nav-placeholder"></div>
+        <div id="footer-placeholder"></div>
+        <script src="/load-components.js"></script>
+    </noscript>
     <div id="footer-placeholder"></div>
 
     <script type="application/ld+json">
@@ -205,18 +222,7 @@
     }
     </script>
     
-    <!-- Floating Book Now Button -->
-    <a 
-        href="https://www.airbnb.ca/rooms/716340250371431352"
-        class="floating-book-button"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Book your stay on Airbnb - opens in new tab"
-    >
-        Book Now
-    </a>
-
-</body>
+    </body>
 </html>
 
 
