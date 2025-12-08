@@ -243,7 +243,23 @@
             if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
                 const root = ReactDOM.createRoot(document.getElementById('root'));
                 root.render(React.createElement(BlogPostApp));
+                
+                // Fade in React content smoothly
+                setTimeout(function() {
+                    const rootEl = document.getElementById('root');
+                    if (rootEl) {
+                        rootEl.classList.add('react-ready');
+                    }
+                    
+                    // Smoothly hide noscript content if function exists
+                    if (window.hideNoscriptWhenReady) {
+                        window.hideNoscriptWhenReady();
+                    }
+                }, 50);
             } else {
+                setTimeout(initBlogPostApp, 100);
+            }
+        } else {
                 setTimeout(initBlogPostApp, 100);
             }
         }
