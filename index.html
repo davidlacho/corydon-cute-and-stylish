@@ -348,6 +348,8 @@
     <!-- For production, use a build tool (Webpack, Vite, etc.) to compile JSX to regular JavaScript -->
     <!-- Load Babel last to ensure React is ready, with defer to prevent blocking -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
+    <!-- Load shared blog components -->
+    <script src="/blog-components.js" defer></script>
     <style>
         * {
             margin: 0;
@@ -4594,48 +4596,9 @@
         }
 
         function App() {
-            const [scrolled, setScrolled] = useState(false);
-            const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-            useEffect(() => {
-                const handleScroll = () => {
-                    setScrolled(window.scrollY > 50);
-                };
-                window.addEventListener('scroll', handleScroll);
-                return () => window.removeEventListener('scroll', handleScroll);
-            }, []);
-
-            const toggleMobileMenu = () => {
-                setMobileMenuOpen(!mobileMenuOpen);
-            };
-
-            const closeMobileMenu = () => {
-                setMobileMenuOpen(false);
-            };
+            // Navigation, Footer, and FloatingBookButton are now handled by shared components
 
 
-            useEffect(() => {
-                // Close mobile menu on window resize to desktop
-                const handleResize = () => {
-                    if (window.innerWidth > 768 && mobileMenuOpen) {
-                        setMobileMenuOpen(false);
-                    }
-                };
-                window.addEventListener('resize', handleResize);
-                return () => window.removeEventListener('resize', handleResize);
-            }, [mobileMenuOpen]);
-
-            useEffect(() => {
-                // Prevent body scroll when mobile menu is open
-                if (mobileMenuOpen) {
-                    document.body.style.overflow = 'hidden';
-                } else {
-                    document.body.style.overflow = '';
-                }
-                return () => {
-                    document.body.style.overflow = '';
-                };
-            }, [mobileMenuOpen]);
 
             // Handle anchor links after React renders
             useEffect(() => {
@@ -4841,37 +4804,7 @@
 
             return (
                 <>
-                    <nav className={scrolled ? 'scrolled' : ''} role="navigation" aria-label="Main navigation">
-                        <div className="nav-container">
-                            <div className="logo">
-                                <span className="logo-title">Corydon Cute & Stylish</span>
-                                <span className="logo-subtitle">Boutique Airbnb in Winnipeg</span>
-                            </div>
-                            <button 
-                                className="mobile-menu-toggle" 
-                                onClick={toggleMobileMenu}
-                                aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
-                                aria-expanded={mobileMenuOpen}
-                                aria-controls="main-navigation"
-                            >
-                                {mobileMenuOpen ? '✕' : '☰'}
-                            </button>
-                            <div 
-                                className={`nav-overlay ${mobileMenuOpen ? 'active' : ''}`}
-                                onClick={closeMobileMenu}
-                                aria-hidden="true"
-                            ></div>
-                            <ul id="main-navigation" className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
-                                <li><a href="#home" onClick={closeMobileMenu}>Home</a></li>
-                                <li><a href="#features" onClick={closeMobileMenu}>Features</a></li>
-                                <li><a href="#reviews" onClick={closeMobileMenu}>Reviews</a></li>
-                                <li><a href="#amenities" onClick={closeMobileMenu}>Amenities</a></li>
-                                <li><a href="#nearby" onClick={closeMobileMenu}>Nearby</a></li>
-                                <li><a href="/blog.html" onClick={closeMobileMenu}>Blog</a></li>
-                                <li><a href="https://www.airbnb.ca/rooms/716340250371431352" className="nav-cta" onClick={closeMobileMenu} aria-label="Book your stay on Airbnb">Book Now</a></li>
-                            </ul>
-                        </div>
-                    </nav>
+                    <Navigation />
 
                     <main id="main-content">
                     <section id="home" className="hero" aria-label="Hero section">
@@ -5157,87 +5090,60 @@
                     </section>
                     </main>
 
-                    <footer role="contentinfo">
+                    <Footer />
+                    
+                    {/* Social Share Section (index.html specific) */}
+                    <div style={{ backgroundColor: 'var(--charcoal)', padding: '2rem 0' }}>
                         <div className="footer-content">
-                            <div className="footer-links">
-                                <a href="#home">Home</a>
-                                <a href="#features">Features</a>
-                                <a href="#reviews">Reviews</a>
-                                <a href="#amenities">Amenities</a>
-                                <a href="#nearby">Nearby</a>
-                                <a href="/blog.html">Blog</a>
-                                <a href="https://www.airbnb.ca/rooms/716340250371431352">Book Now</a>
-                            </div>
-                            <p>&copy; 2025 Corydon Cute & Stylish. All rights reserved.</p>
-                            <p className="footer-text">
-                                <a href="https://www.airbnb.ca/h/corydon-cute-and-stylish" className="link-inherit">
-                                    airbnb.ca/h/corydon-cute-and-stylish
-                                </a>
-                            </p>
-                            <p className="footer-registration">
-                                Registration details: STRA-2025-2600298
-                            </p>
-                            <p className="footer-acknowledgement">
-                                We acknowledge that we are on Treaty 1 territory, the traditional lands of the Anishinaabe, Cree, Oji-Cree, Dakota, and Dene peoples, and the homeland of the Métis Nation.
-                            </p>
                             <div className="social-share" aria-label="Share on social media">
-                                <a 
-                                    href="https://www.facebook.com/sharer/sharer.php?u=https://staywinnipeg.ca/" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                    aria-label="Share on Facebook"
-                                    title="Share on Facebook"
-                                >
-                                    f
-                                </a>
-                                <a 
-                                    href="https://twitter.com/intent/tweet?url=https://staywinnipeg.ca/&text=Corydon%20Cute%20%26%20Stylish%20-%20Mid-Century%20Modern%20Winnipeg%20Airbnb" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                    aria-label="Share on Twitter"
-                                    title="Share on Twitter"
-                                >
-                                    t
-                                </a>
-                                <a 
-                                    href="https://www.linkedin.com/sharing/share-offsite/?url=https://staywinnipeg.ca/" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                    aria-label="Share on LinkedIn"
-                                    title="Share on LinkedIn"
-                                >
-                                    in
-                                </a>
-                                <a 
-                                    href="https://pinterest.com/pin/create/button/?url=https://staywinnipeg.ca/&media=https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg&description=Corydon%20Cute%20%26%20Stylish%20-%20Mid-Century%20Modern%20Winnipeg%20Airbnb" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                    aria-label="Share on Pinterest"
-                                    title="Share on Pinterest"
-                                >
-                                    p
-                                </a>
-                                <a 
-                                    href="mailto:?subject=Check%20out%20this%20Winnipeg%20Airbnb&body=I%20found%20this%20great%20vacation%20rental%20in%20Winnipeg:%20https://staywinnipeg.ca/" 
-                                    aria-label="Share via Email"
-                                    title="Share via Email"
-                                >
-                                    ✉
-                                </a>
-                            </div>
+                        <a 
+                            href="https://www.facebook.com/sharer/sharer.php?u=https://staywinnipeg.ca/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="Share on Facebook"
+                            title="Share on Facebook"
+                        >
+                            f
+                        </a>
+                        <a 
+                            href="https://twitter.com/intent/tweet?url=https://staywinnipeg.ca/&text=Corydon%20Cute%20%26%20Stylish%20-%20Mid-Century%20Modern%20Winnipeg%20Airbnb" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="Share on Twitter"
+                            title="Share on Twitter"
+                        >
+                            t
+                        </a>
+                        <a 
+                            href="https://www.linkedin.com/sharing/share-offsite/?url=https://staywinnipeg.ca/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="Share on LinkedIn"
+                            title="Share on LinkedIn"
+                        >
+                            in
+                        </a>
+                        <a 
+                            href="https://pinterest.com/pin/create/button/?url=https://staywinnipeg.ca/&media=https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg&description=Corydon%20Cute%20%26%20Stylish%20-%20Mid-Century%20Modern%20Winnipeg%20Airbnb" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="Share on Pinterest"
+                            title="Share on Pinterest"
+                        >
+                            p
+                        </a>
+                        <a 
+                            href="mailto:?subject=Check%20out%20this%20Winnipeg%20Airbnb&body=I%20found%20this%20great%20vacation%20rental%20in%20Winnipeg:%20https://staywinnipeg.ca/" 
+                            aria-label="Share via Email"
+                            title="Share via Email"
+                        >
+                            ✉
+                        </a>
                         </div>
-                    </footer>
+                        </div>
+                    </div>
 
-                    {/* Floating Book Now Button */}
-                    <a 
-                        href="https://www.airbnb.ca/rooms/716340250371431352"
-                        className="floating-book-button"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Book your stay on Airbnb - opens in new tab"
-                    >
-                        Book Now
-                    </a>
+                    <FloatingBookButton />
                 </>
             );
         }

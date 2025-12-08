@@ -4,10 +4,13 @@
  */
 
 // Navigation Component
-function Navigation() {
+// Optional props: scrolled (boolean) - adds 'scrolled' className to nav element
+function Navigation(props) {
     const { useState, useEffect } = React;
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
     const currentPath = window.location.pathname;
+    const scrolledState = props?.scrolled !== undefined ? props.scrolled : scrolled;
 
     useEffect(() => {
         // Close menu on window resize if it's open and window is large
@@ -42,6 +45,17 @@ function Navigation() {
         }
     }, [mobileMenuOpen]);
 
+    // Handle scroll state if not provided as prop (for index.html)
+    useEffect(() => {
+        if (props?.scrolled === undefined) {
+            const handleScroll = () => {
+                setScrolled(window.scrollY > 50);
+            };
+            window.addEventListener('scroll', handleScroll);
+            return () => window.removeEventListener('scroll', handleScroll);
+        }
+    }, [props?.scrolled]);
+
     const toggleMenu = () => {
         setMobileMenuOpen(!mobileMenuOpen);
     };
@@ -57,7 +71,11 @@ function Navigation() {
         return path === currentPath || (currentPath === '/' && path === '/');
     };
 
-    return React.createElement('nav', { role: 'navigation', 'aria-label': 'Main navigation' },
+    return React.createElement('nav', { 
+        role: 'navigation', 
+        'aria-label': 'Main navigation',
+        className: scrolledState ? 'scrolled' : ''
+    },
         React.createElement('div', { className: 'nav-container' },
             React.createElement('a', {
                 href: 'https://staywinnipeg.ca/',
