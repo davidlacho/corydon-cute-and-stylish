@@ -4637,6 +4637,100 @@
                 };
             }, [mobileMenuOpen]);
 
+            // Handle anchor links after React renders
+            useEffect(() => {
+                const handleAnchorScroll = (hash) => {
+                    if (!hash) return;
+                    
+                    // Remove the # symbol
+                    const id = hash.substring(1);
+                    if (!id) return;
+                    
+                    // Wait for element to exist in DOM (React might still be rendering)
+                    const scrollToElement = (attempts = 0) => {
+                        const element = document.getElementById(id);
+                        if (element) {
+                            // Small delay to ensure React has finished rendering
+                            setTimeout(() => {
+                                element.scrollIntoView({ 
+                                    behavior: 'smooth',
+                                    block: 'start'
+                                });
+                            }, 100);
+                        } else if (attempts < 10) {
+                            // Retry up to 10 times (1 second total wait)
+                            setTimeout(() => scrollToElement(attempts + 1), 100);
+                        }
+                    };
+                    
+                    scrollToElement();
+                };
+
+                // Handle hash in URL on initial load
+                if (window.location.hash) {
+                    handleAnchorScroll(window.location.hash);
+                }
+
+                // Handle hash changes (when clicking anchor links)
+                const handleHashChange = () => {
+                    if (window.location.hash) {
+                        handleAnchorScroll(window.location.hash);
+                    }
+                };
+                window.addEventListener('hashchange', handleHashChange);
+
+                // Handle clicks on anchor links within the same page
+                const handleAnchorClick = (e) => {
+                    const link = e.target.closest('a[href]');
+                    if (!link) return;
+                    
+                    const href = link.getAttribute('href');
+                    if (!href) return;
+                    
+                    // Check if it's a same-page anchor link
+                    // Must have a hash and be either:
+                    // 1. Relative anchor (#section)
+                    // 2. Full URL to same origin with hash
+                    // 3. Relative URL starting with / and containing hash
+                    const hasHash = href.includes('#');
+                    const isSamePageAnchor = hasHash && (
+                        href.startsWith('#') || 
+                        href.startsWith(window.location.origin + '/#') ||
+                        href.startsWith(window.location.origin + '#') ||
+                        (href.startsWith('/') && href.includes('#'))
+                    );
+                    
+                    if (isSamePageAnchor) {
+                        // Extract hash from URL
+                        let hash = '';
+                        if (href.startsWith('#')) {
+                            hash = href;
+                        } else {
+                            const url = new URL(href, window.location.origin);
+                            hash = url.hash;
+                        }
+                        
+                        // Only handle if there's a valid hash
+                        if (hash && hash !== '#') {
+                            e.preventDefault();
+                            window.location.hash = hash;
+                            handleAnchorScroll(hash);
+                            // Close mobile menu if open
+                            if (mobileMenuOpen) {
+                                setMobileMenuOpen(false);
+                            }
+                        }
+                    }
+                };
+
+                document.addEventListener('click', handleAnchorClick);
+
+                return () => {
+                    window.removeEventListener('hashchange', handleHashChange);
+                    document.removeEventListener('click', handleAnchorClick);
+                };
+            }, [mobileMenuOpen]);
+
             const features = [
                 {
                     icon: "📍",
