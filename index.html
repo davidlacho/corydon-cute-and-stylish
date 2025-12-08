@@ -357,6 +357,16 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-padding-top: 100px; /* Account for fixed navigation */
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            html {
+                scroll-padding-top: 120px; /* Extra space for iPad */
+            }
+        }
+
         :root {
             --mustard: #F4A261;
             --teal: #2A9D8F;
@@ -665,6 +675,33 @@
             font-weight: 600;
             box-shadow: 0 4px 15px rgba(38, 70, 83, 0.3);
             transition: all 0.3s ease;
+            white-space: nowrap; /* Prevent text wrapping */
+            flex-shrink: 0; /* Prevent button from shrinking */
+            font-size: 0.95rem; /* Slightly smaller font for better fit */
+        }
+
+        /* Tablet/iPad sizing for nav-cta */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .nav-links a.nav-cta {
+                padding: 0.5rem 1.2rem;
+                font-size: 0.9rem;
+            }
+            
+            .nav-links {
+                gap: 1.5rem; /* Reduce gap on tablets */
+            }
+        }
+
+        /* Smaller desktop screens */
+        @media (min-width: 1025px) and (max-width: 1200px) {
+            .nav-links a.nav-cta {
+                padding: 0.55rem 1.3rem;
+                font-size: 0.92rem;
+            }
+            
+            .nav-links {
+                gap: 2rem;
+            }
         }
 
         .nav-links a.nav-cta::before {
@@ -1075,6 +1112,13 @@
             padding: 6rem 2rem;
             background: linear-gradient(135deg, var(--cream) 0%, rgba(168, 198, 159, 0.05) 50%, var(--cream) 100%);
             position: relative;
+        }
+
+        /* Add extra padding-top for sections when navigating via anchor links on iPad */
+        @media (min-width: 768px) and (max-width: 1024px) {
+            section[id] {
+                scroll-margin-top: 120px;
+            }
         }
 
         /* Book Section */
