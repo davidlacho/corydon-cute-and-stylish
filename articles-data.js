@@ -175,11 +175,11 @@ const ARTICLES_DATA = [
     "url": "/blog-transportation.html",
     "category": "winnipeg",
     "date": "2025-02-05",
-    "title": "Getting Around Winnipeg: Transportation Guide for Visitors",
+    "title": "Getting Around Winnipeg: Complete Transportation Guide 2025",
     "image": "images/airport-terminal.jpg",
     "imageAlt": "Winnipeg airport terminal",
-    "description": "Everything you need to know about navigating Winnipeg, from public transit to rideshare services. Learn the best ways to get around the city and explore all it has to offer.",
-    "metaHtml": "<span>🚗 Transportation</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 February 5, 2025</span>"
+    "description": "Complete guide to getting around Winnipeg in 2025. Learn about the new Primary Transit Network, airport transfers, Uber/Lyft, parking, winter transportation, and walkable neighborhoods. Essential tips for visitors staying in Corydon, downtown, and beyond.",
+    "metaHtml": "<span>🚗 Transportation</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 Updated December 8, 2025</span>"
   },
   {
     "url": "/blog-gunns-bakery.html",
