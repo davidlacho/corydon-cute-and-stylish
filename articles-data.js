@@ -502,24 +502,14 @@ const ARTICLES_DATA = [
     "metaHtml": "<span>🍽️ Group Dining</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 9, 2025</span>"
   },
   {
-    "url": "/blog-crescentwood-safety.html",
-    "category": "winnipeg",
-    "date": "2025-12-11",
-    "title": "Why Crescentwood is One of Winnipeg's Safest Neighborhoods",
-    "image": "https://images.unsplash.com/photo-1591658522986-9eb791d2a89a?q=80&w=1652&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "imageAlt": "Peaceful residential street in Crescentwood with mature trees and well-maintained homes",
-    "description": "Discover why Crescentwood is considered one of Winnipeg's safest neighborhoods. Learn about low crime rates, community safety, and why this historic district offers peace of mind for residents and visitors.",
-    "metaHtml": "<span>🛡️ Neighborhood Safety</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 December 11, 2025</span>"
-  },
-  {
     "url": "/blog-crescentwood-liveable.html",
     "category": "winnipeg",
     "date": "2025-12-11",
     "title": "Best Area Winnipeg: Why Crescentwood is the Safest & Most Liveable Neighborhood",
-    "image": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "imageAlt": "Beautiful residential street in Crescentwood with mature trees and well-maintained historic homes",
+    "image": "https://images.unsplash.com/photo-1591658522986-9eb791d2a89a?q=80&w=1652&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Peaceful residential street in Crescentwood with mature trees and well-maintained historic homes",
     "description": "Crescentwood is the best area in Winnipeg with a 92/100 livability score. It's also the safest area Winnipeg has to offer—crime rates 58% lower than average. Perfect for Airbnb stays with excellent amenities, transit, and location.",
-    "metaHtml": "<span>🏘️ Neighborhood Guide</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 11, 2025</span>"
+    "metaHtml": "<span>🏘️ Neighborhood Guide</span>\n                                <span>⏱️ 15 min read</span>\n                                <span>📅 December 11, 2025</span>"
   }
 ];
 

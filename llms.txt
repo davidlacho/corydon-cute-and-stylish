@@ -11,21 +11,20 @@ Home: https://staywinnipeg.ca/
 Blog: https://staywinnipeg.ca/blog.html
 
 # Content Overview
-Total Blog Posts: 52
-- Winnipeg Attractions & Activities: 42 guides
+Total Blog Posts: 51
+- Winnipeg Attractions & Activities: 41 guides
 - Hosting & Airbnb Philosophy: 5 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (42 guides)
+## Winnipeg Attractions & Activities (41 guides)
 - /blog-24-hour-winnipeg-budget.html - 24 Hours in Winnipeg on a Budget: Complete Free & Cheap Things Itinerary 2025
 - /blog-assiniboine-park.html - Assiniboine Park & The Leaf: Zoo, Gardens & Complete Visitor Guide
 - /blog-corydon-cute-stylish-winnipeg-airbnb.html - Corydon Cute & Stylish: Your Perfect Winnipeg Airbnb Experience
 - /blog-corydon-guide.html - Corydon Village: Little Italy Guide (Restaurants, Cafes & Things to Do)
 - /blog-crescentwood-history.html - The History of Crescentwood: Winnipeg's Most Prestigious Neighborhood
-- /blog-crescentwood-safety.html - Why Crescentwood is One of Winnipeg's Safest Neighborhoods
-- /blog-crescentwood-liveable.html - Why Crescentwood is Winnipeg's Most Liveable Neighborhood
+- /blog-crescentwood-liveable.html - Best Area Winnipeg: Why Crescentwood is the Safest & Most Liveable Neighborhood
 - /blog-exchange-district.html - Exchange District: Historic Architecture, Murals & Things to Do
 - /blog-family-activities.html - Things to Do with Kids in Winnipeg: 20+ Family Activities
 - /blog-filipino-billiards-winnipeg.html - Rack 'em: Filipino Billiards Community Thriving in Winnipeg
@@ -98,8 +97,8 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage with property showcase and booking information
-- Blog index page listing all 52 blog posts by category
-- 52 individual blog post pages covering local guides, hosting insights, and travel stories
+- Blog index page listing all 51 blog posts by category
+- 51 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
