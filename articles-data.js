@@ -450,6 +450,46 @@ const ARTICLES_DATA = [
     "imageAlt": "Group of people on a guided walking tour exploring Winnipeg's historic architecture",
     "description": "Discover the best tours in Winnipeg! From walking tours and food tours to boat tours and architecture tours. Complete guide to guided and self-guided experiences showcasing Winnipeg's history, culture, and attractions.",
     "metaHtml": "<span>🚶 Winnipeg Tours</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 9, 2025</span>"
+  },
+  {
+    "url": "/blog-winnipeg-must-sees.html",
+    "category": "winnipeg",
+    "date": "2025-12-09",
+    "title": "Winnipeg Must-Sees: 10 Essential Attractions You Can't Miss",
+    "image": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Winnipeg cityscape with iconic attractions and architecture",
+    "description": "Discover Winnipeg's 10 must-see attractions, from Assiniboine Park and The Forks to world-class museums and architectural marvels. Your complete guide to the city's essential experiences.",
+    "metaHtml": "<span>🎯 Winnipeg Attractions</span>\n                                <span>⏱️ 15 min read</span>\n                                <span>📅 December 9, 2025</span>"
+  },
+  {
+    "url": "/blog-winnipeg-event-venues.html",
+    "category": "winnipeg",
+    "date": "2025-12-09",
+    "title": "Planning Large Group Events in Winnipeg: Unique Venues & Complete Guide",
+    "image": "https://images.unsplash.com/photo-1560439514-4e9645039924?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Elegant event venue with modern lighting and seating for large group gatherings",
+    "description": "Discover Winnipeg's outstanding off-site venues for large group events. From historic sites to modern spaces, find the perfect venue for galas, receptions, and group activities with capacities up to 2,500 guests.",
+    "metaHtml": "<span>🎉 Event Planning</span>\n                                <span>⏱️ 14 min read</span>\n                                <span>📅 December 9, 2025</span>"
+  },
+  {
+    "url": "/blog-winnipeg-food-trucks.html",
+    "category": "winnipeg",
+    "date": "2025-12-10",
+    "title": "Winnipeg Food Trucks: Your Complete Guide to Street Food Culture",
+    "image": "https://images.unsplash.com/photo-1683508700255-f9b09a11f687?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Vibrant food truck scene with colorful mobile kitchens serving street food",
+    "description": "Discover Winnipeg's vibrant food truck scene with 60+ mobile kitchens serving everything from Korean bowls to wood-fired pizza. Your complete guide to finding the best street food in the city.",
+    "metaHtml": "<span>🍔 Winnipeg Dining</span>\n                                <span>⏱️ 14 min read</span>\n                                <span>📅 December 10, 2025</span>"
+  },
+  {
+    "url": "/blog-group-dining.html",
+    "category": "winnipeg",
+    "date": "2025-12-09",
+    "title": "Best Restaurants for Groups in Winnipeg: Private Rooms & Large Party Dining",
+    "image": "https://plus.unsplash.com/premium_photo-1723633229720-adc672458647?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Group dining at an elegant restaurant table with multiple place settings",
+    "description": "Discover Winnipeg's best restaurants for group dining. From private rooms to large party venues, find the perfect spot for weddings, celebrations, and gatherings of 25 to 1,000 people.",
+    "metaHtml": "<span>🍽️ Group Dining</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 9, 2025</span>"
   }
 ];
 
