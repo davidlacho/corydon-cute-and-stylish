@@ -32,6 +32,16 @@ const ARTICLES_DATA = [
     "metaHtml": "<span>🏈 Sports History</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 8, 2025</span>"
   },
   {
+    "url": "/blog-winnipeg-goldeyes.html",
+    "category": "winnipeg",
+    "date": "2025-12-08",
+    "title": "The Winnipeg Goldeyes: A Summer Baseball Tradition in the Heart of Downtown",
+    "image": "https://images.unsplash.com/photo-1582650448629-3c854f356544?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Baseball stadium with field and seating under blue sky",
+    "description": "Discover the rich history of the Winnipeg Goldeyes, from their 1954 origins to modern championships. Learn about Blue Cross Park and why our location makes attending games a perfect summer experience.",
+    "metaHtml": "<span>⚾ Sports History</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 8, 2025</span>"
+  },
+  {
     "url": "/blog-winnipeg-pride.html",
     "category": "winnipeg",
     "date": "2025-12-08",
