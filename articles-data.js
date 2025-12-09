@@ -510,6 +510,16 @@ const ARTICLES_DATA = [
     "imageAlt": "Peaceful residential street in Crescentwood with mature trees and well-maintained historic homes",
     "description": "Crescentwood is the best area in Winnipeg with a 92/100 livability score. It's also the safest area Winnipeg has to offer—crime rates 58% lower than average. Perfect for Airbnb stays with excellent amenities, transit, and location.",
     "metaHtml": "<span>🏘️ Neighborhood Guide</span>\n                                <span>⏱️ 15 min read</span>\n                                <span>📅 December 11, 2025</span>"
+  },
+  {
+    "url": "/blog-winnipeg-short-term-rental-compliance.html",
+    "category": "hosting",
+    "date": "2025-12-11",
+    "title": "Winnipeg Short-Term Rental Compliance: How We Follow All Rules & Stay Up to Date",
+    "image": "https://images.unsplash.com/photo-1524813686514-a57563d77965?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Compliant and safe Airbnb property with professional hosting standards",
+    "description": "Book with confidence knowing you're staying with a fully compliant, legally licensed host. Learn how we maintain full compliance with Winnipeg's short-term rental bylaw, including proper licensing, routine inspections, and our commitment to guest safety.",
+    "metaHtml": "<span>✅ Hosting & Compliance</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 11, 2025</span>"
   }
 ];
 
