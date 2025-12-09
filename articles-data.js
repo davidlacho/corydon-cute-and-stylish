@@ -62,6 +62,16 @@ const ARTICLES_DATA = [
     "metaHtml": "<span>⭐ Hosting Philosophy</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 December 4, 2025</span>"
   },
   {
+    "url": "/blog-travel-perspectives-hosting.html",
+    "category": "hosting",
+    "date": "2025-12-11",
+    "title": "How 14 Years of Travel Shapes Our Hosting Approach",
+    "image": "https://images.unsplash.com/photo-1614649024145-7f847b1c803f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Travel suitcase and passport representing years of travel experiences",
+    "description": "After staying in 80+ Airbnbs across five continents, I've learned what makes a stay exceptional—and what makes it frustrating. Discover how my travel experiences inform every aspect of hosting, from anticipating guest needs to creating memorable experiences.",
+    "metaHtml": "<span>🌍 Hosting Philosophy</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 December 11, 2025</span>"
+  },
+  {
     "url": "/blog-winnipeg-guest-guide.html",
     "category": "hosting",
     "date": "2025-11-20",
