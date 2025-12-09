@@ -440,6 +440,16 @@ const ARTICLES_DATA = [
     "imageAlt": "Little Free Library book exchange box in a neighborhood",
     "description": "Discover Winnipeg's Little Free Libraries, a global movement promoting literacy and community connection. Learn how to find LFLs across the city and how Winnipeg Public Library supports this initiative.",
     "metaHtml": "<span>📚 Community & Culture</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 December 8, 2025</span>"
+  },
+  {
+    "url": "/blog-winnipeg-tours.html",
+    "category": "winnipeg",
+    "date": "2025-12-09",
+    "title": "Best Tours in Winnipeg: Complete Guide to Guided & Self-Guided Experiences",
+    "image": "https://images.unsplash.com/photo-1711505326859-f59f22ed7196?q=80&w=1436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Group of people on a guided walking tour exploring Winnipeg's historic architecture",
+    "description": "Discover the best tours in Winnipeg! From walking tours and food tours to boat tours and architecture tours. Complete guide to guided and self-guided experiences showcasing Winnipeg's history, culture, and attractions.",
+    "metaHtml": "<span>🚶 Winnipeg Tours</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 9, 2025</span>"
   }
 ];
 
