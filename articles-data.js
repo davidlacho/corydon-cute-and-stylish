@@ -500,6 +500,16 @@ const ARTICLES_DATA = [
     "imageAlt": "Group dining at an elegant restaurant table with multiple place settings",
     "description": "Discover Winnipeg's best restaurants for group dining. From private rooms to large party venues, find the perfect spot for weddings, celebrations, and gatherings of 25 to 1,000 people.",
     "metaHtml": "<span>🍽️ Group Dining</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 9, 2025</span>"
+  },
+  {
+    "url": "/blog-crescentwood-safety.html",
+    "category": "winnipeg",
+    "date": "2025-12-11",
+    "title": "Why Crescentwood is One of Winnipeg's Safest Neighborhoods",
+    "image": "https://images.unsplash.com/photo-1563486688110-3e8087cb4bb8?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Peaceful residential street in Crescentwood with mature trees and well-maintained homes",
+    "description": "Discover why Crescentwood is considered one of Winnipeg's safest neighborhoods. Learn about low crime rates, community safety, and why this historic district offers peace of mind for residents and visitors.",
+    "metaHtml": "<span>🛡️ Neighborhood Safety</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 December 11, 2025</span>"
   }
 ];
 
