@@ -344,7 +344,7 @@ After creating a new blog post, you MUST:
    - Include the React app script before closing `</body>` tag
    - The land acknowledgement is automatically included via the Footer component (no manual action needed)
 
-2. ✅ Add the post to `articles-data.js` and `blog.html`
+2. ✅ Add the post to `articles-data.js`
    - Add article metadata to `/articles-data.js` in the `ARTICLES_DATA` array
    - The article will automatically appear in `blog.html` via React filtering
    - Format for articles-data.js:
@@ -361,7 +361,29 @@ After creating a new blog post, you MUST:
    }
    ```
 
-3. ✅ Add the post to `sitemap.xml`
+3. ✅ **CRITICAL: Add JSON-LD entry to `blog.html` structured data section**
+   - **MUST be added to the `blogPost` array in the JSON-LD structured data** (around line 1116 in blog.html)
+   - This is in the NON-JS part of blog.html (the JSON-LD script tag, NOT the React code)
+   - Format:
+   ```json
+   {
+       "@type": "BlogPosting",
+       "headline": "[Post Title]",
+       "url": "https://staywinnipeg.ca/blog-[topic].html",
+       "description": "[SEO description matching articles-data.js]",
+       "author": {
+           "@type": "Person",
+           "name": "David"
+       },
+       "datePublished": "YYYY-MM-DD",
+       "dateModified": "YYYY-MM-DD"
+   }
+   ```
+   - **This is REQUIRED for SEO** - search engines use this structured data to understand blog content
+   - **Location**: Find the `<script type="application/ld+json">` tag with `"@type": "Blog"` and add to the `"blogPost": [...]` array
+   - **VERIFY**: After adding, check that ALL blog posts from `articles-data.js` are represented in this array
+
+4. ✅ Add the post to `sitemap.xml`
    - Format:
    ```xml
    <url>
@@ -372,13 +394,10 @@ After creating a new blog post, you MUST:
    </url>
    ```
 
-4. ✅ Add the post to `llms.txt`
+5. ✅ Add the post to `llms.txt`
    - Update total blog post count
    - Add entry in appropriate category section
    - Update site structure counts
-
-5. ✅ Add JSON-LD entry to `blog.html` structured data section
-   - Include in the `blogListings` array
 
 ## Page Update Requirements
 
