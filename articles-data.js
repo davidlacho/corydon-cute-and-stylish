@@ -515,10 +515,10 @@ const ARTICLES_DATA = [
     "url": "/blog-crescentwood-liveable.html",
     "category": "winnipeg",
     "date": "2025-12-11",
-    "title": "Why Crescentwood is Winnipeg's Most Liveable Neighborhood",
+    "title": "Best Area Winnipeg: Why Crescentwood is the Safest & Most Liveable Neighborhood",
     "image": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Beautiful residential street in Crescentwood with mature trees and well-maintained historic homes",
-    "description": "Discover why Crescentwood ranks as Winnipeg's most liveable neighborhood with a 92/100 livability score. Low crime, excellent amenities, and perfect location make it ideal for Airbnb stays.",
+    "description": "Crescentwood is the best area in Winnipeg with a 92/100 livability score. It's also the safest area Winnipeg has to offer—crime rates 58% lower than average. Perfect for Airbnb stays with excellent amenities, transit, and location.",
     "metaHtml": "<span>🏘️ Neighborhood Guide</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 11, 2025</span>"
   }
 ];
