@@ -420,6 +420,16 @@ const ARTICLES_DATA = [
     "imageAlt": "Caving adventure in Pálvölgyi Cave, Budapest",
     "description": "During our travels in Budapest, we participated in an incredible caving adventure in Pálvölgyi Cave. We clambered up steep walls, crept through narrow passages, and discovered the underground world with expert guides. A once-in-a-lifetime experience that challenged and amazed us.",
     "metaHtml": "<span>🏔️ Adventure Experience</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 November 13, 2025</span>"
+  },
+  {
+    "url": "/blog-little-free-libraries.html",
+    "category": "winnipeg",
+    "date": "2025-12-08",
+    "title": "Little Free Libraries in Winnipeg: Building Community Through Book Sharing",
+    "image": "https://images.unsplash.com/photo-1743610426905-010086499ad6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Little Free Library book exchange box in a neighborhood",
+    "description": "Discover Winnipeg's Little Free Libraries, a global movement promoting literacy and community connection. Learn how to find LFLs across the city and how Winnipeg Public Library supports this initiative.",
+    "metaHtml": "<span>📚 Community & Culture</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 December 8, 2025</span>"
   }
 ];
 
