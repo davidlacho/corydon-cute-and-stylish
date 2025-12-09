@@ -11,14 +11,14 @@ Home: https://staywinnipeg.ca/
 Blog: https://staywinnipeg.ca/blog.html
 
 # Content Overview
-Total Blog Posts: 48
-- Winnipeg Attractions & Activities: 39 guides
+Total Blog Posts: 49
+- Winnipeg Attractions & Activities: 40 guides
 - Hosting & Airbnb Philosophy: 4 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (38 guides)
+## Winnipeg Attractions & Activities (40 guides)
 - /blog-24-hour-winnipeg-budget.html - 24 Hours in Winnipeg on a Budget: Complete Free & Cheap Things Itinerary 2025
 - /blog-assiniboine-park.html - Assiniboine Park & The Leaf: Zoo, Gardens & Complete Visitor Guide
 - /blog-corydon-cute-stylish-winnipeg-airbnb.html - Corydon Cute & Stylish: Your Perfect Winnipeg Airbnb Experience
@@ -56,6 +56,7 @@ Total Blog Posts: 48
 - /blog-little-free-libraries.html - Little Free Libraries in Winnipeg: Building Community Through Book Sharing
 - /blog-winnipeg-tours.html - Best Tours in Winnipeg: Complete Guide to Guided & Self-Guided Experiences
 - /blog-winnipeg-must-sees.html - Winnipeg Must-Sees: 10 Essential Attractions You Can't Miss
+- /blog-winnipeg-event-venues.html - Planning Large Group Events in Winnipeg: Unique Venues & Complete Guide
 - /blog-winnipeg-food-trucks.html - Winnipeg Food Trucks: Your Complete Guide to Street Food Culture
 - /blog-group-dining.html - Best Restaurants for Groups in Winnipeg: Private Rooms & Large Party Dining
 
@@ -94,8 +95,8 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage with property showcase and booking information
-- Blog index page listing all 48 blog posts by category
-- 48 individual blog post pages covering local guides, hosting insights, and travel stories
+- Blog index page listing all 49 blog posts by category
+- 49 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
