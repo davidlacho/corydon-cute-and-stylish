@@ -1,0 +1,73 @@
+# Cache Control Headers for Stay Winnipeg
+# Used by Netlify and Cloudflare Pages
+
+# Images - 1 year cache with immutable flag
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+*.jpeg
+  Cache-Control: public, max-age=31536000, immutable
+
+*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+*.gif
+  Cache-Control: public, max-age=31536000, immutable
+
+*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+*.avif
+  Cache-Control: public, max-age=31536000, immutable
+
+*.svg
+  Cache-Control: public, max-age=31536000, immutable
+
+*.ico
+  Cache-Control: public, max-age=31536000, immutable
+
+# CSS and JavaScript - 1 year cache with immutable flag
+*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts - 1 year cache with immutable flag
+*.woff
+  Cache-Control: public, max-age=31536000, immutable
+
+*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+*.ttf
+  Cache-Control: public, max-age=31536000, immutable
+
+*.otf
+  Cache-Control: public, max-age=31536000, immutable
+
+*.eot
+  Cache-Control: public, max-age=31536000, immutable
+
+# JSON data files - 1 day cache
+*.json
+  Cache-Control: public, max-age=86400
+
+# HTML files - 1 hour cache with must-revalidate
+*.html
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# XML files - 1 day cache
+*.xml
+  Cache-Control: public, max-age=86400
+
+# Manifest files - 1 week cache
+*.webmanifest
+  Cache-Control: public, max-age=604800
+
+*.manifest
+  Cache-Control: public, max-age=604800
+
