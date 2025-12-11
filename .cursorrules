@@ -423,7 +423,36 @@ After creating a new blog post, you MUST:
    - **Location**: Find the `<script type="application/ld+json">` tag with `"@type": "Blog"` and add to the `"blogPost": [...]` array
    - **VERIFY**: After adding, check that ALL blog posts from `articles-data.js` are represented in this array
 
-4. ✅ Add the post to `sitemap.xml`
+4. ✅ **CRITICAL: Add the post to `blog.html` noscript section**
+   - **MUST be added to the `<noscript>` section in `blog.html`** (starts around line 199)
+   - This provides a fallback for users without JavaScript enabled
+   - **Location**: Find the appropriate category section within the `<noscript>` tag:
+     - Hosting posts: After the "🏠 Hosting & Design" header (around line 324)
+     - Winnipeg posts: After the "📍 Winnipeg Guides" header (around line 254 or 428)
+     - Travel posts: After the "🌍 Travel Experiences" header (around line 906)
+   - Format (match the existing article card structure):
+   ```html
+   <!-- Article: [Title] -->
+   <a href="/blog-[topic].html" class="article-card" data-category="[category]" data-date="YYYY-MM-DD" data-title="[Post Title]">
+       <div class="article-image">
+           <img src="[image URL]" alt="[alt text]" loading="lazy">
+       </div>
+       <div class="article-content">
+           <div class="article-meta">
+               <span>[Emoji] Category</span>
+               <span>⏱️ X min read</span>
+               <span>📅 Month Day, Year</span>
+           </div>
+           <h2>[Post Title]</h2>
+           <p>[Description matching articles-data.js]</p>
+           <span class="read-more">Read Article</span>
+       </div>
+   </a>
+   ```
+   - **VERIFY**: After adding, check that ALL blog posts from `articles-data.js` are represented in the noscript section
+   - **IMPORTANT**: The noscript section must contain ALL blog posts for accessibility and no-JS users
+
+5. ✅ Add the post to `sitemap.xml`
    - Format:
    ```xml
    <url>
@@ -434,7 +463,7 @@ After creating a new blog post, you MUST:
    </url>
    ```
 
-5. ✅ Add the post to `llms.txt`
+6. ✅ Add the post to `llms.txt`
    - Update total blog post count
    - Add entry in appropriate category section
    - Update site structure counts
