@@ -72,6 +72,16 @@ const ARTICLES_DATA = [
     "metaHtml": "<span>🌍 Hosting Philosophy</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 December 11, 2025</span>"
   },
   {
+    "url": "/blog-winnipeg-best-new-food-spots.html",
+    "category": "winnipeg",
+    "date": "2025-12-11",
+    "title": "Winnipeg's Best New Food Spots: 22 Restaurants Competing for Top 5",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Modern restaurant interior with elegant dining atmosphere",
+    "description": "Discover 22 incredible new restaurants competing for Winnipeg's Best New Food Spot. From French bistros to Korean BBQ, explore the city's vibrant 2025 dining scene and vote before December 18th.",
+    "metaHtml": "<span>🍽️ Winnipeg Dining</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 11, 2025</span>"
+  },
+  {
     "url": "/blog-winnipeg-guest-guide.html",
     "category": "hosting",
     "date": "2025-11-20",
