@@ -181,9 +181,12 @@
     </noscript>
 <!-- React App for Blog Post -->
     <script type="text/javascript" defer>
-        const { useState, useEffect } = React;
+        // Wait for React to load, then render
+        function initBlogPostApp() {
+            if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
+                const { useState, useEffect } = React;
 
-        function BlogPostApp() {
+                        function BlogPostApp() {
             const [articleContent, setArticleContent] = useState(null);
 
             useEffect(() => {
@@ -228,8 +231,8 @@
         }
 
 // Optimized React initialization with requestIdleCallback to reduce main-thread blocking
-        function initBlogPostApp() {
-            if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
+
+                
                 // Use requestIdleCallback to defer React rendering until browser is idle
                 const renderReact = () => {
                     const root = ReactDOM.createRoot(document.getElementById('root'));
