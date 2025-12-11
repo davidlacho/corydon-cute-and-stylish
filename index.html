@@ -120,8 +120,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://unpkg.com" crossorigin>
     
+    <!-- Preload critical CSS to break request chain -->
+    <link rel="preload" href="/styles.min.css" as="style">
+    
     <!-- Preload LCP image for faster Largest Contentful Paint -->
     <link rel="preload" as="image" href="images/2025-10-09-5-Ruskin-Row-00001.jpg" fetchpriority="high">
+    
+    <!-- Main stylesheet - minified for reduced payload size -->
+    <link rel="stylesheet" href="/styles.min.css">
     
     <!-- Optimized font loading with font-display: swap (async load) -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
@@ -350,8 +356,6 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
     <!-- Load shared blog components -->
     <script src="/blog-components.js" defer></script>
-    <!-- Main stylesheet -->
-    <link rel="stylesheet" href="/styles.css">
     
     <!-- Structured Data (Schema.org JSON-LD) -->
     <script type="application/ld+json">
