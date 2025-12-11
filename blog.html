@@ -1822,145 +1822,144 @@
 
     <!-- React App for Blog Listing -->
     <script type="text/javascript" defer>
-        const { useState, useMemo } = React;
+        // Optimized React initialization with requestIdleCallback to reduce main-thread blocking
+        function initBlogApp() {
+            if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
+                const { useState, useMemo } = React;
 
-        // Blog Listing App Component
-        function BlogApp() {
-            const [filter, setFilter] = useState('all');
-            const [sort, setSort] = useState('date-desc');
-            
-            // Use articles from global ARTICLES_DATA or fallback to empty array
-            const articles = typeof ARTICLES_DATA !== 'undefined' ? ARTICLES_DATA : [];
+                // Blog Listing App Component
+                function BlogApp() {
+                    const [filter, setFilter] = useState('all');
+                    const [sort, setSort] = useState('date-desc');
+                    
+                    // Use articles from global ARTICLES_DATA or fallback to empty array
+                    const articles = typeof ARTICLES_DATA !== 'undefined' ? ARTICLES_DATA : [];
 
-            const filteredAndSorted = useMemo(() => {
-                let filtered = articles;
-                
-                if (filter !== 'all') {
-                    filtered = articles.filter(a => a.category === filter);
-                }
+                    const filteredAndSorted = useMemo(() => {
+                        let filtered = articles;
+                        
+                        if (filter !== 'all') {
+                            filtered = articles.filter(a => a.category === filter);
+                        }
 
-                return filtered.sort((a, b) => {
-                    if (sort === 'date-desc') {
-                        return new Date(b.date) - new Date(a.date);
-                    } else if (sort === 'date-asc') {
-                        return new Date(a.date) - new Date(b.date);
-                    } else if (sort === 'title-asc') {
-                        return a.title.localeCompare(b.title);
-                    } else if (sort === 'title-desc') {
-                        return b.title.localeCompare(a.title);
-                    }
-                    return 0;
-                });
-            }, [articles, filter, sort]);
+                        return filtered.sort((a, b) => {
+                            if (sort === 'date-desc') {
+                                return new Date(b.date) - new Date(a.date);
+                            } else if (sort === 'date-asc') {
+                                return new Date(a.date) - new Date(b.date);
+                            } else if (sort === 'title-asc') {
+                                return a.title.localeCompare(b.title);
+                            } else if (sort === 'title-desc') {
+                                return b.title.localeCompare(a.title);
+                            }
+                            return 0;
+                        });
+                    }, [articles, filter, sort]);
 
-            const filterText = filter === 'all' ? 'All Posts' : 
-                              filter === 'winnipeg' ? 'Winnipeg Guides' :
-                              filter === 'travel' ? 'Travel Experiences' :
-                              'Hosting & Design';
+                    const filterText = filter === 'all' ? 'All Posts' : 
+                                      filter === 'winnipeg' ? 'Winnipeg Guides' :
+                                      filter === 'travel' ? 'Travel Experiences' :
+                                      'Hosting & Design';
 
-            return React.createElement('div', null,
-                React.createElement(Navigation),
-                React.createElement('main', { id: 'main-content' },
-                    React.createElement('section', { className: 'blog-hero' },
-                        React.createElement('div', { className: 'container' },
-                            React.createElement('h1', null, 'Winnipeg Travel Blog'),
-                            React.createElement('p', null, 'Your complete guide to Winnipeg: local attractions, neighborhoods, restaurants, activities, and insider tips from 14 years of hosting')
-                        )
-                    ),
-                    React.createElement('section', { className: 'blog-content' },
-                        React.createElement('div', { className: 'container' },
-                            React.createElement('div', { className: 'blog-intro' },
-                                React.createElement('p', null, "Welcome to our Winnipeg travel blog! Whether you're planning your first visit or looking to discover hidden gems, we've created comprehensive guides to help you make the most of your time in Manitoba's capital. From detailed neighborhood guides and restaurant recommendations to transportation tips and seasonal activities, our blog combines local expertise with insights from 14 years of hosting guests in Winnipeg's historic Crescentwood neighborhood. We also share hosting philosophy, design lessons, and travel stories from our experiences staying in Airbnbs around the world—because great hosting comes from understanding what makes a stay memorable.")
+                    return React.createElement('div', null,
+                        React.createElement(Navigation),
+                        React.createElement('main', { id: 'main-content' },
+                            React.createElement('section', { className: 'blog-hero' },
+                                React.createElement('div', { className: 'container' },
+                                    React.createElement('h1', null, 'Winnipeg Travel Blog'),
+                                    React.createElement('p', null, 'Your complete guide to Winnipeg: local attractions, neighborhoods, restaurants, activities, and insider tips from 14 years of hosting')
+                                )
                             ),
-                            React.createElement('div', { className: 'blog-controls' },
-                                React.createElement('div', { className: 'filter-sort-container' },
-                                    React.createElement('div', { className: 'filter-buttons', role: 'group', 'aria-label': 'Filter blog posts by category' },
-                                        React.createElement('button', {
-                                            className: `filter-btn ${filter === 'all' ? 'active' : ''}`,
-                                            'data-filter': 'all',
-                                            'aria-pressed': filter === 'all',
-                                            onClick: () => setFilter('all')
-                                        }, 'All Posts'),
-                                        React.createElement('button', {
-                                            className: `filter-btn ${filter === 'winnipeg' ? 'active' : ''}`,
-                                            'data-filter': 'winnipeg',
-                                            'aria-pressed': filter === 'winnipeg',
-                                            onClick: () => setFilter('winnipeg')
-                                        }, 'Winnipeg Guides'),
-                                        React.createElement('button', {
-                                            className: `filter-btn ${filter === 'travel' ? 'active' : ''}`,
-                                            'data-filter': 'travel',
-                                            'aria-pressed': filter === 'travel',
-                                            onClick: () => setFilter('travel')
-                                        }, 'Travel Experiences'),
-                                        React.createElement('button', {
-                                            className: `filter-btn ${filter === 'hosting' ? 'active' : ''}`,
-                                            'data-filter': 'hosting',
-                                            'aria-pressed': filter === 'hosting',
-                                            onClick: () => setFilter('hosting')
-                                        }, 'Hosting & Design')
+                            React.createElement('section', { className: 'blog-content' },
+                                React.createElement('div', { className: 'container' },
+                                    React.createElement('div', { className: 'blog-intro' },
+                                        React.createElement('p', null, "Welcome to our Winnipeg travel blog! Whether you're planning your first visit or looking to discover hidden gems, we've created comprehensive guides to help you make the most of your time in Manitoba's capital. From detailed neighborhood guides and restaurant recommendations to transportation tips and seasonal activities, our blog combines local expertise with insights from 14 years of hosting guests in Winnipeg's historic Crescentwood neighborhood. We also share hosting philosophy, design lessons, and travel stories from our experiences staying in Airbnbs around the world—because great hosting comes from understanding what makes a stay memorable.")
                                     ),
-                                    React.createElement('div', { className: 'sort-container' },
-                                        React.createElement('label', { htmlFor: 'sort-select' }, 'Sort by:'),
-                                        React.createElement('select', {
-                                            id: 'sort-select',
-                                            className: 'sort-select',
-                                            'aria-label': 'Sort blog posts',
-                                            value: sort,
-                                            onChange: (e) => setSort(e.target.value)
-                                        },
-                                            React.createElement('option', { value: 'date-desc' }, 'Newest First'),
-                                            React.createElement('option', { value: 'date-asc' }, 'Oldest First'),
-                                            React.createElement('option', { value: 'title-asc' }, 'Title A-Z'),
-                                            React.createElement('option', { value: 'title-desc' }, 'Title Z-A')
-                                        )
-                                    )
-                                ),
-                                React.createElement('div', {
-                                    className: 'results-count',
-                                    'aria-live': 'polite'
-                                }, `Showing ${filteredAndSorted.length} ${filteredAndSorted.length === 1 ? 'post' : 'posts'} in ${filterText}`)
-                            ),
-                            React.createElement('div', { className: 'articles-grid' },
-                                filteredAndSorted.map((article, idx) =>
-                                    React.createElement('a', {
-                                        key: idx,
-                                        href: article.url,
-                                        className: 'article-card',
-                                        'data-category': article.category,
-                                        'data-date': article.date,
-                                        'data-title': article.title
-                                    },
-                                        React.createElement('div', { className: 'article-image' },
-                                            React.createElement('img', {
-                                                src: article.image,
-                                                alt: article.imageAlt,
-                                                loading: 'lazy'
-                                            })
+                                    React.createElement('div', { className: 'blog-controls' },
+                                        React.createElement('div', { className: 'filter-sort-container' },
+                                            React.createElement('div', { className: 'filter-buttons', role: 'group', 'aria-label': 'Filter blog posts by category' },
+                                                React.createElement('button', {
+                                                    className: `filter-btn ${filter === 'all' ? 'active' : ''}`,
+                                                    'data-filter': 'all',
+                                                    'aria-pressed': filter === 'all',
+                                                    onClick: () => setFilter('all')
+                                                }, 'All Posts'),
+                                                React.createElement('button', {
+                                                    className: `filter-btn ${filter === 'winnipeg' ? 'active' : ''}`,
+                                                    'data-filter': 'winnipeg',
+                                                    'aria-pressed': filter === 'winnipeg',
+                                                    onClick: () => setFilter('winnipeg')
+                                                }, 'Winnipeg Guides'),
+                                                React.createElement('button', {
+                                                    className: `filter-btn ${filter === 'travel' ? 'active' : ''}`,
+                                                    'data-filter': 'travel',
+                                                    'aria-pressed': filter === 'travel',
+                                                    onClick: () => setFilter('travel')
+                                                }, 'Travel Experiences'),
+                                                React.createElement('button', {
+                                                    className: `filter-btn ${filter === 'hosting' ? 'active' : ''}`,
+                                                    'data-filter': 'hosting',
+                                                    'aria-pressed': filter === 'hosting',
+                                                    onClick: () => setFilter('hosting')
+                                                }, 'Hosting & Design')
+                                            ),
+                                            React.createElement('div', { className: 'sort-container' },
+                                                React.createElement('label', { htmlFor: 'sort-select' }, 'Sort by:'),
+                                                React.createElement('select', {
+                                                    id: 'sort-select',
+                                                    className: 'sort-select',
+                                                    'aria-label': 'Sort blog posts',
+                                                    value: sort,
+                                                    onChange: (e) => setSort(e.target.value)
+                                                },
+                                                    React.createElement('option', { value: 'date-desc' }, 'Newest First'),
+                                                    React.createElement('option', { value: 'date-asc' }, 'Oldest First'),
+                                                    React.createElement('option', { value: 'title-asc' }, 'Title A-Z'),
+                                                    React.createElement('option', { value: 'title-desc' }, 'Title Z-A')
+                                                )
+                                            )
                                         ),
-                                        React.createElement('div', { className: 'article-content' },
-                                            React.createElement('div', {
-                                                className: 'article-meta',
-                                                dangerouslySetInnerHTML: { __html: article.metaHtml }
-                                            }),
-                                            React.createElement('h2', null, article.title),
-                                            React.createElement('p', null, article.description),
-                                            React.createElement('span', { className: 'read-more' }, 'Read Article')
+                                        React.createElement('div', {
+                                            className: 'results-count',
+                                            'aria-live': 'polite'
+                                        }, `Showing ${filteredAndSorted.length} ${filteredAndSorted.length === 1 ? 'post' : 'posts'} in ${filterText}`)
+                                    ),
+                                    React.createElement('div', { className: 'articles-grid' },
+                                        filteredAndSorted.map((article, idx) =>
+                                            React.createElement('a', {
+                                                key: idx,
+                                                href: article.url,
+                                                className: 'article-card',
+                                                'data-category': article.category,
+                                                'data-date': article.date,
+                                                'data-title': article.title
+                                            },
+                                                React.createElement('div', { className: 'article-image' },
+                                                    React.createElement('img', {
+                                                        src: article.image,
+                                                        alt: article.imageAlt,
+                                                        loading: 'lazy'
+                                                    })
+                                                ),
+                                                React.createElement('div', { className: 'article-content' },
+                                                    React.createElement('div', {
+                                                        className: 'article-meta',
+                                                        dangerouslySetInnerHTML: { __html: article.metaHtml }
+                                                    }),
+                                                    React.createElement('h2', null, article.title),
+                                                    React.createElement('p', null, article.description),
+                                                    React.createElement('span', { className: 'read-more' }, 'Read Article')
+                                                )
+                                            )
                                         )
                                     )
                                 )
                             )
-                        )
-                    )
-                ),
-                React.createElement(Footer),
-                React.createElement(FloatingBookButton)
-            );
-        }
-
-        // Optimized React initialization with requestIdleCallback to reduce main-thread blocking
-        function initBlogApp() {
-            if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
+                        ),
+                        React.createElement(Footer),
+                        React.createElement(FloatingBookButton)
+                    );
+                }
                 // Use requestIdleCallback to defer React rendering until browser is idle
                 const renderReact = () => {
                     const root = ReactDOM.createRoot(document.getElementById('root'));
