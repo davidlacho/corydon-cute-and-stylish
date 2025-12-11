@@ -520,6 +520,16 @@ const ARTICLES_DATA = [
     "imageAlt": "Compliant and safe Airbnb property with professional hosting standards",
     "description": "Book with confidence knowing you're staying with a fully compliant, legally licensed host. Learn how we maintain full compliance with Winnipeg's short-term rental bylaw, including proper licensing, routine inspections, and our commitment to guest safety.",
     "metaHtml": "<span>✅ Hosting & Compliance</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 11, 2025</span>"
+  },
+  {
+    "url": "/blog-spa-shower-upgrade.html",
+    "category": "hosting",
+    "date": "2025-12-17",
+    "title": "Upgrading to a Spa-Like Shower Experience: Our Latest Airbnb Enhancement",
+    "image": "images/61-rddpp-cS._AC_SL1500_.jpg",
+    "imageAlt": "Modern spa shower panel system with rainfall shower head and adjustable massage jets",
+    "description": "We're thrilled to announce our latest upgrade: transforming our bathroom into a spa-like retreat with a premium shower panel system featuring rainfall shower heads, massage jets, and modern amenities.",
+    "metaHtml": "<span>✨ Hosting & Improvements</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 December 17, 2025</span>"
   }
 ];
 

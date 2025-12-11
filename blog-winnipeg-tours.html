@@ -57,8 +57,6 @@
     <!-- Load React libraries with defer for non-blocking execution -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
-    <!-- Load Babel last to ensure React is ready, with defer to prevent blocking -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js" defer></script>
     
     <!-- Load shared blog components -->
     <script src="/blog-components.js" defer></script>
@@ -321,7 +319,7 @@
     
     
     <!-- React App for Blog Post -->
-    <script type="text/babel" defer>
+    <script type="text/javascript" defer>
         const { useState, useEffect } = React;
 
         function BlogPostApp() {
@@ -368,35 +366,70 @@
             );
         }
 
-        // Wait for React to load, then render
+// Optimized React initialization with requestIdleCallback to reduce main-thread blocking
         function initBlogPostApp() {
             if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
-                const root = ReactDOM.createRoot(document.getElementById('root'));
-                root.render(React.createElement(BlogPostApp));
-                
-                // Fade in React content smoothly
-                setTimeout(function() {
-                    const rootEl = document.getElementById('root');
-                    if (rootEl) {
-                        rootEl.classList.add('react-ready');
-                    }
+                // Use requestIdleCallback to defer React rendering until browser is idle
+                const renderReact = () => {
+                    const root = ReactDOM.createRoot(document.getElementById('root'));
+                    root.render(React.createElement(BlogPostApp));
                     
-                    // Smoothly hide noscript content if function exists
-                    if (window.hideNoscriptWhenReady) {
-                        window.hideNoscriptWhenReady();
-                    }
-                }, 50);
+                    // Fade in React content smoothly (defer to next frame)
+                    requestAnimationFrame(function() {
+                        const rootEl = document.getElementById('root');
+                        if (rootEl) {
+                            rootEl.classList.add('react-ready');
+                        }
+                        // Smoothly hide noscript content if function exists
+                        if (window.hideNoscriptWhenReady) {
+                            window.hideNoscriptWhenReady();
+                        }
+                    });
+                };
+
+                // Defer rendering until idle, with fallback for browsers without requestIdleCallback
+                if ('requestIdleCallback' in window) {
+                    requestIdleCallback(renderReact, { timeout: 2000 });
+                } else {
+                    // Fallback: use setTimeout with small delay to allow paint
+                    setTimeout(renderReact, 1);
+                }
             } else {
-                setTimeout(initBlogPostApp, 100);
+                // More efficient polling with exponential backoff
+                const maxAttempts = 50;
+                const attempt = window._reactLoadAttempt || 0;
+                if (attempt < maxAttempts) {
+                    window._reactLoadAttempt = attempt + 1;
+                    const delay = Math.min(100 * Math.pow(1.1, attempt), 500);
+                    setTimeout(initBlogPostApp, delay);
+                }
             }
         }
 
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', initBlogPostApp);
-        } else {
-            initBlogPostApp();
+        // Initialize when DOM is ready, but defer to avoid blocking
+        function startInit() {
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', function() {
+                    // Defer initialization slightly to allow initial paint
+                    if ('requestIdleCallback' in window) {
+                        requestIdleCallback(initBlogPostApp, { timeout: 1000 });
+                    } else {
+                        setTimeout(initBlogPostApp, 0);
+                    }
+                });
+            } else {
+                // DOM already ready, defer initialization
+                if ('requestIdleCallback' in window) {
+                    requestIdleCallback(initBlogPostApp, { timeout: 1000 });
+                } else {
+                    setTimeout(initBlogPostApp, 0);
+                }
+            }
         }
+        startInit();
+
     </script>
 </body>
 </html>
+
 

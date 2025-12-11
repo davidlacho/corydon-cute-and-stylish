@@ -11,9 +11,9 @@ Home: https://staywinnipeg.ca/
 Blog: https://staywinnipeg.ca/blog.html
 
 # Content Overview
-Total Blog Posts: 51
+Total Blog Posts: 52
 - Winnipeg Attractions & Activities: 41 guides
-- Hosting & Airbnb Philosophy: 5 posts
+- Hosting & Airbnb Philosophy: 6 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
@@ -97,8 +97,8 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage with property showcase and booking information
-- Blog index page listing all 51 blog posts by category
-- 51 individual blog post pages covering local guides, hosting insights, and travel stories
+- Blog index page listing all 52 blog posts by category
+- 52 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
