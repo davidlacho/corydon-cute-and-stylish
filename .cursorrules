@@ -85,6 +85,46 @@ This file documents the structure and requirements for creating blog posts on th
 - Do NOT include inline `<style>` blocks in individual blog post HTML files.
 - The `blog-styles.css` file includes all necessary styles for navigation, article layout, typography, highlight boxes, footer, and the floating book button, along with mobile responsiveness.
 
+#### CSS Minification (Performance Optimization)
+
+**IMPORTANT: The site uses minified CSS files for production to reduce payload size and improve page load performance.**
+
+**Minified CSS Files:**
+- `styles.min.css` - Main site stylesheet (used by `index.html`)
+- `blog-styles.min.css` - Blog stylesheet (used by `blog.html`)
+
+**Source CSS Files (for editing):**
+- `styles.css` - Source file for main site styles
+- `blog-styles.css` - Source file for blog styles
+
+**When Making Style Changes:**
+
+1. **ALWAYS edit the source `.css` file** (e.g., `styles.css` or `blog-styles.css`), NOT the minified `.min.css` files
+2. **After making changes, regenerate the minified version** using the following command:
+   ```bash
+   npx --yes csso-cli [source-file].css -o [source-file].min.css
+   ```
+   Examples:
+   ```bash
+   # Minify main stylesheet
+   npx --yes csso-cli styles.css -o styles.min.css
+   
+   # Minify blog stylesheet
+   npx --yes csso-cli blog-styles.css -o blog-styles.min.css
+   ```
+3. **HTML files reference the minified versions:**
+   - `index.html` uses `/styles.min.css`
+   - `blog.html` uses `/blog-styles.min.css`
+   - Individual blog posts still reference `/blog-styles.css` (can be updated to `.min.css` later if needed)
+
+**Why Minification:**
+- Reduces file size by ~30% (e.g., 45KB → 31KB for styles.css)
+- Improves page load performance
+- Reduces network payload size (meets Lighthouse performance recommendations)
+- Better user experience, especially on slower connections
+
+**Note:** The minified files are production-ready and maintain all functionality. Always test after regenerating minified CSS to ensure styles work correctly.
+
 ### 7. React CDN Setup (Required)
 
 All blog posts use React via CDN, following the same approach as `index.html`. Include these scripts in the `<head>` section:
