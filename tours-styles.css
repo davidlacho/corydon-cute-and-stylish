@@ -1,0 +1,204 @@
+/* Tours & Experiences Page - Gradient background from cream to white */
+body.tours-page {
+    background: linear-gradient(to bottom, rgba(254, 249, 231, 0.98) 0%, rgba(254, 249, 231, 0.98) 30%, rgba(255, 255, 255, 0.95) 60%, white 100%) !important;
+    background-attachment: fixed;
+}
+
+/* Apply font family to content only, not nav/footer */
+body.tours-page main#main-content,
+body.tours-page main#main-content * {
+    font-family: Manrope, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Ensure nav and footer use default styling */
+body.tours-page nav,
+body.tours-page nav *,
+body.tours-page footer,
+body.tours-page footer * {
+    font-family: inherit !important;
+}
+
+body.tours-page #root {
+    background: transparent !important;
+}
+
+body.tours-page main#main-content {
+    background: transparent !important;
+}
+
+body.tours-page article,
+body.tours-page .container {
+    background: transparent !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+body.tours-page .article-header {
+    background: transparent !important;
+    padding: 3rem 2rem 1.5rem !important;
+    margin-top: 80px !important;
+    text-align: center;
+}
+
+body.tours-page .article-body {
+    background: transparent !important;
+    padding: 2rem 2rem 3rem !important;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Viator widget container - white background to match widget */
+body.tours-page .viator-widget-container {
+    background: white !important;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    min-height: 500px;
+    border-top: 4px solid #F4A261;
+    position: relative;
+}
+
+/* Decorative accent before widget */
+body.tours-page .viator-widget-container::before {
+    content: '🎫';
+    position: absolute;
+    top: -20px;
+    left: 2rem;
+    background: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    border: 2px solid #2A9D8F;
+}
+
+/* Viator-inspired typography styles */
+body.tours-page .article-header h1 {
+    color: var(--text);
+    font-size: 2.625rem; /* --viator-font-size-1000 */
+    line-height: 1.1; /* Tighter line height for large headings */
+    font-weight: 600; /* Slightly bolder for better hierarchy */
+    letter-spacing: -0.02em; /* Slightly tighter for large text */
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+/* Brand decorative star after title */
+body.tours-page .article-header h1::after {
+    content: ' ✦';
+    color: #F4A261;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 0.5rem;
+}
+
+/* Brand accent border on header */
+body.tours-page .article-header {
+    border-bottom: 3px solid #2A9D8F;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+body.tours-page .article-meta {
+    color: var(--text-light);
+    font-size: 0.875rem; /* --viator-font-size-300 */
+    line-height: 1.5; /* --viator-line-height-300 */
+    font-weight: 400; /* --viator-font-weight-regular */
+    letter-spacing: 0.003125rem; /* --viator-letter-spacing-none */
+    margin-bottom: 0;
+}
+
+body.tours-page .article-body-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+    margin-bottom: 2rem;
+}
+
+body.tours-page .article-body p {
+    color: var(--text);
+    margin-bottom: 1.5rem; /* --viator-paragraph-spacing-m */
+    font-size: 1rem; /* --viator-font-size-400 */
+    line-height: 1.7; /* More readable line height */
+    font-weight: 400; /* --viator-font-weight-regular */
+    letter-spacing: 0.003125rem; /* --viator-letter-spacing-none */
+    max-width: 65ch; /* Optimal reading width */
+}
+
+body.tours-page .article-body p:last-of-type {
+    margin-bottom: 0;
+}
+
+body.tours-page .article-body-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    border: 3px solid transparent;
+    border-top-color: #F4A261;
+    border-left-color: #2A9D8F;
+}
+
+body.tours-page .article-body strong {
+    font-weight: 600; /* Slightly bolder for emphasis */
+    color: #264653; /* Brand color for emphasis */
+}
+
+/* Ensure all content containers are transparent to show gradient */
+body.tours-page #article-content,
+body.tours-page #article-content article,
+body.tours-page #article-content .container {
+    background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    body.tours-page .article-header {
+        padding: 2rem 1rem 1rem !important;
+        margin-top: 70px !important;
+    }
+    
+    body.tours-page .article-header h1 {
+        font-size: 1.75rem; /* --viator-font-size-800 */
+        line-height: 1.2; /* Tighter for mobile */
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        margin-bottom: 0.75rem;
+    }
+    
+    body.tours-page .article-body {
+        padding: 1.5rem 1rem 2rem !important;
+    }
+    
+    body.tours-page .article-body p {
+        font-size: 0.9375rem; /* Slightly larger for mobile readability */
+        line-height: 1.6;
+    }
+    
+    body.tours-page .article-body-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    body.tours-page .article-body-image {
+        order: -1; /* Show image first on mobile */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body.tours-page .article-header h1 {
+        font-size: 3.5rem; /* Slightly smaller than before for better balance */
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body.tours-page .article-header h1 {
+        font-size: 4rem; /* Large but not overwhelming */
+    }
+}
+
