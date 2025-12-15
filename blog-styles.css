@@ -666,14 +666,18 @@ nav {
 
 /* Viator Widget Container */
 .viator-widget-container {
-    background: white;
-    border-radius: 20px;
-    padding: 2.5rem;
-    margin: 3rem 0;
-    box-shadow: 0 8px 25px var(--shadow);
-    border: 2px solid var(--border);
+    /* Break out of container constraints to use full viewport width */
+    width: 100vw;
     position: relative;
-    overflow: hidden;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0;
+    background: white;
+    overflow: visible;
 }
 
 .viator-widget-container::before {
@@ -684,24 +688,28 @@ nav {
     right: 0;
     height: 4px;
     background: linear-gradient(90deg, var(--mustard), var(--teal), var(--burnt-orange));
+    z-index: 1;
 }
 
+/* Let the widget handle its own sizing */
 .viator-widget-container > div {
+    width: 100%;
     min-height: 400px;
 }
 
-/* Ensure Viator widget is responsive */
+/* Ensure Viator widget uses full width and handles its own sizing */
 .viator-widget-container iframe,
-.viator-widget-container [data-vi-partner-id] {
-    width: 100%;
-    max-width: 100%;
+.viator-widget-container [data-vi-partner-id],
+.viator-widget-container > div > * {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
 }
 
 @media (max-width: 768px) {
     .viator-widget-container {
-        padding: 1.5rem;
-        margin: 2rem 0;
-        border-radius: 15px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
     
     .viator-widget-container > div {
