@@ -581,6 +581,16 @@ nav {
     color: white !important;
 }
 
+.nav-links a.nav-cta:focus {
+    outline: var(--focus-outline);
+    outline-offset: var(--focus-outline-offset);
+}
+
+.nav-links a.nav-cta:focus-visible {
+    outline: var(--focus-outline);
+    outline-offset: var(--focus-outline-offset);
+}
+
 /* Mobile Menu Overlay */
 .nav-overlay {
     display: none;

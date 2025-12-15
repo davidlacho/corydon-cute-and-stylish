@@ -130,6 +130,17 @@ function Navigation(props) {
                         className: isActive('/blog.html') ? 'active' : '',
                         onClick: closeMenu
                     }, 'Blog')
+                ),
+                React.createElement('li', { role: 'none' },
+                    React.createElement('a', {
+                        href: 'https://www.airbnb.ca/rooms/716340250371431352',
+                        role: 'menuitem',
+                        className: 'nav-cta',
+                        target: '_blank',
+                        rel: 'noopener noreferrer',
+                        'aria-label': 'Book your stay on Airbnb - opens in new tab',
+                        onClick: closeMenu
+                    }, 'Book Now')
                 )
             )
         )

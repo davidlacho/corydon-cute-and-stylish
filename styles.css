@@ -377,6 +377,16 @@ a.logo,
     will-change: transform;
 }
 
+.nav-links a.nav-cta:focus {
+    outline: var(--focus-outline);
+    outline-offset: var(--focus-outline-offset);
+}
+
+.nav-links a.nav-cta:focus-visible {
+    outline: var(--focus-outline);
+    outline-offset: var(--focus-outline-offset);
+}
+
 /* Hero Section */
 .hero {
     margin-top: 0;
