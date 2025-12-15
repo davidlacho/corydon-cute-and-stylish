@@ -117,52 +117,102 @@
             }
         }
         
-        /* Widget Loading Spinner */
-        .viator-widget-loader {
+        /* Widget Skeleton Loader */
+        .viator-widget-skeleton {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            padding: 1.5rem;
+            min-height: 400px;
+        }
+        
+        .skeleton-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 400px;
-            padding: 3rem;
-            color: var(--text-light);
         }
         
-        .viator-widget-loader p {
-            margin-top: 1.5rem;
-            font-size: 1rem;
-            color: var(--text-light);
+        .skeleton-image {
+            width: 100%;
+            height: 180px;
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: skeleton-loading 1.5s ease-in-out infinite;
         }
         
-        .spinner {
-            border: 4px solid var(--border);
-            border-top: 4px solid var(--teal);
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            animation: spin 1s linear infinite;
+        .skeleton-content {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
         }
         
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+        .skeleton-line {
+            height: 12px;
+            border-radius: 4px;
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: skeleton-loading 1.5s ease-in-out infinite;
         }
         
-        /* Hide spinner when widget loads */
-        .viator-widget-container[data-loaded="true"] .viator-widget-loader {
+        .skeleton-title {
+            width: 85%;
+            height: 16px;
+        }
+        
+        .skeleton-rating {
+            width: 60%;
+            height: 12px;
+        }
+        
+        .skeleton-location {
+            width: 70%;
+            height: 12px;
+        }
+        
+        .skeleton-price {
+            width: 50%;
+            height: 14px;
+            margin-top: 0.5rem;
+        }
+        
+        .skeleton-button {
+            width: 100%;
+            height: 40px;
+            border-radius: 6px;
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: skeleton-loading 1.5s ease-in-out infinite;
+            margin-top: 0.5rem;
+        }
+        
+        @keyframes skeleton-loading {
+            0% {
+                background-position: 200% 0;
+            }
+            100% {
+                background-position: -200% 0;
+            }
+        }
+        
+        /* Hide skeleton when widget loads */
+        .viator-widget-container[data-loaded="true"] .viator-widget-skeleton {
             display: none;
         }
         
         @media (max-width: 768px) {
-            .viator-widget-loader {
+            .viator-widget-skeleton {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                padding: 1rem;
                 min-height: 300px;
-                padding: 2rem;
             }
             
-            .spinner {
-                width: 40px;
-                height: 40px;
-                border-width: 3px;
+            .skeleton-image {
+                height: 160px;
             }
         }
     </style>
@@ -313,9 +363,67 @@
 
                 <!-- Viator Widget Container -->
                 <div class="viator-widget-container">
-                    <div class="viator-widget-loader">
-                        <div class="spinner"></div>
-                        <p>Loading tours and experiences...</p>
+                    <div class="viator-widget-skeleton">
+                        <div class="skeleton-card">
+                            <div class="skeleton-image"></div>
+                            <div class="skeleton-content">
+                                <div class="skeleton-line skeleton-title"></div>
+                                <div class="skeleton-line skeleton-rating"></div>
+                                <div class="skeleton-line skeleton-location"></div>
+                                <div class="skeleton-line skeleton-price"></div>
+                                <div class="skeleton-button"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-image"></div>
+                            <div class="skeleton-content">
+                                <div class="skeleton-line skeleton-title"></div>
+                                <div class="skeleton-line skeleton-rating"></div>
+                                <div class="skeleton-line skeleton-location"></div>
+                                <div class="skeleton-line skeleton-price"></div>
+                                <div class="skeleton-button"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-image"></div>
+                            <div class="skeleton-content">
+                                <div class="skeleton-line skeleton-title"></div>
+                                <div class="skeleton-line skeleton-rating"></div>
+                                <div class="skeleton-line skeleton-location"></div>
+                                <div class="skeleton-line skeleton-price"></div>
+                                <div class="skeleton-button"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-image"></div>
+                            <div class="skeleton-content">
+                                <div class="skeleton-line skeleton-title"></div>
+                                <div class="skeleton-line skeleton-rating"></div>
+                                <div class="skeleton-line skeleton-location"></div>
+                                <div class="skeleton-line skeleton-price"></div>
+                                <div class="skeleton-button"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-image"></div>
+                            <div class="skeleton-content">
+                                <div class="skeleton-line skeleton-title"></div>
+                                <div class="skeleton-line skeleton-rating"></div>
+                                <div class="skeleton-line skeleton-location"></div>
+                                <div class="skeleton-line skeleton-price"></div>
+                                <div class="skeleton-button"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton-card">
+                            <div class="skeleton-image"></div>
+                            <div class="skeleton-content">
+                                <div class="skeleton-line skeleton-title"></div>
+                                <div class="skeleton-line skeleton-rating"></div>
+                                <div class="skeleton-line skeleton-location"></div>
+                                <div class="skeleton-line skeleton-price"></div>
+                                <div class="skeleton-button"></div>
+                            </div>
+                        </div>
                     </div>
                     <div data-vi-partner-id="P00280954" data-vi-widget-ref="W-1dee400b-e57d-429d-a2d6-a4da404262f3"></div>
                     <script async src="https://www.viator.com/orion/partner/widget.js"></script>
