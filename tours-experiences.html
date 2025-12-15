@@ -55,9 +55,10 @@
     <!-- Shared Blog Styles -->
     <link rel="stylesheet" href="/blog-styles.css">
     <style>
-        /* Tours & Experiences Page - White background throughout (except nav and footer) */
+        /* Tours & Experiences Page - Gradient background from cream to white */
         body.tours-page {
-            background: white !important;
+            background: linear-gradient(to bottom, rgba(254, 249, 231, 0.98) 0%, rgba(254, 249, 231, 0.98) 30%, rgba(255, 255, 255, 0.95) 60%, white 100%) !important;
+            background-attachment: fixed;
         }
         
         /* Apply font family to content only, not nav/footer */
@@ -75,32 +76,41 @@
         }
         
         body.tours-page #root {
-            background: white !important;
+            background: transparent !important;
         }
         
         body.tours-page main#main-content {
-            background: white !important;
+            background: transparent !important;
         }
         
         body.tours-page article,
         body.tours-page .container {
-            background: white !important;
+            background: transparent !important;
             max-width: 100% !important;
             padding: 0 !important;
         }
         
         body.tours-page .article-header {
-            background: white !important;
+            background: transparent !important;
             padding: 3rem 2rem 1.5rem !important;
             margin-top: 80px !important;
             text-align: center;
         }
         
         body.tours-page .article-body {
-            background: white !important;
+            background: transparent !important;
             padding: 2rem 2rem 3rem !important;
             max-width: 1200px;
             margin: 0 auto;
+        }
+        
+        /* Viator widget container - white background to match widget */
+        body.tours-page .viator-widget-container {
+            background: white !important;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
         }
         
         /* Viator-inspired typography styles */
@@ -157,11 +167,11 @@
             color: var(--text);
         }
         
-        /* Ensure all content containers are white */
+        /* Ensure all content containers are transparent to show gradient */
         body.tours-page #article-content,
         body.tours-page #article-content article,
         body.tours-page #article-content .container {
-            background: white !important;
+            background: transparent !important;
         }
         
         @media (max-width: 768px) {
@@ -411,11 +421,11 @@
                     React.createElement(Navigation),
                     React.createElement('main', { 
                         id: 'main-content',
-                        style: { background: 'white' }
+                        style: { background: 'transparent' }
                     },
                         React.createElement('div', { 
                             className: 'container',
-                            style: { background: 'white' }
+                            style: { background: 'transparent' }
                         },
                             React.createElement('p', null, 'Loading...')
                         )
@@ -429,11 +439,11 @@
                 React.createElement(Navigation),
                 React.createElement('main', { 
                     id: 'main-content',
-                    style: { background: 'white' }
+                    style: { background: 'transparent' }
                 },
                     React.createElement('article', {
                         className: 'container',
-                        style: { background: 'white' },
+                        style: { background: 'transparent' },
                         dangerouslySetInnerHTML: { __html: pageContent }
                     })
                 ),
