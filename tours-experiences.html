@@ -122,6 +122,14 @@
             margin-bottom: 0;
         }
         
+        body.tours-page .article-body-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: start;
+            margin-bottom: 2rem;
+        }
+        
         body.tours-page .article-body p {
             color: var(--text);
             margin-bottom: 1.5rem; /* --viator-paragraph-spacing-m */
@@ -133,7 +141,15 @@
         }
         
         body.tours-page .article-body p:last-of-type {
-            margin-bottom: 2rem;
+            margin-bottom: 0;
+        }
+        
+        body.tours-page .article-body-image {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
         }
         
         body.tours-page .article-body strong {
@@ -169,6 +185,15 @@
             body.tours-page .article-body p {
                 font-size: 0.9375rem; /* Slightly larger for mobile readability */
                 line-height: 1.6;
+            }
+            
+            body.tours-page .article-body-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            body.tours-page .article-body-image {
+                order: -1; /* Show image first on mobile */
             }
         }
         
@@ -291,9 +316,23 @@
             </div>
 
             <div class="article-body">
-                <p>Discover amazing <strong>discounted tours and experiences in Winnipeg</strong> at exclusive prices! Whether you're looking for <strong>guided city tours</strong>, <strong>walking tours</strong>, <strong>ghost tours</strong>, <strong>scavenger hunts</strong>, <strong>cultural experiences</strong>, <strong>outdoor adventures</strong>, or <strong>unique activities</strong>, we've partnered with trusted providers to bring you exclusive deals on the best Winnipeg has to offer.</p>
-                
-                <p>From <strong>private city tours</strong> and <strong>smartphone audio walking tours</strong> to <strong>murder mystery experiences</strong> and <strong>private airport transfers</strong>, our discounted tours page features a wide selection of Winnipeg activities at special rates. Book your perfect Winnipeg experience below and make the most of your stay in Manitoba's capital city.</p>
+                <div class="article-body-content">
+                    <div>
+                        <p>Discover amazing <strong>discounted tours and experiences in Winnipeg</strong> at exclusive prices! Whether you're looking for <strong>guided city tours</strong>, <strong>walking tours</strong>, <strong>ghost tours</strong>, <strong>scavenger hunts</strong>, <strong>cultural experiences</strong>, <strong>outdoor adventures</strong>, or <strong>unique activities</strong>, we've partnered with trusted providers to bring you exclusive deals on the best Winnipeg has to offer.</p>
+                        
+                        <p>From <strong>private city tours</strong> and <strong>smartphone audio walking tours</strong> to <strong>murder mystery experiences</strong> and <strong>private airport transfers</strong>, our discounted tours page features a wide selection of Winnipeg activities at special rates. Book your perfect Winnipeg experience below and make the most of your stay in Manitoba's capital city.</p>
+                    </div>
+                    <div>
+                        <img 
+                            src="https://images.unsplash.com/photo-1591658522986-9eb791d2a89a?q=80&w=1652&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                            alt="Winnipeg cityscape and skyline showing urban architecture and landmarks, representing the variety of tours and experiences available in Manitoba's capital city"
+                            class="article-body-image"
+                            loading="lazy"
+                            width="826"
+                            height="551"
+                        >
+                    </div>
+                </div>
 
                 <!-- Viator Widget Container -->
                 <div class="viator-widget-container">
