@@ -248,33 +248,68 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
+        "@type": "WebPage",
         "name": "Discounted Tours and Experiences in Winnipeg",
         "description": "Book discounted tours and experiences in Winnipeg! Exclusive deals on guided city tours, walking tours, ghost tours, scavenger hunts, private transfers, and more. Save on Winnipeg activities and attractions during your stay.",
         "url": "https://staywinnipeg.ca/tours-experiences.html",
-        "provider": {
+        "mainEntity": {
+            "@type": "Service",
+            "name": "Discounted Tours and Experiences Booking Service",
+            "description": "Curated selection of discounted tours and experiences in Winnipeg, including guided city tours, walking tours, ghost tours, scavenger hunts, cultural experiences, outdoor adventures, and private airport transfers.",
+            "serviceType": "Tour and Experience Booking Service",
+            "provider": {
+                "@type": "Organization",
+                "@id": "https://staywinnipeg.ca/#organization",
+                "name": "Stay Winnipeg",
+                "url": "https://staywinnipeg.ca",
+                "logo": "https://staywinnipeg.ca/home-icon.png",
+                "sameAs": "https://www.airbnb.ca/rooms/716340250371431352"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Winnipeg",
+                "addressRegion": "Manitoba",
+                "addressCountry": "CA",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "49.8951",
+                    "longitude": "-97.1384"
+                }
+            },
+            "offers": {
+                "@type": "AggregateOffer",
+                "description": "Discounted tours and experiences in Winnipeg",
+                "priceCurrency": "CAD",
+                "availability": "https://schema.org/InStock",
+                "offerCount": "Multiple"
+            },
+            "category": [
+                "Guided Tours",
+                "Walking Tours",
+                "Food Tours",
+                "Ghost Tours",
+                "Scavenger Hunts",
+                "Cultural Experiences",
+                "Outdoor Adventures",
+                "Private Tours",
+                "Airport Transfers"
+            ]
+        },
+        "publisher": {
             "@type": "Organization",
+            "@id": "https://staywinnipeg.ca/#organization",
             "name": "Stay Winnipeg",
             "url": "https://staywinnipeg.ca"
         },
-        "areaServed": {
-            "@type": "City",
-            "name": "Winnipeg",
-            "addressRegion": "Manitoba",
-            "addressCountry": "CA"
-        },
-        "serviceType": "Tour Booking Service",
-        "offers": {
-            "@type": "Offer",
-            "description": "Discounted tours and experiences in Winnipeg",
-            "priceSpecification": {
-                "@type": "UnitPriceSpecification",
-                "priceCurrency": "CAD"
+        "about": {
+            "@type": "Place",
+            "name": "Winnipeg, Manitoba",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Winnipeg",
+                "addressRegion": "MB",
+                "addressCountry": "CA"
             }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://staywinnipeg.ca/tours-experiences.html"
         }
     }
     </script>
