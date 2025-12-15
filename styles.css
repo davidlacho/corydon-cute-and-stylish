@@ -620,6 +620,7 @@ a.logo,
 .hero-slideshow {
     width: 100%;
     position: relative;
+    align-self: center;
 }
 
 .hero-slideshow-wrapper {
