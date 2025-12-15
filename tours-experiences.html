@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Primary Meta Tags -->
-    <title>Discounted Tours and Experiences | Stay Winnipeg</title>
-    <meta name="title" content="Discounted Tours and Experiences | Stay Winnipeg">
-    <meta name="description" content="Discover discounted tours and experiences in Winnipeg! Book amazing activities, guided tours, and unique experiences at great prices during your stay.">
-    <meta name="keywords" content="Winnipeg tours, Winnipeg experiences, discounted tours Winnipeg, Winnipeg activities, guided tours Winnipeg, Winnipeg attractions">
+    <title>Discounted Tours and Experiences in Winnipeg | Exclusive Deals | Stay Winnipeg</title>
+    <meta name="title" content="Discounted Tours and Experiences in Winnipeg | Exclusive Deals | Stay Winnipeg">
+    <meta name="description" content="Book discounted tours and experiences in Winnipeg! Exclusive deals on guided city tours, walking tours, ghost tours, scavenger hunts, private transfers, and more. Save on Winnipeg activities and attractions during your stay.">
+    <meta name="keywords" content="Winnipeg tours, discounted tours Winnipeg, Winnipeg experiences, Winnipeg activities, guided tours Winnipeg, Winnipeg walking tours, Winnipeg ghost tours, Winnipeg scavenger hunts, private tours Winnipeg, Winnipeg attractions, book tours Winnipeg, Winnipeg tour deals, cheap tours Winnipeg, Winnipeg sightseeing tours">
     <meta name="author" content="David">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="language" content="en-CA">
+    <meta name="geo.region" content="CA-MB">
+    <meta name="geo.placename" content="Winnipeg">
+    <meta name="geo.position" content="49.87275;-97.16177">
+    <meta name="ICBM" content="49.87275, -97.16177">
     <link rel="canonical" href="https://staywinnipeg.ca/tours-experiences.html">
     <link rel="alternate" hreflang="en-CA" href="https://staywinnipeg.ca/tours-experiences.html">
     <link rel="alternate" hreflang="x-default" href="https://staywinnipeg.ca/tours-experiences.html">
@@ -18,20 +23,26 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://staywinnipeg.ca/tours-experiences.html">
-    <meta property="og:title" content="Discounted Tours and Experiences | Stay Winnipeg">
-    <meta property="og:description" content="Discover discounted tours and experiences in Winnipeg! Book amazing activities, guided tours, and unique experiences at great prices during your stay.">
+    <meta property="og:title" content="Discounted Tours and Experiences in Winnipeg | Exclusive Deals">
+    <meta property="og:description" content="Book discounted tours and experiences in Winnipeg! Exclusive deals on guided city tours, walking tours, ghost tours, scavenger hunts, and more. Save on Winnipeg activities during your stay.">
     <meta property="og:image" content="https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg">
+    <meta property="og:image:secure_url" content="https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg">
+    <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="800">
+    <meta property="og:image:alt" content="Discounted Tours and Experiences in Winnipeg">
     <meta property="og:site_name" content="Stay Winnipeg">
     <meta property="og:locale" content="en_CA">
+    <meta property="og:updated_time" content="2025-12-18T00:00:00+00:00">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://staywinnipeg.ca/tours-experiences.html">
-    <meta name="twitter:title" content="Discounted Tours and Experiences | Stay Winnipeg">
-    <meta name="twitter:description" content="Discover discounted tours and experiences in Winnipeg! Book amazing activities, guided tours, and unique experiences at great prices.">
+    <meta name="twitter:title" content="Discounted Tours and Experiences in Winnipeg | Exclusive Deals">
+    <meta name="twitter:description" content="Book discounted tours and experiences in Winnipeg! Exclusive deals on guided city tours, walking tours, ghost tours, scavenger hunts, and more.">
     <meta name="twitter:image" content="https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg">
+    <meta name="twitter:image:alt" content="Discounted Tours and Experiences in Winnipeg">
+    <meta name="twitter:domain" content="staywinnipeg.ca">
     
     <link rel="icon" type="image/png" href="/home-icon.png">
     <link rel="manifest" href="/site.webmanifest">
@@ -66,13 +77,13 @@
         
         body.tours-page .article-header {
             background: white !important;
-            padding: 2rem 1rem 1rem !important;
+            padding: 2rem 2rem 1rem !important;
             margin-top: 80px !important;
         }
         
         body.tours-page .article-body {
             background: white !important;
-            padding: 1rem 1rem 2rem !important;
+            padding: 1rem 2rem 2rem !important;
         }
         
         body.tours-page .article-body p {
@@ -97,12 +108,61 @@
         
         @media (max-width: 768px) {
             body.tours-page .article-header {
-                padding: 1.5rem 0.75rem 0.75rem !important;
+                padding: 1.5rem 1rem 0.75rem !important;
                 margin-top: 70px !important;
             }
             
             body.tours-page .article-body {
-                padding: 0.75rem 0.75rem 1.5rem !important;
+                padding: 0.75rem 1rem 1.5rem !important;
+            }
+        }
+        
+        /* Widget Loading Spinner */
+        .viator-widget-loader {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 400px;
+            padding: 3rem;
+            color: var(--text-light);
+        }
+        
+        .viator-widget-loader p {
+            margin-top: 1.5rem;
+            font-size: 1rem;
+            color: var(--text-light);
+        }
+        
+        .spinner {
+            border: 4px solid var(--border);
+            border-top: 4px solid var(--teal);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Hide spinner when widget loads */
+        .viator-widget-container[data-loaded="true"] .viator-widget-loader {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .viator-widget-loader {
+                min-height: 300px;
+                padding: 2rem;
+            }
+            
+            .spinner {
+                width: 40px;
+                height: 40px;
+                border-width: 3px;
             }
         }
     </style>
@@ -134,6 +194,44 @@
                 }
             }
             window.hideNoscriptWhenReady = hideNoscriptSmoothly;
+            
+            // Detect when Viator widget has loaded
+            function checkWidgetLoaded() {
+                const widgetContainer = document.querySelector('.viator-widget-container');
+                if (!widgetContainer) return;
+                
+                // Check if widget has content (iframe or other elements)
+                const widgetDiv = widgetContainer.querySelector('[data-vi-partner-id]');
+                if (widgetDiv) {
+                    // Check for iframe or other content indicating widget loaded
+                    const hasContent = widgetDiv.querySelector('iframe') || 
+                                     widgetDiv.querySelector('.viator-widget') ||
+                                     widgetDiv.children.length > 0 && widgetDiv.children[0].tagName !== 'SCRIPT';
+                    
+                    if (hasContent) {
+                        widgetContainer.setAttribute('data-loaded', 'true');
+                        return true;
+                    }
+                }
+                return false;
+            }
+            
+            // Poll for widget loading
+            let checkCount = 0;
+            const maxChecks = 50; // Check for up to 5 seconds (50 * 100ms)
+            const checkInterval = setInterval(function() {
+                checkCount++;
+                if (checkWidgetLoaded() || checkCount >= maxChecks) {
+                    clearInterval(checkInterval);
+                    // If still not loaded after max checks, hide spinner anyway
+                    if (checkCount >= maxChecks) {
+                        const widgetContainer = document.querySelector('.viator-widget-container');
+                        if (widgetContainer) {
+                            widgetContainer.setAttribute('data-loaded', 'true');
+                        }
+                    }
+                }
+            }, 100);
         })();
     </script>
     
@@ -141,14 +239,55 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Discounted Tours and Experiences",
-        "description": "Discover discounted tours and experiences in Winnipeg! Book amazing activities, guided tours, and unique experiences at great prices during your stay.",
+        "@type": "Service",
+        "name": "Discounted Tours and Experiences in Winnipeg",
+        "description": "Book discounted tours and experiences in Winnipeg! Exclusive deals on guided city tours, walking tours, ghost tours, scavenger hunts, private transfers, and more. Save on Winnipeg activities and attractions during your stay.",
         "url": "https://staywinnipeg.ca/tours-experiences.html",
-        "publisher": {
+        "provider": {
             "@type": "Organization",
-            "name": "Stay Winnipeg"
+            "name": "Stay Winnipeg",
+            "url": "https://staywinnipeg.ca"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Winnipeg",
+            "addressRegion": "Manitoba",
+            "addressCountry": "CA"
+        },
+        "serviceType": "Tour Booking Service",
+        "offers": {
+            "@type": "Offer",
+            "description": "Discounted tours and experiences in Winnipeg",
+            "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "priceCurrency": "CAD"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://staywinnipeg.ca/tours-experiences.html"
         }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://staywinnipeg.ca/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Discounted Tours and Experiences",
+                "item": "https://staywinnipeg.ca/tours-experiences.html"
+            }
+        ]
     }
     </script>
 </head>
@@ -161,19 +300,23 @@
     <main id="article-content">
         <article class="container">
             <div class="article-header">
-                <h1>Discounted Tours and Experiences</h1>
+                <h1>Discounted Tours and Experiences in Winnipeg</h1>
                 <div class="article-meta">
                     <span>🎫 Winnipeg Activities</span> • <span>💰 Special Offers</span>
                 </div>
             </div>
 
             <div class="article-body">
-                <p>Discover amazing tours and experiences in Winnipeg at discounted prices! Whether you're looking for guided city tours, cultural experiences, outdoor adventures, or unique activities, we've partnered with trusted providers to bring you exclusive deals on the best Winnipeg has to offer.</p>
+                <p>Discover amazing <strong>discounted tours and experiences in Winnipeg</strong> at exclusive prices! Whether you're looking for <strong>guided city tours</strong>, <strong>walking tours</strong>, <strong>ghost tours</strong>, <strong>scavenger hunts</strong>, <strong>cultural experiences</strong>, <strong>outdoor adventures</strong>, or <strong>unique activities</strong>, we've partnered with trusted providers to bring you exclusive deals on the best Winnipeg has to offer.</p>
                 
-                <p>Book your perfect Winnipeg experience below and make the most of your stay in Manitoba's capital city.</p>
+                <p>From <strong>private city tours</strong> and <strong>smartphone audio walking tours</strong> to <strong>murder mystery experiences</strong> and <strong>private airport transfers</strong>, our discounted tours page features a wide selection of Winnipeg activities at special rates. Book your perfect Winnipeg experience below and make the most of your stay in Manitoba's capital city.</p>
 
                 <!-- Viator Widget Container -->
                 <div class="viator-widget-container">
+                    <div class="viator-widget-loader">
+                        <div class="spinner"></div>
+                        <p>Loading tours and experiences...</p>
+                    </div>
                     <div data-vi-partner-id="P00280954" data-vi-widget-ref="W-1dee400b-e57d-429d-a2d6-a4da404262f3"></div>
                     <script async src="https://www.viator.com/orion/partner/widget.js"></script>
                 </div>
