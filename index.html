@@ -2686,6 +2686,9 @@
                                                 <div className="host-badge-location">{hostInfo.location} · {hostInfo.yearsHosting} years on Airbnb</div>
                                             </div>
                                         </div>
+                                        {hostInfo.bio && (
+                                            <p className="host-bio">{hostInfo.bio}</p>
+                                        )}
                                     </div>
                                 </div>
                                 <div className="fade-in-up">
