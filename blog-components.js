@@ -15,7 +15,7 @@ function Navigation(props) {
     useEffect(() => {
         // Close menu on window resize if it's open and window is large
         const handleResize = () => {
-            if (window.innerWidth > 768 && mobileMenuOpen) {
+            if (window.innerWidth > 960 && mobileMenuOpen) {
                 setMobileMenuOpen(false);
             }
         };

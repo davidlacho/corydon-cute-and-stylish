@@ -890,7 +890,7 @@ button:focus {
 }
 
 /* Mobile Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     /* Navigation Mobile */
     .mobile-menu-toggle {
         display: flex;

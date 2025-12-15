@@ -56,21 +56,6 @@ body.tours-page .viator-widget-container {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     min-height: 500px;
     border-top: 4px solid #F4A261;
-    position: relative;
-}
-
-/* Decorative accent before widget */
-body.tours-page .viator-widget-container::before {
-    content: '🎫';
-    position: absolute;
-    top: -20px;
-    left: 2rem;
-    background: white;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    font-size: 1.5rem;
-    border: 2px solid #2A9D8F;
 }
 
 /* Viator-inspired typography styles */
