@@ -112,6 +112,22 @@
             margin-top: 2rem;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
             min-height: 500px;
+            border-top: 4px solid #F4A261;
+            position: relative;
+        }
+        
+        /* Decorative accent before widget */
+        body.tours-page .viator-widget-container::before {
+            content: '🎫';
+            position: absolute;
+            top: -20px;
+            left: 2rem;
+            background: white;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            font-size: 1.5rem;
+            border: 2px solid #2A9D8F;
         }
         
         /* Viator-inspired typography styles */
@@ -122,6 +138,23 @@
             font-weight: 600; /* Slightly bolder for better hierarchy */
             letter-spacing: -0.02em; /* Slightly tighter for large text */
             margin-bottom: 1rem;
+            position: relative;
+        }
+        
+        /* Brand decorative star after title */
+        body.tours-page .article-header h1::after {
+            content: ' ✦';
+            color: #F4A261;
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-left: 0.5rem;
+        }
+        
+        /* Brand accent border on header */
+        body.tours-page .article-header {
+            border-bottom: 3px solid #2A9D8F;
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
         }
         
         body.tours-page .article-meta {
@@ -161,11 +194,14 @@
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             object-fit: cover;
+            border: 3px solid transparent;
+            border-top-color: #F4A261;
+            border-left-color: #2A9D8F;
         }
         
         body.tours-page .article-body strong {
             font-weight: 600; /* Slightly bolder for emphasis */
-            color: var(--text);
+            color: #264653; /* Brand color for emphasis */
         }
         
         /* Ensure all content containers are transparent to show gradient */
@@ -357,15 +393,19 @@
             <div class="article-header">
                 <h1>Discounted Tours and Experiences in Winnipeg</h1>
                 <div class="article-meta">
+                    <span style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(244, 162, 97, 0.1); padding: 0.5rem 1rem; border-radius: 20px; color: #264653; font-weight: 500;">
+                        <span>⭐</span>
+                        <span>Exclusive Deals</span>
+                    </span>
                 </div>
             </div>
 
             <div class="article-body">
                 <div class="article-body-content">
                     <div>
-                        <p>Discover amazing <strong>discounted tours and experiences in Winnipeg</strong> at exclusive prices! Whether you're looking for <strong>guided city tours</strong>, <strong>walking tours</strong>, <strong>ghost tours</strong>, <strong>scavenger hunts</strong>, <strong>cultural experiences</strong>, <strong>outdoor adventures</strong>, or <strong>unique activities</strong>, we've partnered with trusted providers to bring you exclusive deals on the best Winnipeg has to offer.</p>
+                        <p>Discover amazing <strong>discounted tours and experiences in Winnipeg</strong> at exclusive prices! Whether you're looking for <strong>🚶 guided city tours</strong>, <strong>walking tours</strong>, <strong>👻 ghost tours</strong>, <strong>scavenger hunts</strong>, <strong>🎨 cultural experiences</strong>, <strong>🏔️ outdoor adventures</strong>, or <strong>unique activities</strong>, we've partnered with trusted providers to bring you exclusive deals on the best Winnipeg has to offer.</p>
                         
-                        <p>From <strong>private city tours</strong> and <strong>smartphone audio walking tours</strong> to <strong>murder mystery experiences</strong> and <strong>private airport transfers</strong>, our discounted tours page features a wide selection of Winnipeg activities at special rates. Book your perfect Winnipeg experience below and make the most of your stay in Manitoba's capital city.</p>
+                        <p>From <strong>private city tours</strong> and <strong>smartphone audio walking tours</strong> to <strong>🔍 murder mystery experiences</strong> and <strong>✈️ private airport transfers</strong>, our discounted tours page features a wide selection of Winnipeg activities at special rates. Book your perfect Winnipeg experience below and make the most of your stay in Manitoba's capital city.</p>
                     </div>
                     <div>
                         <img 
