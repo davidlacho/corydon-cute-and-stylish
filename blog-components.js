@@ -117,42 +117,6 @@ function Navigation(props) {
                 ),
                 React.createElement('li', { role: 'none' },
                     React.createElement('a', {
-                        href: 'https://staywinnipeg.ca/#features',
-                        role: 'menuitem',
-                        onClick: closeMenu
-                    }, 'Features')
-                ),
-                React.createElement('li', { role: 'none' },
-                    React.createElement('a', {
-                        href: 'https://staywinnipeg.ca/#reviews',
-                        role: 'menuitem',
-                        onClick: closeMenu
-                    }, 'Reviews')
-                ),
-                React.createElement('li', { role: 'none' },
-                    React.createElement('a', {
-                        href: 'https://staywinnipeg.ca/#amenities',
-                        role: 'menuitem',
-                        onClick: closeMenu
-                    }, 'Amenities')
-                ),
-                React.createElement('li', { role: 'none' },
-                    React.createElement('a', {
-                        href: 'https://staywinnipeg.ca/#nearby',
-                        role: 'menuitem',
-                        onClick: closeMenu
-                    }, 'Nearby')
-                ),
-                React.createElement('li', { role: 'none' },
-                    React.createElement('a', {
-                        href: 'https://staywinnipeg.ca/blog.html',
-                        role: 'menuitem',
-                        className: isActive('/blog.html') ? 'active' : '',
-                        onClick: closeMenu
-                    }, 'Blog')
-                ),
-                React.createElement('li', { role: 'none' },
-                    React.createElement('a', {
                         href: 'https://staywinnipeg.ca/tours-experiences.html',
                         role: 'menuitem',
                         className: isActive('/tours-experiences.html') ? 'active' : '',
@@ -161,12 +125,11 @@ function Navigation(props) {
                 ),
                 React.createElement('li', { role: 'none' },
                     React.createElement('a', {
-                        href: 'https://www.airbnb.ca/rooms/716340250371431352',
-                        className: 'nav-cta',
+                        href: 'https://staywinnipeg.ca/blog.html',
                         role: 'menuitem',
-                        'aria-label': 'Book your stay on Airbnb',
+                        className: isActive('/blog.html') ? 'active' : '',
                         onClick: closeMenu
-                    }, 'Book Now')
+                    }, 'Blog')
                 )
             )
         )
@@ -179,13 +142,8 @@ function Footer() {
         React.createElement('div', { className: 'footer-content' },
             React.createElement('div', { className: 'footer-links' },
                 React.createElement('a', { href: 'https://staywinnipeg.ca/' }, 'Home'),
-                React.createElement('a', { href: 'https://staywinnipeg.ca/#features' }, 'Features'),
-                React.createElement('a', { href: 'https://staywinnipeg.ca/#reviews' }, 'Reviews'),
-                React.createElement('a', { href: 'https://staywinnipeg.ca/#amenities' }, 'Amenities'),
-                React.createElement('a', { href: 'https://staywinnipeg.ca/#nearby' }, 'Nearby'),
-                React.createElement('a', { href: 'https://staywinnipeg.ca/blog.html' }, 'Blog'),
                 React.createElement('a', { href: 'https://staywinnipeg.ca/tours-experiences.html' }, 'Discounted Tours and Experiences'),
-                React.createElement('a', { href: 'https://www.airbnb.ca/rooms/716340250371431352' }, 'Book Now')
+                React.createElement('a', { href: 'https://staywinnipeg.ca/blog.html' }, 'Blog')
             ),
             React.createElement('p', null, '\u00A9 2025 Corydon Cute & Stylish. All rights reserved.'),
             React.createElement('p', { className: 'footer-text' },

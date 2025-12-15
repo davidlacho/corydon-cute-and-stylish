@@ -9,6 +9,7 @@ Owner: David
 # Main Pages
 Home: https://staywinnipeg.ca/
 Blog: https://staywinnipeg.ca/blog.html
+Discounted Tours & Experiences: https://staywinnipeg.ca/tours-experiences.html
 
 # Content Overview
 Total Blog Posts: 53
@@ -99,6 +100,7 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 # Site Structure
 - Main homepage with property showcase and booking information
 - Blog index page listing all 53 blog posts by category
+- Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - 53 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
@@ -109,6 +111,9 @@ The site combines three content pillars:
 1. **Local Expertise**: Comprehensive guides to Winnipeg attractions, neighborhoods, restaurants, and activities to help guests plan their visit
 2. **Hosting Philosophy**: Insights into Airbnb hosting best practices, design lessons, and customer service approach
 3. **Travel Stories**: Personal travel experiences that inform and inspire the hosting approach
+
+# Additional Features
+- **Discounted Tours & Experiences**: Partnership with tour providers offering exclusive discounts on Winnipeg tours, activities, and experiences. The tours-experiences.html page features a Viator widget for easy booking of discounted tours.
 
 # Target Audience
 - Families visiting Winnipeg for vacation or events
@@ -122,5 +127,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: David (Superhost, 14+ years hosting experience)
 
 # Last Updated
-December 2025
+December 18, 2025
 
