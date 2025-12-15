@@ -68,6 +68,9 @@ function Navigation(props) {
         if (currentPath === '/blog.html' || currentPath.startsWith('/blog-')) {
             return path === '/blog.html';
         }
+        if (currentPath === '/tours-experiences.html') {
+            return path === '/tours-experiences.html';
+        }
         return path === currentPath || (currentPath === '/' && path === '/');
     };
 
@@ -150,6 +153,14 @@ function Navigation(props) {
                 ),
                 React.createElement('li', { role: 'none' },
                     React.createElement('a', {
+                        href: 'https://staywinnipeg.ca/tours-experiences.html',
+                        role: 'menuitem',
+                        className: isActive('/tours-experiences.html') ? 'active' : '',
+                        onClick: closeMenu
+                    }, 'Discounted Tours and Experiences')
+                ),
+                React.createElement('li', { role: 'none' },
+                    React.createElement('a', {
                         href: 'https://www.airbnb.ca/rooms/716340250371431352',
                         className: 'nav-cta',
                         role: 'menuitem',
@@ -173,6 +184,7 @@ function Footer() {
                 React.createElement('a', { href: 'https://staywinnipeg.ca/#amenities' }, 'Amenities'),
                 React.createElement('a', { href: 'https://staywinnipeg.ca/#nearby' }, 'Nearby'),
                 React.createElement('a', { href: 'https://staywinnipeg.ca/blog.html' }, 'Blog'),
+                React.createElement('a', { href: 'https://staywinnipeg.ca/tours-experiences.html' }, 'Discounted Tours and Experiences'),
                 React.createElement('a', { href: 'https://www.airbnb.ca/rooms/716340250371431352' }, 'Book Now')
             ),
             React.createElement('p', null, '\u00A9 2025 Corydon Cute & Stylish. All rights reserved.'),

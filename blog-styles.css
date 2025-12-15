@@ -664,6 +664,51 @@ nav {
     border-radius: 4px;
 }
 
+/* Viator Widget Container */
+.viator-widget-container {
+    background: white;
+    border-radius: 20px;
+    padding: 2.5rem;
+    margin: 3rem 0;
+    box-shadow: 0 8px 25px var(--shadow);
+    border: 2px solid var(--border);
+    position: relative;
+    overflow: hidden;
+}
+
+.viator-widget-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--mustard), var(--teal), var(--burnt-orange));
+}
+
+.viator-widget-container > div {
+    min-height: 400px;
+}
+
+/* Ensure Viator widget is responsive */
+.viator-widget-container iframe,
+.viator-widget-container [data-vi-partner-id] {
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .viator-widget-container {
+        padding: 1.5rem;
+        margin: 2rem 0;
+        border-radius: 15px;
+    }
+    
+    .viator-widget-container > div {
+        min-height: 300px;
+    }
+}
+
 .back-link {
     display: inline-block;
     color: var(--teal);
