@@ -85,8 +85,8 @@ function Navigation(props) {
                 className: 'logo',
                 role: 'banner'
             },
-                React.createElement('span', { className: 'logo-title' }, 'Corydon Cute & Stylish'),
-                React.createElement('span', { className: 'logo-subtitle' }, 'Boutique Airbnb in Winnipeg')
+                React.createElement('span', { className: 'logo-title' }, 'Stay Winnipeg'),
+                React.createElement('span', { className: 'logo-subtitle' }, 'Boutique Accommodation, Tours, and Experiences')
             ),
             React.createElement('button', {
                 className: 'mobile-menu-toggle',
@@ -156,7 +156,7 @@ function Footer() {
                 React.createElement('a', { href: 'https://staywinnipeg.ca/tours-experiences.html' }, 'Discounted Tours and Experiences'),
                 React.createElement('a', { href: 'https://staywinnipeg.ca/blog.html' }, 'Blog')
             ),
-            React.createElement('p', null, '\u00A9 2025 Corydon Cute & Stylish. All rights reserved.'),
+            React.createElement('p', null, '\u00A9 2025 Stay Winnipeg. All rights reserved.'),
             React.createElement('p', { className: 'footer-text' },
                 React.createElement('a', { href: 'https://www.airbnb.ca/h/corydon-cute-and-stylish' },
                     'airbnb.ca/h/corydon-cute-and-stylish'

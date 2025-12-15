@@ -3,7 +3,7 @@
 
 # Site Information
 Site: https://staywinnipeg.ca
-Purpose: Vacation rental listing for a mid-century modern Airbnb in Winnipeg's Corydon neighborhood
+Purpose: Boutique accommodation, discounted tours, and curated experiences in Winnipeg, Manitoba. Features a mid-century modern Airbnb in Winnipeg's Corydon neighborhood, plus access to discounted tours and comprehensive travel guides.
 Owner: David
 
 # Main Pages
@@ -78,7 +78,7 @@ Total Blog Posts: 53
 - /blog-puerto-vallarta-stay.html - What We Learned from a Modern Puerto Vallarta Apartment
 
 # Property Information
-Property Name: Corydon Cute & Stylish
+Property Name: Stay Winnipeg
 Type: Mid-century modern 3-bedroom vacation rental
 Location: Corydon neighborhood, Winnipeg, Manitoba, Canada
 Airbnb Listing: https://www.airbnb.ca/rooms/716340250371431352
@@ -94,11 +94,11 @@ Registration: STRA-2025-2600298
 - Pet-friendly (dogs welcome)
 
 # Main Keywords
-Primary: Winnipeg Airbnb, vacation rental Winnipeg, Corydon neighborhood
-Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Winnipeg
+Primary: Stay Winnipeg, boutique accommodation Winnipeg, Winnipeg tours and experiences, vacation rental Winnipeg, Corydon neighborhood
+Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Winnipeg, discounted tours Winnipeg
 
 # Site Structure
-- Main homepage with property showcase and booking information
+- Main homepage showcasing boutique accommodation, tours, and experiences with booking information
 - Blog index page listing all 53 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - 53 individual blog post pages covering local guides, hosting insights, and travel stories
@@ -127,5 +127,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: David (Superhost, 14+ years hosting experience)
 
 # Last Updated
-December 18, 2025
+December 15, 2025
 
