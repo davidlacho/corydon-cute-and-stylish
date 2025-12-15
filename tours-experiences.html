@@ -86,17 +86,35 @@
             padding: 1rem 2rem 2rem !important;
         }
         
-        body.tours-page .article-body p {
+        /* Viator-inspired typography styles */
+        body.tours-page .article-header h1 {
             color: var(--text);
-            margin-bottom: 1rem;
+            font-size: 2.625rem; /* --viator-font-size-1000 */
+            line-height: 2.875rem; /* --viator-line-height-900 */
+            font-weight: 500; /* --viator-font-weight-medium */
+            letter-spacing: 0.0125rem; /* --viator-letter-spacing-s */
+            margin-bottom: 0.5rem;
         }
         
         body.tours-page .article-meta {
             color: var(--text-light);
+            font-size: 0.875rem; /* --viator-font-size-300 */
+            line-height: 1.25rem; /* --viator-line-height-300 */
+            font-weight: 400; /* --viator-font-weight-regular */
+            letter-spacing: 0.003125rem; /* --viator-letter-spacing-none */
         }
         
-        body.tours-page h1 {
+        body.tours-page .article-body p {
             color: var(--text);
+            margin-bottom: 1.5rem; /* --viator-paragraph-spacing-m */
+            font-size: 1rem; /* --viator-font-size-400 */
+            line-height: 1.5rem; /* --viator-line-height-500 */
+            font-weight: 400; /* --viator-font-weight-regular */
+            letter-spacing: 0.003125rem; /* --viator-letter-spacing-none */
+        }
+        
+        body.tours-page .article-body strong {
+            font-weight: 500; /* --viator-font-weight-medium */
         }
         
         /* Ensure all content containers are white */
@@ -112,8 +130,29 @@
                 margin-top: 70px !important;
             }
             
+            body.tours-page .article-header h1 {
+                font-size: 1.75rem; /* --viator-font-size-800 */
+                line-height: 2rem; /* --viator-line-height-700 */
+                font-weight: 500; /* --viator-font-weight-medium */
+                letter-spacing: 0.0125rem; /* --viator-letter-spacing-s */
+            }
+            
             body.tours-page .article-body {
                 padding: 0.75rem 1rem 1.5rem !important;
+            }
+            
+            body.tours-page .article-body p {
+                font-size: 0.875rem; /* --viator-font-size-300 */
+                line-height: 1.25rem; /* --viator-line-height-300 */
+            }
+        }
+        
+        @media screen and (min-width: 768px) {
+            body.tours-page .article-header h1 {
+                font-size: 4.5rem; /* --viator-font-size-1100 */
+                line-height: 5rem; /* --viator-line-height-1000 */
+                font-weight: 500; /* --viator-font-weight-medium */
+                letter-spacing: 0.0125rem; /* --viator-letter-spacing-s */
             }
         }
         
