@@ -391,9 +391,8 @@ a.logo,
 .hero {
     margin-top: 0;
     padding-top: 80px;
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
+    padding-bottom: 5rem;
+    min-height: auto;
     background: linear-gradient(180deg, var(--warm-beige) 0%, var(--cream) 50%, var(--warm-beige) 100%);
     position: relative;
     overflow: hidden;
@@ -403,6 +402,21 @@ a.logo,
 @media (min-width: 768px) and (max-width: 1024px) {
     .hero {
         padding-top: 100px; /* Extra space for fixed nav on iPad */
+        padding-bottom: 4rem;
+    }
+
+    .hero-content {
+        gap: 3.5rem;
+        padding: 3.5rem 2rem;
+        grid-template-columns: 1.1fr 1fr;
+    }
+
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
     }
 }
 
@@ -420,8 +434,7 @@ a.logo,
             45deg,
             transparent,
             transparent 10px,
-            rgba(231, 111, 81, 0.03) 10px,Border collie Pilot-approved backyard and plenty of parks nearby for strolls
-
+            rgba(231, 111, 81, 0.03) 10px,
             rgba(231, 111, 81, 0.03) 20px
         );
     opacity: 1;
@@ -444,10 +457,25 @@ a.logo,
     position: relative;
     z-index: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
-    padding: 5rem 2rem;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 5rem;
+    align-items: start;
+    padding: 4rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+    .hero-content {
+        gap: 6rem;
+        padding: 5rem 2rem;
+    }
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .hero-text h1 {
@@ -486,7 +514,7 @@ a.logo,
     color: var(--text);
     margin-bottom: 2rem;
     line-height: 1.9;
-    max-width: 90%;
+    max-width: 100%;
     text-align: left;
 }
 
@@ -545,6 +573,10 @@ a.logo,
     margin-top: 2.5rem;
     padding-top: 2rem;
     border-top: 1px solid var(--border);
+}
+
+.hero-actions {
+    margin-bottom: 0;
 }
 
 .host-badge-avatar {
@@ -630,7 +662,8 @@ a.logo,
 .hero-slideshow {
     width: 100%;
     position: relative;
-    align-self: center;
+    align-self: start;
+    max-width: 100%;
 }
 
 .hero-slideshow-wrapper {
@@ -640,6 +673,8 @@ a.logo,
     background: var(--warm-beige);
     box-shadow: 0 20px 60px rgba(38, 70, 83, 0.15), 0 0 0 1px rgba(38, 70, 83, 0.08);
     border: 2px solid var(--mustard);
+    width: 100%;
+    max-width: 100%;
 }
 
 .hero-slideshow-image-container {
@@ -648,6 +683,7 @@ a.logo,
     padding-top: 66.67%; /* 3:2 aspect ratio */
     overflow: hidden;
     background: var(--bg-light);
+    border-radius: 24px;
 }
 
 .hero-slideshow-skeleton {
@@ -1211,13 +1247,20 @@ footer::before {
     .hero {
         margin-top: 0;
         padding-top: 70px;
+        padding-bottom: 3rem;
         min-height: auto;
     }
 
     .hero-content {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 3rem;
         padding: 2rem 1rem;
+        align-items: stretch;
+    }
+
+    .hero-slideshow {
+        order: -1; /* Show slideshow first on mobile */
+        max-width: 100%;
     }
 
     .hero-text h1 {
@@ -1533,6 +1576,11 @@ footer::before {
 
     .hero-content {
         padding: 1.5rem 0.75rem;
+        gap: 2rem;
+    }
+
+    .hero-slideshow {
+        order: -1;
     }
 
     .features, .blog, .nearby, .reviews, .amenities, .slideshow {
