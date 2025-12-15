@@ -44,8 +44,12 @@
     <!-- Shared Blog Styles -->
     <link rel="stylesheet" href="/blog-styles.css">
     <style>
-        /* Tours & Experiences Page - White background to match widget */
+        /* Tours & Experiences Page - White background throughout (except nav and footer) */
         body.tours-page {
+            background: white !important;
+        }
+        
+        body.tours-page #root {
             background: white !important;
         }
         
@@ -53,6 +57,7 @@
             background: white !important;
         }
         
+        body.tours-page article,
         body.tours-page .container {
             background: white !important;
             max-width: 100% !important;
@@ -77,6 +82,17 @@
         
         body.tours-page .article-meta {
             color: var(--text-light);
+        }
+        
+        body.tours-page h1 {
+            color: var(--text);
+        }
+        
+        /* Ensure all content containers are white */
+        body.tours-page #article-content,
+        body.tours-page #article-content article,
+        body.tours-page #article-content .container {
+            background: white !important;
         }
         
         @media (max-width: 768px) {
