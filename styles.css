@@ -306,6 +306,8 @@ a.logo,
     min-height: 44px;
     display: flex;
     align-items: center;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .nav-links a::before {
@@ -385,6 +387,23 @@ a.logo,
 .nav-links a.nav-cta:focus-visible {
     outline: var(--focus-outline);
     outline-offset: var(--focus-outline-offset);
+}
+
+/* Responsive navigation adjustments for long text */
+@media (min-width: 961px) and (max-width: 1200px) {
+    .nav-links {
+        gap: 1.5rem;
+    }
+    
+    .nav-links a {
+        font-size: 0.95rem;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .nav-links {
+        gap: 2rem;
+    }
 }
 
 /* Hero Section */
@@ -538,6 +557,7 @@ a.logo,
 
 .hero-actions {
     margin-bottom: 0;
+    margin-top: 2rem;
 }
 
 .host-badge-avatar {
@@ -632,7 +652,7 @@ a.logo,
     width: 100%;
     position: relative;
     max-width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
 }
 
 .hero-slideshow-wrapper {

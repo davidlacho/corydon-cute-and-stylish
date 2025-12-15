@@ -534,6 +534,8 @@ nav {
     min-height: 44px;
     display: flex;
     align-items: center;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .nav-links a::before {
@@ -589,6 +591,23 @@ nav {
 .nav-links a.nav-cta:focus-visible {
     outline: var(--focus-outline);
     outline-offset: var(--focus-outline-offset);
+}
+
+/* Responsive navigation adjustments for long text */
+@media (min-width: 961px) and (max-width: 1200px) {
+    .nav-links {
+        gap: 1.5rem;
+    }
+    
+    .nav-links a {
+        font-size: 0.95rem;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .nav-links {
+        gap: 2rem;
+    }
 }
 
 /* Mobile Menu Overlay */
