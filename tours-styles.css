@@ -10,12 +10,20 @@ body.tours-page main#main-content * {
     font-family: Manrope, "Helvetica Neue", Arial, sans-serif !important;
 }
 
-/* Ensure nav and footer use default styling */
+/* Ensure nav and footer use default styling from blog-styles.css */
 body.tours-page nav,
-body.tours-page nav *,
+body.tours-page nav * {
+    font-family: var(--font-body, 'Manrope', 'Helvetica Neue', Arial, sans-serif) !important;
+}
+
+body.tours-page nav .logo,
+body.tours-page nav .logo-title {
+    font-family: var(--font-heading, 'Playfair Display', 'Times New Roman', serif) !important;
+}
+
 body.tours-page footer,
 body.tours-page footer * {
-    font-family: inherit !important;
+    font-family: var(--font-body, 'Manrope', 'Helvetica Neue', Arial, sans-serif) !important;
 }
 
 body.tours-page #root {
