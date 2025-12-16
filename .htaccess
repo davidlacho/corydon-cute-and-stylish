@@ -1,3 +1,16 @@
+# HTTP to HTTPS Redirect (SEO-friendly 301 permanent redirect)
+# This ensures all HTTP traffic is redirected to HTTPS
+# Must be at the top before other rules
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Force HTTPS - redirect HTTP to HTTPS
+    # Check if HTTPS is not already being used
+    RewriteCond %{HTTPS} off
+    # Redirect to HTTPS version of the same URL
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
 # Cache Control Headers for Stay Winnipeg
 # Long cache times for static assets to improve performance
 
