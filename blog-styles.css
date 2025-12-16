@@ -446,6 +446,10 @@ nav {
     border-bottom: 2px solid var(--mustard);
 }
 
+nav.scrolled {
+    box-shadow: 0 4px 30px var(--shadow-strong);
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;

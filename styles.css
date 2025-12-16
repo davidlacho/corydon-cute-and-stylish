@@ -257,12 +257,13 @@ a.logo,
 
 .logo-subtitle {
     font-size: 0.65rem;
-    font-weight: 500;
-    color: #3A3A3A;
+    font-weight: 400;
+    color: var(--text-light);
     font-family: var(--font-body);
     letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-top: 0.2rem;
+    opacity: 0.8;
     text-align: left;
     align-self: flex-start;
 }
@@ -328,6 +329,10 @@ a.logo,
 
 .nav-links a:hover::before {
     width: 100%;
+}
+
+.nav-links a.active {
+    color: var(--teal);
 }
 
 .nav-links a.nav-cta {
@@ -919,9 +924,12 @@ a.logo,
 .feature-icon {
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transform: rotate(-5deg);
     transition: transform 0.3s ease;
+    line-height: 1;
 }
 
 .feature-card:hover .feature-icon {
@@ -1339,7 +1347,7 @@ footer::before {
         border: 1px solid var(--border);
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
         gap: 1rem;
     }
 
@@ -1357,6 +1365,9 @@ footer::before {
         margin-bottom: 0;
         flex-shrink: 0;
         width: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .feature-card h3 {
