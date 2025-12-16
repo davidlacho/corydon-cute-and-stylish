@@ -1459,6 +1459,7 @@
     <!-- Image preloading removed - images will lazy load to reduce initial payload -->
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <!-- Static content for SEO crawlers - accessible to search engines and screen readers -->
     <main id="seo-content" class="visually-hidden">
         <h1>Stay Winnipeg - Boutique Accommodation, Tours, and Experiences</h1>
@@ -1490,7 +1491,7 @@
         <h2>Why Choose This Winnipeg Airbnb</h2>
         <p>With 45+ five-star reviews, this mid-century modern Winnipeg Airbnb has earned its reputation as one of the city's best vacation rentals. Guests consistently praise the unique character of the home, the thoughtful amenities, and the excellent location. The property offers something special that you won't find in a standard hotel room - a true sense of place and connection to Winnipeg's vibrant culture.</p>
         <p>Whether you're visiting Winnipeg for business, pleasure, or a bit of both, this vacation rental provides the perfect base for your stay. The combination of mid-century modern design, modern comforts, and an unbeatable location in the Corydon neighborhood makes it an ideal choice for travelers seeking an authentic Winnipeg experience. Book your stay today and discover why so many guests return to this special property.</p>
-        <nav>
+        <nav role="navigation" aria-label="SEO navigation links">
             <a href="/blog.html">Winnipeg Travel Blog</a>
             <a href="/blog-winnipeg-guest-guide.html">Winnipeg Guest Guide</a>
             <a href="/blog-things-to-do.html">Things to Do in Winnipeg</a>
@@ -1500,7 +1501,7 @@
             <a href="/blog-exchange-district.html">Exchange District</a>
             <a href="/blog-family-activities.html">Family Activities</a>
             <a href="/tours-experiences.html">Discounted Tours and Experiences</a>
-            <a href="https://www.airbnb.ca/rooms/716340250371431352">Book Your Stay</a>
+            <a href="https://www.airbnb.ca/rooms/716340250371431352" target="_blank" rel="noopener noreferrer" aria-label="Book Your Stay - opens in new tab">Book Your Stay</a>
         </nav>
     </main>
     
@@ -1677,7 +1678,6 @@
             <div class="loader-spinner"></div>
         </div>
     </div>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
     <div id="root"></div>
 
     <script type="text/babel" defer>
@@ -2685,7 +2685,7 @@
                                     <div className="hero-badges">
                                         <span className="badge badge-superhost">Superhost</span>
                                         <span className="badge-guest-favorite">
-                                            <svg className="laurel" viewBox="0 0 20 32" fill="none" xmlns="http://www.w3.org/2000/svg" height="16">
+                                            <svg className="laurel" viewBox="0 0 20 32" fill="none" xmlns="http://www.w3.org/2000/svg" height="16" aria-hidden="true">
                                                 <g clipPath="url(#clip0_5880_37773)">
                                                     <path fillRule="evenodd" clipRule="evenodd" d="M15.4895 25.417L14.8276 24.4547L16.5303 23.6492L17.1923 24.6116L16.3409 25.0143L17.1923 24.6116C18.6638 26.751 17.9509 29.3868 15.5999 30.4989C14.8548 30.8513 14.0005 31.0196 13.1221 30.987L12.8044 30.9752L12.7297 29.2305L13.0474 29.2423C13.5744 29.2618 14.0871 29.1608 14.5341 28.9494C15.9447 28.2821 16.3725 26.7007 15.4895 25.417Z" fill="#222222"></path>
                                                     <path fillRule="evenodd" clipRule="evenodd" d="M8.32441 10.235C10.0819 8.96204 10.9247 7.4878 10.853 5.81232C10.7813 4.13685 9.80929 2.59524 7.93708 1.18749C6.17964 2.46049 5.33678 3.93473 5.40851 5.6102C5.48024 7.28568 6.45221 8.82729 8.32441 10.235Z" fill="#F7F7F7"></path>
@@ -2704,7 +2704,7 @@
                                                 </defs>
                                             </svg>
                                             Guest favorite
-                                            <svg className="laurel laurel-flip" viewBox="0 0 20 32" fill="none" xmlns="http://www.w3.org/2000/svg" height="16">
+                                            <svg className="laurel laurel-flip" viewBox="0 0 20 32" fill="none" xmlns="http://www.w3.org/2000/svg" height="16" aria-hidden="true">
                                                 <g clipPath="url(#clip0_5880_37773_right)">
                                                     <path fillRule="evenodd" clipRule="evenodd" d="M15.4895 25.417L14.8276 24.4547L16.5303 23.6492L17.1923 24.6116L16.3409 25.0143L17.1923 24.6116C18.6638 26.751 17.9509 29.3868 15.5999 30.4989C14.8548 30.8513 14.0005 31.0196 13.1221 30.987L12.8044 30.9752L12.7297 29.2305L13.0474 29.2423C13.5744 29.2618 14.0871 29.1608 14.5341 28.9494C15.9447 28.2821 16.3725 26.7007 15.4895 25.417Z" fill="#222222"></path>
                                                     <path fillRule="evenodd" clipRule="evenodd" d="M8.32441 10.235C10.0819 8.96204 10.9247 7.4878 10.853 5.81232C10.7813 4.13685 9.80929 2.59524 7.93708 1.18749C6.17964 2.46049 5.33678 3.93473 5.40851 5.6102C5.48024 7.28568 6.45221 8.82729 8.32441 10.235Z" fill="#F7F7F7"></path>
@@ -2733,7 +2733,7 @@
                                         best that Winnipeg has to offer.
                                     </p>
                                     <div className="hero-actions">
-                                        <a className="primary-cta" href="https://www.airbnb.ca/rooms/716340250371431352" aria-label="Book your stay on Airbnb">
+                                        <a className="primary-cta" href="https://www.airbnb.ca/rooms/716340250371431352" aria-label="Book Your Stay on Airbnb">
                                             Book Your Stay on Airbnb
                                         </a>
                                     </div>
@@ -2801,7 +2801,7 @@
                                 <a 
                                     href="https://www.airbnb.ca/rooms/716340250371431352"
                                     className="primary-cta"
-                                    aria-label="View availability and book your stay on Airbnb"
+                                    aria-label="View Availability & Book Now"
                                 >
                                     View Availability & Book Now
                                 </a>
@@ -3110,7 +3110,7 @@
                                 <a 
                                     href="/tours-experiences.html" 
                                     className="primary-cta primary-cta-large"
-                                    aria-label="View discounted tours and experiences"
+                                    aria-label="Browse Tours & Experiences"
                                 >
                                     Browse Tours & Experiences
                                 </a>
@@ -3126,7 +3126,7 @@
                                 <a 
                                     href="https://www.airbnb.ca/rooms/716340250371431352" 
                                     className="primary-cta primary-cta-large"
-                                    aria-label="Book your stay on Airbnb"
+                                    aria-label="Book on Airbnb"
                                 >
                                     Book on Airbnb
                                 </a>

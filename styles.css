@@ -23,7 +23,7 @@ html {
     --warm-beige: #F5E6D3;
     --charcoal: #264653;
     --text: #1A1A1A;
-    --text-light: #4A4A4A;
+    --text-light: #3A3A3A;
     --bg: #FEF9E7;
     --bg-light: #F5E6D3;
     --border: #E8D5C4;
@@ -263,7 +263,7 @@ a.logo,
     letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-top: 0.2rem;
-    opacity: 0.8;
+    opacity: 1;
     text-align: left;
     align-self: flex-start;
 }
@@ -530,8 +530,8 @@ a.logo,
 }
 
 .badge-superhost {
-    background: rgba(255, 90, 95, 0.1);
-    color: #FF5A5F;
+    background: rgba(255, 90, 95, 0.15);
+    color: #D43E42;
     font-weight: 600;
 }
 
@@ -1835,7 +1835,7 @@ html {
 }
 
 .review-star {
-    color: var(--mustard);
+    color: #D6893A;
     font-size: 1.2rem;
 }
 
@@ -2324,7 +2324,7 @@ html {
 
 .amenity-item-icon {
     font-size: 0.9rem;
-    color: var(--teal);
+    color: #1E7A6F;
     flex-shrink: 0;
 }
 

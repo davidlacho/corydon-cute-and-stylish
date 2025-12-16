@@ -128,7 +128,7 @@ function Navigation(props) {
             React.createElement('a', {
                 href: 'https://staywinnipeg.ca/',
                 className: 'logo',
-                role: 'banner'
+                'aria-label': 'Stay Winnipeg - Home'
             },
                 React.createElement('span', { className: 'logo-title' }, 'Stay Winnipeg'),
                 React.createElement('span', { className: 'logo-subtitle' }, 'Boutique Accommodation, Tours, and Experiences')
@@ -183,7 +183,7 @@ function Navigation(props) {
                         className: 'nav-cta',
                         target: '_blank',
                         rel: 'noopener noreferrer',
-                        'aria-label': 'Book your stay on Airbnb - opens in new tab',
+                        'aria-label': 'Book Now - opens in new tab',
                         onClick: closeMenu
                     }, 'Book Now')
                 )

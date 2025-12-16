@@ -14,7 +14,7 @@
     --warm-beige: #F5E6D3;
     --charcoal: #264653;
     --text: #1A1A1A;
-    --text-light: #4A4A4A;
+    --text-light: #3A3A3A;
     --bg: #FEF9E7;
     --bg-light: #F5E6D3;
     --border: #E8D5C4;
@@ -493,7 +493,7 @@ nav.scrolled {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-top: 0.2rem;
-    opacity: 0.8;
+    opacity: 1;
     text-align: left;
     align-self: flex-start;
 }
