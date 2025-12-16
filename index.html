@@ -1886,6 +1886,12 @@
                                     key={filter.id}
                                     className={`nearby-tab ${activeFilter === filter.id ? 'active' : ''}`}
                                     onClick={() => setActiveFilter(filter.id)}
+                                    onKeyDown={(e) => {
+                                        if (e.key === 'Enter' || e.key === ' ') {
+                                            e.preventDefault();
+                                            setActiveFilter(filter.id);
+                                        }
+                                    }}
                                     aria-label={`Filter by ${filter.label}`}
                                     aria-pressed={activeFilter === filter.id}
                                 >
@@ -2163,7 +2169,22 @@
 
             return (
                 <div className="hero-slideshow" tabIndex={-1}>
-                    <div className="hero-slideshow-wrapper" tabIndex={0} role="region" aria-label="Property photo slideshow" aria-live="polite">
+                    <div 
+                        className="hero-slideshow-wrapper" 
+                        tabIndex={0} 
+                        role="region" 
+                        aria-label="Property photo slideshow" 
+                        aria-live="polite"
+                        onKeyDown={(e) => {
+                            if (e.key === 'ArrowLeft') {
+                                e.preventDefault();
+                                goToPrevious();
+                            } else if (e.key === 'ArrowRight') {
+                                e.preventDefault();
+                                goToNext();
+                            }
+                        }}
+                    >
                         <div className="hero-slideshow-image-container">
                             {!imagesLoaded && (
                                 <div className="hero-slideshow-skeleton">
@@ -2195,6 +2216,12 @@
                         <button
                             className="hero-slideshow-prev"
                             onClick={goToPrevious}
+                            onKeyDown={(e) => {
+                                if (e.key === 'Enter' || e.key === ' ') {
+                                    e.preventDefault();
+                                    goToPrevious();
+                                }
+                            }}
                             aria-label="Previous image"
                             tabIndex={imagesLoaded ? 0 : -1}
                         >
@@ -2203,6 +2230,12 @@
                         <button
                             className="hero-slideshow-next"
                             onClick={goToNext}
+                            onKeyDown={(e) => {
+                                if (e.key === 'Enter' || e.key === ' ') {
+                                    e.preventDefault();
+                                    goToNext();
+                                }
+                            }}
                             aria-label="Next image"
                             tabIndex={imagesLoaded ? 0 : -1}
                         >
@@ -2370,7 +2403,21 @@
                         <h2 id="slideshow-heading" className="section-title">Photo Gallery</h2>
                         <p className="section-subtitle">Take a virtual tour of our beautiful space</p>
                         <div className="slideshow-container">
-                            <div className="slideshow-wrapper">
+                            <div 
+                                className="slideshow-wrapper"
+                                tabIndex={0}
+                                role="region"
+                                aria-label="Photo gallery slideshow"
+                                onKeyDown={(e) => {
+                                    if (e.key === 'ArrowLeft') {
+                                        e.preventDefault();
+                                        goToPrevious();
+                                    } else if (e.key === 'ArrowRight') {
+                                        e.preventDefault();
+                                        goToNext();
+                                    }
+                                }}
+                            >
                                 <div className="slideshow-image-container">
                                     <img
                                         src={images[currentIndex]}
@@ -2385,6 +2432,12 @@
                                 <button
                                     className="slideshow-controls slideshow-prev"
                                     onClick={goToPrevious}
+                                    onKeyDown={(e) => {
+                                        if (e.key === 'Enter' || e.key === ' ') {
+                                            e.preventDefault();
+                                            goToPrevious();
+                                        }
+                                    }}
                                     aria-label="Previous image"
                                 >
                                     ‹
@@ -2392,6 +2445,12 @@
                                 <button
                                     className="slideshow-controls slideshow-next"
                                     onClick={goToNext}
+                                    onKeyDown={(e) => {
+                                        if (e.key === 'Enter' || e.key === ' ') {
+                                            e.preventDefault();
+                                            goToNext();
+                                        }
+                                    }}
                                     aria-label="Next image"
                                 >
                                     ›

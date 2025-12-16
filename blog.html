@@ -1911,25 +1911,49 @@
                                                     className: `filter-btn ${filter === 'all' ? 'active' : ''}`,
                                                     'data-filter': 'all',
                                                     'aria-pressed': filter === 'all',
-                                                    onClick: () => setFilter('all')
+                                                    onClick: () => setFilter('all'),
+                                                    onKeyDown: (e) => {
+                                                        if (e.key === 'Enter' || e.key === ' ') {
+                                                            e.preventDefault();
+                                                            setFilter('all');
+                                                        }
+                                                    }
                                                 }, 'All Posts'),
                                                 React.createElement('button', {
                                                     className: `filter-btn ${filter === 'winnipeg' ? 'active' : ''}`,
                                                     'data-filter': 'winnipeg',
                                                     'aria-pressed': filter === 'winnipeg',
-                                                    onClick: () => setFilter('winnipeg')
+                                                    onClick: () => setFilter('winnipeg'),
+                                                    onKeyDown: (e) => {
+                                                        if (e.key === 'Enter' || e.key === ' ') {
+                                                            e.preventDefault();
+                                                            setFilter('winnipeg');
+                                                        }
+                                                    }
                                                 }, 'Winnipeg Guides'),
                                                 React.createElement('button', {
                                                     className: `filter-btn ${filter === 'travel' ? 'active' : ''}`,
                                                     'data-filter': 'travel',
                                                     'aria-pressed': filter === 'travel',
-                                                    onClick: () => setFilter('travel')
+                                                    onClick: () => setFilter('travel'),
+                                                    onKeyDown: (e) => {
+                                                        if (e.key === 'Enter' || e.key === ' ') {
+                                                            e.preventDefault();
+                                                            setFilter('travel');
+                                                        }
+                                                    }
                                                 }, 'Travel Experiences'),
                                                 React.createElement('button', {
                                                     className: `filter-btn ${filter === 'hosting' ? 'active' : ''}`,
                                                     'data-filter': 'hosting',
                                                     'aria-pressed': filter === 'hosting',
-                                                    onClick: () => setFilter('hosting')
+                                                    onClick: () => setFilter('hosting'),
+                                                    onKeyDown: (e) => {
+                                                        if (e.key === 'Enter' || e.key === ' ') {
+                                                            e.preventDefault();
+                                                            setFilter('hosting');
+                                                        }
+                                                    }
                                                 }, 'Hosting & Design')
                                             ),
                                             React.createElement('div', { className: 'sort-container' },

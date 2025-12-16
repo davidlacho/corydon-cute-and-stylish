@@ -270,6 +270,7 @@ a.logo,
 
 .nav-links {
     display: flex;
+    align-items: center;
     gap: 2.5rem;
     list-style: none;
 }
@@ -505,6 +506,7 @@ a.logo,
 
 .hero-badges {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
     margin-top: 1rem;
@@ -550,7 +552,8 @@ a.logo,
 }
 
 .laurel {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     vertical-align: middle;
     flex-shrink: 0;
 }
@@ -1524,6 +1527,9 @@ footer::before {
         border-radius: 10px;
         box-shadow: 0 2px 8px var(--shadow);
         border: 1px solid var(--border);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .nearby-item:hover {
@@ -1890,6 +1896,7 @@ html {
 
 .nearby-tabs {
     display: flex;
+    align-items: center;
     gap: 0.75rem;
     justify-content: center;
     margin-bottom: 3rem;

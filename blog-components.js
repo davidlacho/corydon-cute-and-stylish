@@ -45,6 +45,51 @@ function Navigation(props) {
         }
     }, [mobileMenuOpen]);
 
+    // Focus trap for mobile menu
+    useEffect(() => {
+        if (!mobileMenuOpen) return;
+
+        const menu = document.getElementById('main-navigation');
+        const menuItems = menu ? menu.querySelectorAll('a[role="menuitem"]') : [];
+        const firstItem = menuItems[0];
+        const lastItem = menuItems[menuItems.length - 1];
+        const toggleButton = document.querySelector('.mobile-menu-toggle');
+
+        const handleTabKey = (e) => {
+            if (e.key !== 'Tab') return;
+
+            if (e.shiftKey) {
+                // Shift + Tab
+                if (document.activeElement === firstItem || document.activeElement === toggleButton) {
+                    e.preventDefault();
+                    if (document.activeElement === firstItem) {
+                        toggleButton?.focus();
+                    }
+                }
+            } else {
+                // Tab
+                if (document.activeElement === lastItem) {
+                    e.preventDefault();
+                    toggleButton?.focus();
+                }
+            }
+        };
+
+        // Focus first menu item when menu opens
+        if (firstItem) {
+            setTimeout(() => firstItem.focus(), 100);
+        }
+
+        document.addEventListener('keydown', handleTabKey);
+        return () => {
+            document.removeEventListener('keydown', handleTabKey);
+            // Return focus to toggle button when menu closes
+            if (toggleButton) {
+                toggleButton.focus();
+            }
+        };
+    }, [mobileMenuOpen]);
+
     // Handle scroll state if not provided as prop (for index.html)
     useEffect(() => {
         if (props?.scrolled === undefined) {
