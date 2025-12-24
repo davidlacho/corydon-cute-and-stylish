@@ -12,9 +12,9 @@ Blog: https://staywinnipeg.ca/blog.html
 Discounted Tours & Experiences: https://staywinnipeg.ca/tours-experiences.html
 
 # Content Overview
-Total Blog Posts: 54
+Total Blog Posts: 55
 - Winnipeg Attractions & Activities: 42 guides
-- Hosting & Airbnb Philosophy: 7 posts
+- Hosting & Airbnb Philosophy: 8 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
@@ -63,8 +63,9 @@ Total Blog Posts: 54
 - /blog-winnipeg-best-new-food-spots.html - Winnipeg's Best New Food Spots: 22 Restaurants Competing for Top 5
 - /blog-group-dining.html - Best Restaurants for Groups in Winnipeg: Private Rooms & Large Party Dining
 
-## Hosting & Airbnb Philosophy (7 posts)
+## Hosting & Airbnb Philosophy (8 posts)
 - /blog-airbnb-design-lessons.html - Design Lessons from Airbnbs Around the World
+- /blog-espresso-machine-simplicity.html - When Simplicity Wins: Our Espresso Machine Lesson in Guest Preferences
 - /blog-hosting-best-practices.html - Hosting Best Practices: What We've Learned from 14 Years
 - /blog-mattress-pillow-protectors.html - Essential Bedding Protection: Mattress and Pillow Protectors for Airbnb Hosts
 - /blog-post-review-philosophy.html - Feedback as a Gift: Our Philosophy on Continuous Improvement
@@ -103,9 +104,9 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage showcasing boutique accommodation, tours, and experiences with booking information
-- Blog index page listing all 53 blog posts by category
+- Blog index page listing all 55 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
-- 54 individual blog post pages covering local guides, hosting insights, and travel stories
+- 55 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
@@ -131,5 +132,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: David (Superhost, 14+ years hosting experience)
 
 # Last Updated
-December 26, 2025
+December 27, 2025
 

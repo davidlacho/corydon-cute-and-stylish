@@ -550,6 +550,16 @@ const ARTICLES_DATA = [
     "imageAlt": "Clean, well-made bed with white linens in a modern bedroom",
     "description": "Discover why waterproof mattress and pillow protectors are essential for Airbnb hosting. Learn about the durable, machine-washable protectors we've used since day one to ensure guests always sleep on clean surfaces.",
     "metaHtml": "<span>🏠 Hosting Tips</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 December 24, 2025</span>"
+  },
+  {
+    "url": "/blog-espresso-machine-simplicity.html",
+    "category": "hosting",
+    "date": "2025-11-01",
+    "title": "When Simplicity Wins: Our Espresso Machine Lesson in Guest Preferences",
+    "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Professional espresso machine with milk frother on a kitchen counter",
+    "description": "We wanted to provide an elevated experience with a professional espresso machine, but guests kept asking for a simple drip coffee maker. Learn why simpler is better when it comes to Airbnb amenities.",
+    "metaHtml": "<span>🏠 Hosting Philosophy</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 November 1, 2025</span>"
   }
 ];
 
