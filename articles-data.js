@@ -560,6 +560,16 @@ const ARTICLES_DATA = [
     "imageAlt": "Professional espresso machine with milk frother on a kitchen counter",
     "description": "We wanted to provide an elevated experience with a professional espresso machine, but guests kept asking for a simple drip coffee maker. Learn why simpler is better when it comes to Airbnb amenities.",
     "metaHtml": "<span>🏠 Hosting Philosophy</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 November 1, 2025</span>"
+  },
+  {
+    "url": "/blog-christmas-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2025-12-23",
+    "title": "Things to Do in Winnipeg During Christmas & Winter Break 2025",
+    "image": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Festive Christmas lights and decorations in Winnipeg during the holiday season",
+    "description": "Discover festive holiday activities in Winnipeg during Christmas and winter break. From holiday lights and live theatre to outdoor adventures and family-friendly attractions, make your winter stay unforgettable.",
+    "metaHtml": "<span>🎄 Holiday Activities</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 23, 2025</span>"
   }
 ];
 
