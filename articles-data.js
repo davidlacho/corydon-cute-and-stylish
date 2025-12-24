@@ -540,6 +540,16 @@ const ARTICLES_DATA = [
     "imageAlt": "Modern spa shower panel system with rainfall shower head and adjustable massage jets",
     "description": "We're thrilled to announce our latest upgrade: transforming our bathroom into a spa-like retreat with a premium shower panel system featuring rainfall shower heads, massage jets, and modern amenities.",
     "metaHtml": "<span>✨ Hosting & Improvements</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 December 17, 2025</span>"
+  },
+  {
+    "url": "/blog-mattress-pillow-protectors.html",
+    "category": "hosting",
+    "date": "2025-12-24",
+    "title": "Essential Bedding Protection: Mattress and Pillow Protectors for Airbnb Hosts",
+    "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Clean, well-made bed with white linens in a modern bedroom",
+    "description": "Discover why waterproof mattress and pillow protectors are essential for Airbnb hosting. Learn about the durable, machine-washable protectors we've used since day one to ensure guests always sleep on clean surfaces.",
+    "metaHtml": "<span>🏠 Hosting Tips</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 December 24, 2025</span>"
   }
 ];
 
