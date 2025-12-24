@@ -12,14 +12,14 @@ Blog: https://staywinnipeg.ca/blog.html
 Discounted Tours & Experiences: https://staywinnipeg.ca/tours-experiences.html
 
 # Content Overview
-Total Blog Posts: 56
-- Winnipeg Attractions & Activities: 43 guides
-- Hosting & Airbnb Philosophy: 8 posts
+Total Blog Posts: 57
+- Winnipeg Attractions & Activities: 42 guides
+- Hosting & Airbnb Philosophy: 10 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (43 guides)
+## Winnipeg Attractions & Activities (42 guides)
 - /blog-christmas-winnipeg.html - Things to Do in Winnipeg During Christmas & Winter Break 2025
 - /blog-24-hour-winnipeg-budget.html - 24 Hours in Winnipeg on a Budget: Complete Free & Cheap Things Itinerary 2025
 - /blog-assiniboine-park.html - Assiniboine Park & The Leaf: Zoo, Gardens & Complete Visitor Guide
@@ -49,7 +49,6 @@ Total Blog Posts: 56
 - /blog-winnipeg-breweries.html - Winnipeg's Beer Culture & Best Breweries 2025: Complete Craft Beer Guide
 - /blog-winnipeg-coffee.html - Best Coffee Shops in Winnipeg 2026: Specialty Coffee, Roasters & Cute Cafes
 - /blog-winnipeg-folk-festival.html - Winnipeg Folk Festival: A Summer Music Celebration
-- /blog-winnipeg-guest-guide.html - Setting Up Guests for Success: Our Complete Winnipeg Airbnb Guide
 - /blog-winnipeg-jets.html - The Winnipeg Jets: A Story of Resilience, Passion, and Hockey Heritage
 - /blog-winnipeg-blue-bombers.html - The Winnipeg Blue Bombers: A Legacy of Excellence in Canadian Football
 - /blog-winnipeg-goldeyes.html - The Winnipeg Goldeyes: A Summer Baseball Tradition in the Heart of Downtown
@@ -64,7 +63,7 @@ Total Blog Posts: 56
 - /blog-winnipeg-best-new-food-spots.html - Winnipeg's Best New Food Spots: 22 Restaurants Competing for Top 5
 - /blog-group-dining.html - Best Restaurants for Groups in Winnipeg: Private Rooms & Large Party Dining
 
-## Hosting & Airbnb Philosophy (8 posts)
+## Hosting & Airbnb Philosophy (10 posts)
 - /blog-airbnb-design-lessons.html - Design Lessons from Airbnbs Around the World
 - /blog-espresso-machine-simplicity.html - When Simplicity Wins: Our Espresso Machine Lesson in Guest Preferences
 - /blog-hosting-best-practices.html - Hosting Best Practices: What We've Learned from 14 Years
@@ -133,5 +132,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: David (Superhost, 14+ years hosting experience)
 
 # Last Updated
-December 23, 2025
+December 24, 2025
 
