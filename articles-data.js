@@ -570,6 +570,16 @@ const ARTICLES_DATA = [
     "imageAlt": "Festive Christmas lights and decorations in Winnipeg during the holiday season",
     "description": "Discover festive holiday activities in Winnipeg during Christmas and winter break. From holiday lights and live theatre to outdoor adventures and family-friendly attractions, make your winter stay unforgettable.",
     "metaHtml": "<span>🎄 Holiday Activities</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 23, 2025</span>"
+  },
+  {
+    "url": "/blog-fresh-decor-updates.html",
+    "category": "hosting",
+    "date": "2025-12-24",
+    "title": "Fresh Decor Updates: Cozy Blankets, Colorful Pillows, and Thoughtful Linen Choices",
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Cozy living room with plush blankets and colorful throw pillows on a comfortable sofa",
+    "description": "We've refreshed our Airbnb with plush blankets for winter comfort, colorful throw pillow covers for a fresh feel, and navy linens for a soothing, cohesive look. Discover how thoughtful decor choices enhance guest comfort.",
+    "metaHtml": "<span>🏠 Hosting & Design</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 December 24, 2025</span>"
   }
 ];
 
