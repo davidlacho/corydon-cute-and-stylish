@@ -402,6 +402,16 @@ const ARTICLES_DATA = [
     "metaHtml": "<span>❄️ Winter Activities</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 November 24, 2025</span>"
   },
   {
+    "url": "/blog-nestaweya-river-trail.html",
+    "category": "winnipeg",
+    "date": "2025-12-25",
+    "title": "The Nestaweya River Trail: Winnipeg's Magical Winter Skating Experience",
+    "image": "images/river_trail.png",
+    "imageAlt": "Nestaweya River Trail skating path on frozen Red and Assiniboine Rivers in Winnipeg",
+    "description": "Discover the Nestaweya River Trail, Winnipeg's 6km skating trail on frozen rivers. Learn about warming huts, Trail Together program, and why this winter experience is unforgettable.",
+    "metaHtml": "<span>⛸️ Winter Activities</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 December 25, 2025</span>"
+  },
+  {
     "url": "/blog-puerto-vallarta-stay.html",
     "category": "travel",
     "date": "2025-02-25",
