@@ -594,12 +594,12 @@ const ARTICLES_DATA = [
   {
     "url": "/blog-winnipeg-vegan-restaurants.html",
     "category": "winnipeg",
-    "date": "2026-01-02",
+    "date": "2026-01-03",
     "title": "Best Vegan Restaurants in Winnipeg: Complete Plant-Based Dining Guide",
     "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Colorful plant-based vegan meal with fresh vegetables and grains",
     "description": "Discover Winnipeg's best vegan restaurants and plant-based dining options. From dedicated vegan cafes to restaurants with excellent vegan menus, find where to eat plant-based in Manitoba's capital.",
-    "metaHtml": "<span>🌱 Vegan Dining</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 January 2, 2026</span>"
+    "metaHtml": "<span>🌱 Vegan Dining</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 January 3, 2026</span>"
   }
 ];
 
