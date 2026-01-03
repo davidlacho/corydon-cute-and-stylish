@@ -590,6 +590,16 @@ const ARTICLES_DATA = [
     "imageAlt": "Cozy living room with plush blankets and colorful throw pillows on a comfortable sofa",
     "description": "We've refreshed our Airbnb with plush blankets for winter comfort, colorful throw pillow covers for a fresh feel, and navy linens for a soothing, cohesive look. Discover how thoughtful decor choices enhance guest comfort.",
     "metaHtml": "<span>🏠 Hosting & Design</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 December 24, 2025</span>"
+  },
+  {
+    "url": "/blog-winnipeg-vegan-restaurants.html",
+    "category": "winnipeg",
+    "date": "2026-01-02",
+    "title": "Best Vegan Restaurants in Winnipeg: Complete Plant-Based Dining Guide",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Colorful plant-based vegan meal with fresh vegetables and grains",
+    "description": "Discover Winnipeg's best vegan restaurants and plant-based dining options. From dedicated vegan cafes to restaurants with excellent vegan menus, find where to eat plant-based in Manitoba's capital.",
+    "metaHtml": "<span>🌱 Vegan Dining</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 January 2, 2026</span>"
   }
 ];
 
