@@ -20,8 +20,8 @@ Total Blog Posts: 59
 # Content Pages by Category
 
 ## Winnipeg Attractions & Activities (43 guides)
-- /blog-christmas-winnipeg.html - Things to Do in Winnipeg During Christmas & Winter Break 2025
-- /blog-24-hour-winnipeg-budget.html - 24 Hours in Winnipeg on a Budget: Complete Free & Cheap Things Itinerary 2025
+- /blog-christmas-winnipeg.html - Things to Do in Winnipeg During Christmas & Winter Break 2026
+- /blog-24-hour-winnipeg-budget.html - 24 Hours in Winnipeg on a Budget: Complete Free & Cheap Things Itinerary 2026
 - /blog-assiniboine-park.html - Assiniboine Park & The Leaf: Zoo, Gardens & Complete Visitor Guide
 - /blog-corydon-cute-stylish-winnipeg-airbnb.html - Corydon Cute & Stylish: Your Perfect Winnipeg Airbnb Experience
 - /blog-corydon-guide.html - Corydon Village: Little Italy Guide (Restaurants, Cafes & Things to Do)
@@ -29,12 +29,12 @@ Total Blog Posts: 59
 - /blog-crescentwood-liveable.html - Best Area Winnipeg: Why Crescentwood is the Safest & Most Liveable Neighborhood
 - /blog-exchange-district.html - Exchange District: Historic Architecture, Murals & Things to Do
 - /blog-family-activities.html - Things to Do with Kids in Winnipeg: 20+ Family Activities
-- /blog-filipino-billiards-winnipeg.html - Rack 'em: Filipino Billiards Community Thriving in Winnipeg
+- /blog-filipino-billiards-winnipeg.html - Rack 'em: Filipino Billiards Community Thriving in Winnipeg 2026
 - /blog-festival-du-voyageur.html - Festival du Voyageur: Celebrating Winnipeg's Winter Heritage
 - /blog-gunns-bakery.html - Gunn's Bakery: A Winnipeg Tradition Since 1937
-- /blog-hargrave-st-market.html - Hargrave St. Market: Winnipeg's Premier Downtown Food Hall 2025 Guide
+- /blog-hargrave-st-market.html - Hargrave St. Market: Winnipeg's Premier Downtown Food Hall 2026 Guide
 - /blog-human-rights-museum.html - Canadian Museum for Human Rights: A Journey of Understanding
-- /blog-indigenous-winnipeg.html - Discover Indigenous Winnipeg: A Guide for Visitors
+- /blog-indigenous-winnipeg.html - Discover Indigenous Winnipeg: A Guide for Visitors 2026
 - /blog-peanut-park.html - Peanut Park (Enderton Park): A Hidden Gem in Crescentwood
 - /blog-winnipeg-pride.html - Winnipeg Pride, Rainbow Resource Centre, and LGBTQ+ History
 - /blog-rainbow-stage.html - Rainbow Stage: Canada's Longest-Running Outdoor Theatre
@@ -44,9 +44,9 @@ Total Blog Posts: 59
 - /blog-st-vital-park.html - St. Vital Park: Winnipeg's Riverside Oasis
 - /blog-the-forks.html - The Forks: Where Winnipeg's History and Culture Converge
 - /blog-things-to-do.html - Top 15 Things to Do in Winnipeg: A Complete Visitor's Guide
-- /blog-transportation.html - Getting Around Winnipeg: Complete 2026 Transportation Guide
+- /blog-transportation.html - Getting Around Winnipeg: Complete Transportation Guide 2026
 - /blog-winnipeg-art-gallery.html - Winnipeg Art Gallery (WAG) & Qaumajuq: Hours, Tickets & Inuit Art Collection
-- /blog-winnipeg-breweries.html - Winnipeg's Beer Culture & Best Breweries 2025: Complete Craft Beer Guide
+- /blog-winnipeg-breweries.html - Winnipeg's Beer Culture & Best Breweries 2026: Complete Craft Beer Guide
 - /blog-winnipeg-coffee.html - Best Coffee Shops in Winnipeg 2026: Specialty Coffee, Roasters & Cute Cafes
 - /blog-winnipeg-folk-festival.html - Winnipeg Folk Festival: A Summer Music Celebration
 - /blog-winnipeg-jets.html - The Winnipeg Jets: A Story of Resilience, Passion, and Hockey Heritage
@@ -55,7 +55,7 @@ Total Blog Posts: 59
 - /blog-winnipeg-murals.html - Murals of Winnipeg: Complete Street Art Map & Best Instagram Spots
 - /blog-winnipeg-winter-activities.html - Things to Do in Winter in Winnipeg: Ice Skating, Festivals & Indoor Activities
 - /blog-nestaweya-river-trail.html - The Nestaweya River Trail: Winnipeg's Magical Winter Skating Experience
-- /blog-winter-driving-winnipeg.html - Winter Driving in Winnipeg: Safety Tips & What to Expect 2025
+- /blog-winter-driving-winnipeg.html - Winter Driving in Winnipeg: Safety Tips & What to Expect 2026
 - /blog-little-free-libraries.html - Little Free Libraries in Winnipeg: Building Community Through Book Sharing
 - /blog-winnipeg-tours.html - Best Tours in Winnipeg: Complete Guide to Guided & Self-Guided Experiences
 - /blog-winnipeg-must-sees.html - Winnipeg Must-Sees: 10 Essential Attractions You Can't Miss
@@ -134,5 +134,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: David (Superhost, 14+ years hosting experience)
 
 # Last Updated
-December 10, 2025
+January 2, 2026
 
