@@ -600,6 +600,16 @@ const ARTICLES_DATA = [
     "imageAlt": "Colorful plant-based vegan meal with fresh vegetables and grains",
     "description": "Discover Winnipeg's best vegan restaurants and plant-based dining options. From dedicated vegan cafes to restaurants with excellent vegan menus, find where to eat plant-based in Manitoba's capital.",
     "metaHtml": "<span>🌱 Vegan Dining</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 January 3, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-transit-history.html",
+    "category": "winnipeg",
+    "date": "2026-01-14",
+    "title": "Winnipeg Transit History: A Journey Through Time",
+    "image": "images/transit.avif",
+    "imageAlt": "Historic Winnipeg Transit vehicle showcasing the city's transportation evolution",
+    "description": "Explore the fascinating evolution of Winnipeg Transit from horse-drawn carts to modern buses. Discover how 6,000+ historic photos preserve the city's transportation heritage and showcase Winnipeg's growth.",
+    "metaHtml": "<span>🚌 Winnipeg History</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 January 14, 2026</span>"
   }
 ];
 
