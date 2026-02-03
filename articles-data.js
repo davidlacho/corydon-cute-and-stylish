@@ -2,6 +2,16 @@
 // This file is generated and contains all blog post metadata
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-snow-clearing-map.html",
+    "category": "winnipeg",
+    "date": "2026-02-03",
+    "title": "Winnipeg Snow Clearing Map: Real-Time Sidewalk & Pathway Updates",
+    "image": "https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=1200&h=800&fit=crop",
+    "imageAlt": "Snow-covered sidewalk with cleared path in winter",
+    "description": "The City of Winnipeg now updates sidewalk and pathway snow-clearing progress every 15 minutes via AVL. Learn how to use the snow operations map, when to report missed clearing, and stay safe in winter.",
+    "metaHtml": "<span>❄️ Winnipeg Winter</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 February 3, 2026</span>"
+  },
+  {
     "url": "/blog-corydon-cute-stylish-winnipeg-airbnb.html",
     "category": "winnipeg",
     "date": "2025-12-05",
