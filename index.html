@@ -474,12 +474,26 @@
         ],
         "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "61",
+            "ratingValue": "4.89",
+            "reviewCount": "62",
             "bestRating": "5",
             "worstRating": "1"
         },
         "review": [
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Daryl"
+                },
+                "datePublished": "2026-02-02",
+                "reviewBody": "Everything as expected.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "4",
+                    "bestRating": "5"
+                }
+            },
             {
                 "@type": "Review",
                 "author": {
@@ -515,7 +529,7 @@
                     "name": "Regina"
                 },
                 "datePublished": "2026-01-06",
-                "reviewBody": "Sin lugar a dudas volvería a alojarme en la casa de David. El barrio es encantador y es un alojamiento cómodo y con carácter. Está cerca de muchas atracciones. David es un anfitrión excepcional!",
+                "reviewBody": "Without a doubt I would stay at David's house again. The neighbourhood is charming and it's comfortable accommodation with character. It's close to many attractions. David is an exceptional host!",
                 "reviewRating": {
                     "@type": "Rating",
                     "ratingValue": "5",
@@ -1771,7 +1785,7 @@
                 </blockquote>
                 <blockquote>
                     <p><strong>Regina (January 2026) ⭐⭐⭐⭐⭐</strong><br>
-                    "Sin lugar a dudas volvería a alojarme en la casa de David. El barrio es encantador y es un alojamiento cómodo y con carácter. Está cerca de muchas atracciones. David es un anfitrión excepcional!"</p>
+                    "Without a doubt I would stay at David's house again. The neighbourhood is charming and it's comfortable accommodation with character. It's close to many attractions. David is an exceptional host!"</p>
                 </blockquote>
                 <blockquote>
                     <p><strong>Sean (January 2026) ⭐⭐⭐⭐⭐</strong><br>
@@ -2815,6 +2829,14 @@
             const reviews = [
                 {
                     id: 1,
+                    name: "Daryl",
+                    date: "February 2026",
+                    rating: 4,
+                    text: "Everything as expected.",
+                    avatar: "D"
+                },
+                {
+                    id: 2,
                     name: "Chris",
                     date: "January 2026",
                     rating: 5,
@@ -2822,7 +2844,7 @@
                     avatar: "C"
                 },
                 {
-                    id: 2,
+                    id: 3,
                     name: "Lilly",
                     date: "January 2026",
                     rating: 5,
@@ -2830,15 +2852,15 @@
                     avatar: "L"
                 },
                 {
-                    id: 3,
+                    id: 4,
                     name: "Regina",
                     date: "January 2026",
                     rating: 5,
-                    text: "Sin lugar a dudas volvería a alojarme en la casa de David. El barrio es encantador y es un alojamiento cómodo y con carácter. Está cerca de muchas atracciones. David es un anfitrión excepcional!",
+                    text: "Without a doubt I would stay at David's house again. The neighbourhood is charming and it's comfortable accommodation with character. It's close to many attractions. David is an exceptional host!",
                     avatar: "R"
                 },
                 {
-                    id: 4,
+                    id: 5,
                     name: "Sean",
                     date: "January 2026",
                     rating: 5,
@@ -2846,7 +2868,7 @@
                     avatar: "S"
                 },
                 {
-                    id: 5,
+                    id: 6,
                     name: "Edward",
                     date: "December 2025",
                     rating: 5,
@@ -2854,7 +2876,7 @@
                     avatar: "E"
                 },
                 {
-                    id: 6,
+                    id: 7,
                     name: "Wendy",
                     date: "December 2025",
                     rating: 5,
