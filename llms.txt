@@ -97,7 +97,7 @@ Registration: STRA-2025-2600298
 - Mid-century modern design
 - 3 bedrooms, 2 bathrooms
 - Located in Corydon neighborhood
-- 56 5-star reviews (62 total reviews, 4.89 average rating)
+- 56 5-star reviews (63 total reviews, 4.89 average rating)
 - Superhost and Guest Favorite status
 - Family-friendly
 - Pet-friendly (dogs welcome)
@@ -136,5 +136,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: David (Superhost, 14+ years hosting experience)
 
 # Last Updated
-January 6, 2026
+February 9, 2026
 
