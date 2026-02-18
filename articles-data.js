@@ -2,6 +2,16 @@
 // This file is generated and contains all blog post metadata
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-general-strike.html",
+    "category": "winnipeg",
+    "date": "2026-02-18",
+    "title": "The Winnipeg General Strike: History, Bloody Saturday & the Memorial",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/WinnipegGeneralStrike.jpg",
+    "imageAlt": "Historic photograph of the Winnipeg General Strike, 1919: crowd and streetcar at Main Street during Bloody Saturday",
+    "description": "Explore the 1919 Winnipeg General Strike and Bloody Saturday—one of Canada's defining labour moments. Learn about the memorial at Pantages Plaza and why it still matters today.",
+    "metaHtml": "<span>📜 Winnipeg History</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 February 18, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-snow-clearing-map.html",
     "category": "winnipeg",
     "date": "2026-02-03",
