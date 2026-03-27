@@ -1,6 +1,6 @@
 /* Tours & Experiences Page - Gradient background from cream to white */
 body.tours-page {
-    background: linear-gradient(to bottom, rgba(254, 249, 231, 0.98) 0%, rgba(254, 249, 231, 0.98) 30%, rgba(255, 255, 255, 0.95) 60%, white 100%) !important;
+    background: linear-gradient(to bottom, rgba(248, 250, 252, 0.98) 0%, rgba(248, 250, 252, 0.98) 30%, rgba(255, 255, 255, 0.95) 60%, white 100%) !important;
     background-attachment: fixed;
 }
 
@@ -63,7 +63,7 @@ body.tours-page .viator-widget-container {
     margin-top: 2rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     min-height: 500px;
-    border-top: 4px solid #F4A261;
+    border-top: 4px solid var(--mustard);
 }
 
 /* Viator-inspired typography styles */
@@ -80,7 +80,7 @@ body.tours-page .article-header h1 {
 /* Brand decorative star after title */
 body.tours-page .article-header h1::after {
     content: ' ✦';
-    color: #F4A261;
+    color: var(--mustard);
     font-size: 1.5rem;
     font-weight: 400;
     margin-left: 0.5rem;
@@ -88,7 +88,7 @@ body.tours-page .article-header h1::after {
 
 /* Brand accent border on header */
 body.tours-page .article-header {
-    border-bottom: 3px solid #2A9D8F;
+    border-bottom: 3px solid var(--teal);
     padding-bottom: 2rem;
     margin-bottom: 2rem;
 }
@@ -131,13 +131,13 @@ body.tours-page .article-body-image {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     object-fit: cover;
     border: 3px solid transparent;
-    border-top-color: #F4A261;
-    border-left-color: #2A9D8F;
+    border-top-color: var(--mustard);
+    border-left-color: var(--teal);
 }
 
 body.tours-page .article-body strong {
     font-weight: 600; /* Slightly bolder for emphasis */
-    color: #264653; /* Brand color for emphasis */
+    color: var(--charcoal); /* Brand color for emphasis */
 }
 
 /* Ensure all content containers are transparent to show gradient */
