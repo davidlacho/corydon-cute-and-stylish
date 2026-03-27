@@ -318,6 +318,7 @@ Blog posts use React to render Navigation, Footer, and FloatingBookButton compon
 - Always include descriptive `alt` text
 - Images can be from `/images/` directory or external URLs (Unsplash, etc.)
 - Recommended size: 1200x800px for hero images
+- **Tall, narrow images** (e.g. newspaper clippings, vertical scans): wrap the `<img>` in `<figure class="article-figure--clipping">...</figure>` so the image stays centred, keeps a sensible max width, and is not upscaled to full column width (styles live in `blog-styles.css`)
 
 ## Footer Structure (Required)
 
