@@ -646,6 +646,14 @@ a.logo,
     line-height: 1.5;
 }
 
+.footer-text a,
+.footer-registration a,
+.footer-acknowledgement a {
+    color: #fdfdff;
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+}
+
 .hero-widget {
     background: white;
     border-radius: 25px;
@@ -1938,7 +1946,7 @@ html {
 }
 
 .review-star {
-    color: #D6893A;
+    color: #b06314;
     font-size: 1.2rem;
 }
 
