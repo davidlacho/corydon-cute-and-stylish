@@ -5,7 +5,7 @@ const ARTICLES_DATA = [
     "url": "/blog-el-taylor-crescentwood.html",
     "category": "winnipeg",
     "date": "2026-03-26",
-    "title": "The Man Who Once Owned My Land: The Remarkable Story of E.L. Taylor, K.C.",
+    "title": "E.L. Taylor, K.C.: The Name on the Crescentwood Map",
     "image": "images/crescentwoodoriginal.jpg",
     "imageAlt": "Historic Crescentwood subdivision plan showing lot owners' names including E L Taylor K C near Ruskin Row",
     "description": "E.L. Taylor, K.C. once held a Crescentwood lot near Ruskin Row. From teacher to barrister, director, and MLA—his story, the original map, and the era's headlines.",

@@ -20,7 +20,7 @@ Total Blog Posts: 65
 # Content Pages by Category
 
 ## Winnipeg Attractions & Activities (49 guides)
-- /blog-el-taylor-crescentwood.html - The Man Who Once Owned My Land: The Remarkable Story of E.L. Taylor, K.C.
+- /blog-el-taylor-crescentwood.html - E.L. Taylor, K.C.: The Name on the Crescentwood Map
 - /blog-winnipeg-three-city-halls.html - Winnipeg's Three City Halls: History, Archives & a Downtown Visit
 - /blog-classic107-spring-break-winnipeg.html - Classic 107's Spring Break List: Family Fun Across Winnipeg
 - /blog-winnipeg-general-strike.html - The Winnipeg General Strike: History, Bloody Saturday & the Memorial
