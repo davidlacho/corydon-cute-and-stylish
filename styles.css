@@ -1472,8 +1472,12 @@ footer::before {
     }
 
     .amenity-item {
-        padding: 0.4rem 0;
-        font-size: 0.9rem;
+        width: 100%;
+        justify-content: flex-start;
+        border-radius: 12px;
+        min-height: 40px;
+        padding: 0.5rem 0.75rem;
+        font-size: 0.88rem;
     }
 
     /* Nearby - List Style on Mobile */
@@ -2310,22 +2314,27 @@ html {
 .amenity-list {
     list-style: none;
     display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
+    flex-wrap: wrap;
+    gap: 0.55rem;
 }
 
 .amenity-item {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     color: var(--text);
-    font-size: 0.9rem;
-    padding: 0.25rem 0;
-    border-bottom: 1px solid var(--border);
+    font-size: 0.88rem;
+    line-height: 1.35;
+    padding: 0.45rem 0.7rem;
+    border: 1px solid rgba(42, 157, 143, 0.22);
+    background: linear-gradient(180deg, #FFFFFF 0%, #F8FCFB 100%);
+    border-radius: 999px;
+    min-height: 36px;
 }
 
-.amenity-item:last-child {
-    border-bottom: none;
+.amenity-item:hover {
+    border-color: rgba(42, 157, 143, 0.42);
+    background: rgba(42, 157, 143, 0.06);
 }
 
 .amenity-item-icon {
@@ -2335,7 +2344,7 @@ html {
 }
 
 .amenity-item-text {
-    flex: 1;
+    flex: 0 1 auto;
     line-height: 1.4;
 }
 
@@ -2353,6 +2362,8 @@ html {
 .amenity-unavailable {
     color: #6B6B6B;
     text-decoration: line-through;
+    border-color: rgba(107, 107, 107, 0.35);
+    background: rgba(245, 230, 211, 0.45);
 }
 
 @media (max-width: 768px) {
