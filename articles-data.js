@@ -2,6 +2,16 @@
 // This file is generated and contains all blog post metadata
 const ARTICLES_DATA = [
   {
+    "url": "/blog-classic107-spring-break-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-03-26",
+    "title": "Classic 107's Spring Break List: Family Fun Across Winnipeg",
+    "image": "https://images.unsplash.com/photo-1540476199705-23bfc3f7d2e9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Parents and children walking together outdoors on a sunny day",
+    "description": "Classic 107 gathered Winnipeg spring break activities for families—zoos, museums, pools, libraries, and more. See highlights, confirm details, and plan from Crescentwood.",
+    "metaHtml": "<span>📻 Winnipeg Activities</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 March 26, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-general-strike.html",
     "category": "winnipeg",
     "date": "2026-02-18",
