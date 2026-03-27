@@ -2,6 +2,16 @@
 // This file is generated and contains all blog post metadata
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-three-city-halls.html",
+    "category": "winnipeg",
+    "date": "2026-03-26",
+    "title": "Winnipeg's Three City Halls: History, Archives & a Downtown Visit",
+    "image": "images/city-hall-council-building-2021.jpg",
+    "imageAlt": "Winnipeg City Hall Council Building and plaza on a clear day",
+    "description": "Winnipeg's three City Halls—from the 1876 original to the 1964 campus—and City Archives' History in Focus. Plan a downtown visit from Corydon.",
+    "metaHtml": "<span>🏛️ Winnipeg History</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 March 26, 2026</span>"
+  },
+  {
     "url": "/blog-classic107-spring-break-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-03-26",
