@@ -18,7 +18,7 @@ body.tours-page nav * {
 
 body.tours-page nav .logo,
 body.tours-page nav .logo-title {
-    font-family: var(--font-heading, 'Playfair Display', 'Times New Roman', serif) !important;
+    font-family: var(--font-heading, 'Manrope', 'Helvetica Neue', Arial, sans-serif) !important;
 }
 
 body.tours-page footer,

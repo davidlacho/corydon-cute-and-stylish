@@ -1,0 +1,361 @@
+{
+  "generated_at": "2026-03-27T02:24:45.457913Z",
+  "total_urls": 69,
+  "passed": 65,
+  "failed": 4,
+  "results": [
+    {
+      "url": "https://staywinnipeg.ca/",
+      "status": "fail",
+      "errors": 31,
+      "output": "\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(1) > div:nth-child(2) > span:nth-child(4)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(1) > div:nth-child(2) > span:nth-child(5)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(2) > div:nth-child(2) > span:nth-child(1)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(2) > div:nth-child(2) > span:nth-child(2)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(2) > div:nth-child(2) > span:nth-child(3)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(2) > div:nth-child(2) > span:nth-child(4)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(2) > div:nth-child(2) > span:nth-child(5)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(3) > div:nth-child(2) > span:nth-child(1)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(3) > div:nth-child(2) > span:nth-child(2)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(3) > div:nth-child(2) > span:nth-child(3)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(3) > div:nth-child(2) > span:nth-child(4)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(3) > div:nth-child(2) > span:nth-child(5)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(4) > div:nth-child(2) > span:nth-child(1)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(4) > div:nth-child(2) > span:nth-child(2)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(4) > div:nth-child(2) > span:nth-child(3)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(4) > div:nth-child(2) > span:nth-child(4)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(4) > div:nth-child(2) > span:nth-child(5)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(5) > div:nth-child(2) > span:nth-child(1)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(5) > div:nth-child(2) > span:nth-child(2)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(5) > div:nth-child(2) > span:nth-child(3)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(5) > div:nth-child(2) > span:nth-child(4)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(5) > div:nth-child(2) > span:nth-child(5)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(6) > div:nth-child(2) > span:nth-child(1)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(6) > div:nth-child(2) > span:nth-child(2)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(6) > div:nth-child(2) > span:nth-child(3)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(6) > div:nth-child(2) > span:nth-child(4)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n \u2022 Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.8:1. Recommendation:  change text colour to #b06314.\n   \u251c\u2500\u2500 WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\n   \u251c\u2500\u2500 #reviews > div > div:nth-child(3) > article:nth-child(6) > div:nth-child(2) > span:nth-child(5)\n   \u2514\u2500\u2500 <span class=\"review-star\" aria-hidden=\"true\">\u2605</span>\n\n31 Errors\n\n",
+      "exit_code": 2
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog.html",
+      "status": "fail",
+      "errors": 2,
+      "output": "\nWelcome to Pa11y\n\n > Running Pa11y on URL https://staywinnipeg.ca/blog.html\n\nResults for URL: https://staywinnipeg.ca/blog.html\n\n \u2022 Error: Duplicate id attribute value \"sort-select\" found on the web page.\n   \u251c\u2500\u2500 WCAG2AA.Principle4.Guideline4_1.4_1_1.F77\n   \u251c\u2500\u2500 #sort-select\n   \u2514\u2500\u2500 <select id=\"sort-select\" class=\"sort-select\" aria-label=\"Sort blog posts\"> ...</select>\n\n \u2022 Error: Duplicate id attribute value \"winnipeg-posts\" found on the web page.\n   \u251c\u2500\u2500 WCAG2AA.Principle4.Guideline4_1.4_1_1.F77\n   \u251c\u2500\u2500 #winnipeg-posts\n   \u2514\u2500\u2500 <h2 class=\"category-header\" id=\"winnipeg-posts\">\ud83d\udccd Winnipeg Guides</h2>\n\n2 Errors\n\n",
+      "exit_code": 2
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-el-taylor-crescentwood.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-three-city-halls.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-classic107-spring-break-winnipeg.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-general-strike.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-snow-clearing-map.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/tours-experiences.html",
+      "status": "fail",
+      "errors": 3,
+      "output": "\nWelcome to Pa11y\n\n > Running Pa11y on URL https://staywinnipeg.ca/tours-experiences.html\n\nResults for URL: https://staywinnipeg.ca/tours-experiences.html\n\n \u2022 Error: Iframe element requires a non-empty title attribute that identifies the frame.\n   \u251c\u2500\u2500 WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1\n   \u251c\u2500\u2500 #viw-67724\n   \u2514\u2500\u2500 <iframe id=\"viw-67724\" frameborder=\"0\" scrolling=\"no\" style=\"border: none; position: relative; display: block; margin: 0px; padding: 0px; width: 100%; height: 100%;\" src=\"https://www.viator.com/widget/partner/P00280954/W-1dee400b-e57d-429d-a2d6-a4da4...\n\n \u2022 Error: Duplicate id attribute value \"viw-67724\" found on the web page.\n   \u251c\u2500\u2500 WCAG2AA.Principle4.Guideline4_1.4_1_1.F77\n   \u251c\u2500\u2500 #viw-67724\n   \u2514\u2500\u2500 <iframe id=\"viw-67724\" frameborder=\"0\" scrolling=\"no\" style=\"border:none;position:relative;display:block;margin:0;padding:0;width:100%;height:0\" src=\"https://www.viator.com/widget/partner/P00280954/W-1dee400b-e57d-429d-a2d6-a4da404262f3?widgetPreview...\n\n \u2022 Error: Iframe element requires a non-empty title attribute that identifies the frame.\n   \u251c\u2500\u2500 WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1\n   \u251c\u2500\u2500 #viw-67724\n   \u2514\u2500\u2500 <iframe id=\"viw-67724\" frameborder=\"0\" scrolling=\"no\" style=\"border:none;position:relative;display:block;margin:0;padding:0;width:100%;height:0\" src=\"https://www.viator.com/widget/partner/P00280954/W-1dee400b-e57d-429d-a2d6-a4da404262f3?widgetPreview...\n\n3 Errors\n\n",
+      "exit_code": 2
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-christmas-winnipeg.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-nestaweya-river-trail.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-corydon-cute-stylish-winnipeg-airbnb.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-corydon-guide.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-crescentwood-history.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-festival-du-voyageur.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-things-to-do.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-restaurants.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-family-activities.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-transportation.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-airbnb-design-lessons.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-hosting-best-practices.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-unique-airbnb-features.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-puerto-vallarta-stay.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-lisbon-2015.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-marseille-trip-gone-wrong.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-bali-nyaman.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-gunns-bakery.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-budapest-caving.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-folk-festival.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-the-forks.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-human-rights-museum.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-assiniboine-park.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-exchange-district.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-art-gallery.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-murals.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-river-walks.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-st-vital-park.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-coffee.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-breweries.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-24-hour-winnipeg-budget.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-hargrave-st-market.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-peanut-park.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-winter-activities.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-guest-guide.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-ruskin-row-residents.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-post-review-philosophy.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-jets.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-blue-bombers.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-goldeyes.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-rainbow-stage.html",
+      "status": "fail",
+      "errors": 1,
+      "output": "\nWelcome to Pa11y\n\n > Running Pa11y on URL https://staywinnipeg.ca/blog-rainbow-stage.html\n\nResults for URL: https://staywinnipeg.ca/blog-rainbow-stage.html\n\n \u2022 Error: Duplicate id attribute value \"main-content\" found on the web page.\n   \u251c\u2500\u2500 WCAG2AA.Principle4.Guideline4_1.4_1_1.F77\n   \u251c\u2500\u2500 #main-content\n   \u2514\u2500\u2500 <main id=\"main-content\"> <article class=\"contai...</main>\n\n1 Errors\n\n",
+      "exit_code": 2
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winter-driving-winnipeg.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-filipino-billiards-winnipeg.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-indigenous-winnipeg.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-pride.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-little-free-libraries.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-tours.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-must-sees.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-group-dining.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-event-venues.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-food-trucks.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-travel-perspectives-hosting.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-crescentwood-liveable.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-short-term-rental-compliance.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-spa-shower-upgrade.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-mattress-pillow-protectors.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-fresh-decor-updates.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-espresso-machine-simplicity.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-best-new-food-spots.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-vegan-restaurants.html",
+      "status": "pass",
+      "errors": 0
+    },
+    {
+      "url": "https://staywinnipeg.ca/blog-winnipeg-transit-history.html",
+      "status": "pass",
+      "errors": 0
+    }
+  ]
+}

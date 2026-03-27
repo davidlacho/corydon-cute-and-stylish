@@ -30,7 +30,7 @@ html {
     --shadow: rgba(15, 23, 42, 0.14);
     --shadow-strong: rgba(15, 23, 42, 0.24);
     --font-body: 'Manrope', 'Helvetica Neue', Arial, sans-serif;
-    --font-heading: 'Playfair Display', 'Times New Roman', serif;
+    --font-heading: 'Manrope', 'Helvetica Neue', Arial, sans-serif;
     --focus-outline: 3px solid var(--teal);
     --focus-outline-offset: 2px;
     --section-space: 5.5rem;
@@ -1889,7 +1889,7 @@ html {
     font-size: 8rem;
     color: var(--mustard);
     opacity: 0.1;
-    font-family: Georgia, serif;
+    font-family: var(--font-body);
     line-height: 1;
 }
 

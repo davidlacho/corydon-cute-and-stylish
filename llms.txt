@@ -127,6 +127,7 @@ The site combines three content pillars:
 
 # Additional Features
 - **Discounted Tours & Experiences**: Partnership with tour providers offering exclusive discounts on Winnipeg tours, activities, and experiences. The tours-experiences.html page features a Viator widget for easy booking of discounted tours.
+- **Accessibility Quality Checks**: WCAG 2.1 AA checks are run with Pa11y for page-level and full-sitemap audits, with reports saved to `pa11y-sitemap-report.json`.
 
 # Target Audience
 - Families visiting Winnipeg for vacation or events

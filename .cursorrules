@@ -887,3 +887,41 @@ Before publishing any page, verify:
 - WAI-ARIA best practices
 - Semantic HTML5 guidelines
 
+## Pa11y Accessibility Checks
+
+Run automated accessibility checks with `pa11y` for homepage, blog listing, tours page, and page-level edits.
+
+### Required Commands
+
+- Single page check:
+  - `npx --yes pa11y "https://staywinnipeg.ca/<page>" --standard WCAG2AA`
+- Homepage check:
+  - `npx --yes pa11y "https://staywinnipeg.ca/" --standard WCAG2AA`
+- Full sitemap sweep after broad changes:
+  - Parse all URLs from `sitemap.xml` and run `pa11y` on each URL.
+  - Save report to `pa11y-sitemap-report.json`.
+
+### When Required
+
+- Any changes to `index.html`, `blog.html`, `tours-experiences.html`, or any `blog-*.html`.
+- Any shared component/layout updates.
+- Any CSS changes (`styles.css`, `blog-styles.css`, `tours-styles.css`) that can affect contrast, focus, spacing, or visibility.
+
+### Failure Handling
+
+- Treat WCAG2AA errors as blockers.
+- Prioritize fixing:
+  - Color contrast
+  - Duplicate IDs
+  - Missing `iframe` titles
+  - Missing ARIA labels and alt text
+- Re-run `pa11y` on affected pages until they pass.
+
+### Reporting
+
+- Include:
+  - Pages checked
+  - Pass/fail totals
+  - Failing URLs with issue counts
+  - Confirmation of re-test after fixes
+

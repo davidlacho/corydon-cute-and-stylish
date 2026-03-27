@@ -231,6 +231,45 @@
         <script src="/load-components.js"></script>
     </noscript>
 
+    <script>
+        (function() {
+            function normalizeViatorIframes() {
+                const frames = document.querySelectorAll('iframe[src*="viator.com"], iframe[id^="viw-"]');
+                const seen = new Map();
+
+                frames.forEach((frame, index) => {
+                    if (!frame.getAttribute('title') || frame.getAttribute('title').trim() === '') {
+                        frame.setAttribute('title', 'Viator tours and experiences booking widget');
+                    }
+
+                    const currentId = frame.id && frame.id.trim() ? frame.id.trim() : `viator-widget-frame-${index + 1}`;
+                    const count = (seen.get(currentId) || 0) + 1;
+                    seen.set(currentId, count);
+
+                    if (count > 1) {
+                        frame.id = `${currentId}-${count}`;
+                    } else if (!frame.id) {
+                        frame.id = currentId;
+                    }
+                });
+            }
+
+            const observer = new MutationObserver(function() {
+                normalizeViatorIframes();
+            });
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', function() {
+                    normalizeViatorIframes();
+                    observer.observe(document.body, { childList: true, subtree: true });
+                });
+            } else {
+                normalizeViatorIframes();
+                observer.observe(document.body, { childList: true, subtree: true });
+            }
+        })();
+    </script>
+
     <!-- React App for Tours & Experiences Page -->
     <script type="text/babel" defer>
         const { useState, useEffect } = React;
