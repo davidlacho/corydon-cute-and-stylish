@@ -1769,7 +1769,7 @@
             <a href="/blog-exchange-district.html">Exchange District</a>
             <a href="/blog-family-activities.html">Family Activities</a>
             <a href="/tours-experiences.html">Discounted Tours and Experiences</a>
-            <a href="https://www.airbnb.ca/rooms/716340250371431352" target="_blank" rel="noopener noreferrer" aria-label="Book Your Stay - opens in new tab">Book Your Stay</a>
+            <a href="https://www.airbnb.ca/rooms/716340250371431352" target="_blank" rel="noopener noreferrer" aria-label="Book on Airbnb - opens in new tab">Book on Airbnb</a>
         </nav>
     </main>
     
@@ -3026,8 +3026,8 @@
                                         best that Winnipeg has to offer.
                                     </p>
                                     <div className="hero-actions">
-                                        <a className="primary-cta" href="https://www.airbnb.ca/rooms/716340250371431352" aria-label="Book Your Stay on Airbnb">
-                                            Book Your Stay on Airbnb
+                                        <a className="primary-cta" href="https://www.airbnb.ca/rooms/716340250371431352" aria-label="Book on Airbnb">
+                                            Book on Airbnb
                                         </a>
                                     </div>
                                     <div className="fade-in-up">
@@ -3073,7 +3073,7 @@
                             <p className="section-subtitle">Real experiences from travelers who've stayed with us in Winnipeg</p>
                             <div className="reviews-grid">
                                 {reviews.map((review) => (
-                                    <div key={review.id} className="review-card fade-in-up">
+                                    <article key={review.id} className="review-card fade-in-up">
                                         <div className="review-header">
                                             <div className="review-avatar">{review.avatar}</div>
                                             <div className="review-info">
@@ -3086,17 +3086,22 @@
                                                 <span key={i} className="review-star" aria-hidden="true">★</span>
                                             ))}
                                         </div>
-                                        <div className="review-text">{review.text}</div>
-                                    </div>
+                                        <figure className="review-quote">
+                                            <blockquote className="review-text">
+                                                <p>{review.text}</p>
+                                            </blockquote>
+                                            <figcaption className="review-attribution">- {review.name}, {review.date}</figcaption>
+                                        </figure>
+                                    </article>
                                 ))}
                             </div>
                             <div className="reviews-cta">
                                 <a 
                                     href="https://www.airbnb.ca/rooms/716340250371431352"
                                     className="primary-cta"
-                                    aria-label="View Availability & Book Now"
+                                    aria-label="Book on Airbnb"
                                 >
-                                    View Availability & Book Now
+                                    Book on Airbnb
                                 </a>
                             </div>
                         </div>

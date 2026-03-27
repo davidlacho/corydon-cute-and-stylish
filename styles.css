@@ -33,6 +33,7 @@ html {
     --font-heading: 'Playfair Display', 'Times New Roman', serif;
     --focus-outline: 3px solid var(--teal);
     --focus-outline-offset: 2px;
+    --section-space: 5.5rem;
 }
 
 body {
@@ -828,7 +829,7 @@ a.logo,
 
 /* Features Section */
 .features {
-    padding: 6rem 2rem;
+    padding: var(--section-space) 2rem;
     background: linear-gradient(135deg, var(--cream) 0%, rgba(168, 198, 159, 0.05) 50%, var(--cream) 100%);
     position: relative;
 }
@@ -960,7 +961,7 @@ a.logo,
 
 /* Blog Section */
 .blog {
-    padding: 6rem 2rem;
+    padding: var(--section-space) 2rem;
     background: linear-gradient(90deg, var(--warm-beige) 0%, rgba(42, 157, 143, 0.02) 50%, var(--warm-beige) 100%);
     position: relative;
 }
@@ -1343,7 +1344,7 @@ footer::before {
         margin-bottom: 2rem;
     }
 
-    .features, .blog, .nearby, .reviews, .amenities, .slideshow {
+    .features, .blog, .nearby, .reviews, .amenities, .slideshow, .map-section, .host {
         padding: 3rem 1rem;
     }
 
@@ -1611,7 +1612,7 @@ footer::before {
         gap: 2rem;
     }
 
-    .features, .blog, .nearby, .reviews, .amenities, .slideshow {
+    .features, .blog, .nearby, .reviews, .amenities, .slideshow, .map-section, .host {
         padding: 2.5rem 0.75rem;
     }
 }
@@ -1711,6 +1712,34 @@ html {
     scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    .hero-slideshow-image,
+    .slideshow-image,
+    .nav-links,
+    .feature-card,
+    .review-card,
+    .blog-card,
+    .nearby-tab,
+    .nearby-item,
+    .amenity-category,
+    .floating-book-button {
+        transition: none !important;
+        animation: none !important;
+        transform: none !important;
+    }
+}
+
 .primary-cta {
     display: inline-flex;
     align-items: center;
@@ -1747,7 +1776,7 @@ html {
 
 /* Reviews Section */
 .reviews {
-    padding: 6rem 2rem;
+    padding: var(--section-space) 2rem;
     background: linear-gradient(180deg, var(--warm-beige) 0%, rgba(244, 162, 97, 0.04) 50%, var(--warm-beige) 100%);
     position: relative;
 }
@@ -1857,6 +1886,25 @@ html {
     z-index: 1;
 }
 
+.review-quote {
+    margin: 0;
+}
+
+.review-quote .review-text {
+    margin: 0;
+}
+
+.review-quote .review-text p {
+    margin: 0;
+}
+
+.review-attribution {
+    margin-top: 1rem;
+    color: var(--text-light);
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
 .reviews-cta {
     text-align: center;
     margin-top: 3rem;
@@ -1886,14 +1934,14 @@ html {
 
 /* Host Section - Brief */
 .host {
-    padding: 3rem 2rem;
+    padding: var(--section-space) 2rem;
     background: linear-gradient(90deg, var(--warm-beige) 0%, rgba(254, 249, 231, 0.3) 50%, var(--warm-beige) 100%);
     text-align: center;
 }
 
 /* Nearby Section */
 .nearby {
-    padding: 6rem 2rem;
+    padding: var(--section-space) 2rem;
     background: linear-gradient(225deg, var(--cream) 0%, rgba(231, 111, 81, 0.03) 40%, rgba(244, 162, 97, 0.02) 80%, var(--cream) 100%);
     position: relative;
 }
@@ -2001,7 +2049,7 @@ html {
 
 /* Map Section */
 .map-section {
-    padding: 6rem 2rem;
+    padding: var(--section-space) 2rem;
     background: linear-gradient(135deg, var(--cream) 0%, rgba(245, 230, 211, 0.5) 50%, rgba(168, 198, 159, 0.02) 100%);
     position: relative;
 }
@@ -2122,7 +2170,7 @@ html {
 
 /* Amenities Section */
 .amenities {
-    padding: 4rem 2rem;
+    padding: var(--section-space) 2rem;
     background: linear-gradient(45deg, var(--warm-beige) 0%, rgba(42, 157, 143, 0.02) 25%, rgba(168, 198, 159, 0.03) 50%, var(--warm-beige) 75%, var(--cream) 100%);
     position: relative;
 }
@@ -2144,7 +2192,7 @@ html {
 
 /* Slideshow Section */
 .slideshow {
-    padding: 6rem 2rem;
+    padding: var(--section-space) 2rem;
     background: linear-gradient(135deg, var(--warm-beige) 0%, rgba(244, 162, 97, 0.05) 50%, var(--cream) 100%);
     position: relative;
 }
