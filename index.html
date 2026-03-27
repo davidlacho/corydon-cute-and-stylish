@@ -1807,7 +1807,7 @@
                 <h2>Discounted Tours and Experiences</h2>
                 <p>Make the most of your Winnipeg stay with our curated selection of discounted tours and experiences! Whether you're looking for guided city tours, cultural experiences, outdoor adventures, or unique activities, we've partnered with trusted providers to bring you exclusive deals on the best Winnipeg has to offer.</p>
                 <p>From exploring <a href="/blog-the-forks.html">The Forks</a> and the <a href="/blog-exchange-district.html">Exchange District</a> to discovering local food tours and cultural attractions, there's something for everyone. Book your perfect Winnipeg experience and create unforgettable memories during your stay.</p>
-                <p><a href="/tours-experiences.html" style="display: inline-block; background: #E76F51; color: white; padding: 1rem 2rem; text-decoration: none; font-weight: 600; border-radius: 4px; margin: 1rem 0;">Browse Tours & Experiences</a></p>
+                <p><a href="/tours-experiences.html" class="inline-cta-link">Browse Tours & Experiences</a></p>
                 <h2>What Makes This Winnipeg Airbnb Special</h2>
                 <ul>
                     <li><strong>📍 Vibrant Corydon</strong> - Nestled in the heart of Winnipeg's most charming neighborhood, where local cafes, vintage shops, and cozy restaurants are just a stroll away.</li>
@@ -1945,7 +1945,7 @@
                 
                 <h2>Book Your Winnipeg Vacation Rental</h2>
                 <p>Ready to experience the best of Winnipeg? Book your stay at Corydon Cute & Stylish and discover why so many guests return to this special property.</p>
-                <p><a href="https://www.airbnb.ca/rooms/716340250371431352" style="display: inline-block; background: #E76F51; color: white; padding: 1rem 2rem; text-decoration: none; font-weight: 600; border-radius: 4px; margin: 1rem 0;">Book on Airbnb</a></p>
+                <p><a href="https://www.airbnb.ca/rooms/716340250371431352" class="inline-cta-link">Book on Airbnb</a></p>
             </div>
         </main>
     </noscript>
@@ -1999,7 +1999,7 @@
                         // Custom icon for Airbnb location
                         const airbnbIcon = L.divIcon({
                             className: 'custom-airbnb-marker',
-                            html: '<div style="background-color: #2A9D8F; width: 32px; height: 32px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 3px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.3); position: relative;"><span style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(45deg); font-size: 18px; line-height: 1;">🏠</span></div>',
+                            html: '<div class="airbnb-marker-pin"><span class="airbnb-marker-icon">🏠</span></div>',
                             iconSize: [32, 32],
                             iconAnchor: [16, 32],
                             popupAnchor: [0, -32]
@@ -2008,16 +2008,16 @@
                         // Add marker for Airbnb location
                         const airbnbMarker = L.marker([airbnbLat, airbnbLng], { icon: airbnbIcon }).addTo(map);
                         airbnbMarker.bindPopup(`
-                            <div style="text-align: center; padding: 5px;">
-                                <strong style="color: #2A9D8F; font-size: 16px;">Corydon Cute & Stylish</strong><br>
-                                <span style="color: #6B6B6B; font-size: 14px;">Your Perfect Winnipeg Getaway</span>
+                            <div class="map-popup">
+                                <strong class="map-popup-title">Corydon Cute & Stylish</strong><br>
+                                <span class="map-popup-subtitle">Your Perfect Winnipeg Getaway</span>
                             </div>
                         `).openPopup();
 
                         // Add a circle to show the walking distance area
                         L.circle([airbnbLat, airbnbLng], {
-                            color: '#2A9D8F',
-                            fillColor: '#2A9D8F',
+                            color: '#0F766E',
+                            fillColor: '#0F766E',
                             fillOpacity: 0.1,
                             radius: 500 // 500 meters radius for walking distance
                         }).addTo(map);
@@ -2482,8 +2482,7 @@
                                         alt={getImageAltText(index, images.length)}
                                         width="1200"
                                         height="800"
-                                        className={`hero-slideshow-image loaded ${index === currentIndex ? 'active' : 'inactive'}`}
-                                        style={{aspectRatio: '3/2'}}
+                                        className={`hero-slideshow-image loaded ${index === currentIndex ? 'active' : 'inactive'} aspect-ratio-3-2`}
                                     />
                                 );
                             })}
@@ -2699,11 +2698,10 @@
                                     <img
                                         src={images[currentIndex]}
                                         alt={getImageAltText(currentIndex, images.length)}
-                                        className={`slideshow-image ${isTransitioning ? 'fade-out' : 'fade-in'}`}
+                                        className={`slideshow-image ${isTransitioning ? 'fade-out' : 'fade-in'} aspect-ratio-3-2`}
                                         loading={currentIndex < 3 ? 'eager' : 'lazy'}
                                         width="1200"
                                         height="800"
-                                        style={{aspectRatio: '3/2'}}
                                     />
                                 </div>
                                 <button
@@ -3436,7 +3434,7 @@
                     <Footer />
                     
                     {/* Social Share Section (index.html specific) */}
-                    <footer style={{ backgroundColor: 'var(--charcoal)', padding: '2rem 0' }}>
+                    <footer className="social-share-footer">
                         <div className="footer-content">
                             <div className="social-share" aria-label="Share on social media">
                         <a 

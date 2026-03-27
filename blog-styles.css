@@ -774,6 +774,62 @@ nav.scrolled {
     border-radius: 4px;
 }
 
+/* Utility classes to avoid inline styles in article markup */
+.article-content-source {
+    display: none;
+}
+
+.article-hero-image--spaced {
+    margin: 2rem 0;
+}
+
+.article-image-caption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    text-align: center;
+    font-style: italic;
+}
+
+.box-spaced-top {
+    margin-top: 3rem;
+}
+
+.article-note {
+    margin-top: 2rem;
+}
+
+.article-note--thanks {
+    margin-top: 3rem;
+    font-style: italic;
+    text-align: center;
+    color: var(--text-light);
+}
+
+.budget-list {
+    margin-left: 0;
+    list-style-position: inside;
+}
+
+.budget-summary {
+    margin-top: 1rem;
+}
+
+.exclusive-deals-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(143, 98, 27, 0.12);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: var(--charcoal);
+    font-weight: 500;
+}
+
+.articles-grid .category-header {
+    grid-column: 1 / -1;
+}
+
 /* Viator Widget Container */
 .viator-widget-container {
     /* Break out of container constraints to use full viewport width */
