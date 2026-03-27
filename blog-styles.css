@@ -77,12 +77,14 @@ noscript {
     position: absolute;
     top: -100px;
     left: 0;
-    background: var(--charcoal);
-    color: white;
+    background: var(--cream);
+    color: var(--text);
+    border: 2px solid var(--charcoal);
+    border-top: none;
     padding: 1rem 2rem;
     text-decoration: none;
     z-index: 10001;
-    font-weight: 600;
+    font-weight: 700;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease;
