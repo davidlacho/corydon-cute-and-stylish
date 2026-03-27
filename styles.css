@@ -200,7 +200,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(254, 249, 231, 0.98);
+    background: rgba(248, 250, 252, 0.98);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px var(--shadow);
     z-index: 1000;
@@ -348,7 +348,7 @@ a.logo,
     padding: 0.6rem 1.5rem;
     border-radius: 25px;
     font-weight: 600;
-    box-shadow: 0 4px 15px rgba(38, 70, 83, 0.3);
+    box-shadow: 0 4px 15px var(--shadow);
     transition: all 0.3s ease;
     white-space: nowrap; /* Prevent text wrapping */
     flex-shrink: 0; /* Prevent button from shrinking */
@@ -386,7 +386,7 @@ a.logo,
 .nav-links a.nav-cta:hover {
     background: var(--teal);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(42, 157, 143, 0.4);
+    box-shadow: 0 6px 20px var(--shadow-strong);
     color: white !important;
     will-change: transform;
 }

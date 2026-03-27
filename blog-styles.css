@@ -137,13 +137,13 @@ p {
 .blog-hero {
     margin-top: 80px;
     padding: 4rem 0;
-    background: linear-gradient(135deg, var(--mustard) 0%, var(--teal) 100%);
-    color: white;
+    background: var(--bg-light);
+    color: var(--text);
     text-align: center;
 }
 
 .blog-hero h1 {
-    color: white;
+    color: var(--charcoal);
     margin-bottom: 1rem;
 }
 
@@ -475,7 +475,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(254, 249, 231, 0.98);
+    background: rgba(248, 250, 252, 0.98);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px var(--shadow);
     z-index: 1000;
@@ -609,7 +609,7 @@ nav.scrolled {
     padding: 0.6rem 1.5rem;
     border-radius: 25px;
     font-weight: 600;
-    box-shadow: 0 4px 15px rgba(38, 70, 83, 0.3);
+    box-shadow: 0 4px 15px var(--shadow);
     transition: all 0.3s ease;
 }
 
@@ -620,7 +620,7 @@ nav.scrolled {
 .nav-links a.nav-cta:hover {
     background: var(--teal);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(42, 157, 143, 0.4);
+    box-shadow: 0 6px 20px var(--shadow-strong);
     color: white !important;
 }
 
