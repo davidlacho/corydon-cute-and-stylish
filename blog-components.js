@@ -199,7 +199,8 @@ function Footer() {
             React.createElement('div', { className: 'footer-links' },
                 React.createElement('a', { href: 'https://staywinnipeg.ca/' }, 'Home'),
                 React.createElement('a', { href: 'https://staywinnipeg.ca/tours-experiences.html' }, 'Discounted Tours and Experiences'),
-                React.createElement('a', { href: 'https://staywinnipeg.ca/blog.html' }, 'Blog')
+                React.createElement('a', { href: 'https://staywinnipeg.ca/blog.html' }, 'Blog'),
+                React.createElement('a', { href: 'https://staywinnipeg.ca/accessibility.html' }, 'Accessibility')
             ),
             React.createElement('p', null, '\u00A9 2025 Stay Winnipeg. All rights reserved.'),
             React.createElement('p', { className: 'footer-text' },

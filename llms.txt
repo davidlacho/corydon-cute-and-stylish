@@ -10,6 +10,7 @@ Owner: David
 Home: https://staywinnipeg.ca/
 Blog: https://staywinnipeg.ca/blog.html
 Discounted Tours & Experiences: https://staywinnipeg.ca/tours-experiences.html
+Accessibility Statement: https://staywinnipeg.ca/accessibility.html
 
 # Content Overview
 Total Blog Posts: 65
@@ -114,6 +115,7 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 - Main homepage showcasing boutique accommodation, tours, and experiences with booking information
 - Blog index page listing all 65 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
+- Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
 - 65 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
