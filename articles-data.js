@@ -2,6 +2,16 @@
 // This file is generated and contains all blog post metadata
 const ARTICLES_DATA = [
   {
+    "url": "/blog-spacedoxa.html",
+    "category": "winnipeg",
+    "date": "2026-03-27",
+    "title": "spacedoxa at Graffiti Gallery: Winnipeg's Experimental Performance Home",
+    "image": "images/spacedoxa-graffiti-gallery.jpg",
+    "imageAlt": "Studio 393 performance and workshop space at Graffiti Art Programming in Winnipeg",
+    "description": "Discover spacedoxa, a monthly experimental performance series at Graffiti Gallery in Winnipeg. Venue details, visiting tips, and why this art space belongs on your itinerary.",
+    "metaHtml": "<span>🎭 Arts & Culture</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 March 27, 2026</span>"
+  },
+  {
     "url": "/blog-el-taylor-crescentwood.html",
     "category": "winnipeg",
     "date": "2026-03-26",

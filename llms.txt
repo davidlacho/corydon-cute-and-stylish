@@ -13,14 +13,15 @@ Discounted Tours & Experiences: https://staywinnipeg.ca/tours-experiences.html
 Accessibility Statement: https://staywinnipeg.ca/accessibility.html
 
 # Content Overview
-Total Blog Posts: 65
-- Winnipeg Attractions & Activities: 49 guides
+Total Blog Posts: 66
+- Winnipeg Attractions & Activities: 50 guides
 - Hosting & Airbnb Philosophy: 11 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (49 guides)
+## Winnipeg Attractions & Activities (50 guides)
+- /blog-spacedoxa.html - spacedoxa at Graffiti Gallery: Winnipeg's Experimental Performance Home
 - /blog-el-taylor-crescentwood.html - E.L. Taylor, K.C.: The Name on the Crescentwood Map
 - /blog-winnipeg-three-city-halls.html - Winnipeg's Three City Halls: History, Archives & a Downtown Visit
 - /blog-classic107-spring-break-winnipeg.html - Classic 107's Spring Break List: Family Fun Across Winnipeg
@@ -113,10 +114,10 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage showcasing boutique accommodation, tours, and experiences with booking information
-- Blog index page listing all 65 blog posts by category
+- Blog index page listing all 66 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
-- 65 individual blog post pages covering local guides, hosting insights, and travel stories
+- 66 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
@@ -143,5 +144,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: David (Superhost, 14+ years hosting experience)
 
 # Last Updated
-March 26, 2026
+March 27, 2026
 
