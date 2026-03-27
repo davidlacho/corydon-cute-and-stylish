@@ -330,6 +330,16 @@ p {
     scroll-margin-top: 100px;
 }
 
+/* Noscript fallbacks moved from inline <noscript><style> blocks */
+.no-js .category-header {
+    display: block !important;
+}
+
+.no-js .filter-sort-container,
+.no-js .results-count {
+    display: none !important;
+}
+
 /* Article Cards (for blog listing page) */
 .articles-grid {
     display: grid;

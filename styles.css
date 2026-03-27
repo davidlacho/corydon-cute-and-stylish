@@ -76,6 +76,11 @@ li, span, div, a, button, input, textarea, select {
     transition: opacity 0.5s ease-out;
 }
 
+/* Noscript fallbacks moved from inline <noscript><style> blocks */
+.no-js .page-loader {
+    display: none !important;
+}
+
 .loader-content {
     text-align: center;
 }
