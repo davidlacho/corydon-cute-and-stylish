@@ -100,7 +100,7 @@ This file documents the structure and requirements for creating blog posts on th
 **When Making Style Changes:**
 
 1. **ALWAYS edit the source `.css` file** (e.g., `styles.css` or `blog-styles.css`), NOT the minified `.min.css` files
-2. **After making changes, regenerate the minified version** using the following command:
+2. **After EVERY CSS change, ALWAYS regenerate the minified version with `npx` before finishing the task** using the following command:
    ```bash
    npx --yes csso-cli [source-file].css -o [source-file].min.css
    ```
