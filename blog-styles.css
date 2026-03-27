@@ -673,6 +673,23 @@ nav.scrolled {
     margin-bottom: 0.75rem;
 }
 
+/* Tall, narrow archive images (e.g. newspaper clippings): centred, no upscaling past a sensible cap */
+.article-body .article-figure--clipping {
+    margin: 1.75rem auto;
+    width: fit-content;
+    max-width: min(100%, 28rem);
+}
+
+.article-body .article-figure--clipping img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 18px var(--shadow);
+    border: 1px solid var(--border);
+}
+
 .highlight-box {
     background: var(--bg-light);
     border-left: 4px solid var(--mustard);
