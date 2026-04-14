@@ -798,6 +798,14 @@ nav.scrolled {
     box-shadow: 0 2px 12px var(--shadow);
 }
 
+/* Wide logos (e.g. official brewery wordmarks) — avoid 4:3 crop */
+.article-body .guide-place__img--logo {
+    aspect-ratio: 2 / 1;
+    object-fit: contain;
+    background: #fff;
+    padding: 0.5rem;
+}
+
 .article-body .guide-place__text {
     flex: 1;
     min-width: 0;

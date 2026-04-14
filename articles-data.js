@@ -9,7 +9,7 @@ const ARTICLES_DATA = [
     "image": "images/guidebook-winnipeg-39-the-forks.jpg",
     "imageAlt": "The Forks historic river junction and market in downtown Winnipeg, from the host's Airbnb guidebook",
     "description": "A Crescentwood host's Winnipeg guidebook: food, drinks, sights, neighbourhoods, groceries, breweries, Indigenous context, and Manitoban slang for visitors.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 17 min read</span>\n                                <span>📅 April 13, 2026</span>"
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 18 min read</span>\n                                <span>📅 April 13, 2026</span>"
   },
   {
     "url": "/blog-spacedoxa.html",
