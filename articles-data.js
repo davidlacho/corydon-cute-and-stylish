@@ -5,10 +5,10 @@ const ARTICLES_DATA = [
     "url": "/blog-best-places-nearby-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-04-13",
-    "title": "The Best Places Nearby in Winnipeg",
+    "title": "Best Places in Winnipeg",
     "image": "images/guidebook-winnipeg-39-the-forks.jpg",
-    "imageAlt": "The Forks historic river junction and market in downtown Winnipeg, from the host's Airbnb guidebook",
-    "description": "A Crescentwood host's Winnipeg guidebook: food, drinks, sights, neighbourhoods, groceries, breweries, Indigenous context, and Manitoban slang for visitors.",
+    "imageAlt": "The Forks historic river junction and market in downtown Winnipeg",
+    "description": "Discover the best places in Winnipeg—restaurants, breweries, sightseeing, neighbourhoods, and groceries—from Corydon and the Exchange to Assiniboine Park. Curated local picks for visitors.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 18 min read</span>\n                                <span>📅 April 13, 2026</span>"
   },
   {

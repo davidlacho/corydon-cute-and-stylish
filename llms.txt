@@ -21,7 +21,7 @@ Total Blog Posts: 67
 # Content Pages by Category
 
 ## Winnipeg Attractions & Activities (51 guides)
-- /blog-best-places-nearby-winnipeg.html - The Best Places Nearby in Winnipeg (guidebook-style list; includes spots also covered in the Winnipeg coffee guide and Gunn's Bakery post; most images from Airbnb guidebook, some stock photos where noted)
+- /blog-best-places-nearby-winnipeg.html - Best Places in Winnipeg (city-wide curated list of restaurants, breweries, sights, neighbourhoods, groceries; SEO title targets “best places in Winnipeg”; many photos from Airbnb guidebook, some stock photos where noted; links to Corydon, Forks, coffee, Gunn's, Pride, etc.)
 - /blog-spacedoxa.html - spacedoxa at Graffiti Gallery: Winnipeg's Experimental Performance Home
 - /blog-el-taylor-crescentwood.html - E.L. Taylor, K.C.: The Name on the Crescentwood Map
 - /blog-winnipeg-three-city-halls.html - Winnipeg's Three City Halls: History, Archives & a Downtown Visit
