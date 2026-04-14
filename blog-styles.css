@@ -803,6 +803,30 @@ nav.scrolled {
     min-width: 0;
 }
 
+.article-body a.guide-place__map {
+    font-size: 0.95rem;
+    color: var(--teal-dark);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.12em;
+    word-break: break-word;
+}
+
+.article-body a.guide-place__map:hover {
+    color: var(--teal);
+}
+
+.article-body a.guide-place__map:focus-visible {
+    outline: var(--focus-outline);
+    outline-offset: var(--focus-outline-offset);
+    border-radius: 2px;
+}
+
+.article-body .guide-place__map-row {
+    display: inline;
+    font-size: 0.95rem;
+}
+
 .article-body .guide-place__text a:focus-visible {
     outline: var(--focus-outline);
     outline-offset: var(--focus-outline-offset);
