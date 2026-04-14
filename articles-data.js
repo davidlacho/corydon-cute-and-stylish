@@ -2,6 +2,16 @@
 // This file is generated and contains all blog post metadata
 const ARTICLES_DATA = [
   {
+    "url": "/blog-best-places-nearby-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-04-13",
+    "title": "The Best Places Nearby in Winnipeg",
+    "image": "images/guidebook-winnipeg-39-the-forks.jpg",
+    "imageAlt": "The Forks historic river junction and market in downtown Winnipeg, from the host's Airbnb guidebook",
+    "description": "A Crescentwood host's Winnipeg guidebook: food, drinks, sights, neighbourhoods, groceries, breweries, Indigenous context, and Manitoban slang for visitors.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 16 min read</span>\n                                <span>📅 April 13, 2026</span>"
+  },
+  {
     "url": "/blog-spacedoxa.html",
     "category": "winnipeg",
     "date": "2026-03-27",
