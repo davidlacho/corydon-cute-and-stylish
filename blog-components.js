@@ -3,6 +3,30 @@
  * Load this script after React and ReactDOM are loaded
  */
 
+// Google Analytics (GA4)
+(function initGoogleAnalytics() {
+    const measurementId = 'G-70X1LQFQ5R';
+    const scriptSrc = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+
+    if (!document.querySelector(`script[src="${scriptSrc}"]`)) {
+        const gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = scriptSrc;
+        document.head.appendChild(gaScript);
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function gtag() {
+        window.dataLayer.push(arguments);
+    };
+
+    if (!window.__swGaInitialized) {
+        window.gtag('js', new Date());
+        window.gtag('config', measurementId);
+        window.__swGaInitialized = true;
+    }
+})();
+
 // Navigation Component
 // Optional props: scrolled (boolean) - adds 'scrolled' className to nav element
 function Navigation(props) {
