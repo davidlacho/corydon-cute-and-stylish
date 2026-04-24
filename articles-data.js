@@ -2,6 +2,16 @@
 // This file is generated and contains all blog post metadata
 const ARTICLES_DATA = [
   {
+    "url": "/blog-airbnb-performance-statistics.html",
+    "category": "hosting",
+    "date": "2026-04-23",
+    "title": "The Statistics Are In: Airbnb Performance Update",
+    "image": "https://images.unsplash.com/photo-1707157281599-d155d1da5b4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Host reviewing Airbnb performance charts and listing metrics",
+    "description": "The statistics are in: our Winnipeg Airbnb outperforms similar listings on quality, ratings, occupancy, and response metrics while keeping a lower nightly rate.",
+    "metaHtml": "<span>📊 Hosting & Performance</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 April 23, 2026</span>"
+  },
+  {
     "url": "/blog-best-places-nearby-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-04-13",
