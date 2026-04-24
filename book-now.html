@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Airbnb</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="refresh" content="0; url=https://www.airbnb.ca/rooms/716340250371431352">
+    <script>
+        (function () {
+            const airbnbUrl = 'https://www.airbnb.ca/rooms/716340250371431352';
+            const destination = new URL(airbnbUrl);
+            const params = new URLSearchParams(window.location.search);
+            const source = params.get('source');
+
+            destination.searchParams.set('utm_source', 'staywinnipeg.ca');
+            destination.searchParams.set('utm_medium', 'redirect');
+            destination.searchParams.set('utm_campaign', 'book-now');
+            if (source) {
+                destination.searchParams.set('sw_source', source);
+            }
+
+            window.location.replace(destination.toString());
+        })();
+    </script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <main id="main-content">
+        <p>Redirecting to Airbnb. <a href="https://www.airbnb.ca/rooms/716340250371431352">Continue</a>.</p>
+    </main>
+</body>
+</html>

@@ -178,7 +178,7 @@ function Navigation(props) {
                 ),
                 React.createElement('li', { role: 'none' },
                     React.createElement('a', {
-                        href: 'https://www.airbnb.ca/rooms/716340250371431352',
+                        href: '/book-now.html?source=blog-nav',
                         role: 'menuitem',
                         className: 'nav-cta',
                         target: '_blank',
@@ -221,7 +221,7 @@ function Footer() {
 // Floating Book Button Component
 function FloatingBookButton() {
     return React.createElement('a', {
-        href: 'https://www.airbnb.ca/rooms/716340250371431352',
+        href: '/book-now.html?source=floating-button',
         className: 'floating-book-button',
         target: '_blank',
         rel: 'noopener noreferrer',
