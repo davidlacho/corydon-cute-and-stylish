@@ -1883,7 +1883,7 @@ html {
 }
 
 .hero .reviews {
-    padding: 1rem 0 0;
+    padding: 0.5rem 0 0;
     background: transparent;
 }
 
@@ -1892,19 +1892,32 @@ html {
 }
 
 .hero .airbnb-summary-card {
-    margin-top: 1.25rem;
+    margin-top: 0.75rem;
 }
 
 .hero .reviews-slider-wrap {
-    margin-top: 1rem;
+    margin-top: 0.75rem;
 }
 
 .hero .hero-slideshow {
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
 }
 
 .hero .hero-host-info {
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
+}
+
+.hero .reviews + h2 {
+    margin-top: 1.25rem;
+    margin-bottom: 0.9rem;
+}
+
+.hero .reviews + h2 + p {
+    margin-bottom: 1.1rem;
+}
+
+.hero .reviews + h2 + p + .hero-actions {
+    margin: 0 0 1rem;
 }
 
 .airbnb-summary-card {
