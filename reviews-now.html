@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting to Airbnb</title>
+    <title>Redirecting to Airbnb Reviews</title>
     <meta name="robots" content="noindex, nofollow">
     <style>
         :root {
@@ -103,14 +103,14 @@
     </script>
     <script>
         (function () {
-            const airbnbUrl = 'https://www.airbnb.ca/rooms/716340250371431352';
-            const destination = new URL(airbnbUrl);
+            const airbnbReviewsUrl = 'https://www.airbnb.ca/rooms/716340250371431352/reviews';
+            const destination = new URL(airbnbReviewsUrl);
             const params = new URLSearchParams(window.location.search);
             const source = params.get('source');
 
             destination.searchParams.set('utm_source', 'staywinnipeg.ca');
             destination.searchParams.set('utm_medium', 'redirect');
-            destination.searchParams.set('utm_campaign', 'book-now');
+            destination.searchParams.set('utm_campaign', 'reviews-now');
             if (source) {
                 destination.searchParams.set('sw_source', source);
             }
@@ -126,7 +126,7 @@
             // Fallback in case ad blockers or network issues prevent callback execution.
             setTimeout(redirectToAirbnb, 900);
 
-            gtag('event', 'book_now_redirect', {
+            gtag('event', 'reviews_redirect', {
                 event_category: 'engagement',
                 event_label: source || 'direct',
                 event_callback: redirectToAirbnb
@@ -144,11 +144,11 @@
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <main id="main-content">
-        <section class="redirect-card" aria-label="Redirect to Airbnb booking">
+        <section class="redirect-card" aria-label="Redirect to Airbnb reviews">
             <h1 class="redirect-brand">Stay Winnipeg</h1>
-            <p class="redirect-subtitle">Redirecting you to Airbnb booking</p>
+            <p class="redirect-subtitle">Redirecting you to Airbnb reviews</p>
             <div class="redirect-spinner" aria-hidden="true"></div>
-            <p class="redirect-copy">Redirecting to Airbnb. <a id="continue-link" href="https://www.airbnb.ca/rooms/716340250371431352">Continue</a>.</p>
+            <p class="redirect-copy">Redirecting to Airbnb reviews. <a id="continue-link" href="https://www.airbnb.ca/rooms/716340250371431352/reviews">Continue</a>.</p>
         </section>
     </main>
 </body>

@@ -2756,64 +2756,126 @@
                 }
             ];
 
-            const reviews = [
-                {
-                    id: 7,
-                    name: "Megumi",
-                    date: "April 2026",
-                    rating: 5,
-                    text: "This Airbnb was a whole house (main floor). It was very clean and spacious, close to many interesting restaurants and shopping, and in a safe, peaceful area. The kitchen was well equipped and one toilet had a washlet (bidet), which I appreciated. David was attentive and communicative, and he quickly helped with requests like a step and a water jug. I especially appreciated his weather warning when temperatures dropped 16 degrees overnight with freezing rain and snow. I would love to come again in the summer.",
-                    avatar: "M"
-                },
-                {
-                    id: 1,
-                    name: "Roman",
-                    date: "February 2026",
-                    rating: 5,
-                    text: "Great place.",
-                    avatar: "R"
-                },
-                {
-                    id: 2,
-                    name: "Cheryl",
-                    date: "February 2026",
-                    rating: 5,
-                    text: "I've stayed here numerous times and never had any problems. David is always responsive and he's a good host.",
-                    avatar: "C"
-                },
-                {
-                    id: 3,
-                    name: "Elizabeth",
-                    date: "February 2026",
-                    rating: 5,
-                    text: "Our stay was comfortable. The house was warm and the beds were comfortable. I highly recommend David's place.",
-                    avatar: "E"
-                },
-                {
-                    id: 4,
-                    name: "Regina",
-                    date: "January 2026",
-                    rating: 5,
-                    text: "Without a doubt I would stay at David's house again. The neighbourhood is charming and it's comfortable accommodation with character. It's close to many attractions. David is an exceptional host!",
-                    avatar: "R"
-                },
-                {
-                    id: 5,
-                    name: "Lilly",
-                    date: "January 2026",
-                    rating: 5,
-                    text: "It was a beautiful place, super quiet. Host was responsive & helpful. The space inside was very nice & upon arriving, the building inside was very warm. Would love to stay again if I come to Winnipeg again! :)",
-                    avatar: "L"
-                },
-                {
-                    id: 6,
-                    name: "Chris",
-                    date: "January 2026",
-                    rating: 5,
-                    text: "Great location, very cosy, fully stocked. David's house was perfect for our stay!",
-                    avatar: "C"
+            const formatReviewDate = (dateISO) => {
+                if (!dateISO) return "Unknown date";
+                const dateObj = new Date(`${dateISO}T12:00:00`);
+                if (Number.isNaN(dateObj.getTime())) return dateISO;
+                return dateObj.toLocaleDateString('en-CA', {
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric'
+                });
+            };
+
+            const getListingJsonLdData = () => {
+                try {
+                    const jsonLdScripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+                    let listingData = null;
+
+                    for (const scriptEl of jsonLdScripts) {
+                        const raw = scriptEl.textContent;
+                        if (!raw) continue;
+                        const parsed = JSON.parse(raw);
+                        if (
+                            parsed &&
+                            parsed.aggregateRating &&
+                            Array.isArray(parsed.review)
+                        ) {
+                            listingData = parsed;
+                            break;
+                        }
+                    }
+
+                    if (!listingData) {
+                        return { reviews: [], ratingValue: '4.91', reviewCount: '0' };
+                    }
+
+                    const mappedReviews = listingData.review.map((review, index) => {
+                        const name = review?.author?.name || 'Guest';
+                        const trimmedName = String(name).trim();
+                        const avatar = trimmedName ? trimmedName.charAt(0).toUpperCase() : 'G';
+                        const dateISO = review?.datePublished || '';
+                        return {
+                            id: index + 1,
+                            name: trimmedName || 'Guest',
+                            date: formatReviewDate(dateISO),
+                            dateISO: dateISO,
+                            rating: Number(review?.reviewRating?.ratingValue || 0),
+                            text: review?.reviewBody || '',
+                            avatar
+                        };
+                    });
+
+                    return {
+                        reviews: mappedReviews,
+                        ratingValue: String(listingData.aggregateRating?.ratingValue || '4.91'),
+                        reviewCount: String(listingData.aggregateRating?.reviewCount || mappedReviews.length)
+                    };
+                } catch (error) {
+                    console.error('Unable to parse JSON-LD reviews:', error);
+                    return { reviews: [], ratingValue: '4.91', reviewCount: '0' };
                 }
-            ];
+            };
+
+            const listingJsonLdData = getListingJsonLdData();
+            const reviews = listingJsonLdData.reviews;
+            const listingRatingValue = listingJsonLdData.ratingValue || '4.91';
+            const listingReviewCount = listingJsonLdData.reviewCount || String(reviews.length);
+
+            const sortedReviews = [...reviews].sort((a, b) => {
+                const aIsFiveStar = a.rating >= 5;
+                const bIsFiveStar = b.rating >= 5;
+                if (aIsFiveStar !== bIsFiveStar) {
+                    return aIsFiveStar ? -1 : 1;
+                }
+                return new Date(b.dateISO).getTime() - new Date(a.dateISO).getTime();
+            });
+
+            const getCardsPerView = () => {
+                if (window.innerWidth <= 768) return 1;
+                if (window.innerWidth <= 1024) return 2;
+                return 3;
+            };
+            const [reviewsPerView, setReviewsPerView] = useState(getCardsPerView);
+            const [currentReviewIndex, setCurrentReviewIndex] = useState(0);
+            const reviewsSliderRef = useRef(null);
+            const maxReviewIndex = Math.max(0, sortedReviews.length - reviewsPerView);
+
+            useEffect(() => {
+                const handleResize = () => {
+                    setReviewsPerView(getCardsPerView());
+                };
+                window.addEventListener('resize', handleResize);
+                return () => window.removeEventListener('resize', handleResize);
+            }, []);
+
+            useEffect(() => {
+                if (currentReviewIndex > maxReviewIndex) {
+                    setCurrentReviewIndex(maxReviewIndex);
+                }
+            }, [currentReviewIndex, maxReviewIndex]);
+
+            const scrollReviewsTo = (nextIndex) => {
+                const sliderEl = reviewsSliderRef.current;
+                if (!sliderEl) return;
+                const targetCard = sliderEl.children[nextIndex];
+                if (!targetCard) return;
+                sliderEl.scrollTo({
+                    left: targetCard.offsetLeft,
+                    behavior: 'smooth'
+                });
+                setCurrentReviewIndex(nextIndex);
+            };
+
+            const scrollReviewsPrevious = () => {
+                const nextIndex = Math.max(0, currentReviewIndex - 1);
+                scrollReviewsTo(nextIndex);
+            };
+
+            const scrollReviewsNext = () => {
+                const nextIndex = Math.min(maxReviewIndex, currentReviewIndex + 1);
+                scrollReviewsTo(nextIndex);
+            };
 
             const hostInfo = {
                 name: "David",
@@ -2904,10 +2966,95 @@
                                         best that Winnipeg has to offer.
                                     </p>
                                     <div className="hero-actions">
-                                        <a className="primary-cta" href="/book-now.html?source=hero-cta" aria-label="Book on Airbnb">
+                                        <a className="primary-cta primary-cta-large" href="/book-now.html?source=hero-cta" aria-label="Book on Airbnb">
                                             Book on Airbnb
                                         </a>
                                     </div>
+                                    <a
+                                        className="airbnb-summary-card"
+                                        href="/reviews-now.html?source=guest-favorite-summary"
+                                        aria-label="Open Airbnb reviews for this listing"
+                                    >
+                                        <div className="airbnb-summary-cell airbnb-summary-guest-favorite">
+                                            <img
+                                                className="airbnb-summary-laurel"
+                                                src="/images/ic-system-gf-gold-left-laurel-32-3x.d074c7557225d2a0f3f1289a3dde7a7d.png"
+                                                alt=""
+                                                aria-hidden="true"
+                                                loading="lazy"
+                                            />
+                                            <span className="airbnb-summary-title">Guest favourite</span>
+                                            <img
+                                                className="airbnb-summary-laurel"
+                                                src="/images/ic-system-gf-gold-right-laurel-32-3x.f972b95c999d29e144d9ef970585906d.png"
+                                                alt=""
+                                                aria-hidden="true"
+                                                loading="lazy"
+                                            />
+                                        </div>
+                                        <div className="airbnb-summary-cell airbnb-summary-description">
+                                            One of the most loved homes on Airbnb, according to guests
+                                        </div>
+                                        <div className="airbnb-summary-cell airbnb-summary-rating">
+                                            <span className="airbnb-summary-metric">{listingRatingValue}</span>
+                                            <span className="airbnb-summary-stars" aria-hidden="true">★★★★★</span>
+                                        </div>
+                                        <div className="airbnb-summary-cell airbnb-summary-count">
+                                            <span className="airbnb-summary-metric">{listingReviewCount}</span>
+                                            <span className="airbnb-summary-label">Reviews</span>
+                                        </div>
+                                    </a>
+                                    <section id="reviews" className="reviews" aria-label="Guest reviews">
+                                        <div className="reviews-slider-wrap">
+                                            <button
+                                                type="button"
+                                                className="reviews-slider-control reviews-slider-control-prev"
+                                                onClick={scrollReviewsPrevious}
+                                                aria-label="Show previous reviews"
+                                                disabled={currentReviewIndex === 0}
+                                            >
+                                                ‹
+                                            </button>
+                                            <div className="reviews-slider" ref={reviewsSliderRef} role="region" aria-label="Guest reviews slider">
+                                            {sortedReviews.map((review) => (
+                                                <a
+                                                    key={review.id}
+                                                    className="review-card review-slide review-card-link fade-in-up"
+                                                    href={`/reviews-now.html?source=review-card-${review.id}`}
+                                                    aria-label={`Read Airbnb reviews after viewing review from ${review.name}`}
+                                                >
+                                                    <div className="review-header">
+                                                        <div className="review-avatar">{review.avatar}</div>
+                                                        <div className="review-info">
+                                                            <div className="review-name">{review.name}</div>
+                                                            <div className="review-date">{review.date}</div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="review-rating" role="img" aria-label={`${review.rating} out of 5 stars`}>
+                                                        {[...Array(review.rating)].map((_, i) => (
+                                                            <span key={i} className="review-star" aria-hidden="true">★</span>
+                                                        ))}
+                                                    </div>
+                                                    <figure className="review-quote">
+                                                        <blockquote className="review-text">
+                                                            <p>{review.text}</p>
+                                                        </blockquote>
+                                                        <figcaption className="review-attribution">- {review.name}, {review.date}</figcaption>
+                                                    </figure>
+                                                </a>
+                                            ))}
+                                            </div>
+                                            <button
+                                                type="button"
+                                                className="reviews-slider-control reviews-slider-control-next"
+                                                onClick={scrollReviewsNext}
+                                                aria-label="Show more reviews"
+                                                disabled={currentReviewIndex >= maxReviewIndex}
+                                            >
+                                                ›
+                                            </button>
+                                        </div>
+                                    </section>
                                     <div className="fade-in-up">
                                         <HeroSlideshow />
                                     </div>
@@ -2941,46 +3088,6 @@
                                         <p>{feature.description}</p>
                                     </div>
                                 ))}
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="reviews" className="reviews" aria-labelledby="reviews-heading">
-                        <div className="container">
-                            <h2 id="reviews-heading" className="section-title">What Guests Say About Our Winnipeg Airbnb</h2>
-                            <p className="section-subtitle">Real experiences from travelers who've stayed with us in Winnipeg</p>
-                            <div className="reviews-grid">
-                                {reviews.map((review) => (
-                                    <article key={review.id} className="review-card fade-in-up">
-                                        <div className="review-header">
-                                            <div className="review-avatar">{review.avatar}</div>
-                                            <div className="review-info">
-                                                <div className="review-name">{review.name}</div>
-                                                <div className="review-date">{review.date}</div>
-                                            </div>
-                                        </div>
-                                        <div className="review-rating" role="img" aria-label={`${review.rating} out of 5 stars`}>
-                                            {[...Array(review.rating)].map((_, i) => (
-                                                <span key={i} className="review-star" aria-hidden="true">★</span>
-                                            ))}
-                                        </div>
-                                        <figure className="review-quote">
-                                            <blockquote className="review-text">
-                                                <p>{review.text}</p>
-                                            </blockquote>
-                                            <figcaption className="review-attribution">- {review.name}, {review.date}</figcaption>
-                                        </figure>
-                                    </article>
-                                ))}
-                            </div>
-                            <div className="reviews-cta">
-                                <a 
-                                    href="/book-now.html?source=reviews-cta"
-                                    className="primary-cta"
-                                    aria-label="Book on Airbnb"
-                                >
-                                    Book on Airbnb
-                                </a>
                             </div>
                         </div>
                     </section>

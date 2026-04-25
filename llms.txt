@@ -147,5 +147,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: David (Superhost, 14+ years hosting experience)
 
 # Last Updated
-April 23, 2026
+April 25, 2026
 

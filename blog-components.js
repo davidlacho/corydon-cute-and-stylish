@@ -202,7 +202,7 @@ function Navigation(props) {
                 ),
                 React.createElement('li', { role: 'none' },
                     React.createElement('a', {
-                        href: '/book-now.html?source=blog-nav',
+                        href: '/book-now.html?source=blog-nav-styled',
                         role: 'menuitem',
                         className: 'nav-cta',
                         target: '_blank',
