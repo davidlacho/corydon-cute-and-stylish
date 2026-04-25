@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting to Airbnb</title>
     <meta name="robots" content="noindex, nofollow">
-    <meta http-equiv="refresh" content="0; url=https://www.airbnb.ca/rooms/716340250371431352">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-70X1LQFQ5R"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-70X1LQFQ5R');
+        gtag('config', 'G-70X1LQFQ5R', { transport_type: 'beacon' });
     </script>
     <script>
         (function () {
@@ -27,14 +26,36 @@
                 destination.searchParams.set('sw_source', source);
             }
 
-            window.location.replace(destination.toString());
+            const destinationUrl = destination.toString();
+            let hasRedirected = false;
+            const redirectToAirbnb = () => {
+                if (hasRedirected) return;
+                hasRedirected = true;
+                window.location.replace(destinationUrl);
+            };
+
+            // Fallback in case ad blockers or network issues prevent callback execution.
+            setTimeout(redirectToAirbnb, 900);
+
+            gtag('event', 'book_now_redirect', {
+                event_category: 'engagement',
+                event_label: source || 'direct',
+                event_callback: redirectToAirbnb
+            });
+
+            window.addEventListener('DOMContentLoaded', () => {
+                const continueLink = document.getElementById('continue-link');
+                if (continueLink) {
+                    continueLink.href = destinationUrl;
+                }
+            });
         })();
     </script>
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <main id="main-content">
-        <p>Redirecting to Airbnb. <a href="https://www.airbnb.ca/rooms/716340250371431352">Continue</a>.</p>
+        <p>Redirecting to Airbnb. <a id="continue-link" href="https://www.airbnb.ca/rooms/716340250371431352">Continue</a>.</p>
     </main>
 </body>
 </html>
