@@ -579,8 +579,9 @@ a.logo,
 }
 
 .hero-actions {
-    margin-bottom: 0;
-    margin-top: 2rem;
+    margin: 1rem 0 1.25rem;
+    display: flex;
+    justify-content: center;
 }
 
 .host-badge-avatar {
@@ -1284,7 +1285,7 @@ footer::before {
     }
     
     .hero-actions {
-        margin-bottom: 0.5rem;
+        margin: 0.75rem 0 1rem;
     }
 
     .hero-text h1 {
@@ -1411,10 +1412,14 @@ footer::before {
         margin: 0;
     }
 
-    /* Reviews Grid - List Style on Mobile */
-    .reviews-grid {
+    /* Reviews Slider - Mobile */
+    .reviews-slider-wrap {
         grid-template-columns: 1fr;
-        gap: 1.25rem;
+        gap: 0.75rem;
+    }
+
+    .reviews-slider {
+        gap: 0.75rem;
     }
 
     .review-card {
@@ -1458,6 +1463,18 @@ footer::before {
     .review-text {
         font-size: 0.95rem;
         line-height: 1.6;
+    }
+
+    .review-slide {
+        flex-basis: calc(100% - 0.5rem);
+        min-width: calc(100% - 0.5rem);
+        scroll-snap-align: start;
+    }
+
+    .reviews-slider-control {
+        width: 38px;
+        height: 38px;
+        font-size: 1.2rem;
     }
 
     /* Amenities Grid - List Style on Mobile */
@@ -1840,12 +1857,12 @@ html {
 }
 
 .primary-cta-large {
-    font-size: 1.3rem;
-    padding: 1.2rem 3rem;
+    font-size: 1.45rem;
+    padding: 1.3rem 3.6rem;
 }
 
 .hero-actions {
-    margin-top: 2rem;
+    margin: 1rem 0 1.25rem;
 }
 
 /* Reviews Section */
@@ -1865,59 +1882,180 @@ html {
     background: linear-gradient(90deg, transparent, var(--mustard), transparent);
 }
 
-.reviews-grid {
+.hero .reviews {
+    padding: 1rem 0 0;
+    background: transparent;
+}
+
+.hero .reviews::before {
+    display: none;
+}
+
+.hero .airbnb-summary-card {
+    margin-top: 1.25rem;
+}
+
+.hero .reviews-slider-wrap {
+    margin-top: 1rem;
+}
+
+.hero .hero-slideshow {
+    margin-top: 1.5rem;
+}
+
+.hero .hero-host-info {
+    margin-top: 1.5rem;
+}
+
+.airbnb-summary-card {
+    margin-top: 2rem;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 18px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2.5rem;
+    grid-template-columns: 1.2fr 2.2fr 1fr 0.8fr;
+    overflow: hidden;
+    color: inherit;
+    text-decoration: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.airbnb-summary-card:hover {
+    border-color: #cfcfcf;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.airbnb-summary-cell {
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.airbnb-summary-cell + .airbnb-summary-cell {
+    border-left: 1px solid #e6e6e6;
+}
+
+.airbnb-summary-guest-favorite {
+    gap: 0.5rem;
+    font-weight: 700;
+    color: #222222;
+}
+
+.airbnb-summary-laurel {
+    width: 20px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.airbnb-summary-title {
+    font-size: 1.9rem;
+    line-height: 1;
+}
+
+.airbnb-summary-description {
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 1.65rem;
+    line-height: 1.15;
+    font-weight: 600;
+    color: #222222;
+}
+
+.airbnb-summary-rating,
+.airbnb-summary-count {
+    flex-direction: column;
+    gap: 0.3rem;
+    color: #222222;
+}
+
+.airbnb-summary-metric {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.airbnb-summary-stars {
+    letter-spacing: 0.06em;
+    font-size: 0.95rem;
+}
+
+.airbnb-summary-label {
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.reviews-slider-wrap {
+    display: block;
+    position: relative;
     margin-top: 4rem;
+}
+
+.reviews-slider {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding: 0.25rem;
+    background: var(--bg);
+    border-radius: 16px;
+    width: 100%;
+}
+
+.review-slide {
+    flex: 0 0 calc((100% - 3rem) / 3);
+    min-width: calc((100% - 3rem) / 3);
+    scroll-snap-align: start;
 }
 
 .review-card {
     background: white;
-    padding: 2.5rem;
-    border-radius: 20px;
-    box-shadow: 0 8px 25px var(--shadow);
-    border: 2px solid var(--border);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    padding: 1.35rem;
+    border-radius: 14px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    border: 1px solid #dddddd;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 230px;
+}
+
+.review-card-link {
+    color: inherit;
+    text-decoration: none;
 }
 
 .review-card::before {
-    content: '"';
-    position: absolute;
-    top: -10px;
-    left: 20px;
-    font-size: 8rem;
-    color: var(--mustard);
-    opacity: 0.1;
-    font-family: var(--font-body);
-    line-height: 1;
+    display: none;
 }
 
 .review-card:hover {
-    transform: translateY(-5px) rotate(0.5deg);
-    box-shadow: 0 15px 40px var(--shadow-strong);
-    border-color: var(--teal);
-    will-change: transform;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-color: #cfcfcf;
 }
 
 .review-header {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
+    gap: 0.75rem;
+    margin-bottom: 0.85rem;
 }
 
 .review-avatar {
-    width: 60px;
-    height: 60px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--mustard) 0%, var(--burnt-orange) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.05rem;
     font-weight: 700;
     color: white;
     flex-shrink: 0;
@@ -1929,33 +2067,33 @@ html {
 
 .review-name {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--charcoal);
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.15rem;
     font-family: var(--font-body);
 }
 
 .review-date {
     color: var(--text-light);
-    font-size: 0.9rem;
-    font-style: italic;
+    font-size: 0.95rem;
+    font-style: normal;
 }
 
 .review-rating {
     display: flex;
     gap: 0.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.6rem;
 }
 
 .review-star {
     color: #b06314;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .review-text {
     color: var(--text);
-    line-height: 1.9;
-    font-size: 1.05rem;
+    line-height: 1.5;
+    font-size: 0.98rem;
     position: relative;
     z-index: 1;
 }
@@ -1970,40 +2108,134 @@ html {
 
 .review-quote .review-text p {
     margin: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    text-overflow: ellipsis;
 }
 
 .review-attribution {
-    margin-top: 1rem;
+    margin-top: 0.6rem;
     color: var(--text-light);
-    font-size: 0.9rem;
-    font-style: italic;
+    font-size: 0.85rem;
+    font-style: normal;
 }
 
-.reviews-cta {
-    text-align: center;
-    margin-top: 3rem;
-}
-
-.reviews-cta-btn {
-    background: var(--charcoal);
-    color: white;
-    border: 2px solid var(--mustard);
-    padding: 1rem 2.5rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border-radius: 30px;
+.reviews-slider-control {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: #fff;
+    color: var(--charcoal);
+    font-size: 1.5rem;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     transition: all 0.3s ease;
-    text-decoration: none;
-    display: inline-block;
-    font-family: var(--font-body);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
 }
 
-.reviews-cta-btn:hover {
-    background: var(--teal);
+.reviews-slider-control-prev {
+    left: -56px;
+}
+
+.reviews-slider-control-next {
+    right: -56px;
+}
+
+.reviews-slider-control:hover:not(:disabled) {
     border-color: var(--teal);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(15, 118, 110, 0.3);
+    color: var(--teal);
+    transform: translateY(-1px);
+}
+
+.reviews-slider-control:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+@media (max-width: 1024px) {
+    .review-slide {
+        flex-basis: calc((100% - 1.5rem) / 2);
+        min-width: calc((100% - 1.5rem) / 2);
+    }
+}
+
+@media (max-width: 768px) {
+    .airbnb-summary-card {
+        grid-template-columns: 1fr;
+    }
+
+    .airbnb-summary-cell {
+        justify-content: flex-start;
+        text-align: left;
+        padding: 1rem 1.1rem;
+    }
+
+    .airbnb-summary-cell + .airbnb-summary-cell {
+        border-left: 0;
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .airbnb-summary-title {
+        font-size: 1.35rem;
+    }
+
+    .airbnb-summary-description {
+        font-size: 1.05rem;
+    }
+
+    .airbnb-summary-metric {
+        font-size: 1.45rem;
+    }
+
+    .airbnb-summary-label {
+        font-size: 1rem;
+    }
+
+    .reviews-slider-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 2rem;
+    }
+
+    .reviews-slider {
+        order: 1;
+        width: 100%;
+    }
+
+    .reviews-slider-control {
+        position: static;
+        transform: none;
+        order: 2;
+    }
+
+    .reviews-slider-control-prev {
+        margin-right: 0;
+    }
+
+    .review-slide {
+        flex-basis: 100%;
+        min-width: 100%;
+    }
+
+    .review-card {
+        min-height: 210px;
+    }
+
+    .review-quote .review-text p {
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+    }
 }
 
 /* Host Section - Brief */
