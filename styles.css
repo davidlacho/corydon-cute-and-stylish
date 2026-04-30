@@ -547,12 +547,14 @@ a.logo,
 .hero-superhost-badge {
     margin: 0 0 1rem;
     align-self: flex-start;
+    width: clamp(9.5rem, 34vw, 14rem);
+    max-width: 100%;
 }
 
 .hero-superhost-logo {
     display: block;
-    width: clamp(10.5rem, 36vw, 14rem);
-    max-width: min(100%, 224px);
+    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -560,11 +562,13 @@ a.logo,
     margin: 1rem 0 0;
     display: flex;
     justify-content: flex-start;
+    width: clamp(9.5rem, 28vw, 13.5rem);
+    max-width: 100%;
 }
 
 .hero-superhost-badge-centered .hero-superhost-logo {
-    width: clamp(9.5rem, 24vw, 13.5rem);
-    max-width: min(100%, 216px);
+    width: 100%;
+    max-width: 100%;
 }
 
 .hero-actions {
@@ -1287,8 +1291,16 @@ footer::before {
     }
 
     .hero-superhost-logo {
-        width: clamp(9.25rem, 52vw, 12rem);
-        max-width: min(100%, 200px);
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-superhost-badge {
+        width: clamp(8.75rem, 52vw, 12rem);
+    }
+
+    .hero-superhost-badge-centered {
+        width: clamp(8.75rem, 52vw, 12rem);
     }
 
     .hero-widget {
@@ -1841,6 +1853,10 @@ html {
 
 .hero-actions {
     margin: 0.5rem 0 0;
+}
+
+.hero-actions .primary-cta-large {
+    padding: 1.2rem 3.6rem 1.1rem;
 }
 
 /* Reviews Section */

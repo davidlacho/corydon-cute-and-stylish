@@ -2173,6 +2173,19 @@
             const [isTransitioning, setIsTransitioning] = useState(false);
             const [imagesLoaded, setImagesLoaded] = useState(false);
             const [loadedCount, setLoadedCount] = useState(0);
+            const transitionTimeoutRef = useRef(null);
+            const HERO_TRANSITION_MS = 300;
+
+            const restartTransitionTimer = () => {
+                setIsTransitioning(true);
+                if (transitionTimeoutRef.current) {
+                    clearTimeout(transitionTimeoutRef.current);
+                }
+                transitionTimeoutRef.current = setTimeout(() => {
+                    setIsTransitioning(false);
+                    transitionTimeoutRef.current = null;
+                }, HERO_TRANSITION_MS);
+            };
 
             // Load images on demand - only load first image + next/previous for smooth transitions
             useEffect(() => {
@@ -2221,13 +2234,9 @@
             }, [currentIndex, imagesLoaded, images]);
 
             const goToNext = () => {
-                if (isTransitioning) return;
-                setIsTransitioning(true);
                 const newIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
                 setCurrentIndex(newIndex);
-                setTimeout(() => {
-                    setIsTransitioning(false);
-                }, 800);
+                restartTransitionTimer();
             };
 
             // Auto-transition effect (paused on hover/focus for accessibility)
@@ -2239,14 +2248,8 @@
                 
                 const startInterval = () => {
                     interval = setInterval(() => {
-                        if (!isTransitioning) {
-                            setIsTransitioning(true);
-                            const newIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
-                            setCurrentIndex(newIndex);
-                            setTimeout(() => {
-                                setIsTransitioning(false);
-                            }, 800);
-                        }
+                        setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+                        restartTransitionTimer();
                     }, 5000);
                 };
 
@@ -2275,16 +2278,12 @@
                         slideshowWrapper.removeEventListener('focusout', startInterval);
                     }
                 };
-            }, [isTransitioning, images.length, currentIndex, imagesLoaded]);
+            }, [images.length, imagesLoaded]);
 
             const goToPrevious = () => {
-                if (isTransitioning) return;
-                setIsTransitioning(true);
                 const newIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
                 setCurrentIndex(newIndex);
-                setTimeout(() => {
-                    setIsTransitioning(false);
-                }, 800);
+                restartTransitionTimer();
             };
             
             // Load images when they become visible
@@ -2305,7 +2304,7 @@
             // Keyboard navigation
             useEffect(() => {
                 const handleKeyPress = (e) => {
-                    if (!imagesLoaded || isTransitioning) return;
+                    if (!imagesLoaded) return;
                     if (e.key === 'ArrowLeft') {
                         e.preventDefault();
                         goToPrevious();
@@ -2317,7 +2316,15 @@
 
                 window.addEventListener('keydown', handleKeyPress);
                 return () => window.removeEventListener('keydown', handleKeyPress);
-            }, [imagesLoaded, isTransitioning, images.length, currentIndex]);
+            }, [imagesLoaded, images.length, currentIndex]);
+
+            useEffect(() => {
+                return () => {
+                    if (transitionTimeoutRef.current) {
+                        clearTimeout(transitionTimeoutRef.current);
+                    }
+                };
+            }, []);
 
             return (
                 <div className="hero-slideshow" tabIndex={-1}>
@@ -2470,14 +2477,23 @@
 
             const [currentIndex, setCurrentIndex] = useState(0);
             const [isTransitioning, setIsTransitioning] = useState(false);
+            const transitionTimeoutRef = useRef(null);
+            const GALLERY_TRANSITION_MS = 160;
+
+            const restartTransitionTimer = () => {
+                setIsTransitioning(true);
+                if (transitionTimeoutRef.current) {
+                    clearTimeout(transitionTimeoutRef.current);
+                }
+                transitionTimeoutRef.current = setTimeout(() => {
+                    setIsTransitioning(false);
+                    transitionTimeoutRef.current = null;
+                }, GALLERY_TRANSITION_MS);
+            };
 
             const goToSlide = (index) => {
-                if (isTransitioning) return;
-                setIsTransitioning(true);
-                setTimeout(() => {
-                    setCurrentIndex(index);
-                    setIsTransitioning(false);
-                }, 250);
+                setCurrentIndex(index);
+                restartTransitionTimer();
             };
 
             const goToPrevious = () => {
@@ -2494,7 +2510,6 @@
 
             useEffect(() => {
                 const handleKeyPress = (e) => {
-                    if (isTransitioning) return;
                     let newIndex;
                     if (e.key === 'ArrowLeft') {
                         newIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
@@ -2503,11 +2518,8 @@
                     } else {
                         return;
                     }
-                    setIsTransitioning(true);
-                    setTimeout(() => {
-                        setCurrentIndex(newIndex);
-                        setIsTransitioning(false);
-                    }, 250);
+                    setCurrentIndex(newIndex);
+                    restartTransitionTimer();
                 };
 
                 window.addEventListener('keydown', handleKeyPress);
@@ -2521,24 +2533,14 @@
                     if ('requestIdleCallback' in window) {
                         requestIdleCallback(() => {
                             intervalId = setInterval(() => {
-                                if (!isTransitioning) {
-                                    setIsTransitioning(true);
-                                    setTimeout(() => {
-                                        setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-                                        setIsTransitioning(false);
-                                    }, 250);
-                                }
+                                setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+                                restartTransitionTimer();
                             }, 5000);
                         }, { timeout: 1000 });
                     } else {
                         intervalId = setInterval(() => {
-                            if (!isTransitioning) {
-                                setIsTransitioning(true);
-                                setTimeout(() => {
-                                    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-                                    setIsTransitioning(false);
-                                }, 250);
-                            }
+                            setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+                            restartTransitionTimer();
                         }, 5000);
                     }
                 };
@@ -2546,7 +2548,15 @@
                 return () => {
                     if (intervalId) clearInterval(intervalId);
                 };
-            }, [isTransitioning, images.length]);
+            }, [images.length]);
+
+            useEffect(() => {
+                return () => {
+                    if (transitionTimeoutRef.current) {
+                        clearTimeout(transitionTimeoutRef.current);
+                    }
+                };
+            }, []);
 
             return (
                 <section id="slideshow" className="slideshow" aria-label="Property photos">
