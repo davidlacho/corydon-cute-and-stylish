@@ -512,30 +512,16 @@ a.logo,
     text-align: left;
 }
 
-.badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: rgba(199, 90, 61, 0.08);
-    padding: 0.35rem 0.75rem;
-    border-radius: 20px;
-    font-weight: 500;
-    font-size: 0.9rem;
-    color: var(--charcoal);
-    border: none;
-    box-shadow: none;
-    cursor: default;
-    pointer-events: none;
-}
-
-.badge-superhost {
-    background: rgba(199, 90, 61, 0.15);
-    color: var(--burnt-orange);
-    font-weight: 600;
-}
-
 .hero-superhost-badge {
     margin: 0 0 1rem;
+    align-self: flex-start;
+}
+
+.hero-superhost-logo {
+    display: block;
+    width: clamp(10.5rem, 36vw, 14rem);
+    max-width: min(100%, 224px);
+    height: auto;
 }
 
 .hero-actions {
@@ -1244,9 +1230,9 @@ footer::before {
         max-width: 100%;
     }
 
-    .badge {
-        font-size: 0.8rem;
-        padding: 0.3rem 0.6rem;
+    .hero-superhost-logo {
+        width: clamp(9.25rem, 52vw, 12rem);
+        max-width: min(100%, 200px);
     }
 
     .hero-widget {
