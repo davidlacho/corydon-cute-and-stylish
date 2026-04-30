@@ -68,15 +68,26 @@
             margin: 0 0 1.25rem;
         }
 
-        .redirect-spinner {
-            width: 44px;
-            height: 44px;
-            border: 3px solid var(--border);
-            border-top-color: var(--teal);
-            border-right-color: var(--mustard);
-            border-radius: 50%;
+        .loader {
+            width: 80px;
+            height: 40px;
+            border-radius: 100px 100px 0 0;
+            position: relative;
+            overflow: hidden;
             margin: 0 auto 1rem;
-            animation: spin 1s linear infinite;
+        }
+
+        .loader::before {
+            content: "";
+            position: absolute;
+            inset: 0 0 -100%;
+            background:
+                radial-gradient(farthest-side, var(--mustard) 80%, #0000) left 70% top 20%/15px 15px,
+                radial-gradient(farthest-side, var(--charcoal) 92%, #0000) left 65% bottom 19%/12px 12px,
+                radial-gradient(farthest-side, var(--bg) 92%, #0000) left 70% bottom 20%/15px 15px,
+                linear-gradient(var(--teal) 50%, var(--charcoal) 0);
+            background-repeat: no-repeat;
+            animation: l5 2s infinite;
         }
 
         .redirect-copy {
@@ -89,9 +100,16 @@
             font-weight: 600;
         }
 
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+        @keyframes l5 {
+            0%, 20% {
+                transform: rotate(0);
+            }
+            40%, 60% {
+                transform: rotate(.5turn);
+            }
+            80%, 100% {
+                transform: rotate(1turn);
+            }
         }
     </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-70X1LQFQ5R"></script>
@@ -147,7 +165,7 @@
         <section class="redirect-card" aria-label="Redirect to Airbnb booking">
             <h1 class="redirect-brand">Stay Winnipeg</h1>
             <p class="redirect-subtitle">Redirecting you to Airbnb booking</p>
-            <div class="redirect-spinner" aria-hidden="true"></div>
+            <div class="loader" aria-hidden="true"></div>
             <p class="redirect-copy">Redirecting to Airbnb. <a id="continue-link" href="https://www.airbnb.ca/rooms/716340250371431352">Continue</a>.</p>
         </section>
     </main>

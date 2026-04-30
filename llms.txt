@@ -11,6 +11,7 @@ Home: https://staywinnipeg.ca/
 Blog: https://staywinnipeg.ca/blog.html
 Discounted Tours & Experiences: https://staywinnipeg.ca/tours-experiences.html
 Accessibility Statement: https://staywinnipeg.ca/accessibility.html
+Booking Redirect: https://staywinnipeg.ca/book-now.html
 
 # Content Overview
 Total Blog Posts: 68

@@ -1811,7 +1811,7 @@
     
     <div id="page-loader" class="page-loader">
         <div class="loader-content">
-            <div class="loader-spinner"></div>
+            <div class="loader"></div>
         </div>
     </div>
     <div id="root"></div>
@@ -2890,6 +2890,122 @@
                 scrollReviewsTo(nextIndex);
             };
 
+            const amenityCategories = [
+                {
+                    icon: "💻",
+                    title: "Essentials",
+                    items: [
+                        "WiFi",
+                        "Dedicated workspace (Ergonomic chair, Laptop stand, Monitor)",
+                        "Central air conditioning",
+                        "Central heating",
+                        "Hot water",
+                        "Ceiling fan",
+                        "Essentials (Towels, bed sheets, soap, toilet paper)"
+                    ]
+                },
+                {
+                    icon: "🍳",
+                    title: "Kitchen",
+                    items: [
+                        "Full kitchen",
+                        "Refrigerator",
+                        "Freezer",
+                        "Dishwasher",
+                        "Electric stove",
+                        "Oven",
+                        "Microwave",
+                        "Drip coffee maker",
+                        "Hot water kettle",
+                        "Rice cooker",
+                        "Toaster",
+                        "Cooking basics (Pots, pans, oil, salt, pepper)",
+                        "Dishes and silverware",
+                        "Dining table",
+                        "Wine glasses",
+                        "Cleaning products"
+                    ]
+                },
+                {
+                    icon: "🛏️",
+                    title: "Bedroom & Bathroom",
+                    items: [
+                        "Cotton bed linens",
+                        "Extra pillows and blankets",
+                        "Clothing storage (Closet)",
+                        "Hangers",
+                        "Room-darkening shades",
+                        "Bathtub",
+                        "Spa-like shower with massage jets",
+                        "Bidet",
+                        "Hair dryer",
+                        "Shampoo",
+                        "Conditioner",
+                        "Body soap",
+                        "Shower gel",
+                        "Iron"
+                    ]
+                },
+                {
+                    icon: "📺",
+                    title: "Entertainment",
+                    items: ["HDTV", "Bose Bluetooth sound system"]
+                },
+                {
+                    icon: "🏠",
+                    title: "Property Features",
+                    items: [
+                        "Single level home",
+                        "Private entrance",
+                        "Private living room",
+                        "Patio or balcony"
+                    ]
+                },
+                {
+                    icon: "🚗",
+                    title: "Parking",
+                    items: ["Free parking on premises", "Free street parking"]
+                },
+                {
+                    icon: "🛡️",
+                    title: "Safety",
+                    items: [
+                        "Smoke alarm",
+                        "Carbon monoxide alarm",
+                        "Fire extinguisher",
+                        "First aid kit"
+                    ]
+                },
+                {
+                    icon: "⚙️",
+                    title: "Services",
+                    items: [
+                        "Self check-in",
+                        "29 days max",
+                        "Cleaning available during stay (Extra cost, 10am-3pm)"
+                    ]
+                }
+            ];
+
+            const chunkAmenities = (items, size = 4) => {
+                const chunks = [];
+                for (let i = 0; i < items.length; i += size) {
+                    chunks.push(items.slice(i, i + size));
+                }
+                return chunks;
+            };
+
+            const amenityCards = amenityCategories.flatMap((category) => {
+                const groupedItems = chunkAmenities(category.items, 4);
+                return groupedItems.map((group, groupIndex) => ({
+                    icon: category.icon,
+                    title: category.title,
+                    group,
+                    groupIndex,
+                    groupCount: groupedItems.length
+                }));
+            });
+
             return (
                 <>
                     <NavigationComponent />
@@ -3048,285 +3164,27 @@
                         <div className="container">
                             <h2 id="amenities-heading" className="section-title">Winnipeg Airbnb Amenities & Features</h2>
                             <div className="amenities-grid">
-                                <div className="amenity-category fade-in-up">
-                                    <h3 className="amenity-category-title">
-                                        <span className="amenity-category-icon" aria-hidden="true">💻</span>
-                                        Essentials
-                                    </h3>
-                                    <ul className="amenity-list">
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">WiFi</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Dedicated workspace (Ergonomic chair, Laptop stand, Monitor)</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Central air conditioning</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Central heating</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Hot water</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Ceiling fan</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Essentials (Towels, bed sheets, soap, toilet paper)</span>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="amenity-category fade-in-up">
-                                    <h3 className="amenity-category-title">
-                                        <span className="amenity-category-icon" aria-hidden="true">🍳</span>
-                                        Kitchen
-                                    </h3>
-                                    <ul className="amenity-list">
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Full kitchen</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Refrigerator</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Freezer</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Dishwasher</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Electric stove</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Oven</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Microwave</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Drip coffee maker</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Hot water kettle</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Rice cooker</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Toaster</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Cooking basics (Pots, pans, oil, salt, pepper)</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Dishes and silverware</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Dining table</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Wine glasses</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Cleaning products</span>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="amenity-category fade-in-up">
-                                    <h3 className="amenity-category-title">
-                                        <span className="amenity-category-icon" aria-hidden="true">🛏️</span>
-                                        Bedroom & Bathroom
-                                    </h3>
-                                    <ul className="amenity-list">
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Cotton bed linens</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Extra pillows and blankets</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Clothing storage (Closet)</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Hangers</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Room-darkening shades</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Bathtub</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Spa-like shower with massage jets</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Bidet</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Hair dryer</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Shampoo</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Conditioner</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Body soap</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Shower gel</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Iron</span>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="amenity-category fade-in-up">
-                                    <h3 className="amenity-category-title">
-                                        <span className="amenity-category-icon" aria-hidden="true">📺</span>
-                                        Entertainment
-                                    </h3>
-                                    <ul className="amenity-list">
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">HDTV</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Bose Bluetooth sound system</span>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="amenity-category fade-in-up">
-                                    <h3 className="amenity-category-title">
-                                        <span className="amenity-category-icon" aria-hidden="true">🏠</span>
-                                        Property Features
-                                    </h3>
-                                    <ul className="amenity-list">
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Single level home</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Private entrance</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Private living room</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Patio or balcony</span>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="amenity-category fade-in-up">
-                                    <h3 className="amenity-category-title">
-                                        <span className="amenity-category-icon" aria-hidden="true">🚗</span>
-                                        Parking
-                                    </h3>
-                                    <ul className="amenity-list">
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Free parking on premises</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Free street parking</span>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="amenity-category fade-in-up">
-                                    <h3 className="amenity-category-title">
-                                        <span className="amenity-category-icon" aria-hidden="true">🛡️</span>
-                                        Safety
-                                    </h3>
-                                    <ul className="amenity-list">
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Smoke alarm</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Carbon monoxide alarm</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Fire extinguisher</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">First aid kit</span>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="amenity-category fade-in-up">
-                                    <h3 className="amenity-category-title">
-                                        <span className="amenity-category-icon" aria-hidden="true">⚙️</span>
-                                        Services
-                                    </h3>
-                                    <ul className="amenity-list">
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Self check-in</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">29 days max</span>
-                                        </li>
-                                        <li className="amenity-item">
-                                            <span className="amenity-item-icon" aria-hidden="true">✓</span>
-                                            <span className="amenity-item-text">Cleaning available during stay (Extra cost, 10am-3pm)</span>
-                                        </li>
-                                    </ul>
-                                </div>
+                                {amenityCards.map((card, cardIndex) => (
+                                    <div key={`${card.title}-${cardIndex}`} className="amenity-category fade-in-up">
+                                        <h3 className="amenity-category-title">
+                                            <span className="amenity-category-icon" aria-hidden="true">{card.icon}</span>
+                                            {card.title}
+                                        </h3>
+                                        {card.groupCount > 1 && (
+                                            <p className="amenity-category-subtitle">
+                                                Group {card.groupIndex + 1} of {card.groupCount}
+                                            </p>
+                                        )}
+                                        <ul className="amenity-list">
+                                            {card.group.map((item) => (
+                                                <li key={item} className="amenity-item">
+                                                    <span className="amenity-item-icon" aria-hidden="true">✓</span>
+                                                    <span className="amenity-item-text">{item}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </section>
