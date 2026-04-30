@@ -226,10 +226,6 @@ function Footer() {
                 React.createElement('a', { href: 'https://staywinnipeg.ca/blog.html' }, 'Blog'),
                 React.createElement('a', { href: 'https://staywinnipeg.ca/accessibility.html' }, 'Accessibility')
             ),
-            React.createElement('p', { className: 'footer-secondary-note' },
-                React.createElement('a', { href: 'https://staywinnipeg.ca/shared-room-stays.html' }, 'Individual room stays'),
-                ' are listed occasionally (shared whole-house accommodation).'
-            ),
             React.createElement('p', null, '\u00A9 2025 Stay Winnipeg. All rights reserved.'),
             React.createElement('p', { className: 'footer-text' },
                 React.createElement('a', { href: 'https://www.airbnb.ca/h/corydon-cute-and-stylish' },

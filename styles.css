@@ -512,15 +512,6 @@ a.logo,
     text-align: left;
 }
 
-.hero-badges {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-}
-
 .badge {
     display: inline-flex;
     align-items: center;
@@ -543,87 +534,14 @@ a.logo,
     font-weight: 600;
 }
 
-.badge-guest-favorite {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    background: rgba(15, 118, 110, 0.08);
-    padding: 0.35rem 0.75rem;
-    border-radius: 20px;
-    font-weight: 500;
-    font-size: 0.9rem;
-    color: var(--charcoal);
-    border: none;
-    box-shadow: none;
-    cursor: default;
-    pointer-events: none;
-}
-
-.badge-top-homes {
-    background: rgba(31, 41, 55, 0.1);
-    color: var(--charcoal);
-    font-weight: 600;
-}
-
-.laurel {
-    display: inline-flex;
-    align-items: center;
-    vertical-align: middle;
-    flex-shrink: 0;
-}
-
-.hero-host-info {
-    margin-top: 2.5rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--border);
+.hero-superhost-badge {
+    margin: 0 0 1rem;
 }
 
 .hero-actions {
     margin: 1rem 0 1.25rem;
     display: flex;
     justify-content: center;
-}
-
-.host-about-facts {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 0.75rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.45rem;
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: var(--text);
-    font-family: var(--font-body);
-}
-
-.host-about-facts strong {
-    font-weight: 600;
-    color: var(--charcoal);
-}
-
-.host-identity-verified {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--charcoal);
-    margin: 0 0 0.9rem;
-    font-family: var(--font-body);
-}
-
-.host-section-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--charcoal);
-    margin-bottom: 0.75rem;
-    font-family: var(--font-heading);
-}
-
-.host-bio {
-    margin-top: 1.25rem;
-    font-size: 1rem;
-    line-height: 1.7;
-    color: var(--text);
-    font-family: var(--font-body);
 }
 
 .footer-text {
@@ -1326,16 +1244,7 @@ footer::before {
         max-width: 100%;
     }
 
-    .hero-badges {
-        gap: 0.5rem;
-    }
-
-    .host-bio {
-        font-size: 0.95rem;
-        margin-top: 1rem;
-    }
-
-    .badge, .badge-guest-favorite, .badge-top-homes {
+    .badge {
         font-size: 0.8rem;
         padding: 0.3rem 0.6rem;
     }
@@ -1922,10 +1831,6 @@ html {
     margin-top: 1.25rem;
 }
 
-.hero .hero-host-info {
-    margin-top: 1.25rem;
-}
-
 .hero .reviews + h2 {
     margin-top: 1.25rem;
     margin-bottom: 0.9rem;
@@ -2463,10 +2368,6 @@ html {
 .link-inherit {
     color: inherit;
     text-decoration: underline;
-}
-
-.laurel-flip {
-    transform: scaleX(-1);
 }
 
 #location-map {

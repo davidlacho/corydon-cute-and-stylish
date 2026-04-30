@@ -11,7 +11,6 @@ Home: https://staywinnipeg.ca/
 Blog: https://staywinnipeg.ca/blog.html
 Discounted Tours & Experiences: https://staywinnipeg.ca/tours-experiences.html
 Accessibility Statement: https://staywinnipeg.ca/accessibility.html
-Individual room stays (occasional, shared whole-house): https://staywinnipeg.ca/shared-room-stays.html
 
 # Content Overview
 Total Blog Posts: 68
@@ -100,7 +99,6 @@ Property Name: Stay Winnipeg
 Type: Mid-century modern 3-bedroom vacation rental
 Location: Corydon neighborhood, Winnipeg, Manitoba, Canada
 Airbnb Listing: https://www.airbnb.ca/rooms/716340250371431352
-Occasional individual-room listings (shared whole-house; same property): https://www.airbnb.ca/rooms/1592047577879090128 and https://www.airbnb.ca/rooms/1582006193051523630. See /shared-room-stays.html.
 Registration: STRA-2025-2600298
 
 # Key Features
@@ -122,7 +120,6 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 - Blog index page listing all 68 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
-- Shared-room-stays page describing occasional private-room Airbnb listings (secondary to whole-home booking)
 - 68 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
