@@ -1069,6 +1069,26 @@ footer::before {
     opacity: 1;
 }
 
+.footer-secondary-note {
+    margin: 0 0 1.25rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: rgba(248, 250, 252, 0.72);
+    max-width: 36rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-secondary-note a {
+    color: rgba(253, 253, 255, 0.95);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.footer-secondary-note a:hover {
+    color: var(--mustard);
+}
+
 .footer-text {
     margin: 1rem 0;
     color: var(--cream);
