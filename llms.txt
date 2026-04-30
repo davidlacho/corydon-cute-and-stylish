@@ -4,7 +4,7 @@
 # Site Information
 Site: https://staywinnipeg.ca
 Purpose: Boutique accommodation, discounted tours, and curated experiences in Winnipeg, Manitoba. Features a mid-century modern Airbnb in Winnipeg's Corydon neighborhood, plus access to discounted tours and comprehensive travel guides.
-Owner: David
+Owner: Stay Winnipeg
 
 # Main Pages
 Home: https://staywinnipeg.ca/
@@ -147,7 +147,7 @@ The site combines three content pillars:
 
 # Contact & Booking
 Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431352
-Host: David (Superhost, 14+ years hosting experience)
+Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
 April 29, 2026

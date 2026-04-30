@@ -28,7 +28,7 @@ This file documents the structure and requirements for creating blog posts on th
 <meta name="title" content="[Post Title] | Stay Winnipeg Blog">
 <meta name="description" content="[150-160 character description for SEO]">
 <meta name="keywords" content="[comma-separated keywords]">
-<meta name="author" content="David">
+<meta name="author" content="Stay Winnipeg">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://staywinnipeg.ca/blog-[topic].html">
 <link rel="alternate" hreflang="en-CA" href="https://staywinnipeg.ca/blog-[topic].html">
@@ -50,7 +50,7 @@ This file documents the structure and requirements for creating blog posts on th
 <meta property="og:locale" content="en_CA">
 <meta property="article:published_time" content="YYYY-MM-DDTHH:MM:SS+00:00">
 <meta property="article:modified_time" content="YYYY-MM-DDTHH:MM:SS+00:00">
-<meta property="article:author" content="David">
+<meta property="article:author" content="Stay Winnipeg">
 <meta property="article:section" content="[Category]">
 <meta property="article:tag" content="[Tag 1]">
 <meta property="article:tag" content="[Tag 2]">
@@ -345,7 +345,7 @@ The land acknowledgement text: "We acknowledge that we are on Treaty 1 territory
     "description": "[SEO description]",
     "author": {
         "@type": "Person",
-        "name": "David"
+        "name": "Stay Winnipeg"
     },
     "datePublished": "YYYY-MM-DD",
     "dateModified": "YYYY-MM-DD",
@@ -414,7 +414,7 @@ After creating a new blog post, you MUST:
        "description": "[SEO description matching articles-data.js]",
        "author": {
            "@type": "Person",
-           "name": "David"
+           "name": "Stay Winnipeg"
        },
        "datePublished": "YYYY-MM-DD",
        "dateModified": "YYYY-MM-DD"

@@ -584,30 +584,30 @@ a.logo,
     justify-content: center;
 }
 
-.host-badge-avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url('images/f7bf775a-fc88-419a-9553-6261a3e6ee33.jpeg') center/cover no-repeat;
-    border: 2px solid var(--teal);
-    flex-shrink: 0;
-}
-
-.host-badge-text {
+.host-about-facts {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.75rem;
     display: flex;
     flex-direction: column;
-    gap: 0.2rem;
+    gap: 0.45rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text);
+    font-family: var(--font-body);
 }
 
-.host-badge-name {
-    font-weight: 700;
-    font-size: 1.1rem;
+.host-about-facts strong {
+    font-weight: 600;
     color: var(--charcoal);
 }
 
-.host-badge-location {
+.host-identity-verified {
     font-size: 0.9rem;
-    color: var(--text-light);
+    font-weight: 600;
+    color: var(--charcoal);
+    margin: 0 0 0.9rem;
+    font-family: var(--font-body);
 }
 
 .host-section-title {
