@@ -1157,6 +1157,25 @@ footer::before {
     opacity: 1;
 }
 
+.footer-secondary-note {
+    margin: 0 auto 1.25rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: rgba(248, 250, 252, 0.72);
+    max-width: 36rem;
+    font-family: var(--font-body);
+}
+
+.footer-secondary-note a {
+    color: rgba(253, 253, 255, 0.95);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.footer-secondary-note a:hover {
+    color: var(--mustard);
+}
+
 /* Social Sharing */
 .social-share {
     display: flex;
