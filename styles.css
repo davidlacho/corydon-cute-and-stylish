@@ -424,7 +424,7 @@ a.logo,
 .hero {
     margin-top: 0;
     padding-top: 80px;
-    padding-bottom: 5rem;
+    padding-bottom: 3.5rem;
     min-height: auto;
 }
 
@@ -432,7 +432,7 @@ a.logo,
 @media (min-width: 768px) and (max-width: 1024px) {
     .hero {
         padding-top: 100px; /* Extra space for fixed nav on iPad */
-        padding-bottom: 4rem;
+        padding-bottom: 3rem;
     }
 }
 
@@ -445,6 +445,12 @@ a.logo,
 }
 
 .hero-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero-lower-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(340px, 520px);
     gap: 2.5rem;
@@ -456,7 +462,7 @@ a.logo,
         padding: 5rem 2rem;
     }
 
-    .hero-layout {
+    .hero-lower-layout {
         grid-template-columns: minmax(0, 1fr) minmax(400px, 560px);
         gap: 3rem;
     }
@@ -471,6 +477,19 @@ a.logo,
 .hero-media {
     width: 100%;
     justify-self: end;
+}
+
+.hero-copy {
+    width: 100%;
+}
+
+.hero-copy h2 {
+    margin-top: 0.75rem;
+}
+
+.hero-cta-row {
+    grid-column: 1 / -1;
+    width: 100%;
 }
 
 .hero-text h1 {
@@ -537,8 +556,19 @@ a.logo,
     height: auto;
 }
 
+.hero-superhost-badge-centered {
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero-superhost-badge-centered .hero-superhost-logo {
+    width: clamp(9.5rem, 24vw, 13.5rem);
+    max-width: min(100%, 216px);
+}
+
 .hero-actions {
-    margin: 1rem 0 1.25rem;
+    margin: 0.5rem 0 0;
     display: flex;
     justify-content: center;
 }
@@ -1207,7 +1237,7 @@ footer::before {
     .hero {
         margin-top: 0;
         padding-top: 70px;
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
         min-height: auto;
     }
 
@@ -1217,6 +1247,10 @@ footer::before {
     }
 
     .hero-layout {
+        gap: 1.75rem;
+    }
+
+    .hero-lower-layout {
         grid-template-columns: 1fr;
         gap: 1.75rem;
     }
@@ -1230,7 +1264,7 @@ footer::before {
     }
     
     .hero-actions {
-        margin: 0.75rem 0 1rem;
+        margin: 0.5rem 0 0;
     }
 
     .hero-text h1 {
@@ -1584,6 +1618,10 @@ footer::before {
         gap: 1.5rem;
     }
 
+    .hero-lower-layout {
+        gap: 1.5rem;
+    }
+
     .features, .blog, .nearby, .reviews, .amenities, .slideshow, .map-section, .host {
         padding: 2.5rem 0.75rem;
     }
@@ -1802,7 +1840,7 @@ html {
 }
 
 .hero-actions {
-    margin: 1rem 0 1.25rem;
+    margin: 0.5rem 0 0;
 }
 
 /* Reviews Section */

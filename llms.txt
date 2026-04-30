@@ -116,7 +116,7 @@ Primary: Stay Winnipeg, boutique accommodation Winnipeg, Winnipeg tours and expe
 Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Winnipeg, discounted tours Winnipeg
 
 # Site Structure
-- Main homepage showcasing boutique accommodation, tours, and experiences with booking information
+- Main homepage showcasing boutique accommodation, tours, and experiences with booking information, guest review highlights, a two-column property overview with image carousel, and a centred booking CTA
 - Blog index page listing all 68 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards

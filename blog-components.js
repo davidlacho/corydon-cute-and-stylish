@@ -155,7 +155,7 @@ function Navigation(props) {
                 'aria-label': 'Stay Winnipeg - Home'
             },
                 React.createElement('span', { className: 'logo-title' }, 'Stay Winnipeg'),
-                React.createElement('span', { className: 'logo-subtitle' }, 'Boutique Accommodation, Tours, and Experiences')
+                React.createElement('span', { className: 'logo-subtitle' }, 'One of the most loved homes on Airbnb, according to guests')
             ),
             React.createElement('button', {
                 className: 'mobile-menu-toggle',
