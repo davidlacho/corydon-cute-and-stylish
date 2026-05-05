@@ -1,6 +1,77 @@
 // Article data extracted from blog.html
 // This file is generated and contains all blog post metadata
+// On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
+  {
+    "url": "/blog-winnipeg-cocktail-bars-lounges.html",
+    "category": "winnipeg",
+    "date": "2026-05-12",
+    "title": "Winnipeg cocktail bars 2026: Exchange & Corydon lounges",
+    "image": "https://images.unsplash.com/photo-1514362545857-edfda696615d?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Craft cocktails garnished with citrus on a bar counter",
+    "description": "Where to drink cocktails in Winnipeg: Amsterdam Tea Room's tea-led menu, The Roost on Corydon, Patent 5 distillery bar in the Exchange, hours, reservations, and transit home.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 12, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-vietnamese-pho-guide.html",
+    "category": "winnipeg",
+    "date": "2026-05-11",
+    "title": "Winnipeg pho & Vietnamese food 2026: bowls across the city",
+    "image": "https://images.unsplash.com/photo-1591814466964-70590bf05029?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Steaming bowl of noodle soup with herbs and lime",
+    "description": "Where to eat pho and Vietnamese plates in Winnipeg: Pho Hoang's multi-location hours, T.H. Dang on Pembina, Pho Kim Tuong on Ellice, and Vi-Ann on Notre Dame.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 11, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-pizza-guide.html",
+    "category": "winnipeg",
+    "date": "2026-05-10",
+    "title": "Winnipeg pizza 2026: Neapolitan, thin crust & chef-led spots",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Wood-fired pizza with basil fresh from the oven",
+    "description": "Where to eat pizza in Winnipeg: Pizzeria Gusto's wood-fired Academy room, Gondola's thin crust legacy, Neon Palm, Parcel Pizza, Rebel Pizza, and planning takeout from Corydon.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 10, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-farmers-markets-guide.html",
+    "category": "winnipeg",
+    "date": "2026-05-09",
+    "title": "Winnipeg farmers' markets 2026: St. Norbert & downtown",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Fresh vegetables and greens displayed at an outdoor farmers market stall",
+    "description": "Manitoba-only vendors at St. Norbert Farmers' Market, downtown Thursday markets at Cityplace, winter vs summer hours, and how to pair a market morning with Corydon or The Forks.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 9, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-ice-cream-gelato.html",
+    "category": "winnipeg",
+    "date": "2026-05-08",
+    "title": "Winnipeg ice cream & gelato 2026: BDI, Chaeban, Corydon",
+    "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Ice cream scoops in a waffle cone on a bright background",
+    "description": "Where to find Winnipeg ice cream and gelato: Bridge Drive-In, Chaeban on Osborne, Eva's Gelato on Corydon, seasonal hours, and how to pair a stop with Assiniboine Park.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 8, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-bakeries-artisan-bread.html",
+    "category": "winnipeg",
+    "date": "2026-05-07",
+    "title": "Winnipeg bakeries & artisan bread 2026: Corydon to The Forks",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088778ff?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Freshly baked artisan bread loaves cooling on a rack",
+    "description": "Where to buy artisan bread and pastries in Winnipeg: Tall Grass Prairie at The Forks, Forgotten Flavours on Corydon, neighbourhood franchises, and Gunn's legacy bakery.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 7, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-brunch-breakfast.html",
+    "category": "winnipeg",
+    "date": "2026-05-06",
+    "title": "Winnipeg brunch & breakfast 2026: guide by neighbourhood",
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Brunch plates with eggs and vegetables on a cafe table",
+    "description": "Plan brunch in Winnipeg: Clementine downtown, Marion Street Eatery and Pauline Bistro in St. Boniface, Stella's city-wide, and practical tips for waits, hours, and transit from Corydon.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 May 6, 2026</span>"
+  },
   {
     "url": "/blog-airbnb-performance-statistics.html",
     "category": "hosting",

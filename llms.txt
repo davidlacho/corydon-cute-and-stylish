@@ -14,14 +14,14 @@ Accessibility Statement: https://staywinnipeg.ca/accessibility.html
 Booking Redirect: https://staywinnipeg.ca/book-now.html
 
 # Content Overview
-Total Blog Posts: 68
-- Winnipeg Attractions & Activities: 51 guides
+Total Blog Posts: 75
+- Winnipeg Attractions & Activities: 58 guides
 - Hosting & Airbnb Philosophy: 12 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (51 guides)
+## Winnipeg Attractions & Activities (58 guides)
 - /blog-best-places-nearby-winnipeg.html - Best Places in Winnipeg (city-wide curated list of restaurants, breweries, sights, neighbourhoods, groceries; SEO title targets “best places in Winnipeg”; links to Corydon, Forks, coffee, Gunn's, Pride, etc.)
 - /blog-spacedoxa.html - spacedoxa at Graffiti Gallery: Winnipeg's Experimental Performance Home
 - /blog-el-taylor-crescentwood.html - E.L. Taylor, K.C.: The Name on the Crescentwood Map
@@ -57,6 +57,13 @@ Total Blog Posts: 68
 - /blog-winnipeg-art-gallery.html - Winnipeg Art Gallery (WAG) & Qaumajuq: Hours, Tickets & Inuit Art Collection
 - /blog-winnipeg-breweries.html - Winnipeg's Beer Culture & Best Breweries 2026: Complete Craft Beer Guide
 - /blog-winnipeg-coffee.html - Best Coffee Shops in Winnipeg 2026: Specialty Coffee, Roasters & Cute Cafes
+- /blog-winnipeg-brunch-breakfast.html - Winnipeg brunch & breakfast 2026: Clementine, Marion Street Eatery, Pauline Bistro, Stella's, transit from Corydon
+- /blog-winnipeg-bakeries-artisan-bread.html - Winnipeg bakeries & artisan bread 2026: Tall Grass Prairie at The Forks, Forgotten Flavours Corydon, Gunn's, COBS Corydon
+- /blog-winnipeg-ice-cream-gelato.html - Winnipeg ice cream & gelato 2026: Bridge Drive-In, Chaeban, Eva's Gelato & Nucci's on Corydon
+- /blog-winnipeg-farmers-markets-guide.html - Winnipeg farmers' markets 2026: St. Norbert cooperative hours, Downtown Winnipeg BIZ Thursday market, Direct Farm Manitoba
+- /blog-winnipeg-pizza-guide.html - Winnipeg pizza 2026: Pizzeria Gusto, Gondola Pizza, Neon Palm, Parcel Pizza, Rebel Pizza
+- /blog-winnipeg-vietnamese-pho-guide.html - Winnipeg pho & Vietnamese food 2026: Pho Hoang, T.H. Dang, Pho Kim Tuong, Vi-Ann
+- /blog-winnipeg-cocktail-bars-lounges.html - Winnipeg cocktail bars 2026: Amsterdam Tea Room, The Roost Corydon, Patent 5 distillery Exchange
 - /blog-winnipeg-folk-festival.html - Winnipeg Folk Festival: A Summer Music Celebration
 - /blog-winnipeg-jets.html - The Winnipeg Jets: A Story of Resilience, Passion, and Hockey Heritage
 - /blog-winnipeg-blue-bombers.html - The Winnipeg Blue Bombers: A Legacy of Excellence in Canadian Football
@@ -118,10 +125,10 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage showcasing boutique accommodation, tours, and experiences with booking information, guest review highlights, a two-column property overview with image carousel, and a centred booking CTA
-- Blog index page listing all 68 blog posts by category
+- Blog index page listing all 75 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
-- 68 individual blog post pages covering local guides, hosting insights, and travel stories
+- 75 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
