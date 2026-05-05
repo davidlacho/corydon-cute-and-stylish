@@ -497,6 +497,33 @@ After creating a new blog post, you MUST:
 - LLM documentation remains accurate for future AI interactions
 - SEO and discoverability are maintained
 
+## Review Update Workflow
+
+**When the user asks to "update reviews" or add a new guest review, always complete all of the following in one task:**
+
+1. ✅ **Update review data in `index.html` JSON-LD (`LodgingBusiness`)**
+   - Add the new review object to the `"review"` array (author, datePublished, reviewBody, ratingValue)
+   - Keep review text factual and preserve guest wording unless user asks for edits
+   - Maintain valid JSON formatting
+
+2. ✅ **Update aggregate review metrics in `index.html`**
+   - Increment `"aggregateRating.reviewCount"` by 1 for each new review
+   - Keep `"aggregateRating.ratingValue"` exactly as instructed by the user
+   - If user says 5-star count increases, increment all explicit "X 5-star reviews"/"X five-star reviews" references by the same amount
+
+3. ✅ **Sync all public-facing count references**
+   - Update matching review-count text in:
+     - `index.html` meta tags and page copy
+     - `blog-corydon-cute-stylish-winnipeg-airbnb.html` (meta, body copy, and JSON-LD if present)
+     - `blog.html` cards and JSON-LD entries that reference the property review count
+     - `llms.txt` property feature stats
+   - Keep numbers consistent across all files (no mixed old/new counts)
+
+4. ✅ **Finish required maintenance**
+   - Update `sitemap.xml` `<lastmod>` for every modified page URL to today's date (`YYYY-MM-DD`)
+   - Update `llms.txt` where property stats or maintenance guidance changed
+   - Run required `pa11y` checks for edited pages (`index.html`, `blog.html`, relevant `blog-*.html`, plus required homepage/blog/tours checks)
+
 ## Content Categories
 
 Blog posts fall into three main categories:

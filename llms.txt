@@ -136,6 +136,12 @@ The site combines three content pillars:
 - **Discounted Tours & Experiences**: Partnership with tour providers offering exclusive discounts on Winnipeg tours, activities, and experiences. The tours-experiences.html page features a Viator widget for easy booking of discounted tours.
 - **Accessibility Quality Checks**: WCAG 2.1 AA checks are run with Pa11y for page-level and full-sitemap audits, with reports saved to `pa11y-sitemap-report.json`.
 
+# Review update workflow
+- When updating guest reviews, add the new review to `index.html` JSON-LD (`LodgingBusiness.review`), then update `aggregateRating.reviewCount`.
+- Keep `aggregateRating.ratingValue` unchanged unless a new value is explicitly provided.
+- Sync all review-count references across `index.html`, `blog-corydon-cute-stylish-winnipeg-airbnb.html`, `blog.html`, and this file.
+- After review-related edits, update affected `sitemap.xml` `<lastmod>` values and re-run required Pa11y checks.
+
 # Target Audience
 - Families visiting Winnipeg for vacation or events
 - Business travelers seeking comfortable accommodation
@@ -148,5 +154,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
-April 29, 2026
+May 5, 2026
 
