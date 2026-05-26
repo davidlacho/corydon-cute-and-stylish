@@ -14,14 +14,14 @@ Accessibility Statement: https://staywinnipeg.ca/accessibility.html
 Booking Redirect: https://staywinnipeg.ca/book-now.html
 
 # Content Overview
-Total Blog Posts: 75
-- Winnipeg Attractions & Activities: 58 guides
-- Hosting & Airbnb Philosophy: 12 posts
+Total Blog Posts: 86
+- Winnipeg Attractions & Activities: 68 guides
+- Hosting & Airbnb Philosophy: 13 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (58 guides)
+## Winnipeg Attractions & Activities (68 guides)
 - /blog-best-places-nearby-winnipeg.html - Best Places in Winnipeg (city-wide curated list of restaurants, breweries, sights, neighbourhoods, groceries; SEO title targets “best places in Winnipeg”; links to Corydon, Forks, coffee, Gunn's, Pride, etc.)
 - /blog-spacedoxa.html - spacedoxa at Graffiti Gallery: Winnipeg's Experimental Performance Home
 - /blog-el-taylor-crescentwood.html - E.L. Taylor, K.C.: The Name on the Crescentwood Map
@@ -81,7 +81,19 @@ Total Blog Posts: 75
 - /blog-group-dining.html - Best Restaurants for Groups in Winnipeg: Private Rooms & Large Party Dining
 - /blog-winnipeg-vegan-restaurants.html - Best Vegan Restaurants in Winnipeg: Complete Plant-Based Dining Guide
 
-## Hosting & Airbnb Philosophy (12 posts)
+- /blog-corydon-confusion-corner-walking-guide.html - Corydon and Confusion Corner walking guide: routes, stops, and timing
+- /blog-the-forks-cmhr-day-plan.html - The Forks and CMHR in one day: market, galleries, and riverfront timing
+- /blog-assiniboine-park-zoo-leaf-guide.html - Assiniboine Park day guide: zoo, The Leaf, and nearby paths
+- /blog-exchange-district-self-guided-tour.html - Exchange District self-guided tour: architecture, coffee, and murals
+- /blog-fortwhyte-alive-visitor-guide.html - FortWhyte Alive visitor guide: bison trails, lakes, and transit access
+- /blog-osborne-village-corydon-evening-guide.html - Osborne Village and Corydon evening guide: patios, dessert, and walking routes
+- /blog-qaumajuq-wag-guide.html - Qaumajuq and WAG guide: planning an Inuit art and gallery afternoon
+- /blog-corydon-to-forks-bike-walk-guide.html - Corydon to The Forks by bike or foot: route options and stopovers
+- /blog-day-trips-near-winnipeg-from-corydon.html - Day trips near Winnipeg from Corydon: beaches, prairie towns, and parks
+- /blog-rainy-day-winnipeg-itinerary.html - Rainy day Winnipeg itinerary: indoor attractions from Corydon
+
+## Hosting & Airbnb Philosophy (13 posts)
+- /blog-smart-tv-every-bedroom.html - Why We Added Smart TVs in Every Bedroom (why we moved from screen-free bedrooms to smart TVs in each room so groups of six can split downtime after long travel days)
 - /blog-airbnb-performance-statistics.html - The Statistics Are In: Airbnb Performance Update (Airbnb comparison data showing higher quality, ratings, and occupancy than similar listings, with lower average nightly rate and current Superhost metrics)
 - /blog-airbnb-design-lessons.html - Design Lessons from Airbnbs Around the World
 - /blog-espresso-machine-simplicity.html - When Simplicity Wins: Our Espresso Machine Lesson in Guest Preferences
@@ -125,10 +137,10 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage showcasing boutique accommodation, tours, and experiences with booking information, guest review highlights, a two-column property overview with image carousel, and a centred booking CTA
-- Blog index page listing all 75 blog posts by category
+- Blog index page listing all 86 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
-- 75 individual blog post pages covering local guides, hosting insights, and travel stories
+- 86 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines

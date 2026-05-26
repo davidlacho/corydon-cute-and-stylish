@@ -3,6 +3,116 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-smart-tv-every-bedroom.html",
+    "category": "hosting",
+    "date": "2026-05-26",
+    "title": "Why We Added Smart TVs in Every Bedroom",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-47-crescentwood.jpg",
+    "imageAlt": "Quiet residential street in Crescentwood, Winnipeg near our Airbnb",
+    "description": "Why we added a smart TV to every bedroom at our Winnipeg Airbnb: quiet rooms still matter, and groups of six need separate downtime after a long travel day.",
+    "metaHtml": "<span>🏠 Hosting & Design</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 May 26, 2026</span>"
+  },
+  {
+    "url": "/blog-rainy-day-winnipeg-itinerary.html",
+    "category": "winnipeg",
+    "date": "2026-06-13",
+    "title": "Rainy day Winnipeg itinerary: indoor attractions from Corydon",
+    "image": "https://staywinnipeg.ca/images/human-rights-museum.jpg",
+    "imageAlt": "Canadian Museum for Human Rights exterior under cloudy sky",
+    "description": "An indoor Winnipeg itinerary for rainy days with museums, galleries, food halls, and practical transport planning from Corydon.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 June 13, 2026</span>"
+  },
+  {
+    "url": "/blog-day-trips-near-winnipeg-from-corydon.html",
+    "category": "winnipeg",
+    "date": "2026-06-11",
+    "title": "Day trips near Winnipeg from Corydon: beaches, prairie towns, and parks",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-39-the-forks.jpg",
+    "imageAlt": "Road trip planning scene for Manitoba day outings from Winnipeg",
+    "description": "Plan easy day trips from Corydon to nearby Manitoba destinations including beach towns, prairie communities, and outdoor parks.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 June 11, 2026</span>"
+  },
+  {
+    "url": "/blog-corydon-to-forks-bike-walk-guide.html",
+    "category": "winnipeg",
+    "date": "2026-06-09",
+    "title": "Corydon to The Forks by bike or foot: route options and stopovers",
+    "image": "https://staywinnipeg.ca/images/forks-river.jpg",
+    "imageAlt": "River pathway near The Forks with bridge and skyline views",
+    "description": "Route ideas for getting from Corydon to The Forks on foot or by bike, with practical rest stops, crossing notes, and timing expectations.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 June 9, 2026</span>"
+  },
+  {
+    "url": "/blog-qaumajuq-wag-guide.html",
+    "category": "winnipeg",
+    "date": "2026-06-07",
+    "title": "Qaumajuq and WAG guide: planning an Inuit art and gallery afternoon",
+    "image": "https://staywinnipeg.ca/images/winnipegartgallery1.jpg",
+    "imageAlt": "Exterior of the Winnipeg Art Gallery and Qaumajuq building",
+    "description": "A practical guide to Qaumajuq and the Winnipeg Art Gallery for ticket planning, gallery pacing, and pairing the visit with downtown stops.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 June 7, 2026</span>"
+  },
+  {
+    "url": "/blog-osborne-village-corydon-evening-guide.html",
+    "category": "winnipeg",
+    "date": "2026-06-05",
+    "title": "Osborne Village and Corydon evening guide: patios, dessert, and walking routes",
+    "image": "https://staywinnipeg.ca/images/pasta-dish.jpg",
+    "imageAlt": "Evening street view along Corydon with storefront lights and pedestrian activity",
+    "description": "Plan an evening between Osborne Village and Corydon with patio options, dessert stops, and safe walking or rideshare return plans.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 June 5, 2026</span>"
+  },
+  {
+    "url": "/blog-fortwhyte-alive-visitor-guide.html",
+    "category": "winnipeg",
+    "date": "2026-06-03",
+    "title": "FortWhyte Alive visitor guide: bison trails, lakes, and transit access",
+    "image": "https://staywinnipeg.ca/images/winter-activities.jpg",
+    "imageAlt": "Outdoor trail scene at a Winnipeg nature area with open sky and trees",
+    "description": "Visit FortWhyte Alive with a clear plan for trail loops, bison viewing areas, admission notes, and transit access from central Winnipeg.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 June 3, 2026</span>"
+  },
+  {
+    "url": "/blog-exchange-district-self-guided-tour.html",
+    "category": "winnipeg",
+    "date": "2026-06-01",
+    "title": "Exchange District self-guided tour: architecture, coffee, and murals",
+    "image": "https://staywinnipeg.ca/images/exchange-district-pepsi.jpg",
+    "imageAlt": "Historic warehouse buildings in Winnipeg Exchange District streetscape",
+    "description": "Use this self-guided Exchange District route for architecture blocks, coffee breaks, and mural stops with practical timing from Corydon.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 June 1, 2026</span>"
+  },
+  {
+    "url": "/blog-assiniboine-park-zoo-leaf-guide.html",
+    "category": "winnipeg",
+    "date": "2026-05-30",
+    "title": "Assiniboine Park day guide: zoo, The Leaf, and nearby paths",
+    "image": "https://staywinnipeg.ca/images/assiniboine-park.jpg",
+    "imageAlt": "Assiniboine Park landscaped paths with trees and open lawns",
+    "description": "A practical day plan for Assiniboine Park, Assiniboine Park Zoo, and The Leaf with timing, transit options, and family pacing tips from Corydon.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 30, 2026</span>"
+  },
+  {
+    "url": "/blog-the-forks-cmhr-day-plan.html",
+    "category": "winnipeg",
+    "date": "2026-05-28",
+    "title": "The Forks and CMHR in one day: market, galleries, and riverfront timing",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-39-the-forks.jpg",
+    "imageAlt": "The Forks riverside area and market buildings in downtown Winnipeg",
+    "description": "Plan one day at The Forks and the Canadian Museum for Human Rights with current opening hours, ticket notes, and a practical route from Corydon.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 28, 2026</span>"
+  },
+  {
+    "url": "/blog-corydon-confusion-corner-walking-guide.html",
+    "category": "winnipeg",
+    "date": "2026-05-26",
+    "title": "Corydon and Confusion Corner walking guide: routes, stops, and timing",
+    "image": "https://staywinnipeg.ca/images/pasta-dish.jpg",
+    "imageAlt": "Pedestrian-friendly stretch of Corydon Avenue near local shops and patios",
+    "description": "A practical walking guide around Corydon and Confusion Corner: route ideas, coffee and gelato stops, Osborne links, and timing from Crescentwood.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 26, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-cocktail-bars-lounges.html",
     "category": "winnipeg",
     "date": "2026-05-12",
