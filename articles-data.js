@@ -7,7 +7,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-05-12",
     "title": "Winnipeg cocktail bars 2026: Exchange & Corydon lounges",
-    "image": "https://images.unsplash.com/photo-1514362545857-edfda696615d?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-33-amsterdam-tea-room-and-bar.jpg",
     "imageAlt": "Craft cocktails garnished with citrus on a bar counter",
     "description": "Where to drink cocktails in Winnipeg: Amsterdam Tea Room's tea-led menu, The Roost on Corydon, Patent 5 distillery bar in the Exchange, hours, reservations, and transit home.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 12, 2026</span>"
@@ -17,7 +17,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-05-11",
     "title": "Winnipeg pho & Vietnamese food 2026: bowls across the city",
-    "image": "https://images.unsplash.com/photo-1591814466964-70590bf05029?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
     "imageAlt": "Steaming bowl of noodle soup with herbs and lime",
     "description": "Where to eat pho and Vietnamese plates in Winnipeg: Pho Hoang's multi-location hours, T.H. Dang on Pembina, Pho Kim Tuong on Ellice, and Vi-Ann on Notre Dame.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 11, 2026</span>"
@@ -57,7 +57,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-05-07",
     "title": "Winnipeg bakeries & artisan bread 2026: Corydon to The Forks",
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088778ff?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://staywinnipeg.ca/images/Marble-rye.jpg",
     "imageAlt": "Freshly baked artisan bread loaves cooling on a rack",
     "description": "Where to buy artisan bread and pastries in Winnipeg: Tall Grass Prairie at The Forks, Forgotten Flavours on Corydon, neighbourhood franchises, and Gunn's legacy bakery.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 7, 2026</span>"
