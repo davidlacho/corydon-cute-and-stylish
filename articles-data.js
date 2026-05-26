@@ -7,8 +7,8 @@ const ARTICLES_DATA = [
     "category": "hosting",
     "date": "2026-05-26",
     "title": "Why We Added Smart TVs in Every Bedroom",
-    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-47-crescentwood.jpg",
-    "imageAlt": "Quiet residential street in Crescentwood, Winnipeg near our Airbnb",
+    "image": "https://images.unsplash.com/photo-1766556273549-258012c80951?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Wall-mounted flat-screen smart TV in a guest room for private viewing",
     "description": "Why we added a smart TV to every bedroom at our Winnipeg Airbnb: quiet rooms still matter, and groups of six need separate downtime after a long travel day.",
     "metaHtml": "<span>🏠 Hosting & Design</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 May 26, 2026</span>"
   },
