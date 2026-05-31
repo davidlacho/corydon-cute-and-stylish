@@ -17,7 +17,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-13",
     "title": "Rainy day Winnipeg itinerary: indoor attractions from Corydon",
-    "image": "https://staywinnipeg.ca/images/human-rights-museum.jpg",
+    "image": "https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=1200&h=800&fit=crop",
     "imageAlt": "Canadian Museum for Human Rights exterior under cloudy sky",
     "description": "An indoor Winnipeg itinerary for rainy days with museums, galleries, food halls, and practical transport planning from Corydon.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 June 13, 2026</span>"
@@ -27,7 +27,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-11",
     "title": "Day trips near Winnipeg from Corydon: beaches, prairie towns, and parks",
-    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-39-the-forks.jpg",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Road trip planning scene for Manitoba day outings from Winnipeg",
     "description": "Plan easy day trips from Corydon to nearby Manitoba destinations including beach towns, prairie communities, and outdoor parks.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 June 11, 2026</span>"
@@ -37,7 +37,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-09",
     "title": "Corydon to The Forks by bike or foot: route options and stopovers",
-    "image": "https://staywinnipeg.ca/images/forks-river.jpg",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "River pathway near The Forks with bridge and skyline views",
     "description": "Route ideas for getting from Corydon to The Forks on foot or by bike, with practical rest stops, crossing notes, and timing expectations.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 June 9, 2026</span>"
@@ -47,7 +47,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-07",
     "title": "Qaumajuq and WAG guide: planning an Inuit art and gallery afternoon",
-    "image": "https://staywinnipeg.ca/images/winnipegartgallery1.jpg",
+    "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Exterior of the Winnipeg Art Gallery and Qaumajuq building",
     "description": "A practical guide to Qaumajuq and the Winnipeg Art Gallery for ticket planning, gallery pacing, and pairing the visit with downtown stops.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 June 7, 2026</span>"
@@ -57,7 +57,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-05",
     "title": "Osborne Village and Corydon evening guide: patios, dessert, and walking routes",
-    "image": "https://staywinnipeg.ca/images/pasta-dish.jpg",
+    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Evening street view along Corydon with storefront lights and pedestrian activity",
     "description": "Plan an evening between Osborne Village and Corydon with patio options, dessert stops, and safe walking or rideshare return plans.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 June 5, 2026</span>"
@@ -67,7 +67,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-03",
     "title": "FortWhyte Alive visitor guide: bison trails, lakes, and transit access",
-    "image": "https://staywinnipeg.ca/images/winter-activities.jpg",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Outdoor trail scene at a Winnipeg nature area with open sky and trees",
     "description": "Visit FortWhyte Alive with a clear plan for trail loops, bison viewing areas, admission notes, and transit access from central Winnipeg.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 June 3, 2026</span>"
@@ -77,7 +77,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-01",
     "title": "Exchange District self-guided tour: architecture, coffee, and murals",
-    "image": "https://staywinnipeg.ca/images/exchange-district-pepsi.jpg",
+    "image": "https://images.unsplash.com/photo-1560439514-4e9645039924?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Historic warehouse buildings in Winnipeg Exchange District streetscape",
     "description": "Use this self-guided Exchange District route for architecture blocks, coffee breaks, and mural stops with practical timing from Corydon.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 June 1, 2026</span>"
@@ -87,7 +87,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-05-30",
     "title": "Assiniboine Park day guide: zoo, The Leaf, and nearby paths",
-    "image": "https://staywinnipeg.ca/images/assiniboine-park.jpg",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Assiniboine Park landscaped paths with trees and open lawns",
     "description": "A practical day plan for Assiniboine Park, Assiniboine Park Zoo, and The Leaf with timing, transit options, and family pacing tips from Corydon.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 30, 2026</span>"
@@ -97,7 +97,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-05-28",
     "title": "The Forks and CMHR in one day: market, galleries, and riverfront timing",
-    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-39-the-forks.jpg",
+    "image": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "The Forks riverside area and market buildings in downtown Winnipeg",
     "description": "Plan one day at The Forks and the Canadian Museum for Human Rights with current opening hours, ticket notes, and a practical route from Corydon.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 28, 2026</span>"
@@ -107,7 +107,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-05-26",
     "title": "Corydon and Confusion Corner walking guide: routes, stops, and timing",
-    "image": "https://staywinnipeg.ca/images/pasta-dish.jpg",
+    "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Pedestrian-friendly stretch of Corydon Avenue near local shops and patios",
     "description": "A practical walking guide around Corydon and Confusion Corner: route ideas, coffee and gelato stops, Osborne links, and timing from Crescentwood.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 26, 2026</span>"
@@ -269,7 +269,7 @@ const ARTICLES_DATA = [
     "title": "Corydon Cute & Stylish: Your Perfect Winnipeg Airbnb Experience",
     "image": "images/2025-10-09-5-Ruskin-Row-00001.jpg",
     "imageAlt": "Corydon Cute & Stylish - Mid-century modern Airbnb in Winnipeg",
-    "description": "Discover why Corydon Cute & Stylish is Winnipeg's top-rated Airbnb. Mid-century modern 3-bedroom home in historic Crescentwood with 82 5-star reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
+    "description": "Discover why Corydon Cute & Stylish is Winnipeg's top-rated Airbnb. Mid-century modern 3-bedroom home in historic Crescentwood with 85 5-star reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
     "metaHtml": "<span>🏠 Winnipeg Accommodations</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 5, 2025</span>"
   },
   {
