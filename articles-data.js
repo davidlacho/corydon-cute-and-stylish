@@ -269,7 +269,7 @@ const ARTICLES_DATA = [
     "title": "Corydon Cute & Stylish: Your Perfect Winnipeg Airbnb Experience",
     "image": "images/2025-10-09-5-Ruskin-Row-00001.jpg",
     "imageAlt": "Corydon Cute & Stylish - Mid-century modern Airbnb in Winnipeg",
-    "description": "Discover why Corydon Cute & Stylish is Winnipeg's top-rated Airbnb. Mid-century modern 3-bedroom home in historic Crescentwood with 85 5-star reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
+    "description": "Discover why Corydon Cute & Stylish is Winnipeg's top-rated Airbnb. Mid-century modern 3-bedroom home in historic Crescentwood with 87 5-star reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
     "metaHtml": "<span>🏠 Winnipeg Accommodations</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 5, 2025</span>"
   },
   {
