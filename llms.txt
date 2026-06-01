@@ -156,10 +156,52 @@ The site combines three content pillars:
 - **Accessibility Quality Checks**: WCAG 2.1 AA checks are run with Pa11y for page-level and full-sitemap audits, with reports saved to `pa11y-sitemap-report.json`.
 
 # Review update workflow
-- When updating guest reviews, add the new review to `index.html` JSON-LD (`LodgingBusiness.review`), then update `aggregateRating.reviewCount`.
-- Keep `aggregateRating.ratingValue` unchanged unless a new value is explicitly provided.
-- Sync all review-count references across `index.html`, `blog-corydon-cute-stylish-winnipeg-airbnb.html`, `blog.html`, and this file.
-- After review-related edits, update affected `sitemap.xml` `<lastmod>` values and re-run required Pa11y checks.
+
+When adding guest reviews, update **every** file below. Two counts are tracked separately:
+
+- **Total reviews** → public copy uses `"X guest reviews"`; JSON-LD uses `"aggregateRating.reviewCount"`. Increment by 1 for every new review.
+- **5-star reviews** → tracked in this file only (`"X 5-star reviews (Y total reviews, …)"`). Increment by 1 only when the new review is 5 stars.
+- **Average rating** → update `"aggregateRating.ratingValue"` and `"Rated X.XX out of 5"` copy only when the user explicitly provides a new value.
+
+## Files and locations to update
+
+### `index.html` (source of truth for review data)
+- `LodgingBusiness` JSON-LD `"review"` array — add new review objects at the top (most recent first)
+- `LodgingBusiness` JSON-LD `"aggregateRating.reviewCount"` and `"aggregateRating.ratingValue"`
+- Meta tags: `description`, `DC.description`, `og:description`, `twitter:description`
+- Organization JSON-LD `"description"`
+- FAQ JSON-LD entries mentioning review count
+- `#seo-content` hidden SEO paragraphs
+- Property overview copy (`"Rated … from X guest reviews"`, `"With X guest reviews"`)
+- Homepage React reviews carousel and Guest favourite badge read from JSON-LD automatically — no separate React count edits needed
+
+### `blog-corydon-cute-stylish-winnipeg-airbnb.html`
+- Meta tags: `description`, `og:description`, `twitter:description`
+- Article body copy with review counts
+- Page JSON-LD: `"description"` and `"aggregateRating.reviewCount"`
+
+### `blog.html`
+- `<noscript>` article card description for the Corydon post
+- JSON-LD `"blogPost"` array entry description for the Corydon post
+
+### `articles-data.js`
+- `description` for `/blog-corydon-cute-stylish-winnipeg-airbnb.html` (React blog listing)
+
+### `articles_data.json`
+- Same Corydon post `description` (legacy fallback — keep in sync with `articles-data.js`)
+
+### `llms.txt`
+- `# Key Features`: `"X 5-star reviews (Y total reviews, Z average rating)"`
+- `# Last Updated` date
+
+### `sitemap.xml`
+- Update `<lastmod>` to today's date for: `/`, `/blog.html`, `/blog-corydon-cute-stylish-winnipeg-airbnb.html`
+
+## Post-update verification
+
+- Grep the repo for the old total (`"X guest reviews"`, `reviewCount": "X"`) — no stale counts should remain
+- Confirm `articles-data.js`, `articles_data.json`, `blog.html`, and the Corydon blog post all match
+- Run Pa11y on `index.html`, `blog.html`, and `blog-corydon-cute-stylish-winnipeg-airbnb.html`
 
 # Target Audience
 - Families visiting Winnipeg for vacation or events
@@ -173,5 +215,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
-May 26, 2026
+June 1, 2026
 

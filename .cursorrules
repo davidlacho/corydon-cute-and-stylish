@@ -501,28 +501,72 @@ After creating a new blog post, you MUST:
 
 **When the user asks to "update reviews" or add a new guest review, always complete all of the following in one task:**
 
-1. ✅ **Update review data in `index.html` JSON-LD (`LodgingBusiness`)**
-   - Add the new review object to the `"review"` array (author, datePublished, reviewBody, ratingValue)
-   - Keep review text factual and preserve guest wording unless user asks for edits
-   - Maintain valid JSON formatting
+### Metrics to track
 
-2. ✅ **Update aggregate review metrics in `index.html`**
-   - Increment `"aggregateRating.reviewCount"` by 1 for each new review
-   - Keep `"aggregateRating.ratingValue"` exactly as instructed by the user
-   - If user says 5-star count increases, increment all explicit "X 5-star reviews"/"X five-star reviews" references by the same amount
+Two separate counts are maintained:
 
-3. ✅ **Sync all public-facing count references**
-   - Update matching review-count text in:
-     - `index.html` meta tags and page copy
-     - `blog-corydon-cute-stylish-winnipeg-airbnb.html` (meta, body copy, and JSON-LD if present)
-     - `blog.html` cards and JSON-LD entries that reference the property review count
-     - `llms.txt` property feature stats
-   - Keep numbers consistent across all files (no mixed old/new counts)
+1. **Total reviews** — used in public copy as `"X guest reviews"` and in JSON-LD as `"aggregateRating.reviewCount"`. Increment by 1 for **every** new review.
+2. **5-star reviews** — tracked internally in `llms.txt` only (e.g. `"87 5-star reviews (94 total reviews, …)"`). Increment by 1 only when the new review is 5 stars.
 
-4. ✅ **Finish required maintenance**
-   - Update `sitemap.xml` `<lastmod>` for every modified page URL to today's date (`YYYY-MM-DD`)
-   - Update `llms.txt` where property stats or maintenance guidance changed
-   - Run required `pa11y` checks for edited pages (`index.html`, `blog.html`, relevant `blog-*.html`, plus required homepage/blog/tours checks)
+Also update `"aggregateRating.ratingValue"` only when the user explicitly provides a new average (e.g. `"4.91"`).
+
+### 1. Update review data in `index.html` JSON-LD (`LodgingBusiness`)
+
+- Add each new review object to the top of the `"review"` array (most recent first).
+- Fields: `author.name`, `datePublished` (`YYYY-MM-DD`), `reviewBody`, `reviewRating.ratingValue`.
+- Keep review text factual and preserve guest wording unless the user asks for edits.
+- Increment `"aggregateRating.reviewCount"` by 1 per new review.
+- Update `"aggregateRating.ratingValue"` only when explicitly provided.
+- The homepage React reviews carousel and Guest favourite badge read from this JSON-LD automatically — no separate React edits needed for review count display.
+
+### 2. Sync all public-facing count references
+
+Search the repo for the old total (`"X guest reviews"`, `reviewCount": "X"`) and 5-star count before finishing. Every match below must use the new numbers.
+
+**`index.html`**
+- Meta tags: `description`, `DC.description`, `og:description`, `twitter:description`
+- Organization JSON-LD `"description"` (WebSite/Organization block)
+- FAQ JSON-LD `"text"` entries that mention review count
+- `#seo-content` hidden SEO paragraphs
+- React/noscript property overview copy (`"Rated 4.91 out of 5 from X guest reviews"`, `"With X guest reviews"`)
+
+**`blog-corydon-cute-stylish-winnipeg-airbnb.html`**
+- Meta tags: `description`, `og:description`, `twitter:description`
+- Article body copy (`"With X guest reviews"`, `"Our X guest reviews speak"`, etc.)
+- Page JSON-LD: `"description"` and `"aggregateRating.reviewCount"`
+
+**`blog.html`**
+- `<noscript>` article card description for the Corydon post
+- JSON-LD `"blogPost"` array entry description for the Corydon post
+
+**`articles-data.js`**
+- `description` field for `/blog-corydon-cute-stylish-winnipeg-airbnb.html` (drives the React blog listing)
+
+**`articles_data.json`**
+- Same Corydon post `description` (legacy fallback data — keep in sync with `articles-data.js`)
+
+**`llms.txt`**
+- `# Key Features` line: `"X 5-star reviews (Y total reviews, Z average rating)"`
+- `# Review update workflow` section if guidance changed
+
+### 3. Finish required maintenance
+
+- Update `sitemap.xml` `<lastmod>` to today's date (`YYYY-MM-DD`) for every modified page:
+  - `https://staywinnipeg.ca/` (`index.html`)
+  - `https://staywinnipeg.ca/blog.html`
+  - `https://staywinnipeg.ca/blog-corydon-cute-stylish-winnipeg-airbnb.html`
+- Update `llms.txt` `# Last Updated` date when property stats change.
+- Run required `pa11y` checks for edited pages (`index.html`, `blog.html`, `blog-corydon-cute-stylish-winnipeg-airbnb.html`, plus required homepage/blog/tours checks).
+
+### 4. Verification checklist
+
+Before finishing, confirm:
+
+- [ ] No stale total counts remain (`grep` for old `"X guest reviews"` and `reviewCount": "X"`)
+- [ ] `aggregateRating.reviewCount` in both `index.html` and `blog-corydon-cute-stylish-winnipeg-airbnb.html` matches the user's stated total
+- [ ] `articles-data.js` and `articles_data.json` Corydon descriptions match `blog.html` and the blog post
+- [ ] `llms.txt` documents both 5-star and total counts
+- [ ] New review objects appear at the top of the `"review"` array in `index.html`
 
 ## Content Categories
 
