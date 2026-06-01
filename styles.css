@@ -1459,8 +1459,8 @@ footer::before {
     }
 
     .review-text {
-        font-size: 0.95rem;
-        line-height: 1.6;
+        font-size: 0.8125rem;
+        line-height: 1.55;
     }
 
     .review-slide {
@@ -2112,7 +2112,7 @@ html {
 .review-text {
     color: var(--text);
     line-height: 1.5;
-    font-size: 0.98rem;
+    font-size: 0.875rem;
     position: relative;
     z-index: 1;
 }
