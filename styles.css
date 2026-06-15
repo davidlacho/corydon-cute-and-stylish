@@ -2676,14 +2676,6 @@ html {
     font-family: var(--font-heading);
 }
 
-.amenity-category-subtitle {
-    margin: -0.35rem 0 0.65rem;
-    font-size: 0.78rem;
-    color: var(--text-light);
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-}
-
 .amenity-category-icon {
     font-size: 1.3rem;
 }

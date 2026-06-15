@@ -3267,25 +3267,6 @@
                 }
             ];
 
-            const chunkAmenities = (items, size = 4) => {
-                const chunks = [];
-                for (let i = 0; i < items.length; i += size) {
-                    chunks.push(items.slice(i, i + size));
-                }
-                return chunks;
-            };
-
-            const amenityCards = amenityCategories.flatMap((category) => {
-                const groupedItems = chunkAmenities(category.items, 4);
-                return groupedItems.map((group, groupIndex) => ({
-                    icon: category.icon,
-                    title: category.title,
-                    group,
-                    groupIndex,
-                    groupCount: groupedItems.length
-                }));
-            });
-
             return (
                 <>
                     <NavigationComponent />
@@ -3444,19 +3425,14 @@
                         <div className="container">
                             <h2 id="amenities-heading" className="section-title">Winnipeg Airbnb Amenities & Features</h2>
                             <div className="amenities-grid">
-                                {amenityCards.map((card, cardIndex) => (
-                                    <div key={`${card.title}-${cardIndex}`} className="amenity-category fade-in-up">
+                                {amenityCategories.map((category) => (
+                                    <div key={category.title} className="amenity-category fade-in-up">
                                         <h3 className="amenity-category-title">
-                                            <span className="amenity-category-icon" aria-hidden="true">{card.icon}</span>
-                                            {card.title}
+                                            <span className="amenity-category-icon" aria-hidden="true">{category.icon}</span>
+                                            {category.title}
                                         </h3>
-                                        {card.groupCount > 1 && (
-                                            <p className="amenity-category-subtitle">
-                                                Group {card.groupIndex + 1} of {card.groupCount}
-                                            </p>
-                                        )}
                                         <ul className="amenity-list">
-                                            {card.group.map((item) => (
+                                            {category.items.map((item) => (
                                                 <li key={item} className="amenity-item">
                                                     <span className="amenity-item-icon" aria-hidden="true">✓</span>
                                                     <span className="amenity-item-text">{item}</span>
