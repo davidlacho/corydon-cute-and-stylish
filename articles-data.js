@@ -266,10 +266,10 @@ const ARTICLES_DATA = [
     "url": "/blog-corydon-cute-stylish-winnipeg-airbnb.html",
     "category": "winnipeg",
     "date": "2025-12-05",
-    "title": "Corydon Cute & Stylish: Your Perfect Winnipeg Airbnb Experience",
+    "title": "Stay Winnipeg: Your Perfect Winnipeg Airbnb Experience",
     "image": "images/2025-10-09-5-Ruskin-Row-00001.jpg",
-    "imageAlt": "Corydon Cute & Stylish - Mid-century modern Airbnb in Winnipeg",
-    "description": "Discover why Corydon Cute & Stylish is Winnipeg's top-rated Airbnb. Mid-century modern 3-bedroom home in historic Crescentwood with 99 guest reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
+    "imageAlt": "Stay Winnipeg - Mid-century modern Airbnb in Winnipeg",
+    "description": "Discover why Stay Winnipeg is Winnipeg's top-rated Airbnb. Mid-century modern 3-bedroom home in historic Crescentwood with 99 guest reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
     "metaHtml": "<span>🏠 Winnipeg Accommodations</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 5, 2025</span>"
   },
   {
@@ -348,7 +348,7 @@ const ARTICLES_DATA = [
     "date": "2025-11-20",
     "title": "Setting Up Guests for Success: Our Complete Winnipeg Airbnb Guide",
     "image": "images/2025-10-09-5-Ruskin-Row-00001.jpg",
-    "imageAlt": "Corydon Cute & Stylish Airbnb in Winnipeg's Corydon neighborhood",
+    "imageAlt": "Stay Winnipeg Airbnb in Winnipeg's Corydon neighborhood",
     "description": "Discover how we set up our guests for a successful stay in Winnipeg. From winter parking tips to energy conservation, learn about our comprehensive guest guide and house rules designed to help ensure a comfortable Winnipeg experience.",
     "metaHtml": "<span>🏠 Hosting Tips</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 November 20, 2025</span>"
   },

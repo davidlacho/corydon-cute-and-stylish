@@ -811,7 +811,7 @@ Use proper semantic HTML elements:
 
 ```html
 <!-- Good: Descriptive alt text -->
-<img src="image.jpg" alt="Mid-century modern living room in Corydon Cute & Stylish Airbnb Winnipeg" loading="lazy">
+<img src="image.jpg" alt="Mid-century modern living room in Stay Winnipeg Airbnb Winnipeg" loading="lazy">
 
 <!-- Good: Decorative image (use empty alt) -->
 <img src="decoration.jpg" alt="" role="presentation">
