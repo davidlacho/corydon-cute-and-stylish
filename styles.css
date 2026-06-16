@@ -1754,6 +1754,26 @@ footer::before {
     line-height: 1;
 }
 
+.location-marker-pin {
+    background-color: var(--burnt-orange, #C75A3D);
+    width: 30px;
+    height: 30px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    border: 2.5px solid white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.location-marker-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    font-size: 15px;
+    line-height: 1;
+}
+
 .map-popup {
     text-align: center;
     padding: 5px;
@@ -2472,6 +2492,18 @@ html {
 }
 
 .custom-airbnb-marker div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-location-marker {
+    background: transparent !important;
+    border: none !important;
+}
+
+.custom-location-marker div {
     position: relative;
     display: flex;
     align-items: center;

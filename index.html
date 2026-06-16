@@ -2121,6 +2121,7 @@
             const [mapLoaded, setMapLoaded] = useState(false);
             const [mapLoading, setMapLoading] = useState(false);
             const mapInstanceRef = useRef(null);
+            const locationMarkersRef = useRef([]);
             
             // Lazy load Leaflet and initialize map
             useEffect(() => {
@@ -2176,6 +2177,32 @@
                             fillOpacity: 0.1,
                             radius: 500 // 500 meters radius for walking distance
                         }).addTo(map);
+
+                        // Add a marker for each nearby location with its emoji
+                        locationMarkersRef.current = allLocations.map((loc) => {
+                            const locationIcon = L.divIcon({
+                                className: 'custom-location-marker',
+                                html: `<div class="location-marker-pin"><span class="location-marker-icon">${loc.icon}</span></div>`,
+                                iconSize: [30, 30],
+                                iconAnchor: [15, 30],
+                                popupAnchor: [0, -30]
+                            });
+                            const marker = L.marker([loc.lat, loc.lng], { icon: locationIcon });
+                            marker.bindPopup(`
+                                <div class="map-popup">
+                                    <strong class="map-popup-title">${loc.name}</strong><br>
+                                    <span class="map-popup-subtitle">${loc.time} ${loc.distance === 'walking' ? 'walk' : 'drive'}</span>
+                                </div>
+                            `);
+                            return { marker, location: loc };
+                        });
+
+                        // Show markers that match the current filter
+                        locationMarkersRef.current.forEach(({ marker, location }) => {
+                            if (locationMatchesFilter(location, activeFilter)) {
+                                marker.addTo(map);
+                            }
+                        });
 
                         // Invalidate map size to ensure proper rendering after container is visible
                         const invalidateMapSize = () => {
@@ -2247,39 +2274,61 @@
                 };
             }, [mapLoaded, mapLoading]);
 
+            // Toggle location markers on the map when the active filter changes
+            useEffect(() => {
+                const map = mapInstanceRef.current;
+                if (!mapLoaded || !map) return;
+
+                locationMarkersRef.current.forEach(({ marker, location }) => {
+                    const shouldShow = locationMatchesFilter(location, activeFilter);
+                    if (shouldShow && !map.hasLayer(marker)) {
+                        marker.addTo(map);
+                    } else if (!shouldShow && map.hasLayer(marker)) {
+                        map.removeLayer(marker);
+                    }
+                });
+            }, [activeFilter, mapLoaded]);
+
             const allLocations = [
                 // Walking Distance
-                { name: "Enderton (Peanut) Park", time: "1 min", icon: "🌳", category: "parks", distance: "walking" },
-                { name: "Wellington Crescent Riverwalk", time: "5 min", icon: "🚶‍♀️", category: "parks", distance: "walking" },
-                { name: "Corydon \"Little Italy\"", time: "4 min", icon: "🍝", category: "dining", distance: "walking" },
-                { name: "Crescentwood Community Centre", time: "6 min", icon: "🏛️", category: "community", distance: "walking" },
-                { name: "Groceries", time: "4 min", icon: "🛒", category: "shopping", distance: "walking" },
-                { name: "Corydon Avenue Restaurants", time: "3 min", icon: "🍽️", category: "dining", distance: "walking" },
-                { name: "Local Cafes & Coffee Shops", time: "3 min", icon: "☕", category: "dining", distance: "walking" },
-                { name: "Boutique Shops", time: "4 min", icon: "👗", category: "shopping", distance: "walking" },
-                { name: "Liquor Mart (Osborne Village)", time: "12 min", icon: "🍷", category: "shopping", distance: "walking" },
-                { name: "Pharmacy", time: "5 min", icon: "💊", category: "shopping", distance: "walking" },
-                { name: "Banks & ATMs", time: "4 min", icon: "🏦", category: "shopping", distance: "walking" },
-                { name: "Fitness Centers", time: "6 min", icon: "💪", category: "community", distance: "walking" },
-                { name: "Public Transit Stops", time: "2 min", icon: "🚌", category: "transportation", distance: "walking" },
-                { name: "Osborne Village", time: "12 min", icon: "🏘️", category: "shopping", distance: "walking" },
+                { name: "Enderton (Peanut) Park", time: "1 min", icon: "🌳", category: "parks", distance: "walking", lat: 49.87248, lng: -97.16052 },
+                { name: "Wellington Crescent Riverwalk", time: "5 min", icon: "🚶‍♀️", category: "parks", distance: "walking", lat: 49.86990, lng: -97.16500 },
+                { name: "Corydon \"Little Italy\"", time: "4 min", icon: "🍝", category: "dining", distance: "walking", lat: 49.87430, lng: -97.15450 },
+                { name: "Crescentwood Community Centre", time: "6 min", icon: "🏛️", category: "community", distance: "walking", lat: 49.87405, lng: -97.16560 },
+                { name: "Groceries", time: "4 min", icon: "🛒", category: "shopping", distance: "walking", lat: 49.87420, lng: -97.15100 },
+                { name: "Corydon Avenue Restaurants", time: "3 min", icon: "🍽️", category: "dining", distance: "walking", lat: 49.87435, lng: -97.15700 },
+                { name: "Local Cafes & Coffee Shops", time: "3 min", icon: "☕", category: "dining", distance: "walking", lat: 49.87440, lng: -97.15900 },
+                { name: "Boutique Shops", time: "4 min", icon: "👗", category: "shopping", distance: "walking", lat: 49.87432, lng: -97.15550 },
+                { name: "Liquor Mart (Osborne Village)", time: "12 min", icon: "🍷", category: "shopping", distance: "walking", lat: 49.87770, lng: -97.14560 },
+                { name: "Pharmacy", time: "5 min", icon: "💊", category: "shopping", distance: "walking", lat: 49.87385, lng: -97.16250 },
+                { name: "Banks & ATMs", time: "4 min", icon: "🏦", category: "shopping", distance: "walking", lat: 49.87425, lng: -97.16050 },
+                { name: "Fitness Centers", time: "6 min", icon: "💪", category: "community", distance: "walking", lat: 49.87360, lng: -97.15720 },
+                { name: "Public Transit Stops", time: "2 min", icon: "🚌", category: "transportation", distance: "walking", lat: 49.87305, lng: -97.16170 },
+                { name: "Osborne Village", time: "12 min", icon: "🏘️", category: "shopping", distance: "walking", lat: 49.87800, lng: -97.14500 },
                 
                 // Short Drive
-                { name: "Assiniboine Park & The Leaf & Zoo", time: "7 min", icon: "🦁", category: "parks", distance: "driving" },
-                { name: "University of Winnipeg", time: "7 min", icon: "🎓", category: "education", distance: "driving" },
-                { name: "Manitoba Legislative Building", time: "8 min", icon: "🏛️", category: "culture", distance: "driving" },
-                { name: "Winnipeg Art Gallery – Qaumajuq", time: "8 min", icon: "🎨", category: "culture", distance: "driving" },
-                { name: "Polo Park Shopping Centre", time: "8 min", icon: "🛍️", category: "shopping", distance: "driving" },
-                { name: "The Forks Market", time: "9 min", icon: "🍴", category: "dining", distance: "driving" },
-                { name: "Canadian Museum for Human Rights", time: "9 min", icon: "🏛️", category: "culture", distance: "driving" },
-                { name: "Canada Life Centre (Arena)", time: "10 min", icon: "🏒", category: "entertainment", distance: "driving" },
-                { name: "Royal Manitoba Theatre Centre", time: "10 min", icon: "🎭", category: "entertainment", distance: "driving" },
-                { name: "Winnipeg Union Station (VIA Rail)", time: "10 min", icon: "🚂", category: "transportation", distance: "driving" },
-                { name: "Royal Aviation Museum", time: "11 min", icon: "✈️", category: "culture", distance: "driving" },
-                { name: "Portage & Main (Downtown Core)", time: "11 min", icon: "🏙️", category: "shopping", distance: "driving" },
-                { name: "Airport (YWG)", time: "12 min", icon: "🛫", category: "transportation", distance: "driving" },
-                { name: "IG Field / Blue Bombers Stadium", time: "17 min", icon: "🏈", category: "entertainment", distance: "driving" }
+                { name: "Assiniboine Park & The Leaf & Zoo", time: "7 min", icon: "🦁", category: "parks", distance: "driving", lat: 49.87030, lng: -97.23860 },
+                { name: "University of Winnipeg", time: "7 min", icon: "🎓", category: "education", distance: "driving", lat: 49.89090, lng: -97.15350 },
+                { name: "Manitoba Legislative Building", time: "8 min", icon: "🏛️", category: "culture", distance: "driving", lat: 49.88840, lng: -97.14940 },
+                { name: "Winnipeg Art Gallery – Qaumajuq", time: "8 min", icon: "🎨", category: "culture", distance: "driving", lat: 49.88980, lng: -97.15300 },
+                { name: "Polo Park Shopping Centre", time: "8 min", icon: "🛍️", category: "shopping", distance: "driving", lat: 49.88890, lng: -97.20320 },
+                { name: "The Forks Market", time: "9 min", icon: "🍴", category: "dining", distance: "driving", lat: 49.88810, lng: -97.13060 },
+                { name: "Canadian Museum for Human Rights", time: "9 min", icon: "🏛️", category: "culture", distance: "driving", lat: 49.89090, lng: -97.13060 },
+                { name: "Canada Life Centre (Arena)", time: "10 min", icon: "🏒", category: "entertainment", distance: "driving", lat: 49.89270, lng: -97.14360 },
+                { name: "Royal Manitoba Theatre Centre", time: "10 min", icon: "🎭", category: "entertainment", distance: "driving", lat: 49.89950, lng: -97.14190 },
+                { name: "Winnipeg Union Station (VIA Rail)", time: "10 min", icon: "🚂", category: "transportation", distance: "driving", lat: 49.88750, lng: -97.13300 },
+                { name: "Royal Aviation Museum", time: "11 min", icon: "✈️", category: "culture", distance: "driving", lat: 49.90470, lng: -97.22780 },
+                { name: "Portage & Main (Downtown Core)", time: "11 min", icon: "🏙️", category: "shopping", distance: "driving", lat: 49.89510, lng: -97.13840 },
+                { name: "Airport (YWG)", time: "12 min", icon: "🛫", category: "transportation", distance: "driving", lat: 49.91000, lng: -97.23990 },
+                { name: "IG Field / Blue Bombers Stadium", time: "17 min", icon: "🏈", category: "entertainment", distance: "driving", lat: 49.80780, lng: -97.14300 }
             ];
+
+            const locationMatchesFilter = (loc, filter) => {
+                if (filter === 'all') return true;
+                if (filter === 'walking') return loc.distance === 'walking';
+                if (filter === 'driving') return loc.distance === 'driving';
+                return loc.category === filter;
+            };
 
             const filters = [
                 { id: 'all', label: 'All Locations', icon: '📍' },
