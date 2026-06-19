@@ -32,7 +32,7 @@ Total Blog Posts: 86
 - /blog-christmas-winnipeg.html - Things to Do in Winnipeg During Christmas & Winter Break 2026
 - /blog-24-hour-winnipeg-budget.html - 24 Hours in Winnipeg on a Budget: Complete Free & Cheap Things Itinerary 2026
 - /blog-assiniboine-park.html - Assiniboine Park & The Leaf: Zoo, Gardens & Complete Visitor Guide
-- /blog-corydon-cute-stylish-winnipeg-airbnb.html - Stay Winnipeg: Your Perfect Winnipeg Airbnb Experience
+- /blog-corydon-cute-stylish-winnipeg-airbnb.html - Stay Winnipeg: Your Crescentwood Airbnb Guide
 - /blog-corydon-guide.html - Corydon Village: Little Italy Guide (Restaurants, Cafes & Things to Do)
 - /blog-crescentwood-history.html - The History of Crescentwood: Winnipeg's Most Prestigious Neighborhood
 - /blog-crescentwood-liveable.html - Best Area Winnipeg: Why Crescentwood is the Safest & Most Liveable Neighborhood
@@ -125,7 +125,7 @@ Registration: STRA-2025-2600298
 - Mid-century modern design
 - 3 bedrooms, 2 bathrooms
 - Located in Corydon neighborhood
-- 93 5-star reviews (99 total reviews, 4.92 average rating)
+- 97 5-star reviews (103 total reviews, 4.92 average rating)
 - Rated 4.92 out of 5; Superhost; Guest favourite; top 10% of eligible listings based on ratings, reviews, and reliability
 - Category ratings: Cleanliness 4.9; Accuracy 4.9; Check-in 5.0; Communication 5.0; Location 5.0; Value 4.9
 - Family-friendly
@@ -215,5 +215,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
-June 13, 2026
+June 17, 2026
 
