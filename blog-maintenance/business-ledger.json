@@ -1,0 +1,26 @@
+{
+  "_comment": "Rotation ledger for the daily blog-freshness cron. Each run verifies only the STALEST few businesses (oldest last_verified), so the agent never re-checks everything at once. After verifying, set last_verified to the run date (YYYY-MM-DD) and record the outcome in CHANGELOG.md. 'page' is the blog page the business appears on.",
+  "rotation_batch_size": 4,
+  "businesses": [
+    {"name": "Passero Restaurant", "address": "774 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Forgotten Flavours", "address": "858 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Colosseo Ristorante Italiano", "address": "670 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Bar Italia", "address": "737 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Peking Chinese Food Ltd.", "address": "840 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Cafe 22", "address": "823 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Saffron's Restaurant", "address": "681 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Santa Lucia Pizza", "address": "905 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Saperavi Georgian Cuisine", "address": "709 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Starbucks", "address": "946 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Sugar + Salt Bakeshoppe", "address": "897 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Sunshine Chinese Restaurant", "address": "635 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Sushi Ya", "address": "659 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "The Cheesemongers Fromagerie", "address": "839 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "The Mighty Kiwi Juice Bar & Eatery", "address": "709 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "The Roost", "address": "651 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Thom Bargen Coffee Roasters", "address": "743 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Tim Horton's", "address": "949 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Tommy's Pizzeria", "address": "842 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"},
+    {"name": "Wako Sushi Café", "address": "875 Corydon Ave", "page": "blog-corydon-guide.html", "status": "open", "last_verified": "2026-07-23"}
+  ]
+}
