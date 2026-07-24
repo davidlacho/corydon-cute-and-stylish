@@ -43,6 +43,25 @@ Determine today's date with `date -u +%F` and use it wherever a run date is need
      (match the existing object shape: `url`, `category`, `date`, `title`,
      `image`, `imageAlt`, `description`, `metaHtml`). Use `"category": "winnipeg"`
      for guest guides. `date` is today (`YYYY-MM-DD`).
+   - Choose the `image` so it matches the post's actual subject and place.
+     Priority order:
+     1. **A local file in `images/`.** This is strongly preferred. Run
+        `ls images/` and pick the closest match: the `guidebook-winnipeg-*`
+        photos are real Corydon/Winnipeg businesses (coffee, restaurants,
+        breweries, parks), and files like `coffee-cafe.jpg`, `forks-river.jpg`,
+        `assiniboine-park.jpg`, `pasta-dish.jpg` cover common topics. Reference
+        it as `images/<file>` (relative), matching how existing entries do.
+     2. If nothing local fits, use an Unsplash photo of the **specific subject**
+        (a cup of coffee, a patio table, a plate of food, a park path, snow on a
+        residential street), not a generic "city" shot.
+     Set `imageAlt` to describe what the photo actually shows.
+   - **Never use a skyline, downtown-tower, or cityscape photo of a large city.**
+     Winnipeg is a low-rise prairie city, so a generic big-city skyline (New
+     York, Toronto, Chicago, an anonymous glass-tower downtown) looks wrong on a
+     guest guide and misrepresents the neighbourhood. Skip any image whose main
+     subject is a distant city skyline or a dense high-rise cluster. When in
+     doubt, prefer a close-up of the food, drink, storefront, park, or street the
+     post is actually about.
    - Add a `<url>` entry for the new page to `sitemap.xml` with today's
      `<lastmod>`.
 5. Move the used idea from "Queue" to "Used" in `post-ideas.md` with today's date,
@@ -69,4 +88,6 @@ Determine today's date with `date -u +%F` and use it wherever a run date is need
 - Never fabricate facts. Prefer leaving content unchanged over guessing.
 - Stay within each guide's stated geographic scope (e.g. the Corydon guide covers
   Osborne St to Cambridge St).
+- Images must fit the subject and the place. Prefer local `images/` photos; never
+  use a generic big-city skyline or cityscape (see Part 2, step 4).
 - Only touch files in this repository.
