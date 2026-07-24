@@ -7,7 +7,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-07-24",
     "title": "Best patios on and near Corydon this season",
-    "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-03-the-roost-on-corydon.jpg",
     "imageAlt": "Outdoor patio seating along a tree-lined stretch of Corydon Avenue",
     "description": "A guest guide to the best patios on and near Corydon Avenue this season, from rooftop lounges to streetside courtyard seating in Winnipeg's Little Italy.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 July 24, 2026</span>"
@@ -27,7 +27,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-13",
     "title": "Rainy day Winnipeg itinerary: indoor attractions from Corydon",
-    "image": "https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=1200&h=800&fit=crop",
+    "image": "https://staywinnipeg.ca/images/human-rights-museum.jpg",
     "imageAlt": "Canadian Museum for Human Rights exterior under cloudy sky",
     "description": "An indoor Winnipeg itinerary for rainy days with museums, galleries, food halls, and practical transport planning from Corydon.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 June 13, 2026</span>"
@@ -37,7 +37,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-11",
     "title": "Day trips near Winnipeg from Corydon: beaches, prairie towns, and parks",
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Road trip planning scene for Manitoba day outings from Winnipeg",
     "description": "Plan easy day trips from Corydon to nearby Manitoba destinations including beach towns, prairie communities, and outdoor parks.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 June 11, 2026</span>"
@@ -47,7 +47,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-09",
     "title": "Corydon to The Forks by bike or foot: route options and stopovers",
-    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://staywinnipeg.ca/images/river_trail.png",
     "imageAlt": "River pathway near The Forks with bridge and skyline views",
     "description": "Route ideas for getting from Corydon to The Forks on foot or by bike, with practical rest stops, crossing notes, and timing expectations.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 June 9, 2026</span>"
@@ -77,7 +77,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-03",
     "title": "FortWhyte Alive visitor guide: bison trails, lakes, and transit access",
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://staywinnipeg.ca/images/assiniboine-park.jpg",
     "imageAlt": "Outdoor trail scene at a Winnipeg nature area with open sky and trees",
     "description": "Visit FortWhyte Alive with a clear plan for trail loops, bison viewing areas, admission notes, and transit access from central Winnipeg.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 June 3, 2026</span>"
@@ -87,7 +87,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-06-01",
     "title": "Exchange District self-guided tour: architecture, coffee, and murals",
-    "image": "https://images.unsplash.com/photo-1560439514-4e9645039924?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-46-exchange-district.jpg",
     "imageAlt": "Historic warehouse buildings in Winnipeg Exchange District streetscape",
     "description": "Use this self-guided Exchange District route for architecture blocks, coffee breaks, and mural stops with practical timing from Corydon.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 June 1, 2026</span>"
@@ -107,7 +107,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-05-28",
     "title": "The Forks and CMHR in one day: market, galleries, and riverfront timing",
-    "image": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://staywinnipeg.ca/images/forks-river.jpg",
     "imageAlt": "The Forks riverside area and market buildings in downtown Winnipeg",
     "description": "Plan one day at The Forks and the Canadian Museum for Human Rights with current opening hours, ticket notes, and a practical route from Corydon.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 28, 2026</span>"
@@ -117,7 +117,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-05-26",
     "title": "Corydon and Confusion Corner walking guide: routes, stops, and timing",
-    "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-01-bar-italia.jpg",
     "imageAlt": "Pedestrian-friendly stretch of Corydon Avenue near local shops and patios",
     "description": "A practical walking guide around Corydon and Confusion Corner: route ideas, coffee and gelato stops, Osborne links, and timing from Crescentwood.",
     "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 26, 2026</span>"
@@ -267,7 +267,7 @@ const ARTICLES_DATA = [
     "category": "winnipeg",
     "date": "2026-02-03",
     "title": "Winnipeg Snow Clearing Map: Real-Time Sidewalk & Pathway Updates",
-    "image": "https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=1200&h=800&fit=crop",
+    "image": "https://staywinnipeg.ca/images/winter-activities.jpg",
     "imageAlt": "Snow-covered sidewalk with cleared path in winter",
     "description": "The City of Winnipeg now updates sidewalk and pathway snow-clearing progress every 15 minutes via AVL. Learn how to use the snow operations map, when to report missed clearing, and stay safe in winter.",
     "metaHtml": "<span>❄️ Winnipeg Winter</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 February 3, 2026</span>"
