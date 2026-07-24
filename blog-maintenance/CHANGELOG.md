@@ -7,6 +7,24 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-07-24
+
+- **Businesses verified:** 4 of 20 (rotation batch). Passero Restaurant (774
+  Corydon Ave), Forgotten Flavours (858 Corydon Ave), Colosseo Ristorante
+  Italiano (670 Corydon Ave), and Bar Italia (737 Corydon Ave) — all confirmed
+  open via current listings, active official sites, and recent reviews. No
+  closures, moves, or renames found; no page corrections needed.
+- **Pages updated:** none (all four checked businesses remain accurate as
+  listed on `blog-corydon-guide.html`).
+- **New post published:** `blog-best-corydon-patios.html` — "Best patios on
+  and near Corydon this season." Registered in `articles-data.js` and
+  `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four stalest remaining
+  Corydon guide businesses (Peking Chinese Food Ltd., Cafe 22, Saffron's
+  Restaurant, Santa Lucia Pizza), all still dated 2026-07-23.
+
+---
+
 ## 2026-07-23 (manual seed)
 
 - **Businesses verified:** All 20 Corydon guide listings checked; all confirmed

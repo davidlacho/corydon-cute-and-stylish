@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-best-corydon-patios.html",
+    "category": "winnipeg",
+    "date": "2026-07-24",
+    "title": "Best patios on and near Corydon this season",
+    "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Outdoor patio seating along a tree-lined stretch of Corydon Avenue",
+    "description": "A guest guide to the best patios on and near Corydon Avenue this season, from rooftop lounges to streetside courtyard seating in Winnipeg's Little Italy.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 July 24, 2026</span>"
+  },
+  {
     "url": "/blog-smart-tv-every-bedroom.html",
     "category": "hosting",
     "date": "2026-05-26",
