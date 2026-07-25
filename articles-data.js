@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-coffee-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-07-25",
+    "title": "Where to get coffee within a 10-minute walk of the Airbnb",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-04-thom-bargen-coffee-roasters.jpg",
+    "imageAlt": "Coffee being prepared at Thom Bargen Coffee Roasters on Corydon Avenue",
+    "description": "A guest guide to coffee on and around Corydon Avenue: the local roaster, bakery cafes with real coffee programs, and dependable chain stops, all a short walk from the Airbnb.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 July 25, 2026</span>"
+  },
+  {
     "url": "/blog-best-corydon-patios.html",
     "category": "winnipeg",
     "date": "2026-07-24",

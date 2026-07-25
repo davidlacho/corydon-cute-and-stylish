@@ -11,7 +11,6 @@ cannot verify; keep unverifiable specifics general.
 
 ## Queue (use top-down)
 
-- Where to get coffee within a 10-minute walk of the Airbnb
 - A rainy-afternoon plan starting from Corydon
 - Vegetarian and vegan eats around Corydon Village
 - Late-night bites near Corydon after 10pm
@@ -30,3 +29,4 @@ cannot verify; keep unverifiable specifics general.
 
 - 2026-07-23 - (seed) - none yet
 - 2026-07-24 - best-corydon-patios - Best patios on and near Corydon this season
+- 2026-07-25 - coffee-near-corydon-airbnb - Where to get coffee within a 10-minute walk of the Airbnb
