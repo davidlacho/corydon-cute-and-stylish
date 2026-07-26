@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-rainy-afternoon-on-corydon.html",
+    "category": "winnipeg",
+    "date": "2026-07-26",
+    "title": "A rainy afternoon that never leaves Corydon Avenue",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-00-the-cheesemongers-fromagerie.jpg",
+    "imageAlt": "Interior of The Cheesemongers Fromagerie on Corydon Avenue",
+    "description": "A guest guide to a rainy afternoon spent entirely on Corydon Avenue: an indoor deli browse, a sit-down lunch, and coffee and something sweet to finish, all a short walk from the Airbnb.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 July 26, 2026</span>"
+  },
+  {
     "url": "/blog-coffee-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-07-25",

@@ -7,6 +7,31 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-07-26
+
+- **Businesses verified:** 4 of 20 (rotation batch). Saperavi Georgian Cuisine
+  (709 Corydon Ave), Starbucks (946 Corydon Ave), and Sugar + Salt Bakeshoppe
+  (897 Corydon Ave) confirmed open via current official sites/listings and
+  recent reviews. **Sunshine Chinese Restaurant (635 Corydon Ave) confirmed
+  permanently closed** — its own site (winnipegsunshine.com) now shows a
+  closure notice ("We Are Now Closed. Thank you for all the love, support,
+  and memories over the years.").
+- **Pages updated:** `blog-corydon-guide.html` — removed the Sunshine Chinese
+  Restaurant listing from the restaurant list; updated modified dates. No new
+  replacement business added (none identified that clearly fits the guide's
+  scope and quality bar).
+- **New post published:** `blog-rainy-afternoon-on-corydon.html` — "A rainy
+  afternoon that never leaves Corydon Avenue." A stay-on-Corydon indoor plan
+  (Cheesemongers Fromagerie, a sit-down Italian lunch, Thom Bargen coffee,
+  Sugar + Salt dessert), deliberately distinct from the existing downtown
+  museum-focused rainy-day post. Registered in `articles-data.js` and
+  `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four stalest remaining
+  Corydon guide businesses (Sushi Ya, The Cheesemongers Fromagerie, The
+  Mighty Kiwi Juice Bar & Eatery, The Roost), all still dated 2026-07-23.
+
+---
+
 ## 2026-07-25
 
 - **Businesses verified:** 4 of 20 (rotation batch). Peking Chinese Food Ltd.
