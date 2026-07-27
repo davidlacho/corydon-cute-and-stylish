@@ -7,6 +7,28 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-07-27
+
+- **Businesses verified:** 4 of 20 (rotation batch). Sushi Ya (659 Corydon
+  Ave), The Cheesemongers Fromagerie (839 Corydon Ave), The Mighty Kiwi
+  Juice Bar & Eatery (709 Corydon Ave), and The Roost (651 Corydon Ave) —
+  all confirmed open via current listings, active official sites/social
+  pages, and reviews updated as recently as July 2026. No closures, moves,
+  or renames found; no page corrections needed.
+- **Pages updated:** none (all four checked businesses remain accurate as
+  listed on `blog-corydon-guide.html`).
+- **New post published:** `blog-vegetarian-vegan-eats-corydon.html` —
+  "Vegetarian and vegan eats around Corydon Village." Covers The Mighty
+  Kiwi (fully plant-based menu), The Roost (vegetarian small plates), Bar
+  Italia (vegetarian pizza), and Saperavi Georgian Cuisine (marked
+  vegetarian dishes), all sourced from current menus/listings found during
+  verification. Registered in `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four stalest remaining
+  Corydon guide businesses (Thom Bargen Coffee Roasters, Tim Horton's,
+  Tommy's Pizzeria, Wako Sushi Café), all still dated 2026-07-23.
+
+---
+
 ## 2026-07-26
 
 - **Businesses verified:** 4 of 20 (rotation batch). Saperavi Georgian Cuisine

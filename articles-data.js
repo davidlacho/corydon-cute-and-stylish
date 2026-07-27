@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-vegetarian-vegan-eats-corydon.html",
+    "category": "winnipeg",
+    "date": "2026-07-27",
+    "title": "Vegetarian and vegan eats around Corydon Village",
+    "image": "https://staywinnipeg.ca/images/pasta-dish.jpg",
+    "imageAlt": "Bowl of tomato-based pasta, a meat-free dish typical of Corydon's Italian kitchens",
+    "description": "A guest guide to vegetarian and vegan-friendly options on Corydon Avenue, from a dedicated plant-based juice bar to Italian and Georgian kitchens with meat-free dishes, all a short walk from the Airbnb.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 July 27, 2026</span>"
+  },
+  {
     "url": "/blog-rainy-afternoon-on-corydon.html",
     "category": "winnipeg",
     "date": "2026-07-26",

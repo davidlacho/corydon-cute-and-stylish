@@ -11,7 +11,6 @@ cannot verify; keep unverifiable specifics general.
 
 ## Queue (use top-down)
 
-- Vegetarian and vegan eats around Corydon Village
 - Late-night bites near Corydon after 10pm
 - A first-timer's half-day walking loop of Little Italy
 - Grocery runs and quick essentials near the Airbnb
@@ -30,3 +29,4 @@ cannot verify; keep unverifiable specifics general.
 - 2026-07-24 - best-corydon-patios - Best patios on and near Corydon this season
 - 2026-07-25 - coffee-near-corydon-airbnb - Where to get coffee within a 10-minute walk of the Airbnb
 - 2026-07-26 - rainy-afternoon-on-corydon - A rainy afternoon that never leaves Corydon Avenue
+- 2026-07-27 - vegetarian-vegan-eats-corydon - Vegetarian and vegan eats around Corydon Village
