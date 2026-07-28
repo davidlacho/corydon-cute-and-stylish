@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-late-night-bites-near-corydon.html",
+    "category": "winnipeg",
+    "date": "2026-07-28",
+    "title": "Late-night bites near Corydon after 10pm",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-01-bar-italia.jpg",
+    "imageAlt": "Bar Italia's colourful storefront and patio on Corydon Avenue in the evening",
+    "description": "A guest guide to where to eat and drink on Corydon Avenue after 10pm, from late-closing pizza to a Little Italy bar with a kitchen that keeps going past midnight.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 July 28, 2026</span>"
+  },
+  {
     "url": "/blog-vegetarian-vegan-eats-corydon.html",
     "category": "winnipeg",
     "date": "2026-07-27",

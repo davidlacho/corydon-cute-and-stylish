@@ -7,6 +7,30 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-07-28
+
+- **Businesses verified:** 4 of 20 (rotation batch). Thom Bargen Coffee
+  Roasters (743 Corydon Ave), Tim Horton's (949 Corydon Ave), Tommy's
+  Pizzeria (842 Corydon Ave), and Wako Sushi Café (875 Corydon Ave) — all
+  confirmed open via current listings, active official sites/social pages,
+  and reviews updated as recently as July 2026. No closures, moves, or
+  renames found; no page corrections needed.
+- **Pages updated:** none (all four checked businesses remain accurate as
+  listed on `blog-corydon-guide.html`).
+- **New post published:** `blog-late-night-bites-near-corydon.html` —
+  "Late-night bites near Corydon after 10pm." Covers Santa Lucia Pizza
+  (open until midnight/1am), Bar Italia (open until 2am nightly), The Roost
+  (small plates until midnight/2am), and Tim Horton's (open until 11pm),
+  all sourced from current listed hours found during research. Registered
+  in `articles-data.js` and `sitemap.xml`.
+- **Notes:** This rotation batch completes a full pass of all 20 ledger
+  businesses (each now last_verified between 2026-07-24 and 2026-07-28).
+  Next run will restart the rotation with the four now-stalest entries:
+  Passero Restaurant, Forgotten Flavours, Colosseo Ristorante Italiano, and
+  Bar Italia (774/858/670/737 Corydon Ave), all dated 2026-07-24.
+
+---
+
 ## 2026-07-27
 
 - **Businesses verified:** 4 of 20 (rotation batch). Sushi Ya (659 Corydon
