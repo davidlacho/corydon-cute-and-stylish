@@ -7,6 +7,29 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-07-29
+
+- **Businesses verified:** 4 of 20 (rotation batch, wrapping the rotation back
+  to the first cohort). Passero Restaurant (774 Corydon Ave), Forgotten
+  Flavours (858 Corydon Ave), Colosseo Ristorante Italiano (670 Corydon Ave),
+  and Bar Italia (737 Corydon Ave) all confirmed open via current listings
+  (Yelp, Tourism Winnipeg, active official sites) and recent 2026 reviews. No
+  closures, moves, or renames found; no page corrections needed.
+- **Pages updated:** none (all four checked businesses remain accurate as
+  listed on `blog-corydon-guide.html`).
+- **New post published:** `blog-little-italy-half-day-walking-loop.html` —
+  "A first-timer's half-day walking loop of Little Italy." A there-and-back
+  walking itinerary along Corydon Avenue from the Osborne end toward
+  Cambridge, using only businesses already confirmed open in the ledger
+  (The Roost, Sushi Ya, Colosseo, Thom Bargen Coffee Roasters, The
+  Cheesemongers Fromagerie, Bar Italia, Passero, Sugar + Salt Bakeshoppe).
+  Registered in `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four stalest remaining
+  Corydon guide businesses (Peking Chinese Food Ltd., Cafe 22, Saffron's
+  Restaurant, Santa Lucia Pizza), all dated 2026-07-25.
+
+---
+
 ## 2026-07-28
 
 - **Businesses verified:** 4 of 20 (rotation batch). Thom Bargen Coffee

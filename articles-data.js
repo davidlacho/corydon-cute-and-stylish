@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-little-italy-half-day-walking-loop.html",
+    "category": "winnipeg",
+    "date": "2026-07-29",
+    "title": "A first-timer's half-day walking loop of Little Italy",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-43-little-italy.jpg",
+    "imageAlt": "Storefronts along Corydon Avenue in Winnipeg's Little Italy",
+    "description": "A simple half-day walking loop down Corydon Avenue for first-time guests: coffee, a slow browse, a sit-down lunch, and dessert, covering the Osborne-to-Cambridge stretch of Little Italy on foot.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 July 29, 2026</span>"
+  },
+  {
     "url": "/blog-late-night-bites-near-corydon.html",
     "category": "winnipeg",
     "date": "2026-07-28",
