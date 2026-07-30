@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-grocery-runs-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-07-30",
+    "title": "Grocery runs and quick essentials near the Corydon Airbnb",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-50-red-river-co-op-food-store.jpg",
+    "imageAlt": "Exterior of a grocery store in Winnipeg",
+    "description": "Where to grab groceries, bread, cheese, and pharmacy basics within a short walk or drive of the Corydon/Crescentwood Airbnb, with real addresses and hours.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 July 30, 2026</span>"
+  },
+  {
     "url": "/blog-little-italy-half-day-walking-loop.html",
     "category": "winnipeg",
     "date": "2026-07-29",

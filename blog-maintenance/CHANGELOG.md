@@ -7,6 +7,33 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-07-30
+
+- **Businesses verified:** 4 of 20 (rotation batch, wrapping the rotation back
+  to the second cohort). Peking Chinese Food Ltd. (840 Corydon Ave), Cafe 22
+  (823 Corydon Ave), Saffron's Restaurant (681 Corydon Ave), and Santa Lucia
+  Pizza (905 Corydon Ave) all confirmed open via current listings (Yelp,
+  Tourism Winnipeg, active official sites/social pages) and reviews current
+  as of July 2026. No closures, moves, or renames found; no page corrections
+  needed.
+- **Pages updated:** none (all four checked businesses remain accurate as
+  listed on `blog-corydon-guide.html`).
+- **New post published:** `blog-grocery-runs-near-corydon-airbnb.html` —
+  "Grocery runs and quick essentials near the Corydon Airbnb." Covers 7-Eleven
+  (781 Corydon Ave) for quick top-ups, The Cheesemongers Fromagerie (839
+  Corydon Ave), Forgotten Flavours (858 Corydon Ave), and Sugar + Salt
+  Bakeshoppe (897 Corydon Ave) for bread/deli basics, Safeway (655 Osborne St,
+  Osborne Village) for a full grocery run, and Fair Havens Pharmacy (894
+  Corydon Ave, weekdays only) for pharmacy needs. All addresses and hours
+  confirmed via current listings during research. Registered in
+  `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four stalest remaining
+  Corydon guide businesses (Saperavi Georgian Cuisine, Starbucks, Sugar +
+  Salt Bakeshoppe, Sunshine Chinese Restaurant — note Sunshine is already
+  marked closed in the ledger from the 2026-07-26 run), all dated 2026-07-26.
+
+---
+
 ## 2026-07-29
 
 - **Businesses verified:** 4 of 20 (rotation batch, wrapping the rotation back

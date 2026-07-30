@@ -11,7 +11,6 @@ cannot verify; keep unverifiable specifics general.
 
 ## Queue (use top-down)
 
-- Grocery runs and quick essentials near the Airbnb
 - Family-friendly stops within a short walk
 - Sweet tooth crawl: bakeries, gelato, and dessert on Corydon
 - Winnipeg transit basics: getting downtown from Corydon
@@ -30,3 +29,4 @@ cannot verify; keep unverifiable specifics general.
 - 2026-07-27 - vegetarian-vegan-eats-corydon - Vegetarian and vegan eats around Corydon Village
 - 2026-07-28 - late-night-bites-near-corydon - Late-night bites near Corydon after 10pm
 - 2026-07-29 - little-italy-half-day-walking-loop - A first-timer's half-day walking loop of Little Italy
+- 2026-07-30 - grocery-runs-near-corydon-airbnb - Grocery runs and quick essentials near the Corydon Airbnb
