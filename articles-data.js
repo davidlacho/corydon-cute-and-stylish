@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-family-friendly-stops-near-corydon.html",
+    "category": "winnipeg",
+    "date": "2026-07-31",
+    "title": "Family-friendly stops within a short walk of the Corydon Airbnb",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-36-enderton-park-peanut-park.jpg",
+    "imageAlt": "Enderton Park (Peanut Park), a pocket park with a playground in Crescentwood, Winnipeg",
+    "description": "A guest guide to family-friendly stops within a short walk of the Corydon/Crescentwood Airbnb: a neighbourhood park with a playground, a gelato treat, and easy kid-friendly food on Corydon Avenue.",
+    "metaHtml": "<span>👨‍👩‍👧‍👦 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 July 31, 2026</span>"
+  },
+  {
     "url": "/blog-grocery-runs-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-07-30",

@@ -7,6 +7,36 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-07-31
+
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort).
+  Saperavi Georgian Cuisine (709 Corydon Ave), Starbucks (946 Corydon Ave),
+  and Sugar + Salt Bakeshoppe (897 Corydon Ave) all confirmed open via
+  current listings (Tourism Winnipeg, Yellow Pages, official sites/socials,
+  Chamber of Commerce) with hours current as of July 2026. Sunshine Chinese
+  Restaurant (635 Corydon Ave) reconfirmed closed — its own former website
+  states "We Are Now Closed" — matching its existing `closed` status in the
+  ledger.
+- **Pages updated:** none. All three open businesses remain accurately
+  listed on `blog-corydon-guide.html`; Sunshine Chinese Restaurant was
+  already absent from the page from a prior run, so no further correction
+  was needed.
+- **New post published:** `blog-family-friendly-stops-near-corydon.html` —
+  "Family-friendly stops within a short walk of the Corydon Airbnb." Covers
+  Peanut Park's playground (11 Ruskin Row), a gelato/juice break (Eva's
+  Gelato & Coffee Bar, Nucci's Gelati, The Mighty Kiwi Juice Bar), casual
+  kid-friendly meals (Santa Lucia Pizza, Tommy's Pizzeria, Tim Horton's),
+  and Little Free Libraries in the neighbourhood — all sourced from
+  already-verified facts in the ledger and existing site content, with
+  cross-links to the Peanut Park and Little Free Libraries guides.
+  Registered in `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four now-stalest
+  remaining Corydon guide businesses (Sushi Ya, The Cheesemongers
+  Fromagerie, The Mighty Kiwi Juice Bar & Eatery, The Roost — all dated
+  2026-07-27).
+
+---
+
 ## 2026-07-30
 
 - **Businesses verified:** 4 of 20 (rotation batch, wrapping the rotation back
