@@ -7,6 +7,36 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-01
+
+- **Housekeeping:** The 2026-07-31 run's commit had been made on a detached
+  HEAD and never fast-forwarded onto `main` or pushed, so it was missing from
+  the deployed site. Fast-forwarded local `main` to that commit before
+  starting this run's work; confirmed it matched `origin/main` (already
+  pushed) and no content was lost.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort).
+  Sushi Ya (659 Corydon Ave), The Cheesemongers Fromagerie (839 Corydon Ave),
+  The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave), and The Roost (651
+  Corydon Ave) all confirmed open via current listings (Yelp updated as
+  recently as July 2026, Tourism Winnipeg, active official sites) with no
+  closures, moves, or renames found.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed on `blog-corydon-guide.html`.
+- **New post published:** `blog-sweet-tooth-crawl-corydon-desserts.html` —
+  "Sweet tooth crawl: bakeries, gelato, and dessert on Corydon." Covers
+  Nucci's Gelati (643 Corydon Ave), Eva's Gelato & Coffee Bar (1001 Corydon
+  Ave), and Sugar + Salt Bakeshoppe (897 Corydon Ave), with hours sourced
+  from current listings during research. Deliberately left out Roll Cake
+  Bakery & Dessert (753 Corydon Ave) after research showed it listed as
+  closed, and FrenchWay Cafe & Bakery since its address (238 Lilac Street) is
+  off Corydon Avenue itself. Registered in `articles-data.js` and
+  `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four now-stalest remaining
+  Corydon guide businesses (Thom Bargen Coffee Roasters, Tim Horton's,
+  Tommy's Pizzeria, Wako Sushi Café — all dated 2026-07-28).
+
+---
+
 ## 2026-07-31
 
 - **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort).

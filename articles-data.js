@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-sweet-tooth-crawl-corydon-desserts.html",
+    "category": "winnipeg",
+    "date": "2026-08-01",
+    "title": "Sweet tooth crawl: bakeries, gelato, and dessert on Corydon",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-18-eva-s-gelato-coffee-bar.jpg",
+    "imageAlt": "Eva's Gelato & Coffee Bar on Corydon Avenue, Winnipeg",
+    "description": "A guest guide to dessert on Corydon Avenue: gelato, custom cakes, and homestyle bakes, all within a short walk of the Corydon/Crescentwood Airbnb.",
+    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 1, 2026</span>"
+  },
+  {
     "url": "/blog-family-friendly-stops-near-corydon.html",
     "category": "winnipeg",
     "date": "2026-07-31",
