@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-transit-basics-getting-downtown-from-corydon.html",
+    "category": "winnipeg",
+    "date": "2026-08-02",
+    "title": "Winnipeg Transit basics: getting downtown from Corydon",
+    "image": "https://staywinnipeg.ca/images/transit.avif",
+    "imageAlt": "A Winnipeg Transit bus",
+    "description": "A guest guide to Winnipeg Transit from the Corydon/Crescentwood Airbnb: the local Corydon bus route, the BLUE rapid transit line from nearby Osborne Village, and how to pay your fare.",
+    "metaHtml": "<span>🚌 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 2, 2026</span>"
+  },
+  {
     "url": "/blog-sweet-tooth-crawl-corydon-desserts.html",
     "category": "winnipeg",
     "date": "2026-08-01",

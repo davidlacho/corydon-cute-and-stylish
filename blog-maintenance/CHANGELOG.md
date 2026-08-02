@@ -7,6 +7,37 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-02
+
+- **Housekeeping:** Local `main` was again left on a detached HEAD matching
+  `origin/main` (same pattern as the 2026-08-01 run). Checked out `main`,
+  fast-forwarded it to `origin/main`, and confirmed no content was lost
+  before starting this run's work.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort).
+  Thom Bargen Coffee Roasters (743 Corydon Ave), Tim Horton's (949 Corydon
+  Ave), Tommy's Pizzeria (842 Corydon Ave), and Wako Sushi Café (875 Corydon
+  Ave) all confirmed open via current listings and reviews (Yelp updated as
+  recently as July 2026, active official sites/socials) with no closures,
+  moves, or renames found.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed on `blog-corydon-guide.html`.
+- **New post published:** `blog-winnipeg-transit-basics-getting-downtown-from-corydon.html`
+  — "Winnipeg Transit basics: getting downtown from Corydon." Covers the
+  Corydon-area bus route, the BLUE rapid transit line reachable from nearby
+  Osborne Village via the Southwest Transitway, and how to pay a fare
+  (peggo card / cash), with guests pointed to winnipegtransit.com and the
+  Navigo trip planner for current route numbers and live schedules rather
+  than hard-coding route numbers or timetables that could go stale. 2026
+  cash fare ($3.45) was corroborated by two independent searches; more
+  granular figures (exact peggo e-cash rate, specific route number) were
+  left general since sources were inconsistent or referenced program-specific
+  discounts. Registered in `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four now-stalest remaining
+  Corydon guide businesses — Passero Restaurant, Forgotten Flavours,
+  Colosseo Ristorante Italiano, and Bar Italia (all dated 2026-07-29).
+
+---
+
 ## 2026-08-01
 
 - **Housekeeping:** The 2026-07-31 run's commit had been made on a detached
