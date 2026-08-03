@@ -7,6 +7,38 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-03
+
+- **Housekeeping:** Local `main` branch pointer was stale (behind `origin/main`
+  by the 2026-07-31/08-01/08-02 commits, which were on a detached HEAD from a
+  prior run). Fetched `origin/main`, checked out `main`, and fast-forwarded —
+  all three prior commits were already pushed and matched origin; no content
+  was lost.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort).
+  Passero Restaurant (774 Corydon Ave), Forgotten Flavours (858 Corydon Ave),
+  Colosseo Ristorante Italiano (670 Corydon Ave), and Bar Italia (737 Corydon
+  Ave) all confirmed open via current listings (Yelp reviews current to July
+  2026, active official sites, Tourism Winnipeg) with no closures, moves, or
+  renames found.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed on `blog-corydon-guide.html`.
+- **New post published:** `blog-budget-day-corydon-airbnb.html` — "A budget
+  day out from the Corydon Airbnb." Covers a free park visit to Enderton Park
+  (Peanut Park), a Little Free Library stop, budget-friendly coffee (Tim
+  Horton's) and lunch (Santa Lucia Pizza, Peking Chinese Food) on Corydon
+  Avenue, and a free walk through Little Italy — all sourced from
+  already-verified ledger businesses and existing site content, and
+  deliberately scoped to the Corydon strip (walking-distance, no
+  transit/car needed) to stay distinct from the existing city-wide
+  `blog-24-hour-winnipeg-budget.html` post. No specific prices were invented;
+  readers are pointed to check current menu pricing. Registered in
+  `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four now-stalest remaining
+  Corydon guide businesses — Peking Chinese Food Ltd., Cafe 22, Saffron's
+  Restaurant, and Santa Lucia Pizza (all dated 2026-07-30).
+
+---
+
 ## 2026-08-02
 
 - **Housekeeping:** Local `main` was again left on a detached HEAD matching

@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-budget-day-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-03",
+    "title": "A budget day out from the Corydon Airbnb",
+    "image": "https://staywinnipeg.ca/images/peanut-park-bench.jpg",
+    "imageAlt": "A bench at Enderton Park (Peanut Park) in Crescentwood, Winnipeg",
+    "description": "A free-and-cheap day near the Corydon/Crescentwood Airbnb: a park walk, affordable coffee, a budget-friendly lunch on Corydon Avenue, and a free stroll through Little Italy.",
+    "metaHtml": "<span>💰 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 3, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-transit-basics-getting-downtown-from-corydon.html",
     "category": "winnipeg",
     "date": "2026-08-02",
