@@ -7,6 +7,45 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-04
+
+- **Housekeeping:** Local `main` was left on a detached HEAD matching an older
+  commit (same recurring pattern as prior runs). Fetched `origin/main`,
+  checked out `main`, and fast-forwarded to `origin/main` before starting —
+  confirmed no content was lost.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort).
+  Peking Chinese Food Ltd. (840 Corydon Ave), Cafe 22 (823 Corydon Ave),
+  Saffron's Restaurant (681 Corydon Ave), and Santa Lucia Pizza (905 Corydon
+  Ave) all confirmed open via current listings and reviews (Yelp updated as
+  recently as July/August 2026, active official sites, Tourism Winnipeg,
+  OpenTable) with no closures, moves, or renames found.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed on `blog-corydon-guide.html`.
+- **New post published:** `blog-farmers-market-near-corydon-airbnb.html` —
+  "Seasonal produce and the nearest farmers' market to the Corydon Airbnb."
+  Covers the River Heights Farmers' Market (1370 Grosvenor Ave, Fridays
+  12–5pm, July 3–September 25, 2026, run by the Corydon Community Centre),
+  a short trip from the Corydon strip and corroborated across multiple
+  independent sources (Tourism Winnipeg, Direct Farm Manitoba, Corydon
+  Community Centre). Also notes general August produce availability in
+  Manitoba (corn, tomatoes, peppers, beans, cucumbers, berries) without
+  inventing vendor-specific details, and links out to the existing
+  `blog-winnipeg-farmers-markets-guide.html` (St. Norbert / Downtown BIZ)
+  for guests wanting a bigger market trip, so the two posts stay
+  complementary rather than duplicative. Hero image reuses the
+  already-verified Unsplash produce-stall photo from that existing post,
+  since this environment's network policy blocked outbound fetches to
+  image hosts (`images.unsplash.com` CONNECT returned 403) and a new,
+  unverified image URL was judged too risky to ship. Registered in
+  `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four now-stalest remaining
+  Corydon guide businesses — Saperavi Georgian Cuisine, Starbucks,
+  Sugar + Salt Bakeshoppe, and Sunshine Chinese Restaurant (currently listed
+  `status: closed` from a prior run and due for re-verification) — all dated
+  2026-07-31.
+
+---
+
 ## 2026-08-03
 
 - **Housekeeping:** Local `main` branch pointer was stale (behind `origin/main`

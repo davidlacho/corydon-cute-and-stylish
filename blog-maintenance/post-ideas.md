@@ -11,7 +11,6 @@ cannot verify; keep unverifiable specifics general.
 
 ## Queue (use top-down)
 
-- Seasonal produce and the nearest farmers' market options
 - Cozy winter warm-up spots near the Airbnb
 - Osborne Village vs Corydon: an evening out compared
 - Best breakfast and brunch within walking distance
@@ -30,3 +29,4 @@ cannot verify; keep unverifiable specifics general.
 - 2026-08-01 - sweet-tooth-crawl-corydon-desserts - Sweet tooth crawl: bakeries, gelato, and dessert on Corydon
 - 2026-08-02 - winnipeg-transit-basics-getting-downtown-from-corydon - Winnipeg Transit basics: getting downtown from Corydon
 - 2026-08-03 - budget-day-corydon-airbnb - A budget day out from the Corydon Airbnb
+- 2026-08-04 - farmers-market-near-corydon-airbnb - Seasonal produce and the nearest farmers' market to the Corydon Airbnb

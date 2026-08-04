@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-farmers-market-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-04",
+    "title": "Seasonal produce and the nearest farmers' market to the Corydon Airbnb",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=1200&h=800&auto=format&fit=crop",
+    "imageAlt": "Fresh seasonal produce displayed at an outdoor farmers' market stall",
+    "description": "The closest weekly farmers' market to the Corydon/Crescentwood Airbnb, what Manitoba produce is in season right now, and where to go for a bigger market trip.",
+    "metaHtml": "<span>🧺 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 4, 2026</span>"
+  },
+  {
     "url": "/blog-budget-day-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-03",
