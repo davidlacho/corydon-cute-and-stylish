@@ -7,6 +7,36 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-05
+
+- **Housekeeping:** Local `main` was again left on a detached HEAD, 5 commits
+  behind `origin/main` (same recurring pattern as prior runs). Fetched
+  `origin/main`, checked out `main`, and fast-forwarded before starting —
+  confirmed no content was lost.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort,
+  all dated 2026-07-31). Saperavi Georgian Cuisine (709 Corydon Ave),
+  Starbucks (946 Corydon Ave), and Sugar + Salt Bakeshoppe (897 Corydon Ave)
+  all confirmed open via current listings, active official sites/social
+  pages, and recent reviews. Sunshine Chinese Restaurant (635 Corydon Ave)
+  was re-confirmed closed (its own Facebook page posts a permanent-closure
+  notice); it was already removed from `blog-corydon-guide.html` in a prior
+  run, so `status: closed` in the ledger is correct and no further page edit
+  was needed.
+- **Pages updated:** none. All four checked businesses are already accurately
+  reflected on `blog-corydon-guide.html`.
+- **New post published:** `blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html`
+  — "Cozy winter warm-up spots near the Corydon Airbnb." Covers Thom Bargen
+  Coffee Roasters, Saperavi Georgian Cuisine, and Sugar + Salt Bakeshoppe, all
+  already-verified Corydon guide businesses; no hours, prices, or event dates
+  invented. This was the next idea in the post-ideas queue; content is written
+  as an evergreen winter guide rather than tied to today's (summer) publish
+  date. Registered in `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four now-stalest remaining
+  Corydon guide businesses — Sushi Ya, The Cheesemongers Fromagerie, The
+  Mighty Kiwi Juice Bar & Eatery, and The Roost — all dated 2026-08-01.
+
+---
+
 ## 2026-08-04
 
 - **Housekeeping:** Local `main` was left on a detached HEAD matching an older
