@@ -409,7 +409,7 @@ const ARTICLES_DATA = [
     "title": "Stay Winnipeg: Your Crescentwood Airbnb Guide",
     "image": "images/2025-10-09-5-Ruskin-Row-00001.jpg",
     "imageAlt": "Mid-century modern Airbnb in Crescentwood, Winnipeg",
-    "description": "A top-rated mid-century Airbnb in Crescentwood. Mid-century modern 3-bedroom home in historic Crescentwood with 103 guest reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
+    "description": "A top-rated mid-century Airbnb in Crescentwood. Mid-century modern 3-bedroom home in historic Crescentwood with 108 guest reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
     "metaHtml": "<span>🏠 Winnipeg Accommodations</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 5, 2025</span>"
   },
   {
