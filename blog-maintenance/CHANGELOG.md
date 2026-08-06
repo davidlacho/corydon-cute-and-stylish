@@ -7,6 +7,40 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-06
+
+- **Housekeeping:** Local `main` was again on a detached HEAD, 6 commits behind
+  `origin/main`. Checked out `main` and fast-forwarded to `origin/main` before
+  starting — confirmed no content was lost.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort,
+  all dated 2026-08-01). Sushi Ya (659 Corydon Ave), The Cheesemongers
+  Fromagerie (839 Corydon Ave), The Mighty Kiwi Juice Bar & Eatery (709
+  Corydon Ave), and The Roost (651 Corydon Ave) all confirmed open via
+  current listings, active official sites, and recent reviews (DoorDash/
+  SkipTheDishes ordering pages, Tourism Winnipeg, Yelp with 2026 updates,
+  and each business's own website). No closures, moves, or renames found.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed on `blog-corydon-guide.html`.
+- **New post published:** `blog-osborne-village-vs-corydon-evening-compared.html`
+  — "Osborne Village vs Corydon: an evening out compared." Contrasts the two
+  neighbourhoods' evening character (Corydon: sit-down, unhurried, patio and
+  cocktail-bar pace; Osborne Village: denser bar/restaurant district with
+  more late-night options), using only already-verified Corydon businesses
+  (The Roost, Bar Italia, Passero) plus well-established, multiply-sourced
+  Osborne Village venues (The Toad in the Hole Pub, Zaytoon) — no hours or
+  prices stated for any of them. Cross-links to the existing
+  `blog-osborne-village-corydon-evening-guide.html` (a same-evening combo
+  route) so the two posts stay complementary rather than duplicative, since
+  that page already covers combining both areas in one night. Hero image
+  reuses the already-verified `guidebook-winnipeg-03-the-roost-on-corydon.jpg`
+  local photo. This was the next idea in the post-ideas queue. Registered in
+  `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four now-stalest remaining
+  Corydon guide businesses — Passero Restaurant, Forgotten Flavours,
+  Colosseo Ristorante Italiano, and Bar Italia — all dated 2026-08-03.
+
+---
+
 ## 2026-08-05
 
 - **Housekeeping:** Local `main` was again left on a detached HEAD, 5 commits

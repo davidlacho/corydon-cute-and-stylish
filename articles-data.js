@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-osborne-village-vs-corydon-evening-compared.html",
+    "category": "winnipeg",
+    "date": "2026-08-06",
+    "title": "Osborne Village vs Corydon: an evening out compared",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-03-the-roost-on-corydon.jpg",
+    "imageAlt": "The Roost on Corydon, a cocktail bar on Corydon Avenue in the evening",
+    "description": "Deciding between Osborne Village and Corydon Avenue for an evening out from the Corydon/Crescentwood Airbnb? Here's how the two neighbourhoods actually differ.",
+    "metaHtml": "<span>🌆 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 6, 2026</span>"
+  },
+  {
     "url": "/blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-05",
