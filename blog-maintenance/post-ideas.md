@@ -11,8 +11,6 @@ cannot verify; keep unverifiable specifics general.
 
 ## Queue (use top-down)
 
-- Best breakfast and brunch within walking distance
-
 ## Used (append when published: date - slug - title)
 
 - 2026-07-23 - (seed) - none yet
@@ -30,3 +28,4 @@ cannot verify; keep unverifiable specifics general.
 - 2026-08-04 - farmers-market-near-corydon-airbnb - Seasonal produce and the nearest farmers' market to the Corydon Airbnb
 - 2026-08-05 - cozy-winter-warm-up-spots-near-corydon-airbnb - Cozy winter warm-up spots near the Corydon Airbnb
 - 2026-08-06 - osborne-village-vs-corydon-evening-compared - Osborne Village vs Corydon: an evening out compared
+- 2026-08-07 - best-breakfast-brunch-near-corydon-airbnb - Best breakfast and brunch within walking distance of the Corydon Airbnb

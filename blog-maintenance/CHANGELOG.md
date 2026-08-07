@@ -7,6 +7,40 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-07
+
+- **Housekeeping:** Local `main` was already up to date with `origin/main` and
+  the working tree was clean before starting — no fast-forward needed.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort,
+  all dated 2026-08-03). Passero Restaurant (774 Corydon Ave), Forgotten
+  Flavours (858 Corydon Ave), Colosseo Ristorante Italiano (670 Corydon Ave),
+  and Bar Italia (737 Corydon Ave) all confirmed open via current listings,
+  active official sites, and recent reviews (Yelp current to July 2026,
+  Tourism Winnipeg, Instagram, each business's own website). No closures,
+  moves, or renames found.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed on `blog-corydon-guide.html`.
+- **New post published:** `blog-best-breakfast-brunch-near-corydon-airbnb.html`
+  — "Best breakfast and brunch within walking distance of the Corydon Airbnb."
+  Covers Thom Bargen Coffee Roasters (coffee + pastry, open early daily),
+  The Mighty Kiwi Juice Bar & Eatery (smoothies/juice, weekday mornings),
+  French Way Café (238 Lilac St, a French breakfast/brunch menu 8am–3pm
+  Tue–Sat and 9am–3pm Sun), Stella's Café & Bakery (Corydon-area location,
+  linked to their official locations page rather than a specific address,
+  since search sources gave conflicting street numbers for that branch), and
+  Sugar + Salt Bakeshoppe (later-morning bakery stop, noted as opening at
+  11am weekdays / 10am Saturdays and closed Sun–Mon). All hours sourced from
+  current listings/official sites found during research; no prices stated.
+  This was the last idea in the post-ideas queue (now empty — next run will
+  need to invent a comparable topic per the playbook). Hero image uses the
+  previously-unused local photo `guidebook-winnipeg-08-french-way-caf.jpg`.
+  Registered in `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four now-stalest remaining
+  Corydon guide businesses — Peking Chinese Food Ltd., Cafe 22, Saffron's
+  Restaurant, and Santa Lucia Pizza — all dated 2026-08-04.
+
+---
+
 ## 2026-08-06
 
 - **Housekeeping:** Local `main` was again on a detached HEAD, 6 commits behind

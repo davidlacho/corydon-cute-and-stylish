@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-best-breakfast-brunch-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-07",
+    "title": "Best breakfast and brunch within walking distance of the Corydon Airbnb",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-08-french-way-caf.jpg",
+    "imageAlt": "A French breakfast spread of crepes and coffee at French Way Café near Corydon Avenue",
+    "description": "Where to get breakfast and brunch within walking distance of the Corydon/Crescentwood Airbnb: coffee and pastry, a juice and smoothie bar, a French breakfast menu, and a reliable bakery-café.",
+    "metaHtml": "<span>🥐 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 7, 2026</span>"
+  },
+  {
     "url": "/blog-osborne-village-vs-corydon-evening-compared.html",
     "category": "winnipeg",
     "date": "2026-08-06",
