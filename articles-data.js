@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-beat-the-heat-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-08",
+    "title": "Beating the summer heat near the Corydon Airbnb",
+    "image": "https://staywinnipeg.ca/images/assiniboine-park.jpg",
+    "imageAlt": "A shaded stone pergola surrounded by greenery at Assiniboine Park on a sunny summer day",
+    "description": "Where to cool off on a hot Winnipeg day within a short walk of the Corydon/Crescentwood Airbnb: cold drinks on Corydon Avenue, an air-conditioned afternoon, and shaded green space nearby.",
+    "metaHtml": "<span>☀️ Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 8, 2026</span>"
+  },
+  {
     "url": "/blog-best-breakfast-brunch-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-07",

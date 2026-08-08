@@ -7,6 +7,49 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-08
+
+- **Housekeeping:** Local `main` was again left on a detached HEAD, 1 commit
+  ahead of local `main`'s branch pointer but already matching `origin/main`
+  (same recurring pattern as prior runs). Checked out `main` and
+  fast-forwarded to `origin/main` before starting — confirmed no content was
+  lost.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort,
+  all dated 2026-08-04). Peking Chinese Food Ltd. (840 Corydon Ave), Cafe 22
+  (823 Corydon Ave), Saffron's Restaurant (681 Corydon Ave), and Santa Lucia
+  Pizza (905 Corydon Ave) all confirmed open via current listings, active
+  official sites, and recent reviews (Yelp current to July/August 2026,
+  Tourism Winnipeg, OpenTable, each business's own website). No closures,
+  moves, or renames found.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed on `blog-corydon-guide.html`.
+- **New post published:** `blog-beat-the-heat-near-corydon-airbnb.html` —
+  "Beating the summer heat near the Corydon Airbnb." The post-ideas queue was
+  empty (drained as of the 2026-08-07 run), so this is an invented,
+  guest-relevant seasonal topic per the playbook. Covers cold drinks on
+  Corydon Avenue using already-verified ledger businesses (Thom Bargen
+  Coffee Roasters for iced coffee/cold brew, The Mighty Kiwi Juice Bar &
+  Eatery for smoothies/juice, Sugar + Salt Bakeshoppe for a treat to go), an
+  air-conditioned option (The Leaf at Assiniboine Park — climate-controlled
+  biomes confirmed open daily 9am–9pm this summer via the Assiniboine Park
+  Conservancy's official hours page, with a note that hours/pricing can
+  change seasonally and a link to check current details), and shaded green
+  space nearby (Assiniboine Park's tree canopy/riverbank paths, Enderton
+  Park/Peanut Park's shade trees), cross-linking the existing
+  `blog-assiniboine-park.html` and `blog-peanut-park.html` guides. No hours
+  or prices invented for any business not directly sourced. Hero image
+  reuses the already-published local photo `assiniboine-park.jpg` (a shaded
+  pergola), which fit the subject better than any unused local option.
+  Registered in `articles-data.js` and `sitemap.xml`; logged in
+  `post-ideas.md` under "Used."
+- **Notes:** Next rotation batch will pick up the four now-stalest remaining
+  Corydon guide businesses — Saperavi Georgian Cuisine, Starbucks,
+  Sugar + Salt Bakeshoppe, and Sunshine Chinese Restaurant (currently listed
+  `status: closed` from a prior run and due for re-verification) — all dated
+  2026-08-05.
+
+---
+
 ## 2026-08-07
 
 - **Housekeeping:** Local `main` was already up to date with `origin/main` and

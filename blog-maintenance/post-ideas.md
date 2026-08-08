@@ -29,3 +29,4 @@ cannot verify; keep unverifiable specifics general.
 - 2026-08-05 - cozy-winter-warm-up-spots-near-corydon-airbnb - Cozy winter warm-up spots near the Corydon Airbnb
 - 2026-08-06 - osborne-village-vs-corydon-evening-compared - Osborne Village vs Corydon: an evening out compared
 - 2026-08-07 - best-breakfast-brunch-near-corydon-airbnb - Best breakfast and brunch within walking distance of the Corydon Airbnb
+- 2026-08-08 - beat-the-heat-near-corydon-airbnb - Beating the summer heat near the Corydon Airbnb (queue was empty; invented per playbook)
