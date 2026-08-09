@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-date-night-on-corydon-avenue.html",
+    "category": "winnipeg",
+    "date": "2026-08-09",
+    "title": "A date night on Corydon Avenue near the Airbnb",
+    "image": "https://staywinnipeg.ca/images/wine-dining.jpg",
+    "imageAlt": "A glass of wine beside a plated dinner at a restaurant table",
+    "description": "How to plan a relaxed date night without leaving Corydon Avenue: where to book dinner, when to reserve, and where to go for a nightcap, all a short walk from the Corydon/Crescentwood Airbnb.",
+    "metaHtml": "<span>🍷 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 9, 2026</span>"
+  },
+  {
     "url": "/blog-beat-the-heat-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-08",

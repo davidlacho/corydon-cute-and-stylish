@@ -7,6 +7,50 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-09
+
+- **Housekeeping:** Local `main` was left on a detached HEAD again (same
+  recurring pattern noted in prior runs), 2 commits behind `origin/main`.
+  Checked out `main` and fast-forwarded to `origin/main` before starting —
+  no content was lost.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort,
+  all dated 2026-08-05). Saperavi Georgian Cuisine (709 Corydon Ave),
+  Starbucks (946 Corydon Ave), and Sugar + Salt Bakeshoppe (897 Corydon Ave)
+  all confirmed open via current listings, official sites, and recent
+  reviews (Yelp current to May–July 2026, order.online, Tourism Winnipeg,
+  each business's own site). Sunshine Chinese Restaurant (635 Corydon Ave,
+  already flagged `closed` from an earlier run) was re-checked and remains
+  closed — its own former website now shows a permanent closure message.
+  No new closures, moves, or renames found this run.
+- **Pages updated:** none. Saperavi, Starbucks, and Sugar + Salt remain
+  accurately listed on `blog-corydon-guide.html`; Sunshine Chinese
+  Restaurant remains correctly omitted from that page (already removed in
+  an earlier run).
+- **New post published:** `blog-date-night-on-corydon-avenue.html` — "A
+  date night on Corydon Avenue near the Airbnb." The post-ideas queue was
+  empty, so this is an invented, guest-relevant topic per the playbook.
+  Covers dinner options using already-verified ledger businesses (Bar
+  Italia, Passero Restaurant, Colosseo Ristorante Italiano, and Saperavi
+  Georgian Cuisine as a non-Italian alternative, including Saperavi's
+  Tue–Sun hours sourced this run), a note on booking ahead for weekend
+  patio season, and a nightcap recommendation at The Roost (651 Corydon
+  Ave, previously sourced official site). Considered a wine-bar-crawl
+  angle instead, but dropped it after research showed Enoteca (1670
+  Corydon Ave) may itself be closed per a flagged Yelp listing and Ellement
+  Wine & Spirits is actually at The Forks, not Corydon — neither was used,
+  to avoid stating anything unverified. No hours or prices invented for
+  any business not directly sourced. Hero image uses the previously
+  unused local photo `wine-dining.jpg` (a plated dinner with wine glasses),
+  which fits the date-night subject without claiming to depict any one
+  specific restaurant's interior. Registered in `articles-data.js` and
+  `sitemap.xml`; logged in `post-ideas.md` under "Used."
+- **Notes:** Next rotation batch will pick up the four now-stalest
+  remaining Corydon guide businesses — Sushi Ya, The Cheesemongers
+  Fromagerie, The Mighty Kiwi Juice Bar & Eatery, and The Roost — all
+  dated 2026-08-06.
+
+---
+
 ## 2026-08-08
 
 - **Housekeeping:** Local `main` was again left on a detached HEAD, 1 commit
