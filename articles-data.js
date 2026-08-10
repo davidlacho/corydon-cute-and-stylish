@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-work-remotely-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-10",
+    "title": "Where to work remotely near the Corydon Airbnb",
+    "image": "https://staywinnipeg.ca/images/coffee-cafe.jpg",
+    "imageAlt": "A latte and laptop set up at a coffee shop table",
+    "description": "Laptop-friendly coffee shops and a quiet library backup within reach of the Corydon/Crescentwood Airbnb, for guests who need to get some work done while they're here.",
+    "metaHtml": "<span>💻 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 10, 2026</span>"
+  },
+  {
     "url": "/blog-date-night-on-corydon-avenue.html",
     "category": "winnipeg",
     "date": "2026-08-09",

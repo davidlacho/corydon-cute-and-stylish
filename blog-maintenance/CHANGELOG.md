@@ -7,6 +7,46 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-10
+
+- **Housekeeping:** Local `main` was again left on a detached HEAD (same
+  recurring pattern noted in every prior run), 3 commits behind
+  `origin/main`. Checked out `main` and fast-forwarded to `origin/main`
+  before starting — no content was lost.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining
+  cohort, all dated 2026-08-06). Sushi Ya (659 Corydon Ave), The
+  Cheesemongers Fromagerie (839 Corydon Ave), The Mighty Kiwi Juice Bar &
+  Eatery (709 Corydon Ave), and The Roost (651 Corydon Ave) all confirmed
+  open via current listings, active official sites, and recent reviews
+  (order.online, Yelp current to May–July 2026, Tourism Winnipeg, each
+  business's own site, and DoorDash for Sushi Ya). No closures, moves, or
+  renames found.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed on `blog-corydon-guide.html`.
+- **New post published:** `blog-work-remotely-near-corydon-airbnb.html` —
+  "Where to work remotely near the Corydon Airbnb." The post-ideas queue
+  was empty, so this is an invented, guest-relevant topic per the
+  playbook, distinct from the existing coffee-focused post (which covers
+  drink quality, not laptop-friendliness). Covers Thom Bargen Coffee
+  Roasters (confirmed via multiple laptop-friendly-cafe directories as
+  offering free Wi-Fi, outlets, and extended hours), Cafe 22 (confirmed
+  free Wi-Fi and long daily hours via its own listings), and Cornish
+  Library as a quiet, no-purchase-required backup (confirmed free Wi-Fi
+  and bookable computers via the City of Winnipeg's own library pages),
+  with a note that library hours shift seasonally and to check before
+  heading over. No Wi-Fi/seating claims made for businesses without
+  supporting sources (e.g. Forgotten Flavours was considered but dropped
+  — no evidence found either way for laptop-friendly seating). Hero image
+  uses the previously-once-used local photo `coffee-cafe.jpg` rather than
+  either Thom Bargen photo (both already used twice elsewhere).
+  Registered in `articles-data.js` and `sitemap.xml`; logged in
+  `post-ideas.md` under "Used."
+- **Notes:** Next rotation batch will pick up the four now-stalest
+  remaining Corydon guide businesses — Thom Bargen Coffee Roasters, Tim
+  Horton's, Tommy's Pizzeria, and Wako Sushi Café — all dated 2026-08-02.
+
+---
+
 ## 2026-08-09
 
 - **Housekeeping:** Local `main` was left on a detached HEAD again (same
