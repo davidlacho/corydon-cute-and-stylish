@@ -7,6 +7,30 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-11 (reviews update, interactive session)
+
+- **Guest reviews:** User pasted the five most recent Airbnb reviews
+  (Christine Aug 6–9, Joanna Jul 30–Aug 6, Patricia Jul 23–30, Bradford
+  Jul 14–19, Dominic Jun 30–Jul 12; all 5 stars). Patricia, Bradford, and
+  Dominic were already in the `index.html` JSON-LD from the previous
+  update; added Christine (2026-08-09) and Joanna (2026-08-06) to the top
+  of the review array with full review text.
+- **Review count:** 108 -> 110 in all locations per the llms.txt
+  convention: JSON-LD `aggregateRating.reviewCount`, meta / OG / Twitter
+  descriptions, and body copy across `index.html`, `blog.html`,
+  `blog-corydon-cute-stylish-winnipeg-airbnb.html`, `articles-data.js`,
+  and `articles_data.json`. Grep confirmed no stale "108" remained;
+  JSON-LD blocks validated as parseable JSON.
+- **Commit:** `acd040e`, pushed to `origin/main`.
+- **Notes:** The Airbnb listing widget shows 86 reviews while the site
+  advertises 110; the site count aggregates beyond the current Airbnb
+  listing (prior update went 103 -> 108 the same way), so the convention
+  of incrementing per new review was preserved. Next reviews on the
+  listing after Dominic's are already covered; the next update only
+  needs reviews newer than Christine's (checkout 2026-08-09).
+
+---
+
 ## 2026-08-11
 
 - **Housekeeping:** Local `main` was again left on a detached HEAD, 4 commits
