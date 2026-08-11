@@ -7,6 +7,41 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-11
+
+- **Housekeeping:** Local `main` was again left on a detached HEAD, 4 commits
+  behind `origin/main`. Checked out `main` and fast-forwarded to
+  `origin/main` before starting — no content was lost.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort,
+  all dated 2026-08-02). Thom Bargen Coffee Roasters (743 Corydon Ave), Tim
+  Horton's (949 Corydon Ave), Tommy's Pizzeria (842 Corydon Ave), and Wako
+  Sushi Café (875 Corydon Ave) all confirmed open via current listings,
+  official sites, and reviews dated through 2026 (Yelp, Tourism Winnipeg,
+  order.online, thombargen.com, timhortons.ca location page, tommys.pizza).
+  No closures, moves, or renames found.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed on `blog-corydon-guide.html`.
+- **New post published:** `blog-sunday-on-corydon-avenue.html` — "What's
+  open on Corydon Avenue on a Sunday." The post-ideas queue was empty, so
+  this is an invented, guest-relevant topic per the playbook, built from
+  Sunday-specific hours sourced during this run's business checks: Thom
+  Bargen (~8am–9pm Sunday), Tim Horton's (~6am–11pm Sunday), and Tommy's
+  Pizzeria (open Sunday, roughly noon onward, with a note to call ahead
+  since listed closing times vary by source). Also flags that Wako Sushi
+  Café is closed Sundays (confirmed this run) so guests don't show up
+  expecting it. No specific hours were claimed for any business without a
+  source found this run. Hero image uses
+  `guidebook-winnipeg-05-thom-bargen-coffee-roasters.jpg` (a real photo of
+  the featured business, previously used only once). Registered in
+  `articles-data.js` and `sitemap.xml`; logged in `post-ideas.md` under
+  "Used."
+- **Notes:** Next rotation batch will pick up the four now-stalest
+  remaining Corydon guide businesses — Passero Restaurant, Forgotten
+  Flavours, Colosseo Ristorante Italiano, and Bar Italia — all dated
+  2026-08-07.
+
+---
+
 ## 2026-08-10
 
 - **Housekeeping:** Local `main` was again left on a detached HEAD (same

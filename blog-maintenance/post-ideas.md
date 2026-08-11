@@ -32,3 +32,4 @@ cannot verify; keep unverifiable specifics general.
 - 2026-08-08 - beat-the-heat-near-corydon-airbnb - Beating the summer heat near the Corydon Airbnb (queue was empty; invented per playbook)
 - 2026-08-09 - date-night-on-corydon-avenue - A date night on Corydon Avenue near the Airbnb (queue was empty; invented per playbook)
 - 2026-08-10 - work-remotely-near-corydon-airbnb - Where to work remotely near the Corydon Airbnb (queue was empty; invented per playbook)
+- 2026-08-11 - sunday-on-corydon-avenue - What's open on Corydon Avenue on a Sunday (queue was empty; invented per playbook)
