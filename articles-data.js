@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-wine-beer-spirits-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-12",
+    "title": "Where to pick up wine, beer, or spirits near the Corydon Airbnb",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-24-grant-park-liquor-mart.jpg",
+    "imageAlt": "Storefront of a Manitoba Liquor Mart",
+    "description": "Manitoba sells alcohol differently than most places guests are used to. A quick guide to the two nearest Liquor Marts to the Corydon/Crescentwood Airbnb, and how the system works.",
+    "metaHtml": "<span>🍷 Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 12, 2026</span>"
+  },
+  {
     "url": "/blog-sunday-on-corydon-avenue.html",
     "category": "winnipeg",
     "date": "2026-08-11",

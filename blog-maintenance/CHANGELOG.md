@@ -7,6 +7,43 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-12
+
+- **Housekeeping:** Local `main` was again left on a detached HEAD, 7 commits
+  behind `origin/main` (same recurring pattern noted in every prior run).
+  Checked out `main` and fast-forwarded to `origin/main` before starting — no
+  content was lost.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort,
+  all dated 2026-08-07). Passero Restaurant (774 Corydon Ave), Forgotten
+  Flavours (858 Corydon Ave), Colosseo Ristorante Italiano (670 Corydon Ave),
+  and Bar Italia (737 Corydon Ave) all confirmed open via current listings,
+  active official sites/ordering pages, and reviews dated through 2026 (Yelp,
+  Tripadvisor, Tourism Winnipeg, findmeglutenfree.com, forgottenflavours.ca,
+  colosseo.ca, order.online). No closures, moves, or renames found.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed on `blog-corydon-guide.html`.
+- **New post published:** `blog-wine-beer-spirits-near-corydon-airbnb.html` —
+  "Where to pick up wine, beer, or spirits near the Corydon Airbnb." The
+  post-ideas queue was empty, so this is an invented, guest-relevant topic
+  per the playbook: Manitoba sells alcohol through government Liquor Marts
+  and private vendors rather than grocery/convenience stores, which is
+  unfamiliar to many out-of-town guests. Covers the two nearest Liquor Marts
+  verified this run — River & Osborne Liquor Mart (469 River Ave, Osborne
+  Village) and Grant Park Liquor Mart (1120 Grant Ave, the largest in the
+  province) — sourced from liquormarts.ca retailer listings and Tourism
+  Winnipeg. No specific hours were claimed for either store since current
+  hours weren't confirmed this run; the post instead points guests to
+  liquormarts.ca and notes hours can be shorter on Sundays/holidays. Hero
+  image uses `guidebook-winnipeg-24-grant-park-liquor-mart.jpg` (a real photo
+  of one of the featured stores, not previously used as a post hero).
+  Registered in `articles-data.js` and `sitemap.xml`; logged in
+  `post-ideas.md` under "Used."
+- **Notes:** Next rotation batch will pick up the four now-stalest remaining
+  Corydon guide businesses — Peking Chinese Food Ltd., Cafe 22, Saffron's
+  Restaurant, and Santa Lucia Pizza — all dated 2026-08-08.
+
+---
+
 ## 2026-08-11 (reviews update, interactive session)
 
 - **Guest reviews:** User pasted the five most recent Airbnb reviews
