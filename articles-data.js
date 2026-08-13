@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-renting-a-bike-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-13",
+    "title": "Renting a bike near the Corydon Airbnb",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-51-plain-bicycle-bicycle-garden.jpg",
+    "imageAlt": "Bicycle Garden storefront, a Plain Bicycle rental location in Winnipeg",
+    "description": "Where to rent a bike for a day (or longer) if you're staying at the Corydon/Crescentwood Airbnb, plus where to point it once you've got one.",
+    "metaHtml": "<span>🚲 Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 13, 2026</span>"
+  },
+  {
     "url": "/blog-wine-beer-spirits-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-12",

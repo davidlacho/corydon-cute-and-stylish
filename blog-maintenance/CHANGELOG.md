@@ -7,6 +7,49 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-13
+
+- **Housekeeping:** Local `main` was again left on a detached HEAD, 8 commits
+  behind `origin/main` (same recurring pattern noted in every prior run — HEAD
+  was already at the same commit as `origin/main`, only the `main` branch ref
+  itself was stale). Checked out `main` and fast-forwarded to `origin/main`
+  before starting — no content was lost.
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort,
+  all dated 2026-08-08). Peking Chinese Food Ltd. (840 Corydon Ave), Cafe 22
+  (823 Corydon Ave), Saffron's Restaurant (681 Corydon Ave), and Santa Lucia
+  Pizza (905 Corydon Ave) all confirmed open via current 2026-dated listings,
+  official sites, and reviews (Yelp, Tripadvisor, OpenTable, official
+  restaurant sites, order.online/DoorDash). One stale directory (foodpages.ca)
+  flagged Peking Chinese Food as "out of business," but this is contradicted
+  by multiple higher-confidence, 2026-dated sources (Yelp, Tripadvisor, two
+  live ordering sites, active DoorDash listing) so it was treated as a stale
+  directory entry, not a real closure. No closures, moves, or renames found.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed on `blog-corydon-guide.html`.
+- **New post published:** `blog-renting-a-bike-near-corydon-airbnb.html` —
+  "Renting a bike near the Corydon Airbnb." The post-ideas queue was empty,
+  so this is an invented, guest-relevant topic per the playbook: Winnipeg has
+  no citywide dockless bike-share, so guests without their own bike need to
+  know where to rent one. Covers Plain Bicycle's two locations (Bicycle
+  Garden at 267 Sherbrook St, and a seasonal kiosk at The Forks), sourced
+  from Yelp, plainbicycle.org, and business listings; hours/rates are pointed
+  to the official site and phone number rather than stated precisely, since
+  sources showed minor variance. Links to the existing Corydon-to-Forks bike
+  route post and the transit-basics post rather than duplicating their
+  content. Hero image uses `guidebook-winnipeg-51-plain-bicycle-bicycle-garden.jpg`
+  (a real photo of the Bicycle Garden storefront, not previously used as a
+  post hero) — chosen over an Unsplash fallback because network egress in
+  this environment blocks fetching unsplash.com, so a stock photo ID could
+  not be verified as a real, working image; the local photo avoided that risk
+  entirely. Registered in `articles-data.js` and `sitemap.xml`; logged in
+  `post-ideas.md` under "Used."
+- **Notes:** Next rotation batch will pick up the four now-stalest remaining
+  Corydon guide businesses — Saperavi Georgian Cuisine, Starbucks, Sugar +
+  Salt Bakeshoppe, and Sunshine Chinese Restaurant (already marked closed in
+  the ledger from a prior run) — all dated 2026-08-09.
+
+---
+
 ## 2026-08-12
 
 - **Housekeeping:** Local `main` was again left on a detached HEAD, 7 commits
