@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-thermea-spa-day-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-14",
+    "title": "A spa day near the Corydon Airbnb: Thermëa Spa Village",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-41-thermea-spa-village-winnipeg.jpg",
+    "imageAlt": "Entrance to Thermëa Spa Village Winnipeg at dusk",
+    "description": "What to know before booking a hot-cold-relax circuit at Thermëa Spa Village if you're staying at the Corydon/Crescentwood Airbnb: what it is, what a visit involves, and how to get there.",
+    "metaHtml": "<span>♨️ Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 14, 2026</span>"
+  },
+  {
     "url": "/blog-renting-a-bike-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-13",

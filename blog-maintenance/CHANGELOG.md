@@ -7,6 +7,43 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-14
+
+- **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort,
+  all dated 2026-08-09). Saperavi Georgian Cuisine (709 Corydon Ave),
+  Starbucks (946 Corydon Ave), and Sugar + Salt Bakeshoppe (897 Corydon Ave)
+  all confirmed open via current 2026-dated listings, official/ordering
+  sites, and reviews (Tourism Winnipeg, Yellow Pages, order.online,
+  Facebook, Instagram, the bakeshoppe's own site). Sunshine Chinese
+  Restaurant (635 Corydon Ave) — already marked closed in the ledger —
+  remains closed; found no evidence of reopening or a new tenant at that
+  address (Yelp/Tripadvisor/Facebook listings reference the closure
+  announcement, no 2026 openings found for 635 Corydon Ave). No new
+  closures, moves, or renames found this run.
+- **Pages updated:** none. All four checked businesses remain accurately
+  listed (or correctly absent, in Sunshine Chinese's case — it was already
+  removed from `blog-corydon-guide.html` in a prior run) on
+  `blog-corydon-guide.html`.
+- **New post published:** `blog-thermea-spa-day-near-corydon-airbnb.html` —
+  "A spa day near the Corydon Airbnb: Thermëa Spa Village." The
+  post-ideas queue was empty, so this is an invented, guest-relevant topic
+  per the playbook: a Nordic-style hot-cold-relax spa (775 Crescent Drive,
+  ~15-20 min drive/rideshare from Corydon) as a plan-ahead half-day trip for
+  guests. Sourced from Yelp, Tripadvisor, and thermea.com-referencing
+  listings for address, hours pattern, and reservation/village-code
+  requirements; direct fetch of thermea.com was blocked by network egress
+  in this environment, so guests are pointed to the official site for
+  current hours/rates rather than having specific numbers stated in the
+  post. Hero image uses `guidebook-winnipeg-41-thermea-spa-village-winnipeg.jpg`
+  (a real photo of the spa village entrance, not previously used as a post
+  hero). Registered in `articles-data.js` and `sitemap.xml`; logged in
+  `post-ideas.md` under "Used."
+- **Notes:** Next rotation batch will pick up the four now-stalest remaining
+  Corydon guide businesses — Sushi Ya, The Cheesemongers Fromagerie, The
+  Mighty Kiwi Juice Bar & Eatery, and The Roost — all dated 2026-08-10.
+
+---
+
 ## 2026-08-13
 
 - **Housekeeping:** Local `main` was again left on a detached HEAD, 8 commits
