@@ -7,6 +7,31 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-15
+
+- **Businesses verified:** 4 of 20 (rotation batch, all tied for stalest at
+  2026-08-10). Sushi Ya (659 Corydon Ave), The Cheesemongers Fromagerie (839
+  Corydon Ave), The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave), and The
+  Roost (651 Corydon Ave) — all confirmed open via current listings, active
+  official sites/social pages, and recent reviews. No closures, moves, or
+  renames found; no page corrections needed.
+- **Pages updated:** none (all four checked businesses remain accurate as
+  listed on `blog-corydon-guide.html`).
+- **New post published:** `blog-wellington-crescent-walk-near-corydon-airbnb.html`
+  — "A walk from the Corydon Airbnb to Wellington Crescent." A free walking
+  (or biking) route from the Airbnb north through Crescentwood to the
+  Wellington Crescent historic district along the Assiniboine River, with a
+  pointer to extend toward Assiniboine Park. Sourced from current listings on
+  the Wellington Crescent Historic District and Crescentwood neighbourhood
+  boundaries; no business hours/prices involved. Queue in `post-ideas.md` was
+  empty, so this topic was invented per the playbook and logged under "Used."
+  Registered in `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four stalest remaining
+  Corydon guide businesses (Thom Bargen Coffee Roasters, Tim Horton's,
+  Tommy's Pizzeria, Wako Sushi Café), all still dated 2026-08-11.
+
+---
+
 ## 2026-08-14
 
 - **Businesses verified:** 4 of 20 (rotation batch, oldest remaining cohort,

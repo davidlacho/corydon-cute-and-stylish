@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-wellington-crescent-walk-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-15",
+    "title": "A walk from the Corydon Airbnb to Wellington Crescent",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-47-crescentwood.jpg",
+    "imageAlt": "A flower garden in full summer bloom in front of a home on a quiet Crescentwood street",
+    "description": "A free, easy walk (or bike ride) from the Corydon/Crescentwood Airbnb north to Wellington Crescent's riverside mansions and tree-lined boulevard, with an option to extend toward Assiniboine Park.",
+    "metaHtml": "<span>🚶 Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 15, 2026</span>"
+  },
+  {
     "url": "/blog-thermea-spa-day-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-14",
