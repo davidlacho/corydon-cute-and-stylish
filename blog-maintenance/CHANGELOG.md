@@ -7,6 +7,30 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-16
+
+- **Businesses verified:** 4 of 20 (rotation batch, all tied for stalest at
+  2026-08-11). Thom Bargen Coffee Roasters (743 Corydon Ave), Tim Horton's
+  (949 Corydon Ave), Tommy's Pizzeria (842 Corydon Ave), and Wako Sushi Café
+  (875 Corydon Ave) — all confirmed open via current listings, active
+  official/social pages, and 2026-dated reviews. No closures, moves, or
+  renames found; no page corrections needed.
+- **Pages updated:** none (all four checked businesses remain accurate as
+  listed on `blog-corydon-guide.html`).
+- **New post published:** `blog-pet-friendly-spots-near-corydon-airbnb.html`
+  — "Pet-friendly spots near the Corydon Airbnb" (queue was empty; invented
+  per playbook). Covers on-leash walking routes from the Airbnb (Peanut
+  Park, the Wellington Crescent loop), a summary of the City of Winnipeg's
+  Responsible Pet Ownership By-law leash requirements, the nearest official
+  off-leash dog area (King's Park, per the City of Winnipeg parks page), and
+  a general note that Corydon patio pet policies vary by business. Registered
+  in `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four stalest remaining
+  Corydon guide businesses (Passero Restaurant, Forgotten Flavours, Colosseo
+  Ristorante Italiano, Bar Italia), all still dated 2026-08-12.
+
+---
+
 ## 2026-08-15
 
 - **Businesses verified:** 4 of 20 (rotation batch, all tied for stalest at

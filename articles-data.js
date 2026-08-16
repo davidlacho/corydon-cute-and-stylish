@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-pet-friendly-spots-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-16",
+    "title": "Pet-friendly spots near the Corydon Airbnb",
+    "image": "https://staywinnipeg.ca/images/peanut-park-bench.jpg",
+    "imageAlt": "A bench in Peanut Park (Enderton Park), a small green space in Crescentwood",
+    "description": "Where to walk a dog from the Corydon/Crescentwood Airbnb, the nearest official off-leash area, and what Winnipeg's leash bylaw actually requires.",
+    "metaHtml": "<span>🐾 Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 16, 2026</span>"
+  },
+  {
     "url": "/blog-wellington-crescent-walk-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-15",

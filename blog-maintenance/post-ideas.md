@@ -36,4 +36,5 @@ cannot verify; keep unverifiable specifics general.
 - 2026-08-12 - wine-beer-spirits-near-corydon-airbnb - Where to pick up wine, beer, or spirits near the Corydon Airbnb (queue was empty; invented per playbook)
 - 2026-08-13 - renting-a-bike-near-corydon-airbnb - Renting a bike near the Corydon Airbnb (queue was empty; invented per playbook)
 - 2026-08-14 - thermea-spa-day-near-corydon-airbnb - A spa day near the Corydon Airbnb: Thermëa Spa Village (queue was empty; invented per playbook)
-- 2026-08-15 - wellington-crescent-walk-near-corydon-airbnb - A walk from the Corydon Airbnb to Wellington Crescent (queue was empty; invented per playbook)
+- 2026-08-15 - wellington-crescent-walk-near-corydon-airbnb - A walk from the Corydon Airbnb to Wellington Crescent
+- 2026-08-16 - pet-friendly-spots-near-corydon-airbnb - Pet-friendly spots near the Corydon Airbnb (queue was empty; invented per playbook) (queue was empty; invented per playbook)
