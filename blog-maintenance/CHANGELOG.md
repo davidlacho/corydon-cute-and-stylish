@@ -7,6 +7,49 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-17 (manual — content policy + SEO breadth)
+
+Out-of-band maintenance run by request; not a scheduled cron run.
+
+- **Post removed:** `blog-pet-friendly-spots-near-corydon-airbnb.html` (published
+  2026-08-16) deleted. The property does not accept pets, so the post
+  misrepresented the stay. Its entries were removed from `articles-data.js` and
+  `sitemap.xml`; it was never referenced in `blog.html`, which renders from
+  `articles-data.js`.
+- **Standing policy added:** `AGENT-INSTRUCTIONS.md` now opens with a hard
+  content rule — never publish pet-friendly content of any kind (no dogs, dog
+  parks, off-leash areas, leash bylaws, pet-friendly patios, pet keywords or
+  amenity claims), never queue such an idea, and never recreate the removed
+  post under another slug. Repeated in the Guardrails section and in
+  `post-ideas.md`.
+- **Incorrect pet claims corrected elsewhere:**
+  - `llms.txt` — "Pet-friendly (dogs welcome)" replaced with an explicit no-pets
+    line, and the "pet-friendly accommodation" audience line rewritten. These
+    were factually wrong about the listing.
+  - `blog-crescentwood-liveable.html` — the "Pet-Friendly (80%)" neighbourhood
+    livability bullet replaced with a walkability bullet.
+  - Left as-is (incidental and non-promotional): the service-animals-only note
+    about a third-party market in `blog-winnipeg-farmers-markets-guide.html`,
+    passing scene-setting mentions of people walking dogs in
+    `blog-peanut-park.html` and `blog-crescentwood-liveable.html`, and a guest's
+    own wording in a real review on `index.html`.
+- **SEO breadth:** the archive had drifted to Airbnb-proximity framing — all 15
+  of the most recent posts were slugged around Corydon or "near the Corydon
+  Airbnb", which targets a search term with almost no volume. Added a "Topic
+  breadth" section to Part 2 of the playbook: write general Winnipeg guides by
+  default, at most one post in four may be anchored to Corydon/Crescentwood, no
+  defaulting to `-near-corydon-airbnb` slugs, rotate across neighbourhoods,
+  seasons and intents, vary the target keyword, and keep the listing to one
+  short closing paragraph.
+- **Queue refilled:** `post-ideas.md` had an empty queue (the cron had been
+  inventing topics for ten straight runs, which is what produced the drift and
+  the pet post). Seeded 30 city-wide Winnipeg ideas spanning St. Boniface,
+  Wolseley, the North End, Chinatown, museums, performing arts, cycling,
+  seasonal guides, and day trips to Grand Beach, Oak Hammock Marsh and Riding
+  Mountain.
+
+---
+
 ## 2026-08-17
 
 - **Businesses verified:** 4 of 20 (rotation batch, all tied for stalest at
