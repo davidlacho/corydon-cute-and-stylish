@@ -7,6 +7,31 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-17
+
+- **Businesses verified:** 4 of 20 (rotation batch, all tied for stalest at
+  2026-08-12). Passero Restaurant (774 Corydon Ave), Forgotten Flavours (858
+  Corydon Ave), Colosseo Ristorante Italiano (670 Corydon Ave), and Bar
+  Italia (737 Corydon Ave) — all confirmed open via current listings, active
+  official/social pages, and recent reviews (Passero and Colosseo both have
+  2026-dated reviews). No closures, moves, or renames found; no page
+  corrections needed.
+- **Pages updated:** none (all four checked businesses remain accurate as
+  listed on `blog-corydon-guide.html`).
+- **New post published:** `blog-forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb.html`
+  — "Forgotten Flavours: the wild-yeast bakery near the Corydon Airbnb"
+  (queue was empty; invented per playbook). A single-business feature on the
+  wild-yeast/long-fermentation bakery at 858 Corydon Ave (one of this run's
+  verified businesses), covering what "wild yeast" means, what's typically
+  in the case, and a note to check their site/Instagram for that day's hours
+  rather than assuming. Uses the existing `guidebook-winnipeg-31-forgotten-flavours.jpg`
+  bakery-case photo. Registered in `articles-data.js` and `sitemap.xml`.
+- **Notes:** Next rotation batch will pick up the four stalest remaining
+  Corydon guide businesses (Peking Chinese Food Ltd., Cafe 22, Saffron's
+  Restaurant, Santa Lucia Pizza), all still dated 2026-08-13.
+
+---
+
 ## 2026-08-16
 
 - **Businesses verified:** 4 of 20 (rotation batch, all tied for stalest at

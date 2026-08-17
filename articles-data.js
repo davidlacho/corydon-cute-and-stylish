@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-17",
+    "title": "Forgotten Flavours: the wild-yeast bakery near the Corydon Airbnb",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-31-forgotten-flavours.jpg",
+    "imageAlt": "Shelves of wild-yeast loaves and a pastry case at Forgotten Flavours bakery on Corydon Avenue",
+    "description": "A closer look at Forgotten Flavours, the wild-yeast bakery a few doors from the Corydon/Crescentwood Airbnb, and what to pick up before checkout.",
+    "metaHtml": "<span>🍞 Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 17, 2026</span>"
+  },
+  {
     "url": "/blog-pet-friendly-spots-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-16",
