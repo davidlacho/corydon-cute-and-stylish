@@ -10,7 +10,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-31-forgotten-flavours.jpg",
     "imageAlt": "Shelves of wild-yeast loaves and a pastry case at Forgotten Flavours bakery on Corydon Avenue",
     "description": "A closer look at Forgotten Flavours, the wild-yeast bakery a few doors from the Corydon/Crescentwood Airbnb, and what to pick up before checkout.",
-    "metaHtml": "<span>🍞 Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 17, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>3 min read</span>\n                                <span>August 17, 2026</span>"
   },
   {
     "url": "/blog-wellington-crescent-walk-near-corydon-airbnb.html",
@@ -20,7 +20,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-47-crescentwood.jpg",
     "imageAlt": "A flower garden in full summer bloom in front of a home on a quiet Crescentwood street",
     "description": "A free, easy walk (or bike ride) from the Corydon/Crescentwood Airbnb north to Wellington Crescent's riverside mansions and tree-lined boulevard, with an option to extend toward Assiniboine Park.",
-    "metaHtml": "<span>🚶 Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 15, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>3 min read</span>\n                                <span>August 15, 2026</span>"
   },
   {
     "url": "/blog-thermea-spa-day-near-corydon-airbnb.html",
@@ -30,7 +30,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-41-thermea-spa-village-winnipeg.jpg",
     "imageAlt": "Entrance to Thermëa Spa Village Winnipeg at dusk",
     "description": "What to know before booking a hot-cold-relax circuit at Thermëa Spa Village if you're staying at the Corydon/Crescentwood Airbnb: what it is, what a visit involves, and how to get there.",
-    "metaHtml": "<span>♨️ Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 14, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>3 min read</span>\n                                <span>August 14, 2026</span>"
   },
   {
     "url": "/blog-renting-a-bike-near-corydon-airbnb.html",
@@ -40,7 +40,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-51-plain-bicycle-bicycle-garden.jpg",
     "imageAlt": "Bicycle Garden storefront, a Plain Bicycle rental location in Winnipeg",
     "description": "Where to rent a bike for a day (or longer) if you're staying at the Corydon/Crescentwood Airbnb, plus where to point it once you've got one.",
-    "metaHtml": "<span>🚲 Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 13, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>3 min read</span>\n                                <span>August 13, 2026</span>"
   },
   {
     "url": "/blog-wine-beer-spirits-near-corydon-airbnb.html",
@@ -50,7 +50,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-24-grant-park-liquor-mart.jpg",
     "imageAlt": "Storefront of a Manitoba Liquor Mart",
     "description": "Manitoba sells alcohol differently than most places guests are used to. A quick guide to the two nearest Liquor Marts to the Corydon/Crescentwood Airbnb, and how the system works.",
-    "metaHtml": "<span>🍷 Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 12, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>3 min read</span>\n                                <span>August 12, 2026</span>"
   },
   {
     "url": "/blog-sunday-on-corydon-avenue.html",
@@ -60,7 +60,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-05-thom-bargen-coffee-roasters.jpg",
     "imageAlt": "Coffee being prepared at Thom Bargen Coffee Roasters on Corydon Avenue",
     "description": "A quick Sunday guide for guests at the Corydon/Crescentwood Airbnb: which nearby spots are open, which close early, and one popular sushi spot to skip that day.",
-    "metaHtml": "<span>🗓️ Winnipeg Guides</span>\n                                <span>⏱️ 3 min read</span>\n                                <span>📅 August 11, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>3 min read</span>\n                                <span>August 11, 2026</span>"
   },
   {
     "url": "/blog-work-remotely-near-corydon-airbnb.html",
@@ -70,7 +70,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/coffee-cafe.jpg",
     "imageAlt": "A latte and laptop set up at a coffee shop table",
     "description": "Laptop-friendly coffee shops and a quiet library backup within reach of the Corydon/Crescentwood Airbnb, for guests who need to get some work done while they're here.",
-    "metaHtml": "<span>💻 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 10, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>August 10, 2026</span>"
   },
   {
     "url": "/blog-date-night-on-corydon-avenue.html",
@@ -80,7 +80,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/wine-dining.jpg",
     "imageAlt": "A glass of wine beside a plated dinner at a restaurant table",
     "description": "How to plan a relaxed date night without leaving Corydon Avenue: where to book dinner, when to reserve, and where to go for a nightcap, all a short walk from the Corydon/Crescentwood Airbnb.",
-    "metaHtml": "<span>🍷 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 9, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>August 9, 2026</span>"
   },
   {
     "url": "/blog-beat-the-heat-near-corydon-airbnb.html",
@@ -90,7 +90,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/assiniboine-park.jpg",
     "imageAlt": "A shaded stone pergola surrounded by greenery at Assiniboine Park on a sunny summer day",
     "description": "Where to cool off on a hot Winnipeg day within a short walk of the Corydon/Crescentwood Airbnb: cold drinks on Corydon Avenue, an air-conditioned afternoon, and shaded green space nearby.",
-    "metaHtml": "<span>☀️ Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 8, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>August 8, 2026</span>"
   },
   {
     "url": "/blog-best-breakfast-brunch-near-corydon-airbnb.html",
@@ -100,7 +100,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-08-french-way-caf.jpg",
     "imageAlt": "A French breakfast spread of crepes and coffee at French Way Café near Corydon Avenue",
     "description": "Where to get breakfast and brunch within walking distance of the Corydon/Crescentwood Airbnb: coffee and pastry, a juice and smoothie bar, a French breakfast menu, and a reliable bakery-café.",
-    "metaHtml": "<span>🥐 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 7, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>August 7, 2026</span>"
   },
   {
     "url": "/blog-osborne-village-vs-corydon-evening-compared.html",
@@ -110,7 +110,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-03-the-roost-on-corydon.jpg",
     "imageAlt": "The Roost on Corydon, a cocktail bar on Corydon Avenue in the evening",
     "description": "Deciding between Osborne Village and Corydon Avenue for an evening out from the Corydon/Crescentwood Airbnb? Here's how the two neighbourhoods actually differ.",
-    "metaHtml": "<span>🌆 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 6, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>August 6, 2026</span>"
   },
   {
     "url": "/blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html",
@@ -120,7 +120,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-05-thom-bargen-coffee-roasters.jpg",
     "imageAlt": "Coffee being prepared at Thom Bargen Coffee Roasters on Corydon Avenue",
     "description": "Where to warm up on a cold Winnipeg day within a short walk of the Corydon/Crescentwood Airbnb: coffee, hearty warm food, and a bakery worth the detour.",
-    "metaHtml": "<span>❄️ Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 5, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>August 5, 2026</span>"
   },
   {
     "url": "/blog-farmers-market-near-corydon-airbnb.html",
@@ -130,7 +130,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=1200&h=800&auto=format&fit=crop",
     "imageAlt": "Fresh seasonal produce displayed at an outdoor farmers' market stall",
     "description": "The closest weekly farmers' market to the Corydon/Crescentwood Airbnb, what Manitoba produce is in season right now, and where to go for a bigger market trip.",
-    "metaHtml": "<span>🧺 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 4, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>August 4, 2026</span>"
   },
   {
     "url": "/blog-budget-day-corydon-airbnb.html",
@@ -140,7 +140,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/peanut-park-bench.jpg",
     "imageAlt": "A bench at Enderton Park (Peanut Park) in Crescentwood, Winnipeg",
     "description": "A free-and-cheap day near the Corydon/Crescentwood Airbnb: a park walk, affordable coffee, a budget-friendly lunch on Corydon Avenue, and a free stroll through Little Italy.",
-    "metaHtml": "<span>💰 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 3, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>August 3, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-transit-basics-getting-downtown-from-corydon.html",
@@ -150,7 +150,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/transit.avif",
     "imageAlt": "A Winnipeg Transit bus",
     "description": "A guest guide to Winnipeg Transit from the Corydon/Crescentwood Airbnb: the local Corydon bus route, the BLUE rapid transit line from nearby Osborne Village, and how to pay your fare.",
-    "metaHtml": "<span>🚌 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 2, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>August 2, 2026</span>"
   },
   {
     "url": "/blog-sweet-tooth-crawl-corydon-desserts.html",
@@ -160,7 +160,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-18-eva-s-gelato-coffee-bar.jpg",
     "imageAlt": "Eva's Gelato & Coffee Bar on Corydon Avenue, Winnipeg",
     "description": "A guest guide to dessert on Corydon Avenue: gelato, custom cakes, and homestyle bakes, all within a short walk of the Corydon/Crescentwood Airbnb.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 August 1, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>August 1, 2026</span>"
   },
   {
     "url": "/blog-family-friendly-stops-near-corydon.html",
@@ -170,7 +170,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-36-enderton-park-peanut-park.jpg",
     "imageAlt": "Enderton Park (Peanut Park), a pocket park with a playground in Crescentwood, Winnipeg",
     "description": "A guest guide to family-friendly stops within a short walk of the Corydon/Crescentwood Airbnb: a neighbourhood park with a playground, a gelato treat, and easy kid-friendly food on Corydon Avenue.",
-    "metaHtml": "<span>👨‍👩‍👧‍👦 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 July 31, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>July 31, 2026</span>"
   },
   {
     "url": "/blog-grocery-runs-near-corydon-airbnb.html",
@@ -180,7 +180,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-50-red-river-co-op-food-store.jpg",
     "imageAlt": "Exterior of a grocery store in Winnipeg",
     "description": "Where to grab groceries, bread, cheese, and pharmacy basics within a short walk or drive of the Corydon/Crescentwood Airbnb, with real addresses and hours.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 July 30, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>July 30, 2026</span>"
   },
   {
     "url": "/blog-little-italy-half-day-walking-loop.html",
@@ -190,7 +190,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-43-little-italy.jpg",
     "imageAlt": "Storefronts along Corydon Avenue in Winnipeg's Little Italy",
     "description": "A simple half-day walking loop down Corydon Avenue for first-time guests: coffee, a slow browse, a sit-down lunch, and dessert, covering the Osborne-to-Cambridge stretch of Little Italy on foot.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 July 29, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>July 29, 2026</span>"
   },
   {
     "url": "/blog-late-night-bites-near-corydon.html",
@@ -200,7 +200,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-01-bar-italia.jpg",
     "imageAlt": "Bar Italia's colourful storefront and patio on Corydon Avenue in the evening",
     "description": "A guest guide to where to eat and drink on Corydon Avenue after 10pm, from late-closing pizza to a Little Italy bar with a kitchen that keeps going past midnight.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 July 28, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>July 28, 2026</span>"
   },
   {
     "url": "/blog-vegetarian-vegan-eats-corydon.html",
@@ -210,7 +210,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/pasta-dish.jpg",
     "imageAlt": "Bowl of tomato-based pasta, a meat-free dish typical of Corydon's Italian kitchens",
     "description": "A guest guide to vegetarian and vegan-friendly options on Corydon Avenue, from a dedicated plant-based juice bar to Italian and Georgian kitchens with meat-free dishes, all a short walk from the Airbnb.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 July 27, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>July 27, 2026</span>"
   },
   {
     "url": "/blog-rainy-afternoon-on-corydon.html",
@@ -220,7 +220,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-00-the-cheesemongers-fromagerie.jpg",
     "imageAlt": "Interior of The Cheesemongers Fromagerie on Corydon Avenue",
     "description": "A guest guide to a rainy afternoon spent entirely on Corydon Avenue: an indoor deli browse, a sit-down lunch, and coffee and something sweet to finish, all a short walk from the Airbnb.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 July 26, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>July 26, 2026</span>"
   },
   {
     "url": "/blog-coffee-near-corydon-airbnb.html",
@@ -230,7 +230,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-04-thom-bargen-coffee-roasters.jpg",
     "imageAlt": "Coffee being prepared at Thom Bargen Coffee Roasters on Corydon Avenue",
     "description": "A guest guide to coffee on and around Corydon Avenue: the local roaster, bakery cafes with real coffee programs, and dependable chain stops, all a short walk from the Airbnb.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 July 25, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>July 25, 2026</span>"
   },
   {
     "url": "/blog-best-corydon-patios.html",
@@ -240,7 +240,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-03-the-roost-on-corydon.jpg",
     "imageAlt": "Outdoor patio seating along a tree-lined stretch of Corydon Avenue",
     "description": "A guest guide to the best patios on and near Corydon Avenue this season, from rooftop lounges to streetside courtyard seating in Winnipeg's Little Italy.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 July 24, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>July 24, 2026</span>"
   },
   {
     "url": "/blog-smart-tv-every-bedroom.html",
@@ -250,7 +250,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1766556273549-258012c80951?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Wall-mounted flat-screen smart TV in a guest room for private viewing",
     "description": "Why we added a smart TV to every bedroom at our Winnipeg Airbnb: quiet rooms still matter, and groups of six need separate downtime after a long travel day.",
-    "metaHtml": "<span>🏠 Hosting & Design</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 May 26, 2026</span>"
+    "metaHtml": "<span>Hosting & Design</span>\n                                <span>5 min read</span>\n                                <span>May 26, 2026</span>"
   },
   {
     "url": "/blog-rainy-day-winnipeg-itinerary.html",
@@ -260,7 +260,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/human-rights-museum.jpg",
     "imageAlt": "Canadian Museum for Human Rights exterior under cloudy sky",
     "description": "An indoor Winnipeg itinerary for rainy days with museums, galleries, food halls, and practical transport planning from Corydon.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 June 13, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>7 min read</span>\n                                <span>June 13, 2026</span>"
   },
   {
     "url": "/blog-day-trips-near-winnipeg-from-corydon.html",
@@ -270,7 +270,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Road trip planning scene for Manitoba day outings from Winnipeg",
     "description": "Plan easy day trips from Corydon to nearby Manitoba destinations including beach towns, prairie communities, and outdoor parks.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 June 11, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>9 min read</span>\n                                <span>June 11, 2026</span>"
   },
   {
     "url": "/blog-corydon-to-forks-bike-walk-guide.html",
@@ -280,7 +280,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/river_trail.png",
     "imageAlt": "River pathway near The Forks with bridge and skyline views",
     "description": "Route ideas for getting from Corydon to The Forks on foot or by bike, with practical rest stops, crossing notes, and timing expectations.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 June 9, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>8 min read</span>\n                                <span>June 9, 2026</span>"
   },
   {
     "url": "/blog-qaumajuq-wag-guide.html",
@@ -290,7 +290,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Exterior of the Winnipeg Art Gallery and Qaumajuq building",
     "description": "A practical guide to Qaumajuq and the Winnipeg Art Gallery for ticket planning, gallery pacing, and pairing the visit with downtown stops.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 June 7, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>8 min read</span>\n                                <span>June 7, 2026</span>"
   },
   {
     "url": "/blog-osborne-village-corydon-evening-guide.html",
@@ -300,7 +300,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Evening street view along Corydon with storefront lights and pedestrian activity",
     "description": "Plan an evening between Osborne Village and Corydon with patio options, dessert stops, and safe walking or rideshare return plans.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 June 5, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>7 min read</span>\n                                <span>June 5, 2026</span>"
   },
   {
     "url": "/blog-fortwhyte-alive-visitor-guide.html",
@@ -310,7 +310,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/assiniboine-park.jpg",
     "imageAlt": "Outdoor trail scene at a Winnipeg nature area with open sky and trees",
     "description": "Visit FortWhyte Alive with a clear plan for trail loops, bison viewing areas, admission notes, and transit access from central Winnipeg.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 June 3, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>9 min read</span>\n                                <span>June 3, 2026</span>"
   },
   {
     "url": "/blog-exchange-district-self-guided-tour.html",
@@ -320,7 +320,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-46-exchange-district.jpg",
     "imageAlt": "Historic warehouse buildings in Winnipeg Exchange District streetscape",
     "description": "Use this self-guided Exchange District route for architecture blocks, coffee breaks, and mural stops with practical timing from Corydon.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 June 1, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>8 min read</span>\n                                <span>June 1, 2026</span>"
   },
   {
     "url": "/blog-assiniboine-park-zoo-leaf-guide.html",
@@ -330,7 +330,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Assiniboine Park landscaped paths with trees and open lawns",
     "description": "A practical day plan for Assiniboine Park, Assiniboine Park Zoo, and The Leaf with timing, transit options, and family pacing tips from Corydon.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 30, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>8 min read</span>\n                                <span>May 30, 2026</span>"
   },
   {
     "url": "/blog-the-forks-cmhr-day-plan.html",
@@ -340,7 +340,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/forks-river.jpg",
     "imageAlt": "The Forks riverside area and market buildings in downtown Winnipeg",
     "description": "Plan one day at The Forks and the Canadian Museum for Human Rights with current opening hours, ticket notes, and a practical route from Corydon.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 28, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>9 min read</span>\n                                <span>May 28, 2026</span>"
   },
   {
     "url": "/blog-corydon-confusion-corner-walking-guide.html",
@@ -350,7 +350,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-01-bar-italia.jpg",
     "imageAlt": "Pedestrian-friendly stretch of Corydon Avenue near local shops and patios",
     "description": "A practical walking guide around Corydon and Confusion Corner: route ideas, coffee and gelato stops, Osborne links, and timing from Crescentwood.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 26, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>8 min read</span>\n                                <span>May 26, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-cocktail-bars-lounges.html",
@@ -360,7 +360,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-33-amsterdam-tea-room-and-bar.jpg",
     "imageAlt": "Craft cocktails garnished with citrus on a bar counter",
     "description": "Where to drink cocktails in Winnipeg: Amsterdam Tea Room's tea-led menu, The Roost on Corydon, Patent 5 distillery bar in the Exchange, hours, reservations, and transit home.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 12, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>8 min read</span>\n                                <span>May 12, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-vietnamese-pho-guide.html",
@@ -370,7 +370,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
     "imageAlt": "Steaming bowl of noodle soup with herbs and lime",
     "description": "Where to eat pho and Vietnamese plates in Winnipeg: Pho Hoang's multi-location hours, T.H. Dang on Pembina, Pho Kim Tuong on Ellice, and Vi-Ann on Notre Dame.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 11, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>9 min read</span>\n                                <span>May 11, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-pizza-guide.html",
@@ -380,7 +380,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Wood-fired pizza with basil fresh from the oven",
     "description": "Where to eat pizza in Winnipeg: Pizzeria Gusto's wood-fired Academy room, Gondola's thin crust legacy, Neon Palm, Parcel Pizza, Rebel Pizza, and planning takeout from Corydon.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 10, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>9 min read</span>\n                                <span>May 10, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-farmers-markets-guide.html",
@@ -390,7 +390,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Fresh vegetables and greens displayed at an outdoor farmers market stall",
     "description": "Manitoba-only vendors at St. Norbert Farmers' Market, downtown Thursday markets at Cityplace, winter vs summer hours, and how to pair a market morning with Corydon or The Forks.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 9, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>8 min read</span>\n                                <span>May 9, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-ice-cream-gelato.html",
@@ -400,7 +400,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Ice cream scoops in a waffle cone on a bright background",
     "description": "Where to find Winnipeg ice cream and gelato: Bridge Drive-In, Chaeban on Osborne, Eva's Gelato on Corydon, seasonal hours, and how to pair a stop with Assiniboine Park.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 May 8, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>8 min read</span>\n                                <span>May 8, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-bakeries-artisan-bread.html",
@@ -410,7 +410,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/Marble-rye.jpg",
     "imageAlt": "Freshly baked artisan bread loaves cooling on a rack",
     "description": "Where to buy artisan bread and pastries in Winnipeg: Tall Grass Prairie at The Forks, Forgotten Flavours on Corydon, neighbourhood franchises, and Gunn's legacy bakery.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 May 7, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>9 min read</span>\n                                <span>May 7, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-brunch-breakfast.html",
@@ -420,7 +420,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Brunch plates with eggs and vegetables on a cafe table",
     "description": "Plan brunch in Winnipeg: Clementine downtown, Marion Street Eatery and Pauline Bistro in St. Boniface, Stella's city-wide, and practical tips for waits, hours, and transit from Corydon.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 May 6, 2026</span>"
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>10 min read</span>\n                                <span>May 6, 2026</span>"
   },
   {
     "url": "/blog-airbnb-performance-statistics.html",
@@ -430,7 +430,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1707157281599-d155d1da5b4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Host reviewing Airbnb performance charts and listing metrics",
     "description": "The statistics are in: our Winnipeg Airbnb outperforms similar listings on quality, ratings, occupancy, and response metrics while keeping a lower nightly rate.",
-    "metaHtml": "<span>📊 Hosting & Performance</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 April 23, 2026</span>"
+    "metaHtml": "<span>Hosting & Performance</span>\n                                <span>7 min read</span>\n                                <span>April 23, 2026</span>"
   },
   {
     "url": "/blog-best-places-nearby-winnipeg.html",
@@ -439,8 +439,8 @@ const ARTICLES_DATA = [
     "title": "Best Places in Winnipeg",
     "image": "images/guidebook-winnipeg-39-the-forks.jpg",
     "imageAlt": "The Forks historic river junction and market in downtown Winnipeg",
-    "description": "Discover the best places in Winnipeg—restaurants, breweries, sightseeing, neighbourhoods, and groceries—from Corydon and the Exchange to Assiniboine Park. Curated local picks for visitors.",
-    "metaHtml": "<span>📍 Winnipeg Guides</span>\n                                <span>⏱️ 18 min read</span>\n                                <span>📅 April 13, 2026</span>"
+    "description": "Discover the best places in Winnipeg (restaurants, breweries, sightseeing, neighbourhoods, and groceries) from Corydon and the Exchange to Assiniboine Park. Curated local picks for visitors.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>18 min read</span>\n                                <span>April 13, 2026</span>"
   },
   {
     "url": "/blog-spacedoxa.html",
@@ -450,7 +450,7 @@ const ARTICLES_DATA = [
     "image": "images/spacedoxa-graffiti-gallery.jpg",
     "imageAlt": "Studio 393 performance and workshop space at Graffiti Art Programming in Winnipeg",
     "description": "Discover spacedoxa, a monthly experimental performance series at Graffiti Gallery in Winnipeg. Venue details, visiting tips, and why this art space belongs on your itinerary.",
-    "metaHtml": "<span>🎭 Arts & Culture</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 March 27, 2026</span>"
+    "metaHtml": "<span>Arts & Culture</span>\n                                <span>7 min read</span>\n                                <span>March 27, 2026</span>"
   },
   {
     "url": "/blog-el-taylor-crescentwood.html",
@@ -459,8 +459,8 @@ const ARTICLES_DATA = [
     "title": "E.L. Taylor, K.C.: The Name on the Crescentwood Map",
     "image": "images/crescentwoodoriginal.jpg",
     "imageAlt": "Historic Crescentwood subdivision plan showing lot owners' names including E L Taylor K C near Ruskin Row",
-    "description": "E.L. Taylor, K.C. once held a Crescentwood lot near Ruskin Row. From teacher to barrister, director, and MLA—his story, the original map, and the era's headlines.",
-    "metaHtml": "<span>🗺️ Crescentwood History</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 March 26, 2026</span>"
+    "description": "E.L. Taylor, K.C. once held a Crescentwood lot near Ruskin Row. From teacher to barrister, director, and MLA, his story, the original map, and the era's headlines.",
+    "metaHtml": "<span>Crescentwood History</span>\n                                <span>12 min read</span>\n                                <span>March 26, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-three-city-halls.html",
@@ -469,8 +469,8 @@ const ARTICLES_DATA = [
     "title": "Winnipeg's Three City Halls: History, Archives & a Downtown Visit",
     "image": "images/city-hall-council-building-2021.jpg",
     "imageAlt": "Winnipeg City Hall Council Building and plaza on a clear day",
-    "description": "Winnipeg's three City Halls—from the 1876 original to the 1964 campus—and City Archives' History in Focus. Plan a downtown visit from Corydon.",
-    "metaHtml": "<span>🏛️ Winnipeg History</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 March 26, 2026</span>"
+    "description": "Winnipeg's three City Halls (from the 1876 original to the 1964 campus) and City Archives' History in Focus. Plan a downtown visit from Corydon.",
+    "metaHtml": "<span>Winnipeg History</span>\n                                <span>6 min read</span>\n                                <span>March 26, 2026</span>"
   },
   {
     "url": "/blog-classic107-spring-break-winnipeg.html",
@@ -479,8 +479,8 @@ const ARTICLES_DATA = [
     "title": "Classic 107's Spring Break List: Family Fun Across Winnipeg",
     "image": "https://images.unsplash.com/photo-1615723411974-ed6cf1a6180a?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Family with children enjoying time together outdoors on a sunny day",
-    "description": "Classic 107 gathered Winnipeg spring break activities for families—zoos, museums, pools, libraries, and more. See highlights, confirm details, and plan from Crescentwood.",
-    "metaHtml": "<span>📻 Winnipeg Activities</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 March 26, 2026</span>"
+    "description": "Classic 107 gathered Winnipeg spring break activities for families, zoos, museums, pools, libraries, and more. See highlights, confirm details, and plan from Crescentwood.",
+    "metaHtml": "<span>Winnipeg Activities</span>\n                                <span>6 min read</span>\n                                <span>March 26, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-general-strike.html",
@@ -489,8 +489,8 @@ const ARTICLES_DATA = [
     "title": "The Winnipeg General Strike: History, Bloody Saturday & the Memorial",
     "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/WinnipegGeneralStrike.jpg",
     "imageAlt": "Historic photograph of the Winnipeg General Strike, 1919: crowd and streetcar at Main Street during Bloody Saturday",
-    "description": "Explore the 1919 Winnipeg General Strike and Bloody Saturday—one of Canada's defining labour moments. Learn about the memorial at Pantages Plaza and why it still matters today.",
-    "metaHtml": "<span>📜 Winnipeg History</span>\n                                <span>⏱️ 9 min read</span>\n                                <span>📅 February 18, 2026</span>"
+    "description": "Explore the 1919 Winnipeg General Strike and Bloody Saturday, one of Canada's defining labour moments. Learn about the memorial at Pantages Plaza and why it still matters today.",
+    "metaHtml": "<span>Winnipeg History</span>\n                                <span>9 min read</span>\n                                <span>February 18, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-snow-clearing-map.html",
@@ -500,7 +500,7 @@ const ARTICLES_DATA = [
     "image": "https://staywinnipeg.ca/images/winter-activities.jpg",
     "imageAlt": "Snow-covered sidewalk with cleared path in winter",
     "description": "The City of Winnipeg now updates sidewalk and pathway snow-clearing progress every 15 minutes via AVL. Learn how to use the snow operations map, when to report missed clearing, and stay safe in winter.",
-    "metaHtml": "<span>❄️ Winnipeg Winter</span>\n                                <span>⏱️ 4 min read</span>\n                                <span>📅 February 3, 2026</span>"
+    "metaHtml": "<span>Winnipeg Winter</span>\n                                <span>4 min read</span>\n                                <span>February 3, 2026</span>"
   },
   {
     "url": "/blog-corydon-cute-stylish-winnipeg-airbnb.html",
@@ -510,7 +510,7 @@ const ARTICLES_DATA = [
     "image": "images/2025-10-09-5-Ruskin-Row-00001.jpg",
     "imageAlt": "Mid-century modern Airbnb in Crescentwood, Winnipeg",
     "description": "A top-rated mid-century Airbnb in Crescentwood. Mid-century modern 3-bedroom home in historic Crescentwood with 110 guest reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
-    "metaHtml": "<span>🏠 Winnipeg Accommodations</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 5, 2025</span>"
+    "metaHtml": "<span>Winnipeg Accommodations</span>\n                                <span>10 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-jets.html",
@@ -520,7 +520,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1545471977-94cac22e71ed?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Hockey rink and stadium atmosphere",
     "description": "Explore the rich history of the Winnipeg Jets, from their WHA origins to NHL return, and discover why the 2026 Heritage Classic at Princess Auto Stadium is perfectly positioned for hockey fans.",
-    "metaHtml": "<span>🏒 Sports History</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 8, 2025</span>"
+    "metaHtml": "<span>Sports History</span>\n                                <span>10 min read</span>\n                                <span>December 8, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-blue-bombers.html",
@@ -530,7 +530,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Canadian Football League game action at a stadium",
     "description": "Discover the rich history of the Winnipeg Blue Bombers, from their 1930 founding to 12 Grey Cup championships. Learn about Princess Auto Stadium, recent seasons, and why attending a game is a must for any Winnipeg visitor.",
-    "metaHtml": "<span>🏈 Sports History</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 8, 2025</span>"
+    "metaHtml": "<span>Sports History</span>\n                                <span>10 min read</span>\n                                <span>December 8, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-goldeyes.html",
@@ -540,7 +540,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1582650448629-3c854f356544?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Baseball stadium with field and seating under blue sky",
     "description": "Discover the rich history of the Winnipeg Goldeyes, from their 1954 origins to modern championships. Learn about Blue Cross Park and why our location makes attending games a perfect summer experience.",
-    "metaHtml": "<span>⚾ Sports History</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 8, 2025</span>"
+    "metaHtml": "<span>Sports History</span>\n                                <span>10 min read</span>\n                                <span>December 8, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-pride.html",
@@ -550,7 +550,7 @@ const ARTICLES_DATA = [
     "image": "https://plus.unsplash.com/premium_photo-1670588493386-84435548e2ca?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Colorful rainbow pride flag representing diversity and inclusion",
     "description": "Discover Winnipeg's vibrant LGBTQ+ community, from the annual Pride Festival to the Rainbow Resource Centre. Learn about the city's rich history of advocacy and celebration, and why we welcome all guests with open arms.",
-    "metaHtml": "<span>🌈 Community & History</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 8, 2025</span>"
+    "metaHtml": "<span>Community & History</span>\n                                <span>12 min read</span>\n                                <span>December 8, 2025</span>"
   },
   {
     "url": "/blog-post-review-philosophy.html",
@@ -560,7 +560,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1624454002302-36b824d7bd0a?q=80&w=800&auto=format&fit=crop",
     "imageAlt": "Modern spa shower upgrade",
     "description": "Discover how our Winnipeg Airbnb transforms guest feedback into meaningful improvements. From spa shower upgrades to premium decor, see our commitment to five-star hospitality through continuous improvement and responsive hosting.",
-    "metaHtml": "<span>⭐ Hosting Philosophy</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 December 4, 2025</span>"
+    "metaHtml": "<span>Hosting Philosophy</span>\n                                <span>8 min read</span>\n                                <span>December 4, 2025</span>"
   },
   {
     "url": "/blog-travel-perspectives-hosting.html",
@@ -569,8 +569,8 @@ const ARTICLES_DATA = [
     "title": "How 14 Years of Travel Shapes Our Hosting Approach",
     "image": "https://images.unsplash.com/photo-1614649024145-7f847b1c803f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Travel suitcase and passport representing years of travel experiences",
-    "description": "After staying in 80+ Airbnbs across five continents, I've learned what makes a stay exceptional—and what makes it frustrating. Discover how my travel experiences inform every aspect of hosting, from anticipating guest needs to creating memorable experiences.",
-    "metaHtml": "<span>🌍 Hosting Philosophy</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 December 11, 2025</span>"
+    "description": "After staying in 80+ Airbnbs across five continents, I've learned what makes a stay exceptional, and what makes it frustrating. Discover how my travel experiences inform every aspect of hosting, from anticipating guest needs to creating memorable experiences.",
+    "metaHtml": "<span>Hosting Philosophy</span>\n                                <span>8 min read</span>\n                                <span>December 11, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-best-new-food-spots.html",
@@ -580,7 +580,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Modern restaurant interior with elegant dining atmosphere",
     "description": "Discover 22 incredible new restaurants competing for Winnipeg's Best New Food Spot. From French bistros to Korean BBQ, explore the city's vibrant 2026 dining scene and vote before December 18th.",
-    "metaHtml": "<span>🍽️ Winnipeg Dining</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 11, 2025</span>"
+    "metaHtml": "<span>Winnipeg Dining</span>\n                                <span>12 min read</span>\n                                <span>December 11, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-guest-guide.html",
@@ -590,7 +590,7 @@ const ARTICLES_DATA = [
     "image": "images/2025-10-09-5-Ruskin-Row-00001.jpg",
     "imageAlt": "Mid-century modern Airbnb in Winnipeg's Corydon neighborhood",
     "description": "Discover how we set up our guests for a successful stay in Winnipeg. From winter parking tips to energy conservation, learn about our comprehensive guest guide and house rules designed to help ensure a comfortable Winnipeg experience.",
-    "metaHtml": "<span>🏠 Hosting Tips</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 November 20, 2025</span>"
+    "metaHtml": "<span>Hosting Tips</span>\n                                <span>12 min read</span>\n                                <span>November 20, 2025</span>"
   },
   {
     "url": "/blog-airbnb-design-lessons.html",
@@ -600,7 +600,7 @@ const ARTICLES_DATA = [
     "image": "images/airbnb-interior.jpg",
     "imageAlt": "Beautiful Airbnb interior design",
     "description": "What makes an Airbnb truly memorable? We've traveled the globe staying in unique properties and learned valuable design lessons that we've applied to our Winnipeg home. Discover what works and what doesn't.",
-    "metaHtml": "<span>🏠 Design & Hosting</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 February 10, 2025</span>"
+    "metaHtml": "<span>Design & Hosting</span>\n                                <span>7 min read</span>\n                                <span>February 10, 2025</span>"
   },
   {
     "url": "/blog-hosting-best-practices.html",
@@ -610,7 +610,7 @@ const ARTICLES_DATA = [
     "image": "images/airbnb-host.jpg",
     "imageAlt": "Airbnb host preparing guest welcome",
     "description": "After staying in Airbnbs across five continents, we've identified the key practices that separate good hosts from great ones. Learn how we've incorporated these insights to create exceptional guest experiences.",
-    "metaHtml": "<span>⭐ Hosting Tips</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 February 15, 2025</span>"
+    "metaHtml": "<span>Hosting Tips</span>\n                                <span>6 min read</span>\n                                <span>February 15, 2025</span>"
   },
   {
     "url": "/blog-unique-airbnb-features.html",
@@ -620,7 +620,7 @@ const ARTICLES_DATA = [
     "image": "images/unique-airbnb-features.jpg",
     "imageAlt": "Unique and creative Airbnb features",
     "description": "From rooftop gardens in Barcelona to vintage record collections in Tokyo, we've seen some incredible touches that made stays unforgettable. Here are the features that inspired our own space.",
-    "metaHtml": "<span>✨ Unique Features</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 February 20, 2025</span>"
+    "metaHtml": "<span>Unique Features</span>\n                                <span>5 min read</span>\n                                <span>February 20, 2025</span>"
   },
   {
     "url": "/blog-rainbow-stage.html",
@@ -630,7 +630,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1692707483537-8f5e57e71531?q=80&w=2340&auto=format&fit=crop",
     "imageAlt": "Theatre stage with dramatic lighting",
     "description": "Discover Rainbow Stage, Canada's longest-running outdoor theatre since 1954. Learn about the inspiring origin story from the 1950 flood, practical visitor information, and their exciting 72nd season featuring Jesus Christ Superstar, Legally Blonde, and Fiddler on the Roof.",
-    "metaHtml": "<span>🎭 Arts & Culture</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 3, 2025</span>"
+    "metaHtml": "<span>Arts & Culture</span>\n                                <span>12 min read</span>\n                                <span>December 3, 2025</span>"
   },
   {
     "url": "/blog-corydon-guide.html",
@@ -640,7 +640,7 @@ const ARTICLES_DATA = [
     "image": "images/pasta-dish.jpg",
     "imageAlt": "Delicious pasta dish at a Corydon restaurant",
     "description": "Discover the heart of Winnipeg's Corydon Avenue, from authentic Italian restaurants to cozy cafes and unique boutiques. Your complete guide to \"Little Italy\" and why it's the perfect place to stay.",
-    "metaHtml": "<span>📍 Location Guide</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 January 15, 2025</span>"
+    "metaHtml": "<span>Location Guide</span>\n                                <span>5 min read</span>\n                                <span>January 15, 2025</span>"
   },
   {
     "url": "/blog-peanut-park.html",
@@ -650,7 +650,7 @@ const ARTICLES_DATA = [
     "image": "images/peanut-park-bench.jpg",
     "imageAlt": "A peaceful park bench under mature trees in Peanut Park, Winnipeg",
     "description": "Discover Peanut Park, officially known as Enderton Park, a charming two-acre green space right next to our Airbnb in Winnipeg's historic Crescentwood neighborhood. Learn about its rich history, community revitalization, and why it's a perfect place to relax.",
-    "metaHtml": "<span>🌳 Neighborhood Park</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 November 24, 2025</span>"
+    "metaHtml": "<span>Neighborhood Park</span>\n                                <span>7 min read</span>\n                                <span>November 24, 2025</span>"
   },
   {
     "url": "/blog-ruskin-row-residents.html",
@@ -660,7 +660,7 @@ const ARTICLES_DATA = [
     "image": "images/ruskin-row-scott-house-2018.jpg",
     "imageAlt": "Scott House at 29 Ruskin Row, a stately historic home",
     "description": "Discover the fascinating stories of the original residents who lived on Ruskin Row in Winnipeg's Crescentwood neighborhood, from lawyers and bankers to business leaders and public servants like Bank of Canada Governor James Elliott Coyne.",
-    "metaHtml": "<span>🏛️ Neighborhood History</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 November 21, 2025</span>"
+    "metaHtml": "<span>Neighborhood History</span>\n                                <span>10 min read</span>\n                                <span>November 21, 2025</span>"
   },
   {
     "url": "/blog-crescentwood-history.html",
@@ -670,7 +670,7 @@ const ARTICLES_DATA = [
     "image": "images/394494.webp",
     "imageAlt": "The historic Monster Mansion at 10 Ruskin Row in Crescentwood",
     "description": "Discover the rich history of Crescentwood, one of Winnipeg's most distinguished neighborhoods. From grand mansions to the legendary \"Monster Mansion\" at 10 Ruskin Row, explore the stories behind this historic district where our Airbnb is located.",
-    "metaHtml": "<span>🏛️ Neighborhood History</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 January 30, 2025</span>"
+    "metaHtml": "<span>Neighborhood History</span>\n                                <span>8 min read</span>\n                                <span>January 30, 2025</span>"
   },
   {
     "url": "/blog-things-to-do.html",
@@ -680,7 +680,7 @@ const ARTICLES_DATA = [
     "image": "images/wine-dining.jpg",
     "imageAlt": "Wine and fine dining experience in Winnipeg",
     "description": "From the Canadian Museum for Human Rights to Assiniboine Park, discover the must-see attractions that make Winnipeg a unique destination. Perfect for first-time visitors and locals alike.",
-    "metaHtml": "<span>🎯 Attractions</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 January 20, 2025</span>"
+    "metaHtml": "<span>Attractions</span>\n                                <span>8 min read</span>\n                                <span>January 20, 2025</span>"
   },
   {
     "url": "/blog-restaurants.html",
@@ -690,7 +690,7 @@ const ARTICLES_DATA = [
     "image": "images/restaurant-dining.jpg",
     "imageAlt": "Restaurant dining scene in Winnipeg",
     "description": "Explore Winnipeg's diverse culinary scene, from fine dining establishments to beloved local favorites. Discover where to find the best meals in the city, including hidden gems in Corydon.",
-    "metaHtml": "<span>🍽️ Dining</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 January 25, 2025</span>"
+    "metaHtml": "<span>Dining</span>\n                                <span>7 min read</span>\n                                <span>January 25, 2025</span>"
   },
   {
     "url": "/blog-family-activities.html",
@@ -700,7 +700,7 @@ const ARTICLES_DATA = [
     "image": "images/family-activities.jpg",
     "imageAlt": "Family enjoying activities together",
     "description": "Planning a family trip to Winnipeg? Discover the best attractions and activities that appeal to children and adults alike, from interactive museums to outdoor adventures.",
-    "metaHtml": "<span>👨‍👩‍👧‍👦 Family</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 February 1, 2025</span>"
+    "metaHtml": "<span>Family</span>\n                                <span>6 min read</span>\n                                <span>February 1, 2025</span>"
   },
   {
     "url": "/blog-transportation.html",
@@ -710,7 +710,7 @@ const ARTICLES_DATA = [
     "image": "images/airport-terminal.jpg",
     "imageAlt": "Winnipeg airport terminal",
     "description": "Complete guide to getting around Winnipeg in 2026. Learn about the new Primary Transit Network, airport transfers, Uber/Lyft, parking, winter transportation, and walkable neighborhoods. Essential tips for visitors staying in Corydon, downtown, and beyond.",
-    "metaHtml": "<span>🚗 Transportation</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 Updated December 8, 2025</span>"
+    "metaHtml": "<span>Transportation</span>\n                                <span>8 min read</span>\n                                <span>Updated December 8, 2025</span>"
   },
   {
     "url": "/blog-gunns-bakery.html",
@@ -720,7 +720,7 @@ const ARTICLES_DATA = [
     "image": "images/Marble-rye.jpg",
     "imageAlt": "Fresh caraway rye bread from Gunn's Bakery",
     "description": "Discover Gunn's Bakery, a beloved Winnipeg institution serving old-country kosher baking since 1937. Famous for their handmade caraway rye bread and traditional baked goods that have been part of Winnipeg families for generations.",
-    "metaHtml": "<span>🥖 Local Food</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 November 11, 2025</span>"
+    "metaHtml": "<span>Local Food</span>\n                                <span>5 min read</span>\n                                <span>November 11, 2025</span>"
   },
   {
     "url": "/blog-festival-du-voyageur.html",
@@ -730,7 +730,7 @@ const ARTICLES_DATA = [
     "image": "images/heho.jpg",
     "imageAlt": "Festival du Voyageur celebration in Winnipeg",
     "description": "Experience Festival du Voyageur, Western Canada's largest winter festival. Discover French-Canadian culture, snow sculptures, traditional music, and authentic cuisine in Winnipeg's Saint-Boniface neighborhood.",
-    "metaHtml": "<span>❄️ Winter Festival</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 February 15, 2025</span>"
+    "metaHtml": "<span>Winter Festival</span>\n                                <span>6 min read</span>\n                                <span>February 15, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-folk-festival.html",
@@ -740,7 +740,7 @@ const ARTICLES_DATA = [
     "image": "images/folkfest.jpg",
     "imageAlt": "Winnipeg Folk Festival celebration with music and community",
     "description": "Experience the Winnipeg Folk Festival, one of North America's premier folk music festivals. Discover world-class performances, workshops, and a vibrant community atmosphere in Birds Hill Provincial Park.",
-    "metaHtml": "<span>🎵 Music Festival</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 July 8, 2025</span>"
+    "metaHtml": "<span>Music Festival</span>\n                                <span>7 min read</span>\n                                <span>July 8, 2025</span>"
   },
   {
     "url": "/blog-the-forks.html",
@@ -750,7 +750,7 @@ const ARTICLES_DATA = [
     "image": "images/forks-river.jpg",
     "imageAlt": "The Forks Market with the Red and Assiniboine Rivers converging",
     "description": "Discover The Forks, Winnipeg's historic meeting place where the Red and Assiniboine Rivers converge. Explore 6,000 years of history, vibrant markets, restaurants, and cultural attractions.",
-    "metaHtml": "<span>🏛️ Historic Site</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 March 12, 2025</span>"
+    "metaHtml": "<span>Historic Site</span>\n                                <span>7 min read</span>\n                                <span>March 12, 2025</span>"
   },
   {
     "url": "/blog-human-rights-museum.html",
@@ -760,7 +760,7 @@ const ARTICLES_DATA = [
     "image": "images/human-rights-museum.jpg",
     "imageAlt": "Canadian Museum for Human Rights exterior",
     "description": "Visit the Canadian Museum for Human Rights, Canada's national museum dedicated to human rights. Explore powerful exhibits, stunning architecture, and thought-provoking stories that inspire action.",
-    "metaHtml": "<span>🏛️ Museum</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 April 18, 2025</span>"
+    "metaHtml": "<span>Museum</span>\n                                <span>7 min read</span>\n                                <span>April 18, 2025</span>"
   },
   {
     "url": "/blog-assiniboine-park.html",
@@ -770,7 +770,7 @@ const ARTICLES_DATA = [
     "image": "images/assiniboine-park.jpg",
     "imageAlt": "Assiniboine Park with beautiful gardens and walking paths",
     "description": "Explore Assiniboine Park, one of Winnipeg's largest green spaces, featuring the Assiniboine Park Zoo, The Leaf conservatory, beautiful gardens, and year-round activities for the whole family.",
-    "metaHtml": "<span>🌳 Park & Nature</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 May 22, 2025</span>"
+    "metaHtml": "<span>Park & Nature</span>\n                                <span>7 min read</span>\n                                <span>May 22, 2025</span>"
   },
   {
     "url": "/blog-exchange-district.html",
@@ -780,7 +780,7 @@ const ARTICLES_DATA = [
     "image": "images/exchange-district-pepsi.jpg",
     "imageAlt": "Historic Pepsi Cola advertisement sign on a building in downtown Winnipeg's Exchange District",
     "description": "Discover the Exchange District, Winnipeg's historic warehouse district featuring stunning early 20th-century architecture, art galleries, restaurants, and a vibrant cultural scene.",
-    "metaHtml": "<span>🏛️ Architecture</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 June 3, 2025</span>"
+    "metaHtml": "<span>Architecture</span>\n                                <span>6 min read</span>\n                                <span>June 3, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-art-gallery.html",
@@ -790,7 +790,7 @@ const ARTICLES_DATA = [
     "image": "images/winnipegartgallery1.jpg",
     "imageAlt": "Winnipeg Art Gallery exterior",
     "description": "Visit the Winnipeg Art Gallery, home to the world's largest collection of Inuit art. Explore Canadian and international art, stunning architecture, and the new Qaumajuq building.",
-    "metaHtml": "<span>🎨 Art & Culture</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 August 14, 2025</span>"
+    "metaHtml": "<span>Art & Culture</span>\n                                <span>7 min read</span>\n                                <span>August 14, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-murals.html",
@@ -800,7 +800,7 @@ const ARTICLES_DATA = [
     "image": "images/winnipeg-mural.jpg",
     "imageAlt": "Colorful street art mural in Winnipeg",
     "description": "Discover Winnipeg's vibrant street art scene. Explore colorful murals, public art installations, and creative expressions that transform the city into an open-air gallery.",
-    "metaHtml": "<span>🎨 Street Art</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 October 2, 2025</span>"
+    "metaHtml": "<span>Street Art</span>\n                                <span>6 min read</span>\n                                <span>October 2, 2025</span>"
   },
   {
     "url": "/blog-river-walks.html",
@@ -810,7 +810,7 @@ const ARTICLES_DATA = [
     "image": "images/forks-river.jpg",
     "imageAlt": "The Forks river walkway in Winnipeg with the Red and Assiniboine Rivers",
     "description": "Explore Winnipeg's beautiful river walkways along the Red and Assiniboine Rivers. Discover walking trails, cycling paths, winter skating, and year-round outdoor activities.",
-    "metaHtml": "<span>🚶 Outdoor Activities</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 May 8, 2025</span>"
+    "metaHtml": "<span>Outdoor Activities</span>\n                                <span>6 min read</span>\n                                <span>May 8, 2025</span>"
   },
   {
     "url": "/blog-st-vital-park.html",
@@ -820,7 +820,7 @@ const ARTICLES_DATA = [
     "image": "images/peanut-park-bench.jpg",
     "imageAlt": "St. Vital Park with Red River views and walking trails",
     "description": "Discover St. Vital Park, a beautiful 100-acre green space along the Red River. Enjoy walking trails, picnic areas, playgrounds, and year-round recreational activities in this beloved Winnipeg park.",
-    "metaHtml": "<span>🌳 Park & Recreation</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 April 5, 2025</span>"
+    "metaHtml": "<span>Park & Recreation</span>\n                                <span>6 min read</span>\n                                <span>April 5, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-coffee.html",
@@ -830,7 +830,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2000&auto=format&fit=crop",
     "imageAlt": "Artisan coffee being prepared in a Winnipeg cafe",
     "description": "Explore Winnipeg's thriving coffee scene from third-wave pioneers like Parlour Coffee to neighborhood favorites. Complete guide to specialty coffee, roasters, and the cafes that make Winnipeg a genuine coffee destination.",
-    "metaHtml": "<span>☕ Coffee Guide</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 5, 2025</span>"
+    "metaHtml": "<span>Coffee Guide</span>\n                                <span>12 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-breweries.html",
@@ -840,7 +840,7 @@ const ARTICLES_DATA = [
     "image": "https://plus.unsplash.com/premium_photo-1661964016869-491574f2610b?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Craft beer taps at a Winnipeg brewery taproom",
     "description": "Discover Winnipeg's thriving craft beer scene! From Half Pints and Torque Brewing to Good Neighbour and Brazen, explore the best breweries, taprooms, and beer culture Manitoba has to offer.",
-    "metaHtml": "<span>🍺 Beer & Breweries</span>\n                                <span>⏱️ 13 min read</span>\n                                <span>📅 December 5, 2025</span>"
+    "metaHtml": "<span>Beer & Breweries</span>\n                                <span>13 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {
     "url": "/blog-24-hour-winnipeg-budget.html",
@@ -850,7 +850,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1650821414031-cf7291ce938c?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Peanut Park bench in Winnipeg's Crescentwood neighborhood",
     "description": "Experience the best of Winnipeg in 24 hours without breaking the bank! From Peanut Park to The Forks, discover free attractions, budget-friendly cafes, cheap eats, and hidden gems starting at $35/day.",
-    "metaHtml": "<span>💰 Budget Travel</span>\n                                <span>⏱️ 14 min read</span>\n                                <span>📅 December 5, 2025</span>"
+    "metaHtml": "<span>Budget Travel</span>\n                                <span>14 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {
     "url": "/blog-hargrave-st-market.html",
@@ -859,8 +859,8 @@ const ARTICLES_DATA = [
     "title": "Hargrave St. Market: Winnipeg's Premier Downtown Food Hall",
     "image": "https://images.unsplash.com/photo-1622880833523-7cf1c0bd4296?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Modern food hall interior with diverse dining options",
-    "description": "Discover Hargrave St. Market in True North Square—Winnipeg's vibrant food hall featuring Gusto North, Saburo Kitchen, Lake of the Woods Brewing, and more. Complete guide to downtown's essential dining destination.",
-    "metaHtml": "<span>🍽️ Food & Dining</span>\n                                <span>⏱️ 11 min read</span>\n                                <span>📅 December 5, 2025</span>"
+    "description": "Discover Hargrave St. Market in True North Square, Winnipeg's vibrant food hall featuring Gusto North, Saburo Kitchen, Lake of the Woods Brewing, and more. Complete guide to downtown's essential dining destination.",
+    "metaHtml": "<span>Food & Dining</span>\n                                <span>11 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {
     "url": "/blog-winter-driving-winnipeg.html",
@@ -870,7 +870,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1730152112237-d2ca5b29b11e?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Winter driving conditions on snowy Winnipeg streets",
     "description": "Essential guide to winter driving in Winnipeg. Learn about MPI collision statistics, safety tips, vehicle preparation, and how to navigate snowy streets safely. Complete winter driving guide for visitors and residents.",
-    "metaHtml": "<span>🚗 Winter Safety</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 5, 2025</span>"
+    "metaHtml": "<span>Winter Safety</span>\n                                <span>10 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {
     "url": "/blog-filipino-billiards-winnipeg.html",
@@ -880,7 +880,7 @@ const ARTICLES_DATA = [
     "image": "images/billiards.jpg",
     "imageAlt": "Filipino billiards players in Winnipeg pool hall",
     "description": "Discover Winnipeg's thriving Filipino billiards community. Learn how Filipino players have created a cultural connection through billiards, organizing tournaments and keeping the game alive in Manitoba's capital.",
-    "metaHtml": "<span>🎱 Community & Culture</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 December 7, 2025</span>"
+    "metaHtml": "<span>Community & Culture</span>\n                                <span>5 min read</span>\n                                <span>December 7, 2025</span>"
   },
   {
     "url": "/blog-indigenous-winnipeg.html",
@@ -890,7 +890,7 @@ const ARTICLES_DATA = [
     "image": "images/the-forks-indigenous-768x512.jpeg",
     "imageAlt": "The Forks National Historic Site, a gathering place for Indigenous peoples for over 6,000 years",
     "description": "Explore Winnipeg's rich Indigenous heritage. Discover Indigenous restaurants, shops, cultural experiences, and learn about Treaty 1 Territory. Complete guide to experiencing Indigenous culture in Manitoba's capital.",
-    "metaHtml": "<span>🌿 Culture & Heritage</span>\n                                <span>⏱️ 15 min read</span>\n                                <span>📅 December 7, 2025</span>"
+    "metaHtml": "<span>Culture & Heritage</span>\n                                <span>15 min read</span>\n                                <span>December 7, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-winter-activities.html",
@@ -900,7 +900,7 @@ const ARTICLES_DATA = [
     "image": "images/winter-activities.jpg",
     "imageAlt": "People enjoying winter activities on frozen river in Winnipeg",
     "description": "Discover how Winnipeggers embrace winter with skating trails, cross-country skiing, winter festivals, and outdoor activities that make the cold season enjoyable and fun.",
-    "metaHtml": "<span>❄️ Winter Activities</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 November 24, 2025</span>"
+    "metaHtml": "<span>Winter Activities</span>\n                                <span>6 min read</span>\n                                <span>November 24, 2025</span>"
   },
   {
     "url": "/blog-nestaweya-river-trail.html",
@@ -910,7 +910,7 @@ const ARTICLES_DATA = [
     "image": "images/river_trail.png",
     "imageAlt": "Nestaweya River Trail skating path on frozen Red and Assiniboine Rivers in Winnipeg",
     "description": "Discover the Nestaweya River Trail, Winnipeg's 6km skating trail on frozen rivers. Learn about warming huts, Trail Together program, and why this winter experience is unforgettable.",
-    "metaHtml": "<span>⛸️ Winter Activities</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 January 2, 2026</span>"
+    "metaHtml": "<span>Winter Activities</span>\n                                <span>8 min read</span>\n                                <span>January 2, 2026</span>"
   },
   {
     "url": "/blog-puerto-vallarta-stay.html",
@@ -920,7 +920,7 @@ const ARTICLES_DATA = [
     "image": "images/puertovallarta.png",
     "imageAlt": "Puerto Vallarta apartment interior",
     "description": "Our experience staying at a modern apartment in Puerto Vallarta's Romantic Zone taught us valuable lessons about views, location, and creating memorable guest experiences. Discover what made this stay exceptional.",
-    "metaHtml": "<span>🌴 Travel Experience</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 February 25, 2025</span>"
+    "metaHtml": "<span>Travel Experience</span>\n                                <span>6 min read</span>\n                                <span>February 25, 2025</span>"
   },
   {
     "url": "/blog-lisbon-2015.html",
@@ -930,7 +930,7 @@ const ARTICLES_DATA = [
     "image": "images/lisbon.png",
     "imageAlt": "Lisbon apartment interior",
     "description": "In 2015, we stayed at a Lisbon apartment that felt like home. This experience fundamentally shaped how we approach hosting and design our own space. Discover the lessons that still inspire us today.",
-    "metaHtml": "<span>💡 Inspiration</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 March 1, 2025</span>"
+    "metaHtml": "<span>Inspiration</span>\n                                <span>7 min read</span>\n                                <span>March 1, 2025</span>"
   },
   {
     "url": "/blog-marseille-trip-gone-wrong.html",
@@ -939,8 +939,8 @@ const ARTICLES_DATA = [
     "title": "When Things Go Wrong: Lessons from a Marseille Airbnb Disaster",
     "image": "images/marseille.png",
     "imageAlt": "Marseille cityscape",
-    "description": "Sometimes even experienced travelers encounter nightmare Airbnbs. Our Marseille stay taught us what to look for—and what to avoid—when booking accommodations. Learn from our mistakes.",
-    "metaHtml": "<span>⚠️ Travel Lessons</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 March 10, 2025</span>"
+    "description": "Sometimes even experienced travelers encounter nightmare Airbnbs. Our Marseille stay taught us what to look for (and what to avoid) when booking accommodations. Learn from our mistakes.",
+    "metaHtml": "<span>Travel Lessons</span>\n                                <span>8 min read</span>\n                                <span>March 10, 2025</span>"
   },
   {
     "url": "/blog-bali-nyaman.html",
@@ -950,7 +950,7 @@ const ARTICLES_DATA = [
     "image": "images/bali.png",
     "imageAlt": "Bali landscape with rice terraces",
     "description": "Our stay at Nyaman Apartments in Canggu, Bali, showed us the true meaning of hospitality. From home-cooked dinners to ongoing friendship, this experience redefined what hosting can be.",
-    "metaHtml": "<span>💚 Hospitality</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 November 10, 2025</span>"
+    "metaHtml": "<span>Hospitality</span>\n                                <span>7 min read</span>\n                                <span>November 10, 2025</span>"
   },
   {
     "url": "/blog-budapest-caving.html",
@@ -960,7 +960,7 @@ const ARTICLES_DATA = [
     "image": "images/5bc00765-8f84-45d9-978c-82340d16d163.avif",
     "imageAlt": "Caving adventure in Pálvölgyi Cave, Budapest",
     "description": "During our travels in Budapest, we participated in an incredible caving adventure in Pálvölgyi Cave. We clambered up steep walls, crept through narrow passages, and discovered the underground world with expert guides. A once-in-a-lifetime experience that challenged and amazed us.",
-    "metaHtml": "<span>🏔️ Adventure Experience</span>\n                                <span>⏱️ 7 min read</span>\n                                <span>📅 November 13, 2025</span>"
+    "metaHtml": "<span>Adventure Experience</span>\n                                <span>7 min read</span>\n                                <span>November 13, 2025</span>"
   },
   {
     "url": "/blog-little-free-libraries.html",
@@ -970,7 +970,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1743610426905-010086499ad6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Little Free Library book exchange box in a neighborhood",
     "description": "Discover Winnipeg's Little Free Libraries, a global movement promoting literacy and community connection. Learn how to find LFLs across the city and how Winnipeg Public Library supports this initiative.",
-    "metaHtml": "<span>📚 Community & Culture</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 December 8, 2025</span>"
+    "metaHtml": "<span>Community & Culture</span>\n                                <span>6 min read</span>\n                                <span>December 8, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-tours.html",
@@ -980,7 +980,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1711505326859-f59f22ed7196?q=80&w=1436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Group of people on a guided walking tour exploring Winnipeg's historic architecture",
     "description": "Discover the best tours in Winnipeg! From walking tours and food tours to boat tours and architecture tours. Complete guide to guided and self-guided experiences showcasing Winnipeg's history, culture, and attractions.",
-    "metaHtml": "<span>🚶 Winnipeg Tours</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 9, 2025</span>"
+    "metaHtml": "<span>Winnipeg Tours</span>\n                                <span>12 min read</span>\n                                <span>December 9, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-must-sees.html",
@@ -990,7 +990,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Winnipeg cityscape with iconic attractions and architecture",
     "description": "Discover Winnipeg's 10 must-see attractions, from Assiniboine Park and The Forks to world-class museums and architectural marvels. Your complete guide to the city's essential experiences.",
-    "metaHtml": "<span>🎯 Winnipeg Attractions</span>\n                                <span>⏱️ 15 min read</span>\n                                <span>📅 December 9, 2025</span>"
+    "metaHtml": "<span>Winnipeg Attractions</span>\n                                <span>15 min read</span>\n                                <span>December 9, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-event-venues.html",
@@ -1000,7 +1000,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1560439514-4e9645039924?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Elegant event venue with modern lighting and seating for large group gatherings",
     "description": "Discover Winnipeg's outstanding off-site venues for large group events. From historic sites to modern spaces, find the perfect venue for galas, receptions, and group activities with capacities up to 2,500 guests.",
-    "metaHtml": "<span>🎉 Event Planning</span>\n                                <span>⏱️ 14 min read</span>\n                                <span>📅 December 9, 2025</span>"
+    "metaHtml": "<span>Event Planning</span>\n                                <span>14 min read</span>\n                                <span>December 9, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-food-trucks.html",
@@ -1010,7 +1010,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1683508700255-f9b09a11f687?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Vibrant food truck scene with colorful mobile kitchens serving street food",
     "description": "Discover Winnipeg's vibrant food truck scene with 60+ mobile kitchens serving everything from Korean bowls to wood-fired pizza. Your complete guide to finding the best street food in the city.",
-    "metaHtml": "<span>🍔 Winnipeg Dining</span>\n                                <span>⏱️ 14 min read</span>\n                                <span>📅 December 10, 2025</span>"
+    "metaHtml": "<span>Winnipeg Dining</span>\n                                <span>14 min read</span>\n                                <span>December 10, 2025</span>"
   },
   {
     "url": "/blog-group-dining.html",
@@ -1020,7 +1020,7 @@ const ARTICLES_DATA = [
     "image": "https://plus.unsplash.com/premium_photo-1723633229720-adc672458647?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Group dining at an elegant restaurant table with multiple place settings",
     "description": "Discover Winnipeg's best restaurants for group dining. From private rooms to large party venues, find the perfect spot for weddings, celebrations, and gatherings of 25 to 1,000 people.",
-    "metaHtml": "<span>🍽️ Group Dining</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 9, 2025</span>"
+    "metaHtml": "<span>Group Dining</span>\n                                <span>12 min read</span>\n                                <span>December 9, 2025</span>"
   },
   {
     "url": "/blog-crescentwood-liveable.html",
@@ -1029,8 +1029,8 @@ const ARTICLES_DATA = [
     "title": "Best Area Winnipeg: Why Crescentwood is the Safest & Most Liveable Neighborhood",
     "image": "https://images.unsplash.com/photo-1591658522986-9eb791d2a89a?q=80&w=1652&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Peaceful residential street in Crescentwood with mature trees and well-maintained historic homes",
-    "description": "Crescentwood is the best area in Winnipeg with a 92/100 livability score. It's also the safest area Winnipeg has to offer—crime rates 58% lower than average. Perfect for Airbnb stays with excellent amenities, transit, and location.",
-    "metaHtml": "<span>🏘️ Neighborhood Guide</span>\n                                <span>⏱️ 15 min read</span>\n                                <span>📅 December 11, 2025</span>"
+    "description": "Crescentwood is the best area in Winnipeg with a 92/100 livability score. It's also the safest area Winnipeg has to offer, crime rates 58% lower than average. Perfect for Airbnb stays with excellent amenities, transit, and location.",
+    "metaHtml": "<span>Neighborhood Guide</span>\n                                <span>15 min read</span>\n                                <span>December 11, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-short-term-rental-compliance.html",
@@ -1040,7 +1040,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1524813686514-a57563d77965?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Compliant and safe Airbnb property with professional hosting standards",
     "description": "Book with confidence knowing you're staying with a fully compliant, legally licensed host. Learn how we maintain full compliance with Winnipeg's short-term rental bylaw, including proper licensing, routine inspections, and our commitment to guest safety.",
-    "metaHtml": "<span>✅ Hosting & Compliance</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 December 11, 2025</span>"
+    "metaHtml": "<span>Hosting & Compliance</span>\n                                <span>10 min read</span>\n                                <span>December 11, 2025</span>"
   },
   {
     "url": "/blog-spa-shower-upgrade.html",
@@ -1050,7 +1050,7 @@ const ARTICLES_DATA = [
     "image": "images/61-rddpp-cS._AC_SL1500_.jpg",
     "imageAlt": "Modern spa shower panel system with rainfall shower head and adjustable massage jets",
     "description": "We're thrilled to announce our latest upgrade: transforming our bathroom into a spa-like retreat with a premium shower panel system featuring rainfall shower heads, massage jets, and modern amenities.",
-    "metaHtml": "<span>✨ Hosting & Improvements</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 December 17, 2025</span>"
+    "metaHtml": "<span>Hosting & Improvements</span>\n                                <span>6 min read</span>\n                                <span>December 17, 2025</span>"
   },
   {
     "url": "/blog-mattress-pillow-protectors.html",
@@ -1060,7 +1060,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Clean, well-made bed with white linens in a modern bedroom",
     "description": "Discover why waterproof mattress and pillow protectors are essential for Airbnb hosting. Learn about the durable, machine-washable protectors we've used since day one to ensure guests always sleep on clean surfaces.",
-    "metaHtml": "<span>🏠 Hosting Tips</span>\n                                <span>⏱️ 5 min read</span>\n                                <span>📅 December 24, 2025</span>"
+    "metaHtml": "<span>Hosting Tips</span>\n                                <span>5 min read</span>\n                                <span>December 24, 2025</span>"
   },
   {
     "url": "/blog-espresso-machine-simplicity.html",
@@ -1070,7 +1070,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Professional espresso machine with milk frother on a kitchen counter",
     "description": "We wanted to provide an elevated experience with a professional espresso machine, but guests kept asking for a simple drip coffee maker. Learn why simpler is better when it comes to Airbnb amenities.",
-    "metaHtml": "<span>🏠 Hosting Philosophy</span>\n                                <span>⏱️ 8 min read</span>\n                                <span>📅 November 1, 2025</span>"
+    "metaHtml": "<span>Hosting Philosophy</span>\n                                <span>8 min read</span>\n                                <span>November 1, 2025</span>"
   },
   {
     "url": "/blog-christmas-winnipeg.html",
@@ -1080,7 +1080,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Festive Christmas lights and decorations in Winnipeg during the holiday season",
     "description": "Discover festive holiday activities in Winnipeg during Christmas and winter break. From holiday lights and live theatre to outdoor adventures and family-friendly attractions, make your winter stay unforgettable.",
-    "metaHtml": "<span>🎄 Holiday Activities</span>\n                                <span>⏱️ 12 min read</span>\n                                <span>📅 December 23, 2025</span>"
+    "metaHtml": "<span>Holiday Activities</span>\n                                <span>12 min read</span>\n                                <span>December 23, 2025</span>"
   },
   {
     "url": "/blog-fresh-decor-updates.html",
@@ -1090,7 +1090,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Cozy living room with plush blankets and colorful throw pillows on a comfortable sofa",
     "description": "We've refreshed our Airbnb with plush blankets for winter comfort, colorful throw pillow covers for a fresh feel, and navy linens for a soothing, cohesive look. Discover how thoughtful decor choices enhance guest comfort.",
-    "metaHtml": "<span>🏠 Hosting & Design</span>\n                                <span>⏱️ 6 min read</span>\n                                <span>📅 December 24, 2025</span>"
+    "metaHtml": "<span>Hosting & Design</span>\n                                <span>6 min read</span>\n                                <span>December 24, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-vegan-restaurants.html",
@@ -1100,7 +1100,7 @@ const ARTICLES_DATA = [
     "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Colorful plant-based vegan meal with fresh vegetables and grains",
     "description": "Discover Winnipeg's best vegan restaurants and plant-based dining options. From dedicated vegan cafes to restaurants with excellent vegan menus, find where to eat plant-based in Manitoba's capital.",
-    "metaHtml": "<span>🌱 Vegan Dining</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 January 3, 2026</span>"
+    "metaHtml": "<span>Vegan Dining</span>\n                                <span>10 min read</span>\n                                <span>January 3, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-transit-history.html",
@@ -1110,7 +1110,7 @@ const ARTICLES_DATA = [
     "image": "images/transit.avif",
     "imageAlt": "Historic Winnipeg Transit vehicle showcasing the city's transportation evolution",
     "description": "Explore the fascinating evolution of Winnipeg Transit from horse-drawn carts to modern buses. Discover how 6,000+ historic photos preserve the city's transportation heritage and showcase Winnipeg's growth.",
-    "metaHtml": "<span>🚌 Winnipeg History</span>\n                                <span>⏱️ 10 min read</span>\n                                <span>📅 January 14, 2026</span>"
+    "metaHtml": "<span>Winnipeg History</span>\n                                <span>10 min read</span>\n                                <span>January 14, 2026</span>"
   }
 ];
 

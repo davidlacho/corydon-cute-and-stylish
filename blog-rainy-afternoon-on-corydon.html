@@ -35,9 +35,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/blog-styles.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
@@ -66,9 +66,9 @@
     <main id="article-content">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>A rainy afternoon that never leaves Corydon Avenue</h1>
-                <div class="article-meta"><span>📍 Winnipeg Guides</span> • <span>⏱️ 5 min read</span> • <span>📅 July 26, 2026</span></div>
+                <div class="article-meta"><span>Winnipeg Guides</span> • <span>5 min read</span> • <span>July 26, 2026</span></div>
             </div>
             <div class="article-hero-image">
                 <img src="https://staywinnipeg.ca/images/guidebook-winnipeg-00-the-cheesemongers-fromagerie.jpg" alt="Interior of The Cheesemongers Fromagerie on Corydon Avenue" loading="eager">
@@ -76,12 +76,12 @@
             <div class="article-body">
                 <p>If the forecast turns on you, you don't need to plan a downtown museum run. Corydon Avenue itself has enough indoor stops, all within a few blocks of the Airbnb, to fill a whole afternoon without getting wet more than once or twice crossing the street.</p>
                 <h2>Start with a browse, not a destination</h2>
-                <p><strong>The Cheesemongers Fromagerie</strong> (839 Corydon Ave) is a good first stop on a slow, indoor afternoon — a specialty cheese and deli shop that rewards unhurried browsing, and an easy place to pick up something for later in the day.</p>
+                <p><strong>The Cheesemongers Fromagerie</strong> (839 Corydon Ave) is a good first stop on a slow, indoor afternoon, a specialty cheese and deli shop that rewards unhurried browsing, and an easy place to pick up something for later in the day.</p>
                 <h2>A sit-down lunch out of the rain</h2>
                 <p>Corydon has several full-service Italian restaurants clustered together if you want to sit down properly rather than grab something quick. <strong>Bar Italia</strong> (737 Corydon Ave) and <strong>Passero Restaurant</strong> (774 Corydon Ave) are both a short walk from the deli and give you a dry, unhurried hour or two while the weather passes.</p>
                 <h2>Coffee, then something sweet</h2>
                 <p>Finish at <strong>Thom Bargen Coffee Roasters</strong> (743 Corydon Ave) for a proper espresso, then walk a block to <strong>Sugar + Salt Bakeshoppe</strong> (897 Corydon Ave) for cake or a pastry to take back to the Airbnb.</p>
-                <div class="highlight-box"><p><strong>From the Airbnb:</strong> Everything here is on Corydon Avenue itself, so there's no transit or rideshare to plan around — just an umbrella for the short walks between doors. Hours can shift with the day and season, so it's worth a quick check of a shop's own site or Google listing before you head out.</p></div>
+                <div class="highlight-box"><p><strong>From the Airbnb:</strong> Everything here is on Corydon Avenue itself, so there's no transit or rideshare to plan around, just an umbrella for the short walks between doors. Hours can shift with the day and season, so it's worth a quick check of a shop's own site or Google listing before you head out.</p></div>
             </div>
         </article>
     </main>
@@ -124,21 +124,16 @@
                             React.createElement(Navigation),
                             React.createElement('main', { id: 'main-content' },
                                 React.createElement('div', { className: 'container' },
-                                    React.createElement('p', null, 'Loading...')
-                                )
-                            ),
+                                    React.createElement('p', null, 'Loading...'))),
                             React.createElement(Footer),
-                            React.createElement(FloatingBookButton)
-                        );
+                            React.createElement(FloatingBookButton));
                     }
                     return React.createElement('div', null,
                         React.createElement(Navigation),
                         React.createElement('main', { id: 'main-content' },
-                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })
-                        ),
+                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })),
                         React.createElement(Footer),
-                        React.createElement(FloatingBookButton)
-                    );
+                        React.createElement(FloatingBookButton));
                 }
                 const renderReact = () => {
                     const root = ReactDOM.createRoot(document.getElementById('root'));

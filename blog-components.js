@@ -220,23 +220,32 @@ function Navigation(props) {
 function Footer() {
     return React.createElement('footer', { role: 'contentinfo' },
         React.createElement('div', { className: 'footer-content' },
+            React.createElement('div', { className: 'footer-col footer-col--wide' },
+                React.createElement('p', { className: 'footer-wordmark' }, 'Stay Winnipeg'),
+                React.createElement('p', { className: 'footer-acknowledgement' },
+                    'We acknowledge that we are on Treaty 1 territory, the traditional lands of the Anishinaabe, Cree, Oji-Cree, Dakota, and Dene peoples, and the homeland of the M\u00E9tis Nation.'
+                )
+            ),
+            React.createElement('div', { className: 'footer-col' },
+                React.createElement('h2', { className: 'footer-col-title' }, 'Site'),
             React.createElement('div', { className: 'footer-links' },
                 React.createElement('a', { href: 'https://staywinnipeg.ca/' }, 'Home'),
                 React.createElement('a', { href: 'https://staywinnipeg.ca/tours-experiences.html' }, 'Discounted Tours and Experiences'),
                 React.createElement('a', { href: 'https://staywinnipeg.ca/blog.html' }, 'Blog'),
-                React.createElement('a', { href: 'https://staywinnipeg.ca/accessibility.html' }, 'Accessibility')
-            ),
-            React.createElement('p', null, '\u00A9 2025 Stay Winnipeg. All rights reserved.'),
-            React.createElement('p', { className: 'footer-text' },
-                React.createElement('a', { href: 'https://www.airbnb.ca/h/corydon-cute-and-stylish' },
-                    'airbnb.ca/h/corydon-cute-and-stylish'
+                    React.createElement('a', { href: 'https://www.airbnb.ca/h/corydon-cute-and-stylish' }, 'Book on Airbnb')
                 )
             ),
-            React.createElement('p', { className: 'footer-registration' },
-                'Registration details: STRA-2025-2600298'
+            React.createElement('div', { className: 'footer-col' },
+                React.createElement('h2', { className: 'footer-col-title' }, 'Legal'),
+                React.createElement('div', { className: 'footer-links' },
+                    React.createElement('a', { href: 'https://staywinnipeg.ca/terms.html' }, 'Terms of Use'),
+                    React.createElement('a', { href: 'https://staywinnipeg.ca/privacy.html' }, 'Privacy Policy'),
+                React.createElement('a', { href: 'https://staywinnipeg.ca/accessibility.html' }, 'Accessibility')
             ),
-            React.createElement('p', { className: 'footer-acknowledgement' },
-                'We acknowledge that we are on Treaty 1 territory, the traditional lands of the Anishinaabe, Cree, Oji-Cree, Dakota, and Dene peoples, and the homeland of the Métis Nation.'
+                React.createElement('p', { className: 'footer-registration' },
+                    'Short-term rental registration STRA-2025-2600298'
+            ),
+                React.createElement('p', { className: 'footer-text' }, '\u00A9 2026 Stay Winnipeg')
             )
         )
     );

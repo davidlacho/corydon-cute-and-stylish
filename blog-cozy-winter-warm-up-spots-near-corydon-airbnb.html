@@ -36,9 +36,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/blog-styles.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
@@ -67,26 +67,26 @@
     <main id="article-content">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>Cozy winter warm-up spots near the Corydon Airbnb</h1>
-                <div class="article-meta"><span>❄️ Winnipeg Guides</span> • <span>⏱️ 4 min read</span> • <span>📅 August 5, 2026</span></div>
+                <div class="article-meta"><span>Winnipeg Guides</span> • <span>4 min read</span> • <span>August 5, 2026</span></div>
             </div>
             <div class="article-hero-image">
                 <img src="images/guidebook-winnipeg-05-thom-bargen-coffee-roasters.jpg" alt="Coffee being prepared at Thom Bargen Coffee Roasters on Corydon Avenue" loading="eager">
             </div>
             <div class="article-body">
-                <p>Winnipeg winters get genuinely cold, and the best defence isn't just layering up — it's knowing where to duck in and warm back up. Everything below is on Corydon Avenue itself, a short walk from the Corydon/Crescentwood Airbnb, so a cold-weather stop never turns into a long detour.</p>
+                <p>Winnipeg winters get genuinely cold, and the best defence isn't just layering up; it's knowing where to duck in and warm back up. Everything below is on Corydon Avenue itself, a short walk from the Corydon/Crescentwood Airbnb, so a cold-weather stop never turns into a long detour.</p>
 
                 <h2>Thom Bargen Coffee Roasters</h2>
                 <p><strong>Thom Bargen Coffee Roasters</strong> at 743 Corydon Ave roasts its own beans and runs a proper espresso bar, making it the strip's dedicated destination coffee shop. On a cold day it's an easy first stop: a hot espresso drink, a warm room, and a chance to plan the rest of your walk before heading back out.</p>
 
                 <h2>Saperavi Georgian Cuisine</h2>
-                <p><strong>Saperavi Georgian Cuisine</strong> at 709 Corydon Ave is the Prairies' first Georgian restaurant, and its menu leans naturally into cold-weather comfort — khinkali (soup dumplings), khachapuri (cheese-filled bread), and hearty shashlik, alongside Georgian wine. It's a sit-down option for when you want a full warm meal rather than a quick stop.</p>
+                <p><strong>Saperavi Georgian Cuisine</strong> at 709 Corydon Ave is the Prairies' first Georgian restaurant, and its menu leans naturally into cold-weather comfort, khinkali (soup dumplings), khachapuri (cheese-filled bread), and hearty shashlik, alongside Georgian wine. It's a sit-down option for when you want a full warm meal rather than a quick stop.</p>
 
                 <h2>Sugar + Salt Bakeshoppe</h2>
                 <p><strong>Sugar + Salt Bakeshoppe</strong> at 897 Corydon Ave is a bakery and custom cake shop that also pours a well-regarded coffee, so it doubles as a warm-up stop with something sweet on the side. It keeps shorter, more limited hours than the restaurants nearby, so it's worth checking current hours before making it your destination.</p>
 
-                <div class="highlight-box"><p><strong>Good to know:</strong> All three stops are on Corydon Avenue, within easy walking distance of the Corydon/Crescentwood Airbnb — useful in winter, when you want to minimize time outdoors between stops. Dress for the walk between them (wind along Corydon can make it feel colder than the forecast), and check current hours ahead of time since winter hours can run shorter than summer ones.</p></div>
+                <div class="highlight-box"><p><strong>Good to know:</strong> All three stops are on Corydon Avenue, within easy walking distance of the Corydon/Crescentwood Airbnb, useful in winter, when you want to minimize time outdoors between stops. Dress for the walk between them (wind along Corydon can make it feel colder than the forecast), and check current hours ahead of time since winter hours can run shorter than summer ones.</p></div>
             </div>
         </article>
     </main>
@@ -129,21 +129,16 @@
                             React.createElement(Navigation),
                             React.createElement('main', { id: 'main-content' },
                                 React.createElement('div', { className: 'container' },
-                                    React.createElement('p', null, 'Loading...')
-                                )
-                            ),
+                                    React.createElement('p', null, 'Loading...'))),
                             React.createElement(Footer),
-                            React.createElement(FloatingBookButton)
-                        );
+                            React.createElement(FloatingBookButton));
                     }
                     return React.createElement('div', null,
                         React.createElement(Navigation),
                         React.createElement('main', { id: 'main-content' },
-                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })
-                        ),
+                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })),
                         React.createElement(Footer),
-                        React.createElement(FloatingBookButton)
-                    );
+                        React.createElement(FloatingBookButton));
                 }
                 const renderReact = () => {
                     const root = ReactDOM.createRoot(document.getElementById('root'));

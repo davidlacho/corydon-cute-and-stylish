@@ -166,14 +166,14 @@ When adding guest reviews, update **every** file below. Two counts are tracked s
 ## Files and locations to update
 
 ### `index.html` (source of truth for review data)
-- `LodgingBusiness` JSON-LD `"review"` array — add new review objects at the top (most recent first)
+- `LodgingBusiness` JSON-LD `"review"` array, add new review objects at the top (most recent first)
 - `LodgingBusiness` JSON-LD `"aggregateRating.reviewCount"` and `"aggregateRating.ratingValue"`
 - Meta tags: `description`, `DC.description`, `og:description`, `twitter:description`
 - Organization JSON-LD `"description"`
 - FAQ JSON-LD entries mentioning review count
 - `#seo-content` hidden SEO paragraphs
 - Property overview copy (`"Rated … from X guest reviews"`, `"With X guest reviews"`)
-- Homepage React reviews carousel and Guest favourite badge read from JSON-LD automatically — no separate React count edits needed
+- Homepage React reviews carousel and Guest favourite badge read from JSON-LD automatically, no separate React count edits needed
 
 ### `blog-corydon-cute-stylish-winnipeg-airbnb.html`
 - Meta tags: `description`, `og:description`, `twitter:description`
@@ -188,7 +188,7 @@ When adding guest reviews, update **every** file below. Two counts are tracked s
 - `description` for `/blog-corydon-cute-stylish-winnipeg-airbnb.html` (React blog listing)
 
 ### `articles_data.json`
-- Same Corydon post `description` (legacy fallback — keep in sync with `articles-data.js`)
+- Same Corydon post `description` (legacy fallback, keep in sync with `articles-data.js`)
 
 ### `llms.txt`
 - `# Key Features`: `"X 5-star reviews (Y total reviews, Z average rating)"`
@@ -199,7 +199,7 @@ When adding guest reviews, update **every** file below. Two counts are tracked s
 
 ## Post-update verification
 
-- Grep the repo for the old total (`"X guest reviews"`, `reviewCount": "X"`) — no stale counts should remain
+- Grep the repo for the old total (`"X guest reviews"`, `reviewCount": "X"`), no stale counts should remain
 - Confirm `articles-data.js`, `articles_data.json`, `blog.html`, and the Corydon blog post all match
 - Run Pa11y on `index.html`, `blog.html`, and `blog-corydon-cute-stylish-winnipeg-airbnb.html`
 

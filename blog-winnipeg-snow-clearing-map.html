@@ -44,9 +44,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     
     <!-- Shared Blog Styles -->
     <link rel="stylesheet" href="/blog-styles.css">
@@ -79,10 +79,10 @@
     <main id="article-content">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>Winnipeg Snow Clearing Map: Real-Time Sidewalk & Pathway Updates</h1>
                 <div class="article-meta">
-                    <span>❄️ Winnipeg Winter</span> • <span>⏱️ 4 min read</span> • <span>📅 February 3, 2026</span>
+                    <span>Winnipeg Winter</span> • <span>4 min read</span> • <span>February 3, 2026</span>
                 </div>
             </div>
 
@@ -91,7 +91,7 @@
             </div>
 
             <div class="article-body">
-                <p>Wondering how quickly Winnipeg is clearing snow after a storm? The City of Winnipeg has made it easier to stay in the loop. In February 2026, the City announced that the <strong><a href="https://legacy.winnipeg.ca/publicworks/snow/default.stm#map" target="_blank" rel="noopener noreferrer">snow operations map</a></strong> now uses automatic vehicle location (AVL) technology so that progress on individual sidewalks, pathways, and bike paths is updated <strong>every 15 minutes</strong>—instead of manual updates at the end of a 12-hour shift.</p>
+                <p>Wondering how quickly Winnipeg is clearing snow after a storm? The City of Winnipeg has made it easier to stay in the loop. In February 2026, the City announced that the <strong><a href="https://legacy.winnipeg.ca/publicworks/snow/default.stm#map" target="_blank" rel="noopener noreferrer">snow operations map</a></strong> now uses automatic vehicle location (AVL) technology so that progress on individual sidewalks, pathways, and bike paths is updated <strong>every 15 minutes</strong>, instead of manual updates at the end of a 12-hour shift.</p>
 
                 <h2>What Changed</h2>
                 <p>Previously, staff entered clearing status for an entire area manually, typically once at the end of a shift. Now, AVL equipment on plows and sidewalk machines sends location data automatically. As soon as a sidewalk or pathway is cleared, that status is reflected on the map. You get a much faster, more accurate picture of where crews have been and what’s still in progress.</p>
@@ -120,7 +120,7 @@
                 </ul>
 
                 <div class="highlight-box">
-                    <p><strong>For guests:</strong> If you’re staying in Winnipeg during winter—including in Corydon or Crescentwood—bookmark the snow map and Know Your Zone so you know when your street is cleared and when parking bans apply. It makes winter walks and driving much less guesswork.</p>
+                    <p><strong>For guests:</strong> If you’re staying in Winnipeg during winter (including in Corydon or Crescentwood) bookmark the snow map and Know Your Zone so you know when your street is cleared and when parking bans apply. It makes winter walks and driving much less guesswork.</p>
                 </div>
 
                 <h2>Why It Matters</h2>
@@ -184,12 +184,9 @@
                             React.createElement(Navigation),
                             React.createElement('main', { id: 'main-content' },
                                 React.createElement('div', { className: 'container' },
-                                    React.createElement('p', null, 'Loading...')
-                                )
-                            ),
+                                    React.createElement('p', null, 'Loading...'))),
                             React.createElement(Footer),
-                            React.createElement(FloatingBookButton)
-                        );
+                            React.createElement(FloatingBookButton));
                     }
 
                     return React.createElement('div', null,
@@ -198,11 +195,9 @@
                             React.createElement('article', {
                                 className: 'container',
                                 dangerouslySetInnerHTML: { __html: articleContent }
-                            })
-                        ),
+                            })),
                         React.createElement(Footer),
-                        React.createElement(FloatingBookButton)
-                    );
+                        React.createElement(FloatingBookButton));
                 }
 
                 const renderReact = function() {

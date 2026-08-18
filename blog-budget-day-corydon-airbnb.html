@@ -35,9 +35,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/blog-styles.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
@@ -66,9 +66,9 @@
     <main id="article-content">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>A budget day out from the Corydon Airbnb</h1>
-                <div class="article-meta"><span>💰 Winnipeg Guides</span> • <span>⏱️ 4 min read</span> • <span>📅 August 3, 2026</span></div>
+                <div class="article-meta"><span>Winnipeg Guides</span> • <span>4 min read</span> • <span>August 3, 2026</span></div>
             </div>
             <div class="article-hero-image">
                 <img src="https://staywinnipeg.ca/images/peanut-park-bench.jpg" alt="A bench at Enderton Park (Peanut Park) in Crescentwood, Winnipeg" loading="eager">
@@ -76,12 +76,12 @@
             <div class="article-body">
                 <p>You don't need a big budget for a satisfying day near the Corydon/Crescentwood Airbnb. A short park visit, an affordable coffee, and a casual lunch on Corydon Avenue cover a full day without much spending or any need for a car.</p>
 <h2>Morning: a free park walk</h2>
-<p>Start at Enderton Park (known locally as Peanut Park), a short walk from the Airbnb. It costs nothing, has a playground and green space, and is an easy way to get outside before the day gets busy. If you pass a Little Free Library along the way, it's worth a look — take a book, leave a book, no cost either way.</p>
+<p>Start at Enderton Park (known locally as Peanut Park), a short walk from the Airbnb. It costs nothing, has a playground and green space, and is an easy way to get outside before the day gets busy. If you pass a Little Free Library along the way, it's worth a look, take a book, leave a book, no cost either way.</p>
 <h2>Midday: affordable coffee and lunch on Corydon</h2>
-<p>Corydon Avenue spans a range of price points, and several spots keep things budget-friendly. Tim Horton's (949 Corydon Ave) is a reliable low-cost coffee stop. For lunch, casual counter-service options like Santa Lucia Pizza (905 Corydon Ave) or Peking Chinese Food (840 Corydon Ave) tend to be easier on the wallet than the strip's sit-down Italian restaurants — menu prices change, so it's worth checking current pricing before you go.</p>
+<p>Corydon Avenue spans a range of price points, and several spots keep things budget-friendly. Tim Horton's (949 Corydon Ave) is a reliable low-cost coffee stop. For lunch, casual counter-service options like Santa Lucia Pizza (905 Corydon Ave) or Peking Chinese Food (840 Corydon Ave) tend to be easier on the wallet than the strip's sit-down Italian restaurants, menu prices change, so it's worth checking current pricing before you go.</p>
 <h2>Afternoon: window-shop Little Italy for free</h2>
 <p>Walking the Corydon strip itself doesn't cost anything. Browse storefronts between Osborne and Cambridge, duck into whichever bakery smells best, and save a small treat from Sugar + Salt Bakeshoppe (897 Corydon Ave) for later if there's room left in the budget.</p>
-<div class="highlight-box"><p><strong>From Corydon:</strong> Because the Airbnb sits right on this stretch, a low-cost day here doesn't require a vehicle or transit fare at all — everything above is within easy walking distance.</p></div>
+<div class="highlight-box"><p><strong>From Corydon:</strong> Because the Airbnb sits right on this stretch, a low-cost day here doesn't require a vehicle or transit fare at all, everything above is within easy walking distance.</p></div>
             </div>
         </article>
     </main>
@@ -124,21 +124,16 @@
                             React.createElement(Navigation),
                             React.createElement('main', { id: 'main-content' },
                                 React.createElement('div', { className: 'container' },
-                                    React.createElement('p', null, 'Loading...')
-                                )
-                            ),
+                                    React.createElement('p', null, 'Loading...'))),
                             React.createElement(Footer),
-                            React.createElement(FloatingBookButton)
-                        );
+                            React.createElement(FloatingBookButton));
                     }
                     return React.createElement('div', null,
                         React.createElement(Navigation),
                         React.createElement('main', { id: 'main-content' },
-                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })
-                        ),
+                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })),
                         React.createElement(Footer),
-                        React.createElement(FloatingBookButton)
-                    );
+                        React.createElement(FloatingBookButton));
                 }
                 const renderReact = () => {
                     const root = ReactDOM.createRoot(document.getElementById('root'));

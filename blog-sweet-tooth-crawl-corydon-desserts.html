@@ -36,9 +36,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/blog-styles.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
@@ -67,9 +67,9 @@
     <main id="article-content">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>Sweet tooth crawl: bakeries, gelato, and dessert on Corydon</h1>
-                <div class="article-meta"><span>📍 Winnipeg Guides</span> • <span>⏱️ 4 min read</span> • <span>📅 August 1, 2026</span></div>
+                <div class="article-meta"><span>Winnipeg Guides</span> • <span>4 min read</span> • <span>August 1, 2026</span></div>
             </div>
             <div class="article-hero-image">
                 <img src="images/guidebook-winnipeg-18-eva-s-gelato-coffee-bar.jpg" alt="Eva's Gelato & Coffee Bar on Corydon Avenue, Winnipeg" loading="eager">
@@ -84,7 +84,7 @@
                 <p><strong><a href="https://evasgelato.com/" target="_blank" rel="noopener noreferrer">Eva's Gelato &amp; Coffee Bar</a></strong> at 1001 Corydon Ave makes its Argentinean-style gelato in-house at this location, so flavours can vary by day. It doubles as a cappuccino bar, making it an easy stop for a coffee-and-gelato pairing at the Cambridge end of the strip.</p>
 
                 <h2>Sugar + Salt Bakeshoppe</h2>
-                <p><strong><a href="https://www.sugarandsaltbakeshoppe.com/" target="_blank" rel="noopener noreferrer">Sugar + Salt Bakeshoppe</a></strong> at 897 Corydon Ave is a custom cake shop and bakery with homestyle bakes — think cookies, squares, and daily pastry cases alongside made-to-order cakes. It keeps shorter hours than the restaurants nearby, roughly Tuesday to Friday late morning through mid-afternoon and Saturday mornings, so it's best treated as a daytime stop rather than an after-dinner one.</p>
+                <p><strong><a href="https://www.sugarandsaltbakeshoppe.com/" target="_blank" rel="noopener noreferrer">Sugar + Salt Bakeshoppe</a></strong> at 897 Corydon Ave is a custom cake shop and bakery with homestyle bakes, think cookies, squares, and daily pastry cases alongside made-to-order cakes. It keeps shorter hours than the restaurants nearby, roughly Tuesday to Friday late morning through mid-afternoon and Saturday mornings, so it's best treated as a daytime stop rather than an after-dinner one.</p>
 
                 <div class="highlight-box"><p><strong>Good to know:</strong> All three stops are on Corydon Avenue itself, an easy walk from the Corydon/Crescentwood Airbnb. Bakery and gelato hours here tend to be shorter and more seasonal than the restaurants on the strip, so it's worth checking current hours before heading out, especially outside of summer.</p></div>
             </div>
@@ -129,21 +129,16 @@
                             React.createElement(Navigation),
                             React.createElement('main', { id: 'main-content' },
                                 React.createElement('div', { className: 'container' },
-                                    React.createElement('p', null, 'Loading...')
-                                )
-                            ),
+                                    React.createElement('p', null, 'Loading...'))),
                             React.createElement(Footer),
-                            React.createElement(FloatingBookButton)
-                        );
+                            React.createElement(FloatingBookButton));
                     }
                     return React.createElement('div', null,
                         React.createElement(Navigation),
                         React.createElement('main', { id: 'main-content' },
-                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })
-                        ),
+                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })),
                         React.createElement(Footer),
-                        React.createElement(FloatingBookButton)
-                    );
+                        React.createElement(FloatingBookButton));
                 }
                 const renderReact = () => {
                     const root = ReactDOM.createRoot(document.getElementById('root'));

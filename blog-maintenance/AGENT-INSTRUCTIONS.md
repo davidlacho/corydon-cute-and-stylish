@@ -18,7 +18,7 @@ This is an absolute prohibition, not a preference:
 
 - Never create a post about pets, dogs, cats, dog parks, off-leash areas, leash
   bylaws, dog-friendly patios/breweries/shops, pet supplies, vets, groomers,
-  boarding/daycare, or travelling with an animal — as a post topic, a section, a
+  boarding/daycare, or travelling with an animal, as a post topic, a section, a
   listicle entry, or an aside.
 - Never describe the home, the listing, or the stay as pet-friendly, pet-welcome,
   dog-friendly, or "pets by request", and never add pet-related amenities,
@@ -38,6 +38,41 @@ This is an absolute prohibition, not a preference:
 Before committing, check your own diff: if the words *pet*, *dog*, *leash*, or
 *paw* appear in anything you added, remove it unless it clearly meets the narrow
 incidental exception above.
+
+## House style — do not reintroduce the generic-AI look
+
+The site was deliberately redesigned away from the visual and verbal tics that
+make a page read as machine-generated. New posts must match it. When you copy an
+existing post as a template, copy a **recent** one and check your output against
+this list before committing.
+
+Visual, all of which live in `styles.css` / `blog-styles.css`. Do not add
+per-post overrides:
+
+- No gradients of any kind, no drop shadows, no glassmorphism blur, no glow.
+- No rounded corners. Cards, buttons, images, and inputs are square; only the map
+  pins keep a radius, because that is what a pin is.
+- No coloured left stripes on callouts. `.highlight-box`, `.info-box`, and
+  `.warning-box` are hairline-bordered boxes.
+- No hover animations that move things. Hover changes colour or an underline.
+- Palette is warm paper and ink with one sienna accent (`--paper`, `--ink`,
+  `--accent`). No purple, no neon, no pastel, no slate/Tailwind greys.
+- Typefaces are Fraunces (headings) and Libre Franklin (body), already loaded in
+  the shared `<head>` block. Never add Inter, Geist, Space Grotesk, or Manrope.
+
+Content and copy:
+
+- **No emoji.** Not in article meta lines, not in headings, not as list bullets,
+  not in `articles-data.js` `metaHtml`. The meta line is three plain spans:
+  `<span>Winnipeg Guides</span> • <span>4 min read</span> • <span>June 3, 2026</span>`
+- No sparkle glyphs (✦ ✨), no checkmark bullets (✓), no decorative arrows on
+  links. "Read Article" is a plain underlined link.
+- **No em dashes.** Use a comma for an aside, a semicolon between two independent
+  clauses, parentheses for a true parenthetical, or a full stop.
+- Avoid the "it isn't just X, it's Y" construction, and "more than just X".
+  Say the thing directly instead.
+- Left-align headings. No centred section title with an underline bar beneath it,
+  and no italic centred tagline under the heading.
 
 ## Part 1 — Verify a rotating batch of businesses (do NOT check them all)
 
@@ -68,7 +103,7 @@ every run.
 
 - **Default to a city-wide topic.** Write for someone searching "things to do in
   Winnipeg", "best ramen Winnipeg", "Winnipeg in February", "St. Boniface
-  walking tour" — not for someone standing on our front step.
+  walking tour", not for someone standing on our front step.
 - **At most one post in four may be anchored to Corydon/Crescentwood or the
   Airbnb's immediate surroundings.** Check the last several entries in
   "Used" in `post-ideas.md` before choosing; if two of the last four are
@@ -158,4 +193,6 @@ every run.
   Osborne St to Cambridge St).
 - Images must fit the subject and the place. Prefer local `images/` photos; never
   use a generic big-city skyline or cityscape (see Part 2, step 4).
+- Match the house style above. If your diff contains an em dash, an emoji, a
+  gradient, a border-radius, or a box-shadow, fix it before committing.
 - Only touch files in this repository.

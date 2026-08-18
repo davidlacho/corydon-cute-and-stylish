@@ -44,13 +44,13 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     
     <!-- Shared Blog Styles -->
     <link rel="stylesheet" href="/blog-styles.css">
@@ -90,10 +90,10 @@
     <main id="article-content">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>Exploring Winnipeg's Exchange District: A Walk Through History</h1>
                 <div class="article-meta">
-                    <span>🏛️ Architecture</span> • <span>⏱️ 6 min read</span> • <span>📅 June 3, 2025</span>
+                    <span>Architecture</span> • <span>6 min read</span> • <span>June 3, 2025</span>
                 </div>
             </div>
 
@@ -159,7 +159,7 @@
                 <p>The Exchange District is located just north of Portage Avenue in downtown Winnipeg, making it easily accessible from our Airbnb in Crescentwood. It's about a 10-minute drive or easily reached by public transit. The area is also very walkable, so you can easily spend a full day exploring.</p>
 
                 <h2>Why the Exchange District Matters</h2>
-                <p>The Exchange District is more than just a collection of old buildings—it's a living testament to Winnipeg's history and a vibrant part of its present. It shows how a city can honor its past while building for the future, creating spaces that are both historically significant and dynamically alive.</p>
+                <p>The Exchange District is more than just a collection of old buildings; it's a living testament to Winnipeg's history and a vibrant part of its present. It shows how a city can honor its past while building for the future, creating spaces that are both historically significant and dynamically alive.</p>
 
                 <p>Whether you're interested in architecture, history, art, dining, or simply want to experience one of Winnipeg's most unique neighborhoods, the Exchange District offers something special. It's a place where the past and present coexist beautifully, creating an atmosphere that's both nostalgic and forward-looking.</p>
 
@@ -229,12 +229,9 @@
                     React.createElement(Navigation),
                     React.createElement('main', { id: 'main-content' },
                         React.createElement('div', { className: 'container' },
-                            React.createElement('p', null, 'Loading...')
-                        )
-                    ),
+                            React.createElement('p', null, 'Loading...'))),
                     React.createElement(Footer),
-                    React.createElement(FloatingBookButton)
-                );
+                    React.createElement(FloatingBookButton));
             }
 
             return React.createElement('div', null,
@@ -243,11 +240,9 @@
                     React.createElement('article', {
                         className: 'container',
                         dangerouslySetInnerHTML: { __html: articleContent }
-                    })
-                ),
+                    })),
                 React.createElement(Footer),
-                React.createElement(FloatingBookButton)
-            );
+                React.createElement(FloatingBookButton));
         }
 
 // Optimized React initialization with requestIdleCallback to reduce main-thread blocking

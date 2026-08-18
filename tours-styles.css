@@ -1,31 +1,20 @@
-/* Tours & Experiences Page - Gradient background from cream to white */
+/* Tours & Experiences page: same paper ground as the rest of the site. */
 body.tours-page {
-    background: linear-gradient(to bottom, rgba(248, 250, 252, 0.98) 0%, rgba(248, 250, 252, 0.98) 30%, rgba(255, 255, 255, 0.95) 60%, white 100%) !important;
-    background-attachment: fixed;
+    background: var(--paper) !important;
 }
 
 /* Apply font family to content only, not nav/footer */
-body.tours-page main#main-content,
-body.tours-page main#main-content * {
-    font-family: Manrope, "Helvetica Neue", Arial, sans-serif !important;
+body.tours-page main#main-content {
+    font-family: var(--font-body);
+}
+
+body.tours-page main#main-content h1,
+body.tours-page main#main-content h2,
+body.tours-page main#main-content h3 {
+    font-family: var(--font-heading);
 }
 
 /* Ensure nav and footer use default styling from blog-styles.css */
-body.tours-page nav,
-body.tours-page nav * {
-    font-family: var(--font-body, 'Manrope', 'Helvetica Neue', Arial, sans-serif) !important;
-}
-
-body.tours-page nav .logo,
-body.tours-page nav .logo-title {
-    font-family: var(--font-heading, 'Manrope', 'Helvetica Neue', Arial, sans-serif) !important;
-}
-
-body.tours-page footer,
-body.tours-page footer * {
-    font-family: var(--font-body, 'Manrope', 'Helvetica Neue', Arial, sans-serif) !important;
-}
-
 body.tours-page #root {
     background: transparent !important;
 }
@@ -44,32 +33,34 @@ body.tours-page .container {
 body.tours-page .article-header {
     background: transparent !important;
     padding: 3rem 2rem 1.5rem !important;
-    margin-top: 80px !important;
-    text-align: center;
+    margin-top: 122px !important;
+    text-align: left;
+    max-width: 84rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body.tours-page .article-body {
     background: transparent !important;
     padding: 2rem 2rem 3rem !important;
-    max-width: 1200px;
+    max-width: 84rem;
     margin: 0 auto;
 }
 
 /* Viator widget container - white background to match widget */
 body.tours-page .viator-widget-container {
-    background: white !important;
-    border-radius: 12px;
+    background: var(--surface) !important;
+    border-radius: 0;
     padding: 1.5rem;
-    margin-top: 2rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-top: 2.5rem;
     min-height: 500px;
-    border-top: 4px solid var(--mustard);
+    border: 1px solid var(--rule);
 }
 
 /* Viator-inspired typography styles */
 body.tours-page .article-header h1 {
-    color: var(--text);
-    font-size: 2.625rem; /* --viator-font-size-1000 */
+    color: var(--ink);
+    font-size: 2.625rem;
     line-height: 1.1; /* Tighter line height for large headings */
     font-weight: 600; /* Slightly bolder for better hierarchy */
     letter-spacing: -0.02em; /* Slightly tighter for large text */
@@ -77,20 +68,10 @@ body.tours-page .article-header h1 {
     position: relative;
 }
 
-/* Brand decorative star after title */
-body.tours-page .article-header h1::after {
-    content: ' ✦';
-    color: var(--mustard);
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-left: 0.5rem;
-}
-
-/* Brand accent border on header */
 body.tours-page .article-header {
-    border-bottom: 3px solid var(--teal);
+    border-bottom: 1px solid var(--rule);
     padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 body.tours-page .article-meta {
@@ -127,12 +108,9 @@ body.tours-page .article-body p:last-of-type {
 body.tours-page .article-body-image {
     width: 100%;
     height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
     object-fit: cover;
-    border: 3px solid transparent;
-    border-top-color: var(--mustard);
-    border-left-color: var(--teal);
+    border: 1px solid var(--rule-strong);
 }
 
 body.tours-page .article-body strong {
@@ -182,7 +160,7 @@ body.tours-page #article-content .container {
 
 @media screen and (min-width: 768px) {
     body.tours-page .article-header h1 {
-        font-size: 3.5rem; /* Slightly smaller than before for better balance */
+        font-size: 3rem;
         line-height: 1.1;
         font-weight: 600;
         letter-spacing: -0.02em;
@@ -191,7 +169,7 @@ body.tours-page #article-content .container {
 
 @media screen and (min-width: 1024px) {
     body.tours-page .article-header h1 {
-        font-size: 4rem; /* Large but not overwhelming */
+        font-size: 3.5rem;
     }
 }
 

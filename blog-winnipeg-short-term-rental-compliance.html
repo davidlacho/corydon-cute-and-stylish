@@ -44,9 +44,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     
     <!-- Shared Blog Styles -->
     <link rel="stylesheet" href="/blog-styles.css">
@@ -87,10 +87,10 @@
     <main id="article-content" class="article-content-source">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>Winnipeg Short-Term Rental Compliance: How We Follow All Rules & Stay Up to Date</h1>
                 <div class="article-meta">
-                    <span>✅ Hosting & Compliance</span> • <span>⏱️ 10 min read</span> • <span>📅 December 11, 2025</span>
+                    <span>Hosting & Compliance</span> • <span>10 min read</span> • <span>December 11, 2025</span>
                 </div>
             </div>
 
@@ -170,10 +170,10 @@
                     <li>We ensure our operations always meet the latest standards</li>
                 </ul>
 
-                <p>This commitment means you can book with confidence, knowing we're not just compliant today—we're prepared for tomorrow. Our operations always reflect the latest regulations and best practices.</p>
+                <p>This commitment means you can book with confidence, knowing we're not just compliant today; we're prepared for tomorrow. Our operations always reflect the latest regulations and best practices.</p>
 
                 <h2>Why Booking with a Compliant Host Matters</h2>
-                <p>When you book with a compliant host like us, you're choosing more than just accommodation—you're choosing:</p>
+                <p>When you book with a compliant host like us, you're choosing more than just accommodation; you're choosing:</p>
                 <ul>
                     <li><strong>Legal Protection:</strong> You're staying in a property that's fully licensed and registered, which protects your rights as a guest</li>
                     <li><strong>Safety Assurance:</strong> The property has been inspected and meets all safety standards, giving you peace of mind</li>
@@ -194,7 +194,7 @@
                     <li><strong>Fully Licensed Property:</strong> Our property is registered with the City of Winnipeg and maintains all required business licenses</li>
                     <li><strong>Safety Inspected:</strong> Regular safety inspections ensure all equipment is up to date and the property meets all safety standards</li>
                     <li><strong>Clear Communication:</strong> We're responsive and available throughout your stay to address any questions or concerns</li>
-                    <li><strong>Transparent Pricing:</strong> All required taxes are included in your booking—no surprise fees</li>
+                    <li><strong>Transparent Pricing:</strong> All required taxes are included in your booking, no surprise fees</li>
                     <li><strong>Respectful House Rules:</strong> Clear guidelines that help ensure a comfortable stay for you and our neighbors</li>
                     <li><strong>Community Welcome:</strong> You're staying in a property that's accepted and welcomed by our neighbors</li>
                 </ul>
@@ -278,12 +278,9 @@
                     React.createElement(Navigation),
                     React.createElement('main', { id: 'main-content' },
                         React.createElement('div', { className: 'container' },
-                            React.createElement('p', null, 'Loading...')
-                        )
-                    ),
+                            React.createElement('p', null, 'Loading...'))),
                     React.createElement(Footer),
-                    React.createElement(FloatingBookButton)
-                );
+                    React.createElement(FloatingBookButton));
             }
 
             return React.createElement('div', null,
@@ -292,11 +289,9 @@
                     React.createElement('article', {
                         className: 'container',
                         dangerouslySetInnerHTML: { __html: articleContent }
-                    })
-                ),
+                    })),
                 React.createElement(Footer),
-                React.createElement(FloatingBookButton)
-            );
+                React.createElement(FloatingBookButton));
         }
 
         // Optimized React initialization with requestIdleCallback to reduce main-thread blocking

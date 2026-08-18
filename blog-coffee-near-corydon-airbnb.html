@@ -35,9 +35,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/blog-styles.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
@@ -66,19 +66,19 @@
     <main id="article-content">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>Where to get coffee within a 10-minute walk of the Airbnb</h1>
-                <div class="article-meta"><span>📍 Winnipeg Guides</span> • <span>⏱️ 5 min read</span> • <span>📅 July 25, 2026</span></div>
+                <div class="article-meta"><span>Winnipeg Guides</span> • <span>5 min read</span> • <span>July 25, 2026</span></div>
             </div>
             <div class="article-hero-image">
                 <img src="https://staywinnipeg.ca/images/guidebook-winnipeg-04-thom-bargen-coffee-roasters.jpg" alt="Coffee being prepared at Thom Bargen Coffee Roasters on Corydon Avenue" loading="eager">
             </div>
             <div class="article-body">
-                <p>You don't need a car for a good cup of coffee here — Corydon Avenue has a small but solid coffee scene, and everything below is a short walk from the Airbnb. Here's where to go depending on what you're after.</p>
+                <p>You don't need a car for a good cup of coffee here, Corydon Avenue has a small but solid coffee scene, and everything below is a short walk from the Airbnb. Here's where to go depending on what you're after.</p>
                 <h2>The local roaster</h2>
                 <p><strong>Thom Bargen Coffee Roasters</strong> (743 Corydon Ave) is the neighbourhood's dedicated specialty coffee spot, roasting its own beans and running a proper espresso bar. If you want something closer to a destination coffee shop than a quick stop, start here.</p>
                 <h2>Bakery cafes with real coffee programs</h2>
-                <p><strong>Forgotten Flavours</strong> (858 Corydon Ave), the wild-yeast artisan bakery, brews its own coffee in-house from organic Ethiopian beans, with drip, iced, and espresso-based options — worth pairing with one of their sourdough pastries. A block over, <strong>Sugar + Salt Bakeshoppe</strong> (897 Corydon Ave) is a cake-and-baked-goods shop that also pours a well-regarded coffee, a good stop if you're already there for something sweet.</p>
+                <p><strong>Forgotten Flavours</strong> (858 Corydon Ave), the wild-yeast artisan bakery, brews its own coffee in-house from organic Ethiopian beans, with drip, iced, and espresso-based options, worth pairing with one of their sourdough pastries. A block over, <strong>Sugar + Salt Bakeshoppe</strong> (897 Corydon Ave) is a cake-and-baked-goods shop that also pours a well-regarded coffee, a good stop if you're already there for something sweet.</p>
                 <h2>If you just need a reliable cup</h2>
                 <p>For a familiar, no-fuss option, there's a <strong>Starbucks</strong> at 946 Corydon Ave and a <strong>Tim Horton's</strong> at 949 Corydon Ave, right across from each other near the Cambridge Street end of the strip.</p>
                 <div class="highlight-box"><p><strong>From the Airbnb:</strong> All of these are on Corydon Avenue itself, within about a 10-minute walk. Hours can shift with the day of the week and season, so it's worth a quick check of a shop's own site or Google listing before you head out, especially early morning or on a holiday.</p></div>
@@ -124,21 +124,16 @@
                             React.createElement(Navigation),
                             React.createElement('main', { id: 'main-content' },
                                 React.createElement('div', { className: 'container' },
-                                    React.createElement('p', null, 'Loading...')
-                                )
-                            ),
+                                    React.createElement('p', null, 'Loading...'))),
                             React.createElement(Footer),
-                            React.createElement(FloatingBookButton)
-                        );
+                            React.createElement(FloatingBookButton));
                     }
                     return React.createElement('div', null,
                         React.createElement(Navigation),
                         React.createElement('main', { id: 'main-content' },
-                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })
-                        ),
+                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })),
                         React.createElement(Footer),
-                        React.createElement(FloatingBookButton)
-                    );
+                        React.createElement(FloatingBookButton));
                 }
                 const renderReact = () => {
                     const root = ReactDOM.createRoot(document.getElementById('root'));

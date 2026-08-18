@@ -35,9 +35,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/blog-styles.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
@@ -66,26 +66,26 @@
     <main id="article-content">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>A walk from the Corydon Airbnb to Wellington Crescent</h1>
-                <div class="article-meta"><span>🚶 Winnipeg Guides</span> • <span>⏱️ 3 min read</span> • <span>📅 August 15, 2026</span></div>
+                <div class="article-meta"><span>Winnipeg Guides</span> • <span>3 min read</span> • <span>August 15, 2026</span></div>
             </div>
             <div class="article-hero-image">
                 <img src="images/guidebook-winnipeg-47-crescentwood.jpg" alt="A flower garden in full summer bloom in front of a home on a quiet Crescentwood street" loading="eager">
             </div>
             <div class="article-body">
-                <p>Corydon Avenue is the busy edge of the Crescentwood neighbourhood — Wellington Crescent, along the Assiniboine River, is the quiet one. If you're staying at the Corydon Airbnb and want a free, unhurried outing that doesn't involve a menu or a receipt, heading north through Crescentwood's residential streets to the river is a good way to spend an hour.</p>
+                <p>Corydon Avenue is the busy edge of the Crescentwood neighbourhood, Wellington Crescent, along the Assiniboine River, is the quiet one. If you're staying at the Corydon Airbnb and want a free, unhurried outing that doesn't involve a menu or a receipt, heading north through Crescentwood's residential streets to the river is a good way to spend an hour.</p>
 
                 <h2>Getting there</h2>
-                <p>From the Airbnb, it's an easy walk of roughly fifteen to twenty minutes north through Crescentwood to reach Wellington Crescent, or a much shorter ride if you've rented a bike. The route is entirely residential streets — no major roads to cross — so it's a relaxed way to see the neighbourhood between Corydon and the river.</p>
+                <p>From the Airbnb, it's an easy walk of roughly fifteen to twenty minutes north through Crescentwood to reach Wellington Crescent, or a much shorter ride if you've rented a bike. The route is entirely residential streets (no major roads to cross) so it's a relaxed way to see the neighbourhood between Corydon and the river.</p>
 
                 <h2>What you'll see</h2>
                 <p>Crescentwood's side streets are known for mature trees and well-kept gardens, especially in summer. Wellington Crescent itself is a designated historic district: development began in the early 1900s and drew Winnipeg's business elite, who built grand homes along the riverbank in Victorian, Edwardian, and Arts and Crafts styles. The street is wide with generous grassy boulevards, giving it a park-like feel rather than a typical city block, and there's a pedestrian bridge over the Assiniboine River if you want to cross to the other side.</p>
 
                 <h2>Extending the walk</h2>
-                <p>Wellington Crescent runs along the river from Osborne Street in the east to Assiniboine Park in the west, so once you're on it you can go either direction. Heading west eventually connects to Assiniboine Park itself, if you're up for a longer outing (see our <a href="https://staywinnipeg.ca/blog-assiniboine-park.html">Assiniboine Park guide</a>) — otherwise a short there-and-back stroll along the river is a good way to close out an afternoon.</p>
+                <p>Wellington Crescent runs along the river from Osborne Street in the east to Assiniboine Park in the west, so once you're on it you can go either direction. Heading west eventually connects to Assiniboine Park itself, if you're up for a longer outing (see our <a href="https://staywinnipeg.ca/blog-assiniboine-park.html">Assiniboine Park guide</a>), otherwise a short there-and-back stroll along the river is a good way to close out an afternoon.</p>
 
-                <div class="highlight-box"><p><strong>Good to know:</strong> This is a walk through a residential neighbourhood, so keep noise down and stick to the sidewalk and boulevard — the homes along the crescent are private property. There's no fee and nothing to book; it's just a nice place to walk.</p></div>
+                <div class="highlight-box"><p><strong>Good to know:</strong> This is a walk through a residential neighbourhood, so keep noise down and stick to the sidewalk and boulevard, the homes along the crescent are private property. There's no fee and nothing to book; it's just a nice place to walk.</p></div>
             </div>
         </article>
     </main>
@@ -128,21 +128,16 @@
                             React.createElement(Navigation),
                             React.createElement('main', { id: 'main-content' },
                                 React.createElement('div', { className: 'container' },
-                                    React.createElement('p', null, 'Loading...')
-                                )
-                            ),
+                                    React.createElement('p', null, 'Loading...'))),
                             React.createElement(Footer),
-                            React.createElement(FloatingBookButton)
-                        );
+                            React.createElement(FloatingBookButton));
                     }
                     return React.createElement('div', null,
                         React.createElement(Navigation),
                         React.createElement('main', { id: 'main-content' },
-                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })
-                        ),
+                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })),
                         React.createElement(Footer),
-                        React.createElement(FloatingBookButton)
-                    );
+                        React.createElement(FloatingBookButton));
                 }
                 const renderReact = () => {
                     const root = ReactDOM.createRoot(document.getElementById('root'));

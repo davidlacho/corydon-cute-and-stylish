@@ -15,7 +15,7 @@
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://staywinnipeg.ca/blog-winnipeg-vietnamese-pho-guide.html">
     <meta property="og:title" content="Winnipeg pho & Vietnamese food 2026">
-    <meta property="og:description" content="Multi-branch pho rooms, family-run Pembina kitchens, and west-end bowls—verified addresses for Winnipeg Vietnamese dining.">
+    <meta property="og:description" content="Multi-branch pho rooms, family-run Pembina kitchens, and west-end bowls, verified addresses for Winnipeg Vietnamese dining.">
     <meta property="og:image" content="https://staywinnipeg.ca/images/restaurant-dining.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="800">
@@ -35,9 +35,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/blog-styles.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
@@ -66,10 +66,10 @@
     <main id="article-content">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>Winnipeg pho and Vietnamese dining in 2026</h1>
                 <div class="article-meta">
-                    <span>🍜 Winnipeg dining</span> • <span>⏱️ 9 min read</span> • <span>📅 May 11, 2026</span>
+                    <span>Winnipeg dining</span> • <span>9 min read</span> • <span>May 11, 2026</span>
                 </div>
             </div>
             <div class="article-hero-image">
@@ -145,20 +145,16 @@
                         return React.createElement('div', null,
                             React.createElement(Navigation),
                             React.createElement('main', { id: 'main-content' },
-                                React.createElement('div', { className: 'container' }, React.createElement('p', null, 'Loading...'))
-                            ),
+                                React.createElement('div', { className: 'container' }, React.createElement('p', null, 'Loading...'))),
                             React.createElement(Footer),
-                            React.createElement(FloatingBookButton)
-                        );
+                            React.createElement(FloatingBookButton));
                     }
                     return React.createElement('div', null,
                         React.createElement(Navigation),
                         React.createElement('main', { id: 'main-content' },
-                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })
-                        ),
+                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })),
                         React.createElement(Footer),
-                        React.createElement(FloatingBookButton)
-                    );
+                        React.createElement(FloatingBookButton));
                 }
                 const renderReact = () => {
                     const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -44,9 +44,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     
     <!-- Shared Blog Styles -->
     <link rel="stylesheet" href="/blog-styles.css">
@@ -114,10 +114,10 @@
     <main id="article-content" class="article-content-source">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>Winnipeg's Best New Food Spots: 22 Restaurants Competing for Top 5</h1>
                 <div class="article-meta">
-                    <span>🍽️ Winnipeg Dining</span> • <span>⏱️ 12 min read</span> • <span>📅 December 11, 2025</span>
+                    <span>Winnipeg Dining</span> • <span>12 min read</span> • <span>December 11, 2025</span>
                 </div>
             </div>
 
@@ -215,7 +215,7 @@
 
                 <p>This year's competition is particularly exciting because it showcases the incredible growth and diversity of Winnipeg's culinary scene. From neighbourhood cafés to upscale dining experiences, from comfort food to international cuisine, these 22 restaurants represent the best of what's new in Winnipeg.</p>
 
-                <p>What's especially noteworthy is that two of these restaurants—BabyBaby and Shirleys, both located on Osborne Street—have already received national recognition as finalists for Air Canada's 2025 Best New Restaurants list. This speaks to the quality and innovation happening in Winnipeg's food scene.</p>
+                <p>What's especially noteworthy is that two of these restaurants (BabyBaby and Shirleys, both located on Osborne Street) have already received national recognition as finalists for Air Canada's 2025 Best New Restaurants list. This speaks to the quality and innovation happening in Winnipeg's food scene.</p>
 
                 <div class="highlight-box">
                     <p><strong>Local Connection:</strong> Many of these restaurants are easily accessible from our Crescentwood Airbnb in Crescentwood. The vibrant Osborne Village area, home to BabyBaby and Shirleys, is just a short drive away, making it easy to explore Winnipeg's best new dining experiences during your stay.</p>
@@ -231,7 +231,7 @@
 
                 <p>Winnipeg's dining scene has truly come into its own in 2026. From the French elegance of Né de Loup to the interactive fun of Seoul Korean BBQ, from the comfort of traditional Ukrainian fare at MLYN to the innovative plant-based options at Saintuary, there's something for every taste and occasion.</p>
 
-                <p>These new restaurants aren't just places to eat—they're destinations that contribute to Winnipeg's cultural fabric. They bring people together, celebrate diverse culinary traditions, and showcase the creativity and passion of local chefs and restaurateurs.</p>
+                <p>These new restaurants aren't just places to eat; they're destinations that contribute to Winnipeg's cultural fabric. They bring people together, celebrate diverse culinary traditions, and showcase the creativity and passion of local chefs and restaurateurs.</p>
 
                 <p>As you explore Winnipeg, whether you're staying in our Crescentwood Airbnb or visiting from elsewhere, make sure to check out these incredible new additions to the city's food scene. Each one offers a unique experience that reflects the vibrant, diverse, and welcoming spirit of Winnipeg.</p>
 
@@ -278,12 +278,9 @@
                     React.createElement(Navigation),
                     React.createElement('main', { id: 'main-content' },
                         React.createElement('div', { className: 'container' },
-                            React.createElement('p', null, 'Loading...')
-                        )
-                    ),
+                            React.createElement('p', null, 'Loading...'))),
                     React.createElement(Footer),
-                    React.createElement(FloatingBookButton)
-                );
+                    React.createElement(FloatingBookButton));
             }
 
             return React.createElement('div', null,
@@ -292,11 +289,9 @@
                     React.createElement('article', {
                         className: 'container',
                         dangerouslySetInnerHTML: { __html: articleContent }
-                    })
-                ),
+                    })),
                 React.createElement(Footer),
-                React.createElement(FloatingBookButton)
-            );
+                React.createElement(FloatingBookButton));
         }
 
         // Wait for React to load, then render

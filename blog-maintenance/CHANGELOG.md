@@ -7,6 +7,56 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-18 (manual, site-wide redesign)
+
+Out-of-band design pass by request; not a scheduled cron run. The site carried
+most of the visual and verbal signatures that make a page read as
+machine-generated, so the design was rebuilt around them while staying modern.
+
+- **Removed the tells.** All 30 gradients, 60 box-shadows, every non-pin
+  border-radius, all backdrop-filter blur, and every hover lift/scale are gone
+  from `styles.css`, `blog-styles.css`, and `tours-styles.css`. Also removed:
+  the sparkle glyphs in the logo, H1, footer links and tours heading; the
+  centred section title with a teal underline bar; the italic centred tagline;
+  the decorative section accent bars; the burnt-orange radial orb behind the
+  map; the coloured left stripes on callouts; the pulsing floating CTA; the
+  emoji feature and amenity icons; the checkmark bullets; and the animated
+  "Read Article" arrow.
+- **New design language.** Warm paper ground (`--paper` #F2EFE8) with warm-black
+  ink and a single sienna accent, replacing the Tailwind slate palette. Flat
+  tonal bands separated by hairlines instead of tinted gradients. Square
+  corners, hairline borders, left-aligned headings, and a real reading measure.
+  Feature and amenity blocks became editorial lists with set numerals rather
+  than three shadowed cards in a row.
+- **Typography.** Fraunces for headings and Libre Franklin for body, replacing
+  Manrope plus an unused Playfair Display link (the same two font requests as
+  before, one of which was previously wasted).
+- **Copy.** Removed 1,103 decorative emoji and all 909 em dashes across 117
+  pages, repunctuating rather than leaving comma splices behind (a comma before
+  an independent clause became a semicolon). The five remaining emoji are a
+  guest's own words inside two real reviews, left alone. Rewrote the "it isn't
+  just X, it's Y" construction on the homepage and the three flagship
+  neighbourhood posts.
+- **Added `terms.html` and `privacy.html`**, linked from a rebuilt three-column
+  footer and registered in `sitemap.xml`. The privacy page describes what the
+  site actually does: no forms, no accounts, GA4 plus Google Fonts, unpkg,
+  Unsplash, OpenStreetMap and the Viator affiliate widget.
+- **Verified.** axe-core (WCAG 2.1 AA) reports zero violations on the homepage,
+  blog index, an article page, the tours page, and both new legal pages; every
+  palette pair in use meets AA contrast. Minified CSS regenerated, and the
+  minifier now parses all three stylesheets without warnings (an orphaned
+  keyframe fragment was cleaned up).
+- **Playbook.** `AGENT-INSTRUCTIONS.md` gained a "House style" section so the
+  daily cron does not reintroduce emoji meta lines, em dashes, gradients,
+  rounded corners, or the old fonts in tomorrow's post.
+- **Not done:** the "it isn't just X, it's Y" construction still appears 127
+  times across 51 older blog posts. Mass-rewriting those with a script would have
+  produced worse prose than leaving them, so they are flagged rather than
+  changed. The tours page hero image is still described as a "cityscape and
+  skyline", which the playbook's own image rule prohibits.
+
+---
+
 ## 2026-08-17 (manual — content policy + SEO breadth)
 
 Out-of-band maintenance run by request; not a scheduled cron run.

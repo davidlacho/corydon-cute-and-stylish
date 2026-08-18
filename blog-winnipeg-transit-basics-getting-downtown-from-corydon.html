@@ -36,9 +36,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="/blog-styles.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
@@ -67,9 +67,9 @@
     <main id="article-content">
         <article class="container">
             <div class="article-header">
-                <a href="https://staywinnipeg.ca/blog.html" class="back-link">← Back to Blog</a>
+                <a href="https://staywinnipeg.ca/blog.html" class="back-link">Back to blog</a>
                 <h1>Winnipeg Transit basics: getting downtown from Corydon</h1>
-                <div class="article-meta"><span>🚌 Winnipeg Guides</span> • <span>⏱️ 4 min read</span> • <span>📅 August 2, 2026</span></div>
+                <div class="article-meta"><span>Winnipeg Guides</span> • <span>4 min read</span> • <span>August 2, 2026</span></div>
             </div>
             <div class="article-hero-image">
                 <img src="images/transit.avif" alt="A Winnipeg Transit bus" loading="eager">
@@ -81,7 +81,7 @@
                 <p>Corydon Avenue is served directly by its own Winnipeg Transit bus route, so you can catch a bus right on the street the Airbnb sits near rather than walking out to a bigger arterial road first. Because routes and schedules do shift from time to time, check <a href="https://winnipegtransit.com" target="_blank" rel="noopener noreferrer">winnipegtransit.com</a> or the Navigo trip planner for the current route number, stop locations, and live arrival times before you head out.</p>
 
                 <h2>BLUE rapid transit from Osborne Village</h2>
-                <p>For a faster trip downtown, it's worth the walk over to <strong>Osborne Village</strong>, just east of the Corydon/Crescentwood area. Osborne Village is served by the <strong>BLUE</strong> rapid transit line, which runs on the dedicated Southwest Transitway and into downtown along Portage Avenue and Main Street — a quicker, more frequent ride than a regular bus route stuck in traffic. BLUE also connects south toward the University of Manitoba if your trip is headed the other way.</p>
+                <p>For a faster trip downtown, it's worth the walk over to <strong>Osborne Village</strong>, just east of the Corydon/Crescentwood area. Osborne Village is served by the <strong>BLUE</strong> rapid transit line, which runs on the dedicated Southwest Transitway and into downtown along Portage Avenue and Main Street, a quicker, more frequent ride than a regular bus route stuck in traffic. BLUE also connects south toward the University of Manitoba if your trip is headed the other way.</p>
 
                 <h2>Paying your fare</h2>
                 <p>Winnipeg Transit uses the <strong>peggo</strong> card system: tap a peggo card against the reader on the farebox when you board, or pay cash directly to the driver if you don't have a card. As of 2026, cash fare is $3.45 per ride, with a lower per-ride rate on a loaded peggo card and a monthly unlimited pass available for frequent riders. Fares can change, so confirm current pricing on the Winnipeg Transit fares page before your trip.</p>
@@ -132,21 +132,16 @@
                             React.createElement(Navigation),
                             React.createElement('main', { id: 'main-content' },
                                 React.createElement('div', { className: 'container' },
-                                    React.createElement('p', null, 'Loading...')
-                                )
-                            ),
+                                    React.createElement('p', null, 'Loading...'))),
                             React.createElement(Footer),
-                            React.createElement(FloatingBookButton)
-                        );
+                            React.createElement(FloatingBookButton));
                     }
                     return React.createElement('div', null,
                         React.createElement(Navigation),
                         React.createElement('main', { id: 'main-content' },
-                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })
-                        ),
+                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })),
                         React.createElement(Footer),
-                        React.createElement(FloatingBookButton)
-                    );
+                        React.createElement(FloatingBookButton));
                 }
                 const renderReact = () => {
                     const root = ReactDOM.createRoot(document.getElementById('root'));
