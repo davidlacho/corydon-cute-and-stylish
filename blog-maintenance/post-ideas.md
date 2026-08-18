@@ -39,3 +39,4 @@ cannot verify; keep unverifiable specifics general.
 - 2026-08-15 - wellington-crescent-walk-near-corydon-airbnb - A walk from the Corydon Airbnb to Wellington Crescent
 - 2026-08-16 - pet-friendly-spots-near-corydon-airbnb - Pet-friendly spots near the Corydon Airbnb (queue was empty; invented per playbook) (queue was empty; invented per playbook)
 - 2026-08-17 - forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb - Forgotten Flavours: the wild-yeast bakery near the Corydon Airbnb (queue was empty; invented per playbook)
+- 2026-08-18 - grove-pub-near-corydon-airbnb - A pint at The Grove Pub, a short walk from the Corydon Airbnb (queue was empty; invented per playbook)
