@@ -124,16 +124,21 @@
                             React.createElement(Navigation),
                             React.createElement('main', { id: 'main-content' },
                                 React.createElement('div', { className: 'container' },
-                                    React.createElement('p', null, 'Loading...'))),
+                                    React.createElement('p', null, 'Loading...')
+                                )
+                            ),
                             React.createElement(Footer),
-                            React.createElement(FloatingBookButton));
+                            React.createElement(FloatingBookButton)
+                        );
                     }
                     return React.createElement('div', null,
                         React.createElement(Navigation),
                         React.createElement('main', { id: 'main-content' },
-                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })),
+                            React.createElement('article', { className: 'container', dangerouslySetInnerHTML: { __html: articleContent } })
+                        ),
                         React.createElement(Footer),
-                        React.createElement(FloatingBookButton));
+                        React.createElement(FloatingBookButton)
+                    );
                 }
                 const renderReact = () => {
                     const root = ReactDOM.createRoot(document.getElementById('root'));

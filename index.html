@@ -1002,7 +1002,7 @@
                 "name": "Tim"
             },
             "datePublished": "2025-12-05",
-            "reviewBody": "We had a wonderful stay at this place! The house itself is a beautiful mid-century gem, full of unique character from that era, cozy and clean throughout. It's in a quiet neighborhood but still close to great restaurants, galleries, and everything we wanted to explore. The space was spotless and very comfortable. Parking right in the driveway, you can't beat that! The host was an excellent host, quick to respond, very helpful, and his local recommendations were spot-on. We'd happily stay here again and highly recommend it to anyone visiting the area!",
+            "reviewBody": "We had a wonderful stay at this place! The house itself is a beautiful mid-century gem, full of unique character from that era, cozy and clean throughout. It's in a quiet neighborhood but still close to great restaurants, galleries, and everything we wanted to explore. The space was spotless and very comfortable. Parking right in the driveway, you can't beat that! The host was an excellent host—quick to respond, very helpful, and his local recommendations were spot-on. We'd happily stay here again and highly recommend it to anyone visiting the area!",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",
@@ -1044,7 +1044,7 @@
                 "name": "Alison"
             },
             "datePublished": "2025-11-18",
-            "reviewBody": "We really enjoyed our stay at this place. The home is older with lots of character and charming details throughout. The location was perfect, walking distance to great shops and restaurants. Communication was excellent, and The host is a very thoughtful host who has provided everything you might need. Thank you for hosting us!",
+            "reviewBody": "We really enjoyed our stay at this place. The home is older with lots of character and charming details throughout. The location was perfect—walking distance to great shops and restaurants. Communication was excellent, and The host is a very thoughtful host who has provided everything you might need. Thank you for hosting us!",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",
@@ -2168,7 +2168,7 @@
                     <li>Essentials provided</li>
                     <li>Hangers</li>
                     <li>Iron</li>
-                    <li>Washer/Dryer</li>
+                    <li>Washer/Dryer: not available</li>
                 </ul>
                 
                 <h3>Entertainment</h3>
@@ -2441,7 +2441,8 @@
                 return allLocations.filter(loc => loc.category === activeFilter);
             };
 
-            return (<section id="nearby" className="nearby" aria-labelledby="nearby-heading">
+            return (
+                <section id="nearby" className="nearby" aria-labelledby="nearby-heading">
                     <div className="container">
                         <h2 id="nearby-heading" className="section-title">Explore Winnipeg's Corydon Neighborhood - Vacation Rental Location</h2>
                         <p className="section-subtitle">Discover the best of Winnipeg - everything you need is just steps away</p>
@@ -2452,7 +2453,8 @@
                         </div>
                         
                         <div className="nearby-tabs">
-                            {filters.map((filter) => (<button 
+                            {filters.map((filter) => (
+                                <button 
                                     key={filter.id}
                                     className={`nearby-tab ${activeFilter === filter.id ? 'active' : ''}`}
                                     onClick={() => setActiveFilter(filter.id)}
@@ -2466,21 +2468,25 @@
                                     aria-pressed={activeFilter === filter.id}
                                 >
                                     {filter.label}
-                                </button>))}
+                                </button>
+                            ))}
                         </div>
 
                         <div className="nearby-content">
                             <div className="nearby-list">
-                                {getFilteredLocations().map((item, index) => (<div key={index} className="nearby-item fade-in-up">
+                                {getFilteredLocations().map((item, index) => (
+                                    <div key={index} className="nearby-item fade-in-up">
                                             <span className="nearby-item-name">{item.name}</span>
                                         <span className="nearby-item-time">
                                             {item.time} {item.distance === 'walking' ? 'walk' : 'drive'}
                                         </span>
-                                    </div>))}
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
-                </section>);
+                </section>
+            );
         }
 
         // Utility function to shuffle array
@@ -2737,7 +2743,8 @@
                 };
             }, []);
 
-            return (<div className="hero-slideshow" tabIndex={-1}>
+            return (
+                <div className="hero-slideshow" tabIndex={-1}>
                     <div 
                         className="hero-slideshow-wrapper" 
                         tabIndex={0} 
@@ -2755,13 +2762,16 @@
                         }}
                     >
                         <div className="hero-slideshow-image-container">
-                            {!imagesLoaded && (<div className="hero-slideshow-skeleton">
+                            {!imagesLoaded && (
+                                <div className="hero-slideshow-skeleton">
                                     <div className="skeleton-shimmer"></div>
-                                </div>)}
+                                </div>
+                            )}
                             {imagesLoaded && images.map((src, index) => {
                                 // Load first 3 images (current, next, prev) for smooth transitions
                                 const shouldLoadInitially = index < 3;
-                                return (<img
+                                return (
+                                    <img
                                         key={index}
                                         src={shouldLoadInitially ? src : undefined}
                                         data-src={!shouldLoadInitially ? src : undefined}
@@ -2772,10 +2782,12 @@
                                         width="1200"
                                         height="800"
                                         className={`hero-slideshow-image loaded ${index === currentIndex ? 'active' : 'inactive'} aspect-ratio-3-2`}
-                                    />);
+                                    />
+                                );
                             })}
                         </div>
-                        {imagesLoaded && (<>
+                        {imagesLoaded && (
+                            <>
                         <button
                             className="hero-slideshow-prev"
                             onClick={goToPrevious}
@@ -2804,9 +2816,11 @@
                         >
                             ›
                         </button>
-                            </>)}
+                            </>
+                        )}
                     </div>
-                </div>);
+                </div>
+            );
         }
 
         // Slideshow Component
@@ -2961,7 +2975,8 @@
                 };
             }, []);
 
-            return (<section id="slideshow" className="slideshow" aria-label="Property photos">
+            return (
+                <section id="slideshow" className="slideshow" aria-label="Property photos">
                     <div className="container">
                         <h2 id="slideshow-heading" className="section-title">Photo Gallery</h2>
                         <p className="section-subtitle">Take a virtual tour of our beautiful space</p>
@@ -3023,7 +3038,8 @@
                             </div>
                         </div>
                     </div>
-                </section>);
+                </section>
+            );
         }
 
         function App() {
@@ -3087,10 +3103,12 @@
                     // 2. Full URL to same origin with hash
                     // 3. Relative URL starting with / and containing hash
                     const hasHash = href.includes('#');
-                    const isSamePageAnchor = hasHash && (href.startsWith('#') || 
+                    const isSamePageAnchor = hasHash && (
+                        href.startsWith('#') || 
                         href.startsWith(window.location.origin + '/#') ||
                         href.startsWith(window.location.origin + '#') ||
-                        (href.startsWith('/') && href.includes('#')));
+                        (href.startsWith('/') && href.includes('#'))
+                    );
                     
                     if (isSamePageAnchor) {
                         // Extract hash from URL
@@ -3179,9 +3197,11 @@
                         const raw = scriptEl.textContent;
                         if (!raw) continue;
                         const parsed = JSON.parse(raw);
-                        if (parsed &&
+                        if (
+                            parsed &&
                             parsed.aggregateRating &&
-                            Array.isArray(parsed.review)) {
+                            Array.isArray(parsed.review)
+                        ) {
                             listingData = parsed;
                             break;
                         }
@@ -3367,7 +3387,8 @@
                 }
             ];
 
-            return (<>
+            return (
+                <>
                     <NavigationComponent />
 
                     <main id="main-content">
@@ -3426,7 +3447,8 @@
                                                 ‹
                                             </button>
                                             <div className="reviews-slider" ref={reviewsSliderRef} role="region" aria-label="Guest reviews slider">
-                                            {sortedReviews.map((review) => (<a
+                                            {sortedReviews.map((review) => (
+                                                <a
                                                     key={review.id}
                                                     className="review-card review-slide review-card-link fade-in-up"
                                                     href={`/reviews-now.html?source=review-card-${review.id}`}
@@ -3448,7 +3470,8 @@
                                                         </blockquote>
                                                         <figcaption className="review-attribution">- {review.name}, {review.date}</figcaption>
                                                     </figure>
-                                                </a>))}
+                                                </a>
+                                            ))}
                                             </div>
                                             <button
                                                 type="button"
@@ -3505,10 +3528,12 @@
                             <h2 id="features-heading" className="section-title">What Makes This Winnipeg Airbnb Special</h2>
                             <p className="section-subtitle">A Winnipeg vacation rental that's equal parts cozy, quirky, and comfortable</p>
                             <div className="features-grid">
-                                {features.map((feature, index) => (<div key={index} className="feature-card fade-in-up">
+                                {features.map((feature, index) => (
+                                    <div key={index} className="feature-card fade-in-up">
                                         <h3>{feature.title}</h3>
                                         <p>{feature.description}</p>
-                                    </div>))}
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </section>
@@ -3517,12 +3542,14 @@
                         <div className="container">
                             <h2 id="amenities-heading" className="section-title">Winnipeg Airbnb Amenities & Features</h2>
                             <div className="amenities-grid">
-                                {amenityCategories.map((category) => (<div key={category.title} className="amenity-category fade-in-up">
+                                {amenityCategories.map((category) => (
+                                    <div key={category.title} className="amenity-category fade-in-up">
                                         <h3 className="amenity-category-title">{category.title}</h3>
                                         <ul className="amenity-list">
                                             {category.items.map((item) => (<li key={item} className="amenity-item">{item}</li>))}
                                         </ul>
-                                    </div>))}
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </section>
@@ -3620,7 +3647,8 @@
                     </footer>
 
                     <FloatingBookButtonComponent />
-                </>);
+                </>
+            );
         }
 
         const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -100,6 +100,31 @@ Out-of-band maintenance run by request; not a scheduled cron run.
 
 ---
 
+## 2026-08-18
+
+- **Businesses verified:** 4 of 20 (rotation batch, all tied for stalest at
+  2026-08-13). Peking Chinese Food Ltd. (840 Corydon Ave), Cafe 22 (823
+  Corydon Ave), Saffron's Restaurant (681 Corydon Ave), and Santa Lucia Pizza
+  (905 Corydon Ave) — all confirmed open via current listings, active
+  official sites, and recent reviews (Peking has an 11-review Yelp listing
+  updated July 2026; Cafe 22 shows an August 2026-updated Yelp listing).
+  No closures, moves, or renames found; no page corrections needed.
+- **Pages updated:** none (all four checked businesses remain accurate as
+  listed on `blog-corydon-guide.html`).
+- **New post published:** `blog-grove-pub-near-corydon-airbnb.html` — "A
+  pint at The Grove Pub, a short walk from the Corydon Airbnb." The
+  post-ideas queue was empty, so this topic was invented per the playbook:
+  a guest guide to The Grove Pub & Restaurant (164 Stafford Street), a
+  gastropub confirmed open and a short walk from the Airbnb, just off
+  Corydon Avenue in Crescentwood. Registered in `articles-data.js` and
+  `sitemap.xml`, using the existing local `guidebook-winnipeg-09-the-grove-
+  pub-restaurant.jpg` image.
+- **Notes:** Next rotation batch will pick up the four stalest remaining
+  Corydon guide businesses (Saperavi Georgian Cuisine, Starbucks, Sugar +
+  Salt Bakeshoppe, Sunshine Chinese Restaurant), all dated 2026-08-14.
+
+---
+
 ## 2026-08-17
 
 - **Businesses verified:** 4 of 20 (rotation batch, all tied for stalest at

@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-grove-pub-near-corydon-airbnb.html",
+    "category": "winnipeg",
+    "date": "2026-08-18",
+    "title": "A pint at The Grove Pub, a short walk from the Corydon Airbnb",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-09-the-grove-pub-restaurant.jpg",
+    "imageAlt": "The interior bar and dining area of The Grove Pub & Restaurant in Winnipeg",
+    "description": "A guest guide to The Grove Pub & Restaurant on Stafford Street, a gastropub a few minutes' walk from the Corydon/Crescentwood Airbnb: what's on the menu, the patio, and how to get there.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>3 min read</span>\n                                <span>August 18, 2026</span>"
+  },
+  {
     "url": "/blog-forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-17",

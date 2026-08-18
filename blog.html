@@ -170,7 +170,8 @@
                 // :has() not supported, use manual approach
                 setTimeout(function() {
                     const mainNoscript = Array.from(document.querySelectorAll('noscript')).find(n => 
-                        n.querySelector('main, #main-content, .blog-hero, .articles-grid'));
+                        n.querySelector('main, #main-content, .blog-hero, .articles-grid')
+                    );
                     if (mainNoscript) {
                         mainNoscript.style.cssText = 'display: none !important; visibility: hidden !important;';
                     }
@@ -2785,7 +2786,9 @@
                             React.createElement('section', { className: 'blog-hero' },
                                 React.createElement('div', { className: 'container' },
                                     React.createElement('h1', null, 'Winnipeg Travel Blog'),
-                                    React.createElement('p', null, 'Your complete guide to Winnipeg: local attractions, neighborhoods, restaurants, activities, and insider tips from 14 years of hosting'))),
+                                    React.createElement('p', null, 'Your complete guide to Winnipeg: local attractions, neighborhoods, restaurants, activities, and insider tips from 14 years of hosting')
+                                )
+                            ),
                             React.createElement('section', { className: 'blog-content' },
                                 React.createElement('div', { className: 'container' },
                                     React.createElement('div', { className: 'blog-intro' },
@@ -2840,7 +2843,8 @@
                                                             setFilter('hosting');
                                                         }
                                                     }
-                                                }, 'Hosting & Design')),
+                                                }, 'Hosting & Design')
+                                            ),
                                             React.createElement('div', { className: 'sort-container' },
                                                 React.createElement('label', { htmlFor: 'sort-select' }, 'Sort by:'),
                                                 React.createElement('select', {
@@ -2853,11 +2857,15 @@
                                                     React.createElement('option', { value: 'date-desc' }, 'Newest First'),
                                                     React.createElement('option', { value: 'date-asc' }, 'Oldest First'),
                                                     React.createElement('option', { value: 'title-asc' }, 'Title A-Z'),
-                                                    React.createElement('option', { value: 'title-desc' }, 'Title Z-A')))),
+                                                    React.createElement('option', { value: 'title-desc' }, 'Title Z-A')
+                                                )
+                                            )
+                                        ),
                                         React.createElement('div', {
                                             className: 'results-count',
                                             'aria-live': 'polite'
-                                        }, `Showing ${filteredAndSorted.length} ${filteredAndSorted.length === 1 ? 'post' : 'posts'} in ${filterText}`)),
+                                        }, `Showing ${filteredAndSorted.length} ${filteredAndSorted.length === 1 ? 'post' : 'posts'} in ${filterText}`)
+                                    ),
                                     React.createElement('div', { className: 'articles-grid' },
                                         filteredAndSorted.map((article, idx) =>
                                             React.createElement('a', {
@@ -2873,7 +2881,8 @@
                                                         src: article.image,
                                                         alt: article.imageAlt,
                                                         loading: 'lazy'
-                                                    })),
+                                                    })
+                                                ),
                                                 React.createElement('div', { className: 'article-content' },
                                                     React.createElement('div', {
                                                         className: 'article-meta',
@@ -2881,9 +2890,17 @@
                                                     }),
                                                     React.createElement('h2', null, article.title),
                                                     React.createElement('p', null, article.description),
-                                                    React.createElement('span', { className: 'read-more' }, 'Read Article')))))))),
+                                                    React.createElement('span', { className: 'read-more' }, 'Read Article')
+                                                )
+                                            )
+                                        )
+                                    )
+                                )
+                            )
+                        ),
                         React.createElement(Footer),
-                        React.createElement(FloatingBookButton));
+                        React.createElement(FloatingBookButton)
+                    );
                 }
                 // Use requestIdleCallback to defer React rendering until browser is idle
                 const renderReact = () => {

@@ -85,3 +85,4 @@ interests. Prefer these over anything framed around the Airbnb's doorstep.
 - 2026-08-15 - wellington-crescent-walk-near-corydon-airbnb - A walk from the Corydon Airbnb to Wellington Crescent
 - 2026-08-16 - pet-friendly-spots-near-corydon-airbnb - **REMOVED 2026-08-17 and must never be recreated.** The home does not accept pets; this post should never have been written. Do not treat pet topics as an uncovered gap.
 - 2026-08-17 - forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb - Forgotten Flavours: the wild-yeast bakery near the Corydon Airbnb (queue was empty; invented per playbook)
+- 2026-08-18 - grove-pub-near-corydon-airbnb - A pint at The Grove Pub, a short walk from the Corydon Airbnb (queue was empty; invented per playbook)
