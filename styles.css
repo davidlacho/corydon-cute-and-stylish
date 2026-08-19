@@ -52,6 +52,25 @@ html {
     --focus-outline-offset: 2px;
     --section-space: 6rem;
     --measure: 68ch;
+
+    /* One horizontal gutter for the whole site. Sections never set their own
+       side padding; .container owns it, so every block lines up on one axis
+       at every width. */
+    --gutter: 2rem;
+}
+
+@media (max-width: 960px) {
+    :root {
+        --section-space: 3.5rem;
+        --gutter: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --section-space: 3rem;
+        --gutter: 1.25rem;
+    }
 }
 
 body {
@@ -180,6 +199,19 @@ li, span, div, a, button, input, textarea, select {
     border-width: 0;
 }
 
+/* A fixed-position child escapes .visually-hidden's clip, so the SEO-only nav
+   inside #seo-content used to paint a bar across the top of the masthead.
+   Pin hidden chrome back into the flow so it stays genuinely invisible. */
+.visually-hidden nav,
+.visually-hidden header,
+.visually-hidden footer {
+    position: static;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    width: auto;
+}
+
 /* Focus Styles for All Interactive Elements */
 a:focus,
 button:focus,
@@ -219,7 +251,7 @@ p, span, div, a, li, td, th, label, input, textarea, select, button {
 .container {
     max-width: 1240px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 var(--gutter);
 }
 
 /* Navigation */
@@ -242,7 +274,7 @@ nav.scrolled {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    padding: 1.1rem 2rem;
+    padding: 1.1rem var(--gutter);
     max-width: 1240px;
     margin: 0 auto;
 }
@@ -250,7 +282,7 @@ nav.scrolled {
 /* iPad-specific nav container adjustments */
 @media (min-width: 768px) and (max-width: 1024px) {
     .nav-container {
-        padding: 1.5rem 2rem; /* Slightly more padding on iPad */
+        padding: 1.35rem var(--gutter);
     }
 }
 
@@ -440,8 +472,6 @@ a.logo,
     position: relative;
     z-index: 1;
     padding: 2rem 0 3rem;
-    max-width: 1240px;
-    margin: 0 auto;
 }
 
 .hero-layout {
@@ -760,7 +790,7 @@ border: 1px solid var(--rule-strong);
 
 /* Features Section */
 .features {
-    padding: var(--section-space) 2rem;
+    padding: var(--section-space) 0;
     background: var(--paper);
     border-top: 1px solid var(--rule);
     position: relative;
@@ -857,7 +887,7 @@ border: 1px solid var(--rule-strong);
 
 /* Blog Section */
 .blog {
-    padding: var(--section-space) 2rem;
+    padding: var(--section-space) 0;
     background: var(--paper-deep);
     border-top: 1px solid var(--rule);
     position: relative;
@@ -958,7 +988,7 @@ border: 1px solid var(--rule-strong);
 footer {
     background: var(--ink);
     color: var(--paper);
-    padding: 4rem 2rem 3rem;
+    padding: 4rem 0 3rem;
     text-align: left;
     position: relative;
     z-index: 1;
@@ -969,6 +999,7 @@ footer {
 .footer-content {
     max-width: 1240px;
     margin: 0 auto;
+    padding: 0 var(--gutter);
     display: grid;
     grid-template-columns: 1.4fr 1fr 1fr;
     gap: 3rem;
@@ -1142,7 +1173,7 @@ transition: right 0.3s ease;
 
     .hero-content {
         gap: 2.5rem;
-        padding: 2rem 1rem;
+        padding: 1.5rem 0 2rem;
     }
 
     .hero-layout {
@@ -1211,7 +1242,7 @@ transition: right 0.3s ease;
 
     /* Navigation Container */
     .nav-container {
-        padding: 1rem 1.5rem;
+        padding: 0.9rem var(--gutter);
     }
 
     .logo {
@@ -1223,10 +1254,6 @@ transition: right 0.3s ease;
     }
 
     /* Container */
-    .container {
-        padding: 0 1rem;
-    }
-
     /* Sections */
     .section-title {
         font-size: 2rem;
@@ -1237,53 +1264,13 @@ transition: right 0.3s ease;
         margin-bottom: 2rem;
     }
 
-    .features, .blog, .nearby, .reviews, .amenities, .slideshow, .map-section, .host {
-        padding: 3rem 1rem;
-    }
-
-    /* Features Grid - List Style on Mobile */
-    .features-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
-    .feature-card {
-        padding: 1.25rem;
-        border-radius: 0;
-border: 1px solid var(--border);
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .feature-card::before {
-        display: none;
-    }
-
-    .feature-card:hover {
-        transform: none;
-}
-
-    .feature-icon {
-        font-size: 2rem;
-        margin-bottom: 0;
-        flex-shrink: 0;
-        width: 2.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
     .feature-card h3 {
-        font-size: 1.1rem;
-        margin-bottom: 0.5rem;
-        line-height: 1.3;
+        font-size: 1.15rem;
     }
 
     .feature-card p {
-        font-size: 0.95rem;
-        line-height: 1.6;
+        font-size: 0.98rem;
+        line-height: 1.65;
         margin: 0;
     }
 
@@ -1296,20 +1283,6 @@ border: 1px solid var(--border);
     .reviews-slider {
         gap: 0.75rem;
     }
-
-    .review-card {
-        padding: 1.25rem;
-        border-radius: 0;
-border: 1px solid var(--border);
-    }
-
-    .review-card::before {
-        display: none;
-    }
-
-    .review-card:hover {
-        transform: none;
-}
 
     .review-header {
         margin-bottom: 1rem;
@@ -1348,12 +1321,6 @@ border: 1px solid var(--border);
         width: 38px;
         height: 38px;
         font-size: 1.2rem;
-    }
-
-    /* Amenities Grid - List Style on Mobile */
-    .amenities-grid {
-        grid-template-columns: 1fr;
-        gap: 0.75rem;
     }
 
     .amenity-category {
@@ -1432,11 +1399,6 @@ font-weight: 600;
         flex-shrink: 0;
     }
 
-    .nearby-list {
-        grid-template-columns: 1fr;
-        gap: 0.75rem;
-    }
-
     .nearby-item {
         padding: 1rem 1.25rem;
         border-radius: 0;
@@ -1466,7 +1428,7 @@ border: 1px solid var(--border);
 
     /* Footer */
     footer {
-        padding: 3rem 1rem;
+        padding: 3rem 0 2.5rem;
     }
 
     .footer-links {
@@ -1506,7 +1468,7 @@ border: 1px solid var(--border);
     }
 
     .hero-content {
-        padding: 1.5rem 0.75rem;
+        padding: 1rem 0 1.5rem;
         gap: 2rem;
     }
 
@@ -1518,9 +1480,6 @@ border: 1px solid var(--border);
         gap: 1.5rem;
     }
 
-    .features, .blog, .nearby, .reviews, .amenities, .slideshow, .map-section, .host {
-        padding: 2.5rem 0.75rem;
-    }
 }
 
 /* Animations */
@@ -1588,7 +1547,7 @@ border: 1px solid var(--border);
 
 .social-share-footer {
     background-color: var(--ink);
-    padding: 0 2rem 2.5rem;
+    padding: 0 0 2.5rem;
 }
 
 .airbnb-marker-pin {
@@ -1718,7 +1677,7 @@ html {
 
 /* Reviews Section */
 .reviews {
-    padding: var(--section-space) 2rem;
+    padding: var(--section-space) 0;
     background: var(--paper);
     border-top: 1px solid var(--rule);
     position: relative;
@@ -2028,10 +1987,6 @@ html {
 }
 
 @media (max-width: 768px) {
-    .airbnb-summary-card {
-        grid-template-columns: 1fr;
-    }
-
     .airbnb-summary-cell {
         justify-content: flex-start;
         text-align: left;
@@ -2098,7 +2053,7 @@ html {
 
 /* Host Section - Brief */
 .host {
-    padding: var(--section-space) 2rem;
+    padding: var(--section-space) 0;
     background: var(--paper-deep);
     border-top: 1px solid var(--rule);
     position: relative;
@@ -2106,7 +2061,7 @@ html {
 
 /* Nearby Section */
 .nearby {
-    padding: var(--section-space) 2rem;
+    padding: var(--section-space) 0;
     background: var(--paper-deep);
     border-top: 1px solid var(--rule);
     position: relative;
@@ -2200,7 +2155,7 @@ html {
 
 /* Map Section */
 .map-section {
-    padding: var(--section-space) 2rem;
+    padding: var(--section-space) 0;
     background: var(--paper);
     border-top: 1px solid var(--rule);
     position: relative;
@@ -2225,8 +2180,8 @@ html {
 }
 
 .features-book-section {
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
+    padding-top: var(--section-space);
+    padding-bottom: var(--section-space);
 }
 
 .text-center {
@@ -2296,9 +2251,6 @@ html {
 }
 
 @media (max-width: 768px) {
-    .map-section {
-        padding: 4rem 1.5rem;
-    }
 
     .map-container {
         height: 400px;
@@ -2308,7 +2260,7 @@ html {
 
 /* Amenities Section */
 .amenities {
-    padding: var(--section-space) 2rem;
+    padding: var(--section-space) 0;
     background: var(--paper);
     border-top: 1px solid var(--rule);
     position: relative;
@@ -2322,7 +2274,7 @@ html {
 
 /* Slideshow Section */
 .slideshow {
-    padding: var(--section-space) 2rem;
+    padding: var(--section-space) 0;
     background: var(--paper-deep);
     border-top: 1px solid var(--rule);
     position: relative;
@@ -2415,9 +2367,6 @@ border: 1px solid var(--rule-strong);
 }
 
 @media (max-width: 768px) {
-    .slideshow {
-        padding: 4rem 1rem;
-    }
 
     .slideshow-container {
         margin-top: 3rem;
@@ -2521,13 +2470,9 @@ border: 1px solid var(--rule-strong);
 }
 
 @media (max-width: 768px) {
-    .amenities {
-        padding: 3rem 1.5rem;
-    }
 
     .amenities-grid {
         gap: 1rem;
-        grid-template-columns: 1fr;
     }
 }
 
@@ -2572,29 +2517,6 @@ border: 1px solid var(--rule-strong);
     white-space: nowrap;
 }
 
-@media (max-width: 700px) {
-    .features-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .features-grid > .feature-card:nth-child(odd) {
-        padding-right: 0;
-        border-right: 0;
-    }
-
-    .features-grid > .feature-card:nth-child(even) {
-        padding-left: 0;
-    }
-
-    .floating-book-button {
-        display: flex;
-    }
-
-    .footer-content {
-        grid-template-columns: 1fr;
-        gap: 2.25rem;
-    }
-}
 
 .footer-col-title {
     font-family: var(--font-meta);
@@ -2631,7 +2553,7 @@ border: 1px solid var(--rule-strong);
 }
 
 .features-grid > .feature-card:nth-last-child(-n+2):nth-child(odd),
-.features-grid > .feature-card:last-child {
+.features-grid > .feature-card:last-child:nth-child(n) {
     border-bottom: 0;
 }
 
@@ -2640,4 +2562,73 @@ border: 1px solid var(--rule-strong);
 .features-book-section .text-center {
     justify-content: flex-start;
     text-align: left;
+}
+
+/* ---------------------------------------------------------------------------
+   Responsive layout collapse.
+
+   This block is deliberately last in the file: every multi-column grid above
+   defines its desktop shape, and this is the single place that flattens them.
+   Keeping it here means a base rule can never silently outrank its own
+   breakpoint, which is what used to leave the feature and nearby grids stuck
+   in multiple columns on a phone.
+   --------------------------------------------------------------------------- */
+
+@media (max-width: 900px) {
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .features-grid > .feature-card:nth-child(odd) {
+        padding-right: 0;
+        border-right: 0;
+    }
+
+    .features-grid > .feature-card:nth-child(even) {
+        padding-left: 0;
+    }
+
+    /* Single column, so only the final card closes the list. */
+    .features-grid > .feature-card:nth-last-child(-n+2):nth-child(odd) {
+        border-bottom: 1px solid var(--rule);
+    }
+
+    .features-grid > .feature-card:last-child:nth-child(n) {
+        border-bottom: 0;
+    }
+
+    .amenities-grid,
+    .nearby-list,
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .amenity-category,
+    .feature-card {
+        padding-right: 0;
+    }
+
+    .footer-content {
+        gap: 2.25rem;
+    }
+
+    .airbnb-summary-card {
+        grid-template-columns: 1fr;
+    }
+
+    /* One review card fills the width on a phone, so the divider rule that
+       separates cards on desktop would only push the quote off the gutter. */
+    .review-card {
+        padding: 1.25rem 0;
+        border-left: 0;
+    }
+
+    .floating-book-button {
+        display: flex;
+    }
+
+    /* The fixed bottom bar must not sit on top of the last of the content. */
+    body {
+        padding-bottom: 3.5rem;
+    }
 }

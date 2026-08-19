@@ -32,7 +32,7 @@ body.tours-page .container {
 
 body.tours-page .article-header {
     background: transparent !important;
-    padding: 3rem 2rem 1.5rem !important;
+    padding: 3rem var(--gutter) 1.5rem !important;
     margin-top: 122px !important;
     text-align: left;
     max-width: 84rem;
@@ -42,7 +42,7 @@ body.tours-page .article-header {
 
 body.tours-page .article-body {
     background: transparent !important;
-    padding: 2rem 2rem 3rem !important;
+    padding: 2rem var(--gutter) 3rem !important;
     max-width: 84rem;
     margin: 0 auto;
 }
@@ -127,7 +127,7 @@ body.tours-page #article-content .container {
 
 @media (max-width: 768px) {
     body.tours-page .article-header {
-        padding: 2rem 1rem 1rem !important;
+        padding: 2rem var(--gutter) 1rem !important;
         margin-top: 70px !important;
     }
     
@@ -140,7 +140,7 @@ body.tours-page #article-content .container {
     }
     
     body.tours-page .article-body {
-        padding: 1.5rem 1rem 2rem !important;
+        padding: 1.5rem var(--gutter) 2rem !important;
     }
     
     body.tours-page .article-body p {

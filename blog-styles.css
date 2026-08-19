@@ -38,6 +38,24 @@
     --focus-outline: 2px solid var(--accent);
     --focus-outline-offset: 2px;
     --content-rhythm-space: 1.5rem;
+
+    /* One horizontal gutter, matching styles.css, so the blog and the
+       homepage share a left axis. */
+    --gutter: 2rem;
+    --measure: 68ch;
+}
+
+@media (max-width: 960px) {
+
+    :root {
+        --gutter: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --gutter: 1.25rem;
+    }
 }
 
 body {
@@ -147,7 +165,7 @@ p {
 .container {
     max-width: 68rem;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 var(--gutter);
 }
 
 /* Blog Listing Page Styles */
@@ -183,7 +201,7 @@ p {
 .blog-content .container {
     max-width: 84rem;
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 var(--gutter);
 }
 
 .blog-intro {
@@ -195,10 +213,12 @@ p {
 }
 
 /* Filter and Sort Controls */
+/* Sits inside .container, which already carries the gutter. */
 .blog-controls {
-    max-width: 1600px;
-    margin: 0 auto 3rem;
-    padding: 0 2rem;
+    max-width: none;
+    margin: 0;
+    padding: 0 0 0.75rem;
+    border-bottom: 1px solid var(--rule);
 }
 
 .filter-sort-container {
@@ -281,8 +301,7 @@ p {
     font-size: 0.9rem;
     color: var(--text-light);
     margin-top: 1rem;
-    padding: 0 20px;
-    max-width: 1200px;
+    max-width: 84rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -408,7 +427,7 @@ p {
 
 
 .article-card .article-content {
-    padding: 2rem;
+    padding: 0;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -514,8 +533,9 @@ nav.scrolled {}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.25rem 2rem;
-    max-width: 1200px;
+    gap: 2rem;
+    padding: 1.1rem var(--gutter);
+    max-width: 1240px;
     margin: 0 auto;
 }
 
@@ -1034,7 +1054,7 @@ border: 1px solid var(--border);
 footer {
     background: var(--ink);
     color: var(--paper);
-    padding: 4rem 2rem 3rem;
+    padding: 4rem 0 3rem;
     text-align: left;
     position: relative;
     z-index: 1;
@@ -1045,6 +1065,7 @@ footer {
 .footer-content {
     max-width: 1240px;
     margin: 0 auto;
+    padding: 0 var(--gutter);
     display: grid;
     grid-template-columns: 1.4fr 1fr 1fr;
     gap: 3rem;
@@ -1150,6 +1171,19 @@ footer {
 
 
 
+/* A fixed-position child escapes .visually-hidden's clip, so the SEO-only nav
+   inside #seo-content used to paint a bar across the top of the masthead.
+   Pin hidden chrome back into the flow so it stays genuinely invisible. */
+.visually-hidden nav,
+.visually-hidden header,
+.visually-hidden footer {
+    position: static;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    width: auto;
+}
+
 /* Focus Styles */
 a:focus,
 button:focus {
@@ -1165,7 +1199,7 @@ button:focus {
     }
 
     .nav-container {
-        padding: 1rem 1.5rem;
+        padding: 0.9rem var(--gutter);
     }
 
     .logo {
@@ -1220,10 +1254,6 @@ transition: right 0.3s ease;
     }
 
     /* Container */
-    .container {
-        padding: 0 1rem;
-    }
-
     /* Typography */
     h1 {
         font-size: 2rem;
@@ -1265,7 +1295,7 @@ transition: right 0.3s ease;
 
     /* Footer */
     footer {
-        padding: 3rem 1rem;
+        padding: 3rem 0 2.5rem;
     }
 
     .footer-links {
@@ -1288,8 +1318,7 @@ transition: right 0.3s ease;
 
     /* Blog Listing Page Mobile */
     .blog-hero {
-        margin-top: 70px;
-        padding: 3rem 1rem;
+        padding: 2.5rem 0 2rem;
     }
 
     .blog-hero h1 {
@@ -1304,19 +1333,6 @@ transition: right 0.3s ease;
         padding: 3rem 0;
     }
 
-    .blog-content .container {
-        padding: 0 1rem;
-    }
-
-    .blog-intro {
-        padding: 0 1rem;
-        font-size: 1rem;
-        margin-bottom: 2rem;
-    }
-
-    .blog-controls {
-        padding: 0 1rem;
-    }
 
     .filter-sort-container {
         flex-direction: column;
@@ -1346,16 +1362,11 @@ transition: right 0.3s ease;
 
     .articles-grid {
         grid-template-columns: 1fr;
-        gap: 2rem;
-        padding: 0 1rem;
+        row-gap: 0;
     }
 
     .article-card {
         margin-bottom: 0;
-    }
-
-    .article-card .article-content {
-        padding: 1.5rem;
     }
 
     .article-card h2 {
@@ -1393,9 +1404,6 @@ transition: right 0.3s ease;
         font-size: 1.25rem;
     }
 
-    .article-card .article-content {
-        padding: 1.25rem;
-    }
 }
 
 
@@ -1442,12 +1450,6 @@ transition: right 0.3s ease;
 /* The index masthead lines up with the archive grid, not the article measure. */
 .blog-hero > .container {
     max-width: 84rem;
-}
-
-.blog-controls {
-    border-bottom: 1px solid var(--rule);
-    padding-bottom: 0.75rem;
-    margin-bottom: 0;
 }
 
 .results-count {
@@ -1506,4 +1508,43 @@ transition: right 0.3s ease;
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+/* ---------------------------------------------------------------------------
+   Responsive layout collapse.
+
+   Last in the file on purpose, mirroring styles.css: every grid above states
+   its desktop shape and this is the only place that flattens it, so a base
+   rule can never outrank its own breakpoint.
+   --------------------------------------------------------------------------- */
+
+@media (max-width: 900px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 2.25rem;
+    }
+
+    .article-header {
+        margin-top: 104px;
+    }
+
+    .blog-hero {
+        margin-top: 104px;
+    }
+
+    /* A callout already sits inside the page gutter, so it only needs enough
+       inset to read as a box. */
+    .highlight-box,
+    .info-box,
+    .warning-box {
+        padding: 1.25rem;
+    }
+
+    .floating-book-button {
+        display: flex;
+    }
+
+    body {
+        padding-bottom: 3.5rem;
+    }
 }
