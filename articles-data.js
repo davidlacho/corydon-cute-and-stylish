@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-st-boniface-walking-guide.html",
+    "category": "winnipeg",
+    "date": "2026-08-19",
+    "title": "A walking guide to St. Boniface, Winnipeg's French Quarter",
+    "image": "https://staywinnipeg.ca/images/forks-river.jpg",
+    "imageAlt": "The Red River in Winnipeg, the water St. Boniface's French Quarter walk follows",
+    "description": "A self-guided walking route through St. Boniface, Winnipeg's French Quarter: the cathedral ruins, Louis Riel's grave, Esplanade Riel, and Provencher Boulevard.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>August 19, 2026</span>"
+  },
+  {
     "url": "/blog-grove-pub-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-18",

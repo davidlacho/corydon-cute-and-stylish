@@ -26,7 +26,6 @@ general.
 Broad-intent Winnipeg topics, rotated across neighbourhoods, seasons, and
 interests. Prefer these over anything framed around the Airbnb's doorstep.
 
-- st-boniface-walking-guide - A walking guide to St. Boniface, Winnipeg's French Quarter
 - winnipeg-48-hour-itinerary - Winnipeg in 48 hours: a first-timer's itinerary
 - winnipeg-free-things-to-do - 20 free things to do in Winnipeg
 - winnipeg-ramen-japanese-guide - Where to eat ramen and Japanese food in Winnipeg
@@ -86,3 +85,4 @@ interests. Prefer these over anything framed around the Airbnb's doorstep.
 - 2026-08-16 - pet-friendly-spots-near-corydon-airbnb - **REMOVED 2026-08-17 and must never be recreated.** The home does not accept pets; this post should never have been written. Do not treat pet topics as an uncovered gap.
 - 2026-08-17 - forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb - Forgotten Flavours: the wild-yeast bakery near the Corydon Airbnb (queue was empty; invented per playbook)
 - 2026-08-18 - grove-pub-near-corydon-airbnb - A pint at The Grove Pub, a short walk from the Corydon Airbnb (queue was empty; invented per playbook)
+- 2026-08-19 - st-boniface-walking-guide - A walking guide to St. Boniface, Winnipeg's French Quarter

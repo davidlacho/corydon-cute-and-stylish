@@ -7,6 +7,35 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-19 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-14:
+  - Saperavi Georgian Cuisine (709 Corydon Ave) — confirmed open, active site and
+    social presence, posted hours.
+  - Starbucks (946 Corydon Ave) — confirmed open, active hours and a current
+    Starbucks careers listing for this store.
+  - Sugar + Salt Bakeshoppe (897 Corydon Ave) — confirmed open, active site and
+    posted hours.
+  - Sunshine Chinese Restaurant (635 Corydon Ave) — remains closed; its own
+    website confirms a permanent closure. Already absent from
+    `blog-corydon-guide.html` from an earlier run, so no page edit was needed.
+  - `last_verified` set to 2026-08-19 for all four in `business-ledger.json`; no
+    status changes.
+- **New post:** `blog-st-boniface-walking-guide.html` — "A walking guide to St.
+  Boniface, Winnipeg's French Quarter". A city-wide guide (not Corydon-anchored)
+  covering the Esplanade Riel pedestrian bridge, the St. Boniface Cathedral
+  ruins, Louis Riel's grave, Provencher Boulevard, and the Saint-Boniface
+  Museum. Registered in `articles-data.js` and `sitemap.xml`, and moved from
+  Queue to Used in `post-ideas.md`. Used `images/forks-river.jpg` (a real
+  Red River photo already on the site) as the hero image: no local photo is
+  specific to St. Boniface, and this run's network sandbox could not reach
+  `unsplash.com` or `images.unsplash.com` to verify a working fallback URL, so
+  a verifiable local image was used instead of risking a broken Unsplash link
+  on a guest-facing page.
+
+---
+
 ## 2026-08-18 (manual, site-wide redesign)
 
 Out-of-band design pass by request; not a scheduled cron run. The site carried
