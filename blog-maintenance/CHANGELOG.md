@@ -7,6 +7,36 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-20 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-15:
+  - Sushi Ya (659 Corydon Ave) — confirmed open, active listings and current
+    ordering page (order.online), phone number consistent across sources.
+  - The Cheesemongers Fromagerie (839 Corydon Ave) — confirmed open, active
+    site (thecheesemongers.ca) with a working contact page and current Yelp
+    listing (updated July 2026).
+  - The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave) — confirmed open,
+    active site (themightykiwi.ca) with a current locations page listing the
+    Corydon address, and current DoorDash/Yelp listings.
+  - The Roost (651 Corydon Ave) — confirmed open, active site (theroostwpg.com)
+    with hours and menu, current Yelp listing (updated February 2026).
+  - `last_verified` set to 2026-08-20 for all four in `business-ledger.json`; no
+    status changes. No closures, moves, or renames found; no page corrections
+    needed on `blog-corydon-guide.html`.
+- **New post:** `blog-winnipeg-48-hour-itinerary.html` — "Winnipeg in 48 hours: a
+  first-timer's itinerary". A city-wide guide (not Corydon-anchored, per the
+  topic-breadth rule: two of the last four published posts were Corydon-anchored,
+  so this run picked a general-Winnipeg topic) covering The Forks, the Exchange
+  District, an evening choice between Osborne Village and Corydon Avenue, and a
+  day-two museum/park plus St. Boniface. Registered in `articles-data.js` and
+  `sitemap.xml`, and moved from Queue to Used in `post-ideas.md`. Used the
+  previously-unused local photo `images/guidebook-winnipeg-39-the-forks.jpg` as
+  the hero image (a real photo of The Forks Market and riverfront, the
+  itinerary's first stop).
+
+---
+
 ## 2026-08-19 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last

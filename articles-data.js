@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-48-hour-itinerary.html",
+    "category": "winnipeg",
+    "date": "2026-08-20",
+    "title": "Winnipeg in 48 hours: a first-timer's itinerary",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-39-the-forks.jpg",
+    "imageAlt": "The Forks Market and riverfront in Winnipeg",
+    "description": "A first-timer's 48-hour Winnipeg itinerary: The Forks, the Exchange District, a Corydon or Osborne Village evening, and a museum or park for day two.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>7 min read</span>\n                                <span>August 20, 2026</span>"
+  },
+  {
     "url": "/blog-st-boniface-walking-guide.html",
     "category": "winnipeg",
     "date": "2026-08-19",
