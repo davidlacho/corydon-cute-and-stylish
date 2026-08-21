@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-free-things-to-do.html",
+    "category": "winnipeg",
+    "date": "2026-08-21",
+    "title": "20 free things to do in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-42-assiniboine-park.jpg",
+    "imageAlt": "A path through Assiniboine Park in Winnipeg",
+    "description": "20 free things to do in Winnipeg: parks, murals, museums with free admission days, markets, and river trails that cost nothing to visit.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>8 min read</span>\n                                <span>August 21, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-48-hour-itinerary.html",
     "category": "winnipeg",
     "date": "2026-08-20",

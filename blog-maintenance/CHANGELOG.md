@@ -7,6 +7,43 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-21 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-16:
+  - Thom Bargen Coffee Roasters (743 Corydon Ave) — confirmed open. Official
+    site (thombargen.com/pages/our-cafes) lists this address as an active
+    location with posted hours; multiple third-party listings (Th3rdwave,
+    CaféWork, the location's own Facebook page) agree. No permanently-closed
+    flag anywhere; a separate Thom Bargen location on Main St has closed, but
+    that does not affect this one.
+  - Tim Horton's (949 Corydon Ave) — confirmed open. Official Tim Hortons
+    store locator and a Yelp listing updated June 2026 both show it active
+    with posted hours; also live on UberEats and Tripadvisor.
+  - Tommy's Pizzeria (842 Corydon Ave) — confirmed open. Yelp listing updated
+    August 2026 shows current hours; official site and Toast ordering page
+    are live.
+  - Wako Sushi Café (875 Corydon Ave) — confirmed open. Yelp listing updated
+    July 2026 shows current hours; also live on DoorDash and UberEats.
+  - `last_verified` set to 2026-08-21 for all four in `business-ledger.json`; no
+    status changes. No closures, moves, or renames found; no page corrections
+    needed on `blog-corydon-guide.html`.
+- **New post:** `blog-winnipeg-free-things-to-do.html` — "20 free things to do
+  in Winnipeg". A city-wide listicle (not Corydon-anchored) covering free
+  parks (Assiniboine Park, The Forks riverwalk, Kildonan Park, St. Vital Park,
+  Vimy Ridge Memorial Park), public art and architecture (Exchange District,
+  murals, the Legislative Building grounds, Union Station), museum
+  free-admission days (WAG/Qaumajuq first Fridays, the Manitoba Museum's free
+  days, Millennium Library), markets and neighbourhood strolls, and seasonal
+  free events, with a closing note to confirm event/free-day dates on the
+  venue's own site since those change year to year. Registered in
+  `articles-data.js` and `sitemap.xml`, and moved from Queue to Used in
+  `post-ideas.md`. Used the previously-unused local photo
+  `images/guidebook-winnipeg-42-assiniboine-park.jpg` as the hero image (a
+  real photo of Assiniboine Park, the post's first entry).
+
+---
+
 ## 2026-08-20 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last

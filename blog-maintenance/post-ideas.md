@@ -26,7 +26,6 @@ general.
 Broad-intent Winnipeg topics, rotated across neighbourhoods, seasons, and
 interests. Prefer these over anything framed around the Airbnb's doorstep.
 
-- winnipeg-free-things-to-do - 20 free things to do in Winnipeg
 - winnipeg-ramen-japanese-guide - Where to eat ramen and Japanese food in Winnipeg
 - manitoba-museum-planetarium-guide - The Manitoba Museum and Planetarium: what to see and how long to allow
 - winnipeg-filipino-food-guide - A guide to Filipino food in Winnipeg
@@ -86,3 +85,4 @@ interests. Prefer these over anything framed around the Airbnb's doorstep.
 - 2026-08-18 - grove-pub-near-corydon-airbnb - A pint at The Grove Pub, a short walk from the Corydon Airbnb (queue was empty; invented per playbook)
 - 2026-08-19 - st-boniface-walking-guide - A walking guide to St. Boniface, Winnipeg's French Quarter
 - 2026-08-20 - winnipeg-48-hour-itinerary - Winnipeg in 48 hours: a first-timer's itinerary
+- 2026-08-21 - winnipeg-free-things-to-do - 20 free things to do in Winnipeg
