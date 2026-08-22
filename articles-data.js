@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-ramen-japanese-guide.html",
+    "category": "winnipeg",
+    "date": "2026-08-22",
+    "title": "Where to eat ramen and Japanese food in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
+    "imageAlt": "The dining room of a Winnipeg restaurant",
+    "description": "Where to eat ramen and Japanese food in Winnipeg: tonkotsu ramen counters, izakaya small plates, and sushi spots from Pembina Highway to Corydon Avenue.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>August 22, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-free-things-to-do.html",
     "category": "winnipeg",
     "date": "2026-08-21",

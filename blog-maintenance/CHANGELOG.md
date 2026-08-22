@@ -7,6 +7,51 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-22 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-17:
+  - Passero Restaurant (774 Corydon Ave) — confirmed open. Multiple active
+    listings (Tripadvisor, Yably, Zmenu) plus the restaurant's own site
+    (passerowinnipeg.com) show it operating with posted hours.
+  - Forgotten Flavours (858 Corydon Ave) — confirmed open. Official site
+    (forgottenflavours.ca) lists the Corydon location on its locations page
+    with current hours (Tue-Sat, 11am-6pm), and Tourism Winnipeg and
+    Instagram both show it active.
+  - Colosseo Ristorante Italiano (670 Corydon Ave) — confirmed open. Official
+    site (colosseo.ca), a Yelp listing updated July 2026, and Tourism
+    Winnipeg all show it active with posted hours.
+  - Bar Italia (737 Corydon Ave) — confirmed open. Yelp (updated January
+    2026), UberEats/DoorDash ordering pages, and Tourism Winnipeg all show
+    it active.
+  - `last_verified` set to 2026-08-22 for all four in `business-ledger.json`; no
+    status changes. No closures, moves, or renames found; no page corrections
+    needed on `blog-corydon-guide.html`.
+- **New post:** `blog-winnipeg-ramen-japanese-guide.html` — "Where to eat
+  ramen and Japanese food in Winnipeg". A city-wide guide (not
+  Corydon-anchored; the last three published posts were also city-wide, so
+  this keeps the topic-breadth ratio well under the one-in-four cap) covering
+  Cho Ichi Ramen (Pembina Highway) and Yujiro Japanese Restaurant (River
+  Heights) for ramen, Gaijin Izakaya (Regent Avenue West) and Edokko Japanese
+  Food (Waterloo Street) for izakaya and sushi, and Wako Sushi Café/Sushi Ya
+  on Corydon Avenue as the neighbourhood's own sushi counters, with a closing
+  note that small independent kitchens change hours more often than chains.
+  All business names and neighbourhoods were confirmed by web search before
+  writing; no hours or prices were stated in the post itself. Registered in
+  `articles-data.js` and `sitemap.xml`, and moved from Queue to Used in
+  `post-ideas.md`. This run's network sandbox could not reach
+  `unsplash.com`/`images.unsplash.com` (same restriction noted on
+  2026-08-19), and no local photo depicts a specific ramen or Japanese dish,
+  so `images/restaurant-dining.jpg` (a real Winnipeg restaurant interior,
+  described accurately rather than mislabelled as a noodle dish) was used as
+  the hero image instead of risking a broken external link or a misleading
+  local photo. `images/pasta-dish.jpg` was considered and rejected: it is
+  already used, correctly, for a tomato-based pasta dish on
+  `blog-vegetarian-vegan-eats-corydon.html` and `blog-corydon-guide.html`,
+  and would misrepresent the dish on a ramen post.
+
+---
+
 ## 2026-08-21 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
