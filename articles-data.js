@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-wolseley-neighbourhood-guide.html",
+    "category": "winnipeg",
+    "date": "2026-08-23",
+    "title": "Wolseley: a guide to Winnipeg's leafiest neighbourhood",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-44-wolseley.jpg",
+    "imageAlt": "A tree-lined street of character homes in Wolseley, Winnipeg",
+    "description": "A guide to Wolseley, Winnipeg's leafiest neighbourhood: century-old character homes, the Assiniboine River pathway, the Wolseley Elm's history, and what makes the area worth a walk.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>August 23, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-ramen-japanese-guide.html",
     "category": "winnipeg",
     "date": "2026-08-22",

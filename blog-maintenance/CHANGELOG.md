@@ -7,6 +7,50 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-23 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-18:
+  - Peking Chinese Food Ltd. (840 Corydon Ave) — confirmed open. Official site
+    (pekingwpg.com), an active Yelp listing (updated July 2026) with posted
+    hours, and DoorDash ordering all show it operating; the restaurant notes
+    it has served the area since 1970.
+  - Cafe 22 (823 Corydon Ave) — confirmed open. Official site (cafe22.ca /
+    cafe22corydon.com), an OpenTable listing, and a Yelp listing updated
+    August 2026 all show it active with posted hours.
+  - Saffron's Restaurant (681 Corydon Ave) — confirmed open. Official site
+    (saffronrestaurantwinnipeg.com), a Yelp listing updated July 2026, and an
+    active online ordering page all show it operating with posted hours.
+  - Santa Lucia Pizza (905 Corydon Ave) — confirmed open. Official site
+    (santaluciapizza.com, with a page dedicated to the Corydon location),
+    Tourism Winnipeg, and Facebook all show it active with posted hours.
+  - `last_verified` set to 2026-08-23 for all four in `business-ledger.json`; no
+    status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-wolseley-neighbourhood-guide.html` — "Wolseley: a guide
+  to Winnipeg's leafiest neighbourhood". A city-wide, neighbourhood-focused
+  guide (not Corydon-anchored; the last four published posts were also
+  city-wide, so this keeps the topic-breadth ratio well under the one-in-four
+  cap) covering the character homes on Wolseley/Westminster/Palmerston
+  Avenues, the history of the Wolseley Elm (including the 1957 standoff to
+  save it and the plaque that now marks the spot at 980 Palmerston Ave), the
+  Assiniboine River pathway along the neighbourhood's southern edge, and the
+  everyday feel of the area. All historical and geographic details were
+  confirmed by web search before writing (Manitoba Historical Society's
+  "Wolseley Elm" pages and neighbourhood guides); no business hours or prices
+  were stated. This run's queue technically listed
+  `manitoba-museum-planetarium-guide` first, but no local photo depicts the
+  Manitoba Museum or Planetarium, and this run's network sandbox could not
+  reach `manitobamuseum.ca` or `images.unsplash.com` (same restriction noted
+  on 2026-08-19 and 2026-08-22) to verify a fallback image or current
+  admission details, so that idea was left in Queue for a future run and
+  `wolseley-neighbourhood-guide` (further down the same Queue) was published
+  instead, using the real local photo `images/guidebook-winnipeg-44-wolseley.jpg`.
+  Registered in `articles-data.js` and `sitemap.xml`, and moved from Queue to
+  Used in `post-ideas.md` with a note explaining the substitution.
+
+---
+
 ## 2026-08-22 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last

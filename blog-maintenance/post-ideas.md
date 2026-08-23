@@ -32,7 +32,6 @@ interests. Prefer these over anything framed around the Airbnb's doorstep.
 - winnipeg-live-music-venues - Where to see live music in Winnipeg
 - manitoba-legislative-building-tour - Touring the Manitoba Legislative Building
 - winnipeg-thrift-vintage-shopping - Thrift, vintage, and secondhand shopping across Winnipeg
-- wolseley-neighbourhood-guide - Wolseley: a guide to Winnipeg's leafiest neighbourhood
 - winnipeg-perogies-ukrainian-food - Perogies, holubtsi, and Winnipeg's Ukrainian food scene
 - winnipeg-performing-arts-season - Ballet, symphony, and theatre: Winnipeg's performing arts season
 - royal-aviation-museum-guide - The Royal Aviation Museum of Western Canada: a visitor's guide
@@ -86,3 +85,4 @@ interests. Prefer these over anything framed around the Airbnb's doorstep.
 - 2026-08-20 - winnipeg-48-hour-itinerary - Winnipeg in 48 hours: a first-timer's itinerary
 - 2026-08-21 - winnipeg-free-things-to-do - 20 free things to do in Winnipeg
 - 2026-08-22 - winnipeg-ramen-japanese-guide - Where to eat ramen and Japanese food in Winnipeg
+- 2026-08-23 - wolseley-neighbourhood-guide - Wolseley: a guide to Winnipeg's leafiest neighbourhood (queue's first idea, manitoba-museum-planetarium-guide, was skipped this run because no local photo depicts the Manitoba Museum/Planetarium and Unsplash was unreachable; wolseley-neighbourhood-guide was picked instead because a real local photo, guidebook-winnipeg-44-wolseley.jpg, fits it exactly. manitoba-museum-planetarium-guide remains in Queue for a future run.)
