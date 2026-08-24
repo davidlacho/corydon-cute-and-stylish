@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-cycling-routes.html",
+    "category": "winnipeg",
+    "date": "2026-08-24",
+    "title": "Cycling Winnipeg: the routes and trails worth riding",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-51-plain-bicycle-bicycle-garden.jpg",
+    "imageAlt": "The storefront of Bicycle Garden, a Plain Bicycle rental and repair shop in Winnipeg",
+    "description": "A guide to cycling in Winnipeg: the Assiniboine River Trail, the Awasisak Mēskanow Greenway, the Harte Trail, and where to rent a bike in the city.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>August 24, 2026</span>"
+  },
+  {
     "url": "/blog-wolseley-neighbourhood-guide.html",
     "category": "winnipeg",
     "date": "2026-08-23",

@@ -35,7 +35,6 @@ interests. Prefer these over anything framed around the Airbnb's doorstep.
 - winnipeg-perogies-ukrainian-food - Perogies, holubtsi, and Winnipeg's Ukrainian food scene
 - winnipeg-performing-arts-season - Ballet, symphony, and theatre: Winnipeg's performing arts season
 - royal-aviation-museum-guide - The Royal Aviation Museum of Western Canada: a visitor's guide
-- winnipeg-cycling-routes - Cycling Winnipeg: the routes and trails worth riding
 - winnipeg-fall-colours - Where to see fall colours in and around Winnipeg
 - winnipeg-bookstores-record-shops - Independent bookstores and record shops in Winnipeg
 - winnipeg-airport-arrival-guide - Landing at YWG: getting from the airport into Winnipeg
@@ -86,3 +85,4 @@ interests. Prefer these over anything framed around the Airbnb's doorstep.
 - 2026-08-21 - winnipeg-free-things-to-do - 20 free things to do in Winnipeg
 - 2026-08-22 - winnipeg-ramen-japanese-guide - Where to eat ramen and Japanese food in Winnipeg
 - 2026-08-23 - wolseley-neighbourhood-guide - Wolseley: a guide to Winnipeg's leafiest neighbourhood (queue's first idea, manitoba-museum-planetarium-guide, was skipped this run because no local photo depicts the Manitoba Museum/Planetarium and Unsplash was unreachable; wolseley-neighbourhood-guide was picked instead because a real local photo, guidebook-winnipeg-44-wolseley.jpg, fits it exactly. manitoba-museum-planetarium-guide remains in Queue for a future run.)
+- 2026-08-24 - winnipeg-cycling-routes - Cycling Winnipeg: the routes and trails worth riding (queue's first idea, manitoba-museum-planetarium-guide, was skipped again this run for the same reason as 2026-08-23: no local photo and manitobamuseum.ca still unreachable from this sandbox. winnipeg-filipino-food-guide and several other early queue items were also skipped for lack of a fitting local photo. winnipeg-cycling-routes was picked because guidebook-winnipeg-51-plain-bicycle-bicycle-garden.jpg, a real photo of a Winnipeg bike shop, fits it exactly.)

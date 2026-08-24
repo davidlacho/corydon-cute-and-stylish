@@ -7,6 +7,56 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-24 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-19:
+  - Saperavi Georgian Cuisine (709 Corydon Ave) — confirmed open. Official site
+    (saperavi.ca), a Yelp listing updated May 2026 with posted hours, and an
+    active order.online ordering page all show it operating.
+  - Starbucks (946 Corydon Ave) — confirmed open. Multiple active listings
+    (Yellow Pages, DoorDash, Uber Eats, Tripadvisor) and the Starbucks careers
+    site (which lists this address as store #68102, "Corydon & Stafford") all
+    show it operating with posted hours.
+  - Sugar + Salt Bakeshoppe (897 Corydon Ave) — confirmed open. Official site
+    (sugarandsaltbakeshoppe.com), Tourism Winnipeg, and a Wheree listing
+    updated July 2026 all show it active with posted hours.
+  - Sunshine Chinese Restaurant (635 Corydon Ave) — **status changed from
+    closed to open.** The original operator's site (sunshinechinesefood.com)
+    still states "We Are Now Closed," but a separate, active site
+    (winnipegsunshine.com) and Facebook page (facebook.com/SunShine635, which
+    describes itself as "a new Chinese restaurant on Corydon Ave, Winnipeg")
+    show a new operation under the same name at the same address, with a
+    different phone number (204-615-2615) and current delivery listings on
+    DoorDash and order.online. Re-added to `blog-corydon-guide.html`'s
+    restaurant list, linked to winnipegsunshine.com.
+  - `last_verified` set to 2026-08-24 for all four in `business-ledger.json`.
+- **New post:** `blog-winnipeg-cycling-routes.html` — "Cycling Winnipeg: the
+  routes and trails worth riding". A city-wide guide (not Corydon-anchored;
+  the last four published posts were also city-wide, so this keeps the
+  topic-breadth ratio well under the one-in-four cap) covering the
+  Assiniboine River Trail, the Awasisak Mēskanow Greenway (formerly Bishop
+  Grandin Greenway), the Harte Trail, and Bicycle Garden (Plain Bicycle) on
+  Sherbrook Street as a bike rental option, with a closing note to check a
+  current trail map since surfaces and closures change seasonally. All trail
+  names, routes, and the bike shop's offerings were confirmed by web search
+  before writing; no hours or prices were stated in the post itself, since
+  rental rates and trail conditions change more often than a static page can
+  track. This run's
+  queue first idea, `manitoba-museum-planetarium-guide`, was skipped again
+  (same reason as 2026-08-23: no local photo depicts the museum/planetarium
+  and `manitobamuseum.ca` was unreachable from this sandbox), as was
+  `winnipeg-filipino-food-guide` and several other early queue items, for
+  lack of a local photo that fits the topic without misrepresenting it
+  (`images.unsplash.com` is also unreachable from this sandbox, same
+  restriction noted on prior runs). `winnipeg-cycling-routes` was picked
+  because `images/guidebook-winnipeg-51-plain-bicycle-bicycle-garden.jpg`, a
+  real photo of a Winnipeg bike shop storefront, fits it exactly. Registered
+  in `articles-data.js` and `sitemap.xml`, and moved from Queue to Used in
+  `post-ideas.md`.
+
+---
+
 ## 2026-08-23 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
