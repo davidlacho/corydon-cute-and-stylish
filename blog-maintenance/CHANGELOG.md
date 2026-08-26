@@ -7,6 +7,51 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-26 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-20:
+  - Sushi Ya (659 Corydon Ave) — confirmed open. Yelp (updated May 2026, 14
+    reviews), Tripadvisor (4.6/5), and an active order.online ordering page
+    all show it operating with posted hours.
+  - The Cheesemongers Fromagerie (839 Corydon Ave) — confirmed open. Official
+    site (thecheesemongers.ca), Tourism Winnipeg, and a Yelp listing updated
+    July 2026 all show it active; in-store shopping is currently by
+    pre-arranged pickup or delivery only, with the shop itself still
+    operating.
+  - The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave) — confirmed open.
+    Official site (themightykiwi.ca), Tourism Winnipeg, and an active
+    order.online ordering page all show it active with posted hours.
+  - The Roost (651 Corydon Ave) — confirmed open. Official site
+    (theroostwpg.com), Tourism Winnipeg, and a Yelp listing updated February
+    2026 all show it active with posted hours.
+  - `last_verified` set to 2026-08-26 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-perogies-ukrainian-food.html` — "Perogies,
+  holubtsi, and Winnipeg's Ukrainian food scene". A city-wide, North
+  End-focused guide (not Corydon-anchored; the last four published posts
+  were also city-wide, so this keeps the topic-breadth ratio well under the
+  one-in-four cap) covering Luda's Deli (410 Aberdeen Ave) for homemade
+  perogies, kubasa, and borscht, the long history of Alycia's (opened in the
+  North End in 1971, closed in 2011, now revived at the Royal Albert Arms in
+  the Exchange District), and the Oseredok Ukrainian Cultural Centre and
+  Ukrainian Labour Temple as the cultural landmarks behind the food. All
+  business names, addresses, and historical details were confirmed by web
+  search before writing; no prices were stated, and hours were described
+  only in general terms (daytime only, cash-only, a shorter weekly schedule)
+  rather than exact posted hours, since small independent kitchens change
+  these often. This run's queue first idea, `manitoba-museum-planetarium-guide`,
+  was skipped again for the same reason as prior runs: `manitobamuseum.ca`
+  remains unreachable from this sandbox and no local photo depicts the
+  museum or planetarium. `winnipeg-perogies-ukrainian-food` was picked
+  because `images/guidebook-winnipeg-10-luda-s-deli.jpg`, a real photo of
+  the deli's dining room, fits it exactly and had not been used on any
+  other page. Registered in `articles-data.js` and `sitemap.xml`, and moved
+  from Queue to Used in `post-ideas.md`.
+
+---
+
 ## 2026-08-24 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last

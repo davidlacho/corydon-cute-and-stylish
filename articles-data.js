@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-perogies-ukrainian-food.html",
+    "category": "winnipeg",
+    "date": "2026-08-26",
+    "title": "Perogies, holubtsi, and Winnipeg's Ukrainian food scene",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-10-luda-s-deli.jpg",
+    "imageAlt": "The wood-panelled dining room at Luda's Deli, a longtime North End Winnipeg diner",
+    "description": "A guide to Winnipeg's Ukrainian food scene: Luda's Deli in the North End, the long history of Alycia's, and the cultural landmarks behind the cooking.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>August 26, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-cycling-routes.html",
     "category": "winnipeg",
     "date": "2026-08-24",
