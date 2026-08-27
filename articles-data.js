@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-airport-arrival-guide.html",
+    "category": "winnipeg",
+    "date": "2026-08-27",
+    "title": "Landing at YWG: getting from the airport into Winnipeg",
+    "image": "https://staywinnipeg.ca/images/airport-terminal.jpg",
+    "imageAlt": "A view of an airplane wing above the clouds during descent",
+    "description": "A practical guide to Winnipeg's airport: how far YWG is from downtown, taxi and rideshare pickup, Winnipeg Transit's airport routes, and on-site car rental.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>August 27, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-perogies-ukrainian-food.html",
     "category": "winnipeg",
     "date": "2026-08-26",

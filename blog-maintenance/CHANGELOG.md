@@ -7,6 +7,65 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-27 (cron)
+
+- **Housekeeping:** Local `main` was left on a detached HEAD (matching `origin/main`'s commit already, only the `main` branch ref itself was stale, same recurring pattern as many prior runs). Checked out `main` and fast-forwarded to `origin/main` before starting — no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-21:
+  - Thom Bargen Coffee Roasters (743 Corydon Ave) — confirmed open. Corner.inc
+    and CaféWork listings, an active Facebook page with a post from within the
+    last day, and a Wheree listing updated April 2026 all show it operating
+    with posted hours (thombargen.com itself could not be reached directly
+    from this sandbox, so secondary listings and social media were used
+    instead).
+  - Tim Horton's (949 Corydon Ave) — confirmed open. The official Tim Hortons
+    store locator lists this address directly, and a Yelp listing updated June
+    2026 agrees.
+  - Tommy's Pizzeria (842 Corydon Ave) — confirmed open. Official site
+    (tommys.pizza), an active Toast online-ordering page, SkipTheDishes, and a
+    2026-dated Tripadvisor listing all show it active.
+  - Wako Sushi Café (875 Corydon Ave) — confirmed open. DoorDash, a Yelp
+    listing updated July 2026, and a 2026-dated Tripadvisor listing all show
+    it active; minor hours discrepancies between sources were noted but do not
+    affect status.
+  - `last_verified` set to 2026-08-27 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-airport-arrival-guide.html` — "Landing at YWG:
+  getting from the airport into Winnipeg". A city-wide, practical-logistics
+  guide (not Corydon-anchored; the last four published posts were also
+  city-wide, so this keeps the topic-breadth ratio well under the one-in-four
+  cap) covering taxi and rideshare pickup, Winnipeg Transit's airport service,
+  on-site rental car counters, and the airport's single, compact terminal.
+  Facts were confirmed by web search before writing: the airport's identity,
+  its rough distance/drive time from downtown (sources ranged 6-9 km /
+  15-25 minutes, so a hedged range was used rather than a single precise
+  figure), the presence of a taxi stand and Uber pickup at the airport (Lyft's
+  presence at the airport specifically was flagged as unconfirmed by one
+  source, so the post does not claim Lyft operates there), Winnipeg Transit's
+  post-redesign airport routes (D12/D13/224, confirmed via the Transit site
+  and corroborated by transitapp.com/TransSee), and the five rental agencies
+  on site. No specific taxi fare, exact distance figure, or transit
+  first/last-bus times were stated, since sources for those numbers were
+  either unofficial fare aggregators or showed conflicting values between
+  searches. This run's queue technically listed `manitoba-museum-planetarium-guide`
+  first, but that idea and several others down the queue
+  (winnipeg-filipino-food-guide, grand-beach-day-trip,
+  winnipeg-live-music-venues, manitoba-legislative-building-tour,
+  winnipeg-thrift-vintage-shopping, winnipeg-performing-arts-season,
+  royal-aviation-museum-guide, winnipeg-fall-colours,
+  winnipeg-bookstores-record-shops) were skipped for lack of a fitting local
+  photo; `manitobamuseum.ca` and `images.unsplash.com` remain unreachable from
+  this sandbox (confirmed again via the agent proxy's status log, which shows
+  both hosts rejected with a 403 at the CONNECT stage). `winnipeg-airport-arrival-guide`
+  was picked instead because `images/airport-terminal.jpg`, a real in-flight
+  photo already on the site, fits a landing/arrival topic well, and airport
+  logistics is a practical topic no existing post covers. Registered in
+  `articles-data.js` and `sitemap.xml`, and moved from Queue to Used in
+  `post-ideas.md` with a note on the substitution.
+
+---
+
 ## 2026-08-26 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
