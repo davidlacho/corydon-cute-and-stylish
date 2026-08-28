@@ -7,6 +7,61 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-28 (cron)
+
+- **Housekeeping:** Local `main` was again on a detached HEAD, 5 commits behind
+  `origin/main` (2026-08-22 through 2026-08-27 runs were not reflected on the
+  local branch ref). Checked out `main` and fast-forwarded to `origin/main`
+  before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-22:
+  - Passero Restaurant (774 Corydon Ave) — confirmed open. Tripadvisor, Yelp
+    equivalents (Yably, Wheree), and the restaurant's own site
+    (passerowinnipeg.com) all show it active; hours vary slightly between
+    sources (dinner-only vs. lunch-through-dinner), so no specific hours were
+    changed on the site.
+  - Forgotten Flavours (858 Corydon Ave) — confirmed open. The bakery's own
+    site (forgottenflavours.ca) lists this as its Winnipeg location with
+    posted hours (Tue-Sat 11am-6pm), corroborated by Tourism Winnipeg and
+    Instagram activity.
+  - Colosseo Ristorante Italiano (670 Corydon Ave) — confirmed open. Official
+    site (colosseo.ca), Tourism Winnipeg, and a Yelp listing updated July 2026
+    all show it active, operating since 1973.
+  - Bar Italia (737 Corydon Ave) — confirmed open. Tourism Winnipeg, Yelp
+    (updated January 2026), UberEats, and DoorDash all show it active.
+  - `last_verified` set to 2026-08-28 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-north-end-history-food.html` — "The North End:
+  history, bakeries, and delis". A city-wide, non-Corydon-anchored guide
+  (the last four published posts were also all city-wide, keeping the
+  topic-breadth ratio well under the one-in-four cap) covering the CPR-driven
+  immigrant settlement of the North End, Selkirk Avenue's history as its
+  commercial and multilingual heart, Gunn's Bakery (open since 1937, still
+  operating at 247 Selkirk Ave, current status and hours confirmed by web
+  search), and the seasonal Ross House Museum. KUB Bakery, historically a
+  North End institution, was deliberately not featured: it closed in 2022 and
+  web search shows its post-2022 ownership operating from other addresses
+  (Erin St / Larche Cres listings), not confirmed as a current North End
+  storefront, so it was left out rather than risk stating an unverified
+  location. Luda's Deli, already the subject of the 2026-08-26 perogies post,
+  was not re-featured to avoid duplicating that post's content. The queue's
+  first eleven items (manitoba-museum-planetarium-guide,
+  winnipeg-filipino-food-guide, grand-beach-day-trip,
+  winnipeg-live-music-venues, manitoba-legislative-building-tour,
+  winnipeg-thrift-vintage-shopping, winnipeg-performing-arts-season,
+  royal-aviation-museum-guide, winnipeg-fall-colours,
+  winnipeg-bookstores-record-shops, winnipeg-indian-south-asian-food,
+  oak-hammock-marsh-birding) were skipped again for lack of a fitting local
+  photo; `manitobamuseum.ca` and `images.unsplash.com` remain unreachable from
+  this sandbox. `winnipeg-north-end-history-food` was picked out of order
+  because `images/guidebook-winnipeg-blog-gunns-bakery.jpg`, a real,
+  previously-unused photo of North End-style baking, fits it exactly.
+  Registered in `articles-data.js` and `sitemap.xml`, and moved from Queue to
+  Used in `post-ideas.md`.
+
+---
+
 ## 2026-08-27 (cron)
 
 - **Housekeeping:** Local `main` was left on a detached HEAD (matching `origin/main`'s commit already, only the `main` branch ref itself was stale, same recurring pattern as many prior runs). Checked out `main` and fast-forwarded to `origin/main` before starting — no content was lost.
