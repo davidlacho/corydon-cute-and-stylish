@@ -7,6 +7,71 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-29 (cron)
+
+- **Housekeeping:** Local `main` was again on a detached HEAD, 6 commits behind
+  `origin/main` (the 2026-08-23 through 2026-08-28 runs were not reflected on
+  the local branch ref, the same recurring pattern as prior runs). Fetched and
+  fast-forwarded `main` to `origin/main` before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-23:
+  - Peking Chinese Food Ltd. (840 Corydon Ave) — confirmed open. The
+    restaurant's own site (pekingwpg.com), a July 2026-dated Yelp listing, and
+    DoorDash all show it active with posted hours; it has operated at this
+    address since 1970.
+  - Cafe 22 (823 Corydon Ave) — confirmed open. The restaurant's own site
+    (cafe22.ca), OpenTable, and Yellow Pages all show it active with posted
+    hours.
+  - Saffron's Restaurant (681 Corydon Ave) — confirmed open. Tourism
+    Winnipeg, a July 2026-dated Yelp listing, and OpenTable all show it
+    active with posted hours.
+  - Santa Lucia Pizza (905 Corydon Ave) — confirmed open. The restaurant's own
+    site (santaluciapizza.com), Tourism Winnipeg, and Tripadvisor all show it
+    active with posted hours; it has operated in Winnipeg since 1971.
+  - `last_verified` set to 2026-08-29 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses (including the existing link to
+    santaluciapizza.ca), so no page corrections were needed.
+- **New post:** `blog-winnipeg-shopping-districts.html` — "Where to shop in
+  Winnipeg, district by district". A city-wide shopping guide (not
+  Corydon-anchored, though Corydon Avenue is covered as one of several
+  districts; the last four published posts were also city-wide, keeping the
+  topic-breadth ratio well under the one-in-four cap) covering the Exchange
+  District, Osborne Village, Academy Road, Corydon Avenue, downtown/The Forks
+  Market, and the city's three major enclosed malls (CF Polo Park, St. Vital
+  Centre, Kildonan Place). It was also picked deliberately to give the recent
+  run of posts a different intent: the 2026-08-26 and 2026-08-28 posts were
+  both food-and-history pieces, so this run intentionally moved to a shopping
+  topic instead of adding a third. Facts about each district and mall were
+  confirmed by web search before writing (Travel Manitoba and Tourism
+  Winnipeg's own shopping and neighbourhood pages); no specific hours or
+  prices were stated, since those change too often for a general guide to
+  own. The queue's first fifteen items (manitoba-museum-planetarium-guide,
+  winnipeg-filipino-food-guide, grand-beach-day-trip, winnipeg-live-music-venues,
+  manitoba-legislative-building-tour, winnipeg-thrift-vintage-shopping,
+  winnipeg-performing-arts-season, royal-aviation-museum-guide,
+  winnipeg-fall-colours, winnipeg-bookstores-record-shops,
+  winnipeg-indian-south-asian-food, oak-hammock-marsh-birding,
+  winnipeg-with-kids-indoor, winnipeg-fringe-festival-guide,
+  riding-mountain-national-park-trip) were skipped again for lack of a
+  confidently fitting local photo; `images.unsplash.com` and
+  `manitobamuseum.ca` remain unreachable from this sandbox (reconfirmed via a
+  direct `curl` through the agent proxy, both rejected with a 403 at the
+  CONNECT stage). One additional candidate was explicitly rejected rather than
+  just skipped: `guidebook-winnipeg-40-true-north-square.jpg`, considered for
+  `winnipeg-live-music-venues`, was ruled out because its main subject is a
+  cluster of downtown glass towers, which the house style guardrails forbid
+  regardless of topic fit. `winnipeg-shopping-districts` was picked because
+  `guidebook-winnipeg-46-exchange-district.jpg`, a real photo of a heritage
+  Exchange District storefront, fits it well (this image is already in use on
+  the existing Exchange District self-guided tour post, but that post covers
+  only the one neighbourhood while this one is a citywide shopping guide, so
+  the reuse was judged acceptable, consistent with other images reused
+  2-3 times elsewhere on the site). Registered in `articles-data.js` and
+  `sitemap.xml`, and moved from Queue to Used in `post-ideas.md`.
+
+---
+
 ## 2026-08-28 (cron)
 
 - **Housekeeping:** Local `main` was again on a detached HEAD, 5 commits behind

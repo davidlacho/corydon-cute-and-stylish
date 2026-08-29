@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-shopping-districts.html",
+    "category": "winnipeg",
+    "date": "2026-08-29",
+    "title": "Where to shop in Winnipeg, district by district",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-46-exchange-district.jpg",
+    "imageAlt": "A heritage warehouse storefront with a bronze horse statue in Winnipeg's Exchange District",
+    "description": "A district-by-district guide to shopping in Winnipeg: the Exchange District, Osborne Village, Academy Road, downtown, and the city's big malls.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>August 29, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-north-end-history-food.html",
     "category": "winnipeg",
     "date": "2026-08-28",
