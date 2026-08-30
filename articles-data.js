@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-steakhouses-bbq.html",
+    "category": "winnipeg",
+    "date": "2026-08-30",
+    "title": "Steakhouses and barbecue in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
+    "imageAlt": "An upscale restaurant dining room set with wine glasses and leather booths",
+    "description": "A guide to Winnipeg's steakhouses and barbecue spots, from a dining room open since 1957 to smokehouse ribs and Brazilian rodizio.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>August 30, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-shopping-districts.html",
     "category": "winnipeg",
     "date": "2026-08-29",

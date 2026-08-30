@@ -7,6 +7,65 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-08-30 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-24:
+  - Saperavi Georgian Cuisine (709 Corydon Ave) — confirmed open. Tourism
+    Winnipeg, the restaurant's own site (saperavi.ca), a June 2026-dated Yelp
+    listing, and an active Instagram account all show it active with posted
+    hours (Tue-Sun, closed Mondays).
+  - Starbucks (946 Corydon Ave) — confirmed open. The Starbucks careers page
+    lists this address as store #68102 (Corydon & Stafford), corroborated by
+    UberEats, DoorDash, and a Yellow Pages listing with posted hours.
+  - Sugar + Salt Bakeshoppe (897 Corydon Ave, Unit 103) — confirmed open.
+    The bakery's own site (sugarandsaltbakeshoppe.com), Tourism Winnipeg, and
+    a Chamber of Commerce directory listing all show it active with posted
+    hours.
+  - Sunshine Chinese Restaurant (635 Corydon Ave) — confirmed open. The
+    restaurant's own site (winnipegsunshine.com), an active Facebook page, and
+    a Yellow Pages listing all show it active with posted hours.
+  - `last_verified` set to 2026-08-30 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses (including the existing link to
+    winnipegsunshine.com), so no page corrections were needed.
+- **New post:** `blog-winnipeg-steakhouses-bbq.html` — "Steakhouses and
+  barbecue in Winnipeg". A city-wide, non-Corydon-anchored guide (the last
+  four published posts were also all city-wide, keeping the topic-breadth
+  ratio well under the one-in-four cap) covering Winnipeg's classic
+  steakhouses (Rae & Jerry's, open since 1957; Hy's Steakhouse), a newer
+  generation (529 Wellington's converted mansion, Chop Steakhouse, The Keg),
+  and barbecue/smokehouse spots (Danny's Whole Hog BBQ & Smokehouse, Smokin'
+  Hawg BBQ, Carnaval Brazilian BBQ's rodizio format). All businesses named
+  were confirmed by web search before writing, corroborated across multiple
+  listings (Yelp, Tripadvisor, OpenTable, and restaurants' own sites); no
+  specific hours or prices were stated. The queue's first item,
+  manitoba-museum-planetarium-guide, was skipped again for the usual reason
+  (no local photo, manitobamuseum.ca and images.unsplash.com still
+  unreachable from this sandbox). The next eleven items were skipped for the
+  same lack-of-photo reason. winnipeg-with-kids-indoor, next in the queue,
+  was checked against a candidate local photo (images/family-activities.jpg,
+  a generic close-up of a child, and images/guidebook-winnipeg-37-the-leaf.jpg,
+  a real interior photo of The Leaf at Assiniboine Park) but was skipped
+  regardless: `articles-data.js` shows the topic is already substantially
+  covered by three existing pages (`blog-family-activities.html`,
+  `blog-assiniboine-park-zoo-leaf-guide.html`, and
+  `blog-rainy-day-winnipeg-itinerary.html`, the last of which is explicitly an
+  indoor/rainy-day attractions guide), so a new post would be a near-duplicate
+  rather than filling a real gap. winnipeg-steakhouses-bbq was picked next
+  because no existing post covers steakhouses or barbecue, and
+  `images/restaurant-dining.jpg`, an upscale dining-room photo, fits the
+  subject; it was already in use on three other restaurant-topic posts
+  (`blog-winnipeg-vietnamese-pho-guide.html`,
+  `blog-winnipeg-ramen-japanese-guide.html`, `blog-restaurants.html`), so this
+  is its fourth reuse, slightly beyond the 2-3-times pattern noted in prior
+  runs, accepted here for lack of a closer local alternative (no photo of an
+  actual steak or smoker exists in `images/`). Registered in
+  `articles-data.js` and `sitemap.xml`, and moved from Queue to Used in
+  `post-ideas.md`.
+
+---
+
 ## 2026-08-29 (cron)
 
 - **Housekeeping:** Local `main` was again on a detached HEAD, 6 commits behind
