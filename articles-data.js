@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-spring-river-thaw.html",
+    "category": "winnipeg",
+    "date": "2026-09-01",
+    "title": "Winnipeg in spring: river thaw, patios, and what opens when",
+    "image": "https://staywinnipeg.ca/images/forks-river.jpg",
+    "imageAlt": "The Red and Assiniboine Rivers meeting at The Forks in Winnipeg",
+    "description": "A practical guide to spring in Winnipeg: when the rivers break up, why flood watches happen, and when patios and outdoor life actually get going.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 1, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-steakhouses-bbq.html",
     "category": "winnipeg",
     "date": "2026-08-30",

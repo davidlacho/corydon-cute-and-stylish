@@ -7,6 +7,66 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-01 (cron)
+
+- **Housekeeping:** Local `main` was again on a detached HEAD, matching
+  `origin/main` at commit `6ed4930` (the 2026-08-30 run). Checked out and
+  fast-forwarded `main` to `origin/main` before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-08-26:
+  - Sushi Ya (659 Corydon Ave) — confirmed open. Yelp (14 reviews, updated
+    May 2026), a Yellow Pages listing with posted hours, DoorDash, and
+    SkipTheDishes all show it active at this address.
+  - The Cheesemongers Fromagerie (839 Corydon Ave) — confirmed open. The
+    shop's own site (thecheesemongers.ca), a Tourism Winnipeg listing with
+    posted hours (Tue-Sat, 10am-6pm), and an active Instagram account all
+    show it active.
+  - The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave) — confirmed open.
+    The business's own site (themightykiwi.ca), a Tourism Winnipeg listing,
+    DoorDash, and Yelp all show it active at this address.
+  - The Roost (651 Corydon Ave) — confirmed open. The bar's own site
+    (theroostwpg.com), an active Facebook page, Yelp (19 reviews, updated
+    February 2026), and a Tourism Winnipeg listing with posted hours all
+    show it active.
+  - `last_verified` set to 2026-09-01 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-spring-river-thaw.html` — "Winnipeg in
+  spring: river thaw, patios, and what opens when". A city-wide,
+  non-Corydon-anchored guide (the last four published posts were also all
+  city-wide, keeping the topic-breadth ratio well under the one-in-four cap)
+  covering when the Red and Assiniboine rivers typically break up, why Red
+  River Valley flood watches are a routine spring occurrence rather than an
+  alarm, and when patios and outdoor life actually start relative to the
+  City of Winnipeg's official April 1 patio-permit window. The queue's first
+  eleven items (manitoba-museum-planetarium-guide, winnipeg-filipino-food-guide,
+  grand-beach-day-trip, winnipeg-live-music-venues,
+  manitoba-legislative-building-tour, winnipeg-thrift-vintage-shopping,
+  winnipeg-performing-arts-season, royal-aviation-museum-guide,
+  winnipeg-fall-colours, winnipeg-bookstores-record-shops,
+  winnipeg-indian-south-asian-food, oak-hammock-marsh-birding) were skipped
+  again for lack of a fitting local photo; `images.unsplash.com` and
+  `manitobamuseum.ca` remain unreachable from this sandbox (confirmed again
+  via curl through the agent proxy, both returning a 403 at the CONNECT
+  stage). winnipeg-thrift-vintage-shopping was additionally skipped because
+  the 2026-08-29 post already used "shopping" as its intent three days
+  earlier, inside the one-week no-repeat-intent window. winnipeg-with-kids-indoor
+  was skipped again as a near-duplicate of existing indoor/family-attraction
+  coverage. winnipeg-spring-river-thaw was invented per the playbook (the
+  queue's fitting items were all exhausted for lack of a photo) because
+  `images/forks-river.jpg`, a real photo of the Red and Assiniboine Rivers
+  meeting at The Forks, fits a river-thaw topic directly, and no existing
+  post covers spring river-breakup timing specifically. Ice-breakup timing
+  and flood-watch facts were confirmed by web search against Manitoba
+  government flood-outlook news releases and CBC News coverage; patio-season
+  dates were confirmed against the City of Winnipeg's seasonal patio permit
+  program page. No specific year's crest levels, closures, or business hours
+  were stated, only general seasonal timing. Registered in
+  `articles-data.js` and `sitemap.xml`, and moved into "Used" in
+  `post-ideas.md`.
+
+---
+
 ## 2026-08-30 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
