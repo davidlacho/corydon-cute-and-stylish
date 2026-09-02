@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-fall-colours.html",
+    "category": "winnipeg",
+    "date": "2026-09-02",
+    "title": "Where to see fall colours in and around Winnipeg",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-42-assiniboine-park.jpg",
+    "imageAlt": "Fall foliage turning gold around the pond in Assiniboine Park's English Garden",
+    "description": "A guide to Winnipeg's brief but vivid fall colour season: when it turns, and where to see it, from the elm canopy of Kildonan Park to the Bois-des-Esprits forest.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 2, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-spring-river-thaw.html",
     "category": "winnipeg",
     "date": "2026-09-01",

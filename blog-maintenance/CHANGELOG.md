@@ -7,6 +7,66 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-02 (cron)
+
+- **Housekeeping:** Local `main` was again on a detached HEAD at commit
+  `dd23db8` (the 2026-09-01 run), matching `origin/main`. Checked out and
+  reset `main` to `origin/main` before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-08-27:
+  - Thom Bargen Coffee Roasters (743 Corydon Ave) — confirmed open. The
+    location's own listing (th3rdwave.coffee/thom-bargen-corydon,
+    cafe-work.com), corner.inc, and Wanderlog all show it active at this
+    Corydon address with posted hours.
+  - Tim Horton's (949 Corydon Ave) — confirmed open. The official Tim
+    Hortons store locator, Uber Eats, Yellow Pages, and a June 2025-dated
+    Yelp listing all show it active at this address.
+  - Tommy's Pizzeria (842 Corydon Ave) — confirmed open. The restaurant's
+    own site (tommys.pizza), Tourism Winnipeg, a Facebook page, and
+    SkipTheDishes/Toast ordering pages all show it active.
+  - Wako Sushi Café (875 Corydon Ave) — confirmed open. The restaurant's own
+    site (wakosushiwpg.com), a July 2026-dated Yelp listing, DoorDash, and a
+    Yellow Pages listing with posted hours all show it active.
+  - `last_verified` set to 2026-09-02 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-fall-colours.html` — "Where to see fall
+  colours in and around Winnipeg". A city-wide, non-Corydon-anchored guide
+  (the last four published posts were also all city-wide, keeping the
+  topic-breadth ratio well under the one-in-four cap) covering when
+  Winnipeg's short fall colour season typically runs, the city's roughly
+  160,000-elm urban forest (the largest mature elm population left in
+  North America) and the toll Dutch elm disease continues to take on it,
+  Kildonan Park's elm-and-ash canopy, Assiniboine Park's English Garden,
+  the Bois-des-Esprits riverbank forest along the Seine River in St. Vital,
+  and the elm-lined streets of River Heights, Wolseley, and Crescentwood
+  including Wellington Crescent. The queue's first eight items
+  (manitoba-museum-planetarium-guide, winnipeg-filipino-food-guide,
+  grand-beach-day-trip, winnipeg-live-music-venues,
+  manitoba-legislative-building-tour, winnipeg-thrift-vintage-shopping,
+  winnipeg-performing-arts-season, royal-aviation-museum-guide) were
+  skipped again for lack of a fitting local photo; images.unsplash.com
+  remains unreachable from this sandbox (confirmed again via curl through
+  the agent proxy, returning a 403 at the CONNECT stage). winnipeg-fall-colours
+  was picked next, both because it was seasonally timely for early
+  September and because images/guidebook-winnipeg-42-assiniboine-park.jpg,
+  a real photo of Assiniboine Park's English Garden with leaves visibly
+  turning gold, fits the topic directly; that image is already used on
+  blog-winnipeg-free-things-to-do.html, consistent with the site's existing
+  practice of reusing strong local photos across posts (e.g.
+  images/restaurant-dining.jpg, images/assiniboine-park.jpg). No existing
+  post previously covered fall foliage specifically. All facts (the elm
+  population figures, Dutch elm disease impact, Kildonan Park and
+  Bois-des-Esprits details, Wellington Crescent's elm canopy) were
+  confirmed by web search against Tourism Winnipeg, Global News, CBC News,
+  and CPAWS Manitoba/Winnipeg Trails Association sources before writing;
+  only general seasonal timing (mid-September into early October) was
+  stated, with no specific year's peak-colour date claimed. Registered in
+  `articles-data.js` and `sitemap.xml`, and moved into "Used" in
+  `post-ideas.md`.
+
+---
+
 ## 2026-09-01 (cron)
 
 - **Housekeeping:** Local `main` was again on a detached HEAD, matching
