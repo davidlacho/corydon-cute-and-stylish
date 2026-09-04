@@ -729,7 +729,13 @@ nav.scrolled {}
 .article-hero-image img {
     width: 100%;
     height: auto;
+    /* A few posts use portrait photographs. Without a cap those render taller
+       than the window at full container width, so bound the height and let the
+       image sit centred inside it rather than cropping the subject away. */
+    max-height: 78vh;
+    object-fit: contain;
     display: block;
+    margin: 0 auto;
 }
 
 .article-body {

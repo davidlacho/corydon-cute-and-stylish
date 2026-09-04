@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-accessible-attractions.html",
+    "category": "winnipeg",
+    "date": "2026-09-04",
+    "title": "Accessible attractions and step-free days out in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-38-canadian-museum-for-human-rights.jpg",
+    "imageAlt": "The Canadian Museum for Human Rights rising behind the WINNIPEG sign at The Forks",
+    "description": "A guide to Winnipeg's most accessible attractions: the ramps that replace stairs at the Canadian Museum for Human Rights, mobility devices to borrow at WAG-Qaumajuq and the zoo, and how to get around on low-floor transit.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>September 4, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-fall-colours.html",
     "category": "winnipeg",
     "date": "2026-09-02",

@@ -7,6 +7,59 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-04 (manual catch-up for the missed 2026-09-03 run)
+
+Run by hand, not by the cron. **The 2026-09-03 scheduled run failed and did no
+work at all:** it was rejected at startup on a five-hour account usage limit
+("You've hit your session limit, resets 10:30am UTC"), fired at 10:11:43 UTC
+and finished 16 seconds later having consumed zero tokens. Nothing was
+published, no businesses were verified, and no changelog entry was written for
+that date. The Routine itself was never paused or misconfigured; it remains
+enabled on `0 10 * * *`. This run covers that missed slot.
+
+- **Businesses verified:** 4 of 20 (rotation batch, all tied for stalest at
+  2026-08-28). Passero Restaurant (774 Corydon Ave), Forgotten Flavours (858
+  Corydon Ave), Colosseo Ristorante Italiano (670 Corydon Ave), and Bar Italia
+  (737 Corydon Ave). All four confirmed open: Passero has a live booking page
+  and a current Tripadvisor listing; Forgotten Flavours has an active site,
+  Tourism Winnipeg listing and Instagram; Colosseo's own site is live and its
+  Yelp listing was updated July 2026; Bar Italia's Yelp listing was updated
+  January 2026 and it carries current Tourism Winnipeg nightlife and patio
+  listings. No closures, moves, or renames; no corrections needed on
+  `blog-corydon-guide.html`.
+- **New post published:** `blog-winnipeg-accessible-attractions.html`, "Accessible
+  attractions and step-free days out in Winnipeg", taken from the queue. Covers
+  the Canadian Museum for Human Rights (ramped galleries, loanable mobility
+  devices, Braille and tactile maps, descriptive audio, captioning, ASL on
+  screen, Aira support), WAG-Qaumajuq (accessible galleries, wheelchairs at the
+  desk, universal washrooms, adaptable tours, the Art to Inspire program),
+  The Forks (the Wall of Time ramp route to the river trail, accessible water
+  buses), Assiniboine Park and The Leaf (paved paths, zoo device rentals, and
+  the caveat that the outdoor Gardens at The Leaf are paving stones and compact
+  gravel), and getting around on Winnipeg Transit's roughly 640 low-floor
+  kneeling buses plus Transit Plus. Sourced from humanrights.ca, wag.ca,
+  assiniboinepark.ca, theforks.com, Winnipeg Transit and Tourism Winnipeg. No
+  hours or prices stated, and the post tells readers to confirm with each venue.
+- **Image:** the existing local photo
+  `guidebook-winnipeg-38-canadian-museum-for-human-rights.jpg`. Checked as a
+  close-up of a single landmark rather than a skyline, so it passes the image
+  guardrail. Also checked and rejected
+  `guidebook-winnipeg-34-cargo-bar.jpg` as a candidate for
+  winnipeg-live-music-venues: despite its filename it shows an outdoor park
+  patio beside a pond, not a music venue.
+- **Template fix:** four existing posts already used portrait hero photographs,
+  which rendered taller than the window because `.article-hero-image img` was
+  `width: 100%; height: auto` with no cap. Added `max-height: 78vh` with
+  `object-fit: contain`, so tall images are bounded and centred rather than
+  stretched or cropped. Landscape heroes are unaffected.
+- **Notes:** the regular cron is still scheduled and due at about 10:08 UTC
+  today, so it will publish a second post for 2026-09-04. That is the intended
+  catch-up: one post making up 2026-09-03 and one for today. The next rotation
+  batch is Peking Chinese Food Ltd., Cafe 22, Saffron's Restaurant and Santa
+  Lucia Pizza, all dated 2026-08-29.
+
+---
+
 ## 2026-09-02 (cron)
 
 - **Housekeeping:** Local `main` was again on a detached HEAD at commit
