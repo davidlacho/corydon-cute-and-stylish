@@ -329,10 +329,18 @@ p {
     margin-bottom: 2rem;
 }
 
-.noscript-info h3 {
+.noscript-info h2 {
     color: var(--teal);
     margin-top: 0;
     font-size: 1.25rem;
+}
+
+/* Callout headings are promoted to h2 to keep the document outline gap-free;
+   keep them visually sized as the section-level callouts they are. */
+.budget-box h2 {
+    font-size: 1.3rem;
+    margin-top: 2.25rem;
+    margin-bottom: 0.75rem;
 }
 
 .noscript-links {

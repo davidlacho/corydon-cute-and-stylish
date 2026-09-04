@@ -3,6 +3,136 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-fall-colours.html",
+    "category": "winnipeg",
+    "date": "2026-09-02",
+    "title": "Where to see fall colours in and around Winnipeg",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-42-assiniboine-park.jpg",
+    "imageAlt": "Fall foliage turning gold around the pond in Assiniboine Park's English Garden",
+    "description": "A guide to Winnipeg's brief but vivid fall colour season: when it turns, and where to see it, from the elm canopy of Kildonan Park to the Bois-des-Esprits forest.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 2, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-spring-river-thaw.html",
+    "category": "winnipeg",
+    "date": "2026-09-01",
+    "title": "Winnipeg in spring: river thaw, patios, and what opens when",
+    "image": "https://staywinnipeg.ca/images/forks-river.jpg",
+    "imageAlt": "The Red and Assiniboine Rivers meeting at The Forks in Winnipeg",
+    "description": "A practical guide to spring in Winnipeg: when the rivers break up, why flood watches happen, and when patios and outdoor life actually get going.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 1, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-steakhouses-bbq.html",
+    "category": "winnipeg",
+    "date": "2026-08-30",
+    "title": "Steakhouses and barbecue in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
+    "imageAlt": "An upscale restaurant dining room set with wine glasses and leather booths",
+    "description": "A guide to Winnipeg's steakhouses and barbecue spots, from a dining room open since 1957 to smokehouse ribs and Brazilian rodizio.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>August 30, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-shopping-districts.html",
+    "category": "winnipeg",
+    "date": "2026-08-29",
+    "title": "Where to shop in Winnipeg, district by district",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-46-exchange-district.jpg",
+    "imageAlt": "A heritage warehouse storefront with a bronze horse statue in Winnipeg's Exchange District",
+    "description": "A district-by-district guide to shopping in Winnipeg: the Exchange District, Osborne Village, Academy Road, downtown, and the city's big malls.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>August 29, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-north-end-history-food.html",
+    "category": "winnipeg",
+    "date": "2026-08-28",
+    "title": "The North End: history, bakeries, and delis",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-blog-gunns-bakery.jpg",
+    "imageAlt": "A sliced loaf of North End-style bread on a wooden board",
+    "description": "A guide to Winnipeg's North End: the immigrant history behind Selkirk Avenue, Gunn's Bakery since 1937, and the Ross House Museum.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>August 28, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-airport-arrival-guide.html",
+    "category": "winnipeg",
+    "date": "2026-08-27",
+    "title": "Landing at YWG: getting from the airport into Winnipeg",
+    "image": "https://staywinnipeg.ca/images/airport-terminal.jpg",
+    "imageAlt": "A view of an airplane wing above the clouds during descent",
+    "description": "A practical guide to Winnipeg's airport: how far YWG is from downtown, taxi and rideshare pickup, Winnipeg Transit's airport routes, and on-site car rental.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>August 27, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-perogies-ukrainian-food.html",
+    "category": "winnipeg",
+    "date": "2026-08-26",
+    "title": "Perogies, holubtsi, and Winnipeg's Ukrainian food scene",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-10-luda-s-deli.jpg",
+    "imageAlt": "The wood-panelled dining room at Luda's Deli, a longtime North End Winnipeg diner",
+    "description": "A guide to Winnipeg's Ukrainian food scene: Luda's Deli in the North End, the long history of Alycia's, and the cultural landmarks behind the cooking.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>August 26, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-cycling-routes.html",
+    "category": "winnipeg",
+    "date": "2026-08-24",
+    "title": "Cycling Winnipeg: the routes and trails worth riding",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-51-plain-bicycle-bicycle-garden.jpg",
+    "imageAlt": "The storefront of Bicycle Garden, a Plain Bicycle rental and repair shop in Winnipeg",
+    "description": "A guide to cycling in Winnipeg: the Assiniboine River Trail, the Awasisak Mēskanow Greenway, the Harte Trail, and where to rent a bike in the city.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>August 24, 2026</span>"
+  },
+  {
+    "url": "/blog-wolseley-neighbourhood-guide.html",
+    "category": "winnipeg",
+    "date": "2026-08-23",
+    "title": "Wolseley: a guide to Winnipeg's leafiest neighbourhood",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-44-wolseley.jpg",
+    "imageAlt": "A tree-lined street of character homes in Wolseley, Winnipeg",
+    "description": "A guide to Wolseley, Winnipeg's leafiest neighbourhood: century-old character homes, the Assiniboine River pathway, the Wolseley Elm's history, and what makes the area worth a walk.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>August 23, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-ramen-japanese-guide.html",
+    "category": "winnipeg",
+    "date": "2026-08-22",
+    "title": "Where to eat ramen and Japanese food in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
+    "imageAlt": "The dining room of a Winnipeg restaurant",
+    "description": "Where to eat ramen and Japanese food in Winnipeg: tonkotsu ramen counters, izakaya small plates, and sushi spots from Pembina Highway to Corydon Avenue.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>August 22, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-free-things-to-do.html",
+    "category": "winnipeg",
+    "date": "2026-08-21",
+    "title": "20 free things to do in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-42-assiniboine-park.jpg",
+    "imageAlt": "A path through Assiniboine Park in Winnipeg",
+    "description": "20 free things to do in Winnipeg: parks, murals, museums with free admission days, markets, and river trails that cost nothing to visit.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>8 min read</span>\n                                <span>August 21, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-48-hour-itinerary.html",
+    "category": "winnipeg",
+    "date": "2026-08-20",
+    "title": "Winnipeg in 48 hours: a first-timer's itinerary",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-39-the-forks.jpg",
+    "imageAlt": "The Forks Market and riverfront in Winnipeg",
+    "description": "A first-timer's 48-hour Winnipeg itinerary: The Forks, the Exchange District, a Corydon or Osborne Village evening, and a museum or park for day two.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>7 min read</span>\n                                <span>August 20, 2026</span>"
+  },
+  {
+    "url": "/blog-st-boniface-walking-guide.html",
+    "category": "winnipeg",
+    "date": "2026-08-19",
+    "title": "A walking guide to St. Boniface, Winnipeg's French Quarter",
+    "image": "https://staywinnipeg.ca/images/forks-river.jpg",
+    "imageAlt": "The Red River in Winnipeg, the water St. Boniface's French Quarter walk follows",
+    "description": "A self-guided walking route through St. Boniface, Winnipeg's French Quarter: the cathedral ruins, Louis Riel's grave, Esplanade Riel, and Provencher Boulevard.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>August 19, 2026</span>"
+  },
+  {
     "url": "/blog-grove-pub-near-corydon-airbnb.html",
     "category": "winnipeg",
     "date": "2026-08-18",
@@ -519,7 +649,7 @@ const ARTICLES_DATA = [
     "title": "Stay Winnipeg: Your Crescentwood Airbnb Guide",
     "image": "images/2025-10-09-5-Ruskin-Row-00001.jpg",
     "imageAlt": "Mid-century modern Airbnb in Crescentwood, Winnipeg",
-    "description": "A top-rated mid-century Airbnb in Crescentwood. Mid-century modern 3-bedroom home in historic Crescentwood with 110 guest reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
+    "description": "A top-rated mid-century Airbnb in Crescentwood. Mid-century modern 3-bedroom home in historic Crescentwood with 115 guest reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
     "metaHtml": "<span>Winnipeg Accommodations</span>\n                                <span>10 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {

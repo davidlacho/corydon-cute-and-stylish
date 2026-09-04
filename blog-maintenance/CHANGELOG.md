@@ -7,6 +7,644 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-02 (cron)
+
+- **Housekeeping:** Local `main` was again on a detached HEAD at commit
+  `dd23db8` (the 2026-09-01 run), matching `origin/main`. Checked out and
+  reset `main` to `origin/main` before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-08-27:
+  - Thom Bargen Coffee Roasters (743 Corydon Ave) — confirmed open. The
+    location's own listing (th3rdwave.coffee/thom-bargen-corydon,
+    cafe-work.com), corner.inc, and Wanderlog all show it active at this
+    Corydon address with posted hours.
+  - Tim Horton's (949 Corydon Ave) — confirmed open. The official Tim
+    Hortons store locator, Uber Eats, Yellow Pages, and a June 2025-dated
+    Yelp listing all show it active at this address.
+  - Tommy's Pizzeria (842 Corydon Ave) — confirmed open. The restaurant's
+    own site (tommys.pizza), Tourism Winnipeg, a Facebook page, and
+    SkipTheDishes/Toast ordering pages all show it active.
+  - Wako Sushi Café (875 Corydon Ave) — confirmed open. The restaurant's own
+    site (wakosushiwpg.com), a July 2026-dated Yelp listing, DoorDash, and a
+    Yellow Pages listing with posted hours all show it active.
+  - `last_verified` set to 2026-09-02 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-fall-colours.html` — "Where to see fall
+  colours in and around Winnipeg". A city-wide, non-Corydon-anchored guide
+  (the last four published posts were also all city-wide, keeping the
+  topic-breadth ratio well under the one-in-four cap) covering when
+  Winnipeg's short fall colour season typically runs, the city's roughly
+  160,000-elm urban forest (the largest mature elm population left in
+  North America) and the toll Dutch elm disease continues to take on it,
+  Kildonan Park's elm-and-ash canopy, Assiniboine Park's English Garden,
+  the Bois-des-Esprits riverbank forest along the Seine River in St. Vital,
+  and the elm-lined streets of River Heights, Wolseley, and Crescentwood
+  including Wellington Crescent. The queue's first eight items
+  (manitoba-museum-planetarium-guide, winnipeg-filipino-food-guide,
+  grand-beach-day-trip, winnipeg-live-music-venues,
+  manitoba-legislative-building-tour, winnipeg-thrift-vintage-shopping,
+  winnipeg-performing-arts-season, royal-aviation-museum-guide) were
+  skipped again for lack of a fitting local photo; images.unsplash.com
+  remains unreachable from this sandbox (confirmed again via curl through
+  the agent proxy, returning a 403 at the CONNECT stage). winnipeg-fall-colours
+  was picked next, both because it was seasonally timely for early
+  September and because images/guidebook-winnipeg-42-assiniboine-park.jpg,
+  a real photo of Assiniboine Park's English Garden with leaves visibly
+  turning gold, fits the topic directly; that image is already used on
+  blog-winnipeg-free-things-to-do.html, consistent with the site's existing
+  practice of reusing strong local photos across posts (e.g.
+  images/restaurant-dining.jpg, images/assiniboine-park.jpg). No existing
+  post previously covered fall foliage specifically. All facts (the elm
+  population figures, Dutch elm disease impact, Kildonan Park and
+  Bois-des-Esprits details, Wellington Crescent's elm canopy) were
+  confirmed by web search against Tourism Winnipeg, Global News, CBC News,
+  and CPAWS Manitoba/Winnipeg Trails Association sources before writing;
+  only general seasonal timing (mid-September into early October) was
+  stated, with no specific year's peak-colour date claimed. Registered in
+  `articles-data.js` and `sitemap.xml`, and moved into "Used" in
+  `post-ideas.md`.
+
+---
+
+## 2026-09-01 (cron)
+
+- **Housekeeping:** Local `main` was again on a detached HEAD, matching
+  `origin/main` at commit `6ed4930` (the 2026-08-30 run). Checked out and
+  fast-forwarded `main` to `origin/main` before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-08-26:
+  - Sushi Ya (659 Corydon Ave) — confirmed open. Yelp (14 reviews, updated
+    May 2026), a Yellow Pages listing with posted hours, DoorDash, and
+    SkipTheDishes all show it active at this address.
+  - The Cheesemongers Fromagerie (839 Corydon Ave) — confirmed open. The
+    shop's own site (thecheesemongers.ca), a Tourism Winnipeg listing with
+    posted hours (Tue-Sat, 10am-6pm), and an active Instagram account all
+    show it active.
+  - The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave) — confirmed open.
+    The business's own site (themightykiwi.ca), a Tourism Winnipeg listing,
+    DoorDash, and Yelp all show it active at this address.
+  - The Roost (651 Corydon Ave) — confirmed open. The bar's own site
+    (theroostwpg.com), an active Facebook page, Yelp (19 reviews, updated
+    February 2026), and a Tourism Winnipeg listing with posted hours all
+    show it active.
+  - `last_verified` set to 2026-09-01 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-spring-river-thaw.html` — "Winnipeg in
+  spring: river thaw, patios, and what opens when". A city-wide,
+  non-Corydon-anchored guide (the last four published posts were also all
+  city-wide, keeping the topic-breadth ratio well under the one-in-four cap)
+  covering when the Red and Assiniboine rivers typically break up, why Red
+  River Valley flood watches are a routine spring occurrence rather than an
+  alarm, and when patios and outdoor life actually start relative to the
+  City of Winnipeg's official April 1 patio-permit window. The queue's first
+  eleven items (manitoba-museum-planetarium-guide, winnipeg-filipino-food-guide,
+  grand-beach-day-trip, winnipeg-live-music-venues,
+  manitoba-legislative-building-tour, winnipeg-thrift-vintage-shopping,
+  winnipeg-performing-arts-season, royal-aviation-museum-guide,
+  winnipeg-fall-colours, winnipeg-bookstores-record-shops,
+  winnipeg-indian-south-asian-food, oak-hammock-marsh-birding) were skipped
+  again for lack of a fitting local photo; `images.unsplash.com` and
+  `manitobamuseum.ca` remain unreachable from this sandbox (confirmed again
+  via curl through the agent proxy, both returning a 403 at the CONNECT
+  stage). winnipeg-thrift-vintage-shopping was additionally skipped because
+  the 2026-08-29 post already used "shopping" as its intent three days
+  earlier, inside the one-week no-repeat-intent window. winnipeg-with-kids-indoor
+  was skipped again as a near-duplicate of existing indoor/family-attraction
+  coverage. winnipeg-spring-river-thaw was invented per the playbook (the
+  queue's fitting items were all exhausted for lack of a photo) because
+  `images/forks-river.jpg`, a real photo of the Red and Assiniboine Rivers
+  meeting at The Forks, fits a river-thaw topic directly, and no existing
+  post covers spring river-breakup timing specifically. Ice-breakup timing
+  and flood-watch facts were confirmed by web search against Manitoba
+  government flood-outlook news releases and CBC News coverage; patio-season
+  dates were confirmed against the City of Winnipeg's seasonal patio permit
+  program page. No specific year's crest levels, closures, or business hours
+  were stated, only general seasonal timing. Registered in
+  `articles-data.js` and `sitemap.xml`, and moved into "Used" in
+  `post-ideas.md`.
+
+---
+
+## 2026-08-30 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-24:
+  - Saperavi Georgian Cuisine (709 Corydon Ave) — confirmed open. Tourism
+    Winnipeg, the restaurant's own site (saperavi.ca), a June 2026-dated Yelp
+    listing, and an active Instagram account all show it active with posted
+    hours (Tue-Sun, closed Mondays).
+  - Starbucks (946 Corydon Ave) — confirmed open. The Starbucks careers page
+    lists this address as store #68102 (Corydon & Stafford), corroborated by
+    UberEats, DoorDash, and a Yellow Pages listing with posted hours.
+  - Sugar + Salt Bakeshoppe (897 Corydon Ave, Unit 103) — confirmed open.
+    The bakery's own site (sugarandsaltbakeshoppe.com), Tourism Winnipeg, and
+    a Chamber of Commerce directory listing all show it active with posted
+    hours.
+  - Sunshine Chinese Restaurant (635 Corydon Ave) — confirmed open. The
+    restaurant's own site (winnipegsunshine.com), an active Facebook page, and
+    a Yellow Pages listing all show it active with posted hours.
+  - `last_verified` set to 2026-08-30 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses (including the existing link to
+    winnipegsunshine.com), so no page corrections were needed.
+- **New post:** `blog-winnipeg-steakhouses-bbq.html` — "Steakhouses and
+  barbecue in Winnipeg". A city-wide, non-Corydon-anchored guide (the last
+  four published posts were also all city-wide, keeping the topic-breadth
+  ratio well under the one-in-four cap) covering Winnipeg's classic
+  steakhouses (Rae & Jerry's, open since 1957; Hy's Steakhouse), a newer
+  generation (529 Wellington's converted mansion, Chop Steakhouse, The Keg),
+  and barbecue/smokehouse spots (Danny's Whole Hog BBQ & Smokehouse, Smokin'
+  Hawg BBQ, Carnaval Brazilian BBQ's rodizio format). All businesses named
+  were confirmed by web search before writing, corroborated across multiple
+  listings (Yelp, Tripadvisor, OpenTable, and restaurants' own sites); no
+  specific hours or prices were stated. The queue's first item,
+  manitoba-museum-planetarium-guide, was skipped again for the usual reason
+  (no local photo, manitobamuseum.ca and images.unsplash.com still
+  unreachable from this sandbox). The next eleven items were skipped for the
+  same lack-of-photo reason. winnipeg-with-kids-indoor, next in the queue,
+  was checked against a candidate local photo (images/family-activities.jpg,
+  a generic close-up of a child, and images/guidebook-winnipeg-37-the-leaf.jpg,
+  a real interior photo of The Leaf at Assiniboine Park) but was skipped
+  regardless: `articles-data.js` shows the topic is already substantially
+  covered by three existing pages (`blog-family-activities.html`,
+  `blog-assiniboine-park-zoo-leaf-guide.html`, and
+  `blog-rainy-day-winnipeg-itinerary.html`, the last of which is explicitly an
+  indoor/rainy-day attractions guide), so a new post would be a near-duplicate
+  rather than filling a real gap. winnipeg-steakhouses-bbq was picked next
+  because no existing post covers steakhouses or barbecue, and
+  `images/restaurant-dining.jpg`, an upscale dining-room photo, fits the
+  subject; it was already in use on three other restaurant-topic posts
+  (`blog-winnipeg-vietnamese-pho-guide.html`,
+  `blog-winnipeg-ramen-japanese-guide.html`, `blog-restaurants.html`), so this
+  is its fourth reuse, slightly beyond the 2-3-times pattern noted in prior
+  runs, accepted here for lack of a closer local alternative (no photo of an
+  actual steak or smoker exists in `images/`). Registered in
+  `articles-data.js` and `sitemap.xml`, and moved from Queue to Used in
+  `post-ideas.md`.
+
+---
+
+## 2026-08-29 (cron)
+
+- **Housekeeping:** Local `main` was again on a detached HEAD, 6 commits behind
+  `origin/main` (the 2026-08-23 through 2026-08-28 runs were not reflected on
+  the local branch ref, the same recurring pattern as prior runs). Fetched and
+  fast-forwarded `main` to `origin/main` before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-23:
+  - Peking Chinese Food Ltd. (840 Corydon Ave) — confirmed open. The
+    restaurant's own site (pekingwpg.com), a July 2026-dated Yelp listing, and
+    DoorDash all show it active with posted hours; it has operated at this
+    address since 1970.
+  - Cafe 22 (823 Corydon Ave) — confirmed open. The restaurant's own site
+    (cafe22.ca), OpenTable, and Yellow Pages all show it active with posted
+    hours.
+  - Saffron's Restaurant (681 Corydon Ave) — confirmed open. Tourism
+    Winnipeg, a July 2026-dated Yelp listing, and OpenTable all show it
+    active with posted hours.
+  - Santa Lucia Pizza (905 Corydon Ave) — confirmed open. The restaurant's own
+    site (santaluciapizza.com), Tourism Winnipeg, and Tripadvisor all show it
+    active with posted hours; it has operated in Winnipeg since 1971.
+  - `last_verified` set to 2026-08-29 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses (including the existing link to
+    santaluciapizza.ca), so no page corrections were needed.
+- **New post:** `blog-winnipeg-shopping-districts.html` — "Where to shop in
+  Winnipeg, district by district". A city-wide shopping guide (not
+  Corydon-anchored, though Corydon Avenue is covered as one of several
+  districts; the last four published posts were also city-wide, keeping the
+  topic-breadth ratio well under the one-in-four cap) covering the Exchange
+  District, Osborne Village, Academy Road, Corydon Avenue, downtown/The Forks
+  Market, and the city's three major enclosed malls (CF Polo Park, St. Vital
+  Centre, Kildonan Place). It was also picked deliberately to give the recent
+  run of posts a different intent: the 2026-08-26 and 2026-08-28 posts were
+  both food-and-history pieces, so this run intentionally moved to a shopping
+  topic instead of adding a third. Facts about each district and mall were
+  confirmed by web search before writing (Travel Manitoba and Tourism
+  Winnipeg's own shopping and neighbourhood pages); no specific hours or
+  prices were stated, since those change too often for a general guide to
+  own. The queue's first fifteen items (manitoba-museum-planetarium-guide,
+  winnipeg-filipino-food-guide, grand-beach-day-trip, winnipeg-live-music-venues,
+  manitoba-legislative-building-tour, winnipeg-thrift-vintage-shopping,
+  winnipeg-performing-arts-season, royal-aviation-museum-guide,
+  winnipeg-fall-colours, winnipeg-bookstores-record-shops,
+  winnipeg-indian-south-asian-food, oak-hammock-marsh-birding,
+  winnipeg-with-kids-indoor, winnipeg-fringe-festival-guide,
+  riding-mountain-national-park-trip) were skipped again for lack of a
+  confidently fitting local photo; `images.unsplash.com` and
+  `manitobamuseum.ca` remain unreachable from this sandbox (reconfirmed via a
+  direct `curl` through the agent proxy, both rejected with a 403 at the
+  CONNECT stage). One additional candidate was explicitly rejected rather than
+  just skipped: `guidebook-winnipeg-40-true-north-square.jpg`, considered for
+  `winnipeg-live-music-venues`, was ruled out because its main subject is a
+  cluster of downtown glass towers, which the house style guardrails forbid
+  regardless of topic fit. `winnipeg-shopping-districts` was picked because
+  `guidebook-winnipeg-46-exchange-district.jpg`, a real photo of a heritage
+  Exchange District storefront, fits it well (this image is already in use on
+  the existing Exchange District self-guided tour post, but that post covers
+  only the one neighbourhood while this one is a citywide shopping guide, so
+  the reuse was judged acceptable, consistent with other images reused
+  2-3 times elsewhere on the site). Registered in `articles-data.js` and
+  `sitemap.xml`, and moved from Queue to Used in `post-ideas.md`.
+
+---
+
+## 2026-08-28 (cron)
+
+- **Housekeeping:** Local `main` was again on a detached HEAD, 5 commits behind
+  `origin/main` (2026-08-22 through 2026-08-27 runs were not reflected on the
+  local branch ref). Checked out `main` and fast-forwarded to `origin/main`
+  before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-22:
+  - Passero Restaurant (774 Corydon Ave) — confirmed open. Tripadvisor, Yelp
+    equivalents (Yably, Wheree), and the restaurant's own site
+    (passerowinnipeg.com) all show it active; hours vary slightly between
+    sources (dinner-only vs. lunch-through-dinner), so no specific hours were
+    changed on the site.
+  - Forgotten Flavours (858 Corydon Ave) — confirmed open. The bakery's own
+    site (forgottenflavours.ca) lists this as its Winnipeg location with
+    posted hours (Tue-Sat 11am-6pm), corroborated by Tourism Winnipeg and
+    Instagram activity.
+  - Colosseo Ristorante Italiano (670 Corydon Ave) — confirmed open. Official
+    site (colosseo.ca), Tourism Winnipeg, and a Yelp listing updated July 2026
+    all show it active, operating since 1973.
+  - Bar Italia (737 Corydon Ave) — confirmed open. Tourism Winnipeg, Yelp
+    (updated January 2026), UberEats, and DoorDash all show it active.
+  - `last_verified` set to 2026-08-28 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-north-end-history-food.html` — "The North End:
+  history, bakeries, and delis". A city-wide, non-Corydon-anchored guide
+  (the last four published posts were also all city-wide, keeping the
+  topic-breadth ratio well under the one-in-four cap) covering the CPR-driven
+  immigrant settlement of the North End, Selkirk Avenue's history as its
+  commercial and multilingual heart, Gunn's Bakery (open since 1937, still
+  operating at 247 Selkirk Ave, current status and hours confirmed by web
+  search), and the seasonal Ross House Museum. KUB Bakery, historically a
+  North End institution, was deliberately not featured: it closed in 2022 and
+  web search shows its post-2022 ownership operating from other addresses
+  (Erin St / Larche Cres listings), not confirmed as a current North End
+  storefront, so it was left out rather than risk stating an unverified
+  location. Luda's Deli, already the subject of the 2026-08-26 perogies post,
+  was not re-featured to avoid duplicating that post's content. The queue's
+  first eleven items (manitoba-museum-planetarium-guide,
+  winnipeg-filipino-food-guide, grand-beach-day-trip,
+  winnipeg-live-music-venues, manitoba-legislative-building-tour,
+  winnipeg-thrift-vintage-shopping, winnipeg-performing-arts-season,
+  royal-aviation-museum-guide, winnipeg-fall-colours,
+  winnipeg-bookstores-record-shops, winnipeg-indian-south-asian-food,
+  oak-hammock-marsh-birding) were skipped again for lack of a fitting local
+  photo; `manitobamuseum.ca` and `images.unsplash.com` remain unreachable from
+  this sandbox. `winnipeg-north-end-history-food` was picked out of order
+  because `images/guidebook-winnipeg-blog-gunns-bakery.jpg`, a real,
+  previously-unused photo of North End-style baking, fits it exactly.
+  Registered in `articles-data.js` and `sitemap.xml`, and moved from Queue to
+  Used in `post-ideas.md`.
+
+---
+
+## 2026-08-27 (cron)
+
+- **Housekeeping:** Local `main` was left on a detached HEAD (matching `origin/main`'s commit already, only the `main` branch ref itself was stale, same recurring pattern as many prior runs). Checked out `main` and fast-forwarded to `origin/main` before starting — no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-21:
+  - Thom Bargen Coffee Roasters (743 Corydon Ave) — confirmed open. Corner.inc
+    and CaféWork listings, an active Facebook page with a post from within the
+    last day, and a Wheree listing updated April 2026 all show it operating
+    with posted hours (thombargen.com itself could not be reached directly
+    from this sandbox, so secondary listings and social media were used
+    instead).
+  - Tim Horton's (949 Corydon Ave) — confirmed open. The official Tim Hortons
+    store locator lists this address directly, and a Yelp listing updated June
+    2026 agrees.
+  - Tommy's Pizzeria (842 Corydon Ave) — confirmed open. Official site
+    (tommys.pizza), an active Toast online-ordering page, SkipTheDishes, and a
+    2026-dated Tripadvisor listing all show it active.
+  - Wako Sushi Café (875 Corydon Ave) — confirmed open. DoorDash, a Yelp
+    listing updated July 2026, and a 2026-dated Tripadvisor listing all show
+    it active; minor hours discrepancies between sources were noted but do not
+    affect status.
+  - `last_verified` set to 2026-08-27 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-airport-arrival-guide.html` — "Landing at YWG:
+  getting from the airport into Winnipeg". A city-wide, practical-logistics
+  guide (not Corydon-anchored; the last four published posts were also
+  city-wide, so this keeps the topic-breadth ratio well under the one-in-four
+  cap) covering taxi and rideshare pickup, Winnipeg Transit's airport service,
+  on-site rental car counters, and the airport's single, compact terminal.
+  Facts were confirmed by web search before writing: the airport's identity,
+  its rough distance/drive time from downtown (sources ranged 6-9 km /
+  15-25 minutes, so a hedged range was used rather than a single precise
+  figure), the presence of a taxi stand and Uber pickup at the airport (Lyft's
+  presence at the airport specifically was flagged as unconfirmed by one
+  source, so the post does not claim Lyft operates there), Winnipeg Transit's
+  post-redesign airport routes (D12/D13/224, confirmed via the Transit site
+  and corroborated by transitapp.com/TransSee), and the five rental agencies
+  on site. No specific taxi fare, exact distance figure, or transit
+  first/last-bus times were stated, since sources for those numbers were
+  either unofficial fare aggregators or showed conflicting values between
+  searches. This run's queue technically listed `manitoba-museum-planetarium-guide`
+  first, but that idea and several others down the queue
+  (winnipeg-filipino-food-guide, grand-beach-day-trip,
+  winnipeg-live-music-venues, manitoba-legislative-building-tour,
+  winnipeg-thrift-vintage-shopping, winnipeg-performing-arts-season,
+  royal-aviation-museum-guide, winnipeg-fall-colours,
+  winnipeg-bookstores-record-shops) were skipped for lack of a fitting local
+  photo; `manitobamuseum.ca` and `images.unsplash.com` remain unreachable from
+  this sandbox (confirmed again via the agent proxy's status log, which shows
+  both hosts rejected with a 403 at the CONNECT stage). `winnipeg-airport-arrival-guide`
+  was picked instead because `images/airport-terminal.jpg`, a real in-flight
+  photo already on the site, fits a landing/arrival topic well, and airport
+  logistics is a practical topic no existing post covers. Registered in
+  `articles-data.js` and `sitemap.xml`, and moved from Queue to Used in
+  `post-ideas.md` with a note on the substitution.
+
+---
+
+## 2026-08-26 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-20:
+  - Sushi Ya (659 Corydon Ave) — confirmed open. Yelp (updated May 2026, 14
+    reviews), Tripadvisor (4.6/5), and an active order.online ordering page
+    all show it operating with posted hours.
+  - The Cheesemongers Fromagerie (839 Corydon Ave) — confirmed open. Official
+    site (thecheesemongers.ca), Tourism Winnipeg, and a Yelp listing updated
+    July 2026 all show it active; in-store shopping is currently by
+    pre-arranged pickup or delivery only, with the shop itself still
+    operating.
+  - The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave) — confirmed open.
+    Official site (themightykiwi.ca), Tourism Winnipeg, and an active
+    order.online ordering page all show it active with posted hours.
+  - The Roost (651 Corydon Ave) — confirmed open. Official site
+    (theroostwpg.com), Tourism Winnipeg, and a Yelp listing updated February
+    2026 all show it active with posted hours.
+  - `last_verified` set to 2026-08-26 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-perogies-ukrainian-food.html` — "Perogies,
+  holubtsi, and Winnipeg's Ukrainian food scene". A city-wide, North
+  End-focused guide (not Corydon-anchored; the last four published posts
+  were also city-wide, so this keeps the topic-breadth ratio well under the
+  one-in-four cap) covering Luda's Deli (410 Aberdeen Ave) for homemade
+  perogies, kubasa, and borscht, the long history of Alycia's (opened in the
+  North End in 1971, closed in 2011, now revived at the Royal Albert Arms in
+  the Exchange District), and the Oseredok Ukrainian Cultural Centre and
+  Ukrainian Labour Temple as the cultural landmarks behind the food. All
+  business names, addresses, and historical details were confirmed by web
+  search before writing; no prices were stated, and hours were described
+  only in general terms (daytime only, cash-only, a shorter weekly schedule)
+  rather than exact posted hours, since small independent kitchens change
+  these often. This run's queue first idea, `manitoba-museum-planetarium-guide`,
+  was skipped again for the same reason as prior runs: `manitobamuseum.ca`
+  remains unreachable from this sandbox and no local photo depicts the
+  museum or planetarium. `winnipeg-perogies-ukrainian-food` was picked
+  because `images/guidebook-winnipeg-10-luda-s-deli.jpg`, a real photo of
+  the deli's dining room, fits it exactly and had not been used on any
+  other page. Registered in `articles-data.js` and `sitemap.xml`, and moved
+  from Queue to Used in `post-ideas.md`.
+
+---
+
+## 2026-08-24 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-19:
+  - Saperavi Georgian Cuisine (709 Corydon Ave) — confirmed open. Official site
+    (saperavi.ca), a Yelp listing updated May 2026 with posted hours, and an
+    active order.online ordering page all show it operating.
+  - Starbucks (946 Corydon Ave) — confirmed open. Multiple active listings
+    (Yellow Pages, DoorDash, Uber Eats, Tripadvisor) and the Starbucks careers
+    site (which lists this address as store #68102, "Corydon & Stafford") all
+    show it operating with posted hours.
+  - Sugar + Salt Bakeshoppe (897 Corydon Ave) — confirmed open. Official site
+    (sugarandsaltbakeshoppe.com), Tourism Winnipeg, and a Wheree listing
+    updated July 2026 all show it active with posted hours.
+  - Sunshine Chinese Restaurant (635 Corydon Ave) — **status changed from
+    closed to open.** The original operator's site (sunshinechinesefood.com)
+    still states "We Are Now Closed," but a separate, active site
+    (winnipegsunshine.com) and Facebook page (facebook.com/SunShine635, which
+    describes itself as "a new Chinese restaurant on Corydon Ave, Winnipeg")
+    show a new operation under the same name at the same address, with a
+    different phone number (204-615-2615) and current delivery listings on
+    DoorDash and order.online. Re-added to `blog-corydon-guide.html`'s
+    restaurant list, linked to winnipegsunshine.com.
+  - `last_verified` set to 2026-08-24 for all four in `business-ledger.json`.
+- **New post:** `blog-winnipeg-cycling-routes.html` — "Cycling Winnipeg: the
+  routes and trails worth riding". A city-wide guide (not Corydon-anchored;
+  the last four published posts were also city-wide, so this keeps the
+  topic-breadth ratio well under the one-in-four cap) covering the
+  Assiniboine River Trail, the Awasisak Mēskanow Greenway (formerly Bishop
+  Grandin Greenway), the Harte Trail, and Bicycle Garden (Plain Bicycle) on
+  Sherbrook Street as a bike rental option, with a closing note to check a
+  current trail map since surfaces and closures change seasonally. All trail
+  names, routes, and the bike shop's offerings were confirmed by web search
+  before writing; no hours or prices were stated in the post itself, since
+  rental rates and trail conditions change more often than a static page can
+  track. This run's
+  queue first idea, `manitoba-museum-planetarium-guide`, was skipped again
+  (same reason as 2026-08-23: no local photo depicts the museum/planetarium
+  and `manitobamuseum.ca` was unreachable from this sandbox), as was
+  `winnipeg-filipino-food-guide` and several other early queue items, for
+  lack of a local photo that fits the topic without misrepresenting it
+  (`images.unsplash.com` is also unreachable from this sandbox, same
+  restriction noted on prior runs). `winnipeg-cycling-routes` was picked
+  because `images/guidebook-winnipeg-51-plain-bicycle-bicycle-garden.jpg`, a
+  real photo of a Winnipeg bike shop storefront, fits it exactly. Registered
+  in `articles-data.js` and `sitemap.xml`, and moved from Queue to Used in
+  `post-ideas.md`.
+
+---
+
+## 2026-08-23 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-18:
+  - Peking Chinese Food Ltd. (840 Corydon Ave) — confirmed open. Official site
+    (pekingwpg.com), an active Yelp listing (updated July 2026) with posted
+    hours, and DoorDash ordering all show it operating; the restaurant notes
+    it has served the area since 1970.
+  - Cafe 22 (823 Corydon Ave) — confirmed open. Official site (cafe22.ca /
+    cafe22corydon.com), an OpenTable listing, and a Yelp listing updated
+    August 2026 all show it active with posted hours.
+  - Saffron's Restaurant (681 Corydon Ave) — confirmed open. Official site
+    (saffronrestaurantwinnipeg.com), a Yelp listing updated July 2026, and an
+    active online ordering page all show it operating with posted hours.
+  - Santa Lucia Pizza (905 Corydon Ave) — confirmed open. Official site
+    (santaluciapizza.com, with a page dedicated to the Corydon location),
+    Tourism Winnipeg, and Facebook all show it active with posted hours.
+  - `last_verified` set to 2026-08-23 for all four in `business-ledger.json`; no
+    status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-wolseley-neighbourhood-guide.html` — "Wolseley: a guide
+  to Winnipeg's leafiest neighbourhood". A city-wide, neighbourhood-focused
+  guide (not Corydon-anchored; the last four published posts were also
+  city-wide, so this keeps the topic-breadth ratio well under the one-in-four
+  cap) covering the character homes on Wolseley/Westminster/Palmerston
+  Avenues, the history of the Wolseley Elm (including the 1957 standoff to
+  save it and the plaque that now marks the spot at 980 Palmerston Ave), the
+  Assiniboine River pathway along the neighbourhood's southern edge, and the
+  everyday feel of the area. All historical and geographic details were
+  confirmed by web search before writing (Manitoba Historical Society's
+  "Wolseley Elm" pages and neighbourhood guides); no business hours or prices
+  were stated. This run's queue technically listed
+  `manitoba-museum-planetarium-guide` first, but no local photo depicts the
+  Manitoba Museum or Planetarium, and this run's network sandbox could not
+  reach `manitobamuseum.ca` or `images.unsplash.com` (same restriction noted
+  on 2026-08-19 and 2026-08-22) to verify a fallback image or current
+  admission details, so that idea was left in Queue for a future run and
+  `wolseley-neighbourhood-guide` (further down the same Queue) was published
+  instead, using the real local photo `images/guidebook-winnipeg-44-wolseley.jpg`.
+  Registered in `articles-data.js` and `sitemap.xml`, and moved from Queue to
+  Used in `post-ideas.md` with a note explaining the substitution.
+
+---
+
+## 2026-08-22 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-17:
+  - Passero Restaurant (774 Corydon Ave) — confirmed open. Multiple active
+    listings (Tripadvisor, Yably, Zmenu) plus the restaurant's own site
+    (passerowinnipeg.com) show it operating with posted hours.
+  - Forgotten Flavours (858 Corydon Ave) — confirmed open. Official site
+    (forgottenflavours.ca) lists the Corydon location on its locations page
+    with current hours (Tue-Sat, 11am-6pm), and Tourism Winnipeg and
+    Instagram both show it active.
+  - Colosseo Ristorante Italiano (670 Corydon Ave) — confirmed open. Official
+    site (colosseo.ca), a Yelp listing updated July 2026, and Tourism
+    Winnipeg all show it active with posted hours.
+  - Bar Italia (737 Corydon Ave) — confirmed open. Yelp (updated January
+    2026), UberEats/DoorDash ordering pages, and Tourism Winnipeg all show
+    it active.
+  - `last_verified` set to 2026-08-22 for all four in `business-ledger.json`; no
+    status changes. No closures, moves, or renames found; no page corrections
+    needed on `blog-corydon-guide.html`.
+- **New post:** `blog-winnipeg-ramen-japanese-guide.html` — "Where to eat
+  ramen and Japanese food in Winnipeg". A city-wide guide (not
+  Corydon-anchored; the last three published posts were also city-wide, so
+  this keeps the topic-breadth ratio well under the one-in-four cap) covering
+  Cho Ichi Ramen (Pembina Highway) and Yujiro Japanese Restaurant (River
+  Heights) for ramen, Gaijin Izakaya (Regent Avenue West) and Edokko Japanese
+  Food (Waterloo Street) for izakaya and sushi, and Wako Sushi Café/Sushi Ya
+  on Corydon Avenue as the neighbourhood's own sushi counters, with a closing
+  note that small independent kitchens change hours more often than chains.
+  All business names and neighbourhoods were confirmed by web search before
+  writing; no hours or prices were stated in the post itself. Registered in
+  `articles-data.js` and `sitemap.xml`, and moved from Queue to Used in
+  `post-ideas.md`. This run's network sandbox could not reach
+  `unsplash.com`/`images.unsplash.com` (same restriction noted on
+  2026-08-19), and no local photo depicts a specific ramen or Japanese dish,
+  so `images/restaurant-dining.jpg` (a real Winnipeg restaurant interior,
+  described accurately rather than mislabelled as a noodle dish) was used as
+  the hero image instead of risking a broken external link or a misleading
+  local photo. `images/pasta-dish.jpg` was considered and rejected: it is
+  already used, correctly, for a tomato-based pasta dish on
+  `blog-vegetarian-vegan-eats-corydon.html` and `blog-corydon-guide.html`,
+  and would misrepresent the dish on a ramen post.
+
+---
+
+## 2026-08-21 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-16:
+  - Thom Bargen Coffee Roasters (743 Corydon Ave) — confirmed open. Official
+    site (thombargen.com/pages/our-cafes) lists this address as an active
+    location with posted hours; multiple third-party listings (Th3rdwave,
+    CaféWork, the location's own Facebook page) agree. No permanently-closed
+    flag anywhere; a separate Thom Bargen location on Main St has closed, but
+    that does not affect this one.
+  - Tim Horton's (949 Corydon Ave) — confirmed open. Official Tim Hortons
+    store locator and a Yelp listing updated June 2026 both show it active
+    with posted hours; also live on UberEats and Tripadvisor.
+  - Tommy's Pizzeria (842 Corydon Ave) — confirmed open. Yelp listing updated
+    August 2026 shows current hours; official site and Toast ordering page
+    are live.
+  - Wako Sushi Café (875 Corydon Ave) — confirmed open. Yelp listing updated
+    July 2026 shows current hours; also live on DoorDash and UberEats.
+  - `last_verified` set to 2026-08-21 for all four in `business-ledger.json`; no
+    status changes. No closures, moves, or renames found; no page corrections
+    needed on `blog-corydon-guide.html`.
+- **New post:** `blog-winnipeg-free-things-to-do.html` — "20 free things to do
+  in Winnipeg". A city-wide listicle (not Corydon-anchored) covering free
+  parks (Assiniboine Park, The Forks riverwalk, Kildonan Park, St. Vital Park,
+  Vimy Ridge Memorial Park), public art and architecture (Exchange District,
+  murals, the Legislative Building grounds, Union Station), museum
+  free-admission days (WAG/Qaumajuq first Fridays, the Manitoba Museum's free
+  days, Millennium Library), markets and neighbourhood strolls, and seasonal
+  free events, with a closing note to confirm event/free-day dates on the
+  venue's own site since those change year to year. Registered in
+  `articles-data.js` and `sitemap.xml`, and moved from Queue to Used in
+  `post-ideas.md`. Used the previously-unused local photo
+  `images/guidebook-winnipeg-42-assiniboine-park.jpg` as the hero image (a
+  real photo of Assiniboine Park, the post's first entry).
+
+---
+
+## 2026-08-20 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-15:
+  - Sushi Ya (659 Corydon Ave) — confirmed open, active listings and current
+    ordering page (order.online), phone number consistent across sources.
+  - The Cheesemongers Fromagerie (839 Corydon Ave) — confirmed open, active
+    site (thecheesemongers.ca) with a working contact page and current Yelp
+    listing (updated July 2026).
+  - The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave) — confirmed open,
+    active site (themightykiwi.ca) with a current locations page listing the
+    Corydon address, and current DoorDash/Yelp listings.
+  - The Roost (651 Corydon Ave) — confirmed open, active site (theroostwpg.com)
+    with hours and menu, current Yelp listing (updated February 2026).
+  - `last_verified` set to 2026-08-20 for all four in `business-ledger.json`; no
+    status changes. No closures, moves, or renames found; no page corrections
+    needed on `blog-corydon-guide.html`.
+- **New post:** `blog-winnipeg-48-hour-itinerary.html` — "Winnipeg in 48 hours: a
+  first-timer's itinerary". A city-wide guide (not Corydon-anchored, per the
+  topic-breadth rule: two of the last four published posts were Corydon-anchored,
+  so this run picked a general-Winnipeg topic) covering The Forks, the Exchange
+  District, an evening choice between Osborne Village and Corydon Avenue, and a
+  day-two museum/park plus St. Boniface. Registered in `articles-data.js` and
+  `sitemap.xml`, and moved from Queue to Used in `post-ideas.md`. Used the
+  previously-unused local photo `images/guidebook-winnipeg-39-the-forks.jpg` as
+  the hero image (a real photo of The Forks Market and riverfront, the
+  itinerary's first stop).
+
+---
+
+## 2026-08-19 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all last
+  checked 2026-08-14:
+  - Saperavi Georgian Cuisine (709 Corydon Ave) — confirmed open, active site and
+    social presence, posted hours.
+  - Starbucks (946 Corydon Ave) — confirmed open, active hours and a current
+    Starbucks careers listing for this store.
+  - Sugar + Salt Bakeshoppe (897 Corydon Ave) — confirmed open, active site and
+    posted hours.
+  - Sunshine Chinese Restaurant (635 Corydon Ave) — remains closed; its own
+    website confirms a permanent closure. Already absent from
+    `blog-corydon-guide.html` from an earlier run, so no page edit was needed.
+  - `last_verified` set to 2026-08-19 for all four in `business-ledger.json`; no
+    status changes.
+- **New post:** `blog-st-boniface-walking-guide.html` — "A walking guide to St.
+  Boniface, Winnipeg's French Quarter". A city-wide guide (not Corydon-anchored)
+  covering the Esplanade Riel pedestrian bridge, the St. Boniface Cathedral
+  ruins, Louis Riel's grave, Provencher Boulevard, and the Saint-Boniface
+  Museum. Registered in `articles-data.js` and `sitemap.xml`, and moved from
+  Queue to Used in `post-ideas.md`. Used `images/forks-river.jpg` (a real
+  Red River photo already on the site) as the hero image: no local photo is
+  specific to St. Boniface, and this run's network sandbox could not reach
+  `unsplash.com` or `images.unsplash.com` to verify a working fallback URL, so
+  a verifiable local image was used instead of risking a broken Unsplash link
+  on a guest-facing page.
+
+---
+
 ## 2026-08-18 (manual, site-wide redesign)
 
 Out-of-band design pass by request; not a scheduled cron run. The site carried
