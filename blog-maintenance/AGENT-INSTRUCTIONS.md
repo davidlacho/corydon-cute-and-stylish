@@ -9,6 +9,10 @@ support with a source. When unsure, leave existing content as-is.
 
 Determine today's date with `date -u +%F` and use it wherever a run date is needed.
 
+Structural and stylistic conventions for posts live in `CLAUDE.md` at the repo
+root. Follow it for meta tags, JSON-LD, component structure, and accessibility;
+this playbook covers only the daily run itself.
+
 ## Hard content rule — never publish pet-friendly content
 
 **The property does not accept pets.** There is no pet-friendly option, and there

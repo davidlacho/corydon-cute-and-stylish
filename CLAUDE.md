@@ -1,6 +1,14 @@
-# Blog Post Structure Guide for staywinnipeg.ca
+# CLAUDE.md — staywinnipeg.ca
 
-This file documents the structure and requirements for creating blog posts on the staywinnipeg.ca website.
+Project conventions for this repository. The site is a static, hand-maintained
+HTML site deployed on push to `main` (Netlify/Cloudflare Pages).
+
+Companion document: `blog-maintenance/AGENT-INSTRUCTIONS.md` is the playbook for
+the daily automated blog-freshness run. This file is the structural and stylistic
+reference that any post must satisfy; read both before creating or editing posts.
+
+The sections below document the structure and requirements for creating blog
+posts on the staywinnipeg.ca website.
 
 ## File Naming Convention
 
