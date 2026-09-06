@@ -125,7 +125,7 @@ Registration: STRA-2025-2600298
 - Mid-century modern design
 - 3 bedrooms, 2 bathrooms
 - Located in Corydon neighborhood
-- 97 5-star reviews (115 total reviews, 4.91 average rating)
+- 107 5-star reviews (116 total reviews, 4.91 average rating)
 - Rated 4.91 out of 5; Superhost; Guest favourite; top 10% of eligible listings based on ratings, reviews, and reliability
 - Category ratings: Cleanliness 4.9; Accuracy 4.9; Check-in 5.0; Communication 5.0; Location 5.0; Value 4.9
 - Family-friendly
@@ -215,5 +215,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
-September 3, 2026
+September 6, 2026
 
