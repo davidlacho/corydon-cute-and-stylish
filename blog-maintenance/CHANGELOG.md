@@ -7,6 +7,44 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-06 (operations note — written by hand, no content published)
+
+Not a maintenance run. This block records why four dated blocks are missing
+above, so later runs reading recent entries are not puzzled by the gaps.
+
+- **Missing publication dates:** 2026-08-25, 2026-08-31, 2026-09-04 and
+  2026-09-05. The 2026-09-03 slot also failed but was covered by the manual
+  catch-up on 2026-09-04.
+- **Cause:** the Routine fired on time every one of those days and was
+  rejected at startup on the account's five-hour usage limit. The run logs
+  show the same signature each time: sandbox allocated, repository cloned,
+  Claude Code started, then `rate_limit: rejected (five_hour)` and exit
+  after 12-16 seconds having consumed nothing. Healthy runs take 4-7
+  minutes, so the duration alone distinguishes them. The Routine was never
+  paused or misconfigured.
+- **Why the budget was exhausted:** a separate Routine, "Airbnb sync
+  monitor" on `davidlacho/airbnb-automations`, ran every hour at :30, 24
+  times a day at roughly 105 seconds each. The blog run fired at 10:08 UTC,
+  33 minutes after one of them, into a window that also held four earlier
+  monitor runs plus the owner's interactive sessions.
+- **Fix applied 2026-09-06:** the monitor moved from `30 * * * *` to
+  `30 */3 * * *` (24 runs a day to 8), and this Routine moved from
+  `0 10 * * *` to `0 22 * * *`. The new window, 17:08-22:08 UTC, holds two
+  monitor runs instead of five, and 22:08 UTC is midnight in the owner's
+  timezone, when interactive usage is nil.
+- **Backfill:** deliberately not attempted beyond one run. `post-ideas.md`
+  is a queue, so no ideas were lost by the missed days; the queue simply
+  resumes. A second run on 2026-09-06 correctly refused to publish, citing
+  the one-post-per-run guardrail, since a block for the date already
+  existed. That guardrail worked as intended and was left alone.
+- **Consequence for 2026-09-06:** the day's single post was published by a
+  manually triggered run at 06:32 UTC (`winnipeg-craft-distilleries`,
+  commit `b3bd0b3`). The 22:08 scheduled run will therefore find the date
+  already recorded and publish nothing. Normal daily service resumes
+  2026-09-07 at 22:08 UTC.
+
+---
+
 ## 2026-09-06 (cron)
 
 - **Housekeeping:** local `main` was on a detached HEAD at commit `a74f6b8`
