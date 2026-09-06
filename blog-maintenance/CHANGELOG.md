@@ -7,6 +7,48 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-06 (cron, 22:08 UTC slot)
+
+This is the scheduled 22:08 UTC run anticipated by the operations note below
+(the schedule moved from `0 10 * * *` to `0 22 * * *` earlier today). As that
+note predicted, a CHANGELOG block and a registered post already existed for
+2026-09-06 (`blog-winnipeg-craft-distilleries.html`, published by the manual
+06:32 UTC run, commit `b3bd0b3`), so **no new post was published this run**,
+per the one-post-per-run guardrail and the same precedent set by the earlier
+refused run today.
+
+- **Verified 4 businesses** (the next stalest batch, `rotation_batch_size` 4),
+  all last checked 2026-08-30:
+  - Saperavi Georgian Cuisine (709 Corydon Ave) — confirmed open. Tourism
+    Winnipeg's eat-and-drink and patio listings, an active Facebook page
+    (facebook.com/saperavi.ca), Instagram (@saperavicorydon), a Yellow Pages
+    listing at 3-709 Corydon Ave with posted hours, and an active online
+    ordering page (order.online) all show it active as the Prairies' first
+    Georgian restaurant.
+  - Starbucks (946 Corydon Ave) — confirmed open. Tripadvisor, Yellow Pages,
+    and active DoorDash, Uber Eats, and SkipTheDishes delivery listings all
+    show it active at this address with posted hours and a 4.5-star DoorDash
+    rating.
+  - Sugar + Salt Bakeshoppe (897 Corydon Ave, Unit 103) — confirmed open. The
+    bakery's own site (sugarandsaltbakeshoppe.com), a Tourism Winnipeg
+    listing, and a Chamber of Commerce directory listing all show it active
+    with posted hours (Tue-Fri 11-5, Sat 10-4) and a 4.8 Google rating.
+  - Sunshine Chinese Restaurant (635 Corydon Ave) — confirmed open. The
+    restaurant's own site (winnipegsunshine.com), an active Facebook page,
+    Tripadvisor (2026 reviews), and a Yelp listing all show it active with
+    posted hours.
+  - `last_verified` set to 2026-09-06 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** none. A post for 2026-09-06 already exists and is already
+  registered in `articles-data.js` and `sitemap.xml`; publishing a second post
+  on the same calendar date would violate the one-post-per-run guardrail and
+  double up the date-based bookkeeping used elsewhere (post-ideas.md's
+  last-four-Used check, the topic-breadth ratio). `post-ideas.md` was left
+  untouched; its first queue item remains available for the next run.
+
+---
+
 ## 2026-09-06 (operations note — written by hand, no content published)
 
 Not a maintenance run. This block records why four dated blocks are missing
