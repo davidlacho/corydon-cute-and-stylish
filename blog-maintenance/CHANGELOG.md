@@ -7,6 +7,69 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-06 (cron)
+
+- **Housekeeping:** local `main` was on a detached HEAD at commit `a74f6b8`
+  (the 2026-09-04 catch-up run), matching `origin/main`. Checked out and
+  fast-forwarded `main` to `origin/main` before starting; no content was
+  lost. Note: the 2026-09-05 scheduled run appears to have been missed
+  entirely (no CHANGELOG entry, no post dated 2026-09-05, and the note left
+  by the prior run about a same-day second post for 2026-09-04 also never
+  materialized). No catch-up post was published for either missed date this
+  run; only the regular single post for today, per the one-post-per-run
+  guardrail.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-08-29:
+  - Peking Chinese Food Ltd. (840 Corydon Ave) — confirmed open. A July
+    2026-dated Yelp listing, an active DoorDash page, a Yellow Pages listing,
+    and the restaurant's own site (pekingmbtogo.com) all show it active at
+    this address, describing over 50 years serving the area.
+  - Cafe 22 (823 Corydon Ave) — confirmed open. The restaurant's own site
+    (cafe22.ca / cafe22corydon.com), an August 2026-dated Yelp listing,
+    OpenTable, and a Tourism Winnipeg listing all show it active with posted
+    hours.
+  - Saffron's Restaurant (681 Corydon Ave) — confirmed open. A July
+    2026-dated Yelp listing, an active Facebook page, OpenTable, Tourism
+    Winnipeg, and an active online ordering page all show it active with
+    posted hours.
+  - Santa Lucia Pizza (905 Corydon Ave) — confirmed open. The restaurant's
+    own site (santaluciapizza.com), Tourism Winnipeg, an active Facebook
+    page, and OpenTable all show it active at this address.
+  - `last_verified` set to 2026-09-06 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html`
+    already match current names/addresses, so no page corrections were
+    needed.
+- **New post:** `blog-winnipeg-craft-distilleries.html` — "Winnipeg's craft
+  distilleries: a guide to the city's gin, vodka, and whisky". A city-wide,
+  non-Corydon-anchored guide (the last four published posts were also all
+  city-wide, keeping the topic-breadth ratio well under the one-in-four cap)
+  covering Patent 5 Distillery (the Exchange District's 1903 Dominion
+  Express building, whisky production returning downtown after 139 years),
+  Capital K Distillery (Manitoba's first family-owned craft spirits
+  producer, distilling since 2016 in St. James), and Shrugging Doctor
+  Beverage Company (a St. James fruit winery with a restaurant and wine
+  bar, described accurately as a winery rather than a spirits distillery).
+  The queue's first item, manitoba-museum-planetarium-guide, was skipped
+  again for lack of a fitting local photo; images.unsplash.com and
+  manitobamuseum.ca remain unreachable from this sandbox (confirmed again
+  via curl through the agent proxy, both returning connect_rejected at the
+  CONNECT stage). The rest of the queue was also skipped for the same
+  reason (no fitting unused local photo), and winnipeg-with-kids-indoor was
+  skipped again as a near-duplicate of existing indoor/family-attraction
+  posts. winnipeg-craft-distilleries was invented instead because
+  guidebook-winnipeg-29-patent-5-distillery.jpg, a real photo of Patent 5
+  gin and cocktail ingredients inside the distillery's own tasting room, was
+  previously unused and fits the topic exactly, and no existing post covers
+  craft distilling specifically (blog-winnipeg-breweries.html already
+  covers beer). All facts were confirmed by web search against CBC News,
+  the Exchange District BIZ, Patent 5's and Capital K's own sites, Tourism
+  Winnipeg, and Travel Manitoba. No hours or prices were stated; the post
+  tells readers to check each venue's own site before visiting. Registered
+  in `articles-data.js` and `sitemap.xml`, and logged into "Used" in
+  `post-ideas.md`.
+
+---
+
 ## 2026-09-04 (manual catch-up for the missed 2026-09-03 run)
 
 Run by hand, not by the cron. **The 2026-09-03 scheduled run failed and did no

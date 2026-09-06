@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-craft-distilleries.html",
+    "category": "winnipeg",
+    "date": "2026-09-06",
+    "title": "Winnipeg's craft distilleries: a guide to the city's gin, vodka, and whisky",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-29-patent-5-distillery.jpg",
+    "imageAlt": "A bottle of Patent 5 gin with cocktail ingredients on a table inside the distillery's tasting room",
+    "description": "A guide to Winnipeg's craft distilleries, from a 1903 heritage building in the Exchange District making whisky again after 139 years to a family-run gin and vodka producer in St. James.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 6, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-accessible-attractions.html",
     "category": "winnipeg",
     "date": "2026-09-04",
