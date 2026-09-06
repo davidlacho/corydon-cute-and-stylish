@@ -24,8 +24,8 @@ This file documents the structure and requirements for creating blog posts on th
 
 ```html
 <!-- Primary Meta Tags -->
-<title>[Post Title] | Stay Winnipeg Blog</title>
-<meta name="title" content="[Post Title] | Stay Winnipeg Blog">
+<title>[Post Title]</title>
+<meta name="title" content="[Post Title]">
 <meta name="description" content="[150-160 character description for SEO]">
 <meta name="keywords" content="[comma-separated keywords]">
 <meta name="author" content="Stay Winnipeg">
