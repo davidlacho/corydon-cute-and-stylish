@@ -7,6 +7,58 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-07 (cron)
+
+- **Housekeeping:** local `main` was on a detached HEAD at commit `910bf9e`
+  (matching `origin/main`). Checked out `main` and fast-forwarded to
+  `origin/main` before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-01:
+  - Sushi Ya (659 Corydon Ave) — confirmed open. Yelp, Tripadvisor, Tourism
+    Winnipeg's Peg City Grub feature, DoorDash/SkipTheDishes delivery
+    listings, and a Yellow Pages listing (Sushiya Ltd) all show it active at
+    this address with posted hours.
+  - The Cheesemongers Fromagerie (839 Corydon Ave) — confirmed open. The
+    shop's own site (thecheesemongers.ca), a Tourism Winnipeg listing, and
+    a July 2026-dated Yelp listing all show it active at this address.
+  - The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave) — confirmed open.
+    The business's own site (themightykiwi.ca), a Tourism Winnipeg listing,
+    Yelp, and active DoorDash/Uber Eats listings all show it active at this
+    address.
+  - The Roost (651 Corydon Ave) — confirmed open. The bar's own site
+    (theroostwpg.com), a September 2026-dated Yelp listing, an active
+    Facebook page, and a Tourism Winnipeg listing all show it active with
+    posted hours.
+  - `last_verified` set to 2026-09-07 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-filipino-food-guide.html`, "Winnipeg's
+  Filipino food scene: lumpia, lechon, and silog breakfasts." Queue's first
+  item, manitoba-museum-planetarium-guide, was skipped again for lack of a
+  fitting local photo (images.unsplash.com and manitobamuseum.ca remain
+  unreachable from this sandbox, confirmed again via curl through the agent
+  proxy, both returning connect_rejected at the CONNECT stage). The queue's
+  second item, winnipeg-filipino-food-guide, was picked instead: no
+  dedicated local photo of Filipino food or a Filipino restaurant exists,
+  but `images/restaurant-dining.jpg`, a generic restaurant dining room
+  already reused across four other cuisine posts, was reused a fifth time
+  with the same honest, non-specific alt text those posts use. No existing
+  post covers Filipino food specifically (`blog-filipino-billiards-winnipeg.html`
+  covers Filipino billiards culture, a different topic). This is a
+  city-wide guide, not anchored to Corydon; the last four Used entries
+  (spring-river-thaw, fall-colours, accessible-attractions,
+  craft-distilleries) were also all city-wide, so the topic-breadth ratio
+  is unaffected. Facts (Winnipeg having Canada's largest per-capita Filipino
+  population and third-largest in raw numbers at 50,000+, settlement
+  beginning in 1959, Kalan at 1449 Arlington St in the West End since 2010,
+  Max's Restaurant at 1255 St. James St, and Pampanga Restaurant & Banquet
+  Hall at 349 Henry Ave family-run since 2005) were confirmed by web search
+  against Yelp, Tripadvisor, Yellow Pages, and each restaurant's own site.
+  No hours or prices were stated. Registered in `articles-data.js` and
+  `sitemap.xml`; the idea was moved from Queue to Used in `post-ideas.md`.
+
+---
+
 ## 2026-09-06 (cron, 22:08 UTC slot)
 
 This is the scheduled 22:08 UTC run anticipated by the operations note below

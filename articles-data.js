@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-filipino-food-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-07",
+    "title": "Winnipeg's Filipino food scene: lumpia, lechon, and silog breakfasts",
+    "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
+    "imageAlt": "The dining room of a Winnipeg restaurant",
+    "description": "A guide to Filipino food in Winnipeg, home to Canada's largest per-capita Filipino community, from a West End restaurant named after a cooking pot to St. James fried chicken.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 7, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-craft-distilleries.html",
     "category": "winnipeg",
     "date": "2026-09-06",
