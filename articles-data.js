@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-fringe-festival-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-08",
+    "title": "How to do the Winnipeg Fringe Festival",
+    "image": "https://staywinnipeg.ca/images/exchange-district-pepsi.jpg",
+    "imageAlt": "A vintage Pepsi-Cola mural painted on a heritage building in Winnipeg's Exchange District",
+    "description": "A first-timer's guide to the Winnipeg Fringe Festival: how the non-juried lottery works, what Old Market Square offers for free, and how to buy tickets.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 8, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-filipino-food-guide.html",
     "category": "winnipeg",
     "date": "2026-09-07",

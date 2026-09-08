@@ -7,6 +7,65 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-08 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-02:
+  - Thom Bargen Coffee Roasters (743 Corydon Ave) — confirmed open. The
+    roaster's own site (thombargen.com), a Th3rdwave Winnipeg profile, and
+    active café directory listings (Corner, CaféWork) all show it active at
+    this address with posted hours.
+  - Tim Horton's (949 Corydon Ave) — confirmed open. Tim Hortons' own store
+    locator lists this address (Unit 2), and Tripadvisor and Yellow Pages
+    listings corroborate posted hours (5am-11pm daily).
+  - Tommy's Pizzeria (842 Corydon Ave) — confirmed open. The pizzeria's own
+    site (tommys.pizza), a September 2026-dated Yelp listing, Tourism
+    Winnipeg, and active Toast/SkipTheDishes ordering pages all show it
+    active at this address.
+  - Wako Sushi Café (875 Corydon Ave) — confirmed open. A July 2026-dated
+    Yelp listing, Yellow Pages, and an active DoorDash listing all show it
+    active with posted hours (Mon-Fri 11am-8pm, Sat 1-8pm, closed Sunday).
+  - `last_verified` set to 2026-09-08 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-fringe-festival-guide.html`, "How to do the
+  Winnipeg Fringe Festival." The queue's first item,
+  manitoba-museum-planetarium-guide, was skipped again for lack of a fitting
+  local photo, manitobamuseum.ca still unreachable from this sandbox. Several
+  further queue items (grand-beach-day-trip, winnipeg-live-music-venues,
+  manitoba-legislative-building-tour, winnipeg-thrift-vintage-shopping,
+  winnipeg-performing-arts-season, royal-aviation-museum-guide,
+  winnipeg-bookstores-record-shops) were skipped for the same reason.
+  winnipeg-indian-south-asian-food was skipped not for a photo reason but
+  because winnipeg-filipino-food-guide, published the day before, already
+  used the "food" intent within the same week (the topic-breadth guardrail
+  against repeating an intent within a week). oak-hammock-marsh-birding was
+  skipped for lack of a photo, and winnipeg-with-kids-indoor was skipped
+  again as a near-duplicate of existing indoor/family-attraction posts.
+  winnipeg-fringe-festival-guide was picked instead because
+  images/exchange-district-pepsi.jpg, a real photo of the vintage Pepsi-Cola
+  mural on a heritage building in the Exchange District, was previously
+  unused and fits the topic directly: Fringe venues and its free outdoor Old
+  Market Square stage sit in that same district. No existing post covers the
+  Fringe Festival. This is a city-wide guide, not anchored to Corydon; the
+  last four Used entries (fall-colours, accessible-attractions,
+  craft-distilleries, filipino-food-guide) were also all city-wide, so the
+  topic-breadth ratio is unaffected. Facts (founded 1988 by the Royal
+  Manitoba Theatre Centre with Larry Desrochers as first executive producer,
+  its standing as the second-largest independent fringe festival in North
+  America, the non-juried lottery selection and artist-keeps-100%-of-box-office
+  model, Old Market Square as the free outdoor hub, the Exchange District's
+  roughly 150 heritage buildings from 1880-1920, and 2026's July 15-26 dates
+  and ticket pricing) were confirmed by web search against Wikipedia, the
+  Exchange District BIZ, CBC News, Tourism Winnipeg, and winnipegfringe.com.
+  The post states 2026's dates only as a past reference point and tells
+  readers to confirm current dates and prices at winnipegfringe.com; no
+  future-year dates, hours, or prices were invented. Registered in
+  `articles-data.js` and `sitemap.xml`; the idea was moved from Queue to Used
+  in `post-ideas.md`.
+
+---
+
 ## 2026-09-07 (cron)
 
 - **Housekeeping:** local `main` was on a detached HEAD at commit `910bf9e`
