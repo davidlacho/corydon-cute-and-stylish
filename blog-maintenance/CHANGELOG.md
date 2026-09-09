@@ -7,6 +7,67 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-09 (cron)
+
+- **Housekeeping:** local `main` was on a detached HEAD at commit `b677ecf`
+  (matching `origin/main` after a fetch). Checked out `main` and
+  fast-forwarded to `origin/main` before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-04:
+  - Passero Restaurant (774 Corydon Ave) — confirmed open. Tripadvisor,
+    Yellow Pages, and the Tourism Winnipeg dining listing all show it active
+    at this address; coverage describes it as having moved from The Forks
+    Market to this larger Corydon space under chef Scott Bagshaw and Amanda
+    Coe, with posted hours (Mon-Sat 5-10pm, closed Sunday).
+  - Forgotten Flavours (858 Corydon Ave) — confirmed open. The bakery's own
+    site (forgottenflavours.ca), Tourism Winnipeg, and Wanderlog/Instagram
+    listings all show it active at this address with posted hours
+    (Tue-Sat 11am-6pm).
+  - Colosseo Ristorante Italiano (670 Corydon Ave) — confirmed open. The
+    restaurant's own site (colosseo.ca), a July 2026-dated Yelp listing, and
+    Tourism Winnipeg all show it active at this address, operating since
+    1973.
+  - Bar Italia (737 Corydon Ave) — confirmed open. A January 2026-dated
+    Yelp listing, Tourism Winnipeg's nightlife listing, DoorDash/Uber Eats
+    ordering pages, and a Yellow Pages listing all show it active at this
+    address.
+  - `last_verified` set to 2026-09-09 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-thrift-vintage-shopping.html`, "Thrift,
+  Vintage, and Secondhand Shopping in Winnipeg." The queue's first item,
+  manitoba-museum-planetarium-guide, was skipped again for lack of a
+  fitting local photo; manitobamuseum.ca and images.unsplash.com remain
+  unreachable from this sandbox (confirmed again via curl through the agent
+  proxy, both returning a 403 at the CONNECT stage). grand-beach-day-trip,
+  winnipeg-live-music-venues, and manitoba-legislative-building-tour were
+  skipped for the same reason. winnipeg-thrift-vintage-shopping was picked
+  next because images/guidebook-winnipeg-46-exchange-district.jpg, a real
+  photo of a heritage warehouse storefront in the Exchange District, fits
+  the topic directly: two of the shops covered, Ragpickers Antifashion
+  Emporium and Clothing Bakery, are themselves in that district. This is a
+  city-wide guide spanning five neighbourhoods (Exchange District, Osborne
+  Village, the West End, East Kildonan, and Corydon Avenue), not anchored to
+  Corydon; the last four Used entries (craft-distilleries, filipino-food,
+  fringe-festival, accessible-attractions) were also all city-wide, so the
+  topic-breadth ratio is unaffected, and "shopping" as an intent was last
+  used on 2026-08-29 (winnipeg-shopping-districts), well outside the
+  one-week no-repeat window. No existing post covers thrift or vintage
+  shopping specifically. Facts (Ragpickers Antifashion Emporium at 90
+  Annabella St, 3rd floor, in business since 1984 with over 10,000 vintage
+  pieces from the 1880s-1980s and a costume-rental sideline; Clothing Bakery
+  at 70 Arthur St; Shop Take Care at 109 Osborne St, gender-inclusive
+  consignment open since 2017, with a second location at 217 McDermot Ave;
+  Old Gold Vintage Vinyl at 187 Osborne St; MCC thrift stores at 644 Burnell
+  and 445 Chalmers Ave in East Kildonan; and Things at 911/913 Corydon Ave,
+  run by the Royal Winnipeg Ballet's Volunteer Committee) were confirmed by
+  web search against each shop's own site or Yelp/Facebook listing, the
+  Exchange District BIZ business directory, and MCC Thrift's own locations
+  page. No hours or prices were stated. Registered in `articles-data.js` and
+  `sitemap.xml`; the idea was moved from Queue to Used in `post-ideas.md`.
+
+---
+
 ## 2026-09-08 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all

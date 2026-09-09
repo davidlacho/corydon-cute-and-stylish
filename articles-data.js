@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-thrift-vintage-shopping.html",
+    "category": "winnipeg",
+    "date": "2026-09-09",
+    "title": "Thrift, Vintage, and Secondhand Shopping in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-46-exchange-district.jpg",
+    "imageAlt": "A heritage warehouse storefront with a bronze horse statue in Winnipeg's Exchange District",
+    "description": "Where to find Winnipeg's best thrift, vintage, and consignment shopping, from Exchange District vintage warehouses to Osborne Village record stores.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 9, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-fringe-festival-guide.html",
     "category": "winnipeg",
     "date": "2026-09-08",
