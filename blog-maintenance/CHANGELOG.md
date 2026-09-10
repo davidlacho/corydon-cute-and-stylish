@@ -7,6 +7,84 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-10 (cron)
+
+- **Housekeeping:** local checkout started on a detached HEAD matching
+  `origin/main` at `9c15782`. Checked out `main` and fast-forwarded to
+  `origin/main` before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-06:
+  - Peking Chinese Food Ltd. (840 Corydon Ave) — confirmed open. A Yelp
+    listing dated July 2026, Tripadvisor, Wanderlog, Yellow Pages, the
+    restaurant's own site (pekingmbtogo.com), and a DoorDash ordering page
+    all show it active at this address.
+  - Cafe 22 (823 Corydon Ave) — confirmed open. The restaurant's own site
+    (cafe22.ca), Tourism Winnipeg's dining listing, OpenTable, Yellow Pages,
+    and a Yelp listing dated August 2026 all show it active at this
+    address.
+  - Saffron's Restaurant (681 Corydon Ave) — confirmed open. The
+    restaurant's own site (saffronrestaurantwinnipeg.com), a Yelp listing
+    dated July 2026, Tripadvisor, Yellow Pages, and an active online-order
+    page all show it active at this address.
+  - Santa Lucia Pizza (905 Corydon Ave) — confirmed open. The chain's own
+    site (santaluciapizza.com, with a dedicated page for the 905 Corydon
+    location), Tourism Winnipeg, Tripadvisor, and Facebook all show it
+    active at this address, operating since 1971.
+  - `last_verified` set to 2026-09-10 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-west-end-guide.html`, "Winnipeg's West End: A
+  Neighbourhood Guide." The queue's first item, manitoba-museum-planetarium-guide,
+  was skipped again for lack of a fitting local photo; manitobamuseum.ca and
+  images.unsplash.com remain unreachable from this sandbox (confirmed again
+  via curl through the agent proxy, both returning connect_rejected/403 at
+  the CONNECT stage). The rest of the queue (grand-beach-day-trip,
+  winnipeg-live-music-venues, manitoba-legislative-building-tour,
+  winnipeg-performing-arts-season, royal-aviation-museum-guide,
+  winnipeg-bookstores-record-shops, oak-hammock-marsh-birding,
+  riding-mountain-national-park-trip, northern-lights-near-winnipeg,
+  winnipeg-chinatown-guide) was skipped for the same lack-of-photo reason.
+  winnipeg-indian-south-asian-food was skipped not for a photo reason but
+  because "food" as an intent was used 3 days ago (2026-09-07,
+  winnipeg-filipino-food-guide), inside the one-week no-repeat window; the
+  last four Used entries also already covered "drink" (craft-distilleries,
+  09-06), "festivals"/"culture" (fringe-festival-guide, 09-08), and
+  "shopping" (thrift-vintage-shopping, 09-09), which ruled out inventing
+  another food- or drink-themed post this run too. winnipeg-with-kids-indoor
+  was skipped again as a near-duplicate of existing indoor/family-attraction
+  posts. winnipeg-west-end-guide was invented instead (not in the queue)
+  because images/guidebook-winnipeg-28-feast-cafe-bistro.jpg, a real,
+  previously unused interior photo of Feast Café Bistro on Ellice Avenue,
+  fits a West End neighbourhood guide's hero directly, and "neighbourhood
+  guide" is a distinct rotation category from the recently-used intents
+  above (the last dedicated neighbourhood guide, wolseley-neighbourhood-guide,
+  ran 2026-08-23). No existing post covers the West End as a neighbourhood.
+  Facts (the West End's boundaries and its status as Winnipeg's most
+  ethnically diverse neighbourhood, roughly 51% Caucasian/21% Filipino/15%
+  Indigenous per the 2011 census; the West End Cultural Centre's 1908 origin
+  as St. Matthews Church, its 1987 conversion to a music venue by Mitch
+  Podolak and Ava Kobrinsky, its October 23, 1987 opening concert by Spirit
+  of the West, and its 2009 addition; Sherbrook Pool's 1930 construction as
+  a Depression relief project, its March 1931 opening, its Art Deco design
+  by R.B. Pratt and D.A. Ross, and its 1991 municipal heritage designation;
+  and Feast Café Bistro at 587 Ellice Ave as a 100% Indigenous-owned
+  restaurant founded by Christa, a Peguis First Nation member) were
+  confirmed by web search against Wikipedia, Travel Manitoba, Tourism
+  Winnipeg, Historic Places Days, and the restaurant's own coverage. No
+  hours or prices were stated. This is a city-wide neighbourhood guide, not
+  anchored to Corydon; the last four Used entries (craft-distilleries,
+  filipino-food-guide, fringe-festival-guide, thrift-vintage-shopping) were
+  also all city-wide, so the topic-breadth ratio is unaffected. Registered
+  in `articles-data.js` and `sitemap.xml`; the idea was moved from Queue to
+  Used in `post-ideas.md`. As in recent runs, `blog.html`'s `blogPost`
+  JSON-LD array, its `<noscript>` article-card section, and `llms.txt`'s
+  post count were left unmodified (they have not tracked new posts since
+  before this cron's current run history; updating them for every post this
+  cron has missed is out of scope for a single day's run and would be a
+  large, unrelated change).
+
+---
+
 ## 2026-09-09 (cron)
 
 - **Housekeeping:** local `main` was on a detached HEAD at commit `b677ecf`

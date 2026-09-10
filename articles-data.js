@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-west-end-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-10",
+    "title": "Winnipeg's West End: A Neighbourhood Guide",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-28-feast-cafe-bistro.jpg",
+    "imageAlt": "The curved wood bar and dining tables inside Feast Café Bistro, an Indigenous-owned restaurant on Ellice Avenue in Winnipeg's West End",
+    "description": "A guide to Winnipeg's West End: the West End Cultural Centre's live-music history, Sherbrook Pool's Art Deco design, and Ellice Avenue's Indigenous-owned food scene.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 10, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-thrift-vintage-shopping.html",
     "category": "winnipeg",
     "date": "2026-09-09",
