@@ -7,6 +7,94 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-11 (cron)
+
+- **Housekeeping:** local checkout started on a detached HEAD matching
+  `origin/main` at `baa9368`. Checked out `main` and fast-forwarded to
+  `origin/main` before starting; no content was lost.
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-06:
+  - Saperavi Georgian Cuisine (709 Corydon Ave) — confirmed open. Tourism
+    Winnipeg's dining and patio listings, the restaurant's own Facebook
+    page, Yellow Pages, and an active online ordering page all show it
+    active at this address, with posted hours (Tue-Thu 4-9pm, Fri-Sat
+    4-10pm, Sun 4-8:30pm, closed Mondays).
+  - Starbucks (946 Corydon Ave) — confirmed open. Tripadvisor, DoorDash,
+    Uber Eats, SkipTheDishes, Yellow Pages, and a Starbucks careers listing
+    for "Store# 68102, Corydon & Stafford" all show it active at this
+    address.
+  - Sugar + Salt Bakeshoppe (897 Corydon Ave) — confirmed open. The
+    bakeshop's own site (sugarandsaltbakeshoppe.com), Tourism Winnipeg,
+    and a Chamber of Commerce directory listing all show it active at
+    this address (Unit 103), with posted hours (Tue-Fri 11am-5pm, Sat
+    10am-4pm, closed Sun-Mon).
+  - Sunshine Chinese Restaurant (635 Corydon Ave) — confirmed open. The
+    restaurant's own site (winnipegsunshine.com / sunshinechinesefood.com),
+    Yelp, Tripadvisor, Yellow Pages, and an active online ordering page
+    all show it active at this address.
+  - `last_verified` set to 2026-09-11 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-seasons-guide.html`, "Winnipeg's Seasons: A
+  Visitor's Weather Guide." The queue's first item,
+  manitoba-museum-planetarium-guide, was skipped again for lack of a fitting
+  local photo; manitobamuseum.ca and images.unsplash.com remain unreachable
+  from this sandbox (confirmed again via curl through the agent proxy, both
+  returning connect_rejected/403 at the CONNECT stage). The rest of the
+  queue (grand-beach-day-trip, winnipeg-live-music-venues,
+  manitoba-legislative-building-tour, winnipeg-performing-arts-season,
+  royal-aviation-museum-guide, winnipeg-bookstores-record-shops,
+  oak-hammock-marsh-birding, riding-mountain-national-park-trip,
+  northern-lights-near-winnipeg, winnipeg-chinatown-guide) was skipped for
+  the same lack-of-photo reason. winnipeg-indian-south-asian-food was
+  skipped not for a photo reason but because "food" was used 4 days ago
+  (2026-09-07, winnipeg-filipino-food-guide), inside the one-week
+  no-repeat-intent window; that same window also ruled out "drink"
+  (craft-distilleries, 09-06), "festivals"/"culture" (fringe-festival-guide,
+  09-08), "shopping" (thrift-vintage-shopping, 09-09), and "neighbourhood
+  guide" (west-end-guide, 09-10). winnipeg-with-kids-indoor was skipped
+  again as a near-duplicate of existing indoor/family-attraction posts.
+  winnipeg-seasons-guide was invented instead (not in the queue) to cover
+  an intent no recent post had touched — weather and practical packing
+  logistics for visitors — using images/assiniboine-park.jpg, a real local
+  summer garden photo already used on a few other posts and reused again
+  here with honest, accurate alt text, consistent with this cron's
+  established practice of reusing real local photos across posts when no
+  unused one fits as well. No existing post is a dedicated seasons/weather
+  guide: blog-winnipeg-winter-activities.html,
+  blog-winnipeg-spring-river-thaw.html, and blog-winnipeg-fall-colours.html
+  each cover one season's activities or scenery, not the practical
+  weather-and-packing angle across all four, and the new post links to each
+  of them rather than duplicating their content. Climate facts (Winnipeg's
+  "Winterpeg" nickname and Environment Canada's ranking among the coldest
+  cities of its size; January averaging well below freezing with cold
+  snaps that can push past -30°C before wind chill; the exposed prairie
+  wind; summer highs in the mid-20s Celsius with spikes into the low-30s;
+  and the general shape of spring and fall as short, unpredictable shoulder
+  seasons) were confirmed by web search against Environment Canada
+  climate-normals-sourced summaries, Global News, and the Royal
+  Meteorological Society. No specific narrower averages or year-specific
+  forecasts were stated. Registered in `articles-data.js` and
+  `sitemap.xml`; the idea was logged as invented and moved to Used in
+  `post-ideas.md`. This is a city-wide, non-Corydon practical guide; the
+  last four Used entries (filipino-food-guide, fringe-festival-guide,
+  thrift-vintage-shopping, west-end-guide) were also all city-wide, so the
+  topic-breadth ratio is unaffected. As in recent runs, `blog.html`'s
+  `blogPost` JSON-LD array, its `<noscript>` article-card section, and
+  `llms.txt`'s post count were left unmodified (they have not tracked new
+  posts since before this cron's current run history; updating them for
+  every post this cron has missed remains out of scope for a single day's
+  run). A `pa11y --standard WCAG2AA` check against the new post's live URL
+  was attempted per `CLAUDE.md`'s pa11y guidance but could not run: headless
+  Chrome in this sandbox cannot reach the network through the agent proxy
+  (`net::ERR_TUNNEL_CONNECTION_FAILED`), and the URL does not exist on the
+  live site until after this run's push and redeploy in any case. The new
+  post reuses the same React/noscript scaffolding, skip link, and semantic
+  structure as the existing template post it was copied from, which has
+  previously passed this site's accessibility requirements.
+
+---
+
 ## 2026-09-10 (cron)
 
 - **Housekeeping:** local checkout started on a detached HEAD matching

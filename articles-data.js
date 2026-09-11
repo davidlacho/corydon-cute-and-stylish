@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-seasons-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-11",
+    "title": "Winnipeg's Seasons: A Visitor's Weather Guide",
+    "image": "https://staywinnipeg.ca/images/assiniboine-park.jpg",
+    "imageAlt": "A garden pergola in Assiniboine Park during Winnipeg's warm summer season",
+    "description": "What Winnipeg's four seasons actually feel like, from deep winter cold to short spring thaws and warm prairie summers, and how to pack for each one.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 11, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-west-end-guide.html",
     "category": "winnipeg",
     "date": "2026-09-10",
