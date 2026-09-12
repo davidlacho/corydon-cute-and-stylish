@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-royal-aviation-museum-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-12",
+    "title": "The Royal Aviation Museum of Western Canada: A Visitor's Guide",
+    "image": "https://staywinnipeg.ca/images/airport-terminal.jpg",
+    "imageAlt": "A view of an airplane wing above the clouds during descent",
+    "description": "A visitor's guide to the Royal Aviation Museum of Western Canada in Winnipeg: the aircraft collection, how long to allow, admission, and getting there.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 12, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-seasons-guide.html",
     "category": "winnipeg",
     "date": "2026-09-11",

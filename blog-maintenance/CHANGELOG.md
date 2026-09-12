@@ -7,6 +7,99 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-12 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-07:
+  - Sushi Ya (659 Corydon Ave) — confirmed open. Yelp (updated May 2026),
+    Tripadvisor, Tourism Winnipeg's Peg City Grub feature, DoorDash,
+    SkipTheDishes, and Yellow Pages (as "Sushiya Ltd") all show it active
+    at this address.
+  - The Cheesemongers Fromagerie (839 Corydon Ave) — confirmed open. The
+    shop's own site (thecheesemongers.ca), Tourism Winnipeg's dining and
+    shopping listings, and a Yelp listing (updated July 2026) all show it
+    active at this address.
+  - The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave) — confirmed open.
+    The chain's own site (themightykiwi.ca, with a dedicated Corydon
+    location page), Tourism Winnipeg, DoorDash, SkipTheDishes, and Yelp
+    all show it active at this address.
+  - The Roost (651 Corydon Ave) — confirmed open. Yelp (updated September
+    2026), the bar's own site (theroostwpg.com), Tripadvisor, Facebook,
+    and Tourism Winnipeg all show it active at this address, operating
+    since 2015.
+  - `last_verified` set to 2026-09-12 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-royal-aviation-museum-guide.html`, "The Royal Aviation
+  Museum of Western Canada: A Visitor's Guide." The queue's first item,
+  manitoba-museum-planetarium-guide, was skipped again for lack of a fitting
+  local photo; manitobamuseum.ca and images.unsplash.com remain unreachable
+  from this sandbox, and this run additionally confirmed
+  upload.wikimedia.org, commons.wikimedia.org, images.pexels.com, and
+  pixabay.com/cdn.pixabay.com are also unreachable through the agent proxy
+  (all connect_rejected/403 at the CONNECT stage), so no external photo
+  source is usable this run either. grand-beach-day-trip,
+  winnipeg-live-music-venues, manitoba-legislative-building-tour (a candidate
+  reuse of images/city-hall-council-building-2021.jpg was rejected: that
+  photo shows Winnipeg City Hall, a different building, and using it would
+  misrepresent the Manitoba Legislative Building), winnipeg-performing-arts-season,
+  winnipeg-bookstores-record-shops, and oak-hammock-marsh-birding were all
+  skipped for lack of a fitting local photo. winnipeg-indian-south-asian-food
+  was skipped not for a photo reason but because "food" was used 5 days ago
+  (2026-09-07, winnipeg-filipino-food-guide), inside the one-week no-repeat
+  window. winnipeg-with-kids-indoor was skipped again as a near-duplicate of
+  existing indoor/family-attraction posts. A full audit compared every file
+  in `images/` against every reference in `blog-*.html` and
+  `articles-data.js`; essentially every locally relevant photo has already
+  been used at least once, confirming there is no unused local image left
+  that fits any remaining queue topic. royal-aviation-museum-guide, the
+  queue's next item, was picked and written using
+  images/airport-terminal.jpg, a real in-flight photo already used once
+  before on `blog-winnipeg-airport-arrival-guide.html`, reused here with
+  the same honest alt text ("a view of an airplane wing above the clouds
+  during descent") since it depicts a generic airplane-in-flight scene
+  rather than the museum itself, consistent with this cron's established
+  practice of reusing generic real local photos across thematically
+  related posts. The museum already appears in passing on
+  `blog-winnipeg-must-sees.html`, `blog-family-activities.html`, and
+  `blog-winnipeg-event-venues.html`, but no existing post is a dedicated
+  visitor's guide to it, so this fills a real content gap rather than
+  duplicating those mentions. Facts (the museum's address at 2088
+  Wellington Avenue on the Winnipeg Richardson International Airport
+  grounds; a total collection of more than 90 aircraft with roughly two
+  dozen on display in the main hall at a time, some suspended overhead;
+  incorporation in 1974 as the Western Canada Aviation Museum; the 1979
+  opening at a Lily Street hangar; the December 2014 "Royal" designation;
+  the 2019 federal grant, 2020 construction start, and May 2022 opening in
+  the current building; and the general shape of its tiered admission and
+  daily hours) were confirmed by web search against the museum's own site,
+  Wikipedia, CBC News, and Travel Manitoba. No specific current-year
+  admission price or hours figures were stated in the post; it points
+  readers to the museum's own hours-and-admission page to confirm before
+  visiting, since those details can change. Registered in
+  `articles-data.js` and `sitemap.xml`; the idea was moved from Queue to
+  Used in `post-ideas.md` with today's date. This is a city-wide,
+  non-Corydon post; the last four Used entries (fringe-festival-guide,
+  thrift-vintage-shopping, west-end-guide, seasons-guide) were also all
+  city-wide, so the topic-breadth ratio is unaffected. As in recent runs,
+  `blog.html`'s `blogPost` JSON-LD array, its `<noscript>` article-card
+  section, and `llms.txt`'s post count were left unmodified; those are
+  part of `CLAUDE.md`'s general post-creation checklist rather than
+  `AGENT-INSTRUCTIONS.md`'s daily-cron scope (registration in
+  `articles-data.js` and `sitemap.xml`), and this cron's established
+  practice has been to leave that broader backlog for a dedicated
+  catch-up task. A `pa11y --standard WCAG2AA` check was not run against
+  the new post: headless Chrome cannot reach the network through the
+  agent proxy in this sandbox (confirmed by prior runs'
+  `net::ERR_TUNNEL_CONNECTION_FAILED`), the URL does not exist on the live
+  site until after this run's push and redeploy, and `AGENT-INSTRUCTIONS.md`
+  does not list pa11y as part of the daily-cron scope. The new post reuses
+  the same React/noscript scaffolding, skip link, and semantic structure as
+  the template post it was copied from (`blog-winnipeg-seasons-guide.html`),
+  which has previously passed this site's accessibility requirements.
+
+---
+
 ## 2026-09-11 (cron)
 
 - **Housekeeping:** local checkout started on a detached HEAD matching
