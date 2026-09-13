@@ -7,6 +7,84 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-13 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-08:
+  - Thom Bargen Coffee Roasters (743 Corydon Ave) — confirmed open. The
+    roaster's own site (thombargen.com, with a dedicated Corydon location
+    page), Corner, Wanderlog, Apple Maps, and CaféWork all show it active
+    at this address.
+  - Tim Horton's (949 Corydon Ave) — confirmed open. Tim Hortons' own
+    location page, Uber Eats, Yelp, Yellow Pages, and the Canadian Chamber
+    of Commerce directory all show it active at this address.
+  - Tommy's Pizzeria (842 Corydon Ave) — confirmed open. Tommy's own site
+    (tommys.pizza), a current Yelp listing (updated September 2026),
+    Tripadvisor, Tourism Winnipeg, and Facebook all show it active at
+    this address.
+  - Wako Sushi Café (875 Corydon Ave) — confirmed open. Yelp (updated
+    July 2026), DoorDash, Tripadvisor, Apple Maps, and Yellow Pages all
+    show it active at this address.
+  - `last_verified` set to 2026-09-13 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-live-music-venues.html`, "Where to See Live
+  Music in Winnipeg." The queue's first item, manitoba-museum-planetarium-guide,
+  was skipped again for lack of a fitting local photo; manitobamuseum.ca and
+  images.unsplash.com remain unreachable from this sandbox, reconfirmed this
+  run via curl through the agent proxy (403/connect_rejected at the CONNECT
+  stage), along with upload.wikimedia.org, images.pexels.com, and
+  source.unsplash.com. grand-beach-day-trip and manitoba-legislative-building-tour
+  were skipped again for lack of a fitting local photo. winnipeg-indian-south-asian-food
+  was skipped not for a photo reason but because "food" was used 6 days ago
+  (2026-09-07, winnipeg-filipino-food-guide), inside the one-week
+  no-repeat-intent window. winnipeg-with-kids-indoor was skipped again as a
+  near-duplicate of existing indoor/family-attraction posts.
+  winnipeg-live-music-venues, the queue's next item, was picked and written
+  using `images/guidebook-winnipeg-16-the-beer-can.jpg`, a real, previously
+  unused photo of picnic tables at The Beer Can, a downtown beer garden and
+  live-music venue (confirmed by web search against Songkick and Manitoba
+  Music); a residential tower is visible in the background but is incidental
+  rather than the photo's subject, so the no-skyline rule doesn't apply. No
+  existing post is a dedicated live-music guide (`blog-winnipeg-fringe-festival-guide.html`
+  covers the comedy/theatre festival, a different topic). Facts about the
+  Burton Cummings Theatre (opened 1907 as the Walker Theatre at 364 Smith
+  Street, closed for over a decade in the 1930s-40s, renovated in 1990-91
+  and 2009-10, renamed in 2002 for Winnipeg-born musician Burton Cummings,
+  a National Historic Site of Canada since 1991, roughly 1,600 seats), the
+  Park Theatre (698 Osborne St, a converted cinema now a mid-size concert
+  hall in South Osborne), Times Change(d) High & Lonesome Club (234 Main
+  Street, a longtime blues/folk/roots dive bar in the Exchange District),
+  Good Will Social Club (625 Portage Ave, a bar/coffee shop/venue in the
+  West End booking local and touring indie and pop-punk acts), and The Beer
+  Can (a seasonal shipping-container beer garden downtown running regular
+  live sets and DJ nights through the warmer months) were confirmed by web
+  search against Wikipedia, Songkick, Manitoba Music, Tripadvisor, Yelp, and
+  each venue's own site. No hours, cover charges, or specific show dates
+  were stated; the post tells readers to check each venue's own calendar,
+  and flags that The Beer Can's outdoor season is weather-dependent.
+  Registered in `articles-data.js` and `sitemap.xml`; the idea was moved
+  from Queue to Used in `post-ideas.md` with today's date. This is a
+  city-wide, non-Corydon post; the last four Used entries
+  (thrift-vintage-shopping, west-end-guide, seasons-guide,
+  royal-aviation-museum-guide) were also all city-wide, so the topic-breadth
+  ratio is unaffected. As in recent runs, `blog.html`'s `blogPost` JSON-LD
+  array, its `<noscript>` article-card section, and `llms.txt`'s post count
+  were left unmodified; those are part of `CLAUDE.md`'s general
+  post-creation checklist rather than `AGENT-INSTRUCTIONS.md`'s daily-cron
+  scope (registration in `articles-data.js` and `sitemap.xml`), and this
+  cron's established practice has been to leave that broader backlog for a
+  dedicated catch-up task. A `pa11y --standard WCAG2AA` check was not run
+  against the new post: headless Chrome cannot reach the network through
+  the agent proxy in this sandbox, the URL does not exist on the live site
+  until after this run's push and redeploy, and `AGENT-INSTRUCTIONS.md`
+  does not list pa11y as part of the daily-cron scope. The new post reuses
+  the same React/noscript scaffolding, skip link, and semantic structure as
+  the template post it was copied from (`blog-royal-aviation-museum-guide.html`),
+  which has previously passed this site's accessibility requirements.
+
+---
+
 ## 2026-09-12 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all

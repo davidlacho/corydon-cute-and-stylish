@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-live-music-venues.html",
+    "category": "winnipeg",
+    "date": "2026-09-13",
+    "title": "Where to See Live Music in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-16-the-beer-can.jpg",
+    "imageAlt": "Picnic tables at The Beer Can, an outdoor beer garden and live-music venue in downtown Winnipeg",
+    "description": "A guide to Winnipeg's live music venues, from the historic Burton Cummings Theatre to neighbourhood clubs and a riverside summer beer garden.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 13, 2026</span>"
+  },
+  {
     "url": "/blog-royal-aviation-museum-guide.html",
     "category": "winnipeg",
     "date": "2026-09-12",
