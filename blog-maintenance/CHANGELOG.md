@@ -7,6 +7,83 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-14 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-09:
+  - Passero Restaurant (774 Corydon Ave) — confirmed open. Tripadvisor,
+    Yellow Pages, Tourism Winnipeg's own eat-and-drink listing, and the
+    restaurant's own booking pages all show it active at this address,
+    co-owned by chef Scott Bagshaw and Amanda Coe, serving Italian and
+    Mediterranean share plates.
+  - Forgotten Flavours (858 Corydon Ave) — confirmed open. Tourism
+    Winnipeg, Wanderlog, Bakery Radar, and the bakery's own site
+    (forgottenflavours.ca, with a dedicated locations page) all show it
+    active at this address as a wild-yeast artisan bakery.
+  - Colosseo Ristorante Italiano (670 Corydon Ave) — confirmed open. The
+    restaurant's own site (colosseo.ca), a current Yelp listing (updated
+    July 2026), Tripadvisor, and Tourism Winnipeg all show it active at
+    this address, operating since 1973.
+  - Bar Italia (737 Corydon Ave) — confirmed open. Tourism Winnipeg,
+    Yelp (updated January 2026), Yellow Pages, DoorDash, and Uber Eats all
+    show it active at this address.
+  - `last_verified` set to 2026-09-14 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-indian-south-asian-food.html`, "Winnipeg's
+  Indian and South Asian food scene: curry, biryani, and beyond." The
+  queue's first item, manitoba-museum-planetarium-guide, was skipped again
+  for lack of a fitting local photo; manitobamuseum.ca and
+  images.unsplash.com remain unreachable from this sandbox, reconfirmed
+  this run via curl through the agent proxy (connect_rejected/403 at the
+  CONNECT stage). grand-beach-day-trip, manitoba-legislative-building-tour,
+  winnipeg-performing-arts-season, and winnipeg-bookstores-record-shops were
+  all skipped again for lack of a fitting local photo. winnipeg-indian-south-asian-food
+  was picked this run because a full week (7 days) had passed since "food"
+  was last used as an intent (2026-09-07, winnipeg-filipino-food-guide),
+  clearing the one-week no-repeat-intent window that had ruled it out on
+  the four preceding runs. No dedicated local photo of an Indian or Sri
+  Lankan dish or restaurant exists, so `images/restaurant-dining.jpg`, the
+  same generic upscale-dining-room photo already reused across four other
+  cuisine-specific posts (steakhouses-bbq, ramen-japanese-guide,
+  vietnamese-pho-guide, filipino-food-guide), was reused a fifth time with
+  the same honest, non-specific alt text those posts use. No existing post
+  covers Indian or South Asian food specifically. Facts about East India
+  Company Pub & Eatery (349 York Ave, tracing to Winnipeg's first North
+  Indian restaurant, India Gardens, founded by the Mehra family after they
+  opened Mehra's Delicatessen on McDermot Avenue in the early 1970s, with
+  the East India Company name and York Avenue location dating to 1994),
+  India Palace (770 Ellice Ave, opened 1992 by Ashwani and Saroj, who had
+  opened Bombay Restaurant a decade earlier in 1982), Copper Chimney (three
+  Winnipeg locations on Madison Street, Pembina Highway, and Regent Avenue
+  West, an East Indian and Hakka menu known for its samosas), Zaika The
+  Indian Cuisine (1650 Regent Ave W), and Taste of Sri Lanka (a stall in
+  The Forks Market plus a second location on Main Street) were confirmed
+  by web search against each restaurant's own site (including East India
+  Restaurant's own about page, which gives the fullest account of the
+  Mehra family history), Yelp, Tripadvisor, Yellow Pages, Tourism
+  Winnipeg, and the Downtown Winnipeg BIZ business directory. A Wikipedia
+  page titled "East India Co. Grill and Bar" that surfaced in search
+  results was checked and found to describe an unrelated restaurant in
+  Portland, Oregon, so it was not used as a source. No hours or prices
+  were stated in the post; readers are pointed to check before visiting.
+  Registered in `articles-data.js` and `sitemap.xml`; the idea was moved
+  from Queue to Used in `post-ideas.md` with today's date. This is a
+  city-wide, non-Corydon post; the last four Used entries (west-end-guide,
+  seasons-guide, royal-aviation-museum-guide, live-music-venues) were also
+  all city-wide, so the topic-breadth ratio is unaffected. As in recent
+  runs, `blog.html`'s `blogPost` JSON-LD array, its `<noscript>`
+  article-card section, and `llms.txt`'s post count were left unmodified;
+  those are part of `CLAUDE.md`'s general post-creation checklist rather
+  than `AGENT-INSTRUCTIONS.md`'s daily-cron scope (registration in
+  `articles-data.js` and `sitemap.xml`), and this cron's established
+  practice has been to leave that broader backlog for a dedicated catch-up
+  task. A `pa11y --standard WCAG2AA` check was not run against the new
+  post: headless Chrome cannot reach the network through the agent proxy
+  in this sandbox and the URL does not exist on the live site until after
+  this run's push and redeploy, consistent with prior runs' notes on this
+  limitation.
+
 ## 2026-09-13 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all

@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-indian-south-asian-food.html",
+    "category": "winnipeg",
+    "date": "2026-09-14",
+    "title": "Winnipeg's Indian and South Asian food scene: curry, biryani, and beyond",
+    "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
+    "imageAlt": "The dining room of a Winnipeg restaurant",
+    "description": "A guide to Indian, Punjabi, and Sri Lankan restaurants in Winnipeg, from a downtown pub with roots in a 1970s McDermot Avenue delicatessen to Transcona's Punjabi kitchens.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 14, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-live-music-venues.html",
     "category": "winnipeg",
     "date": "2026-09-13",
