@@ -856,10 +856,10 @@ const ARTICLES_DATA = [
     "url": "/blog-rainbow-stage.html",
     "category": "winnipeg",
     "date": "2025-12-03",
-    "title": "Rainbow Stage 2026: Jesus Christ Superstar, Legally Blonde and Fiddler on the Roof",
+    "title": "Rainbow Stage Winnipeg's 72nd Season Recap",
     "image": "https://images.unsplash.com/photo-1692707483537-8f5e57e71531?q=80&w=2340&auto=format&fit=crop",
     "imageAlt": "Theatre stage with dramatic lighting",
-    "description": "Discover Rainbow Stage, Canada's longest-running outdoor theatre since 1954. Learn about the inspiring origin story from the 1950 flood, practical visitor information, and their exciting 72nd season featuring Jesus Christ Superstar, Legally Blonde, and Fiddler on the Roof.",
+    "description": "Discover Rainbow Stage, Canada's longest-running outdoor theatre since 1954. Learn about the inspiring origin story from the 1950 flood, practical visitor information, and a look back at their 72nd season featuring Jesus Christ Superstar, Legally Blonde, and Fiddler on the Roof.",
     "metaHtml": "<span>Arts & Culture</span>\n                                <span>12 min read</span>\n                                <span>December 3, 2025</span>"
   },
   {
