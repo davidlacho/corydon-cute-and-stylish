@@ -7,6 +7,81 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-15 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-10:
+  - Peking Chinese Food Ltd. (840 Corydon Ave) — confirmed open. The
+    restaurant's own site (pekingmbtogo.com), DoorDash, Tripadvisor, Yelp
+    (updated July 2026), and Yellow Pages all show it active at this address.
+  - Cafe 22 (823 Corydon Ave) — confirmed open. The restaurant's own site
+    (cafe22.ca), OpenTable, Yelp (updated August 2026), Tourism Winnipeg,
+    and Yellow Pages all show it active at this address as a stone-fired
+    pizza and modern Italian restaurant.
+  - Saffron's Restaurant (681 Corydon Ave) — confirmed open. Tourism
+    Winnipeg, OpenTable, Yelp (updated July 2026), Tripadvisor, and the
+    restaurant's own Facebook page all show it active at this address.
+  - Santa Lucia Pizza (905 Corydon Ave) — confirmed open. The restaurant's
+    own site (santaluciapizza.com, with a dedicated 905 Corydon Avenue
+    page), Tourism Winnipeg, Tripadvisor, and OpenTable all show it active
+    at this address.
+  - `last_verified` set to 2026-09-15 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html` already
+    match current names/addresses, so no page corrections were needed.
+- **New post:** `blog-winnipeg-bookstores-record-shops.html`, "Independent
+  Bookstores and Record Shops in Winnipeg." The queue's first item,
+  manitoba-museum-planetarium-guide, was skipped again for lack of a fitting
+  local photo; manitobamuseum.ca, images.unsplash.com, commons.wikimedia.org,
+  and upload.wikimedia.org were all reconfirmed unreachable from this
+  sandbox this run via curl through the agent proxy, each returning
+  connect_rejected/403 at the CONNECT stage. grand-beach-day-trip and
+  manitoba-legislative-building-tour were skipped again for lack of a
+  fitting local photo (a Winnipeg City Hall photo exists but was rejected
+  again, as on 2026-09-12, for depicting the wrong building).
+  winnipeg-performing-arts-season was skipped for lack of a fitting local
+  photo of a theatre or concert venue. "food" as an intent had been used
+  the day before (2026-09-14, winnipeg-indian-south-asian-food), inside the
+  one-week no-repeat-intent window, so winnipeg-bookstores-record-shops,
+  the queue's next item, was picked instead: a "shopping"/culture intent
+  last used 6 days prior (2026-09-09, thrift-vintage-shopping), outside the
+  window. Before writing, a candidate mention of "Enoteca" (whose local
+  photo, guidebook-winnipeg-25-enoteca.jpg, remains unused) was checked:
+  Yelp shows it as CLOSED, but the site's existing content
+  (blog-best-places-nearby-winnipeg.html and
+  blog-winnipeg-best-new-food-spots.html) already correctly documents its
+  rebrand to Né de Loup under chef Scott Bagshaw, so no correction was
+  needed and Enoteca was not used as a topic anchor.
+  images/guidebook-winnipeg-46-exchange-district.jpg, the same heritage
+  storefront photo already used on west-end-guide, shopping-districts, and
+  thrift-vintage-shopping, was reused a fourth time because Into the Music,
+  one of the shops profiled, is itself in the Exchange District at King and
+  McDermot. Facts (McNally Robinson Booksellers, founded in Winnipeg in
+  1981, family-operated, with its Grant Park store at 1120 Grant Ave
+  opening in 1996 as Canada's largest independent bookstore at the time,
+  plus a second store at The Forks; Bison Books at 424 Graham Ave downtown,
+  roughly 20,000 old, rare, and out-of-print books; Into the Music at the
+  corner of King St and McDermot Ave in the Exchange District; and the
+  Winnipeg Record & Tape Co. at 1079 Wellington Ave in the West End) were
+  confirmed by web search against each shop's own site, Yelp, Tripadvisor,
+  CBC News, and Tourism Winnipeg. No hours or prices were stated in the
+  post; readers are pointed to check before visiting. Registered in
+  `articles-data.js` and `sitemap.xml`; the idea was moved from Queue to
+  Used in `post-ideas.md` with today's date. This is a city-wide,
+  non-Corydon post; the last four Used entries (seasons-guide,
+  royal-aviation-museum-guide, live-music-venues,
+  winnipeg-indian-south-asian-food) were also all city-wide, so the
+  topic-breadth ratio is unaffected. As in recent runs, `blog.html`'s
+  `blogPost` JSON-LD array, its `<noscript>` article-card section, and
+  `llms.txt`'s post count were left unmodified; those are part of
+  `CLAUDE.md`'s general post-creation checklist rather than
+  `AGENT-INSTRUCTIONS.md`'s daily-cron scope, and this cron's established
+  practice has been to leave that broader backlog for a dedicated catch-up
+  task. A `pa11y --standard WCAG2AA` check was not run against the new
+  post: this run, Chrome failed to launch under Puppeteer in this sandbox
+  ("Running as root without --no-sandbox is not supported"), and the URL
+  does not exist on the live site until after this run's push and
+  redeploy, consistent with prior runs' notes on this limitation.
+
 ## 2026-09-14 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all

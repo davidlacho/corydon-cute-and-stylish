@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-bookstores-record-shops.html",
+    "category": "winnipeg",
+    "date": "2026-09-15",
+    "title": "Independent Bookstores and Record Shops in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-46-exchange-district.jpg",
+    "imageAlt": "A heritage warehouse storefront with a bronze horse statue in Winnipeg's Exchange District",
+    "description": "Where to browse in Winnipeg: independent bookstores like McNally Robinson and Bison Books, and record shops in the Exchange District and West End.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 15, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-indian-south-asian-food.html",
     "category": "winnipeg",
     "date": "2026-09-14",
