@@ -7,6 +7,88 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-16 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-11:
+  - Saperavi Georgian Cuisine (709 Corydon Ave) — confirmed open. Tourism
+    Winnipeg, the restaurant's own Facebook page, Yellow Pages, and an
+    online-ordering listing all show it active at this address as a
+    Georgian restaurant, the first on the Canadian Prairies.
+  - Starbucks (946 Corydon Ave) — confirmed open. A current Starbucks
+    careers listing for "Store# 68102, Corydon & Stafford," Yellow Pages,
+    DoorDash, Uber Eats, and SkipTheDishes all show it active at this
+    address.
+  - Sugar + Salt Bakeshoppe (897 Corydon Ave) — confirmed open. The
+    bakery's own site (sugarandsaltbakeshoppe.com), Tourism Winnipeg, and
+    a Chamber of Commerce directory listing all show it active at this
+    address (Unit 103).
+  - Sunshine Chinese Restaurant (635 Corydon Ave) — confirmed open. The
+    restaurant's own site (winnipegsunshine.com, matching the site's
+    existing link), a current Yelp listing (updated September 2025),
+    Tripadvisor, and Yellow Pages all show it active at this address.
+  - `last_verified` set to 2026-09-16 for all four in `business-ledger.json`;
+    no status changes. All four listings on `blog-corydon-guide.html`
+    already match current names/addresses/links, so no page corrections
+    were needed.
+- **New post:** `blog-winnipeg-wine-bars-guide.html`, "Winnipeg's wine bars
+  and wine shops: where to drink and buy." Every item remaining in the
+  queue (manitoba-museum-planetarium-guide, grand-beach-day-trip,
+  manitoba-legislative-building-tour, winnipeg-performing-arts-season,
+  oak-hammock-marsh-birding, riding-mountain-national-park-trip,
+  northern-lights-near-winnipeg, winnipeg-chinatown-guide) was skipped
+  again for lack of a fitting local photo; manitobamuseum.ca and
+  images.unsplash.com remain unreachable from this sandbox (reconfirmed via
+  curl through the agent proxy, connect_rejected/403 at the CONNECT
+  stage), no legislature or Chinatown photo exists locally, and the only
+  Chinatown-adjacent candidate (images/guidebook-winnipeg-46-exchange-district.jpg)
+  depicts the distinct neighbouring Exchange District rather than
+  Chinatown itself, so it was not force-fit. winnipeg-with-kids-indoor was
+  skipped again as a near-duplicate of existing indoor/family-attraction
+  posts. A sweep of images/ found three real local photos
+  (guidebook-winnipeg-15-harth-mozza-wine-bar.jpg,
+  guidebook-winnipeg-23-ellement-wine-spirits.jpg, and
+  guidebook-winnipeg-26-buvette.jpg) that had only ever appeared in the
+  general blog-best-places-nearby-winnipeg.html roundup and never anchored
+  a dedicated post. A web search found Buvette is actually a brunch/cafe
+  spot rather than a wine venue despite its filename, so it was excluded
+  to avoid misrepresenting the business, leaving Harth Mozza and Ellement
+  as genuine wine venues; winnipeg-wine-bars-guide was invented (not in
+  the queue) to pair them with a third confirmed wine venue, Cordova
+  Tapas & Wine in the Exchange District, using the real, previously-unused
+  Harth Mozza photo as the hero. A fourth candidate, Hermanos Restaurant &
+  Wine Bar, was considered and dropped because search results indicated
+  it was relocating from its long-standing Bannatyne Avenue address to
+  the Centennial Concert Hall in September 2026, making its current
+  address unverifiable as stable; no address was guessed. Facts (Harth
+  Mozza & Wine Bar, 980 St Anne's Road in St. Vital, an Italian wine bar
+  run by chef Brent Genyk, open Tuesday-Saturday 5-10pm and closed
+  Sunday/Monday; Ellement Wine & Spirits, an independent shop at 1 Forks
+  Market Rd carrying spirits and cigars since 1994 with a natural/
+  biodynamic wine focus including Burgundy and Beaujolais selections; and
+  Cordova Tapas & Wine at 93 Albert St in the Exchange District, opened
+  2017 by Gael Winandy and Greg Stevenard with a Spanish/southwestern
+  French tapas menu) were confirmed by web search against each venue's own
+  site or listing, Yelp, Tripadvisor, OpenTable, Tourism Winnipeg, and the
+  Exchange District BIZ. No hours or prices beyond each venue's own stated
+  general operating days were included; readers are told to check before
+  visiting. Registered in `articles-data.js` and `sitemap.xml`; the topic
+  was logged as Used in `post-ideas.md` with today's date. This is a
+  city-wide, non-Corydon post (St. Vital, The Forks, and the Exchange
+  District); the last four Used entries (bookstores-record-shops,
+  indian-south-asian-food, live-music-venues, royal-aviation-museum-guide)
+  were also all city-wide, so the topic-breadth ratio is unaffected. As in
+  recent runs, `blog.html`'s `blogPost` JSON-LD array, its `<noscript>`
+  article-card section, and `llms.txt`'s post count were left unmodified;
+  those are part of `CLAUDE.md`'s general post-creation checklist rather
+  than `AGENT-INSTRUCTIONS.md`'s daily-cron scope, and this cron's
+  established practice has been to leave that broader backlog for a
+  dedicated catch-up task. A `pa11y --standard WCAG2AA` check was not run
+  against the new post: consistent with prior runs' notes, Chrome fails to
+  launch under Puppeteer in this sandbox ("Running as root without
+  --no-sandbox is not supported"), and the URL does not exist on the live
+  site until after this run's push and redeploy.
+
 ## 2026-09-15 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all

@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-wine-bars-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-16",
+    "title": "Winnipeg's wine bars and wine shops: where to drink and buy",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-15-harth-mozza-wine-bar.jpg",
+    "imageAlt": "Wine bottles and glassware on the bar at Harth Mozza and Wine Bar in St. Vital, Winnipeg",
+    "description": "A guide to drinking and buying wine in Winnipeg: an Italian wine bar in St. Vital, a natural-wine shop at The Forks, and a Spanish tapas bar in the Exchange District.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 16, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-bookstores-record-shops.html",
     "category": "winnipeg",
     "date": "2026-09-15",
