@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-grocery-shopping-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-17",
+    "title": "Grocery shopping in Winnipeg: a visitor's guide",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-48-foodfare-stores.jpg",
+    "imageAlt": "Food Fare grocery storefront on Vilac Street in Winnipeg",
+    "description": "Where to buy groceries in Winnipeg if you're staying somewhere with a kitchen: the big chains, a Winnipeg-owned corner grocer, and an Italian specialty shop.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 17, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-wine-bars-guide.html",
     "category": "winnipeg",
     "date": "2026-09-16",

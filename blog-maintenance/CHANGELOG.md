@@ -7,6 +7,60 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-17 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-12:
+  - Sushi Ya (659 Corydon Ave) — confirmed open. Yelp (14 reviews), Tripadvisor
+    (4.6 rating, 24 reviews), and RestaurantJi (276 reviews as of May 2026)
+    all show current activity and posted hours.
+  - The Cheesemongers Fromagerie (839 Corydon Ave) — confirmed open. The
+    business's own site and current Yelp/Tourism Winnipeg listings show it
+    operating (pickup/delivery plus in-store hours Tue-Sat). No change needed
+    on `blog-corydon-guide.html`, which only lists the name, address, and link.
+  - The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave) — confirmed open. The
+    business's own site, Tourism Winnipeg, and DoorDash all show it active
+    with current hours.
+  - The Roost (651 Corydon Ave) — confirmed open. The venue's own site,
+    Yelp (19 reviews, updated September 2026), and Tourism Winnipeg all
+    confirm it operating in Little Italy.
+  - No closures, moves, or renames found; no corrections needed on
+    `blog-corydon-guide.html`. `last_verified` set to 2026-09-17 for all four
+    in `business-ledger.json`.
+- **New post published:** `blog-winnipeg-grocery-shopping-guide.html` —
+  "Grocery shopping in Winnipeg: a visitor's guide." A city-wide,
+  practical-logistics guide to grocery shopping (Real Canadian Superstore,
+  Safeway, Sobeys, the Winnipeg-owned Food Fare chain, and De Luca's Italian
+  specialty shop), distinct from the existing Corydon-anchored
+  `blog-grocery-runs-near-corydon-airbnb.html`. Uses two previously-unused
+  local photos (`guidebook-winnipeg-48-foodfare-stores.jpg` and
+  `guidebook-winnipeg-49-safeway-river-avenue.jpg`). The queue's first item
+  (manitoba-museum-planetarium-guide) and the rest of the queue were skipped
+  again for lack of a fitting local photo (manitobamuseum.ca and
+  images.unsplash.com remain unreachable from this sandbox); several unused
+  local photos were also rejected because their subject already has a
+  dedicated post (coffee/cafes, breweries, pizza, bakeries, wine, Deer +
+  Almond/Peasant Cookery/Oval Room, The Leaf). See `post-ideas.md` "Used" for
+  full detail. Registered in `articles-data.js` and `sitemap.xml`.
+- **Pages updated:** `business-ledger.json` (last_verified dates). No
+  corrections needed on `blog-corydon-guide.html`. As in recent runs,
+  `blog.html`'s `blogPost` JSON-LD array, its `<noscript>` article-card
+  section, and `llms.txt`'s post count were left unmodified; those are part
+  of `CLAUDE.md`'s general post-creation checklist rather than
+  `AGENT-INSTRUCTIONS.md`'s daily-cron scope (registration in
+  `articles-data.js` and `sitemap.xml`), and this cron's established
+  practice has been to leave that broader backlog for a dedicated catch-up
+  task. A `pa11y --standard WCAG2AA` check was not run against the new post:
+  headless Chrome cannot reach the network through the agent proxy in this
+  sandbox, the URL does not exist on the live site until after this run's
+  push and redeploy, and `AGENT-INSTRUCTIONS.md` does not list pa11y as part
+  of the daily-cron scope. The new post reuses the same React/noscript
+  scaffolding, skip link, and semantic structure as the template post it was
+  copied from (`blog-winnipeg-wine-bars-guide.html`), which has previously
+  passed this site's accessibility requirements.
+
+---
+
 ## 2026-09-16 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
