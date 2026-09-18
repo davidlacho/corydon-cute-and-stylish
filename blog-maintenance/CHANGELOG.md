@@ -7,6 +7,68 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-18 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-13:
+  - Thom Bargen Coffee Roasters (743 Corydon Ave) — confirmed open. The
+    business's own site (thombargen.com), which lists this as its Corydon
+    location, plus current Corner.inc, Wanderlog, and CaféWork listings,
+    all show it active with posted hours (Mon-Fri 7am-9pm, Sat-Sun
+    8am-9pm).
+  - Tim Horton's (949 Corydon Ave) — confirmed open. Tim Hortons' own
+    location page, Uber Eats, Yelp, and Yellow Pages all show it active
+    (Unit 2) with current hours and a 3.9-star rating from 394 reviewers.
+  - Tommy's Pizzeria (842 Corydon Ave) — confirmed open. The restaurant's
+    own site (tommys.pizza), a current September 2026 Yelp listing,
+    Tripadvisor, and Tourism Winnipeg's patio listing all show it active.
+  - Wako Sushi Café (875 Corydon Ave) — confirmed open. DoorDash, a
+    current July 2026 Yelp listing, and Yellow Pages all show it active
+    with online ordering.
+  - No closures, moves, or renames found; no corrections needed on
+    `blog-corydon-guide.html`, which already lists all four with matching
+    names and addresses. `last_verified` set to 2026-09-18 for all four in
+    `business-ledger.json`.
+- **New post published:** `blog-winnipeg-middle-eastern-food-guide.html` —
+  "Winnipeg's Middle Eastern food scene: shawarma, falafel, and manakeesh."
+  A city-wide guide to four Palestinian- and Lebanese-owned restaurants
+  spanning four different parts of the city: The Falafel Place (1101
+  Corydon Ave), Les Saj (1038 St James St), Yafa Cafe (1785 Portage Ave,
+  run by Rana Abdulla), and Ramallah Cafe (325 Pembina Hwy). No existing
+  post covered Middle Eastern or Palestinian/Lebanese food; the queue's
+  first item, `manitoba-museum-planetarium-guide`, and the rest of the
+  queue were skipped again for lack of a fitting local photo
+  (manitobamuseum.ca, images.unsplash.com, and upload.wikimedia.org
+  remain unreachable from this sandbox via the agent proxy, confirmed
+  again this run). Uses a previously-unused local photo,
+  `guidebook-winnipeg-11-falafel-place.jpg`, which was the last local
+  image not already anchoring a dedicated post. This cuisine-specific
+  "food" sub-topic was treated as distinct from
+  `blog-winnipeg-indian-south-asian-food.html` (2026-09-14, a different
+  cuisine), consistent with this cron's established practice of treating
+  cuisine- and drink-type sub-topics (e.g. wine vs spirits vs cocktails)
+  as distinct rather than one blanket repeated intent. All facts were
+  confirmed by web search against each restaurant's own site, Yelp,
+  Tripadvisor, OpenTable, and Tourism Winnipeg's own Middle Eastern food
+  guide; no hours or prices beyond Les Saj's posted hours were stated.
+  Registered in `articles-data.js` and `sitemap.xml`; logged in
+  `post-ideas.md` "Used" with full reasoning.
+- **Pages updated:** `business-ledger.json` (last_verified dates). No
+  corrections needed on `blog-corydon-guide.html`. As in recent runs,
+  `blog.html`'s `blogPost` JSON-LD array, its `<noscript>` article-card
+  section, and `llms.txt`'s post count were left unmodified; those are
+  part of `CLAUDE.md`'s general post-creation checklist rather than
+  `AGENT-INSTRUCTIONS.md`'s daily-cron scope, and this cron's established
+  practice has been to leave that broader backlog for a dedicated catch-up
+  task. A `pa11y --standard WCAG2AA` check was not run against the new
+  post: headless Chrome cannot reach the network through the agent proxy
+  in this sandbox, and the URL does not exist on the live site until
+  after this run's push and redeploy. The new post reuses the same
+  React/noscript scaffolding, skip link, and semantic structure as the
+  template post it was copied from (`blog-winnipeg-wine-bars-guide.html`).
+
+---
+
 ## 2026-09-17 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all

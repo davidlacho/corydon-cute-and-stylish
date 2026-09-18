@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-middle-eastern-food-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-18",
+    "title": "Winnipeg's Middle Eastern food scene: shawarma, falafel, and manakeesh",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-11-falafel-place.jpg",
+    "imageAlt": "Dining room interior at The Falafel Place on Corydon Avenue, Winnipeg",
+    "description": "Where to eat Middle Eastern food in Winnipeg: Palestinian cafes in St. James and Pembina, a Lebanese-style shawarma spot, and a longtime falafel counter on Corydon.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 18, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-grocery-shopping-guide.html",
     "category": "winnipeg",
     "date": "2026-09-17",
