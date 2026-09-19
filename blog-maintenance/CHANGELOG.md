@@ -7,6 +7,73 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-19 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-14:
+  - Passero Restaurant (774 Corydon Ave) — confirmed open. Tripadvisor,
+    Yably, and multiple current restaurant-listing sites show it active
+    with posted hours and a listed phone number.
+  - Forgotten Flavours (858 Corydon Ave) — confirmed open. The bakery's own
+    site (forgottenflavours.ca), Tourism Winnipeg, and Bakery Radar all
+    show it active, with posted hours (closed Sun/Mon, 11am-6pm Tue-Sat).
+  - Colosseo Ristorante Italiano (670 Corydon Ave) — confirmed open. The
+    restaurant's own site (colosseo.ca), a current Yelp listing (updated
+    July 2026), and Tourism Winnipeg all show it active in Little Italy.
+  - Bar Italia (737 Corydon Ave) — confirmed open. Tourism Winnipeg, a
+    current Yelp listing (updated January 2026), Uber Eats, and DoorDash
+    all show it active with posted hours (Mon-Sat 8am-2am).
+  - No closures, moves, or renames found; no corrections needed on
+    `blog-corydon-guide.html`, which already lists all four with matching
+    names and addresses. `last_verified` set to 2026-09-19 for all four in
+    `business-ledger.json`.
+- **New post published:** `blog-winnipeg-chinatown-guide.html` — "Winnipeg's
+  Chinatown: what's there and what to eat." A city-wide neighbourhood guide
+  to Winnipeg's Chinatown on King Street: its 1909 origins, the Winnipeg
+  Chinatown Development Corporation's 1980s redevelopment, the Chinatown
+  Arch, the Chinese Heritage Garden, and the Dynasty Building/Chinese
+  Cultural and Community Centre, with a shorter "where to eat" section on
+  Kum Koon Garden and Dim Sum Garden. No existing post covered Chinatown as
+  a neighbourhood. The queue's first several items (manitoba-museum-
+  planetarium-guide, grand-beach-day-trip, manitoba-legislative-building-
+  tour, winnipeg-performing-arts-season, oak-hammock-marsh-birding,
+  riding-mountain-national-park-trip, northern-lights-near-winnipeg) were
+  skipped again for lack of a fitting local photo (manitobamuseum.ca,
+  images.unsplash.com, upload.wikimedia.org, live.staticflickr.com,
+  images.pexels.com, cdn.pixabay.com, and commons.wikimedia.org all
+  reconfirmed unreachable from this sandbox via the agent proxy this run),
+  and winnipeg-with-kids-indoor was skipped again as a near-duplicate of
+  existing indoor/family posts. winnipeg-chinatown-guide, the queue's last
+  item, was picked instead; no local photo of Chinatown exists, and
+  `images/guidebook-winnipeg-46-exchange-district.jpg` was rejected again
+  (as on 2026-09-16) for depicting the adjacent-but-distinct Exchange
+  District. `images/restaurant-dining.jpg`, already reused across five
+  cuisine posts, was reused a sixth time with the same honest, non-specific
+  alt text, since the "where to eat" section is secondary to the post's
+  neighbourhood/history focus. This was treated as filling the
+  "neighbourhood guide" rotation slot (last used 2026-09-10) rather than
+  repeating the "food" intent from the day before. All facts were confirmed
+  by web search against the Winnipeg Architecture Foundation, SFU's Chinese
+  Canadian history project, Wikipedia, and each restaurant's own site or
+  current listings; a third candidate restaurant was dropped for address
+  ambiguity rather than guessed. Registered in `articles-data.js` and
+  `sitemap.xml`; logged in `post-ideas.md` "Used" with full reasoning.
+- **Pages updated:** `business-ledger.json` (last_verified dates). No
+  corrections needed on `blog-corydon-guide.html`. As in recent runs,
+  `blog.html`'s `blogPost` JSON-LD array, its `<noscript>` article-card
+  section, and `llms.txt`'s post count were left unmodified; those are
+  part of `CLAUDE.md`'s general post-creation checklist rather than
+  `AGENT-INSTRUCTIONS.md`'s daily-cron scope, and this cron's established
+  practice has been to leave that broader backlog for a dedicated catch-up
+  task. A `pa11y --standard WCAG2AA` check was not run against the new
+  post: headless Chrome cannot reach the network through the agent proxy in
+  this sandbox, and the URL does not exist on the live site until after
+  this run's push and redeploy. The new post reuses the same React/noscript
+  scaffolding, skip link, and semantic structure as the template post it
+  was copied from (`blog-winnipeg-middle-eastern-food-guide.html`).
+
+---
+
 ## 2026-09-18 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all

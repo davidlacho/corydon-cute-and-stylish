@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-chinatown-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-19",
+    "title": "Winnipeg's Chinatown: what's there and what to eat",
+    "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
+    "imageAlt": "The dining room of a Winnipeg restaurant",
+    "description": "A guide to Winnipeg's Chinatown on King Street: the Chinatown Arch, the Chinese Heritage Garden, the Dynasty Building, and where to get dim sum nearby.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 19, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-middle-eastern-food-guide.html",
     "category": "winnipeg",
     "date": "2026-09-18",
