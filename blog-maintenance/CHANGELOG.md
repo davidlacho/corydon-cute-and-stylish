@@ -7,6 +7,77 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-20 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-15:
+  - Peking Chinese Food Ltd. (840 Corydon Ave) — confirmed open. DoorDash,
+    a current July 2026 Yelp listing (11 reviews), Yellow Pages, and the
+    restaurant's own site (pekingmbtogo.com) all show it active with
+    posted hours; the business has reportedly served the area for over 50
+    years.
+  - Cafe 22 (823 Corydon Ave) — confirmed open. The restaurant's own site
+    (cafe22.ca), an August 2026 Yelp listing, OpenTable, and Tourism
+    Winnipeg all show it active with posted hours and a 4.3-star rating
+    from 814 reviewers.
+  - Saffron's Restaurant (681 Corydon Ave) — confirmed open. Tourism
+    Winnipeg, a July 2026 Yelp listing (24 reviews), Tripadvisor, OpenTable,
+    and the restaurant's own site all show it active.
+  - Santa Lucia Pizza (905 Corydon Ave) — confirmed open. The restaurant's
+    own site (santaluciapizza.com), Tourism Winnipeg, Tripadvisor, and
+    OpenTable all show it active with posted hours; it has operated on
+    Corydon since 1971.
+  - No closures, moves, or renames found; no corrections needed on
+    `blog-corydon-guide.html`, which already lists all four with matching
+    names and addresses. `last_verified` set to 2026-09-20 for all four in
+    `business-ledger.json`.
+- **New post published:** `blog-winnipeg-osborne-village-guide.html` —
+  "Winnipeg's Osborne Village: A Neighbourhood Guide." A city-wide
+  neighbourhood guide to Osborne Village: its status as Winnipeg's most
+  densely populated neighbourhood (roughly 12,000+ residents in 1.4 sq km),
+  its 2013 Canadian Institute of Planners "Great Neighbourhood" recognition,
+  the Gas Station Arts Centre's history from 1916 filling station to 1983
+  theatre and its ongoing role as producing home of the Winnipeg Comedy
+  Festival, and a short "coffee, brunch, and vintage finds" section on
+  Little Sister Coffee Maker, Buvette, and Old Gold Vintage Vinyl. The
+  queue's items (manitoba-museum-planetarium-guide, grand-beach-day-trip,
+  manitoba-legislative-building-tour, winnipeg-performing-arts-season,
+  oak-hammock-marsh-birding, riding-mountain-national-park-trip,
+  northern-lights-near-winnipeg) were all skipped again for lack of a
+  fitting local photo (manitobamuseum.ca, images.unsplash.com, and
+  upload.wikimedia.org reconfirmed unreachable from this sandbox via the
+  agent proxy this run), and winnipeg-with-kids-indoor was skipped again as
+  a near-duplicate of existing indoor/family posts. A fresh sweep confirmed
+  every file in `images/` is now referenced by at least one dedicated post,
+  so `images/guidebook-winnipeg-26-buvette.jpg` — a real photo of Buvette,
+  previously used only in the general `blog-best-places-nearby-winnipeg.html`
+  roundup and correctly rejected for the 2026-09-16 wine-bars post because
+  Buvette is a brunch spot, not a wine venue — was used here for its genuine
+  subject. Osborne Village is named explicitly in AGENT-INSTRUCTIONS.md's
+  neighbourhood rotation list but had never had a dedicated guide (only
+  head-to-head "vs Corydon" comparison posts existed). All facts were
+  confirmed by web search against the Winnipeg Architecture Foundation, the
+  Uniter, Tourism Winnipeg, Wikipedia, the Gas Station Arts Centre's own
+  site, and each business's own site or current listing; no 2026 event
+  dates, hours, or prices were stated, and readers are pointed to gsac.ca to
+  confirm programming. Registered in `articles-data.js` and `sitemap.xml`;
+  logged in `post-ideas.md` "Used" with full reasoning.
+- **Pages updated:** `business-ledger.json` (last_verified dates). No
+  corrections needed on `blog-corydon-guide.html`. As in recent runs,
+  `blog.html`'s `blogPost` JSON-LD array, its `<noscript>` article-card
+  section, and `llms.txt`'s post count were left unmodified; those are part
+  of `CLAUDE.md`'s general post-creation checklist rather than
+  `AGENT-INSTRUCTIONS.md`'s daily-cron scope, and this cron's established
+  practice has been to leave that broader backlog for a dedicated catch-up
+  task. A `pa11y --standard WCAG2AA` check was not run against the new post:
+  headless Chrome cannot reach the network through the agent proxy in this
+  sandbox, and the URL does not exist on the live site until after this
+  run's push and redeploy. The new post reuses the same lean React/noscript
+  scaffolding, skip link, and semantic structure as the template post it was
+  copied from (`blog-winnipeg-chinatown-guide.html`).
+
+---
+
 ## 2026-09-19 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all

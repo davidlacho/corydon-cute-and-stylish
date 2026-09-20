@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-osborne-village-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-20",
+    "title": "Winnipeg's Osborne Village: A Neighbourhood Guide",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-26-buvette.jpg",
+    "imageAlt": "Buvette, a small brunch cafe on Scott Street in Winnipeg's Osborne Village",
+    "description": "A guide to Winnipeg's Osborne Village: its density, the Gas Station Arts Centre, and where to get coffee, brunch, and vintage vinyl.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 20, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-chinatown-guide.html",
     "category": "winnipeg",
     "date": "2026-09-19",
