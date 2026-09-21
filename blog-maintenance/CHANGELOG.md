@@ -7,6 +7,87 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-21 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-16:
+  - Saperavi Georgian Cuisine (709 Corydon Ave) — confirmed open. The
+    restaurant's own order.online storefront, Tourism Winnipeg, a current
+    Yellow Pages listing, and its Facebook/Instagram all show it active with
+    posted hours (Tue-Thu 4-9pm, Fri-Sat 4-10pm, Sun 4-8:30pm, closed Monday).
+  - Starbucks (946 Corydon Ave) — confirmed open. Starbucks' own current job
+    posting for "Store# 68102, Corydon & Stafford" at this exact address,
+    Yellow Pages, Uber Eats, DoorDash, and SkipTheDishes all show it active.
+  - Sugar + Salt Bakeshoppe (897 Corydon Ave) — confirmed open. The bakery's
+    own site (sugarandsaltbakeshoppe.com), Tourism Winnipeg, and a Restaurant
+    Guru listing (4.9/5, 72 reviews) all show it active with posted hours
+    (Tue-Fri 11am-5pm, Sat 10am-4pm, closed Sun/Mon).
+  - Sunshine Chinese Restaurant (635 Corydon Ave) — confirmed open. A current
+    (September 2025) Yelp listing, the restaurant's own site
+    (winnipegsunshine.com), Tripadvisor, and Yellow Pages all show it active
+    with posted hours.
+  - No closures, moves, or renames found; no corrections needed on
+    `blog-corydon-guide.html`, which already lists all four with matching
+    names and addresses. `last_verified` set to 2026-09-21 for all four in
+    `business-ledger.json`.
+- **New post published:** `blog-winnipeg-st-vital-guide.html` — "Winnipeg's
+  St. Vital: A Neighbourhood Guide." The queue's first item,
+  manitoba-museum-planetarium-guide, was skipped again for lack of a fitting
+  local photo; manitobamuseum.ca, images.unsplash.com, and
+  upload.wikimedia.org were all reconfirmed unreachable from this sandbox via
+  the agent proxy this run (connect_rejected at the CONNECT stage). The rest
+  of the queue (grand-beach-day-trip, manitoba-legislative-building-tour,
+  winnipeg-performing-arts-season, oak-hammock-marsh-birding,
+  riding-mountain-national-park-trip, northern-lights-near-winnipeg) was
+  skipped for the same lack-of-photo reason, and winnipeg-with-kids-indoor
+  was skipped again as a near-duplicate of existing indoor/family-attraction
+  posts. A fresh sweep confirmed every local file in `images/` is already
+  referenced by at least one dedicated `blog-*.html` post, so
+  winnipeg-st-vital-guide was invented instead (not in the queue), reusing
+  `images/guidebook-winnipeg-15-harth-mozza-wine-bar.jpg`, a real photo of a
+  genuine St. Vital business (Harth Mozza & Wine Bar on St Anne's Road)
+  already anchoring `blog-winnipeg-wine-bars-guide.html`, consistent with
+  this cron's established practice of reusing real local photos across
+  thematically related posts. No existing post is a dedicated St. Vital
+  neighbourhood guide; `blog-st-vital-park.html` covers only the park, and
+  the new post links to it rather than duplicating its content. Facts (Riel
+  House at 330 River Road, built 1880-1881 for the family of Louis Riel,
+  occupied by his descendants until 1969, the site where Riel's body lay in
+  state for two days in December 1885, saved from development by the
+  Manitoba Historical Society in 1968 and now operated by Parks Canada as a
+  National Historic Site representing the Red River's Métis river-lot
+  settlement pattern; St. Vital Centre, opened October 1979, one of
+  Winnipeg's largest shopping malls; and Harth Mozza & Wine Bar's details,
+  already confirmed for the 2026-09-16 wine-bars post) were confirmed by web
+  search against Parks Canada, the Manitoba Historical Society, Wikipedia,
+  Tourism Winnipeg, and Heritage Winnipeg. No specific current-year hours,
+  prices, or Riel House opening dates were stated beyond what those sources
+  support; readers are told Parks Canada's season and hours can shift and to
+  check before visiting. This fills the "neighbourhood guide" rotation slot
+  (last used 2026-09-20, winnipeg-osborne-village-guide, the day before)
+  with a different neighbourhood; the last four Used entries (wine-bars-guide,
+  grocery-shopping-guide, middle-eastern-food-guide, chinatown-guide,
+  osborne-village-guide) were also all city-wide, so the topic-breadth ratio
+  is unaffected. Registered in `articles-data.js` and `sitemap.xml`; logged in
+  `post-ideas.md` "Used" with full reasoning.
+- **Pages updated:** `business-ledger.json` (last_verified dates). No
+  corrections needed on `blog-corydon-guide.html`. As in recent runs,
+  `blog.html`'s `blogPost` JSON-LD array, its `<noscript>` article-card
+  section, and `llms.txt`'s post count were left unmodified; those are part
+  of `CLAUDE.md`'s general post-creation checklist rather than
+  `AGENT-INSTRUCTIONS.md`'s daily-cron scope, and this cron's established
+  practice has been to leave that broader backlog for a dedicated catch-up
+  task. A `pa11y --standard WCAG2AA` check was not run against the new post:
+  headless Chrome cannot reach the network through the agent proxy in this
+  sandbox, and the URL does not exist on the live site until after this
+  run's push and redeploy. The new post reuses the same lean React/noscript
+  scaffolding, skip link, and semantic structure as the template post it was
+  copied from (`blog-winnipeg-osborne-village-guide.html`). The diff was
+  checked for pet-related words, em dashes, emoji, and CSS overrides before
+  committing; none were found.
+
+---
+
 ## 2026-09-20 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all

@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-st-vital-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-21",
+    "title": "Winnipeg's St. Vital: A Neighbourhood Guide",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-15-harth-mozza-wine-bar.jpg",
+    "imageAlt": "Wine bottles and glassware on the bar at Harth Mozza and Wine Bar in St. Vital, Winnipeg",
+    "description": "A guide to Winnipeg's St. Vital: Riel House National Historic Site, St. Vital Centre and St. Vital Park, and a St Anne's Road wine bar worth the drive.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 21, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-osborne-village-guide.html",
     "category": "winnipeg",
     "date": "2026-09-20",
