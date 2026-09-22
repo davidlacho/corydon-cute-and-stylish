@@ -2,16 +2,16 @@
 # This file helps LLMs understand the structure and content of this website
 
 # Site Information
-Site: https://staywinnipeg.ca
+- [Site](https://staywinnipeg.ca)
 Purpose: Boutique accommodation, discounted tours, and curated experiences in Winnipeg, Manitoba. Features a mid-century modern Airbnb in Winnipeg's Corydon neighborhood, plus access to discounted tours and comprehensive travel guides.
 Owner: Stay Winnipeg
 
 # Main Pages
-Home: https://staywinnipeg.ca/
-Blog: https://staywinnipeg.ca/blog.html
-Discounted Tours & Experiences: https://staywinnipeg.ca/tours-experiences.html
-Accessibility Statement: https://staywinnipeg.ca/accessibility.html
-Booking Redirect: https://staywinnipeg.ca/book-now.html
+- [Home](https://staywinnipeg.ca/)
+- [Blog](https://staywinnipeg.ca/blog.html)
+- [Discounted Tours & Experiences](https://staywinnipeg.ca/tours-experiences.html)
+- [Accessibility Statement](https://staywinnipeg.ca/accessibility.html)
+- [Booking Redirect](https://staywinnipeg.ca/book-now.html)
 
 # Content Overview
 Total Blog Posts: 111
@@ -22,97 +22,97 @@ Total Blog Posts: 111
 # Content Pages by Category
 
 ## Winnipeg Attractions & Activities (93 guides)
-- /blog-best-places-nearby-winnipeg.html - Best Places in Winnipeg (city-wide curated list of restaurants, breweries, sights, neighbourhoods, groceries; SEO title targets “best places in Winnipeg”; links to Corydon, Forks, coffee, Gunn's, Pride, etc.)
-- /blog-spacedoxa.html - spacedoxa at Graffiti Gallery: Winnipeg's Experimental Performance Home
-- /blog-el-taylor-crescentwood.html - E.L. Taylor, K.C.: The Name on the Crescentwood Map
-- /blog-winnipeg-three-city-halls.html - Winnipeg's Three City Halls: History, Archives & a Downtown Visit
-- /blog-classic107-spring-break-winnipeg.html - Classic 107's Spring Break List: Family Fun Across Winnipeg
-- /blog-winnipeg-general-strike.html - The Winnipeg General Strike: History, Bloody Saturday & the Memorial
-- /blog-winnipeg-snow-clearing-map.html - Winnipeg Snow Clearing Map: Real-Time Sidewalk & Pathway Updates
-- /blog-christmas-winnipeg.html - Things to Do in Winnipeg During Christmas & Winter Break 2026
-- /blog-24-hour-winnipeg-budget.html - 24 Hours in Winnipeg on a Budget: Complete Free & Cheap Things Itinerary 2026
-- /blog-assiniboine-park.html - Assiniboine Park & The Leaf: Zoo, Gardens & Complete Visitor Guide
-- /blog-corydon-cute-stylish-winnipeg-airbnb.html - Stay Winnipeg: Your Crescentwood Airbnb Guide
-- /blog-corydon-guide.html - Corydon Village: Little Italy Guide (Restaurants, Cafes & Things to Do)
-- /blog-crescentwood-history.html - The History of Crescentwood: Winnipeg's Most Prestigious Neighborhood
-- /blog-crescentwood-liveable.html - Best Area Winnipeg: Why Crescentwood is the Safest & Most Liveable Neighborhood
-- /blog-exchange-district.html - Exchange District: Historic Architecture, Murals & Things to Do
-- /blog-family-activities.html - Things to Do with Kids in Winnipeg: 20+ Family Activities
-- /blog-filipino-billiards-winnipeg.html - Rack 'em: Filipino Billiards Community Thriving in Winnipeg 2026
-- /blog-festival-du-voyageur.html - Festival du Voyageur: Celebrating Winnipeg's Winter Heritage
-- /blog-gunns-bakery.html - Gunn's Bakery: A Winnipeg Tradition Since 1937
-- /blog-hargrave-st-market.html - Hargrave St. Market: Winnipeg's Premier Downtown Food Hall 2026 Guide
-- /blog-human-rights-museum.html - Canadian Museum for Human Rights: A Journey of Understanding
-- /blog-indigenous-winnipeg.html - Discover Indigenous Winnipeg: A Guide for Visitors 2026
-- /blog-peanut-park.html - Peanut Park (Enderton Park), Crescentwood
-- /blog-winnipeg-pride.html - Winnipeg Pride, Rainbow Resource Centre, and LGBTQ+ History
-- /blog-rainbow-stage.html - Rainbow Stage Winnipeg's 72nd Season Recap
-- /blog-restaurants.html - Good Winnipeg Restaurants 2026: Best Dining, Hidden Gems & Local Favorites
-- /blog-river-walks.html - Best Trails in Winnipeg: River Walks, Bike Paths & Walking Routes
-- /blog-ruskin-row-residents.html - The Original Residents of Ruskin Row: Winnipeg's Historic Crescentwood Street
-- /blog-st-vital-park.html - St. Vital Park: Winnipeg's Riverside Oasis
-- /blog-the-forks.html - The Forks: Where Winnipeg's History and Culture Converge
-- /blog-things-to-do.html - Top 15 Things to Do in Winnipeg: A Complete Visitor's Guide
-- /blog-transportation.html - Getting Around Winnipeg: Complete Transportation Guide 2026
-- /blog-winnipeg-art-gallery.html - Winnipeg Art Gallery (WAG) & Qaumajuq: Hours, Tickets & Inuit Art Collection
-- /blog-winnipeg-breweries.html - Winnipeg's Beer Culture & Best Breweries 2026: Complete Craft Beer Guide
-- /blog-winnipeg-coffee.html - Best Coffee Shops in Winnipeg 2026: Specialty Coffee, Roasters & Cute Cafes
-- /blog-winnipeg-brunch-breakfast.html - Winnipeg brunch & breakfast 2026: Clementine, Marion Street Eatery, Pauline Bistro, Stella's, transit from Corydon
-- /blog-winnipeg-bakeries-artisan-bread.html - Winnipeg bakeries & artisan bread 2026: Tall Grass Prairie at The Forks, Forgotten Flavours Corydon, Gunn's, COBS Corydon
-- /blog-winnipeg-ice-cream-gelato.html - Winnipeg ice cream & gelato 2026: Bridge Drive-In, Chaeban, Eva's Gelato & Nucci's on Corydon
-- /blog-winnipeg-farmers-markets-guide.html - Winnipeg farmers' markets 2026: St. Norbert cooperative hours, Downtown Winnipeg BIZ Thursday market, Direct Farm Manitoba
-- /blog-winnipeg-pizza-guide.html - Winnipeg pizza 2026: Pizzeria Gusto, Gondola Pizza, Neon Palm, Parcel Pizza, Rebel Pizza
-- /blog-winnipeg-vietnamese-pho-guide.html - Winnipeg pho & Vietnamese food 2026: Pho Hoang, T.H. Dang, Pho Kim Tuong, Vi-Ann
-- /blog-winnipeg-cocktail-bars-lounges.html - Winnipeg cocktail bars 2026: Amsterdam Tea Room, The Roost Corydon, Patent 5 distillery Exchange
-- /blog-winnipeg-folk-festival.html - Winnipeg Folk Festival: A Summer Music Celebration
-- /blog-winnipeg-jets.html - The Winnipeg Jets: A Story of Resilience, Passion, and Hockey Heritage
-- /blog-winnipeg-blue-bombers.html - The Winnipeg Blue Bombers: A Legacy of Excellence in Canadian Football
-- /blog-winnipeg-goldeyes.html - The Winnipeg Goldeyes: A Summer Baseball Tradition in the Heart of Downtown
-- /blog-winnipeg-murals.html - Murals of Winnipeg: Complete Street Art Map & Best Instagram Spots
-- /blog-winnipeg-winter-activities.html - Things to Do in Winter in Winnipeg: Ice Skating, Festivals & Indoor Activities
-- /blog-nestaweya-river-trail.html - The Nestaweya River Trail: Winnipeg's Magical Winter Skating Experience
-- /blog-winter-driving-winnipeg.html - Winter Driving in Winnipeg: Safety Tips & What to Expect 2026
-- /blog-little-free-libraries.html - Little Free Libraries in Winnipeg: Building Community Through Book Sharing
-- /blog-winnipeg-tours.html - Best Tours in Winnipeg: Complete Guide to Guided & Self-Guided Experiences
-- /blog-winnipeg-must-sees.html - Winnipeg Must-Sees: 10 Essential Attractions You Can't Miss
-- /blog-winnipeg-event-venues.html - Planning Large Group Events in Winnipeg: Unique Venues & Complete Guide
-- /blog-winnipeg-food-trucks.html - Winnipeg Food Trucks: Your Complete Guide to Street Food Culture
-- /blog-winnipeg-best-new-food-spots.html - Winnipeg's Best New Food Spots: 22 Restaurants Competing for Top 5
-- /blog-group-dining.html - Best Restaurants for Groups in Winnipeg: Private Rooms & Large Party Dining
-- /blog-winnipeg-vegan-restaurants.html - Best Vegan Restaurants in Winnipeg: Complete Plant-Based Dining Guide
+- [Best Places in Winnipeg (city-wide curated list of restaurants, breweries, sights, neighbourhoods, groceries; SEO title targets “best places in Winnipeg”; links to Corydon, Forks, coffee, Gunn's, Pride, etc.)](https://staywinnipeg.ca/blog-best-places-nearby-winnipeg.html)
+- [spacedoxa at Graffiti Gallery: Winnipeg's Experimental Performance Home](https://staywinnipeg.ca/blog-spacedoxa.html)
+- [E.L. Taylor, K.C.: The Name on the Crescentwood Map](https://staywinnipeg.ca/blog-el-taylor-crescentwood.html)
+- [Winnipeg's Three City Halls: History, Archives & a Downtown Visit](https://staywinnipeg.ca/blog-winnipeg-three-city-halls.html)
+- [Classic 107's Spring Break List: Family Fun Across Winnipeg](https://staywinnipeg.ca/blog-classic107-spring-break-winnipeg.html)
+- [The Winnipeg General Strike: History, Bloody Saturday & the Memorial](https://staywinnipeg.ca/blog-winnipeg-general-strike.html)
+- [Winnipeg Snow Clearing Map: Real-Time Sidewalk & Pathway Updates](https://staywinnipeg.ca/blog-winnipeg-snow-clearing-map.html)
+- [Things to Do in Winnipeg During Christmas & Winter Break 2026](https://staywinnipeg.ca/blog-christmas-winnipeg.html)
+- [24 Hours in Winnipeg on a Budget: Complete Free & Cheap Things Itinerary 2026](https://staywinnipeg.ca/blog-24-hour-winnipeg-budget.html)
+- [Assiniboine Park & The Leaf: Zoo, Gardens & Complete Visitor Guide](https://staywinnipeg.ca/blog-assiniboine-park.html)
+- [Stay Winnipeg: Your Crescentwood Airbnb Guide](https://staywinnipeg.ca/blog-corydon-cute-stylish-winnipeg-airbnb.html)
+- [Corydon Village: Little Italy Guide (Restaurants, Cafes & Things to Do)](https://staywinnipeg.ca/blog-corydon-guide.html)
+- [The History of Crescentwood: Winnipeg's Most Prestigious Neighborhood](https://staywinnipeg.ca/blog-crescentwood-history.html)
+- [Best Area Winnipeg: Why Crescentwood is the Safest & Most Liveable Neighborhood](https://staywinnipeg.ca/blog-crescentwood-liveable.html)
+- [Exchange District: Historic Architecture, Murals & Things to Do](https://staywinnipeg.ca/blog-exchange-district.html)
+- [Things to Do with Kids in Winnipeg: 20+ Family Activities](https://staywinnipeg.ca/blog-family-activities.html)
+- [Rack 'em: Filipino Billiards Community Thriving in Winnipeg 2026](https://staywinnipeg.ca/blog-filipino-billiards-winnipeg.html)
+- [Festival du Voyageur: Celebrating Winnipeg's Winter Heritage](https://staywinnipeg.ca/blog-festival-du-voyageur.html)
+- [Gunn's Bakery: A Winnipeg Tradition Since 1937](https://staywinnipeg.ca/blog-gunns-bakery.html)
+- [Hargrave St. Market: Winnipeg's Premier Downtown Food Hall 2026 Guide](https://staywinnipeg.ca/blog-hargrave-st-market.html)
+- [Canadian Museum for Human Rights: A Journey of Understanding](https://staywinnipeg.ca/blog-human-rights-museum.html)
+- [Discover Indigenous Winnipeg: A Guide for Visitors 2026](https://staywinnipeg.ca/blog-indigenous-winnipeg.html)
+- [Peanut Park (Enderton Park), Crescentwood](https://staywinnipeg.ca/blog-peanut-park.html)
+- [Winnipeg Pride, Rainbow Resource Centre, and LGBTQ+ History](https://staywinnipeg.ca/blog-winnipeg-pride.html)
+- [Rainbow Stage Winnipeg's 72nd Season Recap](https://staywinnipeg.ca/blog-rainbow-stage.html)
+- [Good Winnipeg Restaurants 2026: Best Dining, Hidden Gems & Local Favorites](https://staywinnipeg.ca/blog-restaurants.html)
+- [Best Trails in Winnipeg: River Walks, Bike Paths & Walking Routes](https://staywinnipeg.ca/blog-river-walks.html)
+- [The Original Residents of Ruskin Row: Winnipeg's Historic Crescentwood Street](https://staywinnipeg.ca/blog-ruskin-row-residents.html)
+- [St. Vital Park: Winnipeg's Riverside Oasis](https://staywinnipeg.ca/blog-st-vital-park.html)
+- [The Forks: Where Winnipeg's History and Culture Converge](https://staywinnipeg.ca/blog-the-forks.html)
+- [Top 15 Things to Do in Winnipeg: A Complete Visitor's Guide](https://staywinnipeg.ca/blog-things-to-do.html)
+- [Getting Around Winnipeg: Complete Transportation Guide 2026](https://staywinnipeg.ca/blog-transportation.html)
+- [Winnipeg Art Gallery (WAG) & Qaumajuq: Hours, Tickets & Inuit Art Collection](https://staywinnipeg.ca/blog-winnipeg-art-gallery.html)
+- [Winnipeg's Beer Culture & Best Breweries 2026: Complete Craft Beer Guide](https://staywinnipeg.ca/blog-winnipeg-breweries.html)
+- [Best Coffee Shops in Winnipeg 2026: Specialty Coffee, Roasters & Cute Cafes](https://staywinnipeg.ca/blog-winnipeg-coffee.html)
+- [Winnipeg brunch & breakfast 2026: Clementine, Marion Street Eatery, Pauline Bistro, Stella's, transit from Corydon](https://staywinnipeg.ca/blog-winnipeg-brunch-breakfast.html)
+- [Winnipeg bakeries & artisan bread 2026: Tall Grass Prairie at The Forks, Forgotten Flavours Corydon, Gunn's, COBS Corydon](https://staywinnipeg.ca/blog-winnipeg-bakeries-artisan-bread.html)
+- [Winnipeg ice cream & gelato 2026: Bridge Drive-In, Chaeban, Eva's Gelato & Nucci's on Corydon](https://staywinnipeg.ca/blog-winnipeg-ice-cream-gelato.html)
+- [Winnipeg farmers' markets 2026: St. Norbert cooperative hours, Downtown Winnipeg BIZ Thursday market, Direct Farm Manitoba](https://staywinnipeg.ca/blog-winnipeg-farmers-markets-guide.html)
+- [Winnipeg pizza 2026: Pizzeria Gusto, Gondola Pizza, Neon Palm, Parcel Pizza, Rebel Pizza](https://staywinnipeg.ca/blog-winnipeg-pizza-guide.html)
+- [Winnipeg pho & Vietnamese food 2026: Pho Hoang, T.H. Dang, Pho Kim Tuong, Vi-Ann](https://staywinnipeg.ca/blog-winnipeg-vietnamese-pho-guide.html)
+- [Winnipeg cocktail bars 2026: Amsterdam Tea Room, The Roost Corydon, Patent 5 distillery Exchange](https://staywinnipeg.ca/blog-winnipeg-cocktail-bars-lounges.html)
+- [Winnipeg Folk Festival: A Summer Music Celebration](https://staywinnipeg.ca/blog-winnipeg-folk-festival.html)
+- [The Winnipeg Jets: A Story of Resilience, Passion, and Hockey Heritage](https://staywinnipeg.ca/blog-winnipeg-jets.html)
+- [The Winnipeg Blue Bombers: A Legacy of Excellence in Canadian Football](https://staywinnipeg.ca/blog-winnipeg-blue-bombers.html)
+- [The Winnipeg Goldeyes: A Summer Baseball Tradition in the Heart of Downtown](https://staywinnipeg.ca/blog-winnipeg-goldeyes.html)
+- [Murals of Winnipeg: Complete Street Art Map & Best Instagram Spots](https://staywinnipeg.ca/blog-winnipeg-murals.html)
+- [Things to Do in Winter in Winnipeg: Ice Skating, Festivals & Indoor Activities](https://staywinnipeg.ca/blog-winnipeg-winter-activities.html)
+- [The Nestaweya River Trail: Winnipeg's Magical Winter Skating Experience](https://staywinnipeg.ca/blog-nestaweya-river-trail.html)
+- [Winter Driving in Winnipeg: Safety Tips & What to Expect 2026](https://staywinnipeg.ca/blog-winter-driving-winnipeg.html)
+- [Little Free Libraries in Winnipeg: Building Community Through Book Sharing](https://staywinnipeg.ca/blog-little-free-libraries.html)
+- [Best Tours in Winnipeg: Complete Guide to Guided & Self-Guided Experiences](https://staywinnipeg.ca/blog-winnipeg-tours.html)
+- [Winnipeg Must-Sees: 10 Essential Attractions You Can't Miss](https://staywinnipeg.ca/blog-winnipeg-must-sees.html)
+- [Planning Large Group Events in Winnipeg: Unique Venues & Complete Guide](https://staywinnipeg.ca/blog-winnipeg-event-venues.html)
+- [Winnipeg Food Trucks: Your Complete Guide to Street Food Culture](https://staywinnipeg.ca/blog-winnipeg-food-trucks.html)
+- [Winnipeg's Best New Food Spots: 22 Restaurants Competing for Top 5](https://staywinnipeg.ca/blog-winnipeg-best-new-food-spots.html)
+- [Best Restaurants for Groups in Winnipeg: Private Rooms & Large Party Dining](https://staywinnipeg.ca/blog-group-dining.html)
+- [Best Vegan Restaurants in Winnipeg: Complete Plant-Based Dining Guide](https://staywinnipeg.ca/blog-winnipeg-vegan-restaurants.html)
 
-- /blog-corydon-confusion-corner-walking-guide.html - Corydon and Confusion Corner walking guide: routes, stops, and timing
-- /blog-the-forks-cmhr-day-plan.html - The Forks and CMHR in one day: market, galleries, and riverfront timing
-- /blog-assiniboine-park-zoo-leaf-guide.html - Assiniboine Park day guide: zoo, The Leaf, and nearby paths
-- /blog-exchange-district-self-guided-tour.html - Exchange District self-guided tour: architecture, coffee, and murals
-- /blog-fortwhyte-alive-visitor-guide.html - FortWhyte Alive visitor guide: bison trails, lakes, and transit access
-- /blog-osborne-village-corydon-evening-guide.html - Osborne Village and Corydon evening guide: patios, dessert, and walking routes
-- /blog-qaumajuq-wag-guide.html - Qaumajuq and WAG guide: planning an Inuit art and gallery afternoon
-- /blog-corydon-to-forks-bike-walk-guide.html - Corydon to The Forks by bike or foot: route options and stopovers
-- /blog-day-trips-near-winnipeg-from-corydon.html - Day trips near Winnipeg from Corydon: beaches, prairie towns, and parks
-- /blog-rainy-day-winnipeg-itinerary.html - Rainy day Winnipeg itinerary: indoor attractions from Corydon
+- [Corydon and Confusion Corner walking guide: routes, stops, and timing](https://staywinnipeg.ca/blog-corydon-confusion-corner-walking-guide.html)
+- [The Forks and CMHR in one day: market, galleries, and riverfront timing](https://staywinnipeg.ca/blog-the-forks-cmhr-day-plan.html)
+- [Assiniboine Park day guide: zoo, The Leaf, and nearby paths](https://staywinnipeg.ca/blog-assiniboine-park-zoo-leaf-guide.html)
+- [Exchange District self-guided tour: architecture, coffee, and murals](https://staywinnipeg.ca/blog-exchange-district-self-guided-tour.html)
+- [FortWhyte Alive visitor guide: bison trails, lakes, and transit access](https://staywinnipeg.ca/blog-fortwhyte-alive-visitor-guide.html)
+- [Osborne Village and Corydon evening guide: patios, dessert, and walking routes](https://staywinnipeg.ca/blog-osborne-village-corydon-evening-guide.html)
+- [Qaumajuq and WAG guide: planning an Inuit art and gallery afternoon](https://staywinnipeg.ca/blog-qaumajuq-wag-guide.html)
+- [Corydon to The Forks by bike or foot: route options and stopovers](https://staywinnipeg.ca/blog-corydon-to-forks-bike-walk-guide.html)
+- [Day trips near Winnipeg from Corydon: beaches, prairie towns, and parks](https://staywinnipeg.ca/blog-day-trips-near-winnipeg-from-corydon.html)
+- [Rainy day Winnipeg itinerary: indoor attractions from Corydon](https://staywinnipeg.ca/blog-rainy-day-winnipeg-itinerary.html)
 
 ## Hosting & Airbnb Philosophy (13 posts)
-- /blog-smart-tv-every-bedroom.html - Why We Added Smart TVs in Every Bedroom (why we moved from screen-free bedrooms to smart TVs in each room so groups of six can split downtime after long travel days)
-- /blog-airbnb-performance-statistics.html - The Statistics Are In: Airbnb Performance Update (Airbnb comparison data showing higher quality, ratings, and occupancy than similar listings, with lower average nightly rate and current Superhost metrics)
-- /blog-airbnb-design-lessons.html - Design Lessons from Airbnbs Around the World
-- /blog-espresso-machine-simplicity.html - When Simplicity Wins: Our Espresso Machine Lesson in Guest Preferences
-- /blog-fresh-decor-updates.html - Fresh Decor Updates: Cozy Blankets, Colorful Pillows, and Thoughtful Linen Choices
-- /blog-hosting-best-practices.html - Hosting Best Practices: What We've Learned from 14 Years
-- /blog-mattress-pillow-protectors.html - Essential Bedding Protection: Mattress and Pillow Protectors for Airbnb Hosts
-- /blog-post-review-philosophy.html - Feedback as a Gift: Our Philosophy on Continuous Improvement
-- /blog-spa-shower-upgrade.html - Upgrading to a Spa-Like Shower Experience: Our Latest Airbnb Enhancement
-- /blog-travel-perspectives-hosting.html - How 14 Years of Travel Shapes Our Hosting Approach
-- /blog-unique-airbnb-features.html - Most Memorable Airbnb Features We've Encountered
-- /blog-winnipeg-guest-guide.html - Setting Up Guests for Success: Our Complete Winnipeg Airbnb Guide
-- /blog-winnipeg-short-term-rental-compliance.html - Winnipeg Short-Term Rental Compliance: How We Follow All Rules & Stay Up to Date
+- [Why We Added Smart TVs in Every Bedroom (why we moved from screen-free bedrooms to smart TVs in each room so groups of six can split downtime after long travel days)](https://staywinnipeg.ca/blog-smart-tv-every-bedroom.html)
+- [The Statistics Are In: Airbnb Performance Update (Airbnb comparison data showing higher quality, ratings, and occupancy than similar listings, with lower average nightly rate and current Superhost metrics)](https://staywinnipeg.ca/blog-airbnb-performance-statistics.html)
+- [Design Lessons from Airbnbs Around the World](https://staywinnipeg.ca/blog-airbnb-design-lessons.html)
+- [When Simplicity Wins: Our Espresso Machine Lesson in Guest Preferences](https://staywinnipeg.ca/blog-espresso-machine-simplicity.html)
+- [Fresh Decor Updates: Cozy Blankets, Colorful Pillows, and Thoughtful Linen Choices](https://staywinnipeg.ca/blog-fresh-decor-updates.html)
+- [Hosting Best Practices: What We've Learned from 14 Years](https://staywinnipeg.ca/blog-hosting-best-practices.html)
+- [Essential Bedding Protection: Mattress and Pillow Protectors for Airbnb Hosts](https://staywinnipeg.ca/blog-mattress-pillow-protectors.html)
+- [Feedback as a Gift: Our Philosophy on Continuous Improvement](https://staywinnipeg.ca/blog-post-review-philosophy.html)
+- [Upgrading to a Spa-Like Shower Experience: Our Latest Airbnb Enhancement](https://staywinnipeg.ca/blog-spa-shower-upgrade.html)
+- [How 14 Years of Travel Shapes Our Hosting Approach](https://staywinnipeg.ca/blog-travel-perspectives-hosting.html)
+- [Most Memorable Airbnb Features We've Encountered](https://staywinnipeg.ca/blog-unique-airbnb-features.html)
+- [Setting Up Guests for Success: Our Complete Winnipeg Airbnb Guide](https://staywinnipeg.ca/blog-winnipeg-guest-guide.html)
+- [Winnipeg Short-Term Rental Compliance: How We Follow All Rules & Stay Up to Date](https://staywinnipeg.ca/blog-winnipeg-short-term-rental-compliance.html)
 
 ## Travel Experiences & Stories (5 posts)
-- /blog-bali-nyaman.html - The Stay That Became a Lifelong Friendship: Nyaman Apartments Canggu
-- /blog-budapest-caving.html - Exploring Budapest's Longest Cave: An Unforgettable Caving Adventure
-- /blog-lisbon-2015.html - The Airbnb That Shaped Our Hosting Philosophy: A 2015 Lisbon Stay
-- /blog-marseille-trip-gone-wrong.html - When Things Go Wrong: Lessons from a Marseille Airbnb Disaster
-- /blog-puerto-vallarta-stay.html - What We Learned from a Modern Puerto Vallarta Apartment
+- [The Stay That Became a Lifelong Friendship: Nyaman Apartments Canggu](https://staywinnipeg.ca/blog-bali-nyaman.html)
+- [Exploring Budapest's Longest Cave: An Unforgettable Caving Adventure](https://staywinnipeg.ca/blog-budapest-caving.html)
+- [The Airbnb That Shaped Our Hosting Philosophy: A 2015 Lisbon Stay](https://staywinnipeg.ca/blog-lisbon-2015.html)
+- [When Things Go Wrong: Lessons from a Marseille Airbnb Disaster](https://staywinnipeg.ca/blog-marseille-trip-gone-wrong.html)
+- [What We Learned from a Modern Puerto Vallarta Apartment](https://staywinnipeg.ca/blog-puerto-vallarta-stay.html)
 
 # Property Information
 Property Name: Stay Winnipeg

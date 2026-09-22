@@ -133,20 +133,23 @@ posts on the staywinnipeg.ca website.
 
 **Note:** The minified files are production-ready and maintain all functionality. Always test after regenerating minified CSS to ensure styles work correctly.
 
-### 7. React CDN Setup (Required)
+### 7. React Setup (Required)
 
-All blog posts use React via CDN, following the same approach as `index.html`. Include these scripts in the `<head>` section:
+All blog posts use React from the self-hosted copies in `/vendor/`, following the same approach as `index.html`. Include these scripts in the `<head>` section:
 
 ```html
-<!-- Load React libraries with defer for non-blocking execution -->
-<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
-<!-- Load Babel last to ensure React is ready, with defer to prevent blocking -->
-<script src="https://unpkg.com/@babel/standalone@7.26.10/babel.min.js" defer></script>
+<!-- Load React libraries with defer for non-blocking execution (self-hosted copies of React 18.3.1) -->
+<script src="/vendor/react.production.min.js" defer></script>
+<script src="/vendor/react-dom.production.min.js" defer></script>
 
 <!-- Load shared blog components -->
 <script src="/blog-components.js" defer></script>
 ```
+
+Do NOT load React from unpkg.com and do NOT load `@babel/standalone`. The unpkg URLs
+redirect (two extra round trips on the critical path) and Babel added ~650 KB and about
+two seconds of JavaScript execution on mobile. Blog post scripts use `React.createElement`
+only, so no compiler is needed; write them as `<script type="text/javascript" defer>`.
 
 ### 8. React Component Structure
 
@@ -189,7 +192,7 @@ Blog posts use React to render Navigation, Footer, and FloatingBookButton compon
     </noscript>
 
     <!-- React App for Blog Post -->
-    <script type="text/babel" defer>
+    <script type="text/javascript" defer>
         const { useState, useEffect } = React;
 
         function BlogPostApp() {
@@ -264,10 +267,38 @@ Blog posts use React to render Navigation, Footer, and FloatingBookButton compon
 - The React app script (`BlogPostApp`) MUST be included before the closing `</body>` tag
 - The `<div id="root"></div>` MUST exist in the body for React to render into
 - The noscript fallback is for users without JavaScript - it loads navigation/footer via `/load-components.js`
-- All React code uses `React.createElement` (not JSX) since we're using Babel standalone
+- All React code uses `React.createElement` (not JSX); there is no JSX compiler on blog pages
 - **Navigation and Footer will NOT show if the React app script is missing or if React fails to load**
 - Do NOT include `<div id="footer-placeholder"></div>` or `<div id="nav-placeholder"></div>` outside of the `<noscript>` tag - React handles this automatically
 - **Smooth Transitions**: The site uses smooth fade transitions to prevent content flash when React loads. The transition function (`window.hideNoscriptWhenReady`) is automatically included in all blog posts
+
+## Homepage JSX build (index.html)
+
+The homepage React app is written in JSX and lives in `src/index-app.jsx`. It is
+pre-compiled to `/app.js` (loaded by `index.html` with `defer`); the browser never
+runs Babel. **Edit `src/index-app.jsx`, never `app.js`, and rebuild after every change:**
+
+```bash
+# one-time, in a scratch directory outside the repo
+npm i @babel/core @babel/preset-react terser
+# build (run from the repo root; adjust the path to where the packages were installed)
+node -e "const b=require('@babel/core'),fs=require('fs');fs.writeFileSync('app.js',b.transformSync(fs.readFileSync('src/index-app.jsx','utf8'),{presets:[['@babel/preset-react',{runtime:'classic'}]],babelrc:false,configFile:false}).code)"
+npx terser app.js -c -m -o app.js
+```
+
+Commit `src/index-app.jsx` and `app.js` together. Notes that matter when editing it:
+
+- Hero slideshow photos are served as WebP with `srcset` (`images/<name>-800w.webp` and
+  `images/<name>-1200w.webp`, generated from the JPG with Pillow at quality ~78). When a
+  photo is added, generate both WebP sizes; the JPG stays as the `og:image` source.
+- The first photo (`...-00001.jpg`) is pinned to the front of the shuffled order because
+  `index.html` preloads its WebP; keep the `<link rel="preload">` and `HERO_SIZES` in sync.
+- Only the current, next and previous slides are fetched; do not reintroduce a
+  "load all images in the background" loop.
+- The reviews slider renders the 30 most recent reviews (`REVIEW_SLIDER_LIMIT`); all
+  reviews still ship in the JSON-LD.
+- The site is served by GitHub Pages, which ignores `_headers` and `.htaccess` and sends
+  `Cache-Control: max-age=600` for everything. Long cache lifetimes need a CDN in front.
 
 ## Content Structure Guidelines
 
@@ -474,7 +505,9 @@ After creating a new blog post, you MUST:
 
 6. ✅ Add the post to `llms.txt`
    - Update total blog post count
-   - Add entry in appropriate category section
+   - Add entry in appropriate category section as a Markdown link:
+     `- [Post Title](https://staywinnipeg.ca/blog-[topic].html)`
+     (Lighthouse's llms.txt audit requires real links; do not use the old `- /path - Title` form)
    - Update site structure counts
 
 ## Page Update Requirements
@@ -666,7 +699,7 @@ Each blog post:
 - Maintains noscript fallback for accessibility (loads nav/footer via `/load-components.js`)
 - Uses the same CDN approach as `index.html`
 - **Critical**: If Navigation/Footer don't appear, check that:
-  1. React CDN scripts are loaded in `<head>` (React, ReactDOM, Babel)
+  1. React scripts are loaded in `<head>` (`/vendor/react.production.min.js`, `/vendor/react-dom.production.min.js`)
   2. `/blog-components.js` is loaded in `<head>`
   3. The React app script (`BlogPostApp`) is present before `</body>`
   4. The `<div id="root"></div>` exists in the body

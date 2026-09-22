@@ -52,10 +52,8 @@
     <link rel="stylesheet" href="/blog-styles.css">
     
     <!-- Load React libraries with defer for non-blocking execution -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" defer></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" defer></script>
-    <!-- Load Babel last to ensure React is ready, with defer to prevent blocking -->
-    <script src="https://unpkg.com/@babel/standalone@7.26.10/babel.min.js" defer></script>
+    <script src="/vendor/react.production.min.js" defer></script>
+    <script src="/vendor/react-dom.production.min.js" defer></script>
     
     <!-- Load shared blog components -->
     <script src="/blog-components.js" defer></script>
@@ -204,7 +202,9 @@
     </script>
 
     <!-- React App for Blog Post -->
-    <script type="text/babel" defer>
+    <script type="text/javascript" defer>
+    // Runs after all deferred scripts (React, ReactDOM, blog-components.js) have executed
+    document.addEventListener('DOMContentLoaded', function () {
         // Wait for React to load, then render
         function initBlogPostApp() {
             if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
@@ -277,6 +277,7 @@
         } else {
             initBlogPostApp();
         }
+        });
     </script>
 </body>
 </html>
