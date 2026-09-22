@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-airbnb-performance-statistics.html
 - blog-assiniboine-park-zoo-leaf-guide.html
 - blog-assiniboine-park.html
 - blog-bali-nyaman.html
@@ -154,5 +153,6 @@ last because they are partly covered.
 - blog-winnipeg-vietnamese-pho-guide.html
 
 ## Swept (append: date - filename)
+- 2026-09-22 - blog-airbnb-performance-statistics.html (hosting-metrics post; names no commercial businesses, only Airbnb the platform; nothing to add)
 - 2026-09-22 - blog-airbnb-design-lessons.html (no commercial businesses named; nothing to add)
 - 2026-09-21 - blog-winnipeg-steakhouses-bbq.html

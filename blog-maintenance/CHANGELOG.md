@@ -7,6 +7,89 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-22 (cron, second run of the day)
+
+- **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is now 6),
+  all carrying the 2026-01-01 backfill date:
+  - Brazen Brewing Co. - confirmed open at 800 Pembina Hwy in Fort Rouge. Both
+    brazenbrewing.ca and brazenhall.ca are live, the Yelp listing was updated
+    August 2026 and Tripadvisor carries 2026 reviews. The brewery operates out
+    of Brazen Hall Kitchen & Brewery at that address, which matches what
+    `blog-winnipeg-breweries.html` already says ("situated in Fort Rouge"), so
+    no page correction was needed. The blank `address` was filled in.
+  - Bridge Drive-In (BDI), 766 Jubilee Ave - confirmed open. Its own site
+    (bridgedrivein.com), a Yelp listing updated July 2026, Tourism Winnipeg,
+    Tripadvisor and Yellow Pages all show it active. It is a seasonal operation
+    running roughly mid-March to October; no hours were added to the site,
+    since sources disagree on them.
+  - Buffalo Stone Cafe (FortWhyte Alive) - confirmed open. FortWhyte Alive's
+    own dining page shows the cafe operating, now served by Spruce Catering by
+    Diversity, alongside current Tourism Winnipeg and Tripadvisor listings.
+    `address` left blank: no source stated a street address for the cafe
+    itself and `blog-winnipeg-vegan-restaurants.html` does not state one.
+  - Cafe Carlo - confirmed open, **and one address corrected**. Yelp (updated
+    June 2026), Yellow Pages, order.online, DoorDash, OpenTable and a Dine
+    About Winnipeg 2026 listing all place it at 243 Lilac St; no source shows
+    any Stafford Street location, past or present. `blog-best-places-nearby-winnipeg.html`
+    had it as "243 Stafford St, Winnipeg" in both the visible link text and the
+    Google Maps query, and both were corrected to 243 Lilac St. The ledger
+    address was already correct and is unchanged.
+  - Capital K Distillery - confirmed open. capitalkdistillery.com and
+    madebymanitoba.com are both live with a Visit Us page, and Tourism
+    Winnipeg, Tripadvisor and Meetings Winnipeg all list it. Yellow Pages and
+    Canpages both give the address as 3-1680 Dublin Ave, which was added to the
+    blank `address` field. No tour price was added to the site.
+  - Cargo Bar - confirmed open for the 2026 season. Assiniboine Park
+    Conservancy's own page and Tourism Winnipeg's patio and nightlife listings
+    both show it running, a shipping-container pop-up bar on the banks of the
+    Riley Family Duck Pond in Assiniboine Park.
+    `blog-best-places-nearby-winnipeg.html` said only "Seasonal pop-up,
+    Winnipeg", which was made more useful as "Assiniboine Park, Winnipeg
+    (seasonal)" with a matching map query; the ledger `address` was filled in
+    the same way. No hours were added, since they are seasonal.
+  - No closures, moves or renames found. `last_verified` set to 2026-09-22 for
+    all six.
+- **Backfill sweep:** `blog-airbnb-performance-statistics.html` read and moved
+  to "Swept" in `ledger-sweep.md`. It is a hosting-metrics post and names no
+  commercial business, only Airbnb itself, so nothing was added to the ledger.
+- **New post published:** `blog-culture-days-winnipeg.html` - "Culture Days
+  Winnipeg 2026: Free Arts, Sept 18 to Oct 4". This is the first entry of the
+  Events queue, which takes priority over the general queue, and it is a new
+  post rather than a refresh. Written in the **host's notes** form: the
+  playbook's rotation rule bars any form used by the last three posts, and
+  those were nuit-blanche-winnipeg (question and answer) plus the st-vital and
+  osborne-village neighbourhood guides (continuous-prose explainers). Facts
+  confirmed by web search before writing: the 2026 national dates of September
+  18 to October 4 and this being the seventeenth edition; free admission with
+  an optional Pay-What-You-May contribution on some events; Culture Days
+  Manitoba Inc.'s incorporation in January 2013 and its office at 245 McDermot
+  Avenue in the Exchange District; its production of Nuit Blanche Winnipeg with
+  the Winnipeg Arts Council on September 26; and Culture Days' reservation of
+  September 30 since 2022 for National Day for Truth and Reconciliation
+  programming only. Sources were Culture Days' own national and Manitoba
+  material, Tourism Winnipeg, and regional Culture Days coverage. Weekdays
+  (Friday September 18, Wednesday September 30, Sunday October 4) and Winnipeg
+  sunset times (about 7:35pm on September 18, about 7:00pm on October 4) were
+  computed astronomically rather than sourced. No individual 2026 event, venue,
+  time or price is named anywhere in the post, because participating
+  organisations register their own events and the listings change; readers are
+  sent to culturedays.ca for the Manitoba event map. The Blue Bombers home
+  finale (October 10) and the NHL Heritage Classic (October 25) are cited as
+  booking context from the Events queue's own confirmed entries. Hero image is
+  `images/winnipeg-mural.jpg`, a real Winnipeg mural photo already used on
+  `blog-winnipeg-murals.html`, reused because public art is the subject. No new
+  ledger entries were needed: the post names no commercial business (The Forks
+  Market is referenced the same way the Nuit Blanche post references it, as
+  part of The Forks site rather than as a business).
+- **Pages changed:** new `blog-culture-days-winnipeg.html`; registered in
+  `articles-data.js`, `articles_data.json`, the `blog.html` noscript grid and
+  its JSON-LD `blogPost` array, and `sitemap.xml`. `llms.txt` regenerated with
+  `blog-maintenance/update-llms.py` (144 posts). `blog-best-places-nearby-winnipeg.html`
+  corrected for Cafe Carlo's address and Cargo Bar's location, with its
+  `sitemap.xml` `lastmod` bumped to 2026-09-22.
+
+---
+
 ## 2026-09-22 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all

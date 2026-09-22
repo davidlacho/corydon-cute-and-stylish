@@ -240,12 +240,12 @@
     },
     {
       "name": "Brazen Brewing Co.",
-      "address": "",
+      "address": "800 Pembina Hwy",
       "pages": [
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-22"
     },
     {
       "name": "Bridge Drive-In (BDI)",
@@ -254,7 +254,7 @@
         "blog-winnipeg-ice-cream-gelato.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-22"
     },
     {
       "name": "Buffalo Stone Cafe (FortWhyte Alive)",
@@ -263,7 +263,7 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-22"
     },
     {
       "name": "Café Carlo",
@@ -272,25 +272,25 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-22"
     },
     {
       "name": "Capital K Distillery",
-      "address": "",
+      "address": "3-1680 Dublin Ave",
       "pages": [
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-22"
     },
     {
       "name": "Cargo Bar",
-      "address": "",
+      "address": "Assiniboine Park (Riley Family Duck Pond)",
       "pages": [
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-22"
     },
     {
       "name": "Chaeban Ice Cream",
