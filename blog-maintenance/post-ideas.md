@@ -21,6 +21,65 @@ general.
    not default to `-near-corydon-airbnb`. Check the last four "Used" entries
    before choosing. The listing gets one short closing paragraph at most.
 
+## Events queue (PRIORITY: drain this before the general queue)
+
+Added 2026-09-21. These are Winnipeg events people search for by name, with
+dates, and we want those searches to land on a page that answers the event
+question and then offers the Crescentwood home as the place to stay. Work
+top-down, one per run, in this order (it is chronological from today). When the
+list is empty, delete this section and resume the general queue below.
+
+Rules for this queue (see "Event posts" in `AGENT-INSTRUCTIONS.md`):
+
+- Where an entry says **refresh**, an existing post already ranks for the event.
+  Update that post (dates, venue, tickets, on-sale timing, what changed this
+  year, `dateModified`, sitemap `lastmod`) instead of creating a competing page.
+  Log it under "Used" with the existing slug.
+- Facts marked **confirmed** came from the organiser or Tourism Winnipeg as of
+  2026-09-21. Everything marked **typical window** is inferred from past years:
+  write it as "usually" or "in past years", and check the organiser's site on
+  the day; if a firm 2027 date has been announced since, use it and say so.
+- Never invent ticket prices, capacities, or line-ups. Say where to check.
+
+- nuit-blanche-winnipeg - Nuit Blanche Winnipeg 2026: what to see, where, and how late it runs (confirmed: Saturday September 26, 2026, all-night contemporary art event that opens Culture Days)
+- culture-days-winnipeg - Culture Days in Winnipeg: free arts programming, late September to mid October (typical window)
+- blue-bombers-home-finale - refresh `blog-winnipeg-blue-bombers.html`: 2026 home finale Saturday October 10 vs Calgary at Princess Auto Stadium (confirmed), CFL playoffs possible early November
+- nhl-heritage-classic-winnipeg-2026 - 2026 Tim Hortons NHL Heritage Classic in Winnipeg: Jets vs Canadiens, October 25 at Princess Auto Stadium, plus the October 24 Alumni Game at Canada Life Centre (confirmed; the biggest tourist draw of the fall, write this one thoroughly: getting to the stadium, outdoor-game weather, where to eat before and after)
+- winnipeg-jets-season-guide - refresh `blog-winnipeg-jets.html`: 2026-27 regular season, Canada Life Centre, ticket sources, getting downtown from Crescentwood
+- manito-ahbee-festival - Manito Ahbee Festival 2026: Indigenous arts, music, pow wow and sports, October 30 to November 1 at Canada Life Centre (confirmed)
+- santa-claus-parade-winnipeg - Manitoba Hydro Santa Claus Parade 2026: route, timing, where to stand (confirmed: November 14, 2026)
+- canad-inns-winter-wonderland - Canad Inns Winter Wonderland: Manitoba's largest drive-through light show at Red River Ex Park (typical window: late November to early January)
+- winnipeg-holiday-markets - Winnipeg holiday markets: Third + Bird, Scattered Seeds and the rest (typical window: November and December)
+- rwb-nutcracker-winnipeg - Royal Winnipeg Ballet's Nutcracker: dates, venue, tickets (typical window: December run)
+- arctic-glacier-winter-park-forks - Arctic Glacier Winter Park at The Forks: skating, trails, when it opens (typical window: once the rivers freeze, December)
+- christmas-winter-break-winnipeg - refresh `blog-christmas-winnipeg.html` with the 2026 dates for the items above
+- new-years-eve-the-forks - New Year's Eve at The Forks: fireworks, skating, getting home after midnight (typical window: December 31)
+- winnipeg-new-music-festival - Winnipeg New Music Festival: the WSO's contemporary music week (typical window: late January)
+- warming-huts-red-river-trail - Warming Huts on the Red River Mutual Trail: the architecture competition huts at The Forks (typical window: appear late January, through February)
+- snow-maze-st-adolphe - The St. Adolphe snow maze and other ice attractions near Winnipeg (typical window: January to March, just outside the city)
+- festival-du-voyageur-2027 - refresh `blog-festival-du-voyageur.html`: February 12 to 21, 2027 in the French Quarter (confirmed), Louis Riel Day long weekend February 15
+- freeze-frame-film-festival - Freeze Frame International Film Festival for Kids (typical window: second week of March)
+- winnipeg-spring-break-guide - Spring break in Winnipeg 2027: Kids Fest programming, RMTC and RWB seasons (typical window: late March)
+- juno-awards-winnipeg-2027 - JUNO Week in Winnipeg 2027: April 1 to 4, broadcast from Canada Life Centre (confirmed), JUNO Fan Fare, JUNOfest club showcases, Songwriters' Circle; 20,000 attendees expected, so book early (write this one thoroughly)
+- winnipeg-comedy-festival - Winnipeg Comedy Festival (typical window: late April into early May; 2025 ran April 29 to May 4)
+- table-for-1200-winnipeg - Table for 1200 More: the outdoor dinner whose location is secret until the day (typical window: late May)
+- doors-open-winnipeg - Doors Open Winnipeg: buildings you can only enter this weekend (typical window: last weekend of May; 2026 was May 30 to 31)
+- pride-winnipeg-2027 - refresh `blog-winnipeg-pride.html` (typical window: late May into early June; 2026 was May 26 to June 7, parade and Forks festival on the final weekend)
+- goldeyes-sea-bears-season - refresh `blog-winnipeg-goldeyes.html` with the 2027 season opener at Blue Cross Park and add Sea Bears (CEBL) basketball
+- manitoba-electronic-music-exhibition - MEME, the Manitoba Electronic Music Exhibition (typical window: early June)
+- red-river-exhibition - The Red River Ex: Manitoba's biggest fair and midway (typical window: mid to late June)
+- winnipeg-jazz-festival - TD Winnipeg International Jazz Festival: free outdoor stages in Old Market Square (typical window: mid June; 2026 was June 16 to 21)
+- kidsfest-winnipeg - Kidsfest, the Winnipeg International Children's Festival at The Forks (typical window: early June)
+- canada-day-winnipeg - Canada Day in Winnipeg: The Forks and Osborne Village, July 1
+- winnipeg-folk-festival-2027 - refresh `blog-winnipeg-folk-festival.html`: Birds Hill Provincial Park, second weekend of July (2026 was July 9 to 12; expect about July 8 to 11, 2027, typical window)
+- winnipeg-fringe-festival-2027 - refresh `blog-winnipeg-fringe-festival-guide.html`: more than 140 plays, mid to late July (2026 was July 15 to 26, typical window)
+- winnipeg-summer-comedy-design - Winnipeg Design Festival and the Assiniboine Park outdoor comedy weekend (typical window: July)
+- folklorama-2027 - Folklorama 2027: August 1 to 14, 56th edition (confirmed), 40-plus pavilions, how the pavilion system and passports work, getting between pavilions
+- icelandic-festival-gimli - Íslendingadagurinn, the Icelandic Festival in Gimli, as a day trip from Winnipeg (typical window: August long weekend)
+- winnipeg-summer-food-festivals - Tacos and Tequila, StrEAT Feast and Winnipeg's late-summer food festivals at Blue Cross Park (typical window: late August)
+- manyfest-winnipeg - ManyFest on Broadway: food truck wars and the night market (typical window: second weekend of September)
+- reel-pride-film-festival - Reel Pride Film Festival (typical window: mid September)
+
 ## Queue (use top-down)
 
 Broad-intent Winnipeg topics, rotated across neighbourhoods, seasons, and

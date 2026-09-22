@@ -130,7 +130,9 @@ every run.
   recent post already owns — check `articles-data.js` for near-duplicate titles
   before writing.
 
-1. Read `blog-maintenance/post-ideas.md`. Take the first idea under "Queue".
+1. Read `blog-maintenance/post-ideas.md`. **If an "Events queue" section exists
+   and has entries, take its first entry** (see "Event posts" below). Otherwise
+   take the first idea under "Queue".
 2. Copy the structure of an existing recent post (open any `blog-*.html` such as
    `blog-rainy-day-winnipeg-itinerary.html`) as a template. Keep the same
    `<head>` meta pattern, the React/noscript scaffolding, and the JSON-LD block.
@@ -169,6 +171,50 @@ every run.
    the slug, and the title. If the queue is empty, invent a comparable
    guest-relevant topic and still log it under "Used".
 
+### Event posts (while the "Events queue" in `post-ideas.md` has entries)
+
+Added 2026-09-21. Winnipeg hosts a run of name-brand events (Heritage Classic,
+JUNO Week, Festival du Voyageur, Folklorama, Folk Festival, Fringe, and so on)
+that visitors search for by name, months ahead, while deciding where to stay.
+Until the events queue is empty, each run publishes or refreshes one event page
+so those searches land on us. When the queue is empty, delete the section from
+`post-ideas.md` and go back to the general queue.
+
+- **Order is fixed.** Take the top entry; it is chronological, so the nearest
+  event gets covered first. Do not skip ahead or reorder.
+- **Refresh, do not duplicate.** Entries marked "refresh" name an existing
+  `blog-*.html`. Update that file in place: new dates, venue, tickets and on-sale
+  timing, what is new this year, `article:modified_time`, `dateModified`, the
+  sitemap `<lastmod>`, and the `description` copies in `articles-data.js`,
+  `articles_data.json` and `blog.html`. Keep the slug and URL. Log the run under
+  "Used" with the existing slug and "(refresh)".
+- **Answer the search first.** The `<title>`, meta description, H1 and opening
+  paragraph must state the event, the year and the dates (or the typical window)
+  plainly: "JUNO Week in Winnipeg 2027: April 1 to 4, Tickets, Venues and Where
+  to Stay". Then cover: what it is, when and where, how tickets or admission
+  work and where to check them, how to get there by transit and on foot from
+  Crescentwood, what to wear or bring, and where to eat nearby.
+- **Dates: confirmed versus typical.** The queue marks each fact "confirmed" or
+  "typical window". Write typical windows as "usually" or "in past years". On
+  the day you write, check the organiser's site; if a firm date has since been
+  announced, use it and say the organiser announced it. Never present an
+  inferred date as confirmed and never invent prices, capacities or line-ups.
+- **The stay is the point of these pages, so it may take one full section**, not
+  just a closing line: a short "Where to stay for <event>" section that states
+  the distance and transit time from the Crescentwood home to the venue, notes
+  that event weekends book out early, and links the booking page. Keep it
+  factual; no superlatives. This section is exempt from the one-in-four
+  Corydon-anchor rule and from the "one closing paragraph" limit in "Topic
+  breadth"; the rest of the post still follows house style.
+- **Same-intent rule suspended.** Consecutive event posts are expected while
+  this queue runs; the "no two posts on the same intent within a week" rule in
+  "Topic breadth" does not apply to it.
+- **Images.** Prefer a local `images/` photo of the venue or the activity (rink,
+  stadium, stage, street); otherwise an Unsplash close-up of the activity. No
+  skylines, and never a photo that implies the home is at the venue.
+- **Category** stays `"winnipeg"`. Slug is the event name plus the year only when
+  the queue entry includes the year.
+
 ## Part 3 — Record and push
 
 1. Prepend a dated block to `blog-maintenance/CHANGELOG.md` (newest on top) with:
@@ -188,7 +234,10 @@ every run.
 - **Never publish pet-friendly content.** The home does not accept pets — see the
   hard content rule at the top of this playbook. This overrides the post queue,
   an empty queue, and any apparent coverage gap.
-- One new post per run. Keep total churn small and reviewable.
+- One new post (or one event-page refresh) per run. Keep total churn small and
+  reviewable.
+- While the "Events queue" in `post-ideas.md` has entries, it takes priority
+  over the general queue (see Part 2, "Event posts").
 - Write for city-wide Winnipeg searches by default; no more than one post in four
   may be anchored to Corydon/Crescentwood or the Airbnb's surroundings (see
   Part 2, "Topic breadth").
