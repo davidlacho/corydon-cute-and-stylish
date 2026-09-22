@@ -112,7 +112,6 @@ last because they are partly covered.
 - blog-winnipeg-snow-clearing-map.html
 - blog-winnipeg-spring-river-thaw.html
 - blog-winnipeg-st-vital-guide.html
-- blog-winnipeg-steakhouses-bbq.html
 - blog-winnipeg-three-city-halls.html
 - blog-winnipeg-thrift-vintage-shopping.html
 - blog-winnipeg-transit-basics-getting-downtown-from-corydon.html
@@ -156,3 +155,4 @@ last because they are partly covered.
 
 ## Swept (append: date - filename)
 - 2026-09-22 - blog-airbnb-design-lessons.html (no commercial businesses named; nothing to add)
+- 2026-09-21 - blog-winnipeg-steakhouses-bbq.html

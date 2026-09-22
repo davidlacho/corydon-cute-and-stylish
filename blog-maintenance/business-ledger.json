@@ -540,7 +540,8 @@
       "name": "Hy's Steakhouse",
       "address": "",
       "pages": [
-        "blog-group-dining.html"
+        "blog-group-dining.html",
+        "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
       "last_verified": "2026-01-01"
@@ -1140,6 +1141,69 @@
       "address": "",
       "pages": [
         "blog-winnipeg-ramen-japanese-guide.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "529 Wellington",
+      "address": "529 Wellington Cres",
+      "pages": [
+        "blog-winnipeg-steakhouses-bbq.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-09-21"
+    },
+    {
+      "name": "Rae & Jerry's",
+      "address": "",
+      "pages": [
+        "blog-winnipeg-steakhouses-bbq.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Chop Steakhouse & Bar",
+      "address": "",
+      "pages": [
+        "blog-winnipeg-steakhouses-bbq.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "The Keg",
+      "address": "",
+      "pages": [
+        "blog-winnipeg-steakhouses-bbq.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Danny's Whole Hog BBQ & Smokehouse",
+      "address": "",
+      "pages": [
+        "blog-winnipeg-steakhouses-bbq.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Smokin' Hawg BBQ",
+      "address": "",
+      "pages": [
+        "blog-winnipeg-steakhouses-bbq.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Carnaval Brazilian BBQ",
+      "address": "",
+      "pages": [
+        "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
       "last_verified": "2026-01-01"
