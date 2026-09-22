@@ -520,19 +520,19 @@ Also update `"aggregateRating.ratingValue"` only when the user explicitly provid
 
 ### 1. Update review data in `index.html` JSON-LD (`LodgingBusiness`)
 
-- Add each new review object to the top of the `"review"` array (most recent first).
+- Add each new **5-star** review object to the top of the `"review"` array (most recent first). Reviews rated below 5 are counted but never added; see "Only 5-star reviews" below.
 - Fields: `author.name`, `datePublished` (`YYYY-MM-DD`), `reviewBody`, `reviewRating.ratingValue`.
 - Keep review text factual and preserve guest wording unless the user asks for edits.
 - Increment `"aggregateRating.reviewCount"` by 1 per new review.
 - Update `"aggregateRating.ratingValue"` only when explicitly provided.
 - The homepage React reviews carousel and Guest favourite badge read from this JSON-LD automatically — no separate React edits needed for review count display.
 
-#### Excluded review (never add to the site)
+#### Only 5-star reviews go in the `"review"` array
 
-- **Cheryl, 1 star, published around 2026-09-10 (reservation Sep 8–16, 2026; review begins "We actually didn't stay because…").** NEVER add this review object, its text, or any excerpt of it to `index.html` or any other file on the site. The owner removed it deliberately on 2026-09-19 so it stays out of search results and the homepage carousel.
-- The review still counts toward the totals: it is included in `"aggregateRating.reviewCount"`, the `"X guest reviews"` copy, and the total in `llms.txt`. It is a 1-star review, so it does not count toward the 5-star tally.
-- As a result, the `"review"` array in `index.html` holds **one fewer object than `reviewCount`** (118 objects at a count of 119). This gap is intentional. When reconciling against the Airbnb profile, treat this review as already accounted for and do not "restore" it as a missing entry.
-- This is a different guest from the two earlier 5-star reviewers named Cheryl, whose reviews stay in the array.
+- **Add a review object to the `"review"` array ONLY when its rating is 5.** Reviews rated 1 to 4 stars are never added to `index.html` or any other file on the site, in full, truncated, or excerpted. The owner set this rule on 2026-09-21 so that lower-rated review text stays out of search results and the homepage carousel.
+- Lower-rated reviews still count toward the totals: include them in `"aggregateRating.reviewCount"`, the `"X guest reviews"` copy, and the total in `llms.txt`. Only 5-star reviews increment the 5-star tally.
+- As a result, the number of objects in the `"review"` array equals the **5-star count** in `llms.txt` and is smaller than `reviewCount` (109 objects at a count of 119 as of 2026-09-21). This gap is intentional. When reconciling against the Airbnb profile, do not "restore" lower-rated reviews as missing entries.
+- One specific case to watch: **Cheryl, 1 star, published around 2026-09-10 (reservation Sep 8–16, 2026; review begins "We actually didn't stay because…")**. Never add it. This is a different guest from the two earlier 5-star reviewers named Cheryl, whose reviews stay in the array.
 
 ### 2. Sync all public-facing count references
 
@@ -582,7 +582,7 @@ Before finishing, confirm:
 - [ ] `articles-data.js` and `articles_data.json` Corydon descriptions match `blog.html` and the blog post
 - [ ] `llms.txt` documents both 5-star and total counts
 - [ ] New review objects appear at the top of the `"review"` array in `index.html`
-- [ ] The excluded Cheryl 1-star review (see "Excluded review" above) is absent from every file
+- [ ] No review object rated below 5 exists in the `"review"` array (`grep -c '"ratingValue": "[1-4]"' index.html` returns 0)
 
 ## Content Categories
 

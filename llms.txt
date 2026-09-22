@@ -215,5 +215,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
-September 19, 2026
+September 21, 2026
 
