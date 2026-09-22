@@ -527,6 +527,13 @@ Also update `"aggregateRating.ratingValue"` only when the user explicitly provid
 - Update `"aggregateRating.ratingValue"` only when explicitly provided.
 - The homepage React reviews carousel and Guest favourite badge read from this JSON-LD automatically — no separate React edits needed for review count display.
 
+#### Excluded review (never add to the site)
+
+- **Cheryl, 1 star, published around 2026-09-10 (reservation Sep 8–16, 2026; review begins "We actually didn't stay because…").** NEVER add this review object, its text, or any excerpt of it to `index.html` or any other file on the site. The owner removed it deliberately on 2026-09-19 so it stays out of search results and the homepage carousel.
+- The review still counts toward the totals: it is included in `"aggregateRating.reviewCount"`, the `"X guest reviews"` copy, and the total in `llms.txt`. It is a 1-star review, so it does not count toward the 5-star tally.
+- As a result, the `"review"` array in `index.html` holds **one fewer object than `reviewCount`** (118 objects at a count of 119). This gap is intentional. When reconciling against the Airbnb profile, treat this review as already accounted for and do not "restore" it as a missing entry.
+- This is a different guest from the two earlier 5-star reviewers named Cheryl, whose reviews stay in the array.
+
 ### 2. Sync all public-facing count references
 
 Search the repo for the old total (`"X guest reviews"`, `reviewCount": "X"`) and 5-star count before finishing. Every match below must use the new numbers.
@@ -575,6 +582,7 @@ Before finishing, confirm:
 - [ ] `articles-data.js` and `articles_data.json` Corydon descriptions match `blog.html` and the blog post
 - [ ] `llms.txt` documents both 5-star and total counts
 - [ ] New review objects appear at the top of the `"review"` array in `index.html`
+- [ ] The excluded Cheryl 1-star review (see "Excluded review" above) is absent from every file
 
 ## Content Categories
 
