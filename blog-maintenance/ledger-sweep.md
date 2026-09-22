@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-airbnb-design-lessons.html
 - blog-airbnb-performance-statistics.html
 - blog-assiniboine-park-zoo-leaf-guide.html
 - blog-assiniboine-park.html
@@ -156,4 +155,4 @@ last because they are partly covered.
 - blog-winnipeg-vietnamese-pho-guide.html
 
 ## Swept (append: date - filename)
-
+- 2026-09-22 - blog-airbnb-design-lessons.html (no commercial businesses named; nothing to add)

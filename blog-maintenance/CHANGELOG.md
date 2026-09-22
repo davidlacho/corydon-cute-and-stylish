@@ -69,6 +69,45 @@ recent entries to avoid repeating work.
   `articles_data.json`; `sitemap.xml` (new entry plus `blog.html` lastmod);
   `llms.txt`, regenerated with `blog-maintenance/update-llms.py` as the updated
   playbook now requires (143 posts: 125 winnipeg, 13 hosting, 5 travel).
+- **Second pass after the mid-run ledger change.** While this run was in
+  progress the owner pushed `4cc5411`, which backfilled the ledger to 123
+  businesses with a `pages` array, raised `rotation_batch_size` to 6, and added
+  two duties (a ledger entry for every business the new post names, and one
+  archive post swept per run). Part 1 above had already been done against the
+  20-entry ledger, so the run was brought up to the new spec:
+  - **Six more businesses verified**, the stalest under the new ledger (all
+    dated `2026-01-01`, the unverified backfill date). All six confirmed open,
+    none closed, moved, or renamed:
+    - Amsterdam Tea Room and Bar (103-211 Bannatyne Ave) - open. Own site,
+      Tourism Winnipeg, Tripadvisor, and a Yelp listing updated August 2026.
+      Ledger address left as the posts state it.
+    - Bailey's Restaurant & Bar - open at 185 Lombard Ave. Own site
+      (baileysprimedining.com), OpenTable, Tourism Winnipeg, Tripadvisor, and a
+      Yelp listing updated February 2026. Blank `address` filled in.
+    - Barn Hammer Brewing Company - open at 595 Wall St in the West End. Own
+      site (barnhammerbrewing.ca), Tourism Winnipeg, and a Yelp listing updated
+      March 2026. Blank `address` filled in.
+    - Bison Bus Tours - running. It is FortWhyte Alive's own pre-booked bison
+      prairie tour rather than an independent operator, listed by FortWhyte
+      Alive, Tourism Winnipeg and Travel Manitoba with 2026 dates. `address`
+      filled in as FortWhyte Alive's 1961 McCreary Rd.
+    - Bistro on Notre Dame - open at 784 Notre Dame Ave. Own site, Tourism
+      Winnipeg's Indigenous restaurant guide, the Manitoba Metis Federation,
+      Indigenous Tourism Manitoba, and Travel Manitoba.
+    - Black Market Provisions - open at 550 Osborne St. Own site
+      (blackmarketwpg.com), Tourism Winnipeg, and a Yelp listing updated
+      August 2026. Blank `address` filled in.
+  - **New-post ledger duty: nothing to add.** The Nuit Blanche post names no
+    commercial business. Everything it names is an institution, a public venue
+    or a landmark (Old Market Square, The Forks and The Forks Market, Canada
+    Life Centre, Manitoba Hydro Place, the Winnipeg Art Gallery, Esplanade
+    Riel), which step 6 excludes; no individual restaurant or food-hall vendor
+    is named, deliberately, because the post states no hours or prices.
+  - **Archive sweep:** `blog-airbnb-design-lessons.html`, the first entry under
+    "Not yet swept". It names no commercial business at all (the stays it
+    describes are unnamed Airbnbs in Tokyo, Melbourne, Copenhagen, Palm
+    Springs, Paris, Barcelona and Lisbon), so nothing was added to the ledger.
+    Moved to "Swept" with today's date.
 - **Known drift, not fixed this run:** `blog.html` now carries 88 noscript
   article cards and 88 JSON-LD `blogPost` entries against 143 posts in
   `articles-data.js`, so 55 published posts are missing from
