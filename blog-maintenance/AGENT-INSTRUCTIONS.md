@@ -78,6 +78,97 @@ Content and copy:
 - Left-align headings. No centred section title with an underline bar beneath it,
   and no italic centred tagline under the heading.
 
+## Writing — vary the form so the archive does not read as one machine
+
+A daily post written to the same template, in the same cadence, with the same
+openers, is what a search engine's scaled-content filter is built to spot, and
+it is what readers skim past. Google does not penalise machine-written text as
+such; it demotes pages that add nothing a reader could not get elsewhere and
+that arrive in bulk looking identical. The defence is specificity and variety.
+Every post must carry facts a visitor cannot get from the organiser's own page
+(what the walk from the bus stop is like, which entrance has the shorter line,
+what the wind does on that block in February), and no two consecutive posts may
+share a shape.
+
+### Pick the post's form before writing, by rule, not by habit
+
+Read the "Used" list in `post-ideas.md` and note the form of the last three
+posts (record the form in the "Used" entry from now on, e.g.
+`2026-09-22 - nuit-blanche-winnipeg - Nuit Blanche ... (form: walk)`). Choose a
+form that none of the last three used:
+
+- **walk**: a route in order, written as movement through the place; time and
+  distance between stops; no bullet lists.
+- **question and answer**: five to eight questions a visitor actually types,
+  each answered in a short paragraph; no other headings.
+- **one-day plan**: hour by hour, with the trade-offs stated (what you give up
+  by choosing this order).
+- **ranked short list**: five to seven entries, each a single tight paragraph
+  with a reason for its rank; nothing else.
+- **explainer**: how the thing works (the pavilion passport system, the river
+  trail's freeze rules, the transit fare), written as continuous prose with at
+  most two headings.
+- **host's notes**: first person plural, the voice of the people who run the
+  house and have been to the event; opinions allowed, hedged facts not.
+- **comparison**: two or three options set against each other on the axes a
+  visitor cares about (cost, time, weather exposure, kids).
+
+Vary within the form as well: some posts open with a scene, some with the
+practical answer, some with a date; some run 500 words, some 1,200; some use a
+single `.info-box`, most use none. Never end with a heading called Conclusion,
+Final Thoughts, Wrapping Up, or Plan Your Visit, and never open with "Winnipeg
+is known for" or "Whether you're a … or a …".
+
+### Sentence-level tells to remove before committing
+
+Run these greps over your new or changed HTML and rewrite every hit:
+
+```
+grep -n -i -E "isn't just|not just|more than just|it's worth noting|it is worth|no discussion|plays a vital|a testament|vibrant|nestled|bustling|hidden gem|must-visit|must-see|breathtaking|stunning|rich (history|heritage|tapestry)|whether you're|in conclusion|overall,|delve|elevate|seamless|unforgettable|immerse|boasts|offers something for everyone|look no further|ultimate guide|treasure trove|cozy up|embrace" blog-<slug>.html
+grep -n -E "—" blog-<slug>.html
+```
+
+Also check for these patterns, which a grep will not catch:
+
+- Every paragraph the same length, every sentence the same length. Cut one
+  sentence to four words somewhere; let another run long.
+- A bolded lead-in followed by a sentence that restates it ("**Parking:**
+  Parking is available"). Either drop the bold or say something new.
+- Three-item lists by reflex ("food, drink and fun"). Use two items or four.
+- A trailing "-ing" clause manufacturing significance ("… making it a perfect
+  choice for families"). Delete it.
+- Attribution to nobody ("many visitors say", "locals know"). Name the source
+  or cut the claim.
+- The same closing move as the previous post (the how-to-get-there-from-
+  Crescentwood paragraph in the same words). Rewrite it for this event; put it
+  earlier in the post one time in three.
+- Headings that could sit on any post ("Getting There", "What to Expect",
+  "Tips for Visitors"). Make headings specific to the subject or drop them.
+
+### Specificity is the real signal
+
+Before publishing, confirm the post contains at least three of: a street name
+with a direction; a price or admission rule with the organiser named as the
+source; a transit route number; a time span in minutes for a walk; a named
+building, stage, gate or rink; a weather or daylight fact for that month in
+Winnipeg. If it does not, the post is not ready.
+
+## Run budget — keep each run short and predictable
+
+The run should finish in well under an hour of agent time. To keep it there:
+
+- Read only what the run needs: this playbook, `post-ideas.md`, the ledger, the
+  last three `CHANGELOG.md` entries, one recent post as a template, and the
+  pages you are actually editing. Do not read the whole archive or run
+  repo-wide searches except the greps named in this playbook.
+- Web search only for the businesses in this run's batch and for the facts in
+  the one post you are writing. One or two well-chosen sources per fact; stop
+  when you have a source, do not keep collecting.
+- Write the post in one pass, then do one editing pass against the checks above.
+  Do not redraft the whole post more than once.
+- Run `pa11y` on the one or two pages you changed, not the sitemap.
+- One commit at the end of the run.
+
 ## Part 1 — Verify a rotating batch of businesses (do NOT check them all)
 
 1. Read `blog-maintenance/business-ledger.json`. Sort businesses by
@@ -167,8 +258,12 @@ every run.
      post is actually about.
    - Add a `<url>` entry for the new page to `sitemap.xml` with today's
      `<lastmod>`.
+   - Complete the rest of the post-creation checklist in `CLAUDE.md`: the same
+     entry in `articles_data.json`, the `<noscript>` card and the JSON-LD
+     `blogPost` entry in `blog.html`, and a Markdown link line in `llms.txt`.
 5. Move the used idea from "Queue" to "Used" in `post-ideas.md` with today's date,
-   the slug, and the title. If the queue is empty, invent a comparable
+   the slug, the title, and the form you chose (`(form: walk)` etc., see
+   "Writing" above). If the queue is empty, invent a comparable
    guest-relevant topic and still log it under "Used".
 
 ### Event posts (while the "Events queue" in `post-ideas.md` has entries)
