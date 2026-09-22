@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-nuit-blanche-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-09-22",
+    "title": "Nuit Blanche Winnipeg 2026: September 26, Free All Night",
+    "image": "https://staywinnipeg.ca/images/exchange-district-pepsi.jpg",
+    "imageAlt": "A vintage Pepsi-Cola mural painted on a heritage building in Winnipeg's Exchange District",
+    "description": "Nuit Blanche Winnipeg 2026 runs Saturday September 26, 6pm to midnight, free across four zones: downtown, the Exchange District, The Forks and St. Boniface.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 22, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-st-vital-guide.html",
     "category": "winnipeg",
     "date": "2026-09-21",

@@ -7,6 +7,79 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-22 (cron)
+
+- **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
+  last checked 2026-09-17:
+  - Sushi Ya (659 Corydon Ave) - confirmed open. Its own order.online
+    storefront, a Yellow Pages listing for Sushiya Ltd at this address, Apple
+    Maps, and a current Restaurantji listing (276 reviews) all show it active
+    with posted hours. Platforms disagree on the exact hours, so none were
+    added to the site.
+  - The Cheesemongers Fromagerie (839 Corydon Ave) - confirmed open. The shop's
+    own site (thecheesemongers.ca), Tourism Winnipeg, and a Yelp listing
+    updated July 2026 all show it active at this address with posted hours.
+  - The Mighty Kiwi Juice Bar & Eatery (709 Corydon Ave, Unit 1) - confirmed
+    open. Its own site (themightykiwi.ca), Tourism Winnipeg, DoorDash,
+    order.online, and a Yelp listing updated November 2025 all show it active.
+    One delivery platform showed online ordering closed at the time of
+    checking, which reflects that platform's ordering window rather than a
+    closure, so the status was left unchanged. Note the shared street number
+    with Saperavi Georgian Cuisine, also at 709 Corydon and verified open on
+    2026-09-21; the Mighty Kiwi is Unit 1 in the same building.
+  - The Roost (651 Corydon Ave, Unit 2) - confirmed open. Its own site
+    (theroostwpg.com), Tourism Winnipeg's patio listing, Tripadvisor, a Yelp
+    listing updated February 2026, and Yellow Pages all show it active, a
+    cocktail bar with small plates and a rooftop patio operating since 2015.
+  - No closures, moves, or renames found; no corrections needed on
+    `blog-corydon-guide.html`. `last_verified` set to 2026-09-22 for all four
+    in `business-ledger.json`.
+- **New post published:** `blog-nuit-blanche-winnipeg.html` - "Nuit Blanche
+  Winnipeg 2026: September 26, Free All Night." This is the first entry of the
+  Events queue in `post-ideas.md`, which takes priority over the general queue,
+  and it is a new post rather than a refresh. Written in the **question and
+  answer** form: the playbook's rotation rule bars a form used by any of the
+  last three posts, and st-vital-guide, osborne-village-guide and
+  chinatown-guide were all continuous-prose neighbourhood guides. Eight
+  questions, no other headings. Facts confirmed by web search before writing:
+  the date and hours (Saturday September 26, 2026, 6pm to midnight), free
+  admission, the four zones (downtown, the Exchange District, The Forks, St.
+  Boniface), the free Winnipeg Transit shuttle linking them, and the Illuminate
+  the Night funded stream placing outdoor installations in the Exchange
+  District with four projects backed at $2,500 each in 2026, all from Nuit
+  Blanche Winnipeg's own listings and open call, Tourism Winnipeg and Culture
+  Days; the event's 2010 debut as a Culture Days Manitoba project at the
+  Winnipeg Art Gallery, and its last-Saturday-of-September or
+  first-Saturday-of-October placement, from CBC and Border Crossings. The D19
+  Corydon route's terminal on Kennedy Street just south of Portage Avenue, in
+  effect since the June 21, 2026 summer schedule, came from the City of
+  Winnipeg's own transit service announcements. Sunset on September 26, 2026
+  (about 7:20pm CDT) was computed astronomically rather than sourced. No ticket
+  prices, line-ups, venue hours or last-bus times were stated; readers are sent
+  to nuitblanchewinnipeg.ca for the zone map, shuttle route and venue list, and
+  to Winnipeg Transit's trip planner for the last trip home. Hero image is
+  `images/exchange-district-pepsi.jpg`, a real heritage-building mural in the
+  Exchange District, the zone where the funded outdoor installations go
+  (previously used once, on `blog-winnipeg-fringe-festival-guide.html`). Per
+  the event-post rules the "where to stay" section is a full section rather
+  than a closing line, which is exempt from the one-in-four Corydon-anchor
+  rule.
+- **Pages changed:** new `blog-nuit-blanche-winnipeg.html`; `blog.html`
+  (noscript card and JSON-LD `blogPost` entry); `articles-data.js`;
+  `articles_data.json`; `sitemap.xml` (new entry plus `blog.html` lastmod);
+  `llms.txt`, regenerated with `blog-maintenance/update-llms.py` as the updated
+  playbook now requires (143 posts: 125 winnipeg, 13 hosting, 5 travel).
+- **Known drift, not fixed this run:** `blog.html` now carries 88 noscript
+  article cards and 88 JSON-LD `blogPost` entries against 143 posts in
+  `articles-data.js`, so 55 published posts are missing from
+  the no-JavaScript fallback and from the blog index's structured data. This is
+  the same drift that `llms.txt` had before `update-llms.py` was added. It
+  predates this run and is too large to fold into a daily commit, but it wants
+  the same treatment: a generator that rebuilds both blocks from
+  `articles-data.js`.
+
+---
+
 ## 2026-09-21 (cron)
 
 - **Verified 4 businesses** (the stalest batch, `rotation_batch_size` 4), all
