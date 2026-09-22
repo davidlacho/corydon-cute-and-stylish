@@ -503,12 +503,14 @@ After creating a new blog post, you MUST:
    </url>
    ```
 
-6. ✅ Add the post to `llms.txt`
-   - Update total blog post count
-   - Add entry in appropriate category section as a Markdown link:
-     `- [Post Title](https://staywinnipeg.ca/blog-[topic].html)`
-     (Lighthouse's llms.txt audit requires real links; do not use the old `- /path - Title` form)
-   - Update site structure counts
+6. ✅ Regenerate `llms.txt`
+   - Run `python3 blog-maintenance/update-llms.py` from the repo root. It rebuilds the
+     "Content Overview" and "Content Pages by Category" sections from `articles-data.js`
+     (every post as a Markdown link, newest first), updates the post counts under
+     "Site Structure", and sets "Last Updated" to today.
+   - Do not edit the post lists by hand; the script is the source of truth for them.
+     Other sections of `llms.txt` (property facts, review counts, keywords) are still
+     edited by hand.
 
 ## Page Update Requirements
 

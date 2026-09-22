@@ -259,8 +259,15 @@ every run.
    - Add a `<url>` entry for the new page to `sitemap.xml` with today's
      `<lastmod>`.
    - Complete the rest of the post-creation checklist in `CLAUDE.md`: the same
-     entry in `articles_data.json`, the `<noscript>` card and the JSON-LD
-     `blogPost` entry in `blog.html`, and a Markdown link line in `llms.txt`.
+     entry in `articles_data.json`, and the `<noscript>` card and the JSON-LD
+     `blogPost` entry in `blog.html`.
+   - **Regenerate `llms.txt`** by running `python3 blog-maintenance/update-llms.py`
+     from the repo root. It rebuilds the post lists and counts from
+     `articles-data.js` and stamps today's date. Run it on every run that adds,
+     retitles, or refreshes a post (a refresh changes the title or description
+     in `articles-data.js`, so the file must be regenerated then too). Never edit
+     the post lists in `llms.txt` by hand; they were 56 posts behind by
+     2026-09-21 because they were.
 5. Move the used idea from "Queue" to "Used" in `post-ideas.md` with today's date,
    the slug, the title, and the form you chose (`(form: walk)` etc., see
    "Writing" above). If the queue is empty, invent a comparable
