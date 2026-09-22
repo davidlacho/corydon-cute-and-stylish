@@ -181,11 +181,30 @@ The run should finish in well under an hour of agent time. To keep it there:
    with hours, a recent review, a "permanently closed" flag, an active or dead
    official site, or a news item. If you cannot determine status, treat it as
    unchanged and note "unverified" — do not guess.
-4. If a business has closed, moved, or been renamed, update the relevant `page`
-   (e.g. `blog-corydon-guide.html`): remove or correct the entry. If you find a
-   clearly notable NEW business in the same area and scope, you may add it.
+4. If a business has closed, moved, or been renamed, update **every** page listed
+   in its `pages` array: remove or correct the entry on each one. If you find a
+   clearly notable NEW business in the same area and scope, you may add it (and
+   it then needs a ledger entry, see step 6).
 5. Set `last_verified` to today's date for every business you checked (whether or
-   not it changed), and update its `status` if it changed.
+   not it changed), update its `status` if it changed, and fill in `address` if
+   it was blank and your source states one. Entries dated `2026-01-01` were
+   backfilled from the archive on 2026-09-21 without verification; they sort to
+   the front of the rotation on purpose.
+6. **Every business the site names must be in the ledger.** Two duties each run:
+   - For the post you publish or refresh in Part 2, add a ledger entry for every
+     commercial business it names (restaurant, café, bar, brewery, distillery,
+     shop, market, bakery, spa, tour operator, club, food-hall vendor) that is
+     not already there: `name`, `address` if the post states it (else `""`),
+     `pages` containing the post's filename, `status: "open"`, `last_verified`
+     set to today (you just sourced it). If the business is already in the
+     ledger, append the new filename to its `pages`. Institutions (museums,
+     parks, festivals, government sites) do not go in the ledger.
+   - **Backfill sweep, one post per run:** open `blog-maintenance/ledger-sweep.md`,
+     take the first filename under "Not yet swept", read that post, add any
+     businesses it names that the ledger lacks (as above, but with
+     `last_verified: "2026-01-01"` since you did not verify them), and move the
+     filename to "Swept" with today's date. When "Not yet swept" is empty, skip
+     this duty.
 
 ## Part 2 — Publish one fresh, guest-relevant post
 

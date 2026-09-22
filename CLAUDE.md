@@ -503,7 +503,18 @@ After creating a new blog post, you MUST:
    </url>
    ```
 
-6. ✅ Regenerate `llms.txt`
+6. ✅ Add every commercial business the post names to `blog-maintenance/business-ledger.json`
+   - Restaurants, cafés, bars, breweries, distilleries, shops, markets, bakeries, spas, tour
+     operators, clubs and food-hall vendors all count; museums, parks, festivals and
+     government sites do not.
+   - New entry: `name`, `address` (only if the post states it, else `""`), `pages` with this
+     post's filename, `status: "open"`, `last_verified` today. If the business already has an
+     entry, append this filename to its `pages`.
+   - The daily agent verifies the stalest entries in rotation and corrects every page in
+     `pages` when a business closes or moves, so an unlisted business is one that will
+     silently go stale on the site.
+
+7. ✅ Regenerate `llms.txt`
    - Run `python3 blog-maintenance/update-llms.py` from the repo root. It rebuilds the
      "Content Overview" and "Content Pages by Category" sections from `articles-data.js`
      (every post as a Markdown link, newest first), updates the post counts under
