@@ -7,6 +7,92 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-23 (cron)
+
+- **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is 6), all
+  carrying the 2026-01-01 backfill date:
+  - Chaeban Ice Cream, 390 Osborne St - confirmed open. Its own site
+    (chaebanicecream.com) is live, the Yelp listing was updated July 2026 with
+    current hours, and Tourism Winnipeg, Tripadvisor and Food & Beverage
+    Manitoba all carry active listings. Address already correct in the ledger
+    and on `blog-winnipeg-ice-cream-gelato.html`; no page change needed.
+  - Chaise Cafe & Lounge - confirmed open at 271 Provencher Blvd in St.
+    Boniface. chaisecafe.com is live, the Yelp listing was updated June 2026,
+    and Sirved, RestaurantGuru and Wanderlog all show current menus and hours.
+    The blank `address` was filled in. `blog-group-dining.html` states no
+    address for it, so nothing on the page needed correcting.
+  - Cho Ichi Ramen, 1151 Pembina Hwy - confirmed open. Tourism Winnipeg, a Yelp
+    listing updated August 2026, Tripadvisor and the restaurant's own Facebook
+    and Instagram all show it operating daily. Address already correct.
+  - Cibo Waterfront Cafe - confirmed open at 339 Waterfront Drive.
+    cibowaterfrontcafe.com is live with a current menu, the Yelp listing was
+    updated August 2026, and OpenTable, Tripadvisor and Tourism Winnipeg all
+    list it. The blank `address` was filled in; `blog-group-dining.html` states
+    no address, so no page change was needed.
+  - Clay Oven Restaurant - confirmed open. clayoven.ca is live and shows four
+    Winnipeg locations (Kenaston, Downtown at Blue Cross Park, McPhillips and
+    the Edmonton St express counter), corroborated by OpenTable, Yelp and
+    Tripadvisor. `blog-group-dining.html` refers to the Blue Cross Park
+    location specifically, so the blank `address` was filled in as 1 Portage
+    Ave E to match what the page names. No page change needed.
+  - Clementine Cafe, 123 Princess St - confirmed open. clementinewinnipeg.com
+    is live and was posting 2026 closure notices for specific days, the Yelp
+    listing was updated September 2026, and Tourism Winnipeg, Tripadvisor and
+    Restaurantji all carry current listings. Address already correct.
+  - No closures, moves or renames found. `last_verified` set to 2026-09-23 for
+    all six, and three blank addresses filled in.
+- **Backfill sweep:** `blog-assiniboine-park-zoo-leaf-guide.html` read and moved
+  to "Swept" in `ledger-sweep.md`. It is a short planning guide to Assiniboine
+  Park, the zoo and The Leaf and names no commercial business, only the park
+  attractions themselves, which are out of ledger scope. Nothing was added.
+- **Post refreshed:** `blog-winnipeg-blue-bombers.html`, retitled "Blue Bombers
+  Home Finale 2026: October 10 vs Calgary". This is the first entry of the
+  Events queue and was marked "refresh", so the existing page was updated in
+  place and the slug and URL kept. Written as an **explainer** in continuous
+  prose: the playbook's rotation rule bars any form used by the last three
+  posts, which were culture-days-winnipeg (host's notes), nuit-blanche-winnipeg
+  (question and answer) and winnipeg-st-vital-guide (neighbourhood guide).
+- **One factual error corrected on the page.** The 2025 version placed Princess
+  Auto Stadium "in Winnipeg's Polo Park area" in four passages. That describes
+  the demolished Canad Inns Stadium; the current building is at 315 Chancellor
+  Matheson Road on the University of Manitoba's Fort Garry campus, roughly
+  eight kilometres away. The refreshed post says so directly and tells readers
+  to search the Chancellor Matheson address rather than Polo Park.
+- **Facts confirmed by web search before writing:** the October 10, 2026 6 p.m.
+  kickoff against Calgary and its status as the home finale (Winnipeg is at
+  Edmonton October 17 and at BC October 23, with the regular season ending
+  October 24); the Bombers at 7-6 and fourth in the West as of mid-September
+  2026, behind Edmonton 10-4, Saskatchewan 8-5 and BC 7-6, with Calgary 5-7;
+  the CFL's published playoff dates of October 31 division semi-finals,
+  November 7 division finals, and the 113th Grey Cup on November 15 at McMahon
+  Stadium in Calgary; the stadium's May 26, 2013 opening, its 32,343 capacity
+  and the two canopies covering more than 80% of seats; Winnipeg Transit's BLUE
+  rapid transit line, the free Park and Rides at Seel and Clarence Stations,
+  the $3.25 cash fare, and the X-prefixed extra buses that leave Stadium
+  Station Gate 4 after events and do not appear in Navigo; and the club's own
+  parking guidance (University Crescent and Chancellor Matheson entries,
+  pre-purchase recommended, $50 fine or tow in reserved lots). Sunset on
+  October 10, 2026 (about 6:48 p.m. CDT) was computed astronomically rather
+  than sourced. No ticket prices, capacities or line-ups were invented; the
+  post sends readers to bluebombers.com and cfl.ca to confirm.
+- **House style:** the whole body was rewritten to remove tells the 2025
+  original carried ("more than just a football team", "a testament to",
+  "must-see", "Whether you're a lifelong fan", and "rich history" in the meta
+  description). The playbook greps for stock phrases and em dashes both return
+  clean, and the pet-word grep returns nothing.
+- **Pages changed:** `blog-winnipeg-blue-bombers.html` (title, meta, Open Graph,
+  Twitter, JSON-LD, visible date and the full body), `articles-data.js`,
+  `articles_data.json`, `blog.html` (noscript card and JSON-LD `blogPost`
+  entry), `sitemap.xml` (`lastmod` 2026-09-23), `llms.txt` (regenerated with
+  `update-llms.py`), `business-ledger.json`, `ledger-sweep.md` and
+  `post-ideas.md`. `datePublished` stays 2025-12-08 because this is a refresh
+  rather than a new publication; `article:modified_time`, `dateModified`, the
+  visible meta line and the sitemap `lastmod` all move to 2026-09-23.
+- **Ledger:** Cho Ichi Ramen is the one commercial business the refreshed post
+  names, and `blog-winnipeg-blue-bombers.html` was appended to its `pages`.
+
+---
+
 ## 2026-09-22 (cron, second run of the day)
 
 - **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is now 6),
