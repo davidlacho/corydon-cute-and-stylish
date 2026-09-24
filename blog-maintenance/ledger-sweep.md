@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-assiniboine-park.html
 - blog-bali-nyaman.html
 - blog-beat-the-heat-near-corydon-airbnb.html
 - blog-budapest-caving.html
@@ -152,6 +151,7 @@ last because they are partly covered.
 - blog-winnipeg-vietnamese-pho-guide.html
 
 ## Swept (append: date - filename)
+- 2026-09-24 - blog-assiniboine-park.html (an overview of Assiniboine Park, The Leaf, the zoo and the gardens; the only named places are the park's own attractions (Leo Mol Sculpture Garden, Lyric Theatre, the Pavilion, Journey to Churchill), which are institutions rather than commercial businesses, so nothing was added)
 - 2026-09-23 - blog-assiniboine-park-zoo-leaf-guide.html (a short planning guide to Assiniboine Park, the zoo and The Leaf; it names no commercial business, only the park attractions themselves, which are run by the Assiniboine Park Conservancy and are out of ledger scope; nothing to add)
 - 2026-09-22 - blog-airbnb-performance-statistics.html (hosting-metrics post; names no commercial businesses, only Airbnb the platform; nothing to add)
 - 2026-09-22 - blog-airbnb-design-lessons.html (no commercial businesses named; nothing to add)

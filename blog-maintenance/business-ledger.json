@@ -315,7 +315,8 @@
       "address": "1151 Pembina Hwy",
       "pages": [
         "blog-winnipeg-ramen-japanese-guide.html",
-        "blog-winnipeg-blue-bombers.html"
+        "blog-winnipeg-blue-bombers.html",
+        "blog-nhl-heritage-classic-winnipeg-2026.html"
       ],
       "status": "open",
       "last_verified": "2026-09-23"
@@ -350,31 +351,31 @@
       "last_verified": "2026-09-23"
     },
     {
-      "name": "Confusion Corner Bar and Grill",
+      "name": "Confusion Corner Drinks + Food",
       "address": "500 Corydon Ave",
       "pages": [
         "blog-best-corydon-patios.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-24"
     },
     {
-      "name": "Cory Common Bakery",
-      "address": "",
+      "name": "COBS Bread (Tuxedo Park)",
+      "address": "132-2025 Corydon Ave",
       "pages": [
         "blog-winnipeg-bakeries-artisan-bread.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-24"
     },
     {
       "name": "Deer + Almond",
-      "address": "",
+      "address": "85 Princess St",
       "pages": [
         "blog-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-24"
     },
     {
       "name": "Devil May Care Brewing Company",
@@ -1166,12 +1167,12 @@
     },
     {
       "name": "Chop Steakhouse & Bar",
-      "address": "",
+      "address": "1750 Sargent Ave",
       "pages": [
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-24"
     },
     {
       "name": "The Keg",
@@ -1184,12 +1185,12 @@
     },
     {
       "name": "Danny's Whole Hog BBQ & Smokehouse",
-      "address": "",
+      "address": "Highway 67, Stony Mountain area (pickup and catering only)",
       "pages": [
         "blog-winnipeg-steakhouses-bbq.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "moved",
+      "last_verified": "2026-09-24"
     },
     {
       "name": "Smokin' Hawg BBQ",
@@ -1202,12 +1203,12 @@
     },
     {
       "name": "Carnaval Brazilian BBQ",
-      "address": "",
+      "address": "270 Waterfront Dr",
       "pages": [
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-24"
     }
   ]
 }

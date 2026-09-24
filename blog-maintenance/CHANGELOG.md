@@ -7,6 +7,106 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-24 (cron)
+
+- **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is 6), all
+  carrying the 2026-01-01 backfill date:
+  - Carnaval Brazilian BBQ - confirmed open at 270 Waterfront Dr.
+    carnavalrestaurant.ca is live, the Yelp listing was updated August 2026, and
+    Tourism Winnipeg, OpenTable, Tripadvisor and Yellow Pages all carry current
+    listings. The blank `address` was filled in;
+    `blog-winnipeg-steakhouses-bbq.html` states no address, so no page change
+    was needed.
+  - Chop Steakhouse & Bar - confirmed open at 1750 Sargent Ave, in the Sandman
+    Hotel & Suites Winnipeg Airport. chop.ca carries a live Winnipeg Airport
+    location page and menu, the Yelp listing was updated August 2026, and
+    OpenTable, RestaurantGuru and the hotel's own dining page agree. The blank
+    `address` was filled in; the page states no address, so nothing on it
+    needed correcting.
+  - Confusion Corner Bar and Grill - open at 500 Corydon Ave, but **renamed**.
+    Its own site is ccdrinksandfood.com and Tourism Winnipeg, Yelp (updated
+    August 2026) and its Facebook page all now carry "Confusion Corner Drinks +
+    Food". The ledger entry was renamed and
+    `blog-best-corydon-patios.html` updated to the current name. The rooftop
+    patio detail on that page is still accurate.
+  - Cory Common Bakery - **the ledger entry and the page were both wrong.** COBS
+    Bread's "Cory Common" bakery is in Saskatoon, not Winnipeg;
+    `blog-winnipeg-bakeries-artisan-bread.html` linked to that Saskatoon page
+    and described it as being "on Corydon". The COBS bakery actually on Corydon
+    Avenue is the Tuxedo Park location at 2025 Corydon Ave in the Tuxedo Park
+    Shopping Centre (cobsbread.com/local-bakery/tuxedo-park-winnipeg, Canpages,
+    Yellow Pages, its own Facebook page). The page now names and links the
+    Tuxedo Park bakery and gives the address; the ledger entry was renamed to
+    "COBS Bread (Tuxedo Park)" with that address.
+  - Danny's Whole Hog BBQ & Smokehouse - **no longer a Winnipeg restaurant.**
+    The only current listing, Stony Mountain on Highway 67, is flagged CLOSED on
+    Yelp as of June 2026; the business's own shop.dannyswholehog.ca sells
+    ready-to-serve smoked meats for pickup and delivery from that Highway 67
+    kitchen, and its Facebook page is registered in Stonewall. Nothing current
+    supports the Ellice Avenue dining room the site described.
+    `blog-winnipeg-steakhouses-bbq.html` no longer recommends it as a
+    restaurant: the barbecue paragraph now leads with Smokin' Hawg and says
+    plainly that Danny's is pickup, delivery and catering only, and the
+    highlight box no longer lists it as a ten-minute drive. Ledger `status` set
+    to `moved`.
+  - Deer + Almond - confirmed open at 85 Princess St in the Exchange District.
+    The Yelp listing was updated June 2026, Tourism Winnipeg and Tripadvisor
+    carry current listings, and reservations are live on Tock. The blank
+    `address` was filled in; `blog-restaurants.html` states no address, so no
+    page change was needed.
+  - `last_verified` set to 2026-09-24 for all six.
+- **One more factual correction while in the area:** yesterday's Blue Bombers
+  refresh quoted the Winnipeg Transit cash fare as $3.25. The City's 2026 fare
+  page lists $3.45 cash and $3.10 with peggo e-cash, so
+  `blog-winnipeg-blue-bombers.html` was corrected.
+- **Backfill sweep:** `blog-assiniboine-park.html` read and moved to "Swept" in
+  `ledger-sweep.md`. It names only the park's own attractions (Leo Mol Sculpture
+  Garden, the Lyric Theatre, the Pavilion, Journey to Churchill, The Leaf),
+  which are institutions rather than commercial businesses, so nothing was
+  added to the ledger.
+- **New post:** `blog-nhl-heritage-classic-winnipeg-2026.html`, "Heritage
+  Classic 2026 Winnipeg: Jets vs Canadiens, Oct 25". This is the first entry of
+  the Events queue and was not marked "refresh", so it is a new page. Written as
+  a **one-day plan**, hour by hour with the trade-offs stated; the playbook's
+  rotation rule bars any form used by the last three posts, which were
+  winnipeg-blue-bombers (explainer), culture-days-winnipeg (host's notes) and
+  nuit-blanche-winnipeg (question and answer).
+- **Facts sourced before writing:** Sunday October 25, 2026 at Princess Auto
+  Stadium, 315 Chancellor Matheson Rd on the U of M Fort Garry campus, Jets vs
+  Canadiens, puck drop listed at 6 p.m.; the eighth Heritage Classic and the
+  second at this stadium, the October 2016 edition drawing 33,240 for a 3-0
+  Edmonton win; the alumni game Saturday October 24 at 6:30 p.m. at Canada Life
+  Centre with Wheeler, Ladd, Byfuglien, Little and Perreault named; the general
+  on-sale through Ticketmaster at 10 a.m. CT on March 24, 2026 after Pinnacle
+  Club and Blue Bombers season ticket presales; Winnipeg Transit's BLUE line on
+  the Southwest Transitway, the free park and ride lots at Seel and Clarence
+  stations, extra BLUE, F8, F9 and 74 service for stadium events, the X74, XF8
+  and XBLUE game-day expresses, post-event buses from Stadium Station at Gate 4,
+  and the 2026 fares above; late-October sunset just after 6 p.m. and October
+  averages near 10C by day and 3C at night. No ticket prices, gate times or
+  line-ups were invented; the post says where to check each.
+- **Image:** no photo in `images/` shows hockey, ice or a stadium, so the post
+  reuses the hockey rink photo already in use on `blog-winnipeg-jets.html`
+  rather than an unverified new Unsplash URL. No skyline.
+- **Registered:** `articles-data.js`, `articles_data.json`, the `blog.html`
+  noscript card and JSON-LD `blogPost` array, `sitemap.xml` (new entry plus
+  `<lastmod>` bumped for `blog.html`, `blog-winnipeg-steakhouses-bbq.html`,
+  `blog-best-corydon-patios.html`, `blog-winnipeg-blue-bombers.html` and
+  `blog-winnipeg-bakeries-artisan-bread.html`), and `llms.txt` regenerated with
+  `blog-maintenance/update-llms.py` (145 posts). Cho Ichi Ramen, the one
+  commercial business the new post names, already had a ledger entry, so the new
+  filename was appended to its `pages`.
+- **pa11y:** all six changed pages checked against WCAG2AA and all six pass with
+  no issues: the new Heritage Classic post, `blog.html`,
+  `blog-winnipeg-steakhouses-bbq.html`, `blog-best-corydon-patios.html`,
+  `blog-winnipeg-bakeries-artisan-bread.html` and
+  `blog-winnipeg-blue-bombers.html`. They were served from a local static server
+  because the new page is not on staywinnipeg.ca until this push deploys;
+  `pa11y` needed `executablePath` pointed at the sandbox's Chromium and
+  `--no-sandbox`, since its bundled Chrome is not installed here.
+
+---
+
 ## 2026-09-23 (cron)
 
 - **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is 6), all

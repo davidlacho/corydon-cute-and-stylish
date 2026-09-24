@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-nhl-heritage-classic-winnipeg-2026.html",
+    "category": "winnipeg",
+    "date": "2026-09-24",
+    "title": "Heritage Classic 2026 Winnipeg: Jets vs Canadiens, Oct 25",
+    "image": "https://images.unsplash.com/photo-1545471977-94cac22e71ed?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "A hockey rink and seating bowl under stadium lights",
+    "description": "The 2026 NHL Heritage Classic is Sunday, October 25 at Princess Auto Stadium: Jets vs Canadiens, 6 p.m. Tickets, transit, the cold, and how to plan the day.",
+    "metaHtml": "<span>Winnipeg Sports</span>\n                                <span>7 min read</span>\n                                <span>September 24, 2026</span>"
+  },
+  {
     "url": "/blog-culture-days-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-09-22",
