@@ -379,16 +379,16 @@
     },
     {
       "name": "Devil May Care Brewing Company",
-      "address": "",
+      "address": "155-A Fort St",
       "pages": [
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-25"
     },
     {
       "name": "Eva's Gelato & Coffee Bar",
-      "address": "",
+      "address": "1001 Corydon Ave",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
         "blog-family-friendly-stops-near-corydon.html",
@@ -396,7 +396,7 @@
         "blog-winnipeg-ice-cream-gelato.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-25"
     },
     {
       "name": "Feast Café Bistro",
@@ -406,34 +406,35 @@
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-25"
     },
     {
       "name": "Foodfare",
-      "address": "",
+      "address": "247 Lilac St",
       "pages": [
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-25"
     },
     {
       "name": "Fools & Horses Coffee",
-      "address": "",
+      "address": "242 Hargrave St (Hargrave St. Market)",
       "pages": [
-        "blog-winnipeg-coffee.html"
+        "blog-winnipeg-coffee.html",
+        "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-25"
     },
     {
       "name": "Fort Garry Brewing Company",
-      "address": "",
+      "address": "130 Lowson Cres",
       "pages": [
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-25"
     },
     {
       "name": "French Way Café",
@@ -1209,6 +1210,60 @@
       ],
       "status": "open",
       "last_verified": "2026-09-24"
+    },
+    {
+      "name": "Milk & Madu (Canggu)",
+      "address": "",
+      "pages": [
+        "blog-bali-nyaman.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Milu by Nook (Canggu)",
+      "address": "",
+      "pages": [
+        "blog-bali-nyaman.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Cafe Cinta (Canggu)",
+      "address": "",
+      "pages": [
+        "blog-bali-nyaman.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Baked (Canggu)",
+      "address": "",
+      "pages": [
+        "blog-bali-nyaman.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Finns Beach Club (Canggu)",
+      "address": "",
+      "pages": [
+        "blog-bali-nyaman.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Atlas Beach Club (Canggu)",
+      "address": "",
+      "pages": [
+        "blog-bali-nyaman.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
     }
   ]
 }

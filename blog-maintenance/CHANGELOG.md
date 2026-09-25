@@ -7,6 +7,104 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-25 (cron)
+
+- **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is 6), all
+  carrying the 2026-01-01 backfill date:
+  - Devil May Care Brewing Company - confirmed open at 155-A Fort St. The
+    brewery's own taproom page at devilmaycarebrewing.com carries current hours
+    (the domain is blocked from this sandbox, but it is indexed with those hours
+    and the Fort Street address), the Yelp listing was updated July 2026,
+    and Tourism Winnipeg, Tripadvisor and Canada's Craft Beer Map all carry the
+    Fort Street address. The blank `address` was filled in;
+    `blog-winnipeg-event-venues.html` describes it only as an event space and
+    states no address, so no page change was needed.
+  - Eva's Gelato & Coffee Bar - confirmed open at 1001 Corydon Ave. evasgelato.com
+    carries a live Corydon Avenue hours page, the Yelp listing was updated August
+    2026, and Tourism Winnipeg, Yellow Pages and SkipTheDishes agree. The blank
+    `address` was filled in; `blog-winnipeg-ice-cream-gelato.html` already gives
+    1001 Corydon Avenue, so nothing needed correcting.
+  - Feast Cafe Bistro - confirmed open at 587 Ellice Ave. Its own site lists
+    Tuesday to Saturday, 11 a.m. to 10 p.m., closed Sunday and Monday, which is
+    what `blog-indigenous-winnipeg.html` already states; the Yelp listing was
+    updated June 2026 and OpenTable reservations are live. A third-party
+    aggregator showed different hours, and the restaurant's own site was taken as
+    the source. No change.
+  - Foodfare - confirmed open. The chain is still running its Winnipeg stores,
+    including 247 Lilac St, the one `blog-best-places-nearby-winnipeg.html`
+    names and maps; that Yelp listing was updated June 2026, and the Portage
+    Avenue, Maryland Street and Cavalier Drive stores are also current. The blank
+    `address` was filled in with the Lilac Street location.
+  - Fools & Horses Coffee - open, but **one location has closed.** The Broadway
+    shop at 379 Broadway is flagged CLOSED on Yelp; the counters still running
+    are in Hargrave St. Market (242 Hargrave St), The Forks Market (Yelp listing
+    updated March 2026, plus the market's own dining page) and at the La Coste
+    garden centre. `blog-winnipeg-coffee.html` named no location at all, which
+    left readers nowhere to go, so a sentence was added naming the two central
+    ones and saying the Broadway shop is closed. The ledger entry gained the
+    Hargrave Street address and `blog-hargrave-st-market.html`, which also names
+    the business, was appended to its `pages`.
+  - Fort Garry Brewing Company - confirmed open at 130 Lowson Cres. The Yelp
+    listing was updated July 2026, and Tourism Winnipeg, Manitoba Liquor Marts'
+    retail brewer directory and the brewery's own Facebook page are all current.
+    The blank `address` was filled in; `blog-winnipeg-breweries.html` states no
+    address and describes only the brewery's history, so no page change was
+    needed.
+  - `last_verified` set to 2026-09-25 for all six, and five blank addresses
+    filled in.
+- **Backfill sweep:** `blog-bali-nyaman.html` read and moved to "Swept" in
+  `ledger-sweep.md`. It is a travel story about a stay in Canggu, Bali; the
+  cafes and beach clubs it names in passing (Milk & Madu, Milu by Nook, Cafe
+  Cinta, Baked, Finns Beach Club, Atlas Beach Club) were added to the ledger
+  with the 2026-01-01 backfill date, since they were not verified this run and
+  the post states no addresses.
+- **Refreshed post:** `blog-winnipeg-jets.html`, retitled "Winnipeg Jets
+  2026-27: Tickets, Schedule and Game Nights". This is the first entry of the
+  Events queue and is marked "refresh", so the existing page was rewritten in
+  place and the slug and URL kept. Written as **question and answer**, eight
+  questions with no other headings; the playbook's rotation rule bars any form
+  used by the last three posts, which were nhl-heritage-classic-winnipeg-2026
+  (one-day plan), winnipeg-blue-bombers (explainer) and culture-days-winnipeg
+  (host's notes). The old page was a 2025 franchise history whose Heritage
+  Classic half now duplicated yesterday's new post; those sections were dropped
+  and replaced with a link to it.
+- **Facts sourced before writing:** the 84-game 2026-27 regular season, the
+  first at that length; the home opener Friday October 2 against Boston at
+  Canada Life Centre, 300 Portage Ave, followed by Detroit on October 4; six
+  straight games away from Canada Life Centre between January 28 and February
+  15, split by the nine-day break for the 2027 All-Star Game from February 4 to
+  12; the season's longest homestand, six games from March 1 to 13; the Dallas
+  back-to-back on December 19 and 20 as the last home dates before the Christmas
+  break, Toronto on March 11, and Edmonton on April 7 as the Oilers' only visit;
+  the alumni game on October 24 and the Heritage Classic on October 25 at
+  Princess Auto Stadium (nhl.com/jets schedule release and the club's own
+  six-games-not-to-miss preview). Ticketmaster is True North's official
+  marketplace, with single games, four and six-game packs and the Jets Passport;
+  no prices were quoted. Gates open an hour before puck drop and bags are
+  restricted to small sizes with no bag check on site (Jets fan FAQ). Parking:
+  the True North Square parkade with its Hargrave Street entrance and a walkway
+  to the arena, Cityplace at Hargrave and St. Mary, and the downtown walkway
+  lots; rates vary by event, so the arena's own parking page is cited rather
+  than a number. Transit: the BLUE line from Osborne Village along Portage
+  Avenue, at the 2026 fare of $3.45 cash or $3.10 with peggo e-cash.
+- **Image:** the existing rink close-up was kept. The only local arena-adjacent
+  photo, `guidebook-winnipeg-40-true-north-square.jpg`, is a downtown
+  glass-tower cluster and is barred by the house style guardrail on skylines.
+- **Registration updated for the retitle:** `articles-data.js`,
+  `articles_data.json`, the `<noscript>` card and the JSON-LD `blogPost` entry in
+  `blog.html` (title, description, meta line, image alt, `dateModified`), the
+  page's own `article:modified_time` and `dateModified`, `sitemap.xml`
+  `<lastmod>` for the Jets page, `blog.html` and `blog-winnipeg-coffee.html`, and
+  `llms.txt` regenerated with `update-llms.py` (145 posts).
+- **pa11y:** the three changed pages checked against WCAG2AA, all with no
+  issues: `blog-winnipeg-jets.html`, `blog-winnipeg-coffee.html` and
+  `blog.html`. Served from a local static server because the rewritten Jets page
+  is not on staywinnipeg.ca until this push deploys; `pa11y` needed
+  `executablePath` pointed at the sandbox's Chromium at /opt/pw-browsers and
+  `--no-sandbox`, since its bundled Chrome is not installed here.
+
+---
+
 ## 2026-09-24 (cron)
 
 - **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is 6), all

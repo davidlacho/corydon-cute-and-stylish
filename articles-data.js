@@ -856,11 +856,11 @@ const ARTICLES_DATA = [
     "url": "/blog-winnipeg-jets.html",
     "category": "winnipeg",
     "date": "2025-12-08",
-    "title": "The Winnipeg Jets: A Story of Resilience, Passion, and Hockey Heritage",
+    "title": "Winnipeg Jets 2026-27: Tickets, Schedule and Game Nights",
     "image": "https://images.unsplash.com/photo-1545471977-94cac22e71ed?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "imageAlt": "Hockey rink and stadium atmosphere",
-    "description": "Explore the rich history of the Winnipeg Jets, from their WHA origins to NHL return, and discover why the 2026 Heritage Classic at Princess Auto Stadium is perfectly positioned for hockey fans.",
-    "metaHtml": "<span>Sports History</span>\n                                <span>10 min read</span>\n                                <span>December 8, 2025</span>"
+    "imageAlt": "A hockey rink and seating bowl under arena lights",
+    "description": "The Jets' 2026-27 season at Canada Life Centre: the October 2 home opener, an 84-game schedule, where tickets come from, and getting downtown from Crescentwood.",
+    "metaHtml": "<span>Winnipeg Sports</span>\n                                <span>8 min read</span>\n                                <span>Updated September 25, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-blue-bombers.html",
