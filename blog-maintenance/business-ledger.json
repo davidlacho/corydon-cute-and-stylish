@@ -96,7 +96,8 @@
       "name": "Sugar + Salt Bakeshoppe",
       "address": "897 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-beat-the-heat-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-21"
@@ -132,7 +133,8 @@
       "name": "The Mighty Kiwi Juice Bar & Eatery",
       "address": "709 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-beat-the-heat-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-22"
@@ -150,7 +152,8 @@
       "name": "Thom Bargen Coffee Roasters",
       "address": "743 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-beat-the-heat-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-18"
@@ -438,13 +441,13 @@
     },
     {
       "name": "French Way Café",
-      "address": "",
+      "address": "238 Lilac St, Winnipeg",
       "pages": [
         "blog-best-breakfast-brunch-near-corydon-airbnb.html",
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-26"
     },
     {
       "name": "Fusian Sushi (The Forks Market)",
@@ -453,7 +456,7 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-26"
     },
     {
       "name": "Gondola Pizza",
@@ -524,7 +527,8 @@
       "address": "242 Hargrave St",
       "pages": [
         "blog-hargrave-st-market.html",
-        "blog-winnipeg-breweries.html"
+        "blog-winnipeg-breweries.html",
+        "blog-manito-ahbee-festival.html"
       ],
       "status": "open",
       "last_verified": "2026-01-01"
@@ -1231,39 +1235,39 @@
     },
     {
       "name": "Cafe Cinta (Canggu)",
-      "address": "",
+      "address": "Pererenan, Bali",
       "pages": [
         "blog-bali-nyaman.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "moved",
+      "last_verified": "2026-09-26"
     },
     {
       "name": "Baked (Canggu)",
-      "address": "",
+      "address": "Jl. Pantai Batu Bolong No. 38, Canggu, Bali",
       "pages": [
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-26"
     },
     {
       "name": "Finns Beach Club (Canggu)",
-      "address": "",
+      "address": "Jl. Pantai Berawa No. 99, Canggu, Bali",
       "pages": [
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-26"
     },
     {
       "name": "Atlas Beach Club (Canggu)",
-      "address": "",
+      "address": "Jl. Pantai Berawa No. 88, Tibubeneng, North Kuta, Bali",
       "pages": [
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-26"
     }
   ]
 }

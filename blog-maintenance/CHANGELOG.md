@@ -7,6 +7,79 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-26 (cron)
+
+- **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is 6), all
+  carrying the 2026-01-01 backfill date. Four of them are the Canggu businesses
+  added to the ledger by yesterday's sweep of `blog-bali-nyaman.html`; they sort
+  to the front alphabetically within the backfill tier, so they came up first:
+  - Atlas Beach Club (Canggu) - confirmed open at Jl. Pantai Berawa No. 88,
+    Tibubeneng. Current 2026 listings (Tripadvisor, Traveloka, the club's own
+    atlasbeachfest.com) carry daily hours of noon to midnight, with the Super
+    Club running from 9 p.m. The blank `address` was filled in.
+  - Baked (Canggu) - confirmed open at Jl. Pantai Batu Bolong No. 38, daily
+    7 a.m. to 7 p.m., per its Tripadvisor listing and several 2026 Bali bakery
+    guides. The blank `address` was filled in.
+  - Cafe Cinta (Canggu) - **moved.** The Berawa shop closed and the business
+    reopened in Pererenan, open 8 a.m. to 11 p.m.; a second Berawa location is
+    under renovation with a 2026 reopening announced. Status set to `moved` and
+    the address recorded as Pererenan. **No page change was needed:**
+    `blog-bali-nyaman.html` is a past-tense travel story that lists Cinta among
+    cafes the writer walked to and never states an address or a neighbourhood
+    for it, so nothing on the page is now wrong.
+  - Finns Beach Club (Canggu) - confirmed open at Jl. Pantai Berawa No. 99,
+    11 a.m. to midnight daily except Nyepi, per finnsbeachclub.com and current
+    Tripadvisor reviews. The blank `address` was filled in.
+  - French Way Cafe - confirmed open at 238 Lilac St. The Yelp listing was
+    updated July 2026 and frenchwaycafe.com carries the hours, which match what
+    `blog-best-breakfast-brunch-near-corydon-airbnb.html` already states (hot
+    breakfast 8 a.m. to 3 p.m. Tuesday to Saturday, 9 a.m. to 3 p.m. Sunday).
+    `blog-best-places-nearby-winnipeg.html` also gives 238 Lilac St. No page
+    change. The blank `address` was filled in.
+  - Fusian Sushi (The Forks Market) - confirmed open at 1 Forks Market Rd. The
+    Yelp listing was updated March 2026 and The Forks' own dining directory
+    still lists it. `blog-winnipeg-vegan-restaurants.html` needed no change.
+  - `last_verified` set to 2026-09-26 for all six; five blank addresses filled.
+- **Backfill sweep:** `blog-beat-the-heat-near-corydon-airbnb.html` read and
+  moved to "Swept". The three commercial businesses it names (Thom Bargen
+  Coffee Roasters, The Mighty Kiwi Juice Bar & Eatery, Sugar + Salt Bakeshoppe)
+  were already in the ledger, so the filename was appended to each of their
+  `pages`. The Leaf, Assiniboine Park and Enderton Park are institutions and
+  out of ledger scope.
+- **New post:** `blog-manito-ahbee-festival.html`, "Manito Ahbee Festival 2026:
+  Oct 30 to Nov 1, Winnipeg". First entry of the events queue, written as
+  host's notes (the last three posts used explainer, one-day plan and question
+  and answer). Covers the confirmed October 30 to November 1 dates at Canada
+  Life Centre, the 6 p.m. Friday and 9 a.m. weekend starts, the 2026 programme,
+  Ticketmaster day and weekend passes with no price quoted because none is
+  published, the BLUE line from Osborne Village at the 2026 fare, the True
+  North Square and Cityplace parkades, the arena's screening and bag rules, the
+  festival's own food vendor hours, Hargrave St. Market a block away, pow wow
+  protocol, and the end of daylight saving at 2 a.m. on the Sunday of the
+  festival. Hero image is the existing `images/the-forks-indigenous-768x512.jpeg`
+  pow wow photo, with alt text naming The Forks so it does not imply the arena.
+- **Registered** in `articles-data.js`, `articles_data.json`, the `blog.html`
+  noscript grid and its `blogPost` JSON-LD array, and `sitemap.xml` (the new
+  page plus a `lastmod` bump on `blog.html`). `llms.txt` regenerated with
+  `blog-maintenance/update-llms.py`: 146 posts.
+- **Ledger:** `blog-manito-ahbee-festival.html` appended to Hargrave St. Market,
+  the one commercial business the new post names. Ticketmaster is a platform,
+  and Canada Life Centre, True North Square and Cityplace are venues and
+  parkades rather than ledger-scope businesses.
+- **pa11y:** the two changed pages checked against WCAG2AA, both with no
+  issues: `blog-manito-ahbee-festival.html` and `blog.html`. Served from a local
+  static server because the new page is not on staywinnipeg.ca until this push
+  deploys; `pa11y` needed `executablePath` pointed at the sandbox's Chromium at
+  /opt/pw-browsers and `--no-sandbox`, since its bundled Chrome is not installed
+  here. No CSS changed this run, so no minified stylesheet needed regenerating.
+- **Note on sources:** manitoahbee.com, canadalifecentre.ca and
+  tourismwinnipeg.com are all blocked at this sandbox's egress proxy, so their
+  content was read through search-result summaries rather than fetched
+  directly. Nothing in the post rests on a fact that only one blocked page
+  carried.
+
+---
+
 ## 2026-09-25 (cron)
 
 - **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is 6), all
