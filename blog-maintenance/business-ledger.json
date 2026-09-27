@@ -1278,6 +1278,42 @@
       ],
       "status": "open",
       "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Winnipeg Christmas Market (Signatures Shows)",
+      "address": "375 York Ave (RBC Convention Centre)",
+      "pages": [
+        "blog-winnipeg-holiday-markets.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-09-27"
+    },
+    {
+      "name": "Third + Bird",
+      "address": "",
+      "pages": [
+        "blog-winnipeg-holiday-markets.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-09-27"
+    },
+    {
+      "name": "Scattered Seeds Craft Market",
+      "address": "3977 Portage Ave (Red River Exhibition Park, Gate 2)",
+      "pages": [
+        "blog-winnipeg-holiday-markets.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-09-27"
+    },
+    {
+      "name": "Christkindlmarkt (Fort Garry Place)",
+      "address": "Fort Garry Place",
+      "pages": [
+        "blog-winnipeg-holiday-markets.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-09-27"
     }
   ]
 }

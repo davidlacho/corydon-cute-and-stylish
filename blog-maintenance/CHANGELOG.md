@@ -7,6 +7,85 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-27 (manual backfill, second commit of the day)
+
+Run by hand at the owner's request, not by the cron: "backfill posts from the
+last month that haven't been posted daily". **No business verification was done
+in this run** (the day's rotation batch was already verified in the cron run
+recorded below); this run only publishes the missing posts.
+
+- **Gap analysis.** Of the 31 days from 2026-08-27 to 2026-09-27, five carry no
+  post dated that day: 2026-08-31, 2026-09-03, 2026-09-05, 2026-09-23 and
+  2026-09-25. Two of those five are not gaps in content: the 09-23 and 09-25
+  runs both published, but as refreshes (`blog-winnipeg-blue-bombers.html` and
+  `blog-winnipeg-jets.html`), and a refresh keeps the post's original
+  `datePublished`, so no new dated entry appears. The 2026-09-03 slot was
+  covered at the time by the manual catch-up run on 2026-09-04, but that post
+  is dated 09-04, so 09-03 itself is still empty. That leaves three genuinely
+  empty dates: **2026-08-31, 2026-09-03 and 2026-09-05**, all three caused by
+  the five-hour usage-limit rejections documented in the 2026-09-06 operations
+  note. That note recorded a deliberate decision not to backfill; the owner has
+  now asked for it, which supersedes that decision.
+- **Three posts published, dated to the empty days.** Each is dated to the day
+  it fills (`article:published_time`, `datePublished`, the visible meta line,
+  the `articles-data.js` date and the sitemap `lastmod`), not to today. The
+  trade-off is stated plainly here: these pages went live on 2026-09-27 while
+  declaring an earlier publication date, which is what "backfill" means but is
+  worth knowing if the dates are ever audited against the deploy log.
+  Taken in Events queue order, since that queue has priority:
+  - `blog-canad-inns-winter-wonderland.html` (2026-08-31), "Canad Inns Winter
+    Wonderland: Winnipeg Drive-Through Lights", written as an **explainer**.
+    The 2026-27 season has not been announced, so the post gives the 2025-26
+    figures (November 28 to January 3, closed December 25, 6 to 10 p.m.
+    nightly, $30 per vehicle for up to seven, 2.5 km route, two million lights
+    at 3977 Portage Avenue) explicitly as last season's and sends readers to
+    redriverex.com. No 2026-27 date or price is stated anywhere on the page.
+  - `blog-winnipeg-holiday-markets.html` (2026-09-03), "Winnipeg Holiday
+    Markets 2026: Dates and Which One to Pick", written as a **ranked short
+    list** of six. Confirmed 2026 dates for the Winnipeg Christmas Market
+    (November 26 to 29, RBC Convention Centre, 375 York Avenue), Third + Bird
+    (November 20 to 22), Scattered Seeds (October 16 to 18 and 23 to 25 at
+    Red River Ex Park, Gate 2 off Racetrack Road), Crafted at the WAG
+    (November 6 to 8) and Rise Above at the University of Manitoba
+    (November 23). Two sources disagree on the Christkindlmarkt weekend and
+    the post says so instead of choosing. Third + Bird's venue is deliberately
+    omitted because that market has moved buildings between years.
+  - `blog-rwb-nutcracker-winnipeg.html` (2026-09-05), "RWB Nutcracker 2026:
+    December 18 to 27 in Winnipeg", written as **question and answer**.
+    December 18 to 27 at the Centennial Concert Hall, 555 Main Street, a run
+    time of two hours four minutes, choreography by Galina Yordanova and Nina
+    Menon, and 1 p.m. and 6:30 p.m. starts from the listings. No ticket price
+    is quoted: the only figure found came from a resale aggregator, so the
+    post names rwb.org and the box office instead.
+- **Forms** were rotated against each other and against the three posts written
+  before them (walk, host's notes, question and answer), so no form repeated
+  inside a window of three.
+- **Ledger:** four markets added from the holiday markets post (Winnipeg
+  Christmas Market, Third + Bird, Scattered Seeds Craft Market, Christkindlmarkt
+  at Fort Garry Place), each `last_verified` 2026-09-27 since they were sourced
+  in this run. Crafted is the Winnipeg Art Gallery's own sale and Rise Above is
+  a one-day university market, so both were treated as institutional and left
+  out, as were Winter Wonderland (an event of the Red River Exhibition
+  Association), the RWB and the Concert Hall.
+- **Images:** all three reuse Unsplash photos already in service on the site
+  (the festive lights from `blog-christmas-winnipeg.html`, the indoor food hall
+  from `blog-hargrave-st-market.html`, the lit stage from
+  `blog-rainbow-stage.html`), because no local `images/` file depicts lights, a
+  craft market or a stage, and new Unsplash URLs cannot be verified from this
+  sandbox.
+- Registered in `articles-data.js`, `articles_data.json`, the `blog.html`
+  noscript grid and its JSON-LD `blogPost` array, and `sitemap.xml`; `llms.txt`
+  regenerated (150 posts).
+- **Known pre-existing drift, not fixed here:** `articles_data.json` is missing
+  every post dated 2026-09-04 to 2026-09-21, and the `blog.html` noscript grid
+  carries 95 cards against 150 posts in `articles-data.js`. Both backlogs
+  predate this run and were left alone rather than widened into an unrelated
+  repair; the three new posts were inserted correctly into all of them.
+- **pa11y:** the three new pages and `blog.html` all pass WCAG2AA with no
+  issues, checked against a local server for the reason given in the run below.
+
+---
+
 ## 2026-09-27 (cron)
 
 - **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is 6), all
