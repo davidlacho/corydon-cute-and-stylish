@@ -7,6 +7,43 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-27 (manual fix, third commit of the day)
+
+Owner feedback on the "Sources and what to re-check" box at the foot of the
+Santa parade post: it is a note to ourselves and it should not be on a page the
+public reads. Correct, and it had spread to seven posts.
+
+- **Removed the source notes from all seven pages that carried one**:
+  `blog-santa-claus-parade-winnipeg.html`, `blog-rwb-nutcracker-winnipeg.html`,
+  `blog-winnipeg-holiday-markets.html`,
+  `blog-canad-inns-winter-wonderland.html`, `blog-manito-ahbee-festival.html`,
+  `blog-winnipeg-blue-bombers.html` (the same content under a "Before you go"
+  label) and `blog-nhl-heritage-classic-winnipeg-2026.html` (a bare closing
+  paragraph rather than a box). The pattern started with the 2026-09-23 refresh
+  and was copied forward by every run since, including today's.
+- **What replaced it.** Each page keeps one short "Before you go:" line that
+  serves the reader rather than us: what changes year to year and the one site
+  to confirm it at. Everything else went: which listing each figure came from,
+  the "as of September 2026" access dates, the "read in September 2026" notes,
+  the admissions that a sunset time was calculated rather than sourced, and the
+  asides about what we could and could not find when writing.
+- **The provenance was not discarded.** All seven notes were moved verbatim into
+  a new internal file, `blog-maintenance/post-sources.md`, keyed by post
+  filename. That file is the place to record where a post's facts came from from
+  now on; it is never published.
+- **Playbook updated so this does not come back.** A new section in
+  `AGENT-INSTRUCTIONS.md`, "Sources belong in our notes, not on the page", sets
+  the rule, defines the one permitted guest-facing line, and adds a grep to run
+  before committing. A matching line was added to the Guardrails list.
+- `article:modified_time`, `dateModified` and the sitemap `lastmod` moved to
+  2026-09-27 on all seven pages; `llms.txt` regenerated. pa11y passes with no
+  issues on all seven.
+- Worth noting for a future run: the three posts backfilled earlier today now
+  carry a `datePublished` in August or early September and a `dateModified` of
+  2026-09-27. That is accurate, not a mistake to tidy up.
+
+---
+
 ## 2026-09-27 (manual backfill, second commit of the day)
 
 Run by hand at the owner's request, not by the cron: "backfill posts from the

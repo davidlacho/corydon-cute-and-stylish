@@ -78,6 +78,38 @@ Content and copy:
 - Left-align headings. No centred section title with an underline bar beneath it,
   and no italic centred tagline under the heading.
 
+## Sources belong in our notes, not on the page
+
+Added 2026-09-27, after the owner found a "Sources and what to re-check" box on a
+live post and asked why a note to ourselves was facing the public. It was a fair
+question. Seven posts carried one; all seven were cleaned and their text moved to
+`blog-maintenance/post-sources.md`.
+
+A blog post is written for a visitor planning a trip. It is not an audit trail.
+
+- **Never publish where a fact came from.** No "come from Tourism Winnipeg as of
+  September 2026", no "read in September 2026", no "calculated for Winnipeg on
+  November 14", no list of which figure came from which listing. A reader does
+  not care and it makes the page read like a worksheet.
+- **Never publish our own editorial process.** Not "the organiser had not
+  announced this when we wrote this", not "we could not find a source we can
+  stand behind". Write what is known; leave out the fact that you looked.
+- **Record the provenance in `blog-maintenance/post-sources.md` instead**, under
+  a heading naming the post's filename, every time you publish or refresh. That
+  file and the changelog are where a later run checks what was sourced and when.
+- **One guest-facing line on the page is allowed, and only one**: an
+  `.info-box` headed "Before you go:" that tells the reader what changes and
+  where to confirm it, in their interest, not ours. "The parade resets its date,
+  start time and road closures every year. Confirm at mbhydrosantaparade.com in
+  the week before you come." That is the whole of the permitted form. No dates
+  of access, no source names beyond the site the reader should visit.
+
+Before committing, grep your new or changed HTML and rewrite every hit:
+
+```
+grep -n -i -E "sources and what|as of [A-Z][a-z]+ 20|read in [A-Z][a-z]+ 20|is calculated for|come from (the )?[A-Z]" blog-<slug>.html
+```
+
 ## Writing — vary the form so the archive does not read as one machine
 
 A daily post written to the same template, in the same cadence, with the same
@@ -363,6 +395,9 @@ so those searches land on us. When the queue is empty, delete the section from
   may be anchored to Corydon/Crescentwood or the Airbnb's surroundings (see
   Part 2, "Topic breadth").
 - Never fabricate facts. Prefer leaving content unchanged over guessing.
+- Never publish a source list, an access date, or a note about our own
+  research on a page. Provenance goes in `blog-maintenance/post-sources.md`
+  (see "Sources belong in our notes, not on the page").
 - Stay within each guide's stated geographic scope (e.g. the Corydon guide covers
   Osborne St to Cambridge St).
 - Images must fit the subject and the place. Prefer local `images/` photos; never
