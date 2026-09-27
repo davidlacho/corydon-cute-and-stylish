@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-santa-claus-parade-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-09-27",
+    "title": "Winnipeg Santa Claus Parade 2026: Nov 14 Route and Times",
+    "image": "images/winnipegartgallery1.jpg",
+    "imageAlt": "The Winnipeg Art Gallery on Memorial Boulevard on a snowy winter afternoon, with a bus on the street the Santa parade turns down",
+    "description": "The Manitoba Hydro Santa Parade runs Saturday, November 14, 2026 at 5 p.m. down Portage Avenue: the route, block parties, road closures and where to stand.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>September 27, 2026</span>"
+  },
+  {
     "url": "/blog-manito-ahbee-festival.html",
     "category": "winnipeg",
     "date": "2026-09-26",

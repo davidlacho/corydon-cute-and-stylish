@@ -460,22 +460,22 @@
     },
     {
       "name": "Gondola Pizza",
-      "address": "",
+      "address": "1292 Pembina Hwy (Fort Garry location; multiple Winnipeg locations)",
       "pages": [
         "blog-winnipeg-pizza-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-27"
     },
     {
       "name": "Good Neighbour Brewing Co.",
-      "address": "",
+      "address": "110 Sherbrook St",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-27"
     },
     {
       "name": "Graffiti Gallery",
@@ -484,7 +484,7 @@
         "blog-spacedoxa.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-27"
     },
     {
       "name": "Granite Curling Club",
@@ -493,7 +493,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-27"
     },
     {
       "name": "Gunn's Bakery",
@@ -502,7 +502,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-27"
     },
     {
       "name": "Gusto North (Hargrave St. Market)",
@@ -511,7 +511,7 @@
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-27"
     },
     {
       "name": "Half Pints Brewing Company",
@@ -528,10 +528,11 @@
       "pages": [
         "blog-hargrave-st-market.html",
         "blog-winnipeg-breweries.html",
-        "blog-manito-ahbee-festival.html"
+        "blog-manito-ahbee-festival.html",
+        "blog-santa-claus-parade-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-27"
     },
     {
       "name": "Harth Mozza & Wine Bar",
@@ -1268,6 +1269,15 @@
       ],
       "status": "open",
       "last_verified": "2026-09-26"
+    },
+    {
+      "name": "Adventure Caving Bt. (Budapest)",
+      "address": "",
+      "pages": [
+        "blog-budapest-caving.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
     }
   ]
 }

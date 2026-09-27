@@ -7,6 +7,78 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-27 (cron)
+
+- **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is 6), all
+  carrying the 2026-01-01 backfill date and all confirmed open. No page on the
+  site needed a correction this run:
+  - Gondola Pizza - open. The chain's own locations page and current Yelp and
+    YellowPages listings (Yelp updated August 2026) carry live hours for the
+    Pembina Highway, Charleswood, McPhillips, Henderson and East St. Paul
+    shops. `blog-winnipeg-pizza-guide.html` calls it a 1964 thin-crust chain
+    with an original Pembina Highway kitchen and states no address or hours, so
+    nothing changed. The blank `address` was filled in with 1292 Pembina Hwy,
+    noted as the Fort Garry location of several.
+  - Good Neighbour Brewing Co. - open at 110 Sherbrook St in West Broadway,
+    3 p.m. to 10:30 p.m. Tuesday to Thursday and 1 p.m. to 10:30 p.m. Friday and
+    Saturday, per goodneighbourbrewing.com and Tourism Winnipeg; the brewery
+    also runs a cold beer shop at 683 Osborne. Both pages that name it
+    (`blog-winnipeg-breweries.html`, which places it in West Broadway, and
+    `blog-best-places-nearby-winnipeg.html`, which already gives 110 Sherbrook)
+    are correct. The blank `address` was filled in.
+  - Graffiti Gallery - open at 109 Higgins Ave, run by Graffiti Art Programming
+    Inc., Monday to Friday noon to 4 p.m. by appointment only, per its Yelp
+    listing (updated June 2026), Tourism Winnipeg and graffitigallery.ca.
+    `blog-spacedoxa.html` needed no change.
+  - Granite Curling Club - open at 1 Granite Way. granitecurlingclub.ca is live
+    and carries 2026/2027 season material, including online practice-ice
+    booking new for that season. `blog-winnipeg-breweries.html` needed no
+    change.
+  - Gunn's Bakery - open at 247 Selkirk Ave, 7:30 a.m. to 5:30 p.m. Monday to
+    Thursday, to 6 p.m. Friday, 7 a.m. to 3 p.m. Saturday, closed Sunday, per
+    gunnsbakery.com and a Yelp listing updated August 2026.
+    `blog-best-places-nearby-winnipeg.html` needed no change.
+  - Gusto North (Hargrave St. Market) - open at 242 Hargrave St, listed by
+    Tourism Winnipeg, OpenTable, Downtown Winnipeg BIZ and the market's own
+    restaurant directory, with a Yelp listing updated August 2026.
+    `blog-hargrave-st-market.html` needed no change.
+  - `last_verified` set to 2026-09-27 for all six; two blank addresses filled.
+    Hargrave St. Market itself was also sourced this run (the market's own site
+    and current listings) while checking Gusto North, so its `last_verified`
+    moved to today as well and today's new post was appended to its `pages`.
+- **Backfill sweep:** `blog-budapest-caving.html` read and moved to "Swept". It
+  is a first-person travel story about a guided caving tour; the one commercial
+  business it names, the tour operator Adventure Caving Bt., was not in the
+  ledger and was added with the 2026-01-01 backfill date because it was not
+  verified this run. Palvolgyi Dripstone Cave is run by the Duna-Ipoly National
+  Park and is out of ledger scope.
+- **New post:** `blog-santa-claus-parade-winnipeg.html`, "Winnipeg Santa Claus
+  Parade 2026: Nov 14 Route and Times". First entry of the events queue, written
+  as a walk (the last three posts used host's notes, question and answer, and
+  one-day plan), following the route in order from Portage and Main west along
+  Portage, south onto Memorial Boulevard and out at St. Mary. Covers the
+  confirmed Saturday November 14, 2026 5 p.m. start, free admission, the 4 p.m.
+  block parties, the 2 p.m. road closures on Portage and on Memorial in both
+  directions, the accessible space held in front of the barricades at every
+  intersection and the indoor viewing that must be requested in advance, the
+  D19 Corydon route's Kennedy Street terminal and the 2026 transit fare, the
+  4:46 p.m. sunset that makes this a night parade, and the parade's 1909
+  Eaton's origin and its $1.50 sale to the Winnipeg Firefighters Club in the
+  1960s. No temperatures, prices or vendor hours were invented; Hargrave St.
+  Market is named without hours because its listings disagree. Hero image is
+  `images/winnipegartgallery1.jpg`, a winter photo of the gallery on Memorial
+  Boulevard, which is on the route.
+- Registered in `articles-data.js`, `articles_data.json`, the `blog.html`
+  noscript grid and its JSON-LD `blogPost` array, and `sitemap.xml`;
+  `llms.txt` regenerated with `blog-maintenance/update-llms.py` (147 posts).
+- **pa11y:** `blog-santa-claus-parade-winnipeg.html` and `blog.html` both pass
+  WCAG2AA with no issues. staywinnipeg.ca is blocked at the egress proxy for the
+  headless browser (ERR_TUNNEL_CONNECTION_FAILED), so the two pages were served
+  from the working tree on 127.0.0.1 and checked there instead of over the live
+  site; Chromium also needs `--no-sandbox` in this container.
+
+---
+
 ## 2026-09-26 (cron)
 
 - **Verified 6 businesses** (the stalest batch, `rotation_batch_size` is 6), all
