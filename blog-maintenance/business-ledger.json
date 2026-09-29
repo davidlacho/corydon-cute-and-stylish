@@ -69,7 +69,8 @@
       "name": "Santa Lucia Pizza",
       "address": "905 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-budget-day-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-20"
@@ -97,7 +98,8 @@
       "address": "897 Corydon Ave",
       "pages": [
         "blog-corydon-guide.html",
-        "blog-beat-the-heat-near-corydon-airbnb.html"
+        "blog-beat-the-heat-near-corydon-airbnb.html",
+        "blog-budget-day-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-21"
@@ -515,12 +517,12 @@
     },
     {
       "name": "Half Pints Brewing Company",
-      "address": "",
+      "address": "550 Roseberry St",
       "pages": [
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-29"
     },
     {
       "name": "Hargrave St. Market",
@@ -536,13 +538,13 @@
     },
     {
       "name": "Harth Mozza & Wine Bar",
-      "address": "1101 Corydon Ave",
+      "address": "980 St Anne's Rd",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
         "blog-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-29"
     },
     {
       "name": "Hy's Steakhouse",
@@ -552,25 +554,25 @@
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-29"
     },
     {
       "name": "Ichiban Japanese Steakhouse & Sushi Bar",
-      "address": "",
+      "address": "189 Carlton St",
       "pages": [
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-29"
     },
     {
       "name": "Isekai Ramen",
-      "address": "",
+      "address": "1039 Cathedral Ave",
       "pages": [
         "blog-winnipeg-coffee.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-29"
     },
     {
       "name": "King's Head Pub",
@@ -1277,7 +1279,7 @@
         "blog-budapest-caving.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-09-29"
     },
     {
       "name": "Winnipeg Christmas Market (Signatures Shows)",
@@ -1314,6 +1316,33 @@
       ],
       "status": "open",
       "last_verified": "2026-09-27"
+    },
+    {
+      "name": "The Forks Market",
+      "address": "1 Forks Market Rd",
+      "pages": [
+        "blog-arctic-glacier-winter-park-forks.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-09-29"
+    },
+    {
+      "name": "Tim Hortons (949 Corydon Ave)",
+      "address": "949 Corydon Ave",
+      "pages": [
+        "blog-budget-day-corydon-airbnb.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Peking Chinese Food",
+      "address": "840 Corydon Ave",
+      "pages": [
+        "blog-budget-day-corydon-airbnb.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
     }
   ]
 }

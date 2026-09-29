@@ -16,6 +16,42 @@ Newest first.
 
 ---
 
+## blog-arctic-glacier-winter-park-forks.html
+
+_Recorded 2026-09-29, on publication._
+
+The winter park's free admission, the tobogganing hill, the CN Stage Rink, the Canopy Rink with
+music from Manitoba Music and occasional live DJs, the "more than 1.2 km of groomed on-land skating
+and walking trails", and the habit of opening in time for Christmas break all come from Tourism
+Winnipeg's Arctic Glacier Winter Park listing, read through search result summaries because
+tourismwinnipeg.com and theforks.com are both blocked at this sandbox's egress proxy. The skate
+rental rates of $8 for adults and $4 for children and seniors, and the rental location in The Forks
+Market Atrium beside the changing area, come from the same listing plus CBC and CTV Winnipeg
+coverage of the canopy rink. The Nestaweya River Trail facts (opening in January, closing in March,
+a length between roughly six and ten kilometres depending on the weather, ice thickness measured
+before a section opens, daily monitoring, closures for cracks or for grooming machines that cannot
+reach a stretch, and The Winnipeg Foundation as presenting sponsor) come from CBC's 2023 report on
+the trail reaching its maximum length, The Forks' own "first section now open" post, and Tourism
+Winnipeg's trail listing. The 38 Salter route running into The Forks seven days a week, the Main and
+Broadway stops outside Union Station, and Navigo as the trip planner come from Winnipeg Transit's
+rider guide page for the Canadian Museum for Human Rights and The Forks, and from The Forks' own
+"Ride Smarter: Updated Transit Routes to The Forks" post. The $3.45 cash and $3.10 peggo e-cash fare
+and the D19 Corydon terminal on Kennedy Street are carried forward from the 2026-09-27 run's
+sourcing of Winnipeg Transit and City of Winnipeg material.
+
+**Not sourced, deliberately left off the page:** no 2026-27 opening date, closing date or price for
+either surface is stated anywhere in the post, because The Forks had published none. The late-
+December sunset of about 4:30 p.m. is computed astronomically, not sourced. Skate rental hours were
+found only in pre-2020 coverage, so the post says the counter keeps shorter hours than the park and
+sends the reader to theforks.com rather than quoting a time. The warming huts are described as
+shelters without washrooms; no claim is made about whether any of them are heated.
+
+The Forks Market was added to the business ledger with today's date. The rest of the places named
+(the rinks, the slide, the trail, the warming huts, Union Station) are run by The Forks North
+Portage Partnership or by public bodies and are out of ledger scope.
+
+---
+
 ## blog-santa-claus-parade-winnipeg.html
 
 _Recorded 2026-09-27, lifted from the page._

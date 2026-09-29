@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-budget-day-corydon-airbnb.html
 - blog-christmas-winnipeg.html
 - blog-classic107-spring-break-winnipeg.html
 - blog-coffee-near-corydon-airbnb.html
@@ -151,6 +150,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-09-29 - blog-budget-day-corydon-airbnb.html (a low-cost day on Corydon Avenue; four commercial businesses named with addresses. Sugar + Salt Bakeshoppe (897 Corydon Ave) and Santa Lucia Pizza (905 Corydon Ave) were already in the ledger, so this filename was appended to their pages. Tim Hortons (949 Corydon Ave) and Peking Chinese Food (840 Corydon Ave) were added with the 2026-01-01 backfill date since they were not verified this run. Enderton Park (Peanut Park) and the Little Free Libraries are out of ledger scope.)
 - 2026-09-27 - blog-budapest-caving.html (a first-person travel story about a guided caving tour in Budapest; the one commercial business it names, Adventure Caving Bt., the tour operator, was added to the ledger with the backfill date since it was not verified this run. Palvolgyi Dripstone Cave is run by the Duna-Ipoly National Park and is out of ledger scope as an institution.)
 - 2026-09-26 - blog-beat-the-heat-near-corydon-airbnb.html (hot-weather guide; the three commercial businesses it names, Thom Bargen Coffee Roasters, The Mighty Kiwi Juice Bar & Eatery and Sugar + Salt Bakeshoppe, were already in the ledger, so this filename was appended to each of their `pages`. The Leaf, Assiniboine Park and Enderton Park are institutions and out of scope.)
 - 2026-09-25 - blog-bali-nyaman.html (a travel story about a stay at Nyaman Apartments in Canggu, Bali; the cafés and beach clubs it names in passing (Milk & Madu, Milu by Nook, Cafe Cinta, Baked, Finns Beach Club, Atlas Beach Club) were added to the ledger with the backfill date, no address stated in the post)

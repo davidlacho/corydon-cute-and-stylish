@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-arctic-glacier-winter-park-forks.html",
+    "category": "winnipeg",
+    "date": "2026-09-29",
+    "title": "Arctic Glacier Winter Park 2026: Skating at The Forks",
+    "image": "images/guidebook-winnipeg-39-the-forks.jpg",
+    "imageAlt": "The red canopy at The Forks in Winnipeg, the structure the Canopy Rink sits under, with the Canadian Museum for Human Rights behind it",
+    "description": "The Arctic Glacier Winter Park at The Forks usually opens for Christmas break, weeks before the river trail. Rinks, rentals, the toboggan slide and what each costs.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 29, 2026</span>"
+  },
+  {
     "url": "/blog-santa-claus-parade-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-09-27",

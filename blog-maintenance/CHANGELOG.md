@@ -7,6 +7,92 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-29
+
+### Businesses verified (6, the stalest in the rotation)
+
+All six were on the `2026-01-01` backfill date and had never been checked. All
+six are open; one carried a wrong address.
+
+- **Adventure Caving Bt. (Budapest)** - open. The operator still runs guided
+  trips into the Pal-volgyi and Matyas-hegyi cave system under Budapest on a
+  fixed weekly timetable, booked through several travel platforms, with gear
+  provided and no experience required. The full registered name appears as
+  Adventure Caving Programszervezo Bt.; the ledger's short form was left as is.
+  Address left blank: the sources give a tour meeting point (Pusztaszeri ut 35),
+  not a business address. `blog-budapest-caving.html` unchanged.
+- **Half Pints Brewing Company** - open, at 550 Roseberry Street in St. James.
+  Address filled in (it was blank). Current taproom hours could not be sourced,
+  and `blog-winnipeg-breweries.html` does not state any, so nothing changed on
+  the page.
+- **Harth Mozza & Wine Bar** - open, at **980 St Anne's Road**, phone
+  204-255-0003. **The ledger had the address wrong**: it read `1101 Corydon Ave`,
+  which is in fact The Falafel Place, named on
+  `blog-winnipeg-middle-eastern-food-guide.html`. Corrected in the ledger.
+  **No page needed fixing**: `blog-best-places-nearby-winnipeg.html` already
+  gives 980 St Anne's Rd in its map link and `blog-restaurants.html` states no
+  address. So this was a ledger data error only, not a site error, but it would
+  have sent a future run to correct the wrong street.
+- **Hy's Steakhouse** - open, at the corner of Portage and Main, where it moved
+  in 2005. Address left blank: no source in this batch gave a street number.
+  `blog-group-dining.html` ("this classic steakhouse on Portage Avenue") and
+  `blog-winnipeg-steakhouses-bbq.html` ("Hy's Steakhouse, downtown") are both
+  consistent with that and were left alone.
+- **Ichiban Japanese Steakhouse & Sushi Bar** - open, at 189 Carlton Street
+  downtown, teppan tables and a sushi bar, trading for over fifty years. A Job
+  Bank posting dated March 6, 2026 shows it actively hiring, which is the
+  strongest recent evidence available. Address filled in.
+  `blog-group-dining.html` states no address and was left alone.
+- **Isekai Ramen** - open, at 1039 Cathedral Avenue, with delivery listings
+  showing current service. Address filled in. `blog-winnipeg-coffee.html`
+  describes it as having opened in early 2025, which is consistent; left alone.
+
+### New post
+
+`blog-arctic-glacier-winter-park-forks.html`, "Arctic Glacier Winter Park 2026:
+Skating at The Forks", written as a **comparison** (the on-land winter park set
+against the Nestaweya River Trail on opening date, cost, wind exposure, children
+and daylight). First entry of the Events queue, a new post rather than a refresh.
+
+The useful thing the post says is that the two surfaces are not interchangeable:
+the park is built on land and can open as soon as the cold is reliable, usually
+in time for Christmas break, while the river trail waits on measured ice and has
+opened in January in recent years. **No 2026-27 opening date or price is stated
+anywhere on the page**, because The Forks had published none; readers are sent to
+theforks.com. Sourcing is recorded in `blog-maintenance/post-sources.md`.
+
+Hero image is `images/guidebook-winnipeg-39-the-forks.jpg`, the red canopy at The
+Forks, which is the structure the Canopy Rink sits under. It is a warm-weather
+photo, which is not ideal on a winter post, but no local `images/` file shows
+skating or snow at The Forks and the alt text describes what the photo actually
+shows. Two image problems were noticed in passing and **not** fixed, since they
+are outside this run's scope: `images/river_trail.png` is not a PNG at all (its
+header is an ISO base media `ftyp` box, so it is a video or HEIF file saved with
+the wrong extension), and `images/winter-activities.jpg` is a photo of the St.
+Boniface Cathedral ruins in winter, while its alt text in `articles-data.js`
+reads "People enjoying winter activities on frozen river in Winnipeg". Both are
+worth a future run.
+
+### Ledger
+
+- **The Forks Market** (1 Forks Market Rd) added for the new post. The rinks, the
+  slide, the trail, the warming huts and Union Station are run by The Forks North
+  Portage Partnership or by public bodies and stay out of ledger scope.
+- **Backfill sweep:** `blog-budget-day-corydon-airbnb.html`. Sugar + Salt
+  Bakeshoppe and Santa Lucia Pizza were already listed, so the filename was
+  appended to their `pages`; Tim Hortons (949 Corydon Ave) and Peking Chinese
+  Food (840 Corydon Ave) were added with the `2026-01-01` backfill date, since
+  this run did not verify them. Ledger now holds 144 businesses.
+
+### Pages changed
+
+`blog-arctic-glacier-winter-park-forks.html` (new), `blog.html` (noscript card
+and JSON-LD `blogPost` entry), `articles-data.js`, `articles_data.json`,
+`sitemap.xml` (new entry plus `blog.html` lastmod), `llms.txt` (regenerated,
+151 posts), `blog-maintenance/` ledger, sweep, ideas, sources and this file.
+
+---
+
 ## 2026-09-27 (manual fix, third commit of the day)
 
 Owner feedback on the "Sources and what to re-check" box at the foot of the
