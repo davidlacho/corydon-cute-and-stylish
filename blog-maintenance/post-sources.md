@@ -94,3 +94,44 @@ _Recorded 2026-09-27, lifted from the page._
 
 the October 10 date and kickoff time, the stadium address and capacity, the transit and parking details and the playoff dates above come from the Blue Bombers, Winnipeg Transit and the CFL's own published schedule as of September 2026. Kickoff times can be moved for broadcast, and playoff matchups are set only once the season ends, so confirm at bluebombers.com and cfl.ca before you travel.
 
+
+## blog-christmas-winnipeg.html
+
+_Recorded 2026-09-30, on the refresh that rewrote the page for the 2026-27 season._
+
+- **Winter break dates.** Manitoba school division calendars for 2026-27: most divisions
+  end classes Friday December 18, 2026, a few run to Monday December 21, and nearly all
+  resume Monday January 4, 2027. Found through the Manitoba Education school calendar
+  listing and division calendars (Winnipeg SD, Seven Oaks, Pembina Trails, Louis Riel).
+  The Manitoba Education PDF and the Winnipeg SD PDF are both blocked by this sandbox's
+  egress proxy, so the dates rest on the search index's reading of them. Worth a direct
+  re-check from inside a browser before the season.
+- **Royal MTC.** Anne of Green Gables, The Musical on the John Hirsch Mainstage,
+  174 Market Avenue: first preview November 23, opening November 26, closing
+  December 20, 2026. From royalmtc.ca's own 2026-2027 audition notice for the production.
+- **RWB Nutcracker, December 18 to 27, 2026, Centennial Concert Hall.** Carried over from
+  our own post of 2026-09-05, sourced there to rwb.org and Tourism Winnipeg.
+- **Jets.** Winnipeg hosts Dallas at Canada Life Centre on Saturday December 19 and
+  Sunday December 20, 2026, the same opponent on consecutive nights. From the NHL's
+  2026-27 Jets schedule release, reported in two independent searches. nhl.com,
+  canadalifecentre.ca and thehockeywriters.com are all blocked by the egress proxy, so
+  this could not be read first-hand. **Start times were deliberately left off the page**:
+  one summary gave 7:00 p.m. and 5:00 p.m. but labelled them ET, and Canada Life Centre is
+  CT. A single-sourced December 28 home game against San Jose, and a conflicting claim of
+  a December 27 home game against Minnesota, were both left off for the same reason.
+- **Canad Inns Winter Wonderland.** 3977 Portage Avenue, West Gate off Festival Drive,
+  2.5 km route, priced per vehicle: from redriverex.com's event page and Tourism Manitoba.
+  **The 2026-27 dates and price were not posted**, so the page states neither; the
+  2025-26 season ran November 28 to January 3, nightly 6 to 10 p.m., closed Christmas Day,
+  $30 for a car of 1 to 7.
+- **Zoo Lights and Luminous.** 2026-27 dates not posted either. The "third week of November
+  to about January 1, closed December 24 and 25" pattern is the 2025-26 season
+  (November 21 to January 1) from Assiniboine Park's own media release, written on the page
+  as "in past years" only.
+- **Winnipeg Transit.** Sunday schedule on Christmas Day, Boxing Day and New Year's Day,
+  from winnipeg.ca's holiday hours page. The 2026 fare of $3.45 cash / $3.10 peggo e-cash
+  and the D19 Corydon routing are carried from our own post of 2026-09-29. The free
+  New Year's Eve service that the city and MPI have run in past years was left off the page
+  because it is announced fresh each December.
+- **Daylight.** Sunrise 8:24 a.m. and sunset 4:29 p.m. on December 21, 2026, about eight
+  hours and five minutes, computed for Winnipeg (49.895 N, 97.138 W) with `astral`.

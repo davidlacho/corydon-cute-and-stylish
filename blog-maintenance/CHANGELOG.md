@@ -7,6 +7,95 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-09-30
+
+### Businesses verified (6, the stalest in the rotation)
+
+All six were on the `2026-01-01` backfill date and had never been checked. All
+six are open. Five had a blank address in the ledger; all five are now filled in.
+
+- **King's Head Pub** - open, at 120 King Street in the Exchange District, the
+  address the ledger already held. Two floors, a long-running Sunday night live
+  music series, and at least one show listed on Songkick for the 2026-27 window.
+  `blog-24-hour-winnipeg-budget.html` and `blog-group-dining.html` unchanged.
+- **Kitchen Sync** - open, a private event venue at **Unit A, 370 Donald Street**,
+  in the 1905 Bell Block, one block off the Exchange. Founded 2015, owner-operated
+  by Sheila Bennett, capacity 90. Address filled in.
+  `blog-winnipeg-event-venues.html` states no address and was left alone.
+- **Kum Koon Garden** - open, at **257 King Street** in Chinatown, with a dim sum
+  reference as recent as May 2026. Address filled in. `blog-restaurants.html`
+  states no address and was left alone.
+- **La Brasserie Nonsuch Brewing Co.** - open, at **125 Pacific Avenue** in the
+  Exchange, majority Indigenous-owned, Belgian styles and a full kitchen. Address
+  filled in. The three pages that name it state no address and were left alone.
+- **Lake of the Woods Brewing Company (Hargrave St. Market)** - open, still the
+  brewery at the centre of Hargrave St. Market in True North Square, brewing
+  on-site on the second floor behind glass. The ledger's 242 Hargrave St was
+  already correct. `blog-hargrave-st-market.html` and
+  `blog-winnipeg-breweries.html` unchanged.
+- **Little Brown Jug Brewing Company** - open, at **336 William Avenue** in the
+  Exchange, trading since 2016, listed as a Doors Open Winnipeg 2026 building.
+  Address filled in. `blog-winnipeg-event-venues.html` was left alone.
+
+### Refreshed post
+
+`blog-christmas-winnipeg.html`, retitled "Winnipeg at Christmas 2026: Winter
+Break, Dec 18 to Jan 4", rewritten as a **question and answer** post of eight
+questions. First entry of the Events queue, marked "refresh", so the slug and URL
+were kept and `datePublished` stayed at 2025-12-23 with `dateModified` set to
+today, following the convention from the 2026-09-25 Jets refresh.
+
+The old page could not be patched. It was written for the 2025-26 season and hung
+about forty specific dates on it, opening with "winter break from December 20,
+2025, to January 4, 2026" under a title that said 2026. It also carried most of
+the house-style tells the playbook lists. The body was replaced.
+
+**What the new page states, and what it deliberately does not.** Confirmed this
+run: most Manitoba school divisions end classes Friday December 18, 2026 with a
+few running to Monday December 21, and nearly all resume Monday January 4, 2027;
+Christmas Day 2026 is a Friday; Royal MTC's holiday show is *Anne of Green
+Gables, The Musical* on the John Hirsch Mainstage at 174 Market Avenue, opening
+November 26 and closing December 20; the Jets host Dallas at Canada Life Centre
+on Saturday December 19 and Sunday December 20, the same opponent on consecutive
+nights. RWB *Nutcracker* December 18 to 27 came from our own sourced post of
+2026-09-05. **No 2026-27 date or price is stated for Zoo Lights, Luminous or
+Canad Inns Winter Wonderland**, because none had been posted; the past-year
+pattern is written as "in past years" and readers are sent to redriverex.com and
+assiniboinepark.ca. **Jets start times were left off**: the one source that gave
+them labelled them ET while Canada Life Centre is CT. A single-sourced December 28
+home game against San Jose was left off, as was a conflicting claim of a
+December 27 home game against Minnesota. Sunrise 8:24 a.m. and sunset 4:29 p.m.
+on December 21 were computed for Winnipeg rather than looked up. Full sourcing is
+in `blog-maintenance/post-sources.md`.
+
+The hero image was left as the existing Unsplash Christmas-lights photo. It
+matches the subject, and the only local winter photo in `images/`,
+`winter-activities.jpg`, is already the hero on two other posts and carries wrong
+alt text on both (flagged in the 2026-09-29 entry and still unfixed: it shows the
+St. Boniface Cathedral facade in snow, not people on a frozen river).
+
+### Ledger
+
+- The refreshed post names no commercial business in ledger scope. Red River
+  Exhibition Park, Assiniboine Park Zoo, The Leaf, the Centennial Concert Hall,
+  the John Hirsch Mainstage, Canada Life Centre and The Forks are institutions or
+  venues; Royal MTC, the RWB, the Jets and Winnipeg Transit are organisations.
+- **Backfill sweep:** `blog-christmas-winnipeg.html`, the first file under "Not
+  yet swept", moved to "Swept". It was swept against the refreshed text, in the
+  same run that rewrote it. The pre-refresh version did name commercial businesses
+  (Fairmont Winnipeg, Uptown Alley, The Rec Room, Vertical Adventures, Flying
+  Squirrel, CF Polo Park, Kendricks Outdoor Adventures), but all of that copy was
+  cut because it depended on 2025-26 dates, and none of those names was in the
+  ledger, so no `pages` array needed correcting either.
+
+### Other files touched
+
+`articles-data.js`, `articles_data.json`, `blog.html` (noscript card and JSON-LD
+`blogPost` entry), `sitemap.xml` (`lastmod` 2026-09-30), `llms.txt` (regenerated
+with `update-llms.py`), `post-ideas.md`, `post-sources.md`, `ledger-sweep.md`.
+
+---
+
 ## 2026-09-29
 
 ### Businesses verified (6, the stalest in the rotation)
