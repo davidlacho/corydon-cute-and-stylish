@@ -183,7 +183,7 @@ Property Name: Stay Winnipeg
 Type: Mid-century modern 3-bedroom vacation rental
 Location: Corydon neighborhood, Winnipeg, Manitoba, Canada
 Airbnb Listing: https://www.airbnb.ca/rooms/716340250371431352
-Registration: STRA-2025-2600298
+Registration: STRA-2026-2600298
 
 # Key Features
 - Mid-century modern design

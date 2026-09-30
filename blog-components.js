@@ -243,7 +243,7 @@ function Footer() {
                 React.createElement('a', { href: 'https://staywinnipeg.ca/accessibility.html' }, 'Accessibility')
             ),
                 React.createElement('p', { className: 'footer-registration' },
-                    'Short-term rental registration STRA-2025-2600298'
+                    'Short-term rental registration STRA-2026-2600298'
             ),
                 React.createElement('p', { className: 'footer-text' }, '\u00A9 2026 Stay Winnipeg')
             )
