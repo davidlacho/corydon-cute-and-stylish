@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-classic107-spring-break-winnipeg.html
 - blog-coffee-near-corydon-airbnb.html
 - blog-corydon-confusion-corner-walking-guide.html
 - blog-corydon-cute-stylish-winnipeg-airbnb.html
@@ -149,6 +148,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-10-01 - blog-classic107-spring-break-winnipeg.html (two commercial entries added, Garden City Shopping Centre and St. Vital Centre, both with an empty address because the post states none, and both dated 2026-01-01 since they were not verified this run. Everything else the post names is an institution: Assiniboine Park Zoo, the Canadian Museum for Human Rights, the Children's Museum, the Manitoba Museum, the Royal Canadian Aviation Museum, the Living Prairie Museum, FortWhyte Alive, The Leaf, Glenwood and Robert A. Steen community centres, City of Winnipeg pools, the Winnipeg Public Library, Classic 107 and the Manitoba Chamber Orchestra.)
 - 2026-09-30 - blog-christmas-winnipeg.html (swept in the same run that refreshed the post, so the sweep was done against the new text. The refreshed page names no commercial business in ledger scope: Red River Exhibition Park, Assiniboine Park Zoo, The Leaf, the Centennial Concert Hall, the John Hirsch Mainstage, Canada Life Centre and The Forks are institutions or venues, and Royal MTC, the Royal Winnipeg Ballet, the Winnipeg Jets and Winnipeg Transit are organisations rather than the restaurant/cafe/bar/shop category the ledger tracks. The pre-refresh version did name commercial businesses (Fairmont Winnipeg, Uptown Alley, The Rec Room, Vertical Adventures, Flying Squirrel, CF Polo Park, Kendricks Outdoor Adventures); all of that copy was cut in the refresh because it hung on 2025-26 dates, and none of those names was in the ledger, so nothing had to be removed from a `pages` array either.)
 - 2026-09-29 - blog-budget-day-corydon-airbnb.html (a low-cost day on Corydon Avenue; four commercial businesses named with addresses. Sugar + Salt Bakeshoppe (897 Corydon Ave) and Santa Lucia Pizza (905 Corydon Ave) were already in the ledger, so this filename was appended to their pages. Tim Hortons (949 Corydon Ave) and Peking Chinese Food (840 Corydon Ave) were added with the 2026-01-01 backfill date since they were not verified this run. Enderton Park (Peanut Park) and the Little Free Libraries are out of ledger scope.)
 - 2026-09-27 - blog-budapest-caving.html (a first-person travel story about a guided caving tour in Budapest; the one commercial business it names, Adventure Caving Bt., the tour operator, was added to the ledger with the backfill date since it was not verified this run. Palvolgyi Dripstone Cave is run by the Duna-Ipoly National Park and is out of ledger scope as an institution.)

@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-new-years-eve-the-forks.html",
+    "category": "winnipeg",
+    "date": "2026-10-01",
+    "title": "New Year's Eve at The Forks 2026: Fireworks and Skating",
+    "image": "images/forks-river.jpg",
+    "imageAlt": "The Esplanade Riel bridge and the Canadian Museum for Human Rights at dusk, seen from The Forks in Winnipeg",
+    "description": "New Year's Eve at The Forks on December 31, 2026: when the fireworks go up, where to skate first, what the buses do after midnight, and how to plan the evening.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>October 1, 2026</span>"
+  },
+  {
     "url": "/blog-arctic-glacier-winter-park-forks.html",
     "category": "winnipeg",
     "date": "2026-09-29",
@@ -819,7 +829,7 @@ const ARTICLES_DATA = [
     "title": "Winnipeg brunch & breakfast 2026: guide by neighbourhood",
     "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Brunch plates with eggs and vegetables on a cafe table",
-    "description": "Plan brunch in Winnipeg: Clementine downtown, Marion Street Eatery and Pauline Bistro in St. Boniface, Stella's city-wide, and practical tips for waits, hours, and transit from Corydon.",
+    "description": "Plan brunch in Winnipeg: Clementine downtown, Roasted Nomad and Pauline Bistro in St. Boniface, Stella's city-wide, and practical tips for waits, hours, and transit from Corydon.",
     "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>10 min read</span>\n                                <span>May 6, 2026</span>"
   },
   {

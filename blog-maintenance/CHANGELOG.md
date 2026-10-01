@@ -7,6 +7,106 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-01
+
+### Businesses verified (6, the stalest in the rotation)
+
+All six were on the `2026-01-01` backfill date and had never been checked. Four
+are open, **two have closed**, and three blank addresses are now filled in.
+
+- **Little Sister Coffee Maker** - open. Three Winnipeg locations: the original
+  basement shop at **470 River Ave** in Osborne Village (the ledger address is now
+  filled in), 539 Osborne St, and one on McDermot Ave. Tourism Winnipeg carries a
+  current listing and Tripadvisor shows 2026 reviews. The four pages that name it
+  were left alone; `blog-best-places-nearby-winnipeg.html` already says there is a
+  River Avenue location as well as the Osborne one, which is correct.
+- **Luda's Deli** - open, at 410 Aberdeen Ave in the North End, the address the
+  ledger already held. Weekday mornings only, cash only, Yelp updated September
+  2026. `blog-best-places-nearby-winnipeg.html` unchanged.
+- **MAKE Coffee + Stuff** - **closed**. The café at 751 Corydon Ave shut on
+  **March 31, 2026** after 13 years; its own closing announcement is the source,
+  reached through two independent search passes. Its entry in the places list on
+  `blog-best-places-nearby-winnipeg.html`, the only page that named it, was
+  removed. Address filled in and `status` set to `closed`.
+- **Manoomin Restaurant** - open, inside the Wyndham Garden Winnipeg Airport
+  hotel at **460 Madison St**, on Long Plain Madison Reserve, led by Red Seal chef
+  Jennifer Ballantyne. Address filled in; one source gave 472 Madison St and was
+  not used, since the hotel's own dining page and Tourism Winnipeg both say 460.
+  `blog-indigenous-winnipeg.html` states no address and was left alone.
+- **Marion Street Eatery** - **closed**. The room at 393 Marion Street is now
+  **Roasted Nomad**, opened by Pam Holunga, who worked at Marion Street Eatery
+  before taking the space over, with much of the old crew; Tourism Winnipeg's
+  new-restaurants roundup and a September 2026 review both cover it. Brunch
+  Tuesday to Sunday, no reservations. Corrected on both pages that named it:
+  `blog-winnipeg-brunch-breakfast.html` (section rewritten, plus the meta
+  description, keywords, JSON-LD description and the Pauline Bistro cross
+  reference) and `blog-restaurants.html`. The shared description was also updated
+  in `blog.html` (noscript card and JSON-LD), `articles-data.js` and
+  `articles_data.json`. Roasted Nomad added to the ledger.
+- **Miss Browns (Hargrave St. Market)** - open, still on the current vendor roster
+  for the food hall at 242 Hargrave St in True North Square. Note that this is
+  roster evidence rather than a dated 2026 review, and that its SkipTheDishes
+  listing is marked "DNU", so the delivery channel may have ended even though the
+  counter has not. `blog-hargrave-st-market.html` unchanged.
+
+### Ledger sweep
+
+`blog-classic107-spring-break-winnipeg.html` swept. Two commercial entries added,
+Garden City Shopping Centre and St. Vital Centre, both dated `2026-01-01` because
+they were not verified this run. Everything else that post names is an
+institution.
+
+### New post
+
+`blog-new-years-eve-the-forks.html`, "New Year's Eve at The Forks 2026: Fireworks
+and Skating", the first entry of the Events queue and a new post rather than a
+refresh. Form: **one-day plan**, the evening hour by hour with the trade-off
+stated at each step, chosen because the last three posts used question and answer,
+comparison and walk.
+
+**What it states, and what it deliberately does not.** December 31, 2026 is a
+Thursday. Nothing for the 2026-27 night had been announced, so every schedule
+detail is written as a past-year pattern rather than a 2026 fact: the 8 p.m.
+fireworks and family countdown at the CN Stage, programming from 4 p.m., the
+free-transit window from 7 p.m. with the last buses out of downtown around
+1:30 a.m. and On-Request to roughly 2 a.m., and free January 1 programming.
+**Whether a midnight display runs is written as varying by year**, because older
+coverage describes both an 8 p.m. and a midnight show while the recent published
+schedules end at 8 p.m., and nothing settles 2026. **No vendor, menu item, price
+or opening hour inside The Forks Market is stated**, because none was sourced for
+December 31. Sunset of 4:37 p.m. on December 31 was computed for Winnipeg rather
+than looked up. Skate rentals at $8 and $4, the 38 Salter, the D19 Corydon
+terminal on Kennedy Street and the $3.45 cash / $3.10 peggo fare are carried
+forward from the 2026-09-29 run's sourcing. Full sourcing is in
+`blog-maintenance/post-sources.md`.
+
+Registered in `articles-data.js`, `articles_data.json`, the `blog.html` noscript
+grid and JSON-LD `blogPost` array, and `sitemap.xml`; `llms.txt` regenerated with
+`blog-maintenance/update-llms.py` (152 posts). The Forks Market gained the new
+filename in its ledger `pages`.
+
+### pa11y
+
+All five changed pages pass WCAG2AA with no issues:
+`blog-new-years-eve-the-forks.html`, `blog.html`,
+`blog-winnipeg-brunch-breakfast.html`, `blog-restaurants.html` and
+`blog-best-places-nearby-winnipeg.html`. Served from the working tree on
+127.0.0.1 because the new page is not on staywinnipeg.ca until this push deploys,
+and because staywinnipeg.ca is blocked at this sandbox's egress proxy for the
+headless browser. `pa11y` needs a config file with `chromeLaunchConfig`
+pointing `executablePath` at /opt/pw-browsers/chromium-1194/chrome-linux/chrome
+and passing `--no-sandbox`; the same options given under a `defaults` key are
+ignored. No CSS changed this run, so no minified stylesheet needed regenerating.
+
+### Other pages touched
+
+`sitemap.xml` `<lastmod>` set to 2026-10-01 for `blog.html`,
+`blog-restaurants.html`, `blog-winnipeg-brunch-breakfast.html` and
+`blog-best-places-nearby-winnipeg.html`, and a new entry added for the post.
+`article:modified_time` and `dateModified` updated on the three edited posts.
+
+---
+
 ## 2026-09-30
 
 ### Businesses verified (6, the stalest in the rotation)

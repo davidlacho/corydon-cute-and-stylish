@@ -634,7 +634,7 @@
     },
     {
       "name": "Little Sister Coffee Maker",
-      "address": "",
+      "address": "470 River Ave",
       "pages": [
         "blog-24-hour-winnipeg-budget.html",
         "blog-best-places-nearby-winnipeg.html",
@@ -642,7 +642,7 @@
         "blog-winnipeg-osborne-village-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-01"
     },
     {
       "name": "Luda's Deli",
@@ -651,25 +651,25 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-01"
     },
     {
       "name": "MAKE Coffee + Stuff",
-      "address": "",
+      "address": "751 Corydon Ave",
       "pages": [
         "blog-best-places-nearby-winnipeg.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "closed",
+      "last_verified": "2026-10-01"
     },
     {
       "name": "Manoomin Restaurant",
-      "address": "",
+      "address": "460 Madison St",
       "pages": [
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-01"
     },
     {
       "name": "Marion Street Eatery",
@@ -678,8 +678,8 @@
         "blog-restaurants.html",
         "blog-winnipeg-brunch-breakfast.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "closed",
+      "last_verified": "2026-10-01"
     },
     {
       "name": "Miss Browns (Hargrave St. Market)",
@@ -688,7 +688,7 @@
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-01"
     },
     {
       "name": "Neon Palm Pizza",
@@ -1321,7 +1321,8 @@
       "name": "The Forks Market",
       "address": "1 Forks Market Rd",
       "pages": [
-        "blog-arctic-glacier-winter-park-forks.html"
+        "blog-arctic-glacier-winter-park-forks.html",
+        "blog-new-years-eve-the-forks.html"
       ],
       "status": "open",
       "last_verified": "2026-09-29"
@@ -1340,6 +1341,34 @@
       "address": "840 Corydon Ave",
       "pages": [
         "blog-budget-day-corydon-airbnb.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Roasted Nomad",
+      "address": "393 Marion St",
+      "pages": [
+        "blog-restaurants.html",
+        "blog-winnipeg-brunch-breakfast.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-10-01"
+    },
+    {
+      "name": "Garden City Shopping Centre",
+      "address": "",
+      "pages": [
+        "blog-classic107-spring-break-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "St. Vital Centre",
+      "address": "",
+      "pages": [
+        "blog-classic107-spring-break-winnipeg.html"
       ],
       "status": "open",
       "last_verified": "2026-01-01"

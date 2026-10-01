@@ -16,6 +16,33 @@ Newest first.
 
 ---
 
+## blog-new-years-eve-the-forks.html
+
+_Recorded 2026-10-01, on publication._
+
+Nothing had been announced for December 31, 2026 when this was written, so the page states no
+confirmed 2026-27 schedule and every timing is written as a past-year pattern. The 8 p.m. fireworks
+fired over the river to a countdown at the CN Stage, the family framing of that countdown, the
+4 p.m. start to programming and the DJ set in The Forks Market before it, come from The Forks'
+own New Year's Eve event listing and from wpgforfree.ca's schedule post for the night, both read
+through search result summaries because theforks.com is blocked at this sandbox's egress proxy.
+Whether a second display runs at midnight is written as varying by year on purpose: older coverage
+(CBC 2017, Global 2017) describes both an 8 p.m. show for families and a midnight show, while the
+schedules published for the more recent years end at the 8 p.m. show, and no source settles which
+pattern 2026 will follow. The free-transit facts come from the City of Winnipeg's
+"Ride free with Winnipeg Transit on New Year's Eve" release of 2025-12-22 and CBC's coverage of the
+same programme: free on all regular and Transit Plus service from 7 p.m. to the end of service, last
+buses leaving downtown around 1:30 a.m., On-Request to roughly 2 a.m., and Manitoba Public Insurance
+as sponsor since 2011. January 1 programming running free from morning to evening comes from The
+Forks' New Year's Day listing. Sunset at 4:37 p.m. on December 31 was computed for Winnipeg
+(49.895 N, 97.138 W, CST) rather than looked up. The skate rental rates, the Canopy Rink being
+covered while the CN Stage Rink is not, the 38 Salter, the D19 Corydon terminal on Kennedy Street,
+the four kilometres from Crescentwood, and the $3.45 cash and $3.10 peggo e-cash fare are all
+carried forward from the 2026-09-29 run's sourcing, recorded below. No vendor, menu, price or
+opening hour inside The Forks Market is stated, because none was sourced for December 31.
+
+---
+
 ## blog-arctic-glacier-winter-park-forks.html
 
 _Recorded 2026-09-29, on publication._
