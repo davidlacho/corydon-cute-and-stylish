@@ -16,6 +16,54 @@ Newest first.
 
 ---
 
+## blog-winnipeg-new-music-festival.html
+
+_Recorded 2026-10-02, on publication._
+
+No 2027 dates, venues or prices had been posted for the festival, so the page states none. Every
+figure on it belongs to the 2026 edition and is written as the shape of the week, with readers sent
+to wnmf.ca in the single `.info-box`.
+
+Confirmed before writing, all through search result summaries because wnmf.ca, wso.ca, classic107.com
+and tourismwinnipeg.com are blocked at this sandbox's egress proxy:
+
+- The 2026 festival ran January 21 to 29, 2026, at the Centennial Concert Hall and the Desautels
+  Concert Hall at the University of Manitoba (Tourism Winnipeg's event listing and the WNMF ticket
+  page).
+- Founded in 1992 by then music director Bramwell Tovey and the WSO's first composer-in-residence
+  Glenn Buhr; the first major Canadian orchestra to commit substantial resources to a full
+  exploration of contemporary composition; the largest festival in Canada devoted entirely to
+  contemporary art music (Manitoba Music's two-decades retrospective, New Music USA, the WSO's own
+  festival pages, CBC).
+- The Concert Hall seats about 2,300 and the festival has filled it close to capacity, selling some
+  concerts out (Manitoba Music, New Music USA).
+- Kelly-Marie Murphy is the WSO's composer-in-residence and the festival's curator for the 2026-27
+  season (Classic 107's report on the 2026-27 season announcement).
+- The 2026 festival pass was $99 for an adult and $49 for a child, which the festival described as a
+  55 per cent saving over single tickets; the Soundcheck programme covers ages 13 to 39, has offered
+  $20 festival tickets to subscribers, and its pass for ages 18 to 29 was $85 for the season; the WSO
+  box office is 204-949-3999 (WNMF ticket-info page, the WSO Soundcheck page).
+- The Concert Hall's address, 555 Main Street, was carried from our own sourced post of 2026-09-05.
+
+Not sourced, and why that is acceptable:
+
+- Sunset in Winnipeg in the last week of January (just after 5 p.m.: about 5:03 p.m. on January 21
+  and 5:15 p.m. on January 29) was computed astronomically, as on earlier posts.
+- The walk times (seven or eight minutes north on Main from Portage and Main, about twenty minutes
+  from the Kennedy Street terminal, five to ten minutes west into the Exchange District) are measured
+  off the map, not quoted from anyone.
+- The 2026 transit fare ($3.45 cash, $3.10 peggo e-cash), the D19 Corydon route to the Kennedy Street
+  terminal and the June 2025 reopening of the Portage and Main at-grade pedestrian crossings were
+  carried from our own sourced posts of 2026-09-27 and 2026-10-01.
+
+Deliberately left off the page: any 2027 date, any 2027 price, any opening hours for the three
+Exchange District restaurants named (Amsterdam Tea Room and Bar, Deer + Almond, La Brasserie
+Nonsuch, all three verified open in the ledger within the two weeks before publication), and any
+description of the festival's late-night or fringe programming, which past coverage mentions but
+which no current source confirms.
+
+---
+
 ## blog-new-years-eve-the-forks.html
 
 _Recorded 2026-10-01, on publication._
