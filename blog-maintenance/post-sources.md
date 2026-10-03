@@ -16,6 +16,57 @@ Newest first.
 
 ---
 
+## blog-winnipeg-new-music-festival.html
+
+Published 2026-10-03. Form: explainer.
+
+- **The 2026 edition ran January 21 to 29, 2026, was the thirty-fifth, and used
+  the Centennial Concert Hall (555 Main Street) and Knox United Church (400
+  Edmonton Street).** Festival and event listings for WNMF 2026, read through
+  search result summaries; wnmf.ca, wso.ca, classic107.com and
+  tourismwinnipeg.com are all blocked at the egress proxy, so none of them could
+  be fetched directly this run.
+- **Passes in 2026 were $99 for adults and $49 for children.** Same listings.
+  **No 2027 price is stated on the page**, because none has been posted; the
+  page says to check wnmf.ca.
+- **No 2027 dates are stated as confirmed.** The WSO's 2026/27 season material
+  places the festival in late January, which matches every recent year, so the
+  page writes the window rather than a date. If a firm date appears before the
+  next refresh, it should be named and attributed to the WSO.
+- **Kelly-Marie Murphy is the WSO's composer-in-residence from the 2026/27
+  season and curates the 2027 festival**, and has described having grown up with
+  the orchestra through its new music festivals. WSO news releases
+  ("WSO Announces Kelly-Marie Murphy as New Composer-in-Residence", "Meet Our
+  New Composer-in-Residence"), plus Scena and Classic 107 coverage, via search
+  summaries.
+- **The festival was founded in 1992 by Bramwell Tovey, music director from
+  1989, and Glenn Buhr, the WSO's first composer-in-residence; it was the first
+  time a major Canadian orchestra committed its full resources to a week-long
+  contemporary music festival, and Vancouver, Toronto, Montreal and Edmonton
+  followed with festivals of their own.** The Canadian Encyclopedia's WSO
+  article, the WSO's own history material and The Manitoban's twenty-fifth
+  anniversary piece.
+- **The composers institute is named in honour of Michael Nesbitt.** WSO news
+  release of that title.
+- **Distance and walk time between the two venues (about 1.6 km, roughly twenty
+  minutes, seven blocks west of Main on Portage and one south on Edmonton)** was
+  measured from the two street addresses, not sourced.
+- **Sunset in Winnipeg about 5:10 p.m. in the last week of January** was
+  computed astronomically (5:03 p.m. on January 20, 5:11 p.m. on January 25,
+  5:20 p.m. on January 30, CST).
+- **Transit fare of $3.45 cash or $3.10 peggo e-cash, and the D19 Corydon's
+  Kennedy Street terminal**, carried from our own sourced posts of 2026-09-23
+  and 2026-09-27.
+- **Hargrave St. Market (242 Hargrave Street) and Parlour Coffee (468 Main
+  Street)** are the only commercial businesses the post names. Parlour Coffee
+  was verified open in this run's ledger batch; Hargrave St. Market was verified
+  on 2026-09-27. No hours are stated for either, because listings disagree on
+  both.
+- **No concert hall seating capacity is stated**, because no figure was sourced
+  this run.
+
+---
+
 ## blog-new-years-eve-the-forks.html
 
 _Recorded 2026-10-01, on publication._
