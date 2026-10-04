@@ -16,6 +16,56 @@ Newest first.
 
 ---
 
+## blog-winnipeg-new-music-festival.html
+
+Published 2026-10-04. New post, first entry of the Events queue.
+
+- **What the festival is.** The Winnipeg New Music Festival is presented by the Winnipeg
+  Symphony Orchestra, runs in late January, and is billed by the WSO as the largest festival
+  in Canada devoted entirely to contemporary art music. Read through search summaries of the
+  WSO's own festival pages, wnmf.ca, Tourism Winnipeg and Travel Manitoba; wso.ca, wnmf.ca and
+  tourismwinnipeg.com are blocked at the egress proxy, so none could be fetched directly.
+- **2026 edition.** Thirty-fifth edition, January 21 to 29, 2026, at the Centennial Concert
+  Hall and Knox United Church, with WNMF 4 at the Desautels Concert Hall. Programme as
+  published on wnmf.ca: WNMF Showcase LAUNCHPAD, Wednesday January 21 (Centennial); WNMF 1
+  SUNRISE, Friday January 23 (Centennial); WNMF 3 BEYOND HORIZONS, Tuesday January 27
+  (Centennial); WNMF 4 CC DUO: HYPERFOCUSED, Wednesday January 28 (Desautels); WNMF 5
+  THEOFANIDIS & STAFYLAKIS: SUNSET, Thursday January 29 (Centennial). A WNMF 2 appears in the
+  numbering but not in the pass listing that was available, so the post says "five or six
+  concerts" rather than giving a count.
+- **Tickets.** 2026 WNMF Pass $49 to $99; the Launchpad showcase free but requiring a reserved
+  ticket. For 2025 the pass was $89 adult and $49 child with singles from $25; that older
+  pricing is not on the page. **No 2027 price is stated.**
+- **2027 dates.** Not announced in any source found, so the page gives no 2027 date and
+  presents late January as the usual window, with the 2026 run as the example. The Michael
+  Nesbitt Composers Institute's own call for participants describes rehearsals, concerts and
+  workshops "in late January" as part of the festival, which supports the window.
+- **Curator.** Kelly-Marie Murphy named the WSO's composer-in-residence and a WNMF co-curator
+  beginning with the 2026-27 season (WSO news release, Classic 107, La Scena Musicale
+  newswire). The post states the curatorship, not a programming claim.
+- **Venues and addresses.** Centennial Concert Hall, 555 Main Street, in the Manitoba
+  Centennial Centre across from City Hall (carried from our own sourced post of 2026-09-05).
+  Knox United Church, 400 Edmonton Street, built 1914 to 1918 to John H. G. Russell's design,
+  Late Gothic Revival, largest United church in Manitoba, Manitoba Provincial Heritage Site
+  No. 51 (Winnipeg Architecture Foundation, Manitoba Historic Resources Branch,
+  historicplaces.ca). Desautels Concert Hall, 150 Dafoe Road, behind Tache Hall on the
+  University of Manitoba Fort Garry campus, public entry on Maclean Crescent through the glass
+  lobby (umanitoba.ca Desautels Faculty of Music).
+- **Transit.** The D19 Corydon's Kennedy Street terminal, the fifteen-minute walk from there
+  to Main, the BLUE line down the Southwest Transitway, and the 2026 fare of $3.45 cash or
+  $3.10 peggo e-cash are all carried from our own sourced posts of 2026-09-23, 2026-09-05 and
+  2026-09-30. The claim that Edmonton Street runs one block east of Kennedy Street is read off
+  the downtown street order, not sourced.
+- **Parlour Coffee.** 468 Main Street, open, weekday 7 a.m. to 5 p.m., Saturday 9 a.m. to
+  5 p.m., closed Sunday; 2026 Yelp and Tripadvisor listings with January and March 2026
+  reviews. Verified as part of this run's rotation batch. The page states only that it keeps
+  daytime hours and closes Sundays, not the hours themselves.
+- **Daylight.** Sunset about 5:05 p.m. on January 22 and 5:16 p.m. on January 30, computed
+  for Winnipeg (49.895 N, 97.138 W) with the NOAA solar equations, not sourced. No temperature
+  figure is stated anywhere on the page because none was sourced.
+
+---
+
 ## blog-new-years-eve-the-forks.html
 
 _Recorded 2026-10-01, on publication._

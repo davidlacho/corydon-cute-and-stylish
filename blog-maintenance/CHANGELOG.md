@@ -7,6 +7,85 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-04
+
+### Businesses verified (6, the stalest in the rotation)
+
+Continuing the alphabetical rotation through the `2026-01-01` backfill block, which
+picked up at N after 2026-10-01 finished the M entries. Five are open, **one could
+not be confirmed to exist**, and two blank addresses are now filled in.
+
+- **Neon Palm Pizza** - **unverified, and possibly not a Winnipeg business at all.**
+  Three searches, two of them extended, found no trace of a pizzeria of this name in
+  Winnipeg: not in Tourism Winnipeg, not in any Winnipeg pizza roundup, not on Yelp
+  or Tripadvisor, and not in a review from any year. The only business of that name
+  the searches surface is a New York style pizzeria at 1223 W. Flagler Street in
+  Miami, Florida, on `neonpalmpizza.com`. `blog-winnipeg-pizza-guide.html` links it
+  as `neonpalm.pizza`, a different domain, which is blocked at the egress proxy and
+  could not be read. Per the playbook's rule for an undeterminable status the page
+  was left unchanged and the ledger entry set to `status: "unverified"` rather than
+  closed. **Owner action:** this entry predates the daily agent (the post is dated
+  2026-05-10) and may be an invented recommendation. It is named in the page's
+  `<title>`, meta description, keywords, a body section and the JSON-LD description.
+  If you can confirm it does not exist in Winnipeg, all six mentions should come out.
+- **Nucci's Gelati** - open, at 643 Corydon Ave, the address the ledger already held.
+  Seasonal: the 2026 gelati season opened April 17 and hours ran to 11 p.m. daily
+  through the summer, and the shop now serves an Italian lunch alongside the gelato.
+  Yelp and Tripadvisor both carry 2026 reviews. The three pages that name it were
+  left alone.
+- **Old Gold Vintage Vinyl** - open, at **187 Osborne St** in Osborne Village (address
+  now filled in). Independent record shop with an active site, a Discogs storefront
+  and a place in a 2026 roundup of Winnipeg record stores.
+  `blog-winnipeg-osborne-village-guide.html` unchanged.
+- **Parcel Pizza** - open, at **221-A Stradbrook Ave** (address now filled in).
+  Tripadvisor and Yelp listings updated through mid-2026 with reviews from December
+  2025, March 2026 and May 2026. `blog-winnipeg-pizza-guide.html` unchanged.
+- **Park Café (Qualico Family Centre, Assiniboine Park)** - open, 9 a.m. to 4 p.m.
+  daily, on Travel Manitoba's current directory. Address left blank: no source gave a
+  street address and `blog-group-dining.html` states none.
+- **Parlour Coffee** - open, at 468 Main St, the address the ledger already held.
+  Weekdays 7 a.m. to 5 p.m., Saturday 9 a.m. to 5 p.m., closed Sunday; Tripadvisor
+  carries a January 2026 review and Yelp was updated in March 2026. Tourism Winnipeg
+  reports the shop has changed hands, which no page mentions and none needed to. The
+  three pages that name it were left alone, and the new post below was appended to
+  its `pages`.
+
+### Ledger sweep
+
+`blog-coffee-near-corydon-airbnb.html` swept. All five businesses it names were
+already in the ledger, so nothing was added and this filename was appended to the
+`pages` of Thom Bargen Coffee Roasters, Forgotten Flavours, Sugar + Salt Bakeshoppe,
+Starbucks and Tim Horton's. Noted in `ledger-sweep.md` for a later run: the ledger
+holds two entries for the same Tim Hortons at 949 Corydon Ave and they should be
+merged.
+
+### New post
+
+`blog-winnipeg-new-music-festival.html` - "Winnipeg New Music Festival 2027: Dates,
+Passes, Venues". First entry of the Events queue, published as a new post. Form:
+explainer, continuous prose on how the festival week and the pass work, with two
+content headings plus the stay section. The 2027 dates have not been announced, so
+the page states no 2027 date, programme or price; it gives late January as the usual
+window, uses the thirty-fifth edition's January 21 to 29, 2026 run and concert titles
+as the example, quotes the 2026 pass range of $49 to $99 as a 2026 figure, and sends
+readers to wnmf.ca. Venues and their addresses (Centennial Concert Hall at 555 Main
+Street, Knox United Church at 400 Edmonton Street, Desautels Concert Hall at 150
+Dafoe Road) are sourced; the sunsets of about 5:05 p.m. on January 22 and 5:16 p.m.
+on January 30 were computed. Full provenance in `post-sources.md`. Hero image is the
+lit-stage photo already used on `blog-rainbow-stage.html` and
+`blog-rwb-nutcracker-winnipeg.html`, reused because no local `images/` file shows a
+stage, a hall or an orchestra.
+
+### Pages changed
+
+- `blog-winnipeg-new-music-festival.html` (new)
+- `blog.html` (noscript card and JSON-LD `blogPost` entry)
+- `articles-data.js`, `articles_data.json`, `sitemap.xml`, `llms.txt`
+- `blog-maintenance/business-ledger.json`, `ledger-sweep.md`, `post-ideas.md`,
+  `post-sources.md`
+
+---
+
 ## 2026-10-01
 
 ### Businesses verified (6, the stalest in the rotation)

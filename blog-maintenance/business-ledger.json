@@ -15,7 +15,8 @@
       "name": "Forgotten Flavours",
       "address": "858 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-coffee-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-19"
@@ -88,7 +89,8 @@
       "name": "Starbucks",
       "address": "946 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-coffee-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-21"
@@ -99,7 +101,8 @@
       "pages": [
         "blog-corydon-guide.html",
         "blog-beat-the-heat-near-corydon-airbnb.html",
-        "blog-budget-day-corydon-airbnb.html"
+        "blog-budget-day-corydon-airbnb.html",
+        "blog-coffee-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-21"
@@ -155,7 +158,8 @@
       "address": "743 Corydon Ave",
       "pages": [
         "blog-corydon-guide.html",
-        "blog-beat-the-heat-near-corydon-airbnb.html"
+        "blog-beat-the-heat-near-corydon-airbnb.html",
+        "blog-coffee-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-18"
@@ -164,7 +168,8 @@
       "name": "Tim Horton's",
       "address": "949 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-coffee-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-18"
@@ -696,8 +701,8 @@
       "pages": [
         "blog-winnipeg-pizza-guide.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "unverified",
+      "last_verified": "2026-10-04"
     },
     {
       "name": "Nucci's Gelati",
@@ -708,25 +713,25 @@
         "blog-winnipeg-ice-cream-gelato.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-04"
     },
     {
       "name": "Old Gold Vintage Vinyl",
-      "address": "",
+      "address": "187 Osborne St",
       "pages": [
         "blog-winnipeg-osborne-village-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-04"
     },
     {
       "name": "Parcel Pizza",
-      "address": "",
+      "address": "221-A Stradbrook Ave",
       "pages": [
         "blog-winnipeg-pizza-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-04"
     },
     {
       "name": "Park Café (Qualico Family Centre, Assiniboine Park)",
@@ -735,7 +740,7 @@
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-04"
     },
     {
       "name": "Parlour Coffee",
@@ -743,10 +748,11 @@
       "pages": [
         "blog-24-hour-winnipeg-budget.html",
         "blog-best-places-nearby-winnipeg.html",
-        "blog-winnipeg-coffee.html"
+        "blog-winnipeg-coffee.html",
+        "blog-winnipeg-new-music-festival.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-04"
     },
     {
       "name": "Patent 5 Distillery",
