@@ -16,6 +16,76 @@ Newest first.
 
 ---
 
+## blog-warming-huts-red-river-trail.html
+
+Published 2026-10-05. New post, first entry of the Events queue.
+
+- **What the competition is.** "Warming Huts: An Art + Architecture Competition on Ice",
+  run by The Forks and established in 2009, with support from Sputnik Architecture (Peter
+  Hargreaves and David Anderson). Winning structures are installed along the Nestaweya River
+  Trail presented by The Winnipeg Foundation, on the Red and Assiniboine at The Forks. Read
+  through search summaries of warminghuts.com, theforks.com, the Wikipedia article "Winnipeg
+  Warming Huts; An Art and Architecture Competition on Ice", CBC Manitoba and the Manitoba
+  Association of Architects background paper. **warminghuts.com and theforks.com are both
+  blocked at the egress proxy**, so neither could be fetched directly.
+- **v.2027 competition mechanics.** Proposals due Tuesday October 6, 2026 at 2:00 p.m. CST;
+  three winning teams; each project on a creation and construction budget of CAD $16,500,
+  of which up to $3,500 is the designers' honorarium, up to $7,500 materials and consultants,
+  up to $4,000 labour and up to $1,500 construction management; winners announced in December
+  on The Forks' channels. From the v.2027 call for proposals PDF on warminghuts.com (read
+  through a search summary) and acompetitions.com. The page states only the three-winner
+  count, the $16,500 total, the $3,500 honorarium and the December announcement; the deadline
+  and the budget breakdown were left off as being for designers, not visitors.
+- **2026 edition.** More than 200 submissions, seven designs chosen. Moon Rabbit by Yu Liu
+  (Shanghai); Wildlife Scramble by Charles Sharpless and Jessica Colangelo (Fayetteville) with
+  Adrian Gonzalez and Ashley Colangelo (Gainesville); Dram by Noel Picaper (Paris) with Joffrey
+  About (Brussels); Continuum: When Water Pauses and We Move by the invited artist Franziska
+  Agrawal (Munich), a thirty-metre passageway of compacted snow arches on the ice at the
+  confluence; Warm Up With a Great Book by grade seven students at Bison Run School, the school
+  category winner; and a stair-and-bridge structure from the University of Manitoba's Faculty of
+  Architecture. Travel Manitoba also had a hut on the river that winter. From CBC Manitoba
+  ("7 winning designs make the hut cut..."), CTV Winnipeg's 2025-12-08 photo gallery of the
+  winning designs, Classic 107, chrisd.ca and The Forks' own "Art Meets Ice" blog post, all read
+  through search summaries.
+  - **One spelling was corrected deliberately.** Search summaries render the U of M hut's title
+    as "Bridge-Stairs for John Hedjuk". The architect is John Hejduk. Rather than publish either
+    spelling of a title we could not read first-hand, the post describes the hut as "a structure
+    of stairs and bridges named for the architect John Hejduk" and does not quote the title.
+- **Past participants.** Frank Gehry, Anish Kapoor, Patkau Architects, Etienne Gaboury and
+  Tanya Tagaq have all contributed invited work over the years. Kapoor's Stackhouse was built
+  from ice taken out of the Red River with the Norway-based ice sculptor Luca Roncoroni. From
+  Azure Magazine's archive, the Wikipedia article and The Globe and Mail. Only Gehry, Kapoor
+  and Roncoroni are named on the page.
+- **Timing.** Huts have lately been built and placed on the trail in the third week of January
+  and the process is weather dependent; Warming Hut Tours ran on selected Saturdays and began
+  January 24 in 2026. From The Forks' river trail event page and the Winnipeg Digest summaries
+  of it. **No 2027 installation date is stated on the page.**
+- **Trail geography.** Roughly 6 km between the Hugo Docks on the Assiniboine and Churchill
+  Drive on the Red (the 2023 maximum-length figure). Trailheads: Hugo Docks, Osborne Bridge,
+  Donald St. Bridge and The Forks on the Assiniboine; The Forks, Queen Elizabeth Bridge and
+  Churchill Drive on the Red. Access points open only as conditions allow and only designated
+  ones are safe. From the Wikipedia article on the trail, CBC's 2023 length and section-closure
+  stories, and theforks.com/events/river-trail via search summary.
+  - **Derived, not sourced:** the three kilometres and about forty minutes on foot from the Hugo
+    Docks to The Forks. Calculated from the 6 km total with The Forks near its midpoint, and
+    written on the page as approximate.
+  - **Derived, not sourced:** that the Hugo Docks sit where Hugo Street runs out at the
+    Assiniboine, and that this is about a fifteen-minute walk from the house. Hugo Street's
+    location in the residential blocks north of Corydon is local geography; no source states the
+    dock's street address.
+- **Calculated, not sourced.** Sunset in Winnipeg of about 5:16 p.m. on January 30 (carried from
+  our own post of 2026-10-04) and about 5:40 p.m. in mid-February, computed astronomically.
+- **Carried from our own sourced posts.** Skate rental at $8 for adults and $4 for children and
+  seniors in The Forks Market Atrium, the CN Stage Rink and Canopy Rink, the trail's ice-thickness
+  and grooming closures, the 38 Salter's seven-day service into The Forks, and the 2026 Winnipeg
+  Transit fare of $3.45 cash or $3.10 peggo e-cash: all from blog-arctic-glacier-winter-park-forks.html
+  (2026-09-29) and blog-winnipeg-new-music-festival.html (2026-10-04).
+- **Deliberately not stated.** Any 2027 hut, designer, installation date or trail length; the
+  windchill figure for any given day; whether the Hugo end of the trail will be cut this winter.
+  The page sends readers to theforks.com and winnipegtransit.com.
+
+---
+
 ## blog-winnipeg-new-music-festival.html
 
 Published 2026-10-04. New post, first entry of the Events queue.

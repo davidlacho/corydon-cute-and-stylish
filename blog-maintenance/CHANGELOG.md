@@ -7,6 +7,116 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-05
+
+### Businesses verified (6, the stalest in the rotation)
+
+The rotation was taken strictly by `last_verified` ascending with an alphabetical
+tiebreak, which pulled in three entries earlier runs had stepped over while working
+the alphabet: **Garden City Shopping Centre** and the two Canggu restaurants sort
+before N and were still sitting at the `2026-01-01` backfill date after the runs of
+2026-10-01 and 2026-10-04 had moved past M and P. All six are open. Three blank
+addresses are now filled in. No page needed correcting.
+
+- **Garden City Shopping Centre** - open, operating as a regional centre in northwest
+  Winnipeg with more than 75 shops and services. Bought by Smart Investment Ltd. in
+  May 2024 for $31 million, and a 14,450 sq ft City of Winnipeg public library is due
+  to open inside the mall in late 2026 (CTV Winnipeg, Winnipeg Digest). Address left
+  blank: no source in this batch stated a street address and
+  `blog-classic107-spring-break-winnipeg.html` states none.
+- **Milk & Madu (Canggu)** - open, at **Jl. Pantai Berawa No. 52, Canggu** (address now
+  filled in), 07:30 to 22:00 daily, with a second location in Ubud. Current Chope
+  listing and 2026 Canggu dining roundups. `blog-bali-nyaman.html` unchanged.
+- **Milu by Nook (Canggu)** - open, at **Jl. Pantai Berawa No. 90 XO, Canggu** (address
+  now filled in), 08:00 to 23:00. Still carried in 2026 Canggu restaurant guides.
+  `blog-bali-nyaman.html` unchanged.
+- **Niakwa Country Club** - open, at **620 Niakwa Road** (address now filled in).
+  Wikipedia, the Manitoba Historical Society organisation record and a current golf
+  club directory all agree. `blog-winnipeg-event-venues.html` unchanged.
+- **Patent 5 Distillery** - open, at 108 Alexander Ave, the address the ledger already
+  held. Retail Monday to Friday 10 a.m. to 5 p.m., cocktail room Wednesday to Saturday
+  4 p.m. to 11 p.m.; listed in the Exchange District BIZ directory with an October 2025
+  feature, and running public cocktail classes. The two pages that name it were left
+  alone.
+- **Pauline Bistro (Norwood Hotel)** - open, at 112 Marion St, the address the ledger
+  already held. French breakfast, brunch and lunch in St. Boniface, 4.4 from 173
+  OpenTable reviews with reviews through 2025 and an OpenTable listing updated for
+  2026. `blog-winnipeg-brunch-breakfast.html` unchanged.
+
+### Ledger backfill sweep
+
+`blog-corydon-confusion-corner-walking-guide.html` swept. It names **no commercial
+business at all**: Osborne Village is described as having "compact retail blocks,
+cafés, and bakeries" with nothing named, and the stops are delegated to our coffee
+guide and our ice cream and gelato guide. Nothing added, no `pages` appended. Moved
+to "Swept".
+
+### New post
+
+**`blog-warming-huts-red-river-trail.html`** - "Warming Huts 2027 at The Forks:
+Winnipeg Art on Ice". First entry of the Events queue, a new post. Form: **walk** (the
+last three posts were explainer, one-day plan and question and answer, so walk was
+free; it was last used five posts back on 2026-09-27). The trail is taken in order
+from its upstream trailhead at the Hugo Docks, in the residential streets north of
+Corydon, through the confluence at The Forks where the new season's huts are grouped,
+and out to the Churchill Drive end on the Red, with the distance and time between and
+the trade-off stated for walking it in that direction rather than the reverse.
+
+Sourced before writing: the competition's 2009 start and Sputnik Architecture's
+backing; the v.2027 structure (three winning teams, $16,500 per project including up
+to $3,500 as the designers' honorarium, winners announced in December); the 2026
+edition's 200-plus submissions and seven chosen designs with their designers; Anish
+Kapoor's Stackhouse cut from Red River ice with Luca Roncoroni, and Frank Gehry's past
+participation; build week falling in the third week of January and being weather
+dependent; Warming Hut Tours beginning January 24 in 2026; and the trail's roughly 6 km
+between the Hugo Docks and Churchill Drive with its seven named trailheads.
+
+**No 2027 installation date, hut or designer is stated anywhere on the page**; readers
+are sent to theforks.com. The three kilometres and forty minutes from the Hugo Docks to
+The Forks is derived from the sourced 6 km total and written as approximate. The sunsets
+of about 5:16 p.m. on January 30 and about 5:40 p.m. in mid-February were computed.
+Skate rental prices, the two on-land rinks, the 38 Salter and the transit fare are
+carried from our own sourced posts of 2026-09-29 and 2026-10-04. Full provenance in
+`post-sources.md`, including why the U of M hut's title is described rather than quoted
+(search summaries spell the architect "Hedjuk"; he is John Hejduk, and we could not read
+the title first-hand).
+
+Hero image `images/river_trail.png`, a real photo of a groomed path on the frozen river
+at The Forks, which is where the huts stand. It is already the hero on
+`blog-nestaweya-river-trail.html` and `blog-corydon-to-forks-bike-walk-guide.html`; no
+local `images/` file shows a warming hut, and the alt text describes only what the photo
+shows.
+
+The Forks Market is the only commercial business the post names and it was already in the
+ledger, so this filename was appended to its `pages`. The competition, the trail, the
+schools and the architecture faculty are institutions.
+
+### Pages changed
+
+- `blog-warming-huts-red-river-trail.html` (new)
+- `articles-data.js`, `articles_data.json`, `blog.html` (noscript card and JSON-LD
+  `blogPost` entry), `sitemap.xml` (new entry plus `blog.html` `lastmod`), `llms.txt`
+  (regenerated by `update-llms.py`: 154 posts, 136 Winnipeg)
+
+### Accessibility
+
+`pa11y --standard WCAG2AA` run on both changed pages: **0 errors** on
+`blog-warming-huts-red-river-trail.html` and **0 errors** on `blog.html`. Both were
+served from a local static server on 127.0.0.1 rather than hit at
+`https://staywinnipeg.ca`, because the new post is not deployed until this commit lands;
+Chromium needed `--no-sandbox` in this container, passed via a pa11y config file.
+
+### Owner action carried forward
+
+- **`blog.html` JSON-LD is 55 posts short.** The `blogPost` array now holds 99 entries
+  and the `<noscript>` section 99 cards, against 154 posts in `articles-data.js`. The gap
+  predates this run and every run adds one to each side without closing it, so it never
+  resolves on its own. Closing it is a single generated pass over `articles-data.js`
+  rather than daily-run work, and it was left out of this run's diff deliberately to keep
+  the churn reviewable. Say the word and a one-off run can regenerate both sections.
+- **Neon Palm Pizza** (raised 2026-10-04) is still unresolved and still named six times
+  on `blog-winnipeg-pizza-guide.html`.
+
 ## 2026-10-04
 
 ### Businesses verified (6, the stalest in the rotation)

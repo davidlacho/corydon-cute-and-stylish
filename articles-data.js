@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-warming-huts-red-river-trail.html",
+    "category": "winnipeg",
+    "date": "2026-10-05",
+    "title": "Warming Huts 2027 at The Forks: Winnipeg Art on Ice",
+    "image": "images/river_trail.png",
+    "imageAlt": "Groomed path on the frozen river at The Forks in Winnipeg, with a bridge beyond",
+    "description": "Winnipeg's Warming Huts go up on the Nestaweya River Trail in late January. The trail walked from its Crescentwood end to the huts at the confluence.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>October 5, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-new-music-festival.html",
     "category": "winnipeg",
     "date": "2026-10-04",

@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-corydon-confusion-corner-walking-guide.html
 - blog-corydon-cute-stylish-winnipeg-airbnb.html
 - blog-corydon-to-forks-bike-walk-guide.html
 - blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html
@@ -147,6 +146,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-10-05 - blog-corydon-confusion-corner-walking-guide.html (a route guide around Confusion Corner that names no commercial business at all: it describes Osborne Village as having "compact retail blocks, cafés, and bakeries" without naming one, and sends readers to our coffee guide and our ice cream and gelato guide for the actual stops. Nothing added to the ledger and no `pages` appended.)
 - 2026-10-04 - blog-coffee-near-corydon-airbnb.html (coffee on Corydon Avenue; all five commercial businesses it names were already in the ledger, so this filename was appended to each of their `pages`: Thom Bargen Coffee Roasters (743 Corydon Ave), Forgotten Flavours (858 Corydon Ave), Sugar + Salt Bakeshoppe (897 Corydon Ave), Starbucks (946 Corydon Ave) and Tim Horton's (949 Corydon Ave). Nothing was added. Note for a later run: the ledger carries two entries for the same Tim Hortons at 949 Corydon Ave, "Tim Horton's" and "Tim Hortons (949 Corydon Ave)"; they should be merged, and this filename went on the first.)
 - 2026-10-01 - blog-classic107-spring-break-winnipeg.html (two commercial entries added, Garden City Shopping Centre and St. Vital Centre, both with an empty address because the post states none, and both dated 2026-01-01 since they were not verified this run. Everything else the post names is an institution: Assiniboine Park Zoo, the Canadian Museum for Human Rights, the Children's Museum, the Manitoba Museum, the Royal Canadian Aviation Museum, the Living Prairie Museum, FortWhyte Alive, The Leaf, Glenwood and Robert A. Steen community centres, City of Winnipeg pools, the Winnipeg Public Library, Classic 107 and the Manitoba Chamber Orchestra.)
 - 2026-09-30 - blog-christmas-winnipeg.html (swept in the same run that refreshed the post, so the sweep was done against the new text. The refreshed page names no commercial business in ledger scope: Red River Exhibition Park, Assiniboine Park Zoo, The Leaf, the Centennial Concert Hall, the John Hirsch Mainstage, Canada Life Centre and The Forks are institutions or venues, and Royal MTC, the Royal Winnipeg Ballet, the Winnipeg Jets and Winnipeg Transit are organisations rather than the restaurant/cafe/bar/shop category the ledger tracks. The pre-refresh version did name commercial businesses (Fairmont Winnipeg, Uptown Alley, The Rec Room, Vertical Adventures, Flying Squirrel, CF Polo Park, Kendricks Outdoor Adventures); all of that copy was cut in the refresh because it hung on 2025-26 dates, and none of those names was in the ledger, so nothing had to be removed from a `pages` array either.)

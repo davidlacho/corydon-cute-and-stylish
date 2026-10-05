@@ -762,7 +762,7 @@
         "blog-winnipeg-cocktail-bars-lounges.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-05"
     },
     {
       "name": "Pauline Bistro (Norwood Hotel)",
@@ -771,7 +771,7 @@
         "blog-winnipeg-brunch-breakfast.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-05"
     },
     {
       "name": "Peasant Cookery",
@@ -1100,12 +1100,12 @@
     },
     {
       "name": "Niakwa Country Club",
-      "address": "",
+      "address": "620 Niakwa Rd",
       "pages": [
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-05"
     },
     {
       "name": "Tundra Grill (Assiniboine Park Zoo)",
@@ -1226,21 +1226,21 @@
     },
     {
       "name": "Milk & Madu (Canggu)",
-      "address": "",
+      "address": "Jl. Pantai Berawa No. 52, Canggu",
       "pages": [
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-05"
     },
     {
       "name": "Milu by Nook (Canggu)",
-      "address": "",
+      "address": "Jl. Pantai Berawa No. 90 XO, Canggu",
       "pages": [
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-05"
     },
     {
       "name": "Cafe Cinta (Canggu)",
@@ -1328,7 +1328,8 @@
       "address": "1 Forks Market Rd",
       "pages": [
         "blog-arctic-glacier-winter-park-forks.html",
-        "blog-new-years-eve-the-forks.html"
+        "blog-new-years-eve-the-forks.html",
+        "blog-warming-huts-red-river-trail.html"
       ],
       "status": "open",
       "last_verified": "2026-09-29"
@@ -1368,7 +1369,7 @@
         "blog-classic107-spring-break-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-05"
     },
     {
       "name": "St. Vital Centre",
