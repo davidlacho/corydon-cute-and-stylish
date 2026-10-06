@@ -16,6 +16,67 @@ Newest first.
 
 ---
 
+## blog-snow-maze-st-adolphe.html
+
+Published 2026-10-06. New post, first entry of the Events queue.
+
+- **The snow maze and the record.** A Maze in Corn builds the snow maze each winter at
+  1351 Provincial Road 200 near St. Adolphe, about 25 km south of Winnipeg. Guinness World
+  Records lists the largest snow maze as 2,789.11 square metres (30,021 sq ft), created by
+  A Maze in Corn, Inc. and measured on 10 February 2019; the record still stands.
+  Guinness World Records record page; CBC and Global News coverage of the 2019 record.
+- **Maze detail.** Walls two feet thick and more than six feet tall; about thirty minutes to
+  walk through, with most guests staying one to two hours. CBC's 2020 feature on the maze and
+  the operator's own description.
+- **Attractions and prices.** Five snow buildings with carvings inside the maze, the Giant
+  Luge at $3.00 per ticket or $5.00 for an unlimited slide pass (riders 9 and over), tubing
+  on Snow Mountain, sleigh rides Saturday and Sunday 1:00 to 4:00 at $5.00 (3 and under
+  free), and a warm-up barn with a fire and mini donuts. Admission $28 + GST for 13 and up,
+  $18 + GST for ages 6 to 12, free for 5 and under. Operator's "Snow Maze 2027" and
+  "Hours & Prices" pages at cornmaze.ca, read through search result summaries because
+  cornmaze.ca is blocked at the egress proxy.
+- **Season window.** The 2026 season was advertised as tentatively opening January 30 and
+  running to mid-March, weather dependent. No 2027 opening date had been fixed when this was
+  written, so the page says "in recent seasons" and sends readers to cornmaze.ca. The site
+  posts daily closures for weather.
+- **Riley Family Duck Pond.** Free skating on the frozen duck pond at Assiniboine Park,
+  surrounded by the park's light displays; the shelter beside it open daily 7:00 a.m. to
+  10:00 p.m. for washrooms and warming; hockey sticks and pucks not permitted; a limited
+  number of skates rented by the Winnipeg Trails Association on Fridays 5:00 to 8:00 p.m. and
+  Saturdays and Sundays 12:00 to 6:30 p.m. Assiniboine Park Conservancy's winter activities
+  page and its Duck Pond opening media releases.
+- **Festival du Voyageur snow sculptures.** More than twenty snow sculptures on the grounds
+  at Whittier Park in St. Boniface over ten days each February around the Louis Riel Day
+  long weekend, most carved during the International Snow Sculpture Symposium in the days
+  before the gates open. In 2026 the symposium ran February 10 to 15 and the festival
+  February 13 to 22. Festival materials via heho.ca and the 2026 festival previews.
+  **The 2027 dates could not be confirmed from the organiser**, so the page states the 2026
+  dates as the pattern and sends readers to heho.ca. The entry in our own events queue gives
+  February 12 to 21, 2027 as confirmed on 2026-09-21; it was deliberately not published,
+  because no source available this run carried it.
+- **Ice fishing.** The Lockport ice fishing village on the Red keeps plowed roadways and
+  roughly 26 to 27 bays anglers can drive into and fish from without a reservation
+  (Interlake Tourism's Red River North winter feature). Lake Winnipeg greenback walleye
+  average about 20 inches with 10-pound fish common; Kannuk Outfitters, a licensed guide
+  service, runs guided Lake Winnipeg ice trips from January into April starting around $450
+  (Travel Manitoba directory listing and the outfitter's guide listing).
+- **Ice shoves.** Ridges of lake ice push onto the shore north of Gimli in some years, up to
+  about three metres high, and need a floating, mobile ice cover with a persistent wind, so
+  they occur most often toward spring. Ice thinner than three inches holds nobody, four
+  inches is the walking minimum, and open water near shore is a risk under the same
+  conditions. CTV Winnipeg and CBC coverage of Lake Winnipeg ice shoves, which also carry
+  the thickness guidance.
+- **Carried from our own earlier sourced posts, not re-sourced this run.** The roughly six
+  kilometres of the Nestaweya River Trail between the Hugo Docks and Churchill Drive, the $8
+  and $4 skate rentals in The Forks Market Atrium, the CN Stage Rink and the Canopy Rink, the
+  38 Salter running into The Forks seven days a week (all 2026-09-29 and 2026-10-05), and the
+  sunsets of about 5:16 p.m. on January 30 and about 5:40 p.m. in mid-February, which were
+  computed astronomically for Winnipeg rather than sourced.
+- **Derived, not sourced.** The half-hour drive from Crescentwood down St. Mary's Road to the
+  maze is derived from the sourced 25 km and written as approximate.
+
+---
+
 ## blog-warming-huts-red-river-trail.html
 
 Published 2026-10-05. New post, first entry of the Events queue.

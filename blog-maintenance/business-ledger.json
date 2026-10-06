@@ -506,7 +506,8 @@
       "name": "Gunn's Bakery",
       "address": "247 Selkirk Ave",
       "pages": [
-        "blog-best-places-nearby-winnipeg.html"
+        "blog-best-places-nearby-winnipeg.html",
+        "blog-corydon-cute-stylish-winnipeg-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-27"
@@ -775,12 +776,12 @@
     },
     {
       "name": "Peasant Cookery",
-      "address": "",
+      "address": "283 Bannatyne Ave",
       "pages": [
         "blog-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-06"
     },
     {
       "name": "Pedal Pub Winnipeg",
@@ -789,7 +790,7 @@
         "blog-winnipeg-tours.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-06"
     },
     {
       "name": "Pho Hoang",
@@ -798,16 +799,16 @@
         "blog-winnipeg-vietnamese-pho-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-06"
     },
     {
       "name": "Pho Kim Tuong",
-      "address": "",
+      "address": "856 Ellice Ave",
       "pages": [
         "blog-winnipeg-vietnamese-pho-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-06"
     },
     {
       "name": "Pizzeria Gusto",
@@ -816,16 +817,16 @@
         "blog-winnipeg-pizza-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-06"
     },
     {
       "name": "Rebel Pizza",
-      "address": "",
+      "address": "110-245 Vermillion Rd",
       "pages": [
         "blog-winnipeg-pizza-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-06"
     },
     {
       "name": "Red River Co-op Food Store",
@@ -1329,7 +1330,8 @@
       "pages": [
         "blog-arctic-glacier-winter-park-forks.html",
         "blog-new-years-eve-the-forks.html",
-        "blog-warming-huts-red-river-trail.html"
+        "blog-warming-huts-red-river-trail.html",
+        "blog-snow-maze-st-adolphe.html"
       ],
       "status": "open",
       "last_verified": "2026-09-29"
@@ -1379,6 +1381,24 @@
       ],
       "status": "open",
       "last_verified": "2026-01-01"
+    },
+    {
+      "name": "A Maze in Corn",
+      "address": "1351 Provincial Road 200, St. Adolphe",
+      "pages": [
+        "blog-snow-maze-st-adolphe.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-10-06"
+    },
+    {
+      "name": "Kannuk Outfitters",
+      "address": "",
+      "pages": [
+        "blog-snow-maze-st-adolphe.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-10-06"
     }
   ]
 }

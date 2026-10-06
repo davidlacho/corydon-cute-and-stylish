@@ -7,6 +7,108 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-06
+
+### Businesses verified (6, the stalest in the rotation)
+
+The rotation was taken by `last_verified` ascending: six entries still sitting at the
+`2026-01-01` backfill date, picking up where the 2026-10-05 run left off in the alphabet.
+All six are open. Three blank addresses are now filled in. No business needed removing or
+correcting on a page, but one hours claim was softened (see below).
+
+- **Peasant Cookery** - open, at **283 Bannatyne Avenue** in the Exchange District (address
+  now filled in). Yelp listing updated July 2026 with 77 reviews at 4.0; Tripadvisor carries
+  2026 reviews and ranks it #14 of 1,366 Winnipeg restaurants. `blog-restaurants.html`
+  unchanged.
+- **Pedal Pub Winnipeg** - open, running the two-hour Exchange District party-bike tour for
+  8 to 15 people that `blog-winnipeg-tours.html` describes, with current 2026 pricing on its
+  own booking pages ($589 to $619 per bike, $60 for a Saturday single seat) and a published
+  booking line. Address left blank: it is a tour operator with a meeting point rather than a
+  storefront, and the post states none.
+- **Pho Hoang** - open. The page's claim that the group lists four Winnipeg addresses
+  (Sargent Avenue, Osborne Street, Portage Avenue in St. James, and Seasons of Tuxedo near
+  Sterling Lyon Parkway) still holds: current listings exist for all four, and the Sargent
+  room is described as family-owned and operating since 2011. Address left blank on purpose,
+  because no single street address describes the entry and the post names none.
+  `blog-winnipeg-vietnamese-pho-guide.html` unchanged on this point.
+- **Pho Kim Tuong** - open, at **856 Ellice Avenue** (address now filled in), the address the
+  post already gives. Yelp listing updated April 2026, plus current West End BIZ and Tourism
+  Winnipeg directory entries. The current listing shows it open Monday, Tuesday, Thursday,
+  Friday and Saturday, so the page's "daily lunch and dinner hours with one weekday closure"
+  was overstated; it now reads "lunch and dinner hours most days, with a midweek closure
+  (confirm before visiting)". No hours are published on the page.
+- **Pizzeria Gusto** - open, at 404 Academy Road, the address the ledger already held, with a
+  current OpenTable profile carrying lunch and dinner service.
+  `blog-winnipeg-pizza-guide.html` unchanged.
+- **Rebel Pizza** - open, at **110-245 Vermillion Road** (address now filled in), which is the
+  address the post already gives; the Southdale Square listing that shows "157 Vermillion" is
+  the mall's civic number, not the unit. Yelp listing updated September 2025 and a current
+  Tripadvisor page at 4.3 from 24 reviews. `blog-winnipeg-pizza-guide.html` unchanged.
+
+### Ledger backfill sweep
+
+`blog-corydon-cute-stylish-winnipeg-airbnb.html` swept, the listing's own page. It names one
+commercial business in prose, **Gunn's Bakery**, which was already in the ledger, so this
+filename was appended to its `pages`. Nothing was added. Everything else it names is an
+institution or a destination.
+
+Two venue names on that page were out of date and were corrected while it was open:
+**Bell MTS Place** to **Canada Life Centre** here and on `blog-things-to-do.html`, and
+**IG Field** to **Princess Auto Stadium** on `blog-things-to-do.html`. Both new names are the
+ones our own sourced posts of 2026-09-24 and 2026-09-25 already use. No rename year is stated
+on either page, because none was sourced this run.
+
+### New post
+
+**`blog-snow-maze-st-adolphe.html`** - "Snow Maze Near Winnipeg and Five More Ice
+Attractions". First entry of the Events queue, a new post. Form: **ranked short list** (the
+last three posts were walk, explainer and one-day plan, so this was free; last used
+2026-09-03). Six entries, each a single paragraph with the reason for its rank, then the
+stay section the event-post rules call for: the St. Adolphe snow maze, the Nestaweya River
+Trail, the Riley Family Duck Pond at Assiniboine Park, the Festival du Voyageur snow
+sculptures at Whittier Park, ice fishing off Lockport and on Lake Winnipeg, and the Lake
+Winnipeg ice shoves last because they cannot be planned.
+
+Sourced before writing: A Maze in Corn's site at 1351 Provincial Road 200 near St. Adolphe
+and the Guinness record of 2,789.11 square metres measured on 10 February 2019; the maze's
+two-foot walls, the thirty-minute solve and the one-to-two-hour visit; the five snow
+buildings, the Giant Luge at $3 or $5 unlimited for ages nine and up, Snow Mountain, the $5
+weekend sleigh rides from one until four, and the warm-up barn; admission at $28 plus GST
+for 13 and up, $18 for 6 to 12 and free under 6; the Duck Pond shelter's 7 a.m. to 10 p.m.
+hours, the no-sticks rule and the Winnipeg Trails Association rental times; Festival du
+Voyageur's twenty-plus sculptures at Whittier Park with the 2026 symposium February 10 to 15
+and festival February 13 to 22; the Lockport ice fishing village's plowed roads and roughly
+twenty-six no-reservation bays, and Kannuk Outfitters' January-to-April Lake Winnipeg trips
+from about $450 for twenty-inch greenback walleye; and the Gimli ice shoves with the
+three-inch and four-inch ice thickness rule. **No 2027 date is stated for the snow maze or
+for the festival.** The 2027 Festival du Voyageur dates in our own events queue could not be
+confirmed against the organiser this run, so they were not published; readers are sent to
+cornmaze.ca and heho.ca. The half-hour drive down St. Mary's Road is derived from the sourced
+25 km and written as approximate. Trail length, skate rental prices, the CN Stage and Canopy
+rinks, the 38 Salter and the January and February sunsets are carried from our own sourced
+posts of 2026-09-29 and 2026-10-05.
+
+Two businesses added to the ledger, A Maze in Corn and Kannuk Outfitters; The Forks Market
+was already there and this filename was appended to its `pages`. Festival du Voyageur,
+Assiniboine Park, Fort Gibraltar and the Lockport village are institutions or public
+facilities and are out of ledger scope.
+
+Hero image: `images/heho.jpg`, a real photo of carved snow blocks on the Festival du
+Voyageur sculpture grounds, which is one of the six entries. No local `images/` file shows
+the snow maze; `river_trail.png` was yesterday's hero and `winter-activities.jpg` is a
+mislabelled photo of the St. Boniface Cathedral facade. The alt text names the festival so
+the photo does not imply the maze.
+
+### Other pages changed
+
+`sitemap.xml` gained the new post and had `<lastmod>` set to 2026-10-06 for `blog.html`,
+`blog-winnipeg-vietnamese-pho-guide.html`, `blog-things-to-do.html` and
+`blog-corydon-cute-stylish-winnipeg-airbnb.html`. `articles-data.js`, `articles_data.json`
+and the `blog.html` noscript grid and JSON-LD `blogPost` array all carry the new post.
+`llms.txt` regenerated with `blog-maintenance/update-llms.py` (155 posts).
+
+---
+
 ## 2026-10-05
 
 ### Businesses verified (6, the stalest in the rotation)

@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-snow-maze-st-adolphe.html",
+    "category": "winnipeg",
+    "date": "2026-10-06",
+    "title": "Snow Maze Near Winnipeg and Five More Ice Attractions",
+    "image": "images/heho.jpg",
+    "imageAlt": "Carved blocks of snow and visitors in winter coats on the snow sculpture grounds at Festival du Voyageur in Winnipeg",
+    "description": "The world's largest snow maze sits half an hour south of Winnipeg. It leads six places to skate on, walk through or stand on the ice between January and March.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>October 6, 2026</span>"
+  },
+  {
     "url": "/blog-warming-huts-red-river-trail.html",
     "category": "winnipeg",
     "date": "2026-10-05",
