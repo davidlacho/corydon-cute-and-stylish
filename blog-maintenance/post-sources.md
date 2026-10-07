@@ -16,6 +16,89 @@ Newest first.
 
 ---
 
+## blog-festival-du-voyageur.html
+
+Refreshed 2026-10-07. Existing post rewritten in place for the 2027 edition, first entry of
+the Events queue (marked "refresh"). The slug, URL, `datePublished` and hero image were kept;
+the whole article body, the title, the meta descriptions and the alt text were replaced.
+
+- **2027 dates.** February 12 to 21, 2027, ten days. The festival's own site refers to the
+  edition as FDV2027 taking place February 12 to 21, and states that 2027 tickets are not yet
+  on sale; the Manitoba Fiddle Association's event listing and Festivalnet both give the same
+  Friday February 12 to Sunday February 21 run at Voyageur Park. A Twinkl listing giving
+  February 14 to 23, 2027 was discarded as the outlier, and a Carnifest listing marked
+  "Estimated date!" was not used. heho.ca is blocked at the egress proxy, so its text was read
+  through search result summaries.
+- **Louis Riel Day.** Monday February 15, 2027, Manitoba's third-Monday-of-February statutory
+  holiday. Calendar fact, not sourced: February 1, 2027 is a Monday, so the third Monday is
+  the 15th. This matches the Events queue entry.
+- **Venue.** Whittier Park, 836 Rue St Joseph, St. Boniface, which the festival renames
+  Voyageur Park for its run (festival ticket pages refer to the "Parc du Voyageur box office"
+  and to "Whittier park only" passes; third-party listings use both names, which is why the
+  post states both).
+- **2026 edition.** February 13 to 22, 2026, ten days. Access Winnipeg's February 2026 preview
+  and TodoCanada's 2026 guide. The International Snow Sculpture Symposium ran February 10 to
+  15 in 2026, carried from our own sourced post of 2026-10-06.
+- **2026 pass prices.** Voyageur Pass (whole run) $110 adult, $75 teens 13 to 17 and seniors
+  65 and over, $30 youth 6 to 12, free for 5 and under, taxes and fees extra; weekend pass $75
+  adult, covering either February 13 to 16 or February 19 to 22; single day on Friday February
+  13 at $40 adult, $25 teen/senior, $10 youth 6 to 12. Off-site: Auberge du Violon $15 adults,
+  $5 ages 6 to 17, free for 5 and under; Wise Wolf Trading Post $10, or $5 with a Voyageur
+  Pass. Parking at the park $10 and limited. Festival ticket and general-info pages via search
+  summaries. **Two sources disagree on the day-by-day teen, senior and youth single-day
+  prices** (one gives $25/$10 for the opening Friday, another a $15 to $30 and $5 to $15
+  range), so the post quotes only the adult single-day figure.
+- **No 2027 price, programme or on-sale date is stated anywhere on the page.** Every price on
+  the page is explicitly last February's, and readers are sent to heho.ca.
+- **Shuttle.** Free, every 15 to 30 minutes, from Centre LaVerendrye (614 Des Meurons Street)
+  and Universite de Saint-Boniface (200 de la Cathedrale Avenue), plus a park stop at St.
+  Joseph at Hebert; running from half an hour before the festival opens until the park closes.
+  Festival transportation page and Roadtrip Manitoba's festival guide, both describing the 2026
+  edition, so the post writes it as "in recent years".
+- **Transit.** Winnipeg Transit replaced its network on June 29, 2025 (City of Winnipeg). The
+  F7 St. Anne's - Provencher frequent route was introduced that day and runs Provencher
+  Boulevard. The D19 Corydon route dates from the same change, and its downtown terminal moved
+  from Webb and Vaughan to Kennedy Street with the June 2026 summer schedule (City of Winnipeg;
+  carried from our own sourced posts of 2026-09-27 and 2026-10-04). Moovit also lists routes
+  38, 43, 10, 49 and 50 as serving the area and Roadtrip Manitoba names 10, 43 and 50, but no
+  Winnipeg Transit source confirmed a post-2025 stop for those at the park, so the post names
+  only D19 and F7 and tells the reader to check the trip planner.
+- **History.** First festival 1970, in Provencher Park, with support from eighteen community
+  organisations and the city of Saint-Boniface; moved to Whittier Park in 1977. The first log
+  building went up in Whittier Park in 1977 and the Maison du Bourgeois opened in October 2001
+  (festival history pages). The original Fort Gibraltar was a North West Company trading post
+  built in 1809 at the junction of the Red and the Assiniboine. One festival article dates the
+  replica fort itself to 1978 while the history page describes the 1977 cabin as the first
+  building on the site, so the post states only the 1977 first building.
+- **Programme and attendance.** The 2026 programme was reported as more than 150 musical
+  performances with late-night events at the Auberge Bisous Bisous and an enhanced Voyageur
+  Games schedule (Access Winnipeg, TodoCanada; TodoCanada frames the figure as "more than 150
+  artists" rather than performances, so the post says "performances" only because Access
+  Winnipeg does). Organisers estimated 70,000 to 75,000 through the park in 2026 with the count
+  not final (Classic 107); 2025 attendance 67,380. Older general sources claiming 90,000 to
+  100,000 a year were not used. **The 2027 edition number is deliberately absent from the
+  page**: Access Winnipeg calls 2026 the 57th edition while CBC called the snow-sculpture year
+  before it the 56th annual, and the two cannot both be squared with a 1970 start, so no
+  ordinal was published.
+- **Derived, not sourced.** The mid-February sunset of about 5:40 p.m. was computed for
+  Winnipeg (and matches our own post of 2026-10-06). The eight kilometres and fifteen to twenty
+  minutes by car from Crescentwood, and the roughly fifteen minutes on foot from the Provencher
+  Boulevard stops to the gate, are derived from the sourced addresses and written as
+  approximate. No temperature figure is stated anywhere on the page.
+- **Businesses named.** Chaise Cafe & Lounge, 271 Provencher Blvd (ledger, verified open
+  2026-09-23) and Roasted Nomad, 393 Marion St, brunch Tuesday to Sunday with no reservations
+  (ledger, verified open 2026-10-01). Marion Street Eatery was in the first draft and was
+  replaced once the ledger showed it closed, its room now being Roasted Nomad. Both filenames
+  appended to the existing ledger entries' `pages`; nothing new added. Fort Gibraltar, Whittier
+  Park, the Universite de Saint-Boniface, Centre LaVerendrye, the symposium and the festival's
+  own tents (Auberge du Violon, Auberge Bisous Bisous, Wise Wolf Trading Post) are treated as
+  institutions or festival programming, not ledger businesses.
+- **Image.** images/heho.jpg kept, a real photo of carved snow blocks on the festival's own
+  sculpture grounds. Alt text rewritten from "Festival du Voyageur celebration in Winnipeg" to
+  describe what the photo actually shows.
+
+---
+
 ## blog-snow-maze-st-adolphe.html
 
 Published 2026-10-06. New post, first entry of the Events queue.

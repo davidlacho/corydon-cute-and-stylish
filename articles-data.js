@@ -1166,11 +1166,11 @@ const ARTICLES_DATA = [
     "url": "/blog-festival-du-voyageur.html",
     "category": "winnipeg",
     "date": "2025-02-15",
-    "title": "Festival du Voyageur: Celebrating Winnipeg's Winter Heritage",
+    "title": "Festival du Voyageur 2027: February 12 to 21, Winnipeg",
     "image": "images/heho.jpg",
-    "imageAlt": "Festival du Voyageur celebration in Winnipeg",
-    "description": "Experience Festival du Voyageur, Western Canada's largest winter festival. Discover French-Canadian culture, snow sculptures, traditional music, and authentic cuisine in Winnipeg's Saint-Boniface neighborhood.",
-    "metaHtml": "<span>Winter Festival</span>\n                                <span>6 min read</span>\n                                <span>February 15, 2025</span>"
+    "imageAlt": "Carved snow blocks on the sculpture grounds at Festival du Voyageur in Winnipeg",
+    "description": "Festival du Voyageur runs February 12 to 21, 2027 at Whittier Park in St. Boniface. Passes, the free shuttle, the Louis Riel Day crowd and what to wear.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>Updated October 7, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-folk-festival.html",
