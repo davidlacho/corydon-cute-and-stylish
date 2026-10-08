@@ -152,7 +152,7 @@ Total Blog Posts: 155
 - [Canadian Museum for Human Rights: A Journey of Understanding](https://staywinnipeg.ca/blog-human-rights-museum.html)
 - [St. Vital Park: Winnipeg's Riverside Oasis](https://staywinnipeg.ca/blog-st-vital-park.html)
 - [The Forks Winnipeg: What to See, Eat & Do (Visitor Guide)](https://staywinnipeg.ca/blog-the-forks.html)
-- [Festival du Voyageur: Celebrating Winnipeg's Winter Heritage](https://staywinnipeg.ca/blog-festival-du-voyageur.html)
+- [Festival du Voyageur 2027: February 12 to 21 in Winnipeg](https://staywinnipeg.ca/blog-festival-du-voyageur.html)
 - [Getting Around Winnipeg: Transit, Uber, Parking & Airport](https://staywinnipeg.ca/blog-transportation.html)
 - [Things to Do with Kids in Winnipeg: 20+ Family Activities](https://staywinnipeg.ca/blog-family-activities.html)
 - [The History of Crescentwood: Winnipeg's Most Prestigious Neighborhood](https://staywinnipeg.ca/blog-crescentwood-history.html)
@@ -283,5 +283,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
-October 6, 2026
+October 8, 2026
 

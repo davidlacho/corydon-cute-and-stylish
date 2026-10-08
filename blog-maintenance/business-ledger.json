@@ -830,30 +830,30 @@
     },
     {
       "name": "Red River Co-op Food Store",
-      "address": "",
+      "address": "1120 Grant Ave",
       "pages": [
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-08"
     },
     {
       "name": "River Heights Farmers' Market",
-      "address": "",
+      "address": "1370 Grosvenor Ave",
       "pages": [
         "blog-farmers-market-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-08"
     },
     {
       "name": "Roughage Eatery",
-      "address": "",
+      "address": "190 Garry St (pickup at Club 200)",
       "pages": [
         "blog-winnipeg-vegan-restaurants.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "moved",
+      "last_verified": "2026-10-08"
     },
     {
       "name": "Saburo Kitchen (Hargrave St. Market)",
@@ -862,25 +862,25 @@
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-08"
     },
     {
       "name": "The Saddlery on Market",
-      "address": "",
+      "address": "114 Market Ave",
       "pages": [
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-08"
     },
     {
       "name": "Shelly's Indigenous Bistro",
-      "address": "",
+      "address": "1364 Main St",
       "pages": [
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-08"
     },
     {
       "name": "Sho Coffee and Bar",

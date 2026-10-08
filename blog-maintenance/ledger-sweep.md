@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-corydon-to-forks-bike-walk-guide.html
 - blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html
 - blog-crescentwood-history.html
 - blog-crescentwood-liveable.html
@@ -145,6 +144,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-10-08 - blog-corydon-to-forks-bike-walk-guide.html (a short pacing guide for the Corydon-to-The-Forks route. It names no commercial business at all: the only destinations in the text are Osborne as a pause point and The Forks, which is an institution, and the one food reference is a generic "stop for coffee or water" with no shop named. Nothing added to the ledger and no `pages` appended.)
 - 2026-10-06 - blog-corydon-cute-stylish-winnipeg-airbnb.html (the listing's own page. One commercial business named in prose, Gunn's Bakery, already in the ledger, so this filename was appended to its `pages`. Everything else it names is an institution or a destination: The Forks, the Canadian Museum for Human Rights, the Exchange District, the Winnipeg Art Gallery, Peanut Park, Assiniboine Park and The Leaf, St. Vital Park, Winnipeg Richardson International Airport, Festival du Voyageur, the Winnipeg Folk Festival, Rainbow Stage and the Fringe. Two venue names were out of date and were corrected while the post was open: Bell MTS Place to Canada Life Centre here and on blog-things-to-do.html, and IG Field to Princess Auto Stadium on blog-things-to-do.html.)
 - 2026-10-05 - blog-corydon-confusion-corner-walking-guide.html (a route guide around Confusion Corner that names no commercial business at all: it describes Osborne Village as having "compact retail blocks, cafés, and bakeries" without naming one, and sends readers to our coffee guide and our ice cream and gelato guide for the actual stops. Nothing added to the ledger and no `pages` appended.)
 - 2026-10-04 - blog-coffee-near-corydon-airbnb.html (coffee on Corydon Avenue; all five commercial businesses it names were already in the ledger, so this filename was appended to each of their `pages`: Thom Bargen Coffee Roasters (743 Corydon Ave), Forgotten Flavours (858 Corydon Ave), Sugar + Salt Bakeshoppe (897 Corydon Ave), Starbucks (946 Corydon Ave) and Tim Horton's (949 Corydon Ave). Nothing was added. Note for a later run: the ledger carries two entries for the same Tim Hortons at 949 Corydon Ave, "Tim Horton's" and "Tim Hortons (949 Corydon Ave)"; they should be merged, and this filename went on the first.)

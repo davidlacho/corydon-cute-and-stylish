@@ -16,6 +16,60 @@ Newest first.
 
 ---
 
+## blog-festival-du-voyageur.html
+
+Refreshed 2026-10-08 for the 2027 festival (previous text was undated 2025 copy with no
+dates, prices or logistics in it at all).
+
+**Confirmed for 2027 before writing:**
+
+- FDV2027 runs February 12 to 21, 2027, announced by the festival itself and carried by the
+  Manitoba Fiddle Association's listing (Friday February 12 to Sunday February 21, in the
+  French Quarter).
+- Site is Whittier Park, 836 Rue St Joseph, Winnipeg R2Y 0H8. Note the number: the queue note
+  and some directories give 866; the festival's own general-info page gives 836. Some sources
+  call the grounds Voyageur Park and some Whittier Park; they are the same grounds, and the
+  festival's 2026 general-info page uses Whittier Park.
+- Louis Riel Day is Monday February 15, 2027 (Manitoba's third Monday in February, computed,
+  not sourced), which falls on the festival's opening long weekend.
+- Ticket structure: day ticket 10:00 to 00:00, evening ticket 18:00 to 00:00, and a combined
+  day-plus-evening ticket. Three purchase channels: online at heho.ca, the festival office at
+  233 Provencher Boulevard, and the park box office subject to availability. Site is cashless
+  (cards only for tickets and bar). No refunds, tickets transferable, some days sell out.
+- 2026 prices, written on the page explicitly as 2026 figures: Voyageur Pass $110 adult, $75
+  teen (13-17) and senior (65+), $30 youth (6-12), free for 5 and under, before tax and fees;
+  weekend pass $75 adult; single days $30 to $40 depending on the date.
+- Parking: Parc du Voyageur lot $10 and fills early, accessible spots available but not free;
+  free parking with festival shuttle pickup at the Universite de Saint-Boniface and Centre
+  LaVerendrye; free parking at Caisse Financial Group, 205 Provencher Boulevard, with no
+  shuttle pickup. Shuttle runs from half an hour before opening until the park closes.
+- Fort Gibraltar is a reconstructed fur trade post standing in Whittier Park next to the Red
+  River, with costumed interpreters; the international snow sculpture symposium brings carvers
+  in and the finished pieces are lit at night.
+
+**Not stated on the page because it could not be confirmed:**
+
+- No 2027 price, on-sale date or programme appears anywhere on the page. Readers are sent to
+  heho.ca. 2026 figures are labelled as 2026.
+- No transit route number is given. Sources disagree sharply: one guide has route 888 dropping
+  at the park with 110 and F7 a five-to-ten-minute walk away, another lists 10, 43 and 50. The
+  page names the festival's own free shuttle and the walk from the Esplanade Riel instead.
+- Caribou, the festival's drink, was cut from the draft for want of a source this run; the
+  line now reads "if you plan to drink".
+
+**Computed rather than sourced:**
+
+- Sunsets of about 5:42 p.m. on February 12 and about 5:57 p.m. on February 21, 2027, for
+  Winnipeg.
+- The roughly twenty-minute walk from the St. Boniface end of the Esplanade Riel to the park,
+  and the roughly twenty-minute drive from Crescentwood. Both written as approximate.
+
+**Image:** images/heho.jpg kept, a real photo of carved snow blocks on the festival's own
+sculpture grounds, which is the post's subject. Alt text rewritten to describe what the photo
+actually shows.
+
+---
+
 ## blog-snow-maze-st-adolphe.html
 
 Published 2026-10-06. New post, first entry of the Events queue.

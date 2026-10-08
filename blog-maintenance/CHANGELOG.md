@@ -7,6 +7,125 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-08
+
+### Businesses verified (6, the stalest in the rotation)
+
+Taken by `last_verified` ascending: six entries still at the `2026-01-01` backfill date,
+continuing through the alphabet from where the 2026-10-06 run stopped. Five are open, one has
+given up its storefront. Four blank addresses are now filled in. Two pages were corrected.
+
+- **Red River Co-op Food Store** - open, at **1120 Grant Ave** in Grant Park Shopping Centre
+  (address now filled in), which is the address `blog-best-places-nearby-winnipeg.html`
+  already gives. Current directory listings place the store in the mall, and CBC's coverage of
+  Federated Co-operatives buying the Grant Park and St. Vital Safeway stores from Sobeys
+  explains how it got there. Page unchanged.
+- **River Heights Farmers' Market** - open, at **1370 Grosvenor Ave** in the Corydon Community
+  Centre parking lot (address now filled in). The community centre's own market page and Direct
+  Farm Manitoba both give the 2026 season as Fridays 12 to 5, July 3 to September 25, which is
+  exactly what our page said. **Page corrected anyway**: the season has now ended, and the page
+  stated those dates in the present tense. `blog-farmers-market-near-corydon-airbnb.html` now
+  gives the Friday 12 to 5 pattern with the early-July-to-late-September window, names 2026 as
+  a past season, and sends readers to the community centre's page for this season's dates. No
+  2027 dates are stated; none are published. Tourism Winnipeg's listing (Fridays 1 to 6,
+  July 5 to September 27) is a stale earlier season and was not used.
+- **Roughage Eatery** - **moved; the restaurant is gone.** The company's own site announced the
+  closure of 126 Sherbrook Street because the building was slated for demolition, and said it
+  would continue through markets, pop-ups, catering and stocking vendors with its cheezes and
+  seitans. Pickup has been running out of Club 200 at 190 Garry Street. Yelp, Tripadvisor and
+  an Out x Out listing still show the Sherbrook address with regular hours; they are stale.
+  **`blog-winnipeg-vegan-restaurants.html` corrected**: Roughage was the lead entry under
+  "Dedicated Vegan Restaurants" and was described as a place to go for lunch or dinner with a
+  "casual and welcoming" dining room. It has been moved to "Specialty Vegan Experiences" and
+  rewritten to say plainly that there is no dining room, what the kitchen does now, and where
+  pickup has been; an `.info-box` tells the reader to check before travelling downtown. Ledger
+  status set to `moved`, address recorded as 190 Garry St (pickup at Club 200). No hours or
+  prices are stated on the page.
+- **Saburo Kitchen (Hargrave St. Market)** - open, still listed among the market's tenants on
+  hargravestmarket.com, at 242 Hargrave St in True North Square, the address the ledger already
+  held. Reviews are older (2019 to 2023) but no source reports a closure.
+  `blog-hargrave-st-market.html` unchanged.
+- **The Saddlery on Market** - open, at **114 Market Ave** (address now filled in). Tripadvisor
+  carries reviews from January, February and May 2026, the Yelp listing was updated in June 2026
+  with weekday-to-Saturday hours, and Ciao! listed it on the Dine About Winnipeg 2026 menu in
+  late January. Its Uber Eats page reads closed as of August 2026, which is an app listing, not
+  the restaurant. `blog-group-dining.html` unchanged.
+- **Shelly's Indigenous Bistro** - open, at **1364 Main St** (address now filled in). Its own
+  Square site posts daily 11 a.m. to 8 p.m. hours, Tripadvisor and Restaurantji both carry 2026
+  review activity, and several cook and chef postings for the bistro are currently open. The
+  ownership claim on `blog-indigenous-winnipeg.html` (Vince Bignell of Mathias Colomb First
+  Nation) was not sourced this run and was left as written. Page unchanged.
+
+**Lead for a future run, not acted on:** while confirming Saburo, the market's own restaurants
+and contact pages no longer list **Miss Browns**, its Yelp listing (updated November 2025) says
+it is closed, and its DoorDash page is inactive, while its own site still posts hours. That is
+suggestive and not proof, and Miss Browns was verified open on 2026-10-01, so nothing was
+changed on `blog-hargrave-st-market.html`. A new vendor, **The 44**, now leads the market's
+restaurant page. Worth a real check when Miss Browns next comes up in the rotation.
+
+### Ledger backfill sweep
+
+`blog-corydon-to-forks-bike-walk-guide.html` swept. It names no commercial business at all:
+Osborne appears only as a pause point, The Forks is an institution, and the single food
+reference is a generic "stop for coffee or water" with no shop named. Nothing added, no `pages`
+appended.
+
+### Page refreshed
+
+**`blog-festival-du-voyageur.html`** - retitled "Festival du Voyageur 2027: February 12 to 21
+in Winnipeg". First entry of the Events queue, marked **refresh**, so the file was rewritten in
+place and the slug and URL kept. Form: **host's notes** (the last three posts were ranked short
+list, walk and explainer, so this was free).
+
+The old text was undated 2025 copy. It carried no dates, no address, no prices and no transport
+information, and it was built out of exactly the phrases the house style bans ("vibrant", "rich
+cultural heritage", "rich tapestry", "a testament", "offers something for everyone", "an
+experience you won't want to miss"). None of it was reusable, so the body is new.
+
+Confirmed before writing: the February 12 to 21, 2027 dates, from the festival's own site and
+the Manitoba Fiddle Association's listing; Whittier Park at 836 Rue St Joseph, which corrects
+the 866 that the queue note and several directories carry; the day (10:00 to 00:00), evening
+(18:00 to 00:00) and combined ticket structure; the three purchase channels, including the
+festival office at 233 Provencher Boulevard; the cashless site, the no-refund rule and that
+days do sell out; the 2026 prices, stated on the page as 2026 figures; the $10 park lot, the
+free shuttle lots at the Universite de Saint-Boniface and Centre LaVerendrye, the free
+unshuttled lot at 205 Provencher Boulevard, and the shuttle's half-hour-before-opening start;
+and Fort Gibraltar as a reconstructed fur trade post in the park with costumed interpreters.
+
+No 2027 price, on-sale date or programme appears on the page; readers are sent to heho.ca. No
+transit route number is given, because the sources disagree (888, versus 110 and F7 with a walk,
+versus 10, 43 and 50); the festival's free shuttle and the walk from the Esplanade Riel are
+named instead. Louis Riel Day on Monday February 15, 2027 and the sunsets of about 5:42 p.m. on
+February 12 and 5:57 p.m. on February 21 were computed for Winnipeg, as were the twenty-minute
+walk from the bridge and the twenty-minute drive from Crescentwood, both written as approximate.
+No new ledger entries: the festival, the fort, the park, the university and the community centre
+are all institutions.
+
+Image: `images/heho.jpg` kept, a real photo of carved snow blocks on the festival's own
+sculpture grounds, with the alt text rewritten to describe what it shows.
+
+Registrations updated for the new title, description and alt text in `articles-data.js`,
+`articles_data.json`, the `blog.html` noscript card and its JSON-LD `blogPost` entry;
+`dateModified` and `article:modified_time` set to today, `datePublished` and the listing `date`
+left at 2025-02-15 with the meta line reading "Updated October 8, 2026"; `sitemap.xml`
+`<lastmod>` set to today for the festival post, the vegan guide, the farmers' market guide and
+`blog.html`; `llms.txt` regenerated with `blog-maintenance/update-llms.py` (155 posts).
+
+### Accessibility checks
+
+`pa11y --standard WCAG2AA` run on all four changed pages: `blog-festival-du-voyageur.html`,
+`blog-winnipeg-vegan-restaurants.html`, `blog-farmers-market-near-corydon-airbnb.html` and
+`blog.html`. **4 pages checked, 4 passed, 0 errors.**
+
+Run against a local static server (`python3 -m http.server`, Chromium with `--no-sandbox`)
+rather than the live `https://staywinnipeg.ca/` URLs: this session's egress policy answered
+403 to `staywinnipeg.ca:443`, so the live pages were unreachable. Testing the working tree is
+in any case the stricter check, since it exercises today's HTML rather than the version
+currently deployed. If a future run needs the live URLs, `staywinnipeg.ca` has to be added to
+the environment's allowed domains.
+
+---
+
 ## 2026-10-06
 
 ### Businesses verified (6, the stalest in the rotation)
