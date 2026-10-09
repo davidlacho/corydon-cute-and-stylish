@@ -7,6 +7,20 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-09 (manual edit, at the owner's request)
+
+Removed Neon Palm Pizza from the site. Its listing could not be verified in the
+2026-10-02 run, and the owner asked for it to come out entirely.
+
+- `blog-winnipeg-pizza-guide.html`: the Neon Palm section, the name in the meta
+  keywords, and the name in the meta and JSON-LD descriptions are removed.
+- `blog.html`, `articles-data.js` and `articles_data.json`: the name is removed
+  from the pizza guide's listing description.
+- `business-ledger.json`: the Neon Palm Pizza entry is removed (148 businesses).
+
+The 2026-10-02 block above is kept as the record of the original verification
+attempt.
+
 ## 2026-10-08
 
 ### Businesses verified (6, the stalest in the rotation)
