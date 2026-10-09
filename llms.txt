@@ -205,10 +205,17 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage showcasing boutique accommodation, tours, and experiences with booking information, guest review highlights, a two-column property overview with image carousel, and a centred booking CTA
+<<<<<<< HEAD
 - Blog index page listing all 155 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
 - 155 individual blog post pages covering local guides, hosting insights, and travel stories
+=======
+- Blog index page listing all 155 blog posts by category
+- Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
+- Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
+- 155 individual blog post pages covering local guides, hosting insights, and travel stories
+>>>>>>> origin/claude/amazing-bell-9zggwx
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
@@ -284,4 +291,8 @@ Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
 October 9, 2026
+October 9, 2026
+=======
+October 3, 2026
+>>>>>>> origin/claude/amazing-bell-9zggwx
 

@@ -417,6 +417,102 @@ stage, a hall or an orchestra.
 
 ---
 
+## 2026-10-03
+
+### Businesses verified (6, the stalest in the rotation)
+
+All six carried the `2026-01-01` backfill date and had never been checked. Five
+are open, one could not be verified at all, and two blank addresses are now
+filled in.
+
+- **Neon Palm Pizza** - **unverified**. Two extended search passes found no
+  Winnipeg business of this name: the only Neon Palm Pizza with a web presence is
+  at 1223 W. Flagler Street in Miami, on a different domain
+  (neonpalmpizza.com) from the neonpalm.pizza link on our page, and that domain
+  is blocked at the egress proxy so it could not be read directly. Per the
+  playbook the entry was left `open` and `blog-winnipeg-pizza-guide.html` was
+  left unchanged rather than guessed at, but this one wants a human look: if the
+  business does not exist in Winnipeg, the section should come off the pizza
+  guide. `last_verified` was set to today because the check was performed, so it
+  will not resurface in the rotation on its own.
+- **Nucci's Gelati** - open, at 643 Corydon Ave, the address the ledger already
+  held. An August 2026 Tripadvisor review describes a large family meal served by
+  Maria and Mike, and the Yelp listing was updated in August 2026. The three
+  pages that name it were left alone.
+- **Old Gold Vintage Vinyl** - open, at **187 Osborne St** in Osborne Village
+  (address now filled in), still run by founder Brent Jackson, and listed in a
+  2026 roundup of Winnipeg record stores. `blog-winnipeg-osborne-village-guide.html`
+  says only "on Osborne Street", which is correct, and was left alone.
+- **Parcel Pizza** - open, at **221-A Stradbrook Ave** (address now filled in),
+  two floors with a mezzanine over the open kitchen. **One factual error
+  corrected:** `blog-winnipeg-pizza-guide.html` described it as serving
+  "Detroit-style and round pies depending on the week's menu (verify online)";
+  every source found describes New York-style pies, including a spicy dill pickle
+  one, so the paragraph was rewritten with the style, the address and the room,
+  and the hedge removed.
+- **Park Café (Qualico Family Centre, Assiniboine Park)** - open, 9 a.m. to
+  4 p.m., closed December 25 and open other holidays, per the Assiniboine Park
+  Conservancy's own page and the Travel Manitoba directory. Address left blank:
+  the sources give the café's location as the Qualico Family Centre on the Riley
+  Family Duck Pond without a street address, and the park's own civic address is
+  not the café's. `blog-group-dining.html` states no hours and was left alone.
+- **Parlour Coffee** - open, at 468 Main St, the address the ledger already held,
+  with an August 2026 Yelp update and current Tripadvisor ranking. Hours differ
+  between the shop's own site and the aggregators, so none is stated on any of
+  the three pages that name it, and none was added.
+
+### Ledger sweep
+
+`blog-coffee-near-corydon-airbnb.html` swept. All five businesses it names were
+already in the ledger (Thom Bargen, Forgotten Flavours, Sugar + Salt, Starbucks
+and Tim Horton's, all on Corydon Avenue), so this filename was appended to each
+entry's `pages` and nothing was added. Noted for a later run: the ledger holds
+two entries for the same Tim Hortons at 949 Corydon Ave and they should be
+merged.
+
+### New post
+
+`blog-winnipeg-new-music-festival.html`, "Winnipeg New Music Festival 2027:
+Dates, Tickets, Venues", the first entry of the Events queue. An explainer of
+how the WSO's contemporary music week works: the 2026 run of January 21 to 29 as
+the shape of the week, the two venues and the twenty-minute walk between them in
+the dark, how passes and single tickets work, Kelly-Marie Murphy's first festival
+as curator, and the festival's 1992 origin. No 2027 date or price is stated
+anywhere on the page, because none has been posted. Registered in
+`articles-data.js`, `articles_data.json`, the `blog.html` noscript cards and
+JSON-LD, `sitemap.xml` and a regenerated `llms.txt`; provenance recorded in
+`post-sources.md`. Hargrave St. Market and Parlour Coffee, the only commercial
+businesses it names, were already in the ledger and gained the new filename.
+
+### Pages changed
+
+- `blog-winnipeg-new-music-festival.html` (new)
+- `blog-winnipeg-pizza-guide.html` (Parcel Pizza paragraph corrected)
+- `blog.html`, `articles-data.js`, `articles_data.json`, `sitemap.xml`,
+  `llms.txt` (registration)
+
+### Accessibility
+
+`pa11y --standard WCAG2AA` run on the three changed pages,
+`blog-winnipeg-new-music-festival.html`, `blog.html` and
+`blog-winnipeg-pizza-guide.html`: no issues on any of them. The checks ran
+against a local static server rather than staywinnipeg.ca, because the new page
+is not deployed until this push and the live domain is not reachable from the
+run's network. No CSS was touched, so no minified stylesheet needed
+regenerating.
+
+### Finding for a later run: blog.html is behind articles-data.js
+
+`articles-data.js` now lists 153 posts. The `blog.html` JSON-LD `blogPost` array
+and the `<noscript>` cards each hold 98, and `articles_data.json` holds 136, so
+**55 posts are missing from the no-JS fallback and the structured data** and 17
+from the legacy JSON. The gap is older than this run (the missing slugs are the
+July and August Corydon-anchored posts), and closing it is a far bigger diff than
+a daily run should carry, so it is recorded here instead of half-done. Today's
+post was added to all four.
+
+---
+
 ## 2026-10-02
 
 ### Businesses verified (6, the stalest in the rotation)
