@@ -126,6 +126,113 @@ the environment's allowed domains.
 
 ---
 
+## 2026-10-07
+
+### Businesses verified (6, the stalest in the rotation)
+
+Taken by `last_verified` ascending: six entries still sitting at the `2026-01-01` backfill
+date, picking up where the 2026-10-06 run left off in the alphabet. All six are open. Five
+blank addresses are now filled in. No business needed removing from a page, but one hours
+claim was removed (see below).
+
+- **Red River Co-op Food Store** - open, at **1120 Grant Ave** in Grant Park (address now
+  filled in), which is the address `blog-best-places-nearby-winnipeg.html` already links to.
+  The Grant Park store is one of the former Safeway rooms Federated Co-op took over, and the
+  co-op announced in June 2026 that it is putting a food store and pharmacy into the Portage
+  Place redevelopment downtown, reported as opening in 2029. Nothing on the page needed
+  changing and no 2029 store is mentioned anywhere on the site.
+- **River Heights Farmers' Market** - open, in the parking lot at **1370 Grosvenor Ave**
+  (address now filled in). The Corydon Community Centre and Direct Farm Manitoba both give the
+  2026 season as every Friday 12 to 5 p.m. from July 3 to September 25, which is exactly what
+  `blog-farmers-market-near-corydon-airbnb.html` already says, so the page is unchanged. Two
+  older listings (Travel Manitoba's 2026 roundup, Tourism Winnipeg) give a September 5 end and
+  a July 5 start and were not used. Direct Farm Manitoba notes the market is now run solely by
+  the community centre rather than jointly with St. Andrew's River Heights United Church; the
+  page credits only the community centre, so it is already right.
+- **Roughage Eatery** - open, at **126 Sherbrook St** in the West End (address now filled in).
+  Yelp's listing was updated April 2026 and shows Wednesday to Saturday service; Tripadvisor
+  carries 2026 reviews at 4.4. Restaurantji shows a "temporarily closed" flag that no other
+  source supports and that has no accompanying notice, so the status stays open.
+  `blog-winnipeg-vegan-restaurants.html` states no address and no hours and was left alone.
+- **Saburo Kitchen (Hargrave St. Market)** - open, at 242 Hargrave St, the address the ledger
+  already held. Current directory listings show daily service, and the market's own restaurant
+  page still describes it as the ramen and donburi counter from the Yujiro and GaiJin Izakaya
+  team, which is how `blog-hargrave-st-market.html` describes it. One Facebook snapshot carries
+  an "Opening Soon" label that conflicts with the rest and was not treated as evidence of a
+  closure. hargravestmarket.com and heho.ca are both blocked at the egress proxy, so their text
+  was read through search result summaries.
+- **The Saddlery on Market** - open, at **114 Market Avenue** in the Exchange District (address
+  now filled in). Yelp's listing was updated June 2026 with regular weekly hours and
+  Tripadvisor shows current hours. Uber Eats shows the restaurant off its delivery platform as
+  of August 2026, which is a delivery status rather than a closure. `blog-group-dining.html`
+  states no address or hours and was left alone.
+- **Shelly's Indigenous Bistro** - open, at **1364 Main Street** (address now filled in), the
+  address the page already gives, next to the Bulldog Event Centre. Three current listings give
+  three different sets of hours and disagree on whether Sunday is closed, so the specific hours
+  on `blog-indigenous-winnipeg.html` ("Monday to Thursday, 11 AM to 8 PM; Friday, 11 AM to
+  12 AM; Saturday, 4 PM to 12 AM") were not supportable and were replaced with a line telling
+  the reader the listings disagree and to confirm before going. No hours are now stated. The
+  owner credit to Vince Bignell of Mathias Colomb First Nation was left as it stands.
+
+### Ledger backfill sweep
+
+`blog-corydon-to-forks-bike-walk-guide.html` swept. It names no commercial business at all:
+it tells the reader to "build in one stop for coffee or water" and says The Forks "gives indoor
+food options" without naming a cafe, vendor or restaurant. Nothing added to the ledger, no
+`pages` appended, filename moved to "Swept".
+
+### Post refreshed: blog-festival-du-voyageur.html
+
+**Festival du Voyageur 2027: February 12 to 21, Winnipeg** (form: host's notes). First entry of
+the Events queue, marked "refresh", so the existing page was rewritten in place and the slug,
+URL and `datePublished` kept. The old text was a dateless 2025 general-interest piece carrying
+most of the house style's banned register at once ("a testament", "rich tapestry", "vibrant",
+"offers something for everyone", "embrace", "Whether you're"), so the whole article body went.
+
+The 2027 dates are confirmed by the festival's own site, which calls the edition FDV2027 and
+gives February 12 to 21; the Manitoba Fiddle Association and Festivalnet agree, and a Twinkl
+listing giving February 14 to 23 was discarded as the outlier. Louis Riel Day 2027 falls on
+Monday February 15. **No 2027 price, programme or on-sale date appears anywhere on the page**:
+the pass prices quoted are explicitly last February's ($110 adult full-run Voyageur Pass, $75
+weekend, $40 opening-Friday single day, $10 parking) and readers are sent to heho.ca, which is
+blocked at the egress proxy and was read through search summaries. The 2027 edition number was
+deliberately left out, because sources disagree on whether 2026 was the 56th or the 57th.
+Provenance for every fact, including what was derived rather than sourced (the mid-February
+5:40 p.m. sunset, the eight kilometres from Crescentwood, the fifteen-minute walk from
+Provencher), is in `blog-maintenance/post-sources.md`.
+
+Two commercial businesses are named: **Chaise Cafe & Lounge** (271 Provencher Blvd, verified
+open 2026-09-23) and **Roasted Nomad** (393 Marion St, verified open 2026-10-01). Marion Street
+Eatery was in the draft and was replaced once the ledger showed it closed, its room now being
+Roasted Nomad; this is the second run to catch that closure propagating into new copy. Both
+businesses were already in the ledger, so this filename was appended to their `pages` and
+nothing was added. Hero image left as `images/heho.jpg`, the festival's own sculpture grounds;
+its alt text was rewritten to describe the photo rather than name a "celebration".
+
+### Pages changed
+
+- `blog-festival-du-voyageur.html` (rewritten: title, meta, Open Graph, Twitter, JSON-LD,
+  `article:modified_time`, `dateModified`, visible meta line, hero alt text, whole body)
+- `blog-indigenous-winnipeg.html` (Shelly's hours line)
+- `blog.html` (noscript card and JSON-LD entry for the Voyageur post)
+- `articles-data.js`, `articles_data.json` (title, description, imageAlt, metaHtml)
+- `sitemap.xml` (`lastmod` for the Voyageur post, `blog.html` and the Indigenous guide)
+- `llms.txt` (regenerated with `blog-maintenance/update-llms.py`: 155 posts, 137 winnipeg,
+  13 hosting, 5 travel)
+- `blog-maintenance/business-ledger.json`, `ledger-sweep.md`, `post-ideas.md`,
+  `post-sources.md`
+
+### Accessibility
+
+`pa11y --standard WCAG2AA` on the three changed HTML pages: `blog-festival-du-voyageur.html`,
+`blog-indigenous-winnipeg.html` and `blog.html`. **3 pages checked, 3 pass, 0 errors.** The
+live site could not be used: staywinnipeg.ca returns 403 at the egress proxy's CONNECT stage,
+so the repository was served on 127.0.0.1 and pa11y run against that, with Chromium launched
+`--no-sandbox` (it runs as root here) and the proxy bypassed. No CSS was touched, so no
+minified stylesheet needed regenerating.
+
+---
+
 ## 2026-10-06
 
 ### Businesses verified (6, the stalest in the rotation)
