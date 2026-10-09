@@ -198,7 +198,8 @@
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
         "blog-winnipeg-cocktail-bars-lounges.html",
-        "blog-winnipeg-vegan-restaurants.html"
+        "blog-winnipeg-vegan-restaurants.html",
+        "blog-winnipeg-new-music-festival.html"
       ],
       "status": "open",
       "last_verified": "2026-09-22"
@@ -382,7 +383,8 @@
       "name": "Deer + Almond",
       "address": "85 Princess St",
       "pages": [
-        "blog-restaurants.html"
+        "blog-restaurants.html",
+        "blog-winnipeg-new-music-festival.html"
       ],
       "status": "open",
       "last_verified": "2026-09-24"
@@ -614,7 +616,8 @@
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
         "blog-group-dining.html",
-        "blog-winnipeg-event-venues.html"
+        "blog-winnipeg-event-venues.html",
+        "blog-winnipeg-new-music-festival.html"
       ],
       "status": "open",
       "last_verified": "2026-09-30"
@@ -1366,7 +1369,7 @@
     },
     {
       "name": "Garden City Shopping Centre",
-      "address": "",
+      "address": "2305 McPhillips St",
       "pages": [
         "blog-classic107-spring-break-winnipeg.html"
       ],

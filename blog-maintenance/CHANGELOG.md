@@ -417,6 +417,122 @@ stage, a hall or an orchestra.
 
 ---
 
+## 2026-10-02
+
+### Businesses verified (6, the stalest in the rotation)
+
+All six were on the `2026-01-01` backfill date and had never been checked. Five
+confirmed open, one could not be verified at all. Three blank addresses filled in.
+
+- **Garden City Shopping Centre** - open, at **2305 McPhillips Street** in West
+  Kildonan at Leila Avenue (address now filled in). Wikipedia and Malls.com both
+  carry the address and the mall's current anchor list, and CTV's 2026
+  what's-open-and-closed pieces give its holiday hours for Louis Riel Day,
+  Canada Day and New Year's Eve, which is current operating evidence.
+  `blog-classic107-spring-break-winnipeg.html`, the only page that names it, was
+  left alone; it states no address or hours.
+- **Milk & Madu (Canggu)** - open, at **Jalan Pantai Berawa No. 52, Canggu**
+  (address now filled in). Chope's Bali listing and two current Canggu dining
+  roundups give the Berawa address, the 7.30 a.m. to 10 p.m. hours and the phone
+  number. `blog-bali-nyaman.html` unchanged; it names no hours.
+- **Milu by Nook (Canggu)** - open. The third NOOK location, on the edge of the
+  Canggu rice paddies, 8 a.m. to 11 p.m., with a current price range and phone
+  number on its listings. Address left blank: the sources place it on the
+  paddies off Jalan Pantai Berawa but none states a street number we can stand
+  behind. `blog-bali-nyaman.html` unchanged.
+- **Neon Palm Pizza** - **unverified**, deliberately left as `open`. Three
+  separate search passes (general web, Winnipeg news and tourism sites, and the
+  delivery platforms plus Yelp and Tripadvisor) found no Winnipeg business of
+  this name; every hit is a New York style pizzeria of the same name in Little
+  Havana, Miami. The link on our page points at neonpalm.pizza, which is blocked
+  at this sandbox's egress proxy, so whether that site is still live could not be
+  tested either. Per the playbook's rule on unverifiable businesses, nothing was
+  changed on `blog-winnipeg-pizza-guide.html` and the status was not touched;
+  `last_verified` is set to today to record that it was checked. **Flagging for a
+  human**: this entry needs eyes, because a name that produces no local evidence
+  at all is more likely a mistake on our page than a quiet closure.
+- **Niakwa Country Club** - open, at **620 Niakwa Road** in St. Vital (address now
+  filled in). The 1923 Stanley Thompson course, private, 18 holes, and the
+  listings describe a current year-round simulator and lounge operation.
+  `blog-winnipeg-event-venues.html` unchanged.
+- **Nucci's Gelati** - open, at 643 Corydon Avenue, the address the ledger already
+  held. Reviews from January and August 2026 on Yelp and Tripadvisor, and a
+  current Restaurant Guru listing. The three pages that name it were left alone.
+
+### Ledger sweep
+
+`blog-coffee-near-corydon-airbnb.html` swept. No new entries were needed: all
+five businesses it names (Thom Bargen Coffee Roasters, Forgotten Flavours,
+Sugar + Salt Bakeshoppe, Starbucks and Tim Horton's) were already in the ledger,
+so the filename was appended to each one's `pages`. Their `last_verified` dates
+were left as they were, since appending a page is not a verification.
+
+### New post
+
+`blog-winnipeg-new-music-festival.html` - "Winnipeg New Music Festival 2027: Late
+January, Tickets". First entry of the Events queue, a new post, written in the
+host's-notes form (the last three posts used one-day plan, question and answer
+and comparison).
+
+No 2027 dates, venues or prices had been announced, so the page states none and
+sends readers to wnmf.ca in a single `.info-box`. Everything specific on it
+belongs to the 2026 edition and is written as the shape of the week: January 21
+to 29, 2026 at the Centennial Concert Hall and the Desautels Concert Hall at the
+University of Manitoba; the $99 adult and $49 child festival pass and the 55 per
+cent saving the festival claims for it; the Soundcheck programme for ages 13 to
+39, its $20 festival tickets and its $85 season pass for ages 18 to 29; and the
+box office number. Founding in 1992 under Bramwell Tovey and Glenn Buhr, the
+2,300-seat hall, the festival's standing as the largest in Canada given wholly to
+contemporary art music, and Kelly-Marie Murphy as composer-in-residence and
+curator for the 2026-27 season were all confirmed by search. Transit fare, the
+D19 Corydon route and the Portage and Main crossings came from our own sourced
+posts; the late-January sunset of just after 5 p.m. and the walk times were
+computed and measured rather than sourced. Full provenance is in
+`blog-maintenance/post-sources.md`.
+
+Hero image is `images/city-hall-council-building-2021.jpg`, City Hall on Main
+Street directly across from the Concert Hall. There is no local photo of an
+orchestra or of the Concert Hall itself, and both unsplash.com and
+images.unsplash.com are blocked at the egress proxy, so no new stock photo could
+be verified as a working URL; the alt text describes what the photo actually
+shows rather than implying it is the venue.
+
+Registered in `articles-data.js`, `articles_data.json`, the `blog.html` noscript
+card and JSON-LD `blogPost` array, `sitemap.xml`, and `llms.txt` (regenerated
+with `blog-maintenance/update-llms.py`: 153 posts). Three Exchange District
+restaurants the post names (Amsterdam Tea Room and Bar, Deer + Almond, La
+Brasserie Nonsuch) already had ledger entries verified open within the previous
+two weeks, so the new filename was appended to each.
+
+### Operations note: this work is not on `main`
+
+The playbook says to push to `main` so the site redeploys. This session was
+started with a harness-level instruction to develop and push only on the branch
+`claude/amazing-bell-m58lnf`, and that instruction forbids pushing elsewhere
+without explicit permission, so this run was committed there instead.
+
+`origin/main` is still at `7340d0c` ("Update short-term rental registration to
+STRA-2026-2600298"). Three runs now sit on `claude/amazing-bell-m58lnf` and have
+not deployed: the 2026-09-30 `christmas-winnipeg` refresh, the 2026-10-01
+`new-years-eve-the-forks` post, and this one. There is no open pull request for
+the branch. **Someone needs to merge it**, or the cron's environment needs to
+stop pinning it to a feature branch; a future run should not assume the live site
+carries any of the last three days of work.
+
+---
+
+### pa11y
+
+`blog-winnipeg-new-music-festival.html` and `blog.html` both pass WCAG2AA with no
+issues. Served from the working tree on 127.0.0.1 because the new page is not on
+staywinnipeg.ca until this push deploys, and staywinnipeg.ca is blocked at the
+egress proxy for the headless browser in any case. `pa11y` needs a config file
+with `chromeLaunchConfig` pointing `executablePath` at
+/opt/pw-browsers/chromium-1194/chrome-linux/chrome and passing `--no-sandbox`. No
+CSS changed this run, so no minified stylesheet needed regenerating.
+
+---
+
 ## 2026-10-01
 
 ### Businesses verified (6, the stalest in the rotation)
