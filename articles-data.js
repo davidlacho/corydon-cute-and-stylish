@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-freeze-frame-film-festival.html",
+    "category": "winnipeg",
+    "date": "2026-10-11",
+    "title": "Freeze Frame 2027: Winnipeg Kids' Film Festival, March 7 to 13",
+    "image": "images/family-activities.jpg",
+    "imageAlt": "Smiling young child with bright face paint at a children's festival",
+    "description": "Freeze Frame runs March 7 to 13, 2027 at the Centre culturel franco-manitobain. What Winnipeg's kids' film festival shows, what passes cost, how to get there.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>October 11, 2026</span>"
+  },
+  {
     "url": "/blog-snow-maze-st-adolphe.html",
     "category": "winnipeg",
     "date": "2026-10-06",

@@ -16,6 +16,48 @@ Newest first.
 
 ---
 
+## blog-freeze-frame-film-festival.html
+
+Published 2026-10-11. Searched this run; freezeframeonline.org could not be
+fetched directly from the sandbox (DNS refused), so everything below comes from
+search results that quote the festival's own pages plus local coverage.
+
+- **2027 dates and venue**: the festival's own festival page gives March 7 to 13,
+  2027 at the Centre culturel franco-manitobain, 340 Provencher Blvd. Two
+  separate searches returned the same line from that page. The post states these
+  as confirmed; March 7 is a Sunday and March 13 a Saturday, which is where the
+  "opens on a Sunday, closes on the Saturday" reading comes from.
+- **2026 edition**: March 8 to 14, 2026 at the same building (Tourism Winnipeg,
+  Winnipeg Arts Council and The Manitoban all agree).
+- **Founding and programming**: founded 1996 by Nicole Matiation and Pascal
+  Boutroy, bilingual from the start (the festival's About Us page). Two video
+  contests, one youth-judged and one judged by professionals, and year-round
+  stop-motion, video production and media literacy workshops for schools, youth
+  groups and daycares (The Manitoban, March 2026, and the festival's home page).
+- **"Oldest children's film festival in Canada"**: Boutroy's own claim, reported
+  by The Manitoban. Attributed to him on the page rather than stated as fact.
+- **Tickets**: $7 per screening, $25 individual all-access pass, $50 family pass
+  for unlimited screenings with advance reservation, free opening and closing
+  films, sales online, by phone at 204-949-9355 or at the door. From the
+  festival's tickets page. These are the prices it has been charging; the page
+  does not claim they are set for 2027, and the info-box sends the reader to
+  freezeframeonline.org for that year's prices and schedule.
+- **Venue rooms**: CCFM completed 1974; Salle Pauline-Boutal 285 seats and the
+  Antoine Gaborieau hall about 120, from the CCFM's own spaces-for-rent listing.
+  Manitoba Music's venue listing gives 130 for the smaller room, so the page says
+  "roughly 120".
+- **Transit**: F7 St. Anne's - Provencher (introduced with the June 29, 2025
+  network) and FX4, both running Provencher Boulevard and downtown. Route numbers
+  predating the June 2025 overhaul (57, 50) were deliberately not used.
+- **Weather and daylight**: March climate normals for Winnipeg and the fact that
+  daylight time begins on the second Sunday of March, which falls on March 14,
+  2027, the night the festival closes.
+- **Not verified, so not on the page**: the weekday-school versus weekend-public
+  split of the programme, any 2027 prices, any age bands, and Manitoba's 2027
+  spring break dates.
+
+---
+
 ## blog-festival-du-voyageur.html
 
 Refreshed 2026-10-08 for the 2027 festival (previous text was undated 2025 copy with no
