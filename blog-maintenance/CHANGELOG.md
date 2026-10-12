@@ -7,6 +7,18 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-12 (manual edit, at the owner's request)
+
+- **Post removed:** `blog-winnipeg-accessible-attractions.html` (published
+  2026-09-04) deleted. Its entry was removed from `articles-data.js` and
+  `sitemap.xml`; it was never referenced in `blog.html` or
+  `articles_data.json`. The image it used
+  (`images/guidebook-winnipeg-38-canadian-museum-for-human-rights.jpg`)
+  remains in use on `blog-best-places-nearby-winnipeg.html`, so it was left in
+  place. Dropped from `blog-maintenance/ledger-sweep.md`'s "Not yet swept"
+  list and marked removed in `blog-maintenance/post-ideas.md`'s "Used" entry.
+  `llms.txt` regenerated.
+
 ## 2026-10-12
 
 ### Businesses verified (6, the stalest in the rotation)

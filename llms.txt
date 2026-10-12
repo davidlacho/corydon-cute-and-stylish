@@ -14,14 +14,14 @@ Owner: Stay Winnipeg
 - [Booking Redirect](https://staywinnipeg.ca/book-now.html)
 
 # Content Overview
-Total Blog Posts: 159
-- Winnipeg Attractions & Activities: 141 guides
+Total Blog Posts: 158
+- Winnipeg Attractions & Activities: 140 guides
 - Hosting & Airbnb Philosophy: 13 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (141 guides)
+## Winnipeg Attractions & Activities (140 guides)
 - [Winnipeg Comedy Festival: Galas at the Burton Cummings Theatre](https://staywinnipeg.ca/blog-winnipeg-comedy-festival.html)
 - [Freeze Frame 2027: Winnipeg Kids' Film Festival, March 7 to 13](https://staywinnipeg.ca/blog-freeze-frame-film-festival.html)
 - [JUNO Week Winnipeg 2027: April 1 to 4, Canada Life Centre](https://staywinnipeg.ca/blog-juno-awards-winnipeg-2027.html)
@@ -53,7 +53,6 @@ Total Blog Posts: 159
 - [Winnipeg's Filipino food scene: lumpia, lechon, and silog breakfasts](https://staywinnipeg.ca/blog-winnipeg-filipino-food-guide.html)
 - [Winnipeg's craft distilleries: a guide to the city's gin, vodka, and whisky](https://staywinnipeg.ca/blog-winnipeg-craft-distilleries.html)
 - [RWB Nutcracker 2026: December 18 to 27 in Winnipeg](https://staywinnipeg.ca/blog-rwb-nutcracker-winnipeg.html)
-- [Accessible attractions and step-free days out in Winnipeg](https://staywinnipeg.ca/blog-winnipeg-accessible-attractions.html)
 - [Winnipeg Holiday Markets 2026: Dates and Which One to Pick](https://staywinnipeg.ca/blog-winnipeg-holiday-markets.html)
 - [Where to see fall colours in and around Winnipeg](https://staywinnipeg.ca/blog-winnipeg-fall-colours.html)
 - [Winnipeg in spring: river thaw, patios, and what opens when](https://staywinnipeg.ca/blog-winnipeg-spring-river-thaw.html)
@@ -209,10 +208,10 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage showcasing boutique accommodation, tours, and experiences with booking information, guest review highlights, a two-column property overview with image carousel, and a centred booking CTA
-- Blog index page listing all 159 blog posts by category
+- Blog index page listing all 158 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
-- 159 individual blog post pages covering local guides, hosting insights, and travel stories
+- 158 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines

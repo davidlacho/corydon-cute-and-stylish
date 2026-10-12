@@ -61,7 +61,6 @@ last because they are partly covered.
 - blog-wellington-crescent-walk-near-corydon-airbnb.html
 - blog-wine-beer-spirits-near-corydon-airbnb.html
 - blog-winnipeg-48-hour-itinerary.html
-- blog-winnipeg-accessible-attractions.html
 - blog-winnipeg-airport-arrival-guide.html
 - blog-winnipeg-art-gallery.html
 - blog-winnipeg-best-new-food-spots.html
