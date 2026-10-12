@@ -7,6 +7,98 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-11
+
+### Businesses verified (6, the stalest in the rotation)
+
+Taken by `last_verified` ascending: six entries still at the `2026-01-01` backfill date. Five are
+open, one could not be verified. Three blank addresses are now filled in and one wrong address is
+corrected in the ledger. No page needed a correction this run.
+
+- **Peking Chinese Food** - open, at 840 Corydon Ave, the address
+  `blog-budget-day-corydon-airbnb.html` already gives. Yellow Pages lists the business at that
+  address with hours and a phone number and dates it to 1970 under the original family, and the
+  Yelp page was updated in July 2026 with the same address. A Fantuan listing shows it "Closed",
+  which reads as outside opening hours rather than a permanent closure, since every other listing
+  shows normal hours. The restaurant trades under several names (Peking Restaurant, Peking Chinese
+  Restaurant, Peking Chinese Foods). Page unchanged.
+- **Rae & Jerry's** - open, at **1405 Portage Ave** (address now filled in). The Manitoba Historical
+  Society's site record gives that address, OpenTable lists current daily dinner hours, and CTV
+  reported the sale to new owners, who said the retro room stays as it is.
+  `blog-winnipeg-steakhouses-bbq.html` says only that it has been on Portage Avenue since 1957 and
+  takes reservations, which still holds. Page unchanged.
+- **Sho Coffee and Bar** - open, at **290 William Ave** in the Exchange District (address now filled
+  in). The Exchange District BIZ directory still carries it, and its January 2026 piece on Soho
+  kitchen + wine, opened by the same team at 100 King St, describes the William Avenue cafe as
+  running. Neither `blog-24-hour-winnipeg-budget.html` nor `blog-winnipeg-coffee.html` states an
+  address or hours for it, and both describe the day-to-night model the directory describes. Pages
+  unchanged.
+- **Shorty's Pizza** - open, at **53 Maryland St** (address now filled in), which is the address
+  `blog-best-places-nearby-winnipeg.html` already gives. The Winnipeg Free Press reported in
+  February 2026 that it was opening a second Winnipeg restaurant, so the business is expanding
+  rather than closing. Page unchanged.
+- **Smokin' Hawg BBQ** - **unverified**, status changed from `open` to `unverified`. Three searches
+  found a Tripadvisor listing (address given as 1867 Springfield Rd, reviews, no closure flag) and
+  2026-updated Yelp barbecue lists that place it in Oakbank rather than Winnipeg, plus a separate
+  Smokin Hawg BBQ Co. at 69 Main St in Grunthal. Nothing reports a closure and nothing confirms a
+  current Winnipeg address. `blog-winnipeg-steakhouses-bbq.html` names it in one sentence with no
+  address, hours or prices, so there is nothing on the page to correct; it was left as written. It
+  should sort back into the rotation for a proper check.
+- **Sookram's Brewing Company** - open, and the **ledger address was wrong**: it held
+  `479 Osborne St`, and the brewery is at **479 Warsaw Ave** in Fort Rouge (Travel Manitoba gives
+  479-B Warsaw Ave; the 2019 opening announcement describes the converted television transmission
+  station on Warsaw). `blog-best-places-nearby-winnipeg.html` already links the correct Warsaw
+  Avenue address, so only the ledger changed.
+
+### Ledger backfill sweep
+
+`blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html` swept. All three businesses it names were
+already in the ledger, so this filename was appended to the `pages` array of Thom Bargen Coffee
+Roasters, Saperavi Georgian Cuisine and Sugar + Salt Bakeshoppe. Nothing was added; the ledger still
+holds 148 businesses.
+
+### New post
+
+`blog-freeze-frame-film-festival.html` - "Freeze Frame 2027: Winnipeg Kids' Film Festival, March 7 to
+13". First entry of the Events queue, published as a new post. Form: question and answer, seven
+questions as the only headings, chosen because the last three posts used walk, ranked short list and
+host's notes.
+
+The queue entry carried a typical window of "second week of March". The festival has since published
+firm dates, so the post states March 7 to 13, 2027 at the Centre culturel franco-manitobain, 340
+Provencher Blvd. Also on the page: the 1996 founding by Nicole Matiation and Pascal Boutroy and the
+bilingual programming, the ticket structure ($7 a screening, $25 individual all-access, $50 family
+pass with advance reservation, free opening and closing films), the Salle Pauline-Boutal at 285 seats,
+the F7 and FX4 transit routes along Provencher, the walk east from the Esplanade Riel, and the fact
+that the clocks go forward the night the festival closes. The "oldest children's film festival in
+Canada" line is attributed to Boutroy rather than stated flatly. No 2027 prices, age bands or
+programme details are claimed; an `.info-box` sends the reader to freezeframeonline.org for those.
+Provenance is recorded in `post-sources.md`.
+
+The post names no commercial business, so the ledger needed no new entry. Image:
+`images/family-activities.jpg`, a local file, since no local photo of a cinema, the CCFM or St.
+Boniface exists and neither freezeframeonline.org nor images.unsplash.com is reachable from this
+sandbox. No skyline.
+
+Registered in `articles-data.js`, `articles_data.json`, the `blog.html` noscript grid and JSON-LD
+`blogPost` array, and `sitemap.xml`; `llms.txt` regenerated with
+`blog-maintenance/update-llms.py` (156 posts).
+
+### Accessibility
+
+`pa11y --standard WCAG2AA` on both changed pages: **2 pages checked, 2 passed, 0 errors**
+(`blog-freeze-frame-film-festival.html` and `blog.html`). Served from a local static server on
+127.0.0.1 rather than the live URLs, because the new post is not deployed until this commit lands
+and staywinnipeg.ca is refused at this sandbox's egress proxy anyway. Chromium needed `--no-sandbox`
+in this container, passed through a pa11y config file. No CSS was touched, so no minified stylesheet
+needed regenerating.
+
+### Branch note
+
+This run's commit went to `main-u6mm7q`, the branch this session was required to develop and push
+on, not to `main`. The site deploys from `main`, so the post is not live until that branch is
+merged.
+
 ## 2026-10-09 (manual edit, at the owner's request)
 
 Removed Neon Palm Pizza from the site. Its listing could not be verified in the

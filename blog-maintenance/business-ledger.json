@@ -80,7 +80,8 @@
       "name": "Saperavi Georgian Cuisine",
       "address": "709 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-21"
@@ -102,7 +103,8 @@
         "blog-corydon-guide.html",
         "blog-beat-the-heat-near-corydon-airbnb.html",
         "blog-budget-day-corydon-airbnb.html",
-        "blog-coffee-near-corydon-airbnb.html"
+        "blog-coffee-near-corydon-airbnb.html",
+        "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-21"
@@ -159,7 +161,8 @@
       "pages": [
         "blog-corydon-guide.html",
         "blog-beat-the-heat-near-corydon-airbnb.html",
-        "blog-coffee-near-corydon-airbnb.html"
+        "blog-coffee-near-corydon-airbnb.html",
+        "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-09-18"
@@ -880,31 +883,31 @@
     },
     {
       "name": "Sho Coffee and Bar",
-      "address": "",
+      "address": "290 William Ave",
       "pages": [
         "blog-24-hour-winnipeg-budget.html",
         "blog-winnipeg-coffee.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-11"
     },
     {
       "name": "Shorty's Pizza",
-      "address": "",
+      "address": "53 Maryland St",
       "pages": [
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-11"
     },
     {
       "name": "Sookram's Brewing Company",
-      "address": "479 Osborne St",
+      "address": "479 Warsaw Ave",
       "pages": [
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-11"
     },
     {
       "name": "Splash Dash Boat Tours",
@@ -1169,12 +1172,12 @@
     },
     {
       "name": "Rae & Jerry's",
-      "address": "",
+      "address": "1405 Portage Ave",
       "pages": [
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-11"
     },
     {
       "name": "Chop Steakhouse & Bar",
@@ -1209,8 +1212,8 @@
       "pages": [
         "blog-winnipeg-steakhouses-bbq.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "unverified",
+      "last_verified": "2026-10-11"
     },
     {
       "name": "Carnaval Brazilian BBQ",
@@ -1348,7 +1351,7 @@
         "blog-budget-day-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-11"
     },
     {
       "name": "Roasted Nomad",
