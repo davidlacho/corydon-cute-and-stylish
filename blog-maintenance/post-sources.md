@@ -103,6 +103,65 @@ This pass covered all 17 "Where to stay" paragraphs. Nothing else in the
 archive (older posts without that paragraph, or posts making distance claims
 in running text rather than the stay section) was checked.
 
+## Correction pass, 2026-10-12 (continued again): home-distance claims outside the stay paragraphs
+
+Swept every post for a home-distance claim outside the 17 "Where to stay"
+paragraphs already covered (grepped for a distance/time term co-occurring
+with a home-reference term — "our house/home/Airbnb", "the door",
+"Crescentwood", "from here" — in the same sentence). Checked each against
+Google Maps directions from the house.
+
+Fixed:
+- `blog-thermea-spa-day-near-corydon-airbnb.html`: said "roughly 15-20 minute
+  drive" and compared it to the Grant Park trip; actual is 10 min / 5.9 km.
+  Corrected to "roughly ten minutes"; dropped the Grant Park comparison
+  rather than restate it, since Grant Park is itself only 6 min / 2.4 km
+  (also checked), not comparable.
+- `blog-wellington-crescent-walk-near-corydon-airbnb.html`: said "roughly
+  fifteen to twenty minutes north"; actual to Wellington Crescent at Academy
+  Road (a real point on the historic stretch the post describes) is 10 min /
+  750 m. Corrected to "roughly ten minutes".
+- `blog-winnipeg-shopping-districts.html`: grouped "the Exchange District and
+  Academy Road" together as "about ten to fifteen minutes by car". Exchange
+  District checks out (10 min / 4.1 km); Academy Road is actually 2 min /
+  750 m from the house, not ten to fifteen. Split the sentence so each gets
+  its own real figure. Also changed "Corydon Avenue's own shops are steps
+  from the door" to "a short walk" (see next item).
+- `blog-corydon-cute-stylish-winnipeg-airbnb.html` (the listing's own guide
+  post) and `blog-winnipeg-shopping-districts.html`: both said Corydon Avenue
+  itself is "steps from the door". Actual walking distance to Corydon Avenue
+  (at Stafford St) is about 10 min / 700 m, already established in the first
+  correction pass above. "Steps" corrected to "a short walk" in both.
+- `blog-manito-ahbee-festival.html` and `blog-winnipeg-jets.html`: both said
+  "about fifteen minutes" walking east to Osborne Village to pick up the BLUE
+  line. Actual, checked both generically ("Osborne Village") and to the real
+  stop ("Osborne Station"): 24 min / 1.7 km. Both corrected to
+  "about twenty-five minutes".
+
+Checked and left as written (close enough to actual, or already correct):
+- `blog-grove-pub-near-corydon-airbnb.html` ("a few minutes' walk" to The
+  Grove Pub & Restaurant): actual 5 min / 400 m.
+- `blog-peanut-park.html` ("just steps away from our front door" to Enderton
+  Park): actual 2 min / 130 m — genuinely steps.
+- `blog-st-vital-park.html` ("about a 15-minute drive"): actual 17 min /
+  8.9 km.
+- `blog-wine-beer-spirits-near-corydon-airbnb.html` ("a few minutes south" to
+  Grant Park Liquor Mart): actual 6 min / 2.4 km.
+- `blog-corydon-guide.html` and `blog-date-night-on-corydon-avenue.html`
+  ("a few blocks from" / "within a few blocks of" the Airbnb, for Corydon
+  Avenue itself): consistent with the ~700 m / 10-minute figure already
+  established.
+
+**Not checked, flagged rather than guessed at:** `blog-winnipeg-accessible-
+attractions.html` states the home "is listed as a single-level house, so
+there are no interior staircases between rooms, and there is driveway
+parking rather than a walk from a lot." This is a physical-property claim,
+not a distance claim, and nothing in this sweep's toolset (map directions)
+can verify it. It's guest-accessibility-relevant, so it's worth the owner
+confirming directly rather than this agent assuming it's still accurate.
+
+This completes the home-distance sweep requested by the owner on 2026-10-12.
+
 ---
 
 ## blog-winnipeg-comedy-festival.html
