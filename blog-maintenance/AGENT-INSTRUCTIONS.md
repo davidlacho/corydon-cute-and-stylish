@@ -43,6 +43,40 @@ Before committing, check your own diff: if the words *pet*, *dog*, *leash*, or
 *paw* appear in anything you added, remove it unless it clearly meets the narrow
 incidental exception above.
 
+## House facts — never state these from memory or estimate them
+
+Added 2026-10-12, after "two-bedroom" drifted into 17 posts (the real count is
+three; `index.html`'s own JSON-LD gives `numberOfRooms: 3`) and several posts
+overstated drive times to downtown venues by estimating rather than checking.
+Both errors happened because a "Where to stay" paragraph was copied from a
+recent post and lightly reworded rather than verified against anything real.
+
+- **The home has three bedrooms.** Always "three-bedroom", never "two-bedroom"
+  or any other count.
+- **Never state a home-to-venue drive time, walk time, distance, or direction
+  that is not in the table below or freshly checked.** This sandbox cannot
+  reach mapping sites (see the repeated "images.unsplash.com unreachable"
+  notes in `post-ideas.md`), so a figure that is not in the table cannot be
+  verified here; round down to something defensibly vague ("not far", "a short
+  drive") rather than inventing a specific number.
+- **Verified distances (Google Maps driving/walking directions from the house,
+  2026-10-12 — see `post-sources.md` for the full correction note):**
+  | Destination | Drive | Walk |
+  |---|---|---|
+  | Canada Life Centre, 300 Portage Ave | 10 min / 3.9 km | — |
+  | Portage and Main | 9 min / 3.9 km | — |
+  | Centennial Concert Hall, 555 Main St | 10 min / 4.3 km | — |
+  | Centre culturel franco-manitobain, 340 Provencher Blvd | 11 min / 5.1 km | — |
+  | Gas Station Arts Centre ("Gas Station Theatre"), 445 River Ave | — | 23 min / 1.6 km, same side of the Assiniboine, no bridge, mostly flat |
+  | Corydon Avenue (at Stafford St) | — | about 10 min / 700 m, south |
+  Figures for The Forks (about four kilometres / roughly ten minutes) and
+  Princess Auto Stadium (about eight kilometres south) appear in several
+  existing posts and have not been independently re-checked against this
+  table; treat them as provisional, not as verified.
+- A destination not in this table (the airport, Assiniboine Park, a specific
+  St. Boniface address, etc.) needs its own check before a run states a time
+  or distance for it; do not interpolate from the table above.
+
 ## House style — do not reintroduce the generic-AI look
 
 The site was deliberately redesigned away from the visual and verbal tics that
@@ -373,14 +407,37 @@ so those searches land on us. When the queue is empty, delete the section from
 1. Prepend a dated block to `blog-maintenance/CHANGELOG.md` (newest on top) with:
    businesses verified this run and their outcomes, any pages changed, and the
    new post's slug and title.
-2. Stage everything, commit with a clear message, and push to `main`:
+2. Before touching git state, confirm you are actually on `main`, not a
+   detached HEAD or a session branch the sandbox may have started you on:
    ```
-   git add -A
-   git commit -m "Daily blog refresh <today>: verify <N> businesses + new post <slug>"
-   git pull --rebase origin main
-   git push origin main
+   git checkout main
+   git fetch origin main
+   git rebase origin/main
    ```
-   If the push is rejected, `git pull --rebase origin main` and push again.
+   This run's playbook changes (business ledger, CHANGELOG, post-ideas.md,
+   the new post, articles-data.js, etc.) should already be committed as local
+   commits on top of `main` by this point; if they aren't yet, commit them now
+   with `git add -A` and a commit message
+   `Daily blog refresh <today>: verify <N> businesses + new post <slug>`.
+3. Push explicitly to the branch named `main`, not just `git push origin main`
+   (which silently does nothing and reports "Everything up-to-date" if your
+   checkout is on a different ref):
+   ```
+   git push origin HEAD:main
+   ```
+   If that is rejected, `git fetch origin main && git rebase origin/main` and
+   push again.
+4. **Verify the push actually landed on `main` before ending the run** — this
+   step has been skipped before, which is how runs ended up stranded on an
+   unmerged branch (`claude/amazing-bell-*`, `main-u6mm7q`) for days without
+   anyone noticing:
+   ```
+   git fetch origin main
+   [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ] && echo "OK: on main" || echo "MISMATCH: did not land on main"
+   ```
+   If it reports a mismatch, retry the rebase-and-push once. If it still
+   mismatches, say so plainly in the run's final report rather than ending
+   silently — do not report the run as complete.
 
 ## Guardrails
 

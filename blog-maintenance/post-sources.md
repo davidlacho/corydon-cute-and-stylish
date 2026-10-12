@@ -19,8 +19,14 @@ Newest first.
 ## Correction pass, 2026-10-12: bedroom count and home-to-venue distances
 
 The owner flagged two separate errors after the day's backfill runs: the house
-is a **three-bedroom** home, not two, and the owner's own address is **5 Ruskin
-Row**. Both corrections below used that address as the origin.
+is a **three-bedroom** home, not two, and gave the agent the house's precise
+address (on Ruskin Row) to use as the origin for distance checks. The street
+name alone is already public (it's the subject of `blog-ruskin-row-residents.html`);
+the house number is deliberately **not** repeated in this file or anywhere
+else in the repo, since this file is served as a plain static page at
+`/blog-maintenance/post-sources.md` and anything written here is effectively
+public. The number is recorded only in Claude's own local memory, outside the
+repo.
 
 - **Bedroom count.** `two-bedroom` had drifted into 17 posts across the
   archive (every post with a "Where to stay" paragraph except
@@ -28,31 +34,41 @@ Row**. Both corrections below used that address as the origin.
   2-bedroom property in Puerto Vallarta). All 17 corrected to `three-bedroom`
   to match `index.html`'s own `numberOfRooms: 3`.
 - **Distances, verified against Google Maps driving/walking directions from
-  5 Ruskin Row, Winnipeg (2026-10-12):**
-  - 5 Ruskin Row to Gas Station Arts Centre, 445 River Ave: 23 min / 1.6 km
-    walking, mostly flat, no bridge crossing (home and the Gas Station are on
-    the same side of the Assiniboine). `blog-winnipeg-comedy-festival.html`
-    had called this "a short...walk across the bridge", which was wrong on
-    both counts; corrected to describe the real route (Wellington Crescent and
-    Stradbrook Avenue) and the real time.
-  - 5 Ruskin Row to Canada Life Centre, 300 Portage Ave: 10 min / 3.9 km
-    driving. `blog-juno-awards-winnipeg-2027.html` said "about three
-    kilometres"; corrected to "about four". The "short walk east of
-    Crescentwood" to reach Osborne Village was corrected to "twenty-minute
-    walk", consistent with the Gas Station figure above.
-  - 5 Ruskin Row to Centre culturel franco-manitobain, 340 Provencher Blvd:
-    11 min / 5.1 km driving. `blog-freeze-frame-film-festival.html` said
-    "about fifteen minutes" (and, inconsistently, "twenty minutes" two
-    sentences later); both corrected to "about ten minutes" / "ten minutes".
-  - 5 Ruskin Row to Centennial Concert Hall, 555 Main St: 10 min / 4.3 km
-    driving. `blog-winnipeg-spring-break-guide.html` said "roughly fifteen
-    minutes"; corrected to "roughly ten minutes".
-- **Not re-verified this pass:** every other post's "Our home is..." paragraph
-  (roughly a dozen more) still carries whatever drive/walk time was written
-  when it was published. The same two error patterns (overstated drive times,
-  the bedroom-count typo before it was caught) are plausible elsewhere in the
-  archive and were not checked here; a full sweep would need the same
-  Google-Maps-from-5-Ruskin-Row method applied post by post.
+  the house on Ruskin Row (2026-10-12):**
+  - To Gas Station Arts Centre (the "Gas Station Theatre"), 445 River Ave:
+    23 min / 1.6 km walking, mostly flat, no bridge crossing (home and the
+    venue are on the same side of the Assiniboine).
+    `blog-winnipeg-comedy-festival.html` had called this "a short...walk
+    across the bridge", which was wrong on both counts; corrected to describe
+    the real route (Wellington Crescent and Stradbrook Avenue) and the real
+    time.
+  - To Canada Life Centre, 300 Portage Ave: 10 min / 3.9 km driving.
+    `blog-juno-awards-winnipeg-2027.html` said "about three kilometres";
+    corrected to "about four". The same figure corrected "about three
+    kilometres" to "about four" in `blog-manito-ahbee-festival.html` (both
+    instances) and, for the Portage and Main driving distance (9 min / 3.9 km),
+    in `blog-santa-claus-parade-winnipeg.html`. The "short walk east of
+    Crescentwood" to reach Osborne Village in the JUNO post was corrected to
+    "twenty-minute walk", consistent with the Gas Station figure above.
+  - To Centre culturel franco-manitobain, 340 Provencher Blvd: 11 min / 5.1 km
+    driving. `blog-freeze-frame-film-festival.html` said "about fifteen
+    minutes" (and, inconsistently, "twenty minutes" two sentences later);
+    both corrected to "about ten minutes" / "ten minutes".
+  - To Centennial Concert Hall, 555 Main St: 10 min / 4.3 km driving.
+    `blog-winnipeg-spring-break-guide.html` and `blog-rwb-nutcracker-winnipeg.html`
+    both said "roughly fifteen minutes"; both corrected to "roughly ten
+    minutes".
+  - Checked and found correct, not changed: "a few blocks south of Corydon
+    Avenue" (the house is roughly 700 m / a 10-minute walk south of Corydon,
+    which "a few blocks" covers reasonably given short Crescentwood blocks).
+- **Not re-verified this pass:** the Blue Bombers/Heritage Classic "about
+  eight kilometres south" claim to Princess Auto Stadium, the Hugo Docks
+  15-minute-walk claim in the warming-huts and snow-maze posts, and the
+  generic "about fifteen minutes to downtown" claims in the culture-days and
+  nuit-blanche posts. Same two error patterns (overstated drive times, the
+  bedroom-count typo before it was caught) are plausible elsewhere in the
+  archive; a full sweep would need the same Google-Maps-from-the-house method
+  applied post by post.
 
 ---
 
