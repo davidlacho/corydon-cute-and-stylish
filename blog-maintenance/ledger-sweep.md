@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-crescentwood-liveable.html
 - blog-date-night-on-corydon-avenue.html
 - blog-day-trips-near-winnipeg-from-corydon.html
 - blog-el-taylor-crescentwood.html
@@ -142,6 +141,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-10-12 - blog-crescentwood-liveable.html (names seven commercial businesses in its "Dining and Food Options" list. The Grove Pub & Restaurant and Bar Italia were already in the ledger, so this filename was appended to each of their `pages`. Five were missing and were added with no address, since the post states none, and the 2026-01-01 backfill date, since they were not verified this run: G G Gelati, G.J. Andrews, Slices, The Handsome Daughter and Mr. Calzone. The post also lists six pharmacy chains in a "Health and Safety Infrastructure" section, Rexall, Shoppers Drug Mart, Loblaw Pharmacy, Safeway Pharmacy, People's Pharmacy and The Medicine Shoppe, as a generic access claim with no location named for any of them; treated as out of ledger scope, the same judgment call this sweep has made before for generic amenity claims.)
 - 2026-10-12 - blog-crescentwood-history.html (a history post on the Crescentwood neighbourhood's origins, developer C.H. Enderton, Wellington Crescent, and notable Ruskin Row residents including the demolished "Monster Mansion." It names no commercial business at all, only historical figures, their homes, and institutions (the Art Gallery of Winnipeg); nothing to add.)
 - 2026-10-11 - blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html (three warm-up stops on Corydon Avenue, all three already in the ledger, so this filename was appended to each of their `pages`: Thom Bargen Coffee Roasters (743 Corydon Ave), Saperavi Georgian Cuisine (709 Corydon Ave) and Sugar + Salt Bakeshoppe (897 Corydon Ave). Nothing was added; the post names no other business.)
 - 2026-10-08 - blog-corydon-to-forks-bike-walk-guide.html (a short pacing guide for the Corydon-to-The-Forks route. It names no commercial business at all: the only destinations in the text are Osborne as a pause point and The Forks, which is an institution, and the one food reference is a generic "stop for coffee or water" with no shop named. Nothing added to the ledger and no `pages` appended.)

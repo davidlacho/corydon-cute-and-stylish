@@ -16,6 +16,35 @@ Newest first.
 
 ---
 
+## blog-juno-awards-winnipeg-2027.html
+
+Published (backfilled) 2026-10-10, run 2026-10-12.
+
+- CARAS announced Winnipeg as 2027 JUNO host on March 12, 2026; JUNO Week runs
+  April 1 to 4, 2027; the 56th annual broadcast airs from Canada Life Centre on
+  Sunday, April 2, on CBC Television, CBC Gem and CBC Music's YouTube channel:
+  CBC's own media centre release and the JUNO Awards' own announcement post,
+  corroborated by Penticton Herald and Castanet Kamloops wire pickups.
+- Winnipeg previously hosted in 2005 and 2014 (CBC release); organizers'
+  estimate of about 20,000 attendees and more than $17 million in economic
+  impact (same release).
+- JUNOfest, JUNO Fan Fare and the JUNO Songwriters' Circle exist as named
+  JUNO Week events (JUNO Awards site, Manitoba Music event listing); no 2027
+  lineup, venue list or price has been published for any of them as of this
+  write. The 2014 JUNOfest club venues (Exchange Event Centre, Park Theatre,
+  Whiskey Dix, Le Garage Café) are historical, from a Sakihiwe News piece on
+  that year's Indigenous-artist showcases, and are cited only as "last time
+  Winnipeg hosted," never as 2027 venues.
+- Canada Life Centre address (300 Portage Avenue) and its skywalk ties to
+  True North Square and Cityplace parkades: carried from the sourcing already
+  done for blog-winnipeg-jets.html (2026-09-25 run).
+- BLUE rapid transit line route and the $3.45 cash / $3.10 peggo fare: carried
+  from blog-winnipeg-transit-basics-getting-downtown-from-corydon.html and
+  our own sourced posts of 2026-09-29 and 2026-10-04.
+- Early-April Winnipeg daytime normal of about 8°C: carried from the sourced
+  weather fact on blog-winnipeg-spring-break-guide.html (2026-10-09 backfill).
+- The post names no commercial business.
+
 ## blog-winnipeg-spring-break-guide.html
 
 Published (backfilled) 2026-10-09, run 2026-10-12.

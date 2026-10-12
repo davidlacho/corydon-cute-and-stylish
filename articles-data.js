@@ -13,6 +13,16 @@ const ARTICLES_DATA = [
     "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>October 11, 2026</span>"
   },
   {
+    "url": "/blog-juno-awards-winnipeg-2027.html",
+    "category": "winnipeg",
+    "date": "2026-10-10",
+    "title": "JUNO Week Winnipeg 2027: April 1 to 4, Canada Life Centre",
+    "image": "https://images.unsplash.com/photo-1692707483537-8f5e57e71531?q=80&w=2340&auto=format&fit=crop",
+    "imageAlt": "A theatre stage lit for a performance",
+    "description": "JUNO Week runs April 1 to 4, 2027, with the broadcast at Canada Life Centre on April 2. How the week is put together, where it happens, and getting there from Crescentwood.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>October 10, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-spring-break-guide.html",
     "category": "winnipeg",
     "date": "2026-10-09",

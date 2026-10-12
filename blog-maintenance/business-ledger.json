@@ -34,7 +34,8 @@
       "name": "Bar Italia",
       "address": "737 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-crescentwood-liveable.html"
       ],
       "status": "open",
       "last_verified": "2026-09-19"
@@ -970,30 +971,30 @@
     },
     {
       "name": "Tall Grass Prairie Bread Co.",
-      "address": "",
+      "address": "1 Forks Market Rd",
       "pages": [
         "blog-winnipeg-bakeries-artisan-bread.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-12"
     },
     {
       "name": "Teekca's Aboriginal Boutique",
-      "address": "",
+      "address": "1 Forks Market Rd",
       "pages": [
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-12"
     },
     {
       "name": "The Beer Can",
-      "address": "",
+      "address": "1 Granite Way",
       "pages": [
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-12"
     },
     {
       "name": "The Common (The Forks Market)",
@@ -1002,32 +1003,33 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-12"
     },
     {
       "name": "The Good Fight Taco",
-      "address": "",
+      "address": "242 Hargrave St",
       "pages": [
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-12"
     },
     {
       "name": "The Good Lands Cafe",
-      "address": "",
+      "address": "679 Sargent Ave",
       "pages": [
         "blog-winnipeg-vegan-restaurants.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "closed",
+      "last_verified": "2026-10-12"
     },
     {
       "name": "The Grove Pub & Restaurant",
       "address": "164 Stafford St",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
-        "blog-grove-pub-near-corydon-airbnb.html"
+        "blog-grove-pub-near-corydon-airbnb.html",
+        "blog-crescentwood-liveable.html"
       ],
       "status": "open",
       "last_verified": "2026-01-01"
@@ -1399,6 +1401,51 @@
       ],
       "status": "open",
       "last_verified": "2026-10-06"
+    },
+    {
+      "name": "G G Gelati",
+      "address": "",
+      "pages": [
+        "blog-crescentwood-liveable.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "G.J. Andrews",
+      "address": "",
+      "pages": [
+        "blog-crescentwood-liveable.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Slices",
+      "address": "",
+      "pages": [
+        "blog-crescentwood-liveable.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "The Handsome Daughter",
+      "address": "",
+      "pages": [
+        "blog-crescentwood-liveable.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Mr. Calzone",
+      "address": "",
+      "pages": [
+        "blog-crescentwood-liveable.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
     }
   ]
 }

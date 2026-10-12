@@ -7,6 +7,79 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-10 (backfill, run 2026-10-12)
+
+### Businesses verified (6, the stalest in the rotation)
+
+Taken by `last_verified` ascending: six entries still at the `2026-01-01` backfill date. Five are
+open; one, a vegan cafe, has closed and its page entry was removed.
+
+- **Tall Grass Prairie Bread Co.** - open, at **1 Forks Market Rd** (address now filled in), the
+  address `blog-winnipeg-bakeries-artisan-bread.html` already states for its Forks counter. The
+  Forks' own dining page and a bakery directory both place it there. Page unchanged.
+- **Teekca's Aboriginal Boutique** - open, at **1 Forks Market Rd** (address now filled in).
+  `blog-indigenous-winnipeg.html` describes it only as being at "Winnipeg's most-visited tourism
+  site" without naming the address; Travel Manitoba's own guide confirms the Forks Market location
+  (the boutique also runs a second shop near Polo Park, not the one this post names). Page
+  unchanged.
+- **The Beer Can** - open (seasonal), at **1 Granite Way** (address now filled in), beside the
+  Assiniboine River at the Granite Curling Club, which matches what
+  `blog-winnipeg-breweries.html` already says without naming the street. CTV Winnipeg has reported
+  on the outdoor beer garden reopening there in past seasons; it runs seasonally rather than
+  year-round, which the page already implies by calling out "Winnipeg's beautiful summer months."
+  Page unchanged.
+- **The Common (The Forks Market)** - open. The Forks' own eat-and-drink page confirms current
+  hours and the 20-tap format `blog-winnipeg-breweries.html` describes. Address was already on
+  file. Page unchanged.
+- **The Good Fight Taco** - open, at **242 Hargrave St** (address now filled in), inside Hargrave
+  St. Market, which matches the venue `blog-hargrave-st-market.html` already names. The market's
+  own tenant page still lists it. Page unchanged.
+- **The Good Lands Cafe** - **closed.** A Penticton Herald feature on the owner reports the
+  679 Sargent Avenue cafe shut its doors December 21, 2024, run as a one-person operation with no
+  announced reopening. `blog-winnipeg-vegan-restaurants.html` corrected: the Good Lands Cafe
+  section (two paragraphs under "Dedicated Vegan Restaurants") has been removed entirely rather
+  than left describing a closed business. Ledger status set to `closed`, address recorded as
+  679 Sargent Ave.
+
+### Ledger backfill sweep
+
+`blog-crescentwood-liveable.html` swept. The Grove Pub & Restaurant and Bar Italia were already in
+the ledger, so this filename was appended to each of their `pages`. Five businesses the post names
+in its dining list were missing and have been added with no address, since the post states none,
+and the `2026-01-01` backfill date, since they were not verified this run: G G Gelati,
+G.J. Andrews, Slices, The Handsome Daughter and Mr. Calzone. Six pharmacy chains the post names in
+a separate "access to pharmacies" sentence (Rexall, Shoppers Drug Mart, Loblaw Pharmacy, Safeway
+Pharmacy, People's Pharmacy, The Medicine Shoppe) were treated as a generic amenity claim with no
+location named for any of them, and left out of the ledger. The ledger now holds 153 businesses.
+
+### New post
+
+`blog-juno-awards-winnipeg-2027.html` - "JUNO Week Winnipeg 2027: April 1 to 4, Canada Life
+Centre". Third entry of the Events queue, published as a new post and written thoroughly as the
+queue entry asked. Form: explainer, two content headings plus the stay section.
+
+JUNO Week runs April 1 to 4, 2027; the 56th annual broadcast airs from Canada Life Centre on
+Sunday, April 2, on CBC Television, CBC Gem and CBC Music's YouTube channel. CARAS announced
+Winnipeg as host on March 12, 2026; this is the city's third time (after 2005 and 2014).
+Organizers' own figures of about 20,000 attendees and more than $17 million in economic impact are
+stated. JUNOfest, JUNO Fan Fare and the JUNO Songwriters' Circle are each described by their
+general format; the 2014 JUNOfest club venues are named explicitly as history, not a 2027 lineup.
+**No 2027 JUNOfest venue list, Fan Fare schedule, or ticket price is stated anywhere on the
+page**; readers are sent to junoawards.ca/winnipeg, the sign-up page organizers themselves
+point fans to. Getting there draws on the BLUE rapid transit line from Osborne Village and the
+Canada Life Centre skywalk ties already sourced for the Jets post, plus the April weather fact
+already sourced for the spring break post. Provenance is recorded in `post-sources.md`.
+
+The post names no commercial business, so the ledger needed no new entry. Image: the lit-stage
+Unsplash photo already used on `blog-rainbow-stage.html` and `blog-winnipeg-new-music-festival.html`,
+reused a third time since no local `images/` file shows a concert stage or arena interior.
+
+### Backfill note
+
+This run covers the missed 2026-10-10 daily run, executed 2026-10-12. Content dates (post date,
+meta/JSON-LD dates, sitemap `lastmod`, the `post-ideas.md` Used entry) are set to 2026-10-10;
+ledger `last_verified` dates reflect the real verification date, 2026-10-12.
+
 ## 2026-10-09 (backfill, run 2026-10-12)
 
 The routine's scheduled run for this date never produced a session (no run log
