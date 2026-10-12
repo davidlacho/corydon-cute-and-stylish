@@ -69,12 +69,19 @@ recent post and lightly reworded rather than verified against anything real.
   | Centre culturel franco-manitobain, 340 Provencher Blvd | 11 min / 5.1 km | — |
   | Gas Station Arts Centre ("Gas Station Theatre"), 445 River Ave | — | 23 min / 1.6 km, same side of the Assiniboine, no bridge, mostly flat |
   | Corydon Avenue (at Stafford St) | — | about 10 min / 700 m, south |
-  Figures for The Forks (about four kilometres / roughly ten minutes) and
-  Princess Auto Stadium (about eight kilometres south) appear in several
-  existing posts and have not been independently re-checked against this
-  table; treat them as provisional, not as verified.
-- A destination not in this table (the airport, Assiniboine Park, a specific
-  St. Boniface address, etc.) needs its own check before a run states a time
+  | The Forks | 10 min / 3.9 km | — |
+  | Princess Auto Stadium, 315 Chancellor Matheson Rd | 13 min / 7.8 km | — |
+  | RBC Convention Centre | 7 min / 3.0 km | — |
+  | Assiniboine Park | 13 min / 8.4 km | — |
+  | Hugo Docks trailhead | — | 10 min / 700 m, north |
+  | A Maze in Corn, 1351 Provincial Road 200, St. Adolphe | 29 min / 26.4 km, via Pembina Highway | — |
+  **St. Mary's Road is in St. Vital, not Crescentwood** — it is over an hour's
+  walk from the house (5.5 km), not "a few minutes" away, and is not the
+  route south to St. Adolphe (that's Pembina Highway). This exact error was
+  in `blog-snow-maze-st-adolphe.html` and is worth naming here so it doesn't
+  recur.
+- A destination not in this table (the airport, a specific St. Boniface
+  address, etc.) needs its own check before a run states a time
   or distance for it; do not interpolate from the table above.
 
 ## House style — do not reintroduce the generic-AI look

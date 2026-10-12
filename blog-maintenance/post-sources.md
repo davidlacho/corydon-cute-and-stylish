@@ -61,14 +61,47 @@ repo.
   - Checked and found correct, not changed: "a few blocks south of Corydon
     Avenue" (the house is roughly 700 m / a 10-minute walk south of Corydon,
     which "a few blocks" covers reasonably given short Crescentwood blocks).
-- **Not re-verified this pass:** the Blue Bombers/Heritage Classic "about
-  eight kilometres south" claim to Princess Auto Stadium, the Hugo Docks
-  15-minute-walk claim in the warming-huts and snow-maze posts, and the
-  generic "about fifteen minutes to downtown" claims in the culture-days and
-  nuit-blanche posts. Same two error patterns (overstated drive times, the
-  bedroom-count typo before it was caught) are plausible elsewhere in the
-  archive; a full sweep would need the same Google-Maps-from-the-house method
-  applied post by post.
+## Correction pass, 2026-10-12 (continued): remaining distance claims
+
+Checked all 17 posts with a "Where to stay" paragraph against Google Maps
+directions from the house. Found and fixed, beyond the four already listed
+above:
+
+- The Forks (`blog-arctic-glacier-winter-park-forks.html`,
+  `blog-new-years-eve-the-forks.html`): "about four kilometres... roughly ten
+  minutes" checked correct (10 min / 3.9 km actual). Not changed.
+- Princess Auto Stadium (`blog-winnipeg-blue-bombers.html`,
+  `blog-nhl-heritage-classic-winnipeg-2026.html`): "about fifteen minutes...
+  about eight kilometres south" checked against 13 min / 7.8 km actual, close
+  enough to leave as written.
+- RBC Convention Centre (`blog-winnipeg-holiday-markets.html`): said "ten
+  minutes"; actual is 7 min / 3.0 km. Corrected to "about seven minutes".
+- Hugo Docks trailhead (`blog-warming-huts-red-river-trail.html`,
+  `blog-snow-maze-st-adolphe.html`): both said "a fifteen-minute walk north";
+  actual is 10 min / 700 m. Both corrected to "about a ten-minute walk".
+- Assiniboine Park (`blog-snow-maze-st-adolphe.html`): said "ten minutes west
+  by car"; actual is 13 min / 8.4 km. Corrected to "about thirteen minutes".
+- **Real error, not just an estimate:** `blog-snow-maze-st-adolphe.html` said
+  the drive to the snow maze runs "down St. Mary's Road" and that "St. Mary's
+  Road picks up a few minutes east of the door." St. Mary's Road is in
+  St. Vital, a 1 hr 17 min / 5.5 km walk from the house, nowhere near
+  Crescentwood. The actual route (checked against the maze's real address,
+  1351 Provincial Road 200) runs via Pembina Highway. Both sentences
+  corrected to name Pembina Highway instead; the "about 25 km / half an hour"
+  distance and time were already correct (actual: 26.4 km / 29 min) and
+  weren't changed.
+- **Checked and left as written:** "a few blocks south of Corydon Avenue"
+  (confirmed correct, see above); the generic "about fifteen minutes to
+  downtown" in `blog-culture-days-winnipeg.html` and
+  `blog-nuit-blanche-winnipeg.html` (downtown isn't a single point, and every
+  specific downtown venue checked came in under 15 min, so this reads as a
+  safe round figure rather than an error); the D19-to-Kennedy-Street-terminal
+  bus/walk combinations repeated across several posts (not independently
+  re-timed this pass).
+
+This pass covered all 17 "Where to stay" paragraphs. Nothing else in the
+archive (older posts without that paragraph, or posts making distance claims
+in running text rather than the stay section) was checked.
 
 ---
 
