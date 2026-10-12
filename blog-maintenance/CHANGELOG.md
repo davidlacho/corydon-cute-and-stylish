@@ -7,6 +7,67 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-12
+
+### Businesses verified (6, the stalest in the rotation)
+
+Taken by `last_verified` ascending: six entries still at the `2026-01-01` backfill date. Four are
+open, two could not be confirmed either way and are marked `unverified` rather than guessed at.
+
+- **The Grove Pub & Restaurant** - open, at 164 Stafford St, the address already on file. A
+  Three Best Rated listing describes it as open seven days a week for lunch, dinner and late
+  night, and nothing reports a closure. Page unchanged.
+- **The Indigenous Kitchen (food truck)** - **unverified**, status changed from `open` to
+  `unverified`. The most recent coverage found is an APTN News piece from May 2024 on the truck's
+  bannock going viral on social media; no 2026 listing, schedule or closure notice turned up.
+  `blog-indigenous-winnipeg.html` names it with no address or hours, so there is nothing on the
+  page to correct; left as written.
+- **The Merchant Kitchen** - **unverified**, status changed from `open` to `unverified`. Sources
+  disagree: one OpenTable regional page marks it "permanently closed" while another shows live
+  booking activity, and the Alt Hotel's own site still lists it next to the hotel with hours and a
+  phone number, on an undated page. Neither a clean closure flag nor a confirmed current listing.
+  `blog-group-dining.html` names it with no address or hours, so nothing on the page needed
+  correction; left as written. It should sort back into the rotation for a cleaner check.
+- **The Toad in the Hole Pub** - open, at **112 Osborne St** (address now filled in). Songkick's
+  venue page lists a 2026 touring act booked there and describes it as an Osborne Village fixture
+  since 1990; Yellow Pages and a Winnipeg bars guide both carry current details. Page unchanged.
+- **Thermëa Spa Village** - open, address already on file (775 Crescent Dr). The spa's own contact
+  page gives current hours, 8:30 a.m. to 10 p.m. daily. Page unchanged.
+- **Thyme Cafe and Bookstore** - open, at **268 Tache Ave** (address now filled in). A business
+  directory listing gives current hours and a phone number; nothing reports a closure, though the
+  most recent third-party roundup found (November 2025) did not mention it by name. Page
+  unchanged.
+
+### Ledger backfill sweep
+
+`blog-date-night-on-corydon-avenue.html` swept. All five businesses it names were already in the
+ledger (Bar Italia, Passero Restaurant, Colosseo Ristorante Italiano, Saperavi Georgian Cuisine and
+The Roost), so this filename was appended to each of their `pages`. Nothing was added; the ledger
+still holds 153 businesses.
+
+### New post
+
+`blog-winnipeg-comedy-festival.html` - "Winnipeg Comedy Festival: Galas at the Burton Cummings
+Theatre". Fourth entry of the Events queue, published as a new post. Form: host's notes, first
+person plural throughout, two content headings plus the "Where to stay for the festival" section
+the event-post rules call for.
+
+Facts sourced before writing: the festival's 2002 founding by comedian Lara Rae and CBC Radio
+producer Tom Anniko; the Gas Station Arts Centre at 445 River Avenue in Osborne Village as the
+festival's producer and home base for most of the week's shows; the CBC galas taped at the Burton
+Cummings Theatre, 364 Smith Street downtown, a 1906 vaudeville house built as the Walker Theatre
+and now a designated historic site; close to 100 hours of galas aired on CBC since 2002, described
+as its highest-rated comedy series; Dean Jenkinson succeeding Lara Rae as artistic director after
+2023; and the 2026 edition, the 25th, running April 20 to 26 with an anniversary Mega Show taped
+Thursday, April 23 at 7:30 p.m. at the Burton Cummings Theatre (2025 ran April 29 to May 4, a few
+days later). **No 2027 dates, venues or ticket prices are stated anywhere on the page**; readers
+are sent to winnipegcomedyfestival.com. The D19 Corydon route and its Kennedy Street terminal are
+carried from several of our own sourced posts; the late-April mid-teens Celsius normal high is a
+freshly sourced fact. The post names no commercial business, so the ledger needed no new entry.
+Image: a new Unsplash photo (a man on a stage holding a microphone, Unsplash License) rather than
+reusing the lit-stage photo already used three times on other event posts, since a comedy mic shot
+reads honestly as the subject. No skyline. Provenance recorded in `post-sources.md`.
+
 ## 2026-10-10 (backfill, run 2026-10-12)
 
 ### Businesses verified (6, the stalest in the rotation)

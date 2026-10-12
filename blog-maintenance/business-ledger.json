@@ -6,7 +6,8 @@
       "name": "Passero Restaurant",
       "address": "774 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-date-night-on-corydon-avenue.html"
       ],
       "status": "open",
       "last_verified": "2026-09-19"
@@ -25,7 +26,8 @@
       "name": "Colosseo Ristorante Italiano",
       "address": "670 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-date-night-on-corydon-avenue.html"
       ],
       "status": "open",
       "last_verified": "2026-09-19"
@@ -35,7 +37,8 @@
       "address": "737 Corydon Ave",
       "pages": [
         "blog-corydon-guide.html",
-        "blog-crescentwood-liveable.html"
+        "blog-crescentwood-liveable.html",
+        "blog-date-night-on-corydon-avenue.html"
       ],
       "status": "open",
       "last_verified": "2026-09-19"
@@ -82,7 +85,8 @@
       "address": "709 Corydon Ave",
       "pages": [
         "blog-corydon-guide.html",
-        "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html"
+        "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html",
+        "blog-date-night-on-corydon-avenue.html"
       ],
       "status": "open",
       "last_verified": "2026-09-21"
@@ -151,7 +155,8 @@
       "name": "The Roost",
       "address": "651 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-date-night-on-corydon-avenue.html"
       ],
       "status": "open",
       "last_verified": "2026-09-22"
@@ -1032,7 +1037,7 @@
         "blog-crescentwood-liveable.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-12"
     },
     {
       "name": "The Indigenous Kitchen (food truck)",
@@ -1040,8 +1045,8 @@
       "pages": [
         "blog-indigenous-winnipeg.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "unverified",
+      "last_verified": "2026-10-12"
     },
     {
       "name": "The Merchant Kitchen",
@@ -1049,17 +1054,17 @@
       "pages": [
         "blog-group-dining.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "unverified",
+      "last_verified": "2026-10-12"
     },
     {
       "name": "The Toad in the Hole Pub",
-      "address": "",
+      "address": "112 Osborne St",
       "pages": [
         "blog-osborne-village-vs-corydon-evening-compared.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-12"
     },
     {
       "name": "Thermëa Spa Village",
@@ -1070,16 +1075,16 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-12"
     },
     {
       "name": "Thyme Cafe and Bookstore",
-      "address": "",
+      "address": "268 Tache Ave",
       "pages": [
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-12"
     },
     {
       "name": "Torque Brewing",

@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-comedy-festival.html",
+    "category": "winnipeg",
+    "date": "2026-10-12",
+    "title": "Winnipeg Comedy Festival: Galas at the Burton Cummings Theatre",
+    "image": "https://images.unsplash.com/photo-1730875647697-eace28e2a77e?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "A comedian holding a microphone under stage lighting",
+    "description": "The Winnipeg Comedy Festival usually runs in late April, with CBC-taped galas at the Burton Cummings Theatre. What a festival week looks like and where it happens.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>October 12, 2026</span>"
+  },
+  {
     "url": "/blog-freeze-frame-film-festival.html",
     "category": "winnipeg",
     "date": "2026-10-11",

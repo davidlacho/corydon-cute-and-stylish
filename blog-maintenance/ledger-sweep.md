@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-date-night-on-corydon-avenue.html
 - blog-day-trips-near-winnipeg-from-corydon.html
 - blog-el-taylor-crescentwood.html
 - blog-espresso-machine-simplicity.html
@@ -141,6 +140,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-10-12 - blog-date-night-on-corydon-avenue.html (names five Corydon Avenue businesses in its dinner-and-nightcap structure, all five already in the ledger, so this filename was appended to each of their `pages`: Bar Italia, Passero Restaurant, Colosseo Ristorante Italiano, Saperavi Georgian Cuisine and The Roost. Nothing was added; the ledger still holds 153 businesses.)
 - 2026-10-12 - blog-crescentwood-liveable.html (names seven commercial businesses in its "Dining and Food Options" list. The Grove Pub & Restaurant and Bar Italia were already in the ledger, so this filename was appended to each of their `pages`. Five were missing and were added with no address, since the post states none, and the 2026-01-01 backfill date, since they were not verified this run: G G Gelati, G.J. Andrews, Slices, The Handsome Daughter and Mr. Calzone. The post also lists six pharmacy chains in a "Health and Safety Infrastructure" section, Rexall, Shoppers Drug Mart, Loblaw Pharmacy, Safeway Pharmacy, People's Pharmacy and The Medicine Shoppe, as a generic access claim with no location named for any of them; treated as out of ledger scope, the same judgment call this sweep has made before for generic amenity claims.)
 - 2026-10-12 - blog-crescentwood-history.html (a history post on the Crescentwood neighbourhood's origins, developer C.H. Enderton, Wellington Crescent, and notable Ruskin Row residents including the demolished "Monster Mansion." It names no commercial business at all, only historical figures, their homes, and institutions (the Art Gallery of Winnipeg); nothing to add.)
 - 2026-10-11 - blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html (three warm-up stops on Corydon Avenue, all three already in the ledger, so this filename was appended to each of their `pages`: Thom Bargen Coffee Roasters (743 Corydon Ave), Saperavi Georgian Cuisine (709 Corydon Ave) and Sugar + Salt Bakeshoppe (897 Corydon Ave). Nothing was added; the post names no other business.)

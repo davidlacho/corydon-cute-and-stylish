@@ -16,6 +16,42 @@ Newest first.
 
 ---
 
+## blog-winnipeg-comedy-festival.html
+
+Published 2026-10-12.
+
+- Winnipeg Comedy Festival founded 2002 by comedian Lara Rae and CBC Radio
+  producer Tom Anniko; produced by and based at the Gas Station Arts Centre,
+  445 River Avenue, Osborne Village; CBC galas taped at the Burton Cummings
+  Theatre: Wikipedia's Winnipeg Comedy Festival article, corroborated by the
+  Gas Station Arts Centre's own event listings (gsac.ca) and Academy.ca
+  coverage.
+- Burton Cummings Theatre at 364 Smith Street, built 1906 as the Walker
+  Theatre, a designated historic site: Wikipedia, winnipegarchitecture.ca and
+  the Manitoba Historical Society's Historic Sites of Manitoba entry.
+- Close to 100 hours of galas aired on CBC since 2002, called the network's
+  highest-rated comedy festival series: the Winnipeg Comedy Festival's own
+  "20 Years of Laughter" post.
+- Dean Jenkinson succeeded Lara Rae as artistic director after 2023: the
+  Winnipeg Comedy Festival's own news posts.
+- 2026 was the 25th edition, running April 20 to 26, 2026, with an anniversary
+  Mega Show taped Thursday, April 23, 2026 at 7:30 p.m. at the Burton Cummings
+  Theatre: the festival's own "anniversary mega show hosts" announcement.
+  2025 ran April 29 to May 4 (queue note, unverified independently, used only
+  as the prior year's pattern).
+- No 2027 dates, venues, or ticket prices have been announced; nothing found
+  contradicts that as of this run.
+- Winnipeg Transit D19 Corydon route and Kennedy Street terminal: carried from
+  our own previously sourced posts (blog-nuit-blanche-winnipeg.html,
+  blog-christmas-winnipeg.html, blog-culture-days-winnipeg.html).
+- Late-April normal daytime highs in the mid-teens Celsius: CTV Winnipeg
+  meteorologist commentary and a currentresults.com table citing Environment
+  Canada's 1981-2010 April normals, triangulated since no single page gave a
+  late-April-specific daily normal.
+- Image: Unsplash photo photo-1730875647697-eace28e2a77e ("a man standing on a
+  stage holding a microphone" by Alex Gallegos), free under the Unsplash
+  License, confirmed reachable and not reused elsewhere on the site.
+
 ## blog-juno-awards-winnipeg-2027.html
 
 Published (backfilled) 2026-10-10, run 2026-10-12.
