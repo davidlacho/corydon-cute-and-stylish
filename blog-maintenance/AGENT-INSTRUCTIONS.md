@@ -415,7 +415,12 @@ so those searches land on us. When the queue is empty, delete the section from
    businesses verified this run and their outcomes, any pages changed, and the
    new post's slug and title.
 2. Before touching git state, confirm you are actually on `main`, not a
-   detached HEAD or a session branch the sandbox may have started you on:
+   detached HEAD or a session branch the sandbox may have started you on.
+   The 2026-10-11 run's own log shows exactly this failure: its first git
+   command was `git checkout -B main-u6mm7q`, which reset whatever branch the
+   sandbox had already checked it out on, instead of switching to `main`; it
+   then committed and pushed that branch and never touched `main` at all. Do
+   not run `git checkout -B <anything>` here. Run this instead:
    ```
    git checkout main
    git fetch origin main
