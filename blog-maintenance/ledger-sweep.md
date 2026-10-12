@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-crescentwood-history.html
 - blog-crescentwood-liveable.html
 - blog-date-night-on-corydon-avenue.html
 - blog-day-trips-near-winnipeg-from-corydon.html
@@ -143,6 +142,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-10-12 - blog-crescentwood-history.html (a history post on the Crescentwood neighbourhood's origins, developer C.H. Enderton, Wellington Crescent, and notable Ruskin Row residents including the demolished "Monster Mansion." It names no commercial business at all, only historical figures, their homes, and institutions (the Art Gallery of Winnipeg); nothing to add.)
 - 2026-10-11 - blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html (three warm-up stops on Corydon Avenue, all three already in the ledger, so this filename was appended to each of their `pages`: Thom Bargen Coffee Roasters (743 Corydon Ave), Saperavi Georgian Cuisine (709 Corydon Ave) and Sugar + Salt Bakeshoppe (897 Corydon Ave). Nothing was added; the post names no other business.)
 - 2026-10-08 - blog-corydon-to-forks-bike-walk-guide.html (a short pacing guide for the Corydon-to-The-Forks route. It names no commercial business at all: the only destinations in the text are Osborne as a pause point and The Forks, which is an institution, and the one food reference is a generic "stop for coffee or water" with no shop named. Nothing added to the ledger and no `pages` appended.)
 - 2026-10-06 - blog-corydon-cute-stylish-winnipeg-airbnb.html (the listing's own page. One commercial business named in prose, Gunn's Bakery, already in the ledger, so this filename was appended to its `pages`. Everything else it names is an institution or a destination: The Forks, the Canadian Museum for Human Rights, the Exchange District, the Winnipeg Art Gallery, Peanut Park, Assiniboine Park and The Leaf, St. Vital Park, Winnipeg Richardson International Airport, Festival du Voyageur, the Winnipeg Folk Festival, Rainbow Stage and the Fringe. Two venue names were out of date and were corrected while the post was open: Bell MTS Place to Canada Life Centre here and on blog-things-to-do.html, and IG Field to Princess Auto Stadium on blog-things-to-do.html.)

@@ -16,6 +16,31 @@ Newest first.
 
 ---
 
+## blog-winnipeg-spring-break-guide.html
+
+Published (backfilled) 2026-10-09, run 2026-10-12.
+
+- Spring break dates (Monday March 29 to Friday April 2, 2027) and Good Friday
+  (March 26, 2027): the Manitoba government's 26/27 school year calendar form
+  (edu.gov.mb.ca).
+- Royal Winnipeg Ballet Swan Lake (March 4-7, 2027) and The Mix (April 29-May 2,
+  2027, with a $15 Community Matinee April 30): the Centennial Concert Hall's
+  own RWB 2026-27 season listing (centennialconcerthall.com) and rwb.org.
+- Royal MTC's Waiting for Godot (March 24-April 17, 2027) and Fifteen Dogs
+  (March 3-20, 2027): Royal MTC's 26/27 season announcement and listing
+  (royalmtc.ca).
+- Winnipeg Public Library spring break programming and City of Winnipeg
+  recreation/pool drop-ins (written as a past-years pattern, not a 2027
+  schedule): City of Winnipeg news items and the Winnipeg Public Library's "at
+  the library" program material (winnipeg.ca, wpl.winnipeg.ca), plus CTV
+  Winnipeg coverage of past spring break weeks. No "Kids Fest" branded event
+  was found; the queue entry's phrase did not correspond to a real event, so it
+  was not used on the page.
+- Early-April normal daytime high (about 8°C): a 2025 CTV Winnipeg article
+  citing Environment and Climate Change Canada.
+- No 2027 library branch schedule, recreation hours, or pool times are stated on
+  the page; readers are sent to winnipeg.ca/library and winnipeg.ca.
+
 ## blog-freeze-frame-film-festival.html
 
 Published 2026-10-11. Searched this run; freezeframeonline.org could not be

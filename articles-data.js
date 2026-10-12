@@ -13,6 +13,16 @@ const ARTICLES_DATA = [
     "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>October 11, 2026</span>"
   },
   {
+    "url": "/blog-winnipeg-spring-break-guide.html",
+    "category": "winnipeg",
+    "date": "2026-10-09",
+    "title": "Spring Break in Winnipeg 2027: March 29 to April 2",
+    "image": "images/family-activities.jpg",
+    "imageAlt": "Smiling young child with bright face paint at a children's festival",
+    "description": "Manitoba's 2027 spring break runs March 29 to April 2. What the city's free drop-in programs, the Centennial Concert Hall, and RMTC actually have running that week.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>October 9, 2026</span>"
+  },
+  {
     "url": "/blog-snow-maze-st-adolphe.html",
     "category": "winnipeg",
     "date": "2026-10-06",

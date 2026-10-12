@@ -7,6 +7,78 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-09 (backfill, run 2026-10-12)
+
+The routine's scheduled run for this date never produced a session (no run log
+exists for 2026-10-09 or 2026-10-10 in the routine's history), so this block is
+filled in three days late, on 2026-10-12. The business verification below
+happened on 2026-10-12, not on the nominal date; the post's visible date,
+meta dates, and `articles-data.js` date are backdated to 2026-10-09 to keep the
+publication timeline honest.
+
+### Businesses verified (6, the stalest in the rotation)
+
+Taken by `last_verified` ascending, continuing alphabetically from where the
+2026-10-11 run (merged from branch `main-u6mm7q` on 2026-10-12) stopped. All six
+are open; none needed a page correction.
+
+- **Splash Dash Boat Tours** - open, at **1700 Pembina Hwy** (address now filled
+  in), departing from the docks at the Pony Corral Restaurant per Travel
+  Manitoba's listing and a 2024 Reddit report of the move from The Forks.
+  `blog-winnipeg-tours.html` states no address, so nothing on the page needed
+  correcting.
+- **SquarePeg Tours** - open, per Travel Manitoba's current directory listing of
+  its walking and themed tours. No address is stated for a walking tour company;
+  page unchanged.
+- **St. Boniface Golf Club** - open, hosting a CPA Manitoba Foundation charity
+  tournament on August 19, 2026 and a CPWA Manitoba Chapter tournament on
+  September 17, 2026. Page unchanged.
+- **St. Norbert Farmers' Market** - open, year-round per its own pattern and a
+  2026 City of Winnipeg event listing of Saturday kiosk dates. Address unchanged
+  (3514 Pembina Hwy, already correct).
+- **Stella's Café & Bakery** - open; a multi-location Winnipeg chain, so no
+  single address is recorded in the ledger. None of the six pages naming it
+  states a specific address or claims a closed location; all point readers to
+  the chain's own locations page or describe it generally. Pages unchanged.
+- **T.H. Dang Restaurant** - open, per a January 2026-updated aggregator listing
+  with 3,445 reviews and no closure flag. No street address could be confirmed
+  this run; `blog-winnipeg-vietnamese-pho-guide.html` states none either, so
+  nothing to correct.
+
+### Ledger backfill sweep
+
+`blog-crescentwood-history.html` swept. It is a history post naming no
+commercial business at all, only historical figures, their homes, and the Art
+Gallery of Winnipeg (an institution). Nothing added.
+
+### New post
+
+`blog-winnipeg-spring-break-guide.html` - "Spring Break in Winnipeg 2027: March
+29 to April 2". Second entry of the Events queue (after freeze-frame-film-
+festival), a new post. Form: comparison, three ways families actually use the
+week (free city drop-ins, ticketed arts programming at the Centennial Concert
+Hall and Royal MTC, and the existing attractions roundup) set against each
+other.
+
+Manitoba's provincial 26/27 school calendar form confirms spring break as
+March 29 to April 2, 2027, with Good Friday the preceding Friday. The Royal
+Winnipeg Ballet's own venue listing gives Swan Lake March 4-7, 2027, three
+weeks before the break, and The Mix April 29-May 2 with a $15 Community
+Matinee, a month after it; Royal MTC's 26/27 season gives Waiting for Godot
+running March 24-April 17, through the break but not family programming. The
+city's own library and recreation drop-ins are written as a past-years pattern
+since no 2027 schedule is posted; readers are sent to winnipeg.ca/library and
+winnipeg.ca. The "Kids Fest programming" phrase in the queue entry did not
+correspond to a real branded event on research, so the post describes the
+library and recreation programming plainly instead. No 2027 branch list,
+recreation schedule, or pool times are stated anywhere on the page. The post
+names no commercial business, so the ledger needed no new entry. Provenance is
+recorded in `post-sources.md`.
+
+Image: `images/family-activities.jpg`, reused from the 2026-10-11 post since no
+local photo shows a library, theatre, or community centre; alt text describes
+only the photo, not a specific event. No skyline.
+
 ## 2026-10-11
 
 ### Businesses verified (6, the stalest in the rotation)
