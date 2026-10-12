@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-table-for-1200-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-10-12",
+    "title": "Table for 1200 Winnipeg: The Secret-Location Dinner in May",
+    "image": "images/wine-dining.jpg",
+    "imageAlt": "A plated course being set down on a long table laid with wine glasses, bread baskets and place cards",
+    "description": "Table for 1200 is Storefront Manitoba's outdoor dinner on a Saturday in late May, at a Winnipeg location kept secret until noon that day. How the day runs.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>October 12, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-comedy-festival.html",
     "category": "winnipeg",
     "date": "2026-10-12",

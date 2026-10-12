@@ -16,6 +16,86 @@ Newest first.
 
 ---
 
+## blog-table-for-1200-winnipeg.html (published 2026-10-12)
+
+Storefront Manitoba's own ticketing and event pages are the source for everything
+dated 2026; everything older is from contemporaneous Winnipeg coverage of the
+dinner (chrisd.ca, Tourism Winnipeg's Peg City Grub, CBC Manitoba, Eat North,
+Canadian Architect) and from attendee write-ups of the first editions.
+
+- **Organiser and purpose:** Storefront Manitoba's annual fundraiser; 100% of
+  proceeds go to the organisation, which works on architecture, design and
+  urbanism in the province.
+- **Dates:** 2026 was Saturday, May 30, doors 4:30 p.m.; 2024 was May 25. The
+  event returned in 2022 for the first time since 2019; 2023 was billed as the
+  eighth year. **No 2027 date had been announced when this was written**, so the
+  page states only the late-May Saturday pattern and the two dated years.
+- **Tickets (2026 ticket page):** general admission $189, listed as $180 plus GST
+  and covering admission and dinner for one; sponsored table of eight $1,785; all
+  sales final. Written on the page as 2026 figures, never as current prices.
+- **Reveal and timings:** location announced at noon on the day of the dinner
+  (2026); table captains allowed on site at 2:00 p.m. to decorate (2025
+  timeline); doors 4:30 p.m. (2026).
+- **Dress code:** black and white with pops of pink, Storefront's brand colours
+  (2026). Earlier years asked for white. The page says both and tells the reader
+  to check the current year.
+- **Past locations:** Esplanade Riel, 2014, the inaugural dinner run the length
+  of the bridge and pitched at the longest-dinner-table record; the Manitoba
+  Legislature grounds, 2015, tables in a circle around the fountain; Waterfront
+  Drive; the east Exchange District around One Lombard Place at Portage and Main;
+  the Wehwehneh Bahgahkinahgohn Parkade downtown, 2025.
+- **Format and meal:** not Diner en Blanc, since tickets are sold publicly and
+  the food is cooked for guests rather than carried in; prizes for best table
+  design; past meals ran to seven courses served family style by Winnipeg chefs
+  including Mandel Hitzer and Ben Kramer, and at the early dinners each table
+  arrived with a bottle of red and a bottle of white, with beer and more wine for
+  sale on site. All of this is written on the page as past practice, with the
+  ticket page named as the thing to read for the current year.
+- **Computed, not sourced:** sunset in Winnipeg on the last Saturday of May,
+  about 9:25 p.m.
+- **Carried from our own verified notes:** Portage and Main at 9 minutes and
+  3.9 km by car, and Corydon Avenue about a ten-minute walk south, both from the
+  verified house-facts table in `AGENT-INSTRUCTIONS.md`. The BLUE line on the
+  Southwest Transitway and the D19 Corydon's Kennedy Street terminal are carried
+  from our own earlier sourced posts.
+- **Ledger:** the post names no commercial business. Storefront Manitoba is a
+  non-profit; Mandel Hitzer and Ben Kramer are named as people.
+
+---
+
+## Ledger batch verified 2026-10-12 (second run of the day)
+
+- **Torque Brewing** - open. The brewery's own site (torquebrewing.beer) is live
+  and carries a taproom hours page and contact details; address filled in as
+  330-830 King Edward St. Third-party listings disagree about which days it is
+  open, which is why the pages were left as written rather than given hours.
+- **Transcona Country Club** - open, address filled in as 2070 Dugald Rd (listings
+  give 2060 and 2070). Wedding-venue directories carry current room and capacity
+  detail and a 2024 attendee account. `blog-winnipeg-event-venues.html` states up
+  to 2,000 for a reception, which matches the largest room in those listings, so
+  the page was left unchanged. Note that the adjacent golf operation is listed
+  separately as Transcona Golf Club at 2120 Dugald Rd; they are not the same entry.
+- **Tundra Grill (Assiniboine Park Zoo)** - open. Assiniboine Park's own
+  restaurants page gives hours of 9:00 a.m. to 4:00 p.m. daily and a phone number.
+  No street address was filled in because no source gave one for the grill itself.
+- **Vera Pizza, now recorded as Vera Pizzeria** - open, at 670 Osborne St. Current
+  review listings carry hours and the phone number 204-222-6306. **Page corrected:**
+  `blog-restaurants.html` placed it in the Exchange District, which is wrong; it is
+  in South Osborne, and the heading now uses the restaurant's actual name.
+- **Vi-Ann Restaurant** - open, at 1020 Notre Dame Ave, phone 204-505-8823. An Uber
+  Eats listing shows it closed on that platform, but multiple current directory
+  listings carry hours, photos and recent reviews, so the platform status was not
+  treated as a closure. **Page corrected:** the pho guide claimed hours "extending
+  past midnight on weekends", which no current listing supports; it now says the
+  listings disagree and gives the phone number.
+- **Winnipeg Trolley Company** - open. winnipegtrolley.ca is live with a city tour
+  page; the season runs May through October, boarding at the Fort Garry Hotel,
+  222 Broadway, with an adult fare listed at $42.25 and bookings on 204-226-TOUR.
+  `blog-winnipeg-tours.html` names no price, so it was left unchanged. No address
+  was filled in, since the boarding point is not the operator's address.
+
+---
+
 ## Correction pass, 2026-10-12: bedroom count and home-to-venue distances
 
 The owner flagged two separate errors after the day's backfill runs: the house

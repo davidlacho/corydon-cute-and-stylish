@@ -7,6 +7,89 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-12 (second run of the day)
+
+### Businesses verified (6, the stalest in the rotation)
+
+Taken by `last_verified` ascending: six entries still at the `2026-01-01` backfill date. All six are
+open. Two pages carried factual errors that this batch turned up, and both were corrected.
+
+- **Torque Brewing** - open, at **330-830 King Edward St** (address now filled in). The brewery's own
+  site is live with a taproom hours page, a contact page and a phone number. Third-party listings
+  disagree about which days it opens, so neither `blog-winnipeg-breweries.html` nor
+  `blog-winnipeg-event-venues.html` was given hours; both name no hours already and were left as
+  written.
+- **Transcona Country Club** - open, at **2070 Dugald Rd** (address now filled in; listings give both
+  2060 and 2070). Wedding-venue directories carry current room, capacity and service detail plus a
+  2024 attendee account. The capacity figure on `blog-winnipeg-event-venues.html` (up to 2,000 for a
+  reception) matches the largest room in those listings, so the page is unchanged. The adjacent golf
+  operation is listed elsewhere as Transcona Golf Club at 2120 Dugald Rd and is a separate thing.
+- **Tundra Grill (Assiniboine Park Zoo)** - open. Assiniboine Park's own restaurants page gives hours
+  of 9:00 a.m. to 4:00 p.m. daily, a phone number and a member discount. Address left blank: no
+  source gives a street address for the grill itself. Page unchanged.
+- **Vera Pizza, now recorded as Vera Pizzeria** - open, at **670 Osborne St** (name and address both
+  corrected). Current listings carry hours and the phone number 204-222-6306. **Page corrected:**
+  `blog-restaurants.html` placed the restaurant in the Exchange District. It is in South Osborne, on
+  the other side of downtown. The heading now uses the restaurant's real name and the paragraph gives
+  the street address instead of the wrong neighbourhood.
+- **Vi-Ann Restaurant** - open, at **1020 Notre Dame Ave** (address now filled in), phone
+  204-505-8823. An Uber Eats page shows it closed on that platform, but several current directory
+  listings carry hours, photos and recent reviews, so the platform status was not read as a closure.
+  **Page corrected:** `blog-winnipeg-vietnamese-pho-guide.html` claimed posted hours "extending past
+  midnight on weekends", which no current listing supports; the sources disagree with each other and
+  the latest ones close at 11:00 p.m. at the latest. The page now says the listings disagree and
+  gives the phone number to call.
+- **Winnipeg Trolley Company** - open. winnipegtrolley.ca is live with a city tour page: the season
+  runs May through October, boarding is at the Fort Garry Hotel, 222 Broadway, the adult fare is
+  listed at $42.25 and tickets are sold online or on 204-226-TOUR. `blog-winnipeg-tours.html` quotes
+  no price, so it is unchanged. Address left blank, since the boarding point is not the operator's
+  own address.
+
+### Ledger backfill sweep
+
+`blog-day-trips-near-winnipeg-from-corydon.html` swept. It names no commercial business at all: the
+post is written entirely in generic terms ("Grand Beach and Winnipeg Beach", "smaller Manitoba
+communities", "local museums, riverside walks, or cafes"), with no operator, restaurant or shop
+named. Nothing added; the ledger still holds 153 businesses.
+
+### New post
+
+`blog-table-for-1200-winnipeg.html` - "Table for 1200 Winnipeg: The Secret-Location Dinner in May".
+First entry of the Events queue, published as a new post. Form: one-day plan, the day of the dinner
+taken hour by hour across five time-stamped headings, with the trade-off stated at each step, plus
+the "Where to stay for Table for 1200" section the event-post rules call for.
+
+Facts sourced before writing: Storefront Manitoba runs the dinner as its annual fundraiser, with all
+proceeds going to its architecture, design and urbanism work; the 2026 edition ran Saturday, May 30
+with doors at 4:30 p.m., and 2024 ran May 25; the 2026 ticket page listed general admission at $189
+($180 plus GST) and a sponsored table of eight at $1,785, all sales final; the location is announced
+at noon on the day and table captains were allowed on site at 2:00 p.m. to decorate; the 2026 dress
+code was black and white with pops of pink, where earlier years asked for white; prizes go to the
+best table design; past sites are the Esplanade Riel (2014, run the length of the bridge), the
+Manitoba Legislature grounds (2015, a circle around the fountain), Waterfront Drive, the east
+Exchange District around One Lombard Place at Portage and Main, and the Wehwehneh Bahgahkinahgohn
+Parkade downtown (2025); the dinner returned in 2022 for the first time since 2019; it is not Diner
+en Blanc, since tickets are public and the food is cooked for guests; and past meals ran to seven
+courses by Winnipeg chefs including Mandel Hitzer and Ben Kramer, with a bottle of red and a bottle
+of white per table at the early dinners. **No 2027 date, price, location, menu or dress code is
+stated anywhere on the page**; every figure is labelled with the year it belongs to and readers are
+sent to storefrontmb.ca. The roughly 9:25 p.m. late-May sunset was computed for Winnipeg rather than
+sourced. The 9 minutes and 3.9 km to Portage and Main and the ten-minute walk south to Corydon
+Avenue come from the verified house-facts table in `AGENT-INSTRUCTIONS.md`; the BLUE line and D19
+routings are carried from our own sourced posts. The post names no commercial business, so the
+ledger needed no new entry. Image: `images/wine-dining.jpg`, a local photo of a plated course going
+down on a long table laid with wine glasses, bread baskets and place cards, which is close to what
+this dinner looks like; the alt text describes only what the photo shows. No skyline.
+
+### Pages changed
+
+`blog-table-for-1200-winnipeg.html` (new), `blog-restaurants.html`,
+`blog-winnipeg-vietnamese-pho-guide.html`, `blog.html` (noscript card and JSON-LD `blogPost` entry),
+`articles-data.js`, `articles_data.json`, `sitemap.xml` (new entry plus `blog.html` lastmod),
+`llms.txt` (regenerated, 159 posts), `blog-maintenance/business-ledger.json`,
+`blog-maintenance/ledger-sweep.md`, `blog-maintenance/post-ideas.md`,
+`blog-maintenance/post-sources.md`.
+
 ## 2026-10-12 (manual edit, at the owner's request)
 
 - **Post removed:** `blog-winnipeg-accessible-attractions.html` (published
