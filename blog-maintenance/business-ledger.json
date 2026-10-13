@@ -1382,12 +1382,12 @@
     },
     {
       "name": "St. Vital Centre",
-      "address": "",
+      "address": "1225 St. Mary's Rd",
       "pages": [
         "blog-classic107-spring-break-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-13"
     },
     {
       "name": "A Maze in Corn",
@@ -1409,48 +1409,48 @@
     },
     {
       "name": "G G Gelati",
-      "address": "",
+      "address": "705 Corydon Ave",
       "pages": [
         "blog-crescentwood-liveable.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-13"
     },
     {
       "name": "G.J. Andrews",
-      "address": "",
+      "address": "384 Academy Rd",
       "pages": [
         "blog-crescentwood-liveable.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "unverified",
+      "last_verified": "2026-10-13"
     },
     {
       "name": "Slices",
-      "address": "",
+      "address": "401 Stafford St",
       "pages": [
         "blog-crescentwood-liveable.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-13"
     },
     {
       "name": "The Handsome Daughter",
-      "address": "",
+      "address": "61 Sherbrook St",
       "pages": [
         "blog-crescentwood-liveable.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-13"
     },
     {
       "name": "Mr. Calzone",
-      "address": "",
+      "address": "653 Corydon Ave",
       "pages": [
         "blog-crescentwood-liveable.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-13"
     }
   ]
 }

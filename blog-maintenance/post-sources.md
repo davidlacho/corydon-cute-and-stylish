@@ -16,6 +16,51 @@ Newest first.
 
 ---
 
+## blog-table-for-1200-winnipeg.html (published 2026-10-13)
+
+Storefront Manitoba's Table for 1200. All facts below were taken from web search
+results on the run date; the sandbox could not resolve `storefrontmb.ca` (DNS
+`ENOTFOUND` through the agent proxy), so the organiser's own site was read only
+through search snippets, not fetched.
+
+- **2026 date, doors, secret location.** The Zeffy ticket page for
+  "Storefront's Table for 1200 2026" gives Saturday, May 30, 2026, doors at
+  4:30 p.m., and the location "to be announced at noon on the day of event".
+  The page title itself reads "Surprise event location to be announced at noon
+  on the day of event".
+- **Scale and format.** Storefront's own description, carried on the ticket page
+  and in a Canadian Architect event listing: "approximately 1200 feet long",
+  a pop-up outdoor dining experience mixing architecture, design and food, with
+  entertainment included, run rain or shine, cashless.
+- **Where the money goes.** 100% of proceeds to Storefront Manitoba and its free
+  public programs; each ticket covers one meal for someone in Winnipeg's
+  marginalized communities through chef Ben Kramer's charity "Made with Love".
+- **Ticket tiers and $189.** A Zeffy listing shows General Admission $189, Table
+  Captain $189, Sponsored Table $1,785, Table Decor add-on $157.50, Wine Pairing
+  add-on $210. The search result flagged this listing as the older of the two
+  (so possibly the 2025 edition), which is why the post says "recent editions
+  have listed general admission at $189" rather than attaching it to a year.
+- **Past locations.** A Storefront page titled "table for 1200 2025 location"
+  names Alexander Avenue between Lily Street and Waterfront Drive. A PIDIM post
+  describes an earlier dinner staged outside St. Boniface Cathedral. Neither is
+  tied to 2026; the 2026 venue was not findable in search and the post does not
+  claim one.
+- **Dress code.** Organisers set a colour code each year (one recent year: black
+  and white with pink accents, from an event email quoted in a listing). The
+  post says only that a colour code is set and sent to ticket holders, with no
+  year or colour attached.
+- **No 2027 date** was announced anywhere findable. The post says so and points
+  readers at storefrontmb.ca.
+- **Not stated on the page:** no transit route number (Winnipeg Transit's network
+  was redesigned in 2025 and no route could be verified for an address that is
+  secret by design), and no drive time to the dinner itself, since the venue
+  moves. Distances used are the verified ones from `AGENT-INSTRUCTIONS.md`
+  (The Forks 10 min / 3.9 km; Portage and Main 9 min; Corydon at Stafford about
+  a 10 minute walk south).
+- **Daylight.** "The sun does not set until after nine" in late May in Winnipeg
+  is an astronomical fact for the city's latitude, not a sourced claim.
+
+
 ## Correction pass, 2026-10-12: bedroom count and home-to-venue distances
 
 The owner flagged two separate errors after the day's backfill runs: the house

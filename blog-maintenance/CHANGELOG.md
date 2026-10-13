@@ -7,6 +7,78 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-13
+
+### Businesses verified (6, the stalest in the rotation)
+
+Taken by `last_verified` ascending: six entries still at the `2026-01-01` backfill date. Five are
+open, one could not be confirmed either way and is marked `unverified` rather than guessed at. All
+six except St. Vital Centre are named on `blog-crescentwood-liveable.html`, in a single prose list
+of nearby dining with no addresses or hours attached, so nothing on that page needed correcting.
+
+- **G G Gelati** - open, at **705 Corydon Ave** (address now filled in). A Yelp listing updated
+  April 2026 carries full hours (noon to 11 p.m. weekdays, noon to midnight Friday through Sunday)
+  and a phone number. Nothing reports a closure; the shop has been on Corydon since 1995. Page
+  unchanged.
+- **G.J. Andrews** - **unverified**, status changed from `open` to `unverified`, address filled in
+  as **384 Academy Rd**. The only evidence found is a Manitoba cider producer's current stockist
+  page listing "GJ Andrews, 384 Academy, Winnipeg" as a retailer carrying its product. That is a
+  live commercial listing but undated, and it is none of the evidence types the playbook accepts
+  (no hours, no recent review, no closure flag, no news item), so it is recorded as unverified
+  rather than counted as a confirmation. It should sort back into the rotation for a cleaner check.
+  `blog-crescentwood-liveable.html` names it with no address or hours; left as written.
+- **Mr. Calzone** - open, at **653 Corydon Ave** (address now filled in). A Yelp listing updated
+  March 2026 gives daily hours from 11 a.m. and a phone number; a Tripadvisor page dated 2026 says
+  the location opened in 2018, and the chain's own locations page and the delivery platforms all
+  still carry the Corydon store. Page unchanged.
+- **Slices** - open, at **401 Stafford St** (address now filled in). This is the Crescentwood-side
+  branch the page's dining list is referring to; Tripadvisor carries separate listings for it and
+  for the 1329 Portage Ave location, and a Yelp pizza-near-Corydon search updated August 2026 still
+  returns the branch about 2 km from Corydon Avenue. Page unchanged.
+- **St. Vital Centre** - open, at **1225 St. Mary's Rd** (address now filled in). Montreal-based
+  Leyad bought the mall for $160.5 million in February 2026, which is recent trade coverage of an
+  operating property, and tenant store locators carry current mall hours.
+  `blog-classic107-spring-break-winnipeg.html` names it only as a spring-break kids' programming
+  venue with no hours; left as written.
+- **The Handsome Daughter** - open, at **61 Sherbrook St** (address now filled in). Manitoba Music
+  listings show shows booked there through 2026, including a songwriter showcase on June 15, 2026,
+  and Songkick's venue page carries further upcoming dates. Page unchanged.
+
+### Ledger backfill sweep
+
+`blog-day-trips-near-winnipeg-from-corydon.html` swept. It is a short day-trip post naming only
+beaches, generic prairie towns and provincial parks, with no commercial business at all, so nothing
+was added. The ledger still holds 153 businesses.
+
+### New post
+
+`blog-table-for-1200-winnipeg.html` - **Table for 1200 Winnipeg: Tickets and the Secret Location**
+(form: one-day plan, taken from the top of the events queue). Storefront Manitoba's annual
+fundraiser: about 1,200 feet of outdoor table laid at a Winnipeg address that is not released until
+noon on the day of the dinner. The post is built around that constraint, hour by hour, with what
+each choice costs. 2026 ran Saturday, May 30 with doors at 4:30 p.m.; no 2027 date has been
+announced anywhere findable, so the post says the dinner has settled into a Saturday in late May
+and points readers at storefrontmb.ca rather than naming a date. The $189 general admission figure
+is written as "recent editions have listed" because the listing carrying the ticket tiers could not
+be pinned to a year. Past venues named (Alexander Avenue between Lily Street and Waterfront Drive,
+and an earlier dinner outside St. Boniface Cathedral); the 2026 venue was not findable and is not
+claimed. No transit route number, since the address is secret by design and Winnipeg Transit's
+network was redesigned in 2025. The post names no commercial business, so it added no ledger
+entries. Provenance recorded in `blog-maintenance/post-sources.md`.
+
+Image: `images/guidebook-winnipeg-46-exchange-district.jpg`, a local photo of brick warehouse
+fronts in the Exchange District, the area the dinner has used. `storefrontmb.ca`,
+`restaurantji.com` and `mrcalzone.ca` were all unreachable from this sandbox (DNS `ENOTFOUND`
+through the agent proxy), so every fact above came from search results rather than fetched pages.
+
+### Pages changed
+
+`blog-table-for-1200-winnipeg.html` (new), `articles-data.js`, `articles_data.json`, `blog.html`
+(noscript card and JSON-LD `blogPost` entry), `sitemap.xml` (new URL plus `blog.html` `lastmod`),
+`llms.txt` (regenerated, 159 posts), `blog-maintenance/business-ledger.json`,
+`blog-maintenance/ledger-sweep.md`, `blog-maintenance/post-ideas.md`,
+`blog-maintenance/post-sources.md`.
+
 ## 2026-10-12 (manual edit, at the owner's request)
 
 - **Post removed:** `blog-winnipeg-accessible-attractions.html` (published
