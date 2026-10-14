@@ -78,6 +78,16 @@ JSON-LD `blogPost` entry), `articles-data.js`, `articles_data.json`,
 `blog-restaurants.html`), `llms.txt` (regenerated, 160 posts),
 `business-ledger.json`, `ledger-sweep.md`, `post-ideas.md`, `post-sources.md`.
 
+**Accessibility:** `pa11y --standard WCAG2AA` on all three changed HTML pages
+(`blog-doors-open-winnipeg.html`, `blog-restaurants.html`, `blog.html`):
+**3 pages checked, 3 passed, 0 errors.** The published URLs could not be used:
+this container's egress proxy returns 403 for `staywinnipeg.ca`, so pa11y's
+Chromium got `ERR_TUNNEL_CONNECTION_FAILED`. The repository was served on
+127.0.0.1:8099 instead and pa11y run against that, which tests the files as
+committed. Chromium was launched from `/opt/pw-browsers/chromium` with
+`--no-sandbox` and `--no-proxy-server` through a pa11y config file. No CSS was
+touched, so no minified stylesheet needed regenerating.
+
 **Observed, not fixed:** `blog.html` carries 106 noscript cards and 106 JSON-LD
 `blogPost` entries against 160 posts in `articles-data.js`, so 54 older posts
 are missing from both (the no-JS fallback and the structured data). Today's post
