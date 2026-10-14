@@ -7,6 +7,85 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-14
+
+**Businesses verified (6, the stalest in the rotation, all previously on the
+2026-01-01 backfill date):**
+
+- **Torque Brewing** - open. Current listings and a March 2026 review page show
+  the taproom operating at 330-830 King Edward Street; address filled in, which
+  was blank. Its own site is `torquebrewing.beer` (the `.ca` domain used in the
+  breweries post's links does not resolve from this sandbox, so the links were
+  left as they are rather than changed on a guess). No page change needed.
+- **Transcona Country Club** - open. Its venue page is live and lists the four
+  banquet rooms, and 2026 events are advertised at the address; address filled
+  in as 2070 Dugald Rd. The event-venues post names no address, so no page
+  change needed.
+- **Tundra Grill (Assiniboine Park Zoo)** - open. The zoo's own restaurants page
+  lists it open daily 9 a.m. to 4 p.m. Address left blank: no street address is
+  published for the grill itself and the post states none.
+- **Vera Pizza** - open at 670 Osborne Street; address filled in. **One page
+  corrected:** `blog-restaurants.html` placed it "in the Exchange District",
+  which is wrong, it is in south Osborne. The sentence was rewritten with the
+  street address and the neighbourhood fixed, the vague "cozy spot ... local
+  favorite" claim dropped, and the page's `article:modified_time`,
+  `dateModified` and sitemap `lastmod` bumped to today. Hours were left out of
+  the post because listings disagree on them; only "closed Sundays", which they
+  all agree on, is stated.
+- **Vi-Ann Restaurant** - open at 1020 Notre Dame Avenue; address filled in.
+  Worth recording for the next run that checks it: the **Osborne Street**
+  Vi-Ann (51/52 Osborne) is flagged permanently closed, and the Notre Dame
+  location was off Uber Eats from October 2024, neither of which is a closure of
+  the restaurant. A review page updated March 2026 and a listing updated April
+  2026 both show the Notre Dame room operating with weekly hours. The pho guide
+  already gives 1020 Notre Dame Avenue, so no page change was needed.
+- **Winnipeg Trolley Company** - open. Its 2-hour city tour is on sale through
+  the travel resellers with 2026 departures from 222 Broadway, and Travel
+  Manitoba still lists the Heart of the Nation tour. Address left blank: 222
+  Broadway is a boarding point, not the company's address. No page change
+  needed. Note for a later run: the trolley tour listed under Doors Open
+  Winnipeg departs from 25 Fort Street and is run by Heritage Winnipeg, a
+  different operator from this one.
+
+**Ledger backfill sweep:** `blog-el-taylor-crescentwood.html`, a biography of
+the barrister whose name sits on an early Crescentwood land map. Every
+organisation it names is a defunct Edwardian company, a historical law firm, an
+institution or a private club in the past tense, so nothing was added to the
+ledger. Flagged there for a future run: the post carries an `<h2>Sources</h2>`
+section and inline `[source]` markers, which the "sources belong in our notes"
+rule would normally strip; rewriting a ten-section history post was outside this
+run's budget.
+
+**New post:** `blog-doors-open-winnipeg.html`, "Doors Open Winnipeg 2027: May 29
+and 30, Free Entry". First entry of the Events queue, published as a new post
+(no existing page covers it). Form: **explainer**, continuous prose with two
+content headings plus the "Where to stay" section the event-post rules require;
+the last three posts were one-day plan, host's notes and question and answer, so
+no shape was repeated. The queue entry carried only a typical window, but
+Heritage Winnipeg's own site has since posted firm dates, May 29 and 30, 2027,
+so the post states them as announced and the year is in the title. 833 words, 4
+min read. Image: `images/city-hall-council-building-2021.jpg`, a local photo of
+a civic building people can walk into, not a skyline. No building count is given
+for 2027 because the only count found belongs to the 2024 edition. Full
+provenance, including the astronomically computed late-May daylight figures, is
+in `post-sources.md`. The ledger gained one business the post names, Warehouse
+Artworks (154 total).
+
+**Pages changed:** `blog-doors-open-winnipeg.html` (new),
+`blog-restaurants.html` (Vera correction), `blog.html` (noscript card and
+JSON-LD `blogPost` entry), `articles-data.js`, `articles_data.json`,
+`sitemap.xml` (new entry plus `lastmod` on `blog.html` and
+`blog-restaurants.html`), `llms.txt` (regenerated, 160 posts),
+`business-ledger.json`, `ledger-sweep.md`, `post-ideas.md`, `post-sources.md`.
+
+**Observed, not fixed:** `blog.html` carries 106 noscript cards and 106 JSON-LD
+`blogPost` entries against 160 posts in `articles-data.js`, so 54 older posts
+are missing from both (the no-JS fallback and the structured data). Today's post
+is in both. The backfill is well past a single run's churn budget, so it is
+recorded here for a run that can take it on deliberately.
+
+---
+
 ## 2026-10-13
 
 ### Businesses verified (6, the stalest in the rotation)

@@ -16,6 +16,56 @@ Newest first.
 
 ---
 
+## blog-doors-open-winnipeg.html (published 2026-10-14)
+
+Organiser: Heritage Winnipeg, which runs Doors Open Winnipeg; official event
+site `doorsopenwinnipeg.ca` (events page and map page) and the Heritage Winnipeg
+event and registration pages. Neither domain resolves from this sandbox, so the
+facts below come from search results quoting those pages plus third-party
+listings (Travel Manitoba, Tourism Winnipeg, ToDoCanada, wpgforfree, the Royal
+Canadian Mint's own events page, RRC Polytech, St. Vital Historical Society).
+
+- **2027 dates, stated as announced:** May 29 and 30, 2027, from the organiser's
+  own site ("See you next year on May 29th & 30th, 2027"), repeated on its
+  events page. The queue entry had only the typical window, so the post was
+  written around the firm dates instead.
+- **2026 edition:** May 30 and 31, 2026; Heritage Winnipeg described it as its
+  twenty-third annual. 2027 would therefore be the twenty-fourth, but no source
+  says so, so the post does not use the ordinal for 2027.
+- **Admission:** free at every site, no tickets, city-wide, per Heritage
+  Winnipeg and the Tourism Winnipeg listing.
+- **Per-site hours:** sites set their own. Confirmed 2026 examples used in the
+  post: St. Vital Museum 10 a.m. to 4 p.m. both days; Warehouse Artworks in the
+  Silvester-Willson Building 11 a.m. to 5 p.m.; Caron House and Ferry Crossing
+  noon to 4 p.m. on the Sunday only (not named in the post, used as evidence
+  that some sites run one day).
+- **Registration:** limited-capacity items need free advance online sign-up,
+  which for 2026 opened on May 23 at noon (the Saturday before). The capped
+  items named in sources: the trolley bus tour departing 25 Fort Street in the
+  Upper Fort Garry parking lot, the Haunted History tour, several walking tours.
+  The post says "about a week ahead, at a fixed hour" and gives 2026's noon as
+  the example rather than presenting it as 2027's time.
+- **2026 theme:** Heritage Winnipeg centred the Exchange District National
+  Historic Site.
+- **Weather rule:** indoor sites open regardless of weather; outdoor programming
+  may be cancelled in heavy rain or thunderstorms (organiser's wording, quoted
+  in listings).
+- **Sites named in the post** (Royal Canadian Mint, Government House, Dalnavert
+  Museum) all appear in 2026 listings as participating with guided tours. The
+  post does not claim a 2027 line-up, because none is published; it says which
+  kinds of building move slowly.
+- **Building count: deliberately omitted.** The only count found ("over 90
+  unique buildings") attaches to the 2024 edition's listing, so the post says
+  "scores of sites" instead of a number.
+- **Daylight:** sunrise about 5:27 a.m. and sunset about 9:26 p.m. CDT in
+  Winnipeg on May 29, 2027, computed with the NOAA solar equations for 49.895 N,
+  97.138 W, not sourced. The post rounds to "up before 5:30" and "around 9:25".
+- **Distances from the house** are the verified figures in the playbook's table
+  (Portage and Main 9 min / 3.9 km; The Forks 10 min / 3.9 km; Corydon Avenue a
+  ten-minute walk south). Nothing was estimated.
+
+---
+
 ## blog-table-for-1200-winnipeg.html (published 2026-10-13)
 
 Storefront Manitoba's Table for 1200. All facts below were taken from web search

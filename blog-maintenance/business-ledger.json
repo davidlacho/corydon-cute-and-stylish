@@ -1088,22 +1088,22 @@
     },
     {
       "name": "Torque Brewing",
-      "address": "",
+      "address": "330-830 King Edward St",
       "pages": [
         "blog-winnipeg-breweries.html",
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-14"
     },
     {
       "name": "Transcona Country Club",
-      "address": "",
+      "address": "2070 Dugald Rd",
       "pages": [
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-14"
     },
     {
       "name": "Niakwa Country Club",
@@ -1121,25 +1121,25 @@
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-14"
     },
     {
       "name": "Vera Pizza",
-      "address": "",
+      "address": "670 Osborne St",
       "pages": [
         "blog-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-14"
     },
     {
       "name": "Vi-Ann Restaurant",
-      "address": "",
+      "address": "1020 Notre Dame Ave",
       "pages": [
         "blog-winnipeg-vietnamese-pho-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-14"
     },
     {
       "name": "Winnipeg Trolley Company",
@@ -1148,7 +1148,7 @@
         "blog-winnipeg-tours.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-14"
     },
     {
       "name": "Yard Burger (Hargrave St. Market)",
@@ -1451,6 +1451,15 @@
       ],
       "status": "open",
       "last_verified": "2026-10-13"
+    },
+    {
+      "name": "Warehouse Artworks",
+      "address": "",
+      "pages": [
+        "blog-doors-open-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-10-14"
     }
   ]
 }
