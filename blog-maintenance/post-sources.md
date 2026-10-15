@@ -16,6 +16,103 @@ Newest first.
 
 ---
 
+## blog-winnipeg-pride.html (refreshed 2026-10-15)
+
+Organiser: Pride Winnipeg (`pridewinnipeg.com`), which does not resolve from
+this sandbox, so everything below comes from search results quoting the
+organiser's own pages plus Tourism Winnipeg, the City of Winnipeg, CTV Winnipeg
+and the Winnipeg School Division.
+
+- **2027 dates: not announced, and the post says so.** A worldwide Pride
+  calendar lists Winnipeg under June 2027 but states the 2027 date is not
+  confirmed and the month is an estimate from the last edition. No organiser
+  announcement for 2027 exists yet, so the post gives the recent window and
+  tells the reader to confirm. Nothing was presented as a 2027 date.
+- **2026 festival, used as the window:** May 26 to June 7, 2026, with the City
+  Hall flag raising on May 24 and the rally and parade on Sunday June 7
+  (Tourism Winnipeg's festival listing). Pride Winnipeg's own Pride Season page
+  gives June 6 and 7 as the closing weekend.
+- **2026 theme and its announcement date:** "Celebrate YOU", announced by Pride
+  Winnipeg on April 10, 2026 (the organiser's own announcement post). Used in
+  the post only to tell a reader when the 2027 theme and dates are likely to
+  appear.
+- **40th anniversary:** the first parade was August 2, 1987, so 2027 is the
+  fortieth. Pride Winnipeg's own announcement of the Fierté Canada Pride
+  National Conference quotes its president on "our 40th anniversary events
+  taking place in 2027".
+- **Fierté Canada Pride National Conference:** awarded to Pride Winnipeg, to be
+  held in Winnipeg in March 2027 (same organiser announcement). The post does
+  not state a venue, registration date or price, none of which is published.
+- **Rally and parade geography:** rally on the north steps of the Manitoba
+  Legislative Building at 10 a.m., parade starting at 11 a.m. at Memorial
+  Boulevard and St. Mary Avenue and ending about an hour later near the
+  Goldeyes' Blue Cross Park, with the festival grounds at The Forks (Pride
+  Winnipeg's Rally + Parade page, the City of Winnipeg's parade timeline, and
+  the Winnipeg School Division's 2026 parade page, which gives the route as
+  Memorial Park to Blue Cross Park). CTV's June 7, 2026 photo gallery confirms
+  the Memorial Boulevard crowds. All of this is written as what happened in
+  2026, not as a 2027 schedule.
+- **Admission:** the rally, parade and grounds have been free; Pride Winnipeg
+  ticketing applies to some evening events. No price, capacity or line-up was
+  stated, and the post sends readers to the festival's own schedule.
+- **Rainbow Resource Centre:** 545 Broadway in Wilson House, longest
+  continuously running 2SLGBTQ+ resource centre in North America, Campus Gay
+  Club at the University of Manitoba in the early 1970s, Gays for Equality in
+  1973, current name 1999, Broadway move 2023, Place of Pride campus with
+  affordable seniors' housing. These were already in the 2025 version of the
+  post; the centre's own site (`rainbowresourcecentre.org`) appeared in search
+  results with live 2026 and 2027 event listings, so the organisation is
+  current.
+- **1987 origin:** about 250 people at the Legislative Building awaiting the
+  vote adding sexual orientation to the Manitoba Human Rights Code, then a
+  march through downtown on August 2, 1987. Carried over from the 2025 version
+  of the post, which is the only place this run sourced it.
+- **Transit:** the D19's Kennedy Street terminal just south of Portage Avenue
+  (City of Winnipeg transit service announcements, recorded by the 2026-09-22
+  and 2026-09-27 runs), the BLUE line on the Southwest Transitway into downtown
+  along Portage, and the 2026 fare of $3.45 cash or $3.10 peggo e-cash, which
+  earlier runs sourced and other posts already carry.
+- **Distance:** The Forks at ten minutes and 3.9 km, and Corydon Avenue at about
+  a ten-minute walk south, both from the verified distance table in
+  `AGENT-INSTRUCTIONS.md`. No figure was given for the Legislative Building,
+  which is not in that table; the post says "a short drive" instead.
+- **Daylight:** early June sunset in Winnipeg falls after 9 p.m.; computed
+  astronomically rather than sourced, and stated only as "light past nine".
+- **Not stated, deliberately:** 2027 dates, the 2027 theme, ticket prices,
+  parade road closures for 2027, attendance figures for 2026, and whether a
+  Dyke March runs (no 2026 source for it was found; the old post's claim was
+  dropped rather than repeated).
+
+**Removed in this refresh:** the whole 2025 body, which was a twelve-minute
+essay on inclusive hosting rather than an answer to "when is Pride Winnipeg".
+It carried "vibrant" four times, "rich history", "a testament to", "more than
+just a parade", "something for everyone", generic headings ("Planning Your
+Visit") and three near-identical closing sections restating the same
+commitment. The Airbnb non-discrimination material went with it: it is policy
+boilerplate, not a reason a visitor reads a Pride page, and the house style bars
+the register it was written in. The 1987, Rainbow Resource Centre and festival
+history facts were kept and rewritten into the question and answer form.
+
+---
+
+## blog-winnipeg-steakhouses-bbq.html (corrected 2026-10-15, ledger rotation)
+
+- **The Keg's downtown Winnipeg room closed on July 29, 2026** and the chain is
+  relocating to 185 Donald Street, which The Keg's own location page still
+  labels "Opening Soon". CTV Winnipeg reported both the closure (last day July
+  29) and the move; AccessWinnipeg reported GRETA, an arcade bar with Calgary,
+  Vancouver and Toronto locations, taking the Garry Street space with a November
+  2026 target. Wikipedia's Keg article gives the Garry Street room's 1975
+  opening as The Keg and Cleaver in the former Hudson's Bay Company garage.
+- **Still operating:** the Southside location at 2034 McGillivray Boulevard
+  (hours on the chain's own site) and the St. James location. The post named
+  "the Winnipeg location of The Keg" in the singular, which was wrong on both
+  counts, and now names the two open rooms and the pending downtown move.
+- **Not stated:** any opening date for 185 Donald Street, and GRETA, which had
+  not opened when this was checked and is not a steakhouse.
+
+---
+
 ## blog-doors-open-winnipeg.html (published 2026-10-14)
 
 Organiser: Heritage Winnipeg, which runs Doors Open Winnipeg; official event

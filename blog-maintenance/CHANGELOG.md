@@ -7,6 +7,118 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-15
+
+**Businesses verified (6 ledger entries, 5 distinct businesses, the stalest in
+the rotation):**
+
+- **The Keg** - **moved; one page corrected.** The downtown Winnipeg room at 115
+  Garry Street, in the former Hudson's Bay Company garage it had occupied as a
+  Keg since 1975, served its last day on July 29, 2026, and the chain is
+  relocating to 185 Donald Street, which its own location page still labels
+  "Opening Soon". An arcade bar, GRETA, is taking the Garry Street space with a
+  November 2026 target. `blog-winnipeg-steakhouses-bbq.html` named "the Winnipeg
+  location of The Keg" in the singular, which was wrong twice over: the
+  singular, and the location it pointed at. The sentence now names the two open
+  rooms (Southside at 2034 McGillivray Boulevard, and St. James), states the
+  downtown closure and the pending Donald Street move, and gives no opening date
+  for it. The page's `article:modified_time`, `dateModified` and sitemap
+  `lastmod` moved to today. Ledger status set to `moved` and the address field
+  filled with the operating Southside address plus the pending move.
+- **Tim Hortons (949 Corydon Ave)** - open. A current directory listing gives
+  the address with daily 5 a.m. to 11 p.m. hours; no closure flag anywhere. **The
+  ledger carried this shop twice**, as "Tim Hortons (949 Corydon Ave)" (backfill
+  date) and as "Tim Horton's" (2026-09-18), both at the same address, which meant
+  two rotation slots per cycle for one shop. The two entries were merged into
+  one, keeping the union of their `pages`
+  (`blog-budget-day-corydon-airbnb.html`, `blog-corydon-guide.html`,
+  `blog-coffee-near-corydon-airbnb.html`). The ledger now holds 153 businesses,
+  one fewer than yesterday for that reason, not because anything was dropped.
+- **Yard Burger (Hargrave St. Market)** - open, second floor at 242 Hargrave
+  Street; address refined with the floor. Its own site publishes current weekly
+  hours (closed Sundays except before home games) and the market still lists it
+  among its vendors. Hours were deliberately left off the site: the restaurant's
+  own pages, Restaurantji and Restaurant Guru disagree on them.
+  `blog-hargrave-st-market.html` needed no change.
+- **Yujiro Japanese Restaurant** - open at 1822 Grant Avenue in River Heights;
+  address filled in, which was blank. A 2026 job posting carries the same
+  address and postal code, a 2025 directory update describes the room as
+  operating, and it was ranked 92nd on Canada's 100 Best for 2024. No closure
+  report exists. `blog-winnipeg-ramen-japanese-guide.html` already places it in
+  River Heights and states no address, so no page change was needed. Listings
+  disagree on its hours, so none were added.
+- **Thom Bargen Coffee Roasters** - open at 743 Corydon Avenue in Corydon
+  Village; address confirmed, not changed. Multiple current listings agree on
+  the address, one updated April 2026, and the company's Corydon page is live.
+  Worth recording for a later run: Thom Bargen also has a Tuxedo cafe at 2090
+  Corydon Avenue, so a bare "Thom Bargen on Corydon" in any future post is
+  ambiguous. No page change needed.
+
+**Ledger backfill sweep:** `blog-espresso-machine-simplicity.html`, a hosting
+post about the espresso machine in the kitchen and why guests asked for drip
+coffee instead. The only names in it are the CASABREWS CM5418 and the gear
+beside it, which are products rather than places a guest visits, so nothing was
+added to the ledger. Flagged there for a future run: the post ends on an
+`<h2>Conclusion</h2>` heading and uses bolded spec lead-ins that restate
+themselves, both barred by the house style.
+
+**Page refreshed:** `blog-winnipeg-pride.html`, now "Pride Winnipeg 2027: Dates,
+Parade Route and the 40th Year". First entry of the Events queue, marked
+"refresh", so the existing page was rewritten in place and the slug and URL
+kept. Form: question and answer, seven questions as the only content headings
+plus the "Where to stay for Pride Winnipeg" section the event-post rules call
+for; the previous three posts were explainer, one-day plan and host's notes.
+
+The headline fact is that **there are no 2027 dates to publish yet**, and the
+post says so in its first answer rather than implying one. It gives the recent
+window instead (2026 ran May 26 to June 7, flag raising at City Hall May 24,
+rally and parade Sunday June 7), notes that Pride Winnipeg announces its dates
+and theme in the spring, and tells a reader booking early to hold the first
+weekend of June. 2027 is the fortieth anniversary of the August 2, 1987 first
+parade, and Pride Winnipeg has said its anniversary programming runs through
+that year; it also hosts the Fierté Canada Pride National Conference here in
+March 2027. The 2026 rally and parade geography (Legislative Building north
+steps at 10 a.m., 11 a.m. start at Memorial Boulevard and St. Mary Avenue,
+about an hour from Memorial Park to Blue Cross Park, grounds at The Forks) is
+written as what happened in 2026, not as a 2027 schedule. No ticket price, road
+closure, attendance figure or 2027 theme was stated; one `.info-box` sends
+readers to pridewinnipeg.com.
+
+**The whole 2025 body was replaced.** It ran twelve minutes on inclusive-hosting
+boilerplate and never answered the question the page's search traffic asks. It
+carried "vibrant" four times, plus "rich history", "a testament to", "more than
+just a parade", "something for everyone" and a "Planning Your Visit" heading,
+and closed with three near-identical sections restating the same commitment. The
+Airbnb non-discrimination material went with it: it is policy text, not a reason
+a visitor reads a Pride page. The 1987 vote, the Rainbow Resource Centre history
+(545 Broadway, Wilson House, Campus Gay Club to Gays for Equality in 1973 to the
+current name in 1999, the 2023 move, Place of Pride) and the festival's growth
+were kept and rewritten into the new form. The old post's Dyke March claim was
+dropped: no current source for it was found. `datePublished` stays 2025-12-08;
+the visible meta line, `article:modified_time`, `dateModified`, the sitemap
+`lastmod` and the `articles-data.js` / `articles_data.json` / `blog.html`
+description and title copies all moved to today. Hero image unchanged (the
+existing pride-flag close-up; no local `images/` file shows a flag or a parade),
+with its alt text corrected to Canadian spelling. `llms.txt` regenerated by
+`blog-maintenance/update-llms.py`: 160 posts, unchanged in count, retitled.
+
+**Accessibility:** `pa11y --standard WCAG2AA` on all three changed HTML pages
+(`blog-winnipeg-pride.html`, `blog-winnipeg-steakhouses-bbq.html`, `blog.html`):
+**3 pages checked, 3 passed, 0 errors.** The published URLs could not be used:
+this container's egress proxy refuses `staywinnipeg.ca`, so the repository was
+served on 127.0.0.1:8099 and pa11y run against that, which tests the files as
+committed. Chromium came from `/opt/pw-browsers/chromium` with `--no-sandbox`
+and `--no-proxy-server` through a config file. No CSS was touched, so no
+minified stylesheet needed regenerating.
+
+**Still outstanding, unchanged from yesterday:** `blog.html` carries 106
+noscript cards and 106 JSON-LD `blogPost` entries against 160 posts in
+`articles-data.js`, so 54 older posts are in neither the no-JS fallback nor the
+structured data. The refreshed post is in both. The backfill is past a single
+run's churn budget.
+
+---
+
 ## 2026-10-14
 
 **Businesses verified (6, the stalest in the rotation, all previously on the

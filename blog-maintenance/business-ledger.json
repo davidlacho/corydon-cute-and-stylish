@@ -171,17 +171,7 @@
         "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-18"
-    },
-    {
-      "name": "Tim Horton's",
-      "address": "949 Corydon Ave",
-      "pages": [
-        "blog-corydon-guide.html",
-        "blog-coffee-near-corydon-airbnb.html"
-      ],
-      "status": "open",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-10-15"
     },
     {
       "name": "Tommy's Pizzeria",
@@ -1152,21 +1142,21 @@
     },
     {
       "name": "Yard Burger (Hargrave St. Market)",
-      "address": "242 Hargrave St",
+      "address": "242 Hargrave St, 2nd floor",
       "pages": [
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-15"
     },
     {
       "name": "Yujiro Japanese Restaurant",
-      "address": "",
+      "address": "1822 Grant Ave",
       "pages": [
         "blog-winnipeg-ramen-japanese-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-15"
     },
     {
       "name": "529 Wellington",
@@ -1197,12 +1187,12 @@
     },
     {
       "name": "The Keg",
-      "address": "",
+      "address": "2034 McGillivray Blvd (Southside); downtown room relocating from 115 Garry St to 185 Donald St",
       "pages": [
         "blog-winnipeg-steakhouses-bbq.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "moved",
+      "last_verified": "2026-10-15"
     },
     {
       "name": "Danny's Whole Hog BBQ & Smokehouse",
@@ -1346,10 +1336,12 @@
       "name": "Tim Hortons (949 Corydon Ave)",
       "address": "949 Corydon Ave",
       "pages": [
-        "blog-budget-day-corydon-airbnb.html"
+        "blog-budget-day-corydon-airbnb.html",
+        "blog-corydon-guide.html",
+        "blog-coffee-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-15"
     },
     {
       "name": "Peking Chinese Food",
