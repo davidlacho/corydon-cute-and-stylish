@@ -92,6 +92,18 @@ bumped), `blog.html` (noscript card and JSON-LD `blogPost` entry),
 (regenerated: 161 posts), `business-ledger.json`, `ledger-sweep.md`,
 `post-ideas.md`, `post-sources.md`.
 
+**pa11y (`--standard WCAG2AA`):** 3 pages checked, 3 passed, 0 errors.
+`blog-manitoba-electronic-music-exhibition.html`, `blog.html` and
+`blog-corydon-guide.html` each returned "No issues found!". Run against a local
+static server, because staywinnipeg.ca is refused at this sandbox's egress proxy
+(`connect_rejected`), and with Chromium launched `--no-sandbox` from
+`/opt/pw-browsers/chromium`, the same workaround as the previous run.
+
+**Deploy:** pushed to `main` as `629e340`; the GitHub Pages
+`pages build and deployment` run 436 for that SHA completed with conclusion
+`success`. The live URL could not be fetched from this sandbox to confirm by
+eye, for the egress reason above.
+
 ---
 
 ## 2026-10-16
