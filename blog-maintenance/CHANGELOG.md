@@ -7,6 +7,136 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-16
+
+**Businesses verified (6 ledger entries, the stalest in rotation):**
+
+- **Tommy's Pizzeria**, 842 Corydon Ave: **open**, with the caveat that no source
+  gives current hours. Directory and aggregator listings carry the address and
+  phone number and a busy-times profile peaking around 7 p.m. Saturdays; nothing
+  anywhere flags a closure. `last_verified` moved to today, status unchanged. No
+  page edit: `blog-corydon-guide.html` states only the name and address.
+- **Wako Sushi Café**, 875 Corydon Ave: **open**. An active online-ordering
+  storefront with a live menu and prices (Maki Lover $22.50, Alaska Roll $5.50,
+  gyoza $5.00) and 467 item reviews, plus a current delivery-aggregator rating.
+  Address confirmed as 875 Corydon Ave, R3M 0W7.
+- **Bar Italia**, 737 Corydon Ave: **UNVERIFIED, and the one entry in this batch
+  that needs a decisive check.** The signals conflict and the closure side is the
+  more recent: an Uber Eats storefront marked closed as of 2024-12-11, a MapQuest
+  listing marked closed, and a Tripadvisor entry for the same address under the
+  name "Bar I" reading "closed now". Against that, a Restaurant Guru page shows
+  9 a.m. to 2 a.m. and a Main Menus page shows 11 a.m. to 1 a.m., but both caches
+  are roughly 234 and 568 days old, and a 197-review Restaurantji page carries no
+  date at all. No news item and no official announcement either way. Per the
+  playbook ("if you cannot determine status, treat it as unchanged and note
+  unverified, do not guess") **no page was edited** and status was set to
+  `unverified` rather than `closed`. Three pages name it and one of them,
+  `blog-date-night-on-corydon-avenue.html`, recommends it as a "sit-down anchor"
+  of the strip, so a guest could be sent to a dark room. **Next run or the owner
+  should settle this from Google Maps or the restaurant's own channels**, which
+  this sandbox cannot reach; if it is closed, correct
+  `blog-corydon-guide.html` (list item and the three meta descriptions that name
+  it), `blog-crescentwood-liveable.html` (prose list) and
+  `blog-date-night-on-corydon-avenue.html` (the recommendation).
+- **Colosseo Ristorante Italiano**, 670 Corydon Ave: **open**. Current PagesJaunes
+  and Restaurantji listings with phone (204) 284-4977, mains about $11 to $25, and
+  328 ratings; Tripadvisor has 156 reviews. Operating on Corydon since 1973. The
+  only hours available are from a 2016 feature and were not used anywhere.
+- **Forgotten Flavours**, 858 Corydon Ave: **open, and the address is now
+  confirmed**, which it was not before. The first searches found nothing at all on
+  Corydon and one source placing a Forgotten Flavours on Main Street in
+  Niverville, which looked like it might make our own
+  `blog-forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb.html` wrong. A
+  follow-up search on the street address resolved it: the Niverville bakery
+  (owner Maria Holbrow, home baking from 2020, storefront February 2025) has taken
+  the 858 Corydon Ave space formerly held by The Pennyloaf Bakery, which is itself
+  permanently closed on DoorDash and Yellow Pages. Tourism Winnipeg carries a
+  "Forgotten Flavours Artisan Bakery" listing and the bakery's Instagram shows the
+  Corydon location open Tuesday to Saturday. Our pages are correct as written; the
+  ledger `address` field was filled in to 858 Corydon Ave.
+- **Passero Restaurant**, 774 Corydon Ave: **open**. Listings place it at 774
+  Corydon Ave, R3M 0Y1, with weekday hours of 11 a.m. to 10 p.m. on one
+  aggregator; chef Scott Bagshaw. Older pages still show the original Forks
+  address, which is the stale record, not a move back. One aggregator also lists a
+  bakery at 774 Corydon; not acted on, since two independent listings give the
+  address to Passero and no page of ours states hours for it.
+
+No closure, move or rename was confirmed this run, so **no business page was
+edited**. Six entries moved to `last_verified: 2026-10-16`; one status changed
+(Bar Italia, open to unverified) and one address was filled in (Forgotten
+Flavours).
+
+**Backfill sweep:** `blog-exchange-district-self-guided-tour.html`. It names no
+commercial business at all. The only named place is Old Market Square, a public
+space, and the café and lunch stops are generic ("one café break and one meal
+break"). Nothing added to the ledger, which still holds 153 businesses. Logged in
+`ledger-sweep.md` with a note that the post is thin and fails the specificity
+rule; rewriting it was outside this run's budget.
+
+**Post refreshed (Events queue, first entry):**
+`blog-winnipeg-goldeyes.html`, kept at the same slug and URL, retitled
+**"Winnipeg Goldeyes 2027: May 14 Home Opener and Tickets"**. The queue entry
+asked for the 2027 season opener plus Sea Bears (CEBL) basketball, so the page now
+carries both and is written in the **comparison** form: a ballgame at Blue Cross
+Park set against a Sea Bears night at Canada Life Centre on cost and flexibility,
+length, weather exposure, children and transit, plus the full "Where to stay for
+the 2027 season" section the event-post rules allow. Form picked by the rotation
+rule; the previous three posts were question and answer, explainer and one-day
+plan.
+
+What is now on the page that was not before: the club's October 2026 schedule
+announcement (102 games, 51 at home), the May 7 road opener in Kansas City, the
+**May 14, 7 p.m. home opener against the Sioux City Explorers**, fireworks after
+every Friday home game, home dates on Canada Day and on Father's Day June 20, the
+closing Lincoln homestand of August 31 to September 5 ending at 1 p.m., the
+touring Banana Ball exhibition's first Canadian stop here in August, and the Sea
+Bears' venue, recent season window, $33 and $27 floor pricing from the club's own
+FAQ and mobile-only entry. No Goldeyes ticket price is stated, because none was
+sourced; no 2027 CEBL date is stated, because none is published, so that side is
+written as the recent window with "in past years".
+
+The 2025 body was replaced in full. It ran ten minutes on game-day boilerplate,
+carried "a testament" twice, "vibrant" three times, "boasts", "immersed",
+"seamlessly", "more than just baseball" and a "Planning Your Visit" heading, and
+never named a date, an opponent or a price. The history worth keeping was kept and
+rewritten: 1954 as a Cardinals affiliate, Steve Carlton here at 18 in 1963, the
+1964 folding, the 1994 return, the 2011 move to the American Association, the 2016
+and 2017 titles, One Portage Avenue East, 7,461 seats, the 2023 renaming. All
+distances come from the verified table (Canada Life Centre and The Forks both at
+ten minutes and 3.9 km, Corydon Avenue a ten-minute walk south); no figure is
+given for Blue Cross Park itself, which is not in the table. Transit is the D19
+Corydon's Kennedy Street terminal, the fifteen-minute walk from Kennedy east to
+Main, and the $3.45 cash / $3.10 peggo fare. One `.info-box`, in the permitted
+"Before you go" form, pointing at goldeyes.com, seabears.ca and
+winnipegtransit.com. Hero image unchanged: the existing Unsplash ballpark photo is
+a close-up of the subject and no local `images/` file shows a stadium or arena.
+`datePublished` stays 2025-12-08; the visible meta line, `article:modified_time`,
+`dateModified` and the sitemap `lastmod` are 2026-10-16.
+
+**Pages changed:** `blog-winnipeg-goldeyes.html` (title, meta, keywords, tags,
+dates, JSON-LD, full body), `blog.html` (noscript card and JSON-LD entry),
+`articles-data.js`, `articles_data.json`, `sitemap.xml`, `llms.txt`
+(regenerated: 160 posts, 142 winnipeg, 13 hosting, 5 travel),
+`blog-maintenance/business-ledger.json`, `blog-maintenance/ledger-sweep.md`,
+`blog-maintenance/post-ideas.md`, `blog-maintenance/post-sources.md`.
+
+**Checks:** the playbook's slop, em dash, provenance and pet greps all returned
+zero hits on the changed post; the only non-ASCII characters in it are the two
+bullets in the meta line. Specificity: six of the six listed signals are present.
+`articles-data.js`, `articles_data.json`, `blog.html`'s JSON-LD and `sitemap.xml`
+all re-parsed clean. `pa11y --standard WCAG2AA` on `blog-winnipeg-goldeyes.html`
+and `blog.html`: **2 pages, 0 errors, both "No issues found"**. Note for future
+runs: pa11y cannot reach `https://staywinnipeg.ca` from this sandbox
+(`ERR_TUNNEL_CONNECTION_FAILED` through the agent proxy) and Chromium refuses to
+start as root without `--no-sandbox`. Both were worked around by serving the repo
+on `127.0.0.1:8899` with `python3 -m http.server` and running pa11y against that
+with a config setting `chromeLaunchConfig.args` to
+`--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage
+--proxy-server=direct:// --proxy-bypass-list=*`. This is strictly better than the
+live-URL check anyway: it tests the edited files rather than the deployed ones.
+
+---
+
 ## 2026-10-15
 
 **Businesses verified (6 ledger entries, 5 distinct businesses, the stalest in

@@ -1026,11 +1026,11 @@ const ARTICLES_DATA = [
     "url": "/blog-winnipeg-goldeyes.html",
     "category": "winnipeg",
     "date": "2025-12-08",
-    "title": "Winnipeg Goldeyes Baseball: Blue Cross Park Game Guide",
+    "title": "Winnipeg Goldeyes 2027: May 14 Home Opener and Tickets",
     "image": "https://images.unsplash.com/photo-1582650448629-3c854f356544?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Baseball stadium with field and seating under blue sky",
-    "description": "A guide to Winnipeg Goldeyes games at Blue Cross Park: tickets, seating, food, parking and the team's history from 1954 to the American Association today.",
-    "metaHtml": "<span>Sports History</span>\n                                <span>10 min read</span>\n                                <span>December 8, 2025</span>"
+    "description": "The Winnipeg Goldeyes open at home May 14, 2027 at Blue Cross Park. The 2027 schedule, tickets, transit, and how a game compares with Sea Bears basketball.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>Updated October 16, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-pride.html",

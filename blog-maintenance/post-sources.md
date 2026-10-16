@@ -16,6 +16,76 @@ Newest first.
 
 ---
 
+## blog-winnipeg-goldeyes.html (refreshed 2026-10-16)
+
+Organisers: the Winnipeg Goldeyes (`goldeyes.com`) and the Winnipeg Sea Bears
+(`seabears.ca`). Neither host resolves from this sandbox (both returned
+`ENOTFOUND` through the agent proxy this run, as did `chrisd.ca`), so every fact
+below comes from search results quoting those two sites plus OurSports Central,
+ChrisD.ca and Wikipedia's CEBL season pages.
+
+- **2027 Goldeyes schedule.** Announced by the club in October 2026: a 102-game
+  schedule with 51 home games at Blue Cross Park; the season opens on the road in
+  Kansas City on May 7 (three games against the Monarchs) followed by three in
+  Fargo against the RedHawks; the home opener is Friday, May 14 at 7:00 p.m.
+  against the Sioux City Explorers; nine full weekends of home baseball, with
+  fireworks after every Friday night home game; home dates on Canada Day, July 1,
+  and Father's Day, Sunday June 20; the regular season closes with a six-game
+  homestand against Lincoln from August 31 to September 5, the finale at 1 p.m. on
+  Sunday, September 5. Source: the club's own "Goldeyes to Open 2027 Schedule
+  May 7" release, carried by OurSports Central and ChrisD.ca.
+- **Banana Ball.** The club announced a touring Banana Ball exhibition stop in
+  Winnipeg in August 2027, described as its first Canadian appearance. The page
+  says only "the touring Banana Ball exhibition"; no team name is given because
+  the source names the format, not which of the touring clubs plays here.
+- **Blue Cross Park.** One Portage Avenue East, capacity 7,461, renamed Blue Cross
+  Park in 2023 under a Manitoba Blue Cross partnership. Carried from the 2025
+  version of this post, which is the only place this run sourced them.
+- **Goldeyes history.** 1954 arrival as a Northern League St. Louis Cardinals
+  affiliate, Northern League titles in 1957, 1959 and 1960, Steve Carlton's 1963
+  season here at 18, the team folding after 1964, the 1994 return and
+  first-season Northern League title, the 2011 move to the American Association
+  and back-to-back titles in 2016 and 2017. All carried from the 2025 version of
+  this post. The page keeps 1954, Carlton, 1964, 1994, 2011 and 2016-17 and drops
+  the 1957/1959/1960 list for length.
+- **Sea Bears and the CEBL.** Canada Life Centre, 300 Portage Avenue, opened 2004.
+  The 2026 CEBL regular season ran May 9 to August 3 with playoffs August 6 to 15
+  and 24 games per team (Wikipedia's 2026 CEBL season page); the 2025 season
+  tipped off May 11 and ended with Championship Weekend in Winnipeg, August 21 to
+  24, 2025. **No 2027 CEBL schedule has been published**, so the page gives the
+  recent window with "in past years" and does not state a 2027 date. Re-check
+  before the next refresh: a 2027 schedule release is the one thing that would
+  date this page.
+- **Sea Bears ticket prices.** Single-game seats "as low as $33" with taxes and
+  fees included and "as low as $27" for season-ticket members, and mobile-only
+  entry, from the club's own FAQ; 2027 season tickets on sale per the club's site
+  (`seabears.ca/2027-season-tickets`). The FAQ carries no date, and the club lists
+  single-game and Flex Pack seats as coming soon, so treat the two figures as the
+  club's floor pricing rather than a current 2027 price. **No Goldeyes ticket
+  price is stated anywhere on the page**, because none was sourced this run.
+- **Distances.** Canada Life Centre at ten minutes and 3.9 km, and The Forks
+  (which the ballpark backs onto) at ten minutes and 3.9 km, both from the
+  verified distance table in `AGENT-INSTRUCTIONS.md`; Corydon Avenue at about a
+  ten-minute walk south, same table. No figure is given for Blue Cross Park
+  itself, which is not in the table; the page reaches it by naming The Forks and
+  placing the ballpark next door.
+- **Transit.** The D19 Corydon's Kennedy Street terminal just south of Portage
+  Avenue, the fifteen-minute walk from there east to Main, and the fare of $3.45
+  cash or $3.10 peggo e-cash are all carried from our own sourced posts of
+  2026-09-05, 2026-09-23 and 2026-09-30. That the Kennedy terminal is a short walk
+  from 300 Portage Avenue is read off the downtown street order (Kennedy is one
+  block west of Donald), not sourced.
+- **Daylight and temperature.** Sunset in Winnipeg "around nine o'clock" in
+  mid-May, and single digits Celsius after dark in May, are computed and
+  rounded-down seasonal statements, not a forecast or a sourced normal. They are
+  deliberately imprecise; do not sharpen them without a source.
+- **Not stated on the page:** no Goldeyes ticket price, no 2027 CEBL date, no
+  parking rate, no attendance figure, no CEBL rule detail (the league's
+  target-score ending was considered and left out as unsourced this run), and no
+  walking time between the two venues, which is not in the verified table.
+
+---
+
 ## blog-winnipeg-pride.html (refreshed 2026-10-15)
 
 Organiser: Pride Winnipeg (`pridewinnipeg.com`), which does not resolve from

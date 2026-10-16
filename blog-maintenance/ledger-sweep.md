@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-exchange-district-self-guided-tour.html
 - blog-exchange-district.html
 - blog-family-activities.html
 - blog-festival-du-voyageur.html
@@ -136,6 +135,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-10-16 - blog-exchange-district-self-guided-tour.html (a short route post for walking the Exchange District. It names no commercial business at all: the only place named is Old Market Square, a public space, and the cafe and lunch stops are described generically as "one cafe break and one meal break" with no shop named. Nothing to add to the ledger. Noted for a future run: the post is thin, four one-paragraph sections with a generic "Route structure" heading, and its body uses the American spelling "cafes" alongside the accented "cafés"; it also promises east-west movement "across two or three parallel streets" without naming any of them, so it fails the specificity rule. Rewriting it was outside this run's budget.)
 - 2026-10-15 - blog-espresso-machine-simplicity.html (a hosting post about the espresso machine in the kitchen and why guests wanted drip coffee instead. The only names in it are the CASABREWS CM5418 machine itself and the coffee gear beside it, which are products rather than places a guest visits, so nothing was added to the ledger. Noted for a future run: the post ends on an `<h2>Conclusion</h2>` heading and carries several bolded spec lead-ins that restate themselves, both barred by the house style; rewriting it was outside this run's budget.)
 - 2026-10-14 - blog-el-taylor-crescentwood.html (a biography of Edmund Landor Taylor, K.C., whose name sits on an early Crescentwood land map near Ruskin Row. Everything it names is either a defunct Edwardian company (Great West Permanent Loan, Canada National Fire Insurance, Imperial Canadian Trust, Monarch Life Assurance, Royal Canadian Securities, Similkameen Fruit Land, Northern Investment), a historical law firm (Tupper, Phippen & Tupper), an institution (University of Manitoba, Wesley College, Victoria Public Hospital) or a private members' club named in the past tense (Manitoba Club, Adanac Club). No current commercial business is named, so nothing was added to the ledger. Noted for a future run: this post carries an `<h2>Sources</h2>` section and inline `[source]` markers, which the 2026-09-27 "sources belong in our notes" rule would normally strip; it was left alone because rewriting a ten-section history post is outside this run's budget.)
 - 2026-10-13 - blog-day-trips-near-winnipeg-from-corydon.html (a short post on using Winnipeg as a base for day trips: Grand Beach and Winnipeg Beach for a beach day, unnamed prairie towns for a lunch-to-dinner window, and provincial and regional parks, plus a drive-planning note on Manitoba weather. It names no commercial business, only beaches, towns and parks in the generic, so nothing was added to the ledger.)
