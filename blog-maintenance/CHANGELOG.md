@@ -7,6 +7,93 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-16 (second run of the day)
+
+A second scheduled run fired on the same date as the Goldeyes refresh. Treated as
+a normal run: next rotation batch, next events-queue entry.
+
+**Businesses verified (6 ledger entries, the stalest in rotation):** all six came
+back open, and none required a page edit beyond one naming correction.
+
+- **Peking Chinese Restaurant**, 840 Corydon Ave: **open, and renamed on the
+  site.** Its own site (pekingwpg.com) carries the title "Peking Chinese
+  Restaurant - EST. 1970" and says it has served the Winnipeg area for over 50
+  years; a Yelp page for 840 Corydon Avenue was updated August 2026, and both
+  DoorDash and SkipTheDishes carry live storefronts (the delivery platforms use
+  "Peking Chinese Foods"). `blog-corydon-guide.html` listed it as "Peking
+  Chinese Food Ltd.", the corporate style rather than the name on the door, and
+  was corrected to "Peking Chinese Restaurant"; the ledger entry was renamed to
+  match. Hours and phone numbers differ between aggregators (two different
+  numbers, one listing showing a 4:00 a.m. open that is plainly wrong), so none
+  were published.
+- **Cafe 22**, 823 Corydon Ave: **open.** A Winnipeg dining guide gives the
+  address and phone (204) 989-5119, a current review aggregate is active and
+  positive, and a commercial-leasing listing for 875 Corydon Ave lists Cafe 22 as
+  a neighbouring business 0.09 miles away. No closure flag anywhere. No hours are
+  published that I can stand behind, and the page states none.
+- **Saffron's Restaurant**, 681 Corydon Ave: **open, address confirmed** as 681
+  Corydon Ave, R3M 0W4 (venue directory listing). Travel Manitoba's Corydon
+  feature still names it as a patio on the strip. The only hours available are
+  from a listing added in 2016 and the only reviews found are from 2017, so
+  nothing about hours was published. Nothing flags a closure.
+- **Santa Lucia Pizza**, 905 Corydon Ave: **open.** Current OpenTable and AAA
+  listings agree on the address, the phone number (204) 488-8090 and the hours
+  (11 a.m. to midnight Monday to Thursday, to 1 a.m. Friday and Saturday, noon
+  to midnight Sunday). Cross streets Corydon and Wentworth.
+- **Saperavi Georgian Cuisine**, 709 Corydon Ave: **open.** A live OpenTable
+  reservation profile at 709 Corydon Ave, R3M 0W4, listing Tuesday to Sunday
+  service and a Monday closure. The newest dated review found is May 2025, so
+  this is "a bookable listing and no closure signal" rather than a strong
+  confirmation; worth re-checking sooner than the rotation would otherwise.
+- **Starbucks (Corydon & Stafford)**, 946 Corydon Ave: **open.** An active Uber
+  Eats storefront under that name at 946 Corydon Avenue, R3M 0Y5, and a directory
+  listing with daily hours (6 a.m. to 10 p.m. Monday to Saturday, 6:30 a.m. to
+  9 p.m. Sunday). Aggregator hours, not Starbucks' own locator, so they were not
+  published.
+
+Still outstanding from the previous run: **Bar Italia**, 737 Corydon Ave, remains
+`unverified` and was not in this batch. It still needs a decisive check from
+Google Maps or the restaurant's own channels, which this sandbox cannot reach.
+
+**Ledger backfill sweep:** `blog-exchange-district.html`. It names no commercial
+business at all; every place in it is a building, an institution or a public
+space, and its dining section is written entirely in the generic. Nothing added
+to the ledger. Moved to "Swept". Noted there for a future run: it is one of the
+oldest posts on the site and breaks the current house style repeatedly
+("vibrant" three times, "a testament", "more than just a collection of old
+buildings", a "Whether you're" close, and the template headings "Getting There"
+and "What to Expect"-style section titles).
+
+**New post:** `blog-manitoba-electronic-music-exhibition.html`, "MEME Winnipeg
+2027: June 11 and 12, Tickets and Venues". First entry of the Events queue, a
+new post rather than a refresh. Form: **host's notes**, which the rotation rule
+left open (the last three were explainer, question and answer, and comparison)
+and which suited a festival that publishes its lineup, venues and set times late
+enough that an hour-by-hour plan would have had to be invented. 762 words.
+
+Facts confirmed by search before writing: June 11 and 12, 2027 from the
+festival's own site and one independent festival listing, against the 2026
+edition's June 4 to 6; the free outdoor concerts at the Cube in Old Market
+Square, 275 Bannatyne Ave; the City of Winnipeg's October 2025 swap of the grass
+in front of the Cube for turf; the festival's 2010 start and its volunteer-run,
+audio-visual character; past editions in the Manitoba Museum, the Winnipeg Art
+Gallery and Pantages Playhouse; mid-June sunset around 9:40 p.m. with light past
+ten. No price is quoted anywhere in the post: super early bird passes are on sale
+but no 2027 figure is published, and the only 2026 weekend-pass number found was
+on an aggregator. The post names no commercial business, so it added no ledger
+entries; the venues it names are institutions. Full provenance in
+`post-sources.md`.
+
+**Pages changed:** `blog-manitoba-electronic-music-exhibition.html` (new),
+`blog-corydon-guide.html` (Peking rename, `modified_time` and `dateModified`
+bumped), `blog.html` (noscript card and JSON-LD `blogPost` entry),
+`articles-data.js`, `articles_data.json`, `sitemap.xml` (new entry plus
+`lastmod` for `blog.html` and `blog-corydon-guide.html`), `llms.txt`
+(regenerated: 161 posts), `business-ledger.json`, `ledger-sweep.md`,
+`post-ideas.md`, `post-sources.md`.
+
+---
+
 ## 2026-10-16
 
 **Businesses verified (6 ledger entries, the stalest in rotation):**

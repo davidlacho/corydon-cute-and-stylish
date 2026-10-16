@@ -16,6 +16,59 @@ Newest first.
 
 ---
 
+## blog-manitoba-electronic-music-exhibition.html (published 2026-10-16)
+
+MEME, the Manitoba Electronic Music Exhibition, run by MEMETIC. First entry of
+the Events queue. memetic.ca, ticketpro.ca and tourismwinnipeg.com are all
+blocked at the egress proxy, so everything below was read through search result
+summaries rather than fetched directly.
+
+- **June 11 and 12, 2027.** The festival's own site (memetic.ca) states "MEME
+  returns June 11th & 12th 2027" and that artist applications were open with an
+  October 11 deadline. A second, independent festival listing (technoairlines)
+  gives 11 to 12 June 2027 for the next edition. Two days, against the 2026
+  edition's June 4 to 6 (Tourism Winnipeg and 10times listings), which is why
+  the post says to book tight.
+- **Free outdoor concerts at the Cube, Old Market Square.** memetic.ca describes
+  the free outdoor concert at Old Market Square's Cube; Wikipedia's article on
+  the festival says the same of past editions. Address 275 Bannatyne Ave, R3B
+  1H9, from the City of Winnipeg's own October 2025 news release and an Exchange
+  District event listing. (The Winnipeg Architecture Foundation lists the Cube
+  structure itself at 131-133 Letinsky Place; the city's Bannatyne address is the
+  one used for the square and the one the post uses.)
+- **Turf in front of the Cube.** City of Winnipeg news release, 2025-10-07,
+  "City swaps grass for turf at Old Market Square", which places the work in
+  front of the Cube stage.
+- **Started in 2010, volunteer-run, audio-visual programming.** Wikipedia's
+  article on the Manitoba Electronic Music Exhibition. Note a conflict left out
+  of the post: a 2017 Uniter piece credits founder Nathan Zahn with starting it
+  in 2009 after attending MUTEK in Montreal. The post says 2010 and does not
+  name a founder.
+- **Past venues.** Wikipedia and Uniter between them name The Forks Market,
+  Pantages Playhouse, the Winnipeg Art Gallery, The Met, the Manitoba Museum,
+  Pyramid Cabaret and Union Sound Hall across past editions. The post names only
+  the Manitoba Museum, the Winnipeg Art Gallery and Pantages Playhouse, all
+  institutions, deliberately: the clubs were not verified as currently open this
+  run and naming them would have required ledger entries on an unverified basis.
+- **Passes.** memetic.ca says super early bird passes are on sale. No 2027 price
+  is published anywhere sourceable. An aggregator listing showed a $87.29
+  weekend pass for the 2026 edition; that figure was NOT used, and the post
+  quotes no price at all, pointing at memetic.ca instead.
+- **Sunset around 9:40 p.m. in mid-June.** Timeanddate's June 12 figures for
+  Winnipeg give civil twilight from 9:37 p.m. to 10:21 p.m. in the evening, and
+  a monthly average sunset of 9:40 p.m. for June.
+- **Transit and distances.** BLUE rapid transit from Osborne Village into
+  downtown along Portage and Main, the peggo card and the $3.45 2026 cash fare
+  are carried over from `blog-winnipeg-transit-basics-getting-downtown-from-corydon.html`
+  (the post says "was $3.45 in 2026" and sends the reader to winnipegtransit.com
+  for the current fare). Portage and Main at nine minutes / 3.9 km and the
+  ten-minute walk south to Corydon Avenue are both from the verified distance
+  table in `AGENT-INSTRUCTIONS.md`. No drive time is stated for Old Market Square
+  itself, which is not in that table; the post says the Exchange District begins
+  a few blocks north of Portage and Main instead.
+
+---
+
 ## blog-winnipeg-goldeyes.html (refreshed 2026-10-16)
 
 Organisers: the Winnipeg Goldeyes (`goldeyes.com`) and the Winnipeg Sea Bears

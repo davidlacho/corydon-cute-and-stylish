@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-manitoba-electronic-music-exhibition.html",
+    "category": "winnipeg",
+    "date": "2026-10-16",
+    "title": "MEME Winnipeg 2027: June 11 and 12, Tickets and Venues",
+    "image": "images/exchange-district-pepsi.jpg",
+    "imageAlt": "Faded Pepsi-Cola ghost sign painted high on a brick warehouse wall in Winnipeg's Exchange District",
+    "description": "The Manitoba Electronic Music Exhibition returns June 11 and 12, 2027: free outdoor shows at the Cube in Old Market Square, how passes work, and where to stay.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>October 16, 2026</span>"
+  },
+  {
     "url": "/blog-doors-open-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-10-14",
