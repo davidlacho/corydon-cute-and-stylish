@@ -95,6 +95,16 @@ the `blog.html` noscript grid and its JSON-LD `blogPost` array, and
 **Sitemap:** `<lastmod>` bumped to 2026-10-17 for the new post, `blog.html` and
 the five pages edited for the closure.
 
+**pa11y:** `--standard WCAG2AA` on all seven changed pages (the new post,
+`blog.html`, and the five pages edited for the closure), run against a local
+server because the new page was not live yet: 7 passed, 0 errors, 0 warnings.
+
+**Deploy:** pushed to `main` as e0142e6 and confirmed landed (HEAD matched
+origin/main). The GitHub Pages build and deployment run for that commit
+(run 438) completed with conclusion success. The live site could not be fetched
+from the sandbox to double-check, since staywinnipeg.ca and github.io do not
+resolve through the run's proxy; the Actions run is the confirmation.
+
 ---
 
 ## 2026-10-16 (second run of the day)
