@@ -16,6 +16,54 @@ Newest first.
 
 ---
 
+## blog-red-river-exhibition.html (published 2026-10-17)
+
+- **Dates.** The 2026 Ex ran June 12 to 21 (redriverex.com event listing, and a
+  Tourism Winnipeg festival listing giving the same dates). No 2027 dates were
+  posted by the organiser on 2026-10-17; the Exhibition Park upcoming-events page
+  listed other 2027 bookings (Future Now Expo in April, the Hutterite
+  Manufacturing expo in October) but not the Ex. The post therefore gives the
+  ten-day mid-June window and names 2026 as the confirmed run.
+- **Venue and gate.** Red River Exhibition Park, 3977 Portage Ave; West Gate off
+  Festival Drive (redriverex.com / Tourism Winnipeg listing).
+- **Admission.** Gate admission is a one-day pass for ages 7 and up; free for
+  ages 6 and under (redriverex.com FAQ). Free-admission windows in 2026 were
+  Friday June 12, 5:00 to 6:00 p.m., and Sundays June 14 and June 21, noon to
+  1:00 p.m. (same FAQ). A third-party event listing quoted $15 plus GST and fees
+  in advance and $20 on event days; that was not published here because it did
+  not come from the organiser.
+- **Rides.** Separate from gate admission; a children's all-you-can-ride
+  wristband was $25 on site in 2026, and height requirements apply per ride
+  (redriverex.com FAQ). North American Midway Entertainment supplies the midway;
+  "more than 50 rides" is Tourism Winnipeg's count for the 2026 edition.
+- **Parking.** $5 all day in either lot; west/main lot north off Portage Ave onto
+  Festival Drive, south lot at Race Track Road and Stewart Millet Drive; the lot
+  immediately outside the east gates is privately owned and sets its own price
+  (redriverex.com parking page). Cash or debit/credit for admission, rides and
+  parking.
+- **Hours.** Opening day 2026 ran 5:00 p.m. to midnight and the closing Sunday
+  noon to 10:00 p.m. (redriverex.com event hours page).
+- **Programming.** More than 200 hours of live performance across the ten days,
+  plus agricultural displays, artisan markets, juried art, photography and quilt
+  competitions, and a Model Boat Club display in the Boathouse (Tourism Winnipeg
+  listing and the park's own attractions page).
+- **Transit.** Winnipeg Transit runs a special event service for the Ex, leaving
+  from Market and Main beside the Centennial Concert Hall, south on Main and west
+  on Portage with limited stops; its June 2026 schedule ran about every 15
+  minutes at peak and about every 30 minutes on weekday afternoons
+  (info.winnipegtransit.com event-service page). Moovit lists two regular routes
+  as stopping near the grounds; those numbers were not published because the
+  post-2025 network renumbering could not be checked here.
+- **Distances.** Only the Centennial Concert Hall figure (10 min / 4.3 km) is
+  used, straight from the verified table in `AGENT-INSTRUCTIONS.md`. No
+  home-to-Exhibition-Park time or distance is stated anywhere in the post, since
+  that destination is not in the table and mapping sites are unreachable from
+  the sandbox.
+- **Daylight.** Late-June sunset in Winnipeg is about 9:30 p.m. CDT; used as the
+  pivot for the evening section.
+
+---
+
 ## blog-manitoba-electronic-music-exhibition.html (published 2026-10-16)
 
 MEME, the Manitoba Electronic Music Exhibition, run by MEMETIC. First entry of

@@ -103,7 +103,7 @@
     },
     {
       "name": "Sugar + Salt Bakeshoppe",
-      "address": "897 Corydon Ave",
+      "address": "897 Corydon Ave Unit 103",
       "pages": [
         "blog-corydon-guide.html",
         "blog-beat-the-heat-near-corydon-airbnb.html",
@@ -112,7 +112,7 @@
         "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-21"
+      "last_verified": "2026-10-17"
     },
     {
       "name": "Sunshine Chinese Restaurant",
@@ -121,7 +121,7 @@
         "blog-corydon-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-21"
+      "last_verified": "2026-10-17"
     },
     {
       "name": "Sushi Ya",
@@ -130,7 +130,7 @@
         "blog-corydon-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-17"
     },
     {
       "name": "The Cheesemongers Fromagerie",
@@ -139,17 +139,20 @@
         "blog-corydon-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-17"
     },
     {
       "name": "The Mighty Kiwi Juice Bar & Eatery",
       "address": "709 Corydon Ave",
       "pages": [
         "blog-corydon-guide.html",
-        "blog-beat-the-heat-near-corydon-airbnb.html"
+        "blog-beat-the-heat-near-corydon-airbnb.html",
+        "blog-best-breakfast-brunch-near-corydon-airbnb.html",
+        "blog-family-friendly-stops-near-corydon.html",
+        "blog-vegetarian-vegan-eats-corydon.html"
       ],
-      "status": "open",
-      "last_verified": "2026-09-22"
+      "status": "closed",
+      "last_verified": "2026-10-17"
     },
     {
       "name": "The Roost",
@@ -1165,7 +1168,7 @@
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-21"
+      "last_verified": "2026-10-17"
     },
     {
       "name": "Rae & Jerry's",
@@ -1327,7 +1330,8 @@
         "blog-arctic-glacier-winter-park-forks.html",
         "blog-new-years-eve-the-forks.html",
         "blog-warming-huts-red-river-trail.html",
-        "blog-snow-maze-st-adolphe.html"
+        "blog-snow-maze-st-adolphe.html",
+        "blog-family-activities.html"
       ],
       "status": "open",
       "last_verified": "2026-09-29"
@@ -1452,6 +1456,24 @@
       ],
       "status": "open",
       "last_verified": "2026-10-14"
+    },
+    {
+      "name": "Fun Mountain Water Slide Park",
+      "address": "",
+      "pages": [
+        "blog-family-activities.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "The Rec Room (Outlet Collection Winnipeg)",
+      "address": "",
+      "pages": [
+        "blog-family-activities.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
     }
   ]
 }

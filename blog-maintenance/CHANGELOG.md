@@ -7,6 +7,96 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-17
+
+**Businesses verified (6 ledger entries, the stalest in rotation):** five open,
+one closed. The closure required edits on five pages, three more than the ledger
+knew about.
+
+- **Sugar + Salt Bakeshoppe**, 897 Corydon Ave: **open, address refined.** Its
+  own site (sugarandsaltbakeshoppe.com) is live and gives Unit 103, 897 Corydon
+  Ave, R3M 0W7, phone 204-306-4944, and hours of Tuesday to Friday 11 to 5,
+  Saturday 10 to 4, closed Sunday and Monday. Tourism Winnipeg carries a current
+  listing. The ledger address was updated to include the unit; the hours already
+  on `blog-best-breakfast-brunch-near-corydon-airbnb.html` (11am weekdays, 10am
+  Saturdays, closed Sunday and Monday) match the official site and were left.
+- **Sunshine Chinese Restaurant**, 635 Corydon Ave: **open.** Yelp (updated
+  September 2025), Tripadvisor, Yellow Pages and Canpages all carry the address
+  and the number (204) 615-2615, and Restaurantji shows 124 reviews. No closure
+  flag anywhere. Published hours disagree wildly across aggregators (an
+  11am-to-11pm listing against several evening-only ones), so none were added to
+  the site.
+- **529 Wellington**, 529 Wellington Cres: **open.** A live OpenTable
+  reservation profile rated about 4.8 from more than 2,000 reviews, plus a
+  current AAA listing giving lunch Monday to Friday 11 to 2 and dinner Monday to
+  Saturday 4:30 to 10. Two different phone numbers appear across listings, so
+  neither was published.
+- **Sushi Ya**, 659 Corydon Ave: **open, weakly.** Apple Maps, MapQuest and
+  Yellow Pages (as "Sushiya Ltd") all carry 659 Corydon Ave, and Tripadvisor's
+  page is live, but the listings disagree on hours and the Tripadvisor entry is
+  unclaimed with no hours at all. Nothing flags a closure, so the entry stands
+  unchanged; worth a decisive check sooner than the rotation would give it.
+- **The Cheesemongers Fromagerie**, 839 Corydon Ave: **open.** Its own site
+  (thecheesemongers.ca) gives Tuesday to Saturday 10 to 6, closed Sunday and
+  Monday, phone 204-691-7555, and Yelp's listing was updated July 2026. About
+  4.7 to 4.8 across roughly 100 to 150 Google reviews.
+- **The Mighty Kiwi Juice Bar & Eatery**, 709 Corydon Ave: **CLOSED.** Three
+  signals agree: a Wanderlog listing flags the Corydon location permanently
+  closed, the business's own domain (themightykiwi.ca) no longer resolves, and
+  the unit at 709 Corydon now appears to hold MLYN, a Ukrainian restaurant that
+  Tourism Winnipeg's fall 2025 roundup placed underneath Saperavi at that
+  address. The only sources still showing it open are Yelp and Yellow Pages
+  snapshots from late 2025. MLYN itself could not be confirmed from any current
+  source, so it was not added to any page.
+
+**Pages changed for the closure (five, not the two the ledger listed):**
+
+- `blog-corydon-guide.html`: list entry removed.
+- `blog-beat-the-heat-near-corydon-airbnb.html`: the smoothie sentence removed
+  from the iced-drinks paragraph.
+- `blog-best-breakfast-brunch-near-corydon-airbnb.html`: the whole "Smoothies and
+  a lighter breakfast" section removed, along with the business from the keywords
+  meta. It carried a link to the dead domain and hours that no longer apply.
+- `blog-family-friendly-stops-near-corydon.html`: closing sentence of the gelato
+  paragraph removed.
+- `blog-vegetarian-vegan-eats-corydon.html`: the "A fully plant-based stop"
+  section removed; the intro, the "all four spots" line in the highlight box and
+  the page description were rewritten, since the page no longer has a dedicated
+  plant-based stop to point at. The matching description was synced in
+  `articles-data.js` and `articles_data.json`.
+
+The ledger's `pages` array for the entry was corrected to list all five, and its
+status set to `closed`.
+
+**Ledger backfill sweep:** `blog-family-activities.html`. Almost everything it
+names is an institution or a public space. Three commercial entries came out of
+it: Fun Mountain Water Slide Park and The Rec Room, both added unverified at
+2026-01-01, and The Forks Market, already listed, which gained the filename. Its
+dining section names no restaurant at all.
+
+**New post:** `blog-red-river-exhibition.html`, "Red River Ex 2027: Mid-June
+Dates and a Day at the Fair". First entry of the Events queue, a new post rather
+than a refresh. Form is a one-day plan (five time-stamped headings, each naming
+what the choice costs), which none of the last three posts used. The organiser
+had not posted 2027 dates, so the post gives the ten-day mid-June window and the
+confirmed 2026 run of June 12 to 21, and marks every price and time as a 2026
+figure: $5 parking in the Festival Drive and Race Track Road lots, the $25
+children's ride wristband, the three free-admission windows, the 5 p.m. to
+midnight opening day and the 10 p.m. close on the final Sunday. No
+home-to-venue drive time is stated, because Exhibition Park is not in the
+verified distance table; the only figure used is the Centennial Concert Hall
+(10 min / 4.3 km), which is, and which is where the Ex event bus leaves from.
+Hero image is the local `images/family-activities.jpg`; no local midway photo
+exists and Unsplash is unreachable from the sandbox, so no unverifiable external
+image was introduced. Registered in `articles-data.js`, `articles_data.json`,
+the `blog.html` noscript grid and its JSON-LD `blogPost` array, and
+`sitemap.xml`; `llms.txt` regenerated (162 posts).
+
+**Sitemap:** `<lastmod>` bumped to 2026-10-17 for the new post, `blog.html` and
+the five pages edited for the closure.
+
+---
+
 ## 2026-10-16 (second run of the day)
 
 A second scheduled run fired on the same date as the Goldeyes refresh. Treated as
