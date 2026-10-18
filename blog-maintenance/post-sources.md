@@ -16,6 +16,73 @@ Newest first.
 
 ---
 
+## blog-winnipeg-jazz-festival.html (published 2026-10-18)
+
+Organiser: Jazz Winnipeg (`jazzwinnipeg.com`). That host does not resolve from
+this sandbox, so everything below was read through search result summaries
+quoting it rather than fetched directly.
+
+- **Six days, June 16 to 21, 2026.** Jazz Winnipeg's own festival-information
+  page ("running June 16-21, 2026"), Tourism Winnipeg's annual-events listing and
+  a JamBase festival page all agree. One Substack preview (Roaming Winnipeg,
+  June 5 edition) gave June 15 to 21; it was not used.
+- **No 2027 dates are stated on the page, deliberately.** Jazz Winnipeg had
+  published none. The only 2027 window found anywhere was Jazz Festivals Canada's
+  aggregator listing of June 15 to 20, 2027, which no organiser source
+  corroborates, so it was left out entirely and the post says to check
+  jazzwinnipeg.com. The title's "June Dates" is the typical window, not a claim.
+- **Everything at Old Market Square is free.** Jazz Winnipeg's festival
+  information page: "Festival programming at Old Market Square / The Cube is free
+  to attend", with six days of free outdoor concerts.
+- **Old Market Square at 275 Bannatyne Ave.** Carried over from the verified note
+  for `blog-manitoba-electronic-music-exhibition.html` (City of Winnipeg news
+  release, October 2025, plus an Exchange District event listing). The turf
+  replacement in front of the Cube was left out of this post because the MEME
+  post two runs earlier already carries it and repeating it reads as template.
+- **The Cube.** Winnipeg Architecture Foundation and Architect Magazine: an
+  open-air stage about 28 feet on a side, its outer skin a mesh curtain that
+  draws back to reveal the concrete stage. Sources disagree on whether the mesh
+  holds 18,000 or 20,000 pieces, so no count is stated. No audience capacity is
+  published anywhere, so none is stated.
+- **2026 nightly themes and the closing Latin night.** Classic107's lineup
+  coverage for the opening swing night through the closing blues night, with
+  groove, global, Latin and women-in-jazz evenings between; the Roaming Winnipeg
+  preview gives the free Latin night on June 21 as 4:30 p.m. to midnight. All of
+  it is written on the page as a 2026 fact, not a 2027 promise.
+- **Vendors and the makers' market.** Jazz Winnipeg's festival information page,
+  which also notes that seating is limited.
+- **Ticketed venues.** The 2026 schedule put the International Jazz Showcase in
+  the Fort Garry Hotel's Club Room at 222 Broadway and headline bills at the
+  Burton Cummings Theatre. A Desautels Concert Hall date (Molly Johnson, June 17,
+  2026) also appeared and was left out: the hall's location could not be
+  confirmed from a source this run, and naming a venue without saying where it is
+  helps nobody.
+- **Founded 1989, run by Jazz Winnipeg.** Wikipedia's article on the festival,
+  which also notes the former name Jazz Winnipeg Festival. A 2026 listing bills
+  the edition as the 35th annual; the post does not use an edition number,
+  because 1989 to 2026 does not obviously yield 35 and the discrepancy was not
+  resolvable.
+- **More than 30,000 over the six days.** Tourism Winnipeg's 2026 listing. An
+  older Travel Manitoba listing says more than 40,000 over nine days, which
+  describes a longer edition in an earlier year; the six-day figure matches the
+  2026 run the post describes.
+- **Sunset about 9:40 with light past ten.** Carried over from the MEME run's
+  Timeanddate check for mid-June Winnipeg (civil twilight to 10:21 p.m. on
+  June 12, monthly average sunset 9:40 p.m.).
+- **Amsterdam Tea Room and Bar, 103-211 Bannatyne Ave.** Verified in this run's
+  rotation batch (see CHANGELOG 2026-10-18). **Peasant Cookery, 283 Bannatyne
+  Ave** comes from its existing ledger entry, last verified 2026-10-06.
+- **Transit and distances.** BLUE rapid transit from Osborne Village along
+  Portage Avenue and the $3.45 2026 cash fare are carried over from
+  `blog-winnipeg-transit-basics-getting-downtown-from-corydon.html`, with the
+  reader sent to winnipegtransit.com for the current fare. Portage and Main at
+  nine minutes / 3.9 km and the ten-minute walk south to Corydon Avenue are from
+  the verified distance table in `AGENT-INSTRUCTIONS.md`. No walking time is
+  given between Portage and Main and Old Market Square, because that pair is not
+  in the table.
+
+---
+
 ## blog-red-river-exhibition.html (published 2026-10-17)
 
 - **Dates.** The 2026 Ex ran June 12 to 21 (redriverex.com event listing, and a

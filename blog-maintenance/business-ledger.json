@@ -162,7 +162,7 @@
         "blog-date-night-on-corydon-avenue.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-18"
     },
     {
       "name": "Thom Bargen Coffee Roasters",
@@ -196,15 +196,16 @@
     },
     {
       "name": "Amsterdam Tea Room and Bar",
-      "address": "103 Bannatyne Ave",
+      "address": "103-211 Bannatyne Ave",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
         "blog-winnipeg-cocktail-bars-lounges.html",
         "blog-winnipeg-vegan-restaurants.html",
-        "blog-winnipeg-new-music-festival.html"
+        "blog-winnipeg-new-music-festival.html",
+        "blog-winnipeg-jazz-festival.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-18"
     },
     {
       "name": "Bailey's Restaurant & Bar",
@@ -213,7 +214,7 @@
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-18"
     },
     {
       "name": "Barn Hammer Brewing Company",
@@ -222,7 +223,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-18"
     },
     {
       "name": "Bison Bus Tours",
@@ -776,7 +777,8 @@
       "name": "Peasant Cookery",
       "address": "283 Bannatyne Ave",
       "pages": [
-        "blog-restaurants.html"
+        "blog-restaurants.html",
+        "blog-winnipeg-jazz-festival.html"
       ],
       "status": "open",
       "last_verified": "2026-10-06"
@@ -1459,21 +1461,30 @@
     },
     {
       "name": "Fun Mountain Water Slide Park",
-      "address": "",
+      "address": "804 Murdock Rd, RM of Springfield",
       "pages": [
         "blog-family-activities.html"
       ],
-      "status": "open",
-      "last_verified": "2026-01-01"
+      "status": "closed",
+      "last_verified": "2026-10-18"
     },
     {
-      "name": "The Rec Room (Outlet Collection Winnipeg)",
+      "name": "The Rec Room (Seasons of Tuxedo)",
       "address": "",
       "pages": [
         "blog-family-activities.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-18"
+    },
+    {
+      "name": "The Fort Garry Hotel",
+      "address": "222 Broadway",
+      "pages": [
+        "blog-winnipeg-jazz-festival.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-10-18"
     }
   ]
 }

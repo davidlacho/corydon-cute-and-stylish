@@ -7,6 +7,110 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-18
+
+**Businesses verified (6 ledger entries, the stalest in rotation):** four open,
+one open but misnamed in the ledger, one permanently closed. The closure removed
+a section from one page.
+
+- **Fun Mountain Water Slide Park**, 804 Murdock Rd in the RM of Springfield:
+  **CLOSED, permanently.** Global News reported from the site in July 2023 and
+  described it in the story as "the former Fun Mountain waterslide park, which is
+  permanently closed", adding that it had not been operational for a few years
+  and that most of the slides were already down. Wanderlog carries a
+  permanently-closed flag on the same address, and a ZuzuForKids listing says the
+  property went up for sale after the owners defaulted. An insolvency notice
+  naming two numbered Manitoba companies operating as Fun Mountain also surfaced,
+  undated, and was not relied on. The travel-aggregator pages that still show a
+  mid-June to late-August season (Expedia, Best Western's things-to-do page) are
+  stale. One of the two entries backfilled at 2026-01-01 without verification, so
+  this is its first real check.
+- **The Rec Room**: **open, and the ledger's name for it was wrong.** The entry
+  read "The Rec Room (Outlet Collection Winnipeg)"; Manitoba's only Rec Room is
+  in the Seasons of Tuxedo development on Sterling Lyon Parkway, across Kenaston
+  Boulevard from the outlet mall, and was never at the Outlet Collection. The
+  name was corrected. Its own page (therecroom.com/winnipeg-tuxedo) is live and
+  describes the venue's bowling, bar games, VR, axe throwing and restaurant.
+  Address left blank on purpose: listings give both 660 and 696 Sterling Lyon
+  Pkwy and nothing settles it. The second 2026-01-01 backfill entry, now checked.
+  No page edit needed, since `blog-family-activities.html` names it without an
+  address.
+- **The Roost**, 651 Corydon Ave: **open.** Live listings on Wanderlog, Airbnb's
+  things-to-do pages and an At the Immigrant's Table roundup, with the phone
+  number 204-414-9313 and the Oddlot Collective named as operator. Directories
+  disagree on the unit (2-651 and 651-A both appear), so the ledger address was
+  left at the street number. No closure flag anywhere.
+- **Amsterdam Tea Room and Bar**: **open, address corrected.** Multiple listings
+  (TableAgent, Roadtrippers) place it at 103-211 Bannatyne Ave, R3B 3P2, phone
+  204-295-7728, which is Unit 103 of 211 Bannatyne. The ledger had it as "103
+  Bannatyne Ave", a different address on the same street; that was fixed.
+  Published hours disagree badly across aggregators (one has it closed Sunday and
+  Monday, another open seven days), so no hours were added to any page.
+- **Bailey's Restaurant & Bar**, 185 Lombard Ave: **open.** Yelp's page was
+  updated August 2026, Tripadvisor carries a May 2026 review calling the fillet
+  top notch, and OpenTable, Restaurant Guru and MapQuest all list the address and
+  current hours. Ratings run from 3.2 on Yelp (23 reviews) to 4.2 on Restaurant
+  Guru (about 2,100). Nothing flags a closure.
+- **Barn Hammer Brewing Company**, 595 Wall St: **open.** BeerCrank reviewed the
+  brewery's Ten Triple IPA, brewed for its tenth anniversary, on 31 August 2026,
+  and barnhammerbrewing.ca's company page is live. A Wheree listing updated June
+  2026 carries the Wall Street address. The only hours found anywhere date to
+  about 2017, so none were published.
+
+**Pages changed for the closure:**
+
+- `blog-family-activities.html`: the "Fun Mountain Water Slide Park" heading and
+  paragraph removed from the top attractions section. The post names no other
+  water park and needed no replacement text; its meta description and keywords
+  never mentioned it. Sitemap `lastmod` moved to today.
+
+**Ledger sweep:** `blog-festival-du-voyageur.html`. It names no commercial
+business at all (Whittier Park, Fort Gibraltar, the snow sculpture symposium and
+the festival office on Provencher are the festival's own sites or institutions),
+so nothing was added. Moved to "Swept".
+
+**New post:** `blog-winnipeg-jazz-festival.html`, "Winnipeg Jazz Festival 2027:
+June Dates, Free Shows, Tickets". First entry of the events queue, a new post
+rather than a refresh. Written as an **explainer** (the previous three posts were
+comparison, host's notes and one-day plan), because the thing a visitor needs
+explained here is that the festival splits into a free outdoor half at Old Market
+Square and a ticketed half in rooms that move year to year.
+
+No 2027 date appears anywhere in the post. Jazz Winnipeg has published none, and
+the only 2027 window available was an aggregator's uncorroborated June 15 to 20,
+which was left out; the post gives the confirmed 2026 run of June 16 to 21, the
+six-day shape, and sends the reader to jazzwinnipeg.com. No ticket price is
+quoted, for the same reason. Everything dated (the nightly themes, the 4:30 p.m.
+to midnight closing Latin night, the Fort Garry Hotel and Burton Cummings Theatre
+venues) is written on the page as a 2026 fact. Full provenance is in
+`post-sources.md`.
+
+Three businesses are named: Amsterdam Tea Room and Bar and Peasant Cookery, both
+already in the ledger and both given the new filename, and the Fort Garry Hotel
+at 222 Broadway, added as a new entry. Hero image is the local Exchange District
+streetscape from `images/`, not the Pepsi ghost sign the MEME post used two runs
+ago.
+
+Registered in `articles-data.js`, `articles_data.json`, the `blog.html` noscript
+grid and its JSON-LD `blogPost` array, `sitemap.xml`, and `llms.txt` (regenerated
+with `update-llms.py`, now 163 posts).
+
+**pa11y:** `--standard WCAG2AA` on the three changed pages (the new post,
+`blog.html` and `blog-family-activities.html`), run against a local server
+because the new page was not live yet: 3 passed, 0 errors, 0 warnings. Chromium
+needed `--no-sandbox` through a `chromeLaunchConfig` file in this container;
+without it pa11y cannot launch at all, which is worth knowing for future runs.
+
+**Noted for a future run, not fixed here:** the registration files have drifted
+apart and the gap predates this run. `articles-data.js` carries 163 posts,
+`articles_data.json` 147, and `blog.html` represents only 109 in both its
+noscript grid and its JSON-LD `blogPost` array. So 54 published posts are
+invisible to a no-JS visitor and to a search engine reading the index page's
+structured data. Today's post is registered in all four, but closing the backlog
+is a job of its own and was outside this run's budget.
+
+---
+
 ## 2026-10-17
 
 **Businesses verified (6 ledger entries, the stalest in rotation):** five open,
