@@ -109,6 +109,14 @@ invisible to a no-JS visitor and to a search engine reading the index page's
 structured data. Today's post is registered in all four, but closing the backlog
 is a job of its own and was outside this run's budget.
 
+**Deploy:** pushed to `main` as fa3dc1b and confirmed landed (HEAD matched
+origin/main). The GitHub Pages build and deployment run for that commit
+(run 440) completed with conclusion success; the build step took its usual
+few seconds and the deploy step about nine minutes. The live site could not be
+fetched from the sandbox to double-check: staywinnipeg.ca does not resolve
+through the run's proxy and a direct request is refused with a 403 at the
+tunnel. The Actions run is the confirmation.
+
 ---
 
 ## 2026-10-17
