@@ -80,8 +80,11 @@ the live site, because staywinnipeg.ca is refused at this sandbox's egress proxy
 staywinnipeg.ca reachable should re-check both pages against the live URLs.
 
 **Deploy:** the Pages build and deployment run for e5f6d5d (run 442) completed
-successfully. The live URL could not be fetched from this sandbox to confirm it
-renders, for the proxy reason above.
+successfully, and run 444 for ddabd6d, a two-word copy fix to the post, completed
+successfully after it. (Run 443 shows as cancelled: GitHub Pages drops an
+in-progress deploy when a newer push supersedes it, which is what happened.) The
+live URL could not be fetched from this sandbox to confirm it renders, for the
+proxy reason above.
 
 **Pages changed:** `blog-kidsfest-winnipeg.html` (new), `articles-data.js`,
 `articles_data.json`, `blog.html` (noscript card and JSON-LD `blogPost` entry),
