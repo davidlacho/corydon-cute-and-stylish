@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-filipino-billiards-winnipeg.html
 - blog-forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb.html
 - blog-fortwhyte-alive-visitor-guide.html
 - blog-fresh-decor-updates.html
@@ -131,6 +130,8 @@ last because they are partly covered.
 ## Swept
 
 (append: date - filename)
+
+- 2026-10-19 - blog-filipino-billiards-winnipeg.html (no commercial businesses named: the post refers to Winnipeg pool halls and billiard lounges only in the generic, and its proper nouns are a local organiser, a Philippine player, a high school and a broadcaster. Nothing to add.)
 
 - 2026-10-18 - blog-festival-du-voyageur.html (the Festival du Voyageur event post. It names no commercial business at all: Whittier Park, Fort Gibraltar, the international snow sculpture symposium and the festival office at 233 Provencher Boulevard are the festival's own sites and an institution, none of which the ledger tracks, and its food and drink are described only as the tents and the bars on site. Nothing to add. The post is current-style and carries its ticket prices correctly marked as 2026 figures.)
 - 2026-10-17 - blog-family-activities.html (a broad family guide. Most of what it names is an institution or a public space (Assiniboine Park Zoo, the Children's Museum, FortWhyte Alive, the Manitoba Museum, the Royal Aviation Museum, The Forks, Kildonan Park, St. Vital Park, Rainbow Stage), which the ledger does not track. Three commercial entries came out of it: Fun Mountain Water Slide Park and The Rec Room, both added unverified at 2026-01-01, and The Forks Market, already listed, which gained this filename in its pages. Its dining section names no restaurant at all, only "family-friendly" in the generic. Noted for a future run: the post is written in the old template voice, with "something for everyone", "must-see" and a "Planning Your Family Visit" closing list, all barred by the current house style.)

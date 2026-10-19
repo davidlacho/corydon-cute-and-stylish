@@ -232,7 +232,7 @@
         "blog-winnipeg-tours.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-19"
     },
     {
       "name": "Bistro on Notre Dame",
@@ -241,7 +241,7 @@
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-19"
     },
     {
       "name": "Black Market Provisions",
@@ -250,7 +250,7 @@
         "blog-winnipeg-coffee.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-19"
     },
     {
       "name": "Brazen Brewing Co.",
@@ -259,7 +259,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-19"
     },
     {
       "name": "Bridge Drive-In (BDI)",
@@ -268,16 +268,16 @@
         "blog-winnipeg-ice-cream-gelato.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-19"
     },
     {
       "name": "Buffalo Stone Cafe (FortWhyte Alive)",
-      "address": "",
+      "address": "1961 McCreary Rd",
       "pages": [
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-22"
+      "last_verified": "2026-10-19"
     },
     {
       "name": "Café Carlo",
@@ -1333,7 +1333,8 @@
         "blog-new-years-eve-the-forks.html",
         "blog-warming-huts-red-river-trail.html",
         "blog-snow-maze-st-adolphe.html",
-        "blog-family-activities.html"
+        "blog-family-activities.html",
+        "blog-kidsfest-winnipeg.html"
       ],
       "status": "open",
       "last_verified": "2026-09-29"

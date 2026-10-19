@@ -16,6 +16,63 @@ Newest first.
 
 ---
 
+## blog-kidsfest-winnipeg.html (published 2026-10-19)
+
+Checked 2026-10-19 by web search. The organiser's own site (kidsfest.ca) and The
+Forks' event calendar could not be fetched directly from this sandbox; both hosts
+are refused at the proxy's CONNECT stage, as fortwhyte.org, brazenhall.ca and
+bridgedrivein.ca were on the same run. Everything below therefore comes from
+search result text quoting those pages plus independent listings.
+
+- **2026 edition, the 44th, ran June 11 to 14, 2026, at the Forks Festival
+  Grounds.** Showpass's "Kids Fest 2026" ticket listing and Tourism Winnipeg's
+  event entry agree on the dates; the Showpass listing carries the 44th-annual
+  wording and the Sunday 5:00 p.m. finish. ToDoCanada's Winnipeg listing gives
+  the same June 11 to 14 window.
+- **2025 ran June 5 to 8**, per The Forks' own calendar entry for that year.
+- **Founded 1983**, per Wikipedia's entry on the festival. The post does not
+  claim an edition number for 2027; counting forward from 1983 would make it the
+  45th, but no source states that, so it was left out.
+- **Daily hours (2026): Thursday and Friday 9:30 a.m. to 3:00 p.m., Saturday and
+  Sunday 10:30 a.m. to 5:00 p.m.**, from the ToDoCanada listing. Written on the
+  page as 2026 figures, not as a standing rule, because kidsfest.ca's own
+  schedule page was still showing the previous year's dates when searched.
+- **Ticket terms:** one festival ticket admits for all four days, the price is
+  the same for adults and children, and children under 24 months are free, all
+  from the Showpass listing. The **$10 school and daycare rate with one free
+  supervisor pass per eight tickets** is from kidsfest.ca's own Schools and
+  Daycares page as quoted in search results.
+- **General admission price deliberately not stated as a figure.** ToDoCanada
+  shows a $14.70 to $44.23 range with no year attached; another listing gives
+  2025 rates of $15.18 to $17.31 and marks 2026 as TBA. Those conflict, so the
+  post says "mid-teens per person" and sends the reader to the ticket page.
+- **Venues:** the CN Stage and Field at The Forks plus the Manitoba Theatre for
+  Young People, per kidsfest.ca as quoted in search results. MTYP's address,
+  **2 Forks Market Road**, is from its Wikipedia entry and matches the postal
+  code (R3C 4X1) in federal grant records. Note that an earlier guess of
+  "Waterfront Drive" for MTYP was wrong and was not used.
+- **Transit: route 38 Salter runs into The Forks seven days a week**, from
+  Winnipeg Transit's own rider-guide page for the Canadian Museum for Human
+  Rights and The Forks. **On-site stop #10907** is from Parks Canada's "How to
+  get here" page for The Forks. The Main Street at Broadway / Union Station
+  alternative is from the same two pages. No walk time in minutes was stated for
+  that leg because none could be checked here.
+- **No 2027 dates exist.** Searched specifically for a 2027 announcement and the
+  45th edition; nothing from the organiser, The Forks, Tourism Winnipeg or
+  Travel Manitoba. Tourism Winnipeg's annual-events listing still reads "DATES
+  TBD". The post states the Thursday-to-Sunday, first-half-of-June pattern as a
+  pattern and names kidsfest.ca as the place the dates appear.
+- **Parking price omitted on purpose.** The only figure found ($2/hour) came
+  from a Forks Canada Day guide dated 2023, which is too old and too
+  event-specific to publish.
+- **Sunset "about 9:25" in the second week of June** is the astronomical sunset
+  time for Winnipeg in that window, not a figure taken from a listing.
+- **Drive from the house to The Forks, 10 minutes / 3.9 km**, is the verified
+  figure in the house-facts table in `AGENT-INSTRUCTIONS.md`, not a fresh
+  estimate.
+
+---
+
 ## blog-winnipeg-jazz-festival.html (published 2026-10-18)
 
 Organiser: Jazz Winnipeg (`jazzwinnipeg.com`). That host does not resolve from
