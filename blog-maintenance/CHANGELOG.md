@@ -87,6 +87,20 @@ entries.
 `blog-maintenance/business-ledger.json`, `blog-maintenance/ledger-sweep.md`,
 `blog-maintenance/post-sources.md`.
 
+**pa11y (WCAG2AA):** `blog-canada-day-winnipeg.html` and `blog.html`, 2 pages,
+0 errors and 0 issues of any type on both. Run against a local static server on
+127.0.0.1, because staywinnipeg.ca is still refused at this sandbox's egress
+proxy (`connect_rejected`). Note for future runs: the `--config` flag did not
+apply `chromeLaunchConfig` from the pa11y CLI this time and Chromium refused to
+launch as root; driving pa11y through its Node API with
+`chromeLaunchConfig: { executablePath: '/opt/pw-browsers/chromium', args:
+['--no-sandbox', '--disable-dev-shm-usage'] }` worked first try.
+
+**Deploy:** pushed to `main` as b45f743 and confirmed landed (HEAD matched
+origin/main). The GitHub Pages build and deployment run for that commit
+(run 446) completed with conclusion success. The live page could not be fetched
+from here to confirm visually, for the proxy reason above.
+
 ---
 
 ## 2026-10-19
