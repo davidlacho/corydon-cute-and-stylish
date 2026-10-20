@@ -7,6 +7,88 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-20
+
+**Businesses verified (6 ledger entries, the stalest in rotation):** all six
+open. No closure, move or rename, so no page text changed.
+
+- **Cafe Carlo**, 243 Lilac St: **open.** Live OpenTable and AAA TripCanvas
+  listings carry the same current service pattern (Friday lunch, dinner Monday
+  to Saturday, a shorter Sunday evening) and the same 204-477-5544 number. No
+  closure flag anywhere. `blog-best-places-nearby-winnipeg.html` names it
+  without hours, so nothing needed correcting.
+- **Capital K Distillery**, 3-1680 Dublin Ave: **open.** A Rady JCC event
+  listing places a tour and tasting at 1680 Dublin Ave, Unit 3 on March 5,
+  2026, and a Dine About Winnipeg page carries a February 2026 tour schedule at
+  the same address. Both are dated this year.
+- **Cargo Bar**, Assiniboine Park (Riley Family Duck Pond): **open, seasonal.**
+  Assiniboine Park Conservancy's own seasonal pages ran it as a winter pop-up
+  through the 2025-26 holidays and the January 9 to 11, 2026 We Are Winter
+  weekend, then closed it until spring 2026; a March 2026 travel article
+  recommends it alongside the Park Cafe. It is a summer patio with a winter
+  pop-up season, not a closed business. No 2026-27 winter dates are posted yet.
+  `blog-best-places-nearby-winnipeg.html` names it without hours.
+- **Chaeban Ice Cream**, 390 Osborne St: **open.** Current directory listings
+  at 390 Osborne St with the 204-475-6226 number and daily hours; no closure
+  notice in any source. Hours differ between listings, which is why the site
+  does not publish them.
+- **Chaise Cafe & Lounge**, 271 Provencher Blvd: **open, on listing evidence
+  only.** OpenTable still carries it with daily dinner service and Trip.com
+  shows the normal "currently closed, opens at 17:00" daily-hours state rather
+  than a permanent-closure flag. No closure, sale or rename was reported
+  anywhere. This is weaker evidence than the others in the batch (no dated 2026
+  source turned up), so a future run should re-check it sooner rather than
+  later; it is named without hours on both pages that carry it, so nothing is
+  at risk on the site in the meantime.
+- **Cho Ichi Ramen**, 1151 Pembina Hwy: **open.** A Three Best Rated listing
+  gives the Fort Garry address and the 204-489-9254 number with a current
+  weekly schedule, and the restaurant is live on two delivery platforms with
+  4.5 and 4.6 ratings and a priced menu. No closure flag.
+
+**Ledger backfill sweep:** `blog-forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb.html`.
+Its one commercial business, Forgotten Flavours at 858 Corydon Ave, was already
+in the ledger, so the filename was appended to that entry's `pages`. Pennyloaf
+Bakery is named on the page only as the previous occupant of the storefront, in
+the past tense, and was deliberately not given an entry: a closed-status entry
+would invite a later run to "correct" an accurate historical mention. The
+filename moved to "Swept".
+
+**New post:** `blog-canada-day-winnipeg.html`, "Canada Day in Winnipeg 2027:
+The Forks, Fireworks, July 1". First entry of the Events queue, written as a
+**comparison** (the previous three posts were a one-day plan, an explainer and a
+question-and-answer set).
+
+The queue entry asked for "The Forks and Osborne Village", and half of that
+premise is out of date. Osborne Village Biz scrapped its Canada Day street
+festival in 2022, saying outside food trucks and vendors had taken over the
+street, and replaced it with Village Music Fest, two free days across six venues
+in late June (June 27 and 28 in 2026). The post gives that change its own
+section instead of sending readers to an event that no longer runs.
+
+The other thing the page exists to say is that The Forks does not hold fireworks
+on Canada Day any more. Its 2026 programme ran 10:30 a.m. to 9 p.m. as Many
+Nations, One Heartbeat / Wahkohtowin, free, with an All Nations welcoming
+ceremony, a citizenship ceremony at 11 a.m., CN Stage music through the evening
+and a smudge at Oodena Circle. The displays are elsewhere: Assiniboia Downs
+(3975 Portage Ave, racing from 7:30 p.m., fireworks at 11, parking free until
+7:30 and $10 after) and Princess Auto Stadium (mainstage 5 to 10:30 p.m.,
+fireworks after), with Transcona and Sage Creek as the smaller options. Every
+time and price on the page is marked as a 2026 figure, because no 2027 schedule
+is posted. Listings disagreed on the Sage Creek and Tyndall Park fireworks
+times, so only the two that agreed across sources carry a clock time. Drive
+figures are taken only from the verified table in the playbook; none is given
+for the Downs, Sage Creek, Transcona or Tyndall Park, since none of those is in
+it. The post names no business in the ledger's categories, so it added no ledger
+entries.
+
+**Pages changed:** `blog-canada-day-winnipeg.html` (new), `articles-data.js`,
+`articles_data.json`, `blog.html` (noscript card and Blog JSON-LD), `sitemap.xml`,
+`llms.txt` (regenerated, 165 posts), `blog-maintenance/post-ideas.md`,
+`blog-maintenance/business-ledger.json`, `blog-maintenance/ledger-sweep.md`,
+`blog-maintenance/post-sources.md`.
+
+---
+
 ## 2026-10-19
 
 **Businesses verified (6 ledger entries, the stalest in rotation):** all six

@@ -16,6 +16,71 @@ Newest first.
 
 ---
 
+## blog-canada-day-winnipeg.html (published 2026-10-20)
+
+Everything time-stamped or priced on the page is a 2026 figure and is labelled
+that way, because no 2027 Canada Day schedule was posted anywhere on the day of
+writing. July 1, 2027 is a Thursday.
+
+- **The Forks, Canada Day 2026.** The Forks' own newsroom release and event
+  calendar, plus CBC Manitoba's and Classic 107's event roundups and a Frequency
+  News piece: the day is programmed as Many Nations, One Heartbeat /
+  Wahkohtowin; it ran 10:30 a.m. to 9 p.m.; an All Nations welcoming ceremony
+  opened it; the citizenship ceremony at 11 a.m. swore in 30 people from 13
+  countries with Judge Suzanne Carriere presiding; live music on the CN Stage
+  ran into the evening with Mitchell Makoons, Brandi Vezina, TOMMYPHYLL and the
+  Irvin Miller Band closing; a smudge and closing ceremony were held at Oodena
+  Circle. **The Forks held no fireworks**, stated in several independent
+  roundups. The calendar and the later overview disagree on the music window
+  (an 11 a.m. to 7 p.m. "Pathways" listing against a 4 to 9 p.m. CN Stage
+  schedule), so the post says "late afternoon and evening" and gives no set
+  times.
+- **Assiniboia Downs, 3975 Portage Avenue.** Tourism Winnipeg's 2026 Canada Day
+  roundup and a ToDoCanada event listing: thoroughbred racing from 7:30 p.m.,
+  fireworks at 11 p.m. by CanFire Pyrotechnics, parking free until 7:30 p.m. and
+  $10 for vehicles entering after.
+- **Princess Auto Stadium, 315 Chancellor Matheson Rd.** A 2026 Winnipeg events
+  roundup gives a free tailgate, live music and a fireworks finale; an event
+  listing gives the mainstage at 5 to 10:30 p.m. with Down With Webster and Chad
+  Brownlee. The free-entry-plus-ticketed-mainstage split comes from the Blue
+  Bombers' own 2024 announcement and a CTV Winnipeg item from the same year, so
+  the post writes it as a past-years pattern and sends readers to
+  bluebombers.com rather than stating 2027 terms.
+- **Transcona and Sage Creek.** ToDoCanada listings: Transcona BIZ on Regent
+  Avenue at Transcona Square, 10 a.m. to 6 p.m., free, market and food trucks;
+  Sage Creek at Ron Duhamel Park, 265 Sage Creek Blvd, 4 to 11 p.m. with
+  fireworks around 10 by the baseball field. **Listings conflict** on the Sage
+  Creek time (one gives 10 a.m., plainly a typo) and on Tyndall Park's (10:35
+  p.m. in one, an unspecified evening slot in another), so Tyndall Park is left
+  off the page entirely and Sage Creek gets "around ten" rather than a clock
+  time.
+- **Osborne Village.** CTV Winnipeg's report on why the Biz scrapped the Canada
+  Day street festival in 2022 (outside food trucks and vendors monopolising the
+  street); the Biz's own Facebook description of the former event as the city's
+  largest and longest-running street festival, a kilometre of Osborne Street
+  drawing well over 70,000 people across June 30 and July 1; Global News and the
+  Osborne Village Biz events page for Village Music Fest as its replacement,
+  free, two days, more than 30 performers across six venues, June 27 and 28 in
+  2026.
+- **Transit.** Route 38 Salter into The Forks and on-site stop #10907 are
+  carried from the sourced note in `blog-kidsfest-winnipeg.html`; the $3.45 cash
+  / $3.10 peggo fare is carried from our own earlier sourced posts. Statutory
+  holiday service levels were not checked, which is why the page tells the
+  reader to look the trip up rather than stating a timetable.
+- **Daylight.** Sunset in Winnipeg on July 1 at about 9:30 p.m. with usable
+  light for roughly an hour after is astronomical, computed rather than sourced
+  to a page. It is the only weather or daylight claim on the post and it is the
+  stated reason the displays run at eleven.
+- **Distances.** Only from the verified table in `AGENT-INSTRUCTIONS.md`: The
+  Forks 10 min / 3.9 km, Princess Auto Stadium 13 min / 7.8 km, Corydon Avenue
+  about a ten-minute walk south. No drive time is stated for Assiniboia Downs,
+  Sage Creek, Transcona or Tyndall Park, none of which is in the table.
+- **Not reachable from this sandbox.** accesswinnipeg.com and cbc.ca both failed
+  DNS through the agent proxy, so their content was read through search result
+  summaries rather than fetched.
+
+---
+
 ## blog-kidsfest-winnipeg.html (published 2026-10-19)
 
 Checked 2026-10-19 by web search. The organiser's own site (kidsfest.ca) and The

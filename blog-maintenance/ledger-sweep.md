@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb.html
 - blog-fortwhyte-alive-visitor-guide.html
 - blog-fresh-decor-updates.html
 - blog-grocery-runs-near-corydon-airbnb.html
@@ -130,6 +129,8 @@ last because they are partly covered.
 ## Swept
 
 (append: date - filename)
+
+- 2026-10-20 - blog-forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb.html (names one commercial business, Forgotten Flavours at 858 Corydon Ave, already in the ledger; this filename was appended to its `pages`. The post also names Pennyloaf Bakery, but only as the previous occupant of the storefront Forgotten Flavours took over, which the page already states in the past tense. It was deliberately not added as an entry: a closed-status entry would invite a later run to "correct" an accurate historical mention.)
 
 - 2026-10-19 - blog-filipino-billiards-winnipeg.html (no commercial businesses named: the post refers to Winnipeg pool halls and billiard lounges only in the generic, and its proper nouns are a local organiser, a Philippine player, a high school and a broadcaster. Nothing to add.)
 

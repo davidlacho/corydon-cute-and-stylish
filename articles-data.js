@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-canada-day-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-10-20",
+    "title": "Canada Day in Winnipeg 2027: The Forks, Fireworks, July 1",
+    "image": "images/the-forks-indigenous-768x512.jpeg",
+    "imageAlt": "Dancers in regalia at an outdoor pow wow on the paved circle at The Forks in Winnipeg, with a Canadian flag flying behind them",
+    "description": "Canada Day in Winnipeg falls on Thursday, July 1, 2027. The Forks runs the daytime programming and the fireworks happen elsewhere. How to pick your day.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>October 20, 2026</span>"
+  },
+  {
     "url": "/blog-kidsfest-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-10-19",
