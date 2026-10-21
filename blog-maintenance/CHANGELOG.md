@@ -108,7 +108,32 @@ root, while the Node API with `executablePath: '/opt/pw-browsers/chromium'` and
 `--proxy-bypass-list=<-loopback>` and clear the proxy env vars, or Chromium
 tunnels 127.0.0.1 to the proxy and fails.
 
-**Deploy:** see the note appended below after the push.
+**Deploy:** pushed to `main` as aea6106, then ac2479f for the editing-pass fix
+described below, both confirmed landed (HEAD matched origin/main after each).
+The GitHub Pages build and deployment run for ac2479f (run 449) completed with
+conclusion success. Run 448, for aea6106, shows `cancelled`: that is Pages
+superseding an in-flight deploy when a newer commit lands a minute later, not a
+failure. The live page could not be fetched from here to confirm visually, for
+the proxy reason above.
+
+**Editing-pass fix, pushed separately as ac2479f:** the drafted "Where to stay"
+section told the reader we would not quote a drive time we had not measured.
+That is our own process on a guest-facing page, which the "Sources belong in our
+notes" rule forbids, and the grep for that rule does not catch it. It was
+replaced with a plain reason to take the shuttle; no house-to-Birds-Hill time is
+stated either way. The same pass cut "July is the month Winnipeg books out",
+an attribution to nobody, in favour of our own calendar filling earliest for
+July weekends. Worth noting for future runs: both slipped past the first draft
+and were caught only on the read-through, so the editing pass is not optional.
+
+**Session branch note:** the sandbox checked this run out on
+`claude/dazzling-mayer-j4njmk` rather than `main`, so the playbook's
+`git checkout main` step did not apply as written. Both commits were made on
+that branch and pushed with `git push origin HEAD:main`, which the playbook
+already prescribes, and HEAD was verified equal to origin/main both times. The
+branch was then also pushed to its own remote so nothing was left unpushed; it
+carries exactly the two commits that are on `main` and the site deploys from
+`main` only.
 
 ---
 
