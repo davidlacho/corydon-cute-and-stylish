@@ -78,6 +78,12 @@ Winnipeg Transit's own announcement of the shuttle.
   time is stated anywhere on the page, and the page says so explicitly rather
   than estimating.
 - **No lineup is named for 2027.** None had been announced in anything found.
+- **Editing-pass note:** the first draft of the "Where to stay" section said on
+  the page that we would not quote a drive time we had not measured. That is our
+  own process facing the reader, which the "Sources belong in our notes" rule
+  forbids, so it was cut before the push and replaced with a plain reason to take
+  the shuttle. The underlying rule still held: no house-to-Birds-Hill time is
+  stated.
 
 ---
 
