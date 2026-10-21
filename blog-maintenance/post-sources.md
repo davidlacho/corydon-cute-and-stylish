@@ -16,6 +16,71 @@ Newest first.
 
 ---
 
+## blog-winnipeg-folk-festival.html (refreshed 2026-10-21)
+
+Checked 2026-10-21 for the 2027 edition. The sandbox could not resolve
+`winnipegfolkfestival.ca` directly, so every festival fact below comes from
+search results quoting the festival's own pages (FAQ, Tickets, Transportation,
+How to Folk / What to Know Before You Go, Family Area, Quiet Campground) plus
+Winnipeg Transit's own announcement of the shuttle.
+
+- **Dates and edition:** the festival FAQ's own future-dates list gives
+  `2027 - July 8-11`, and the homepage bills it as the 52nd Edition, July 8 to
+  11, 2027. The FAQ also states the festival always takes the second weekend in
+  July, which is why the queue's "typical window" guess of July 8 to 11 turned
+  out to be the confirmed date.
+- **Venue:** Birds Hill Provincial Park.
+- **Tickets:** sold online through Front Gate Tickets
+  (`winnipegfolkfestival.frontgatetickets.com`) or in person at the festival
+  office, 203-211 Bannatyne Avenue. Not sold at the Main Gate. Limit of four
+  tickets per person and one RV/trailer permit; all sales final except a full
+  event cancellation. The 2026 cycle put RV/trailer permits on sale
+  2025-12-08 at 10am, which is why the page says on-sale dates land "usually in
+  December"; **no 2027 on-sale date or price is stated on the page.**
+- **Children and youth:** 12 and under free when accompanied by an adult and no
+  camping ticket required; 13 to 17 need a youth camping ticket (festival FAQ
+  and the 2026 Front Gate listing).
+- **Folk Fest Express:** free Winnipeg Transit shuttle, downtown stop on
+  southbound Memorial Boulevard between St. Mary and York, ending on Festival
+  Drive in the park; all buses accessible; return stop on Festival Drive across
+  from the west parking lot, reached by the crosswalk; last bus departs after
+  the Main Stage set ends, with the festival's own warning to check Transit
+  schedules for a connecting route. (Festival Transportation page; Winnipeg
+  Transit post.) Note: a Roadtrip Manitoba guide gives the downtown stop as
+  *northbound* Memorial between St. Mary and Portage. The festival's own wording
+  was used.
+- **Campground Shuttle:** every 30 minutes between the Quiet Campground, the
+  Birds Hill Provincial Park Campground and the festival site; not accessible.
+- **Parking:** arrivals from the west directed to Festival West Parking; no
+  overnight parking in festival lots.
+- **Tarps:** maximum 8 by 10 feet; the festival asks that markers not obstruct
+  the view behind; tarp tickets handed out about 10 minutes before the gate
+  opens in a line along the tree line at the Main Gate; shuffle begins on the
+  Main Stage field about 20 minutes after the gate opens, or 5:30 if the ground
+  is wet and the field is roped off; Big Bluestem is a dancing zone at night
+  with no tarps. **The daily gate time itself was not found in any source, so
+  the page never states one** and describes the shuffle only relative to the
+  gate opening.
+- **Camping:** Quiet Campground about 4 km from the festival site with a free
+  shuttle, opening at noon on the Wednesday; Birds Hill Provincial Park's own
+  gates closed 11pm to 7am daily. Festival Camping has sold out in past years
+  while Quiet Camping remained available (Manitoba Music news item).
+- **Stages:** Chickadee Big Top, the stilt walkers and the instrument petting
+  zoo come from the festival's own Family Area page. The day stage names
+  (Snowberry Field, Bur Oak, Green Ash, Shady Grove, Spruce Hollow, Little Stage
+  in the Forest, Big Bluestem, Northern Lights Main Stage) come from a 2025
+  third-party listing, so the page presents them as names the stages "have
+  carried for years" rather than as a confirmed 2027 stage list.
+- **Daylight:** Winnipeg sunset in the second week of July is about 9:30pm
+  (astronomical, not sourced to the festival).
+- **Distance from the house:** only RBC Convention Centre, 7 min / 3.0 km, from
+  the verified table in `AGENT-INSTRUCTIONS.md`. No house-to-Birds-Hill drive
+  time is stated anywhere on the page, and the page says so explicitly rather
+  than estimating.
+- **No lineup is named for 2027.** None had been announced in anything found.
+
+---
+
 ## blog-canada-day-winnipeg.html (published 2026-10-20)
 
 Everything time-stamped or priced on the page is a 2026 figure and is labelled

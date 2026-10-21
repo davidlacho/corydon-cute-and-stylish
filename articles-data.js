@@ -1276,11 +1276,11 @@ const ARTICLES_DATA = [
     "url": "/blog-winnipeg-folk-festival.html",
     "category": "winnipeg",
     "date": "2025-07-08",
-    "title": "Winnipeg Folk Festival: A Summer Music Celebration",
+    "title": "Winnipeg Folk Festival 2027: July 8 to 11, Birds Hill Park",
     "image": "images/folkfest.jpg",
-    "imageAlt": "Winnipeg Folk Festival celebration with music and community",
-    "description": "Experience the Winnipeg Folk Festival, one of North America's premier folk music festivals. Discover world-class performances, workshops, and a vibrant community atmosphere in Birds Hill Provincial Park.",
-    "metaHtml": "<span>Music Festival</span>\n                                <span>7 min read</span>\n                                <span>July 8, 2025</span>"
+    "imageAlt": "Crowd on the grass in front of a festival stage at dusk",
+    "description": "The 52nd Winnipeg Folk Festival runs July 8 to 11, 2027 at Birds Hill Provincial Park. Tickets, the free downtown shuttle, the tarp shuffle and where to stay.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>Updated October 21, 2026</span>"
   },
   {
     "url": "/blog-the-forks.html",

@@ -7,6 +7,111 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-21
+
+**Businesses verified (6 ledger entries, the stalest in rotation):** all six
+open. No closure, move or rename, so no page text changed.
+
+- **Cibo Waterfront Cafe**, 339 Waterfront Dr: **open.** Live OpenTable and AAA
+  TripCanvas listings both carry current lunch and dinner service and the same
+  204-594-0339 number, and the address is consistent across sources. The two
+  listings disagree on the exact dinner close, which is why
+  `blog-group-dining.html` states no hours and needed no change.
+- **Clay Oven Restaurant**, 1 Portage Ave E: **open.** An AAA listing still
+  places a Clay Oven at 1 Portage Ave (Blue Cross Park) with the 204-982-7426
+  number, and the wider operation is plainly active: a Kenaston Boulevard
+  dining room with 1,577 reviews and Clay Oven Express on Edmonton Street
+  downtown. `blog-group-dining.html` describes it as a catering operation for
+  large events, which a WeddingWire venue listing supports in kind. The page's
+  "25 up to 1,000 guests" figure was not re-sourced this run and was left as
+  written; worth re-checking the next time this entry comes round, since the
+  WeddingWire listing gives a 250 maximum for the restaurant's own rooms.
+- **Clementine Cafe**, 123 Princess St: **open.** Multiple directory listings
+  give a current 9am to 2pm service and the 204-942-9497 number. One roundup
+  shows Wednesday to Sunday only, so the day pattern is unsettled; the three
+  pages that name it carry no hours, so nothing needed correcting.
+- **Confusion Corner Drinks + Food**, 500 Corydon Ave: **open.** Its own site
+  (ccdrinksandfood.com) is live, and Eventbrite listings show networking nights
+  booked at the venue in August and September 2026.
+- **COBS Bread (Tuxedo Park)**, 132-2025 Corydon Ave: **open.** A current
+  directory listing and CTV Winnipeg's local-business page both carry the
+  bakery at 2025 Corydon Avenue with daily hours, and COBS was advertising a
+  baker position for Tuxedo. The two sources differ on the Saturday close, so
+  no hours were added to `blog-winnipeg-bakeries-artisan-bread.html`.
+- **Deer + Almond**, 85 Princess St: **open.** Ranked No. 50 on Canada's 100
+  Best Restaurants 2026, with reservations live on Exploretock and chef Mandel
+  Hitzer cooking a guest dinner in Vancouver on 2026-10-13. Unambiguous.
+
+**Ledger backfill sweep:** `blog-fortwhyte-alive-visitor-guide.html`. No
+commercial businesses named (FortWhyte Alive is a non-profit nature centre; the
+page's other proper nouns are its two entrance addresses and a Winnipeg Transit
+stop number), so nothing was added. Moved to "Swept".
+
+**Page refreshed:** `blog-winnipeg-folk-festival.html`, retitled "Winnipeg Folk
+Festival 2027: July 8 to 11, Birds Hill Park". First entry of the Events queue,
+marked "refresh", so the existing page was rewritten in place and its slug and
+URL kept.
+
+The festival's own FAQ and homepage confirm the 52nd edition as **July 8 to 11,
+2027** at Birds Hill Provincial Park, which upgrades the queue's "typical
+window" guess to a confirmed date; the FAQ also states the festival always takes
+the second weekend of July. The old body was a generic 2025 overview and was
+replaced entirely rather than patched: it carried "more than just", "vibrant",
+reflex bullet lists, and headings ("Getting to the Festival", "Planning Your
+Visit", "The Festival's Impact", "Why It Matters") that the current house style
+rules out. The new body is a **walk**: the site crossed in order from the
+downtown shuttle stop to the Main Stage field after dark, continuous prose with
+no lists, six subject-specific headings plus the "Where to stay for folk
+festival weekend" section the event-post rules call for. Form picked by the
+rotation rule, the last three posts having been explainer, question and answer
+and comparison.
+
+Sourced onto the page: tickets through Front Gate Tickets or the festival office
+at 203-211 Bannatyne Avenue and never at the Main Gate, four per person, sales
+final except a full cancellation; children 12 and under free with an adult and
+no camping ticket, youth 13 to 17 needing one; the free Winnipeg Transit Folk
+Fest Express from southbound Memorial Boulevard between St. Mary and York to
+Festival Drive, accessible, returning from the stop across the crosswalk from
+the west parking lot after the Main Stage set; the Campground Shuttle every 30
+minutes and not accessible; Festival West Parking and no overnight parking;
+tarps 8 by 10 feet maximum, tarp tickets 10 minutes before the gate, the shuffle
+20 minutes after it or 5:30 on wet ground, no tarps in the Big Bluestem dancing
+area; the Quiet Campground 4 km out, opening noon Wednesday, with the park's own
+gates shut 11pm to 7am.
+
+Deliberately not on the page: no 2027 lineup, ticket price, on-sale date or
+daily gate time, none of which could be sourced for 2027. The single permitted
+`.info-box` sends readers to winnipegfolkfestival.ca for all four. Day stage
+names are presented as names the stages have carried for years rather than as a
+2027 list, because the only source for them is a 2025 third-party page. No
+house-to-Birds-Hill drive time is stated, per the house-facts rule; the one
+distance used is RBC Convention Centre at 7 min / 3.0 km, from the verified
+table. Full provenance in `post-sources.md`.
+
+**Files changed:** `blog-winnipeg-folk-festival.html` (title, description,
+keywords, meta and JSON-LD dates, image alt, meta line, whole article body),
+`articles-data.js`, `articles_data.json`, `blog.html` (noscript card and JSON-LD
+`blogPost` entry), `sitemap.xml` (lastmod 2026-10-21), `llms.txt` (regenerated
+by `update-llms.py`: 165 posts, last updated October 21, 2026),
+`business-ledger.json`, `ledger-sweep.md`, `post-ideas.md`, `post-sources.md`.
+
+**pa11y (WCAG2AA):** `blog-winnipeg-folk-festival.html` and `blog.html`, 2
+pages, 0 errors and 0 issues of any type on both. Run against a local static
+server on 127.0.0.1 again, because staywinnipeg.ca is still refused at this
+sandbox's egress proxy (`ERR_TUNNEL_CONNECTION_FAILED` from Chromium,
+`getaddrinfo ENOTFOUND` from the fetch tool, which is also why every festival
+fact above came from search results quoting the festival's pages rather than the
+pages themselves). Confirming last run's note: the pa11y CLI's `--config` flag
+still does not apply `chromeLaunchConfig` and Chromium refuses to launch as
+root, while the Node API with `executablePath: '/opt/pw-browsers/chromium'` and
+`args: ['--no-sandbox', '--disable-dev-shm-usage']` worked first try. Add
+`--proxy-bypass-list=<-loopback>` and clear the proxy env vars, or Chromium
+tunnels 127.0.0.1 to the proxy and fails.
+
+**Deploy:** see the note appended below after the push.
+
+---
+
 ## 2026-10-20
 
 **Businesses verified (6 ledger entries, the stalest in rotation):** all six

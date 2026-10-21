@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-fortwhyte-alive-visitor-guide.html
 - blog-fresh-decor-updates.html
 - blog-grocery-runs-near-corydon-airbnb.html
 - blog-gunns-bakery.html
@@ -129,6 +128,8 @@ last because they are partly covered.
 ## Swept
 
 (append: date - filename)
+
+- 2026-10-21 - blog-fortwhyte-alive-visitor-guide.html (no commercial businesses named: FortWhyte Alive is a non-profit nature centre, and the only other proper nouns on the page are its two entrance addresses on McCreary Road and McGillivray Boulevard and a Winnipeg Transit stop number. Nothing to add.)
 
 - 2026-10-20 - blog-forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb.html (names one commercial business, Forgotten Flavours at 858 Corydon Ave, already in the ledger; this filename was appended to its `pages`. The post also names Pennyloaf Bakery, but only as the previous occupant of the storefront Forgotten Flavours took over, which the page already states in the past tense. It was deliberately not added as an entry: a closed-status entry would invite a later run to "correct" an accurate historical mention.)
 
