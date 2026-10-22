@@ -113,6 +113,25 @@ the post and for `blog.html`, and a regenerated `llms.txt`.
 `blog-maintenance/post-ideas.md`, `blog-maintenance/post-sources.md`,
 `blog-maintenance/CHANGELOG.md`.
 
+**pa11y (WCAG2AA):** `blog-winnipeg-fringe-festival-guide.html` and `blog.html`
+both returned "No issues found" (0 errors). Both were run against a local static
+server rather than the live URL: `staywinnipeg.ca` is refused at this sandbox's
+egress proxy (CONNECT 403, and DNS ENOTFOUND through the fetch tool), and
+Chromium additionally needs `--no-sandbox` here. A pa11y config with
+`chromeLaunchConfig.args` of `--no-sandbox --disable-setuid-sandbox
+--disable-dev-shm-usage --no-proxy-server`, pointed at
+`http://localhost:<port>/<page>` with the proxy variables unset, is what worked;
+worth reusing rather than rediscovering.
+
+**Deploy:** pushed to `main` as 2e3de6e, confirmed with
+`git rev-parse HEAD = origin/main`. The repository has no workflow file of its
+own; the only workflow is GitHub's managed `pages-build-deployment`, which fires
+on push and cannot be dispatched manually. Run 451 for 2e3de6e completed with
+conclusion **success** at 10:18 UTC. The live pages could not be fetched from
+this sandbox to confirm the served HTML, for the egress reason above, so the
+deploy is verified from the Actions run and the commit on `main` rather than
+from the site itself.
+
 ---
 
 ## 2026-10-21
