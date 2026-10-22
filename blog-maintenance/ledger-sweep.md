@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-fresh-decor-updates.html
 - blog-grocery-runs-near-corydon-airbnb.html
 - blog-gunns-bakery.html
 - blog-hosting-best-practices.html
@@ -128,6 +127,8 @@ last because they are partly covered.
 ## Swept
 
 (append: date - filename)
+
+- 2026-10-22 - blog-fresh-decor-updates.html (no commercial businesses named: the post is about the home's own blankets, throw pillow covers and navy linens and names no restaurant, shop, cafe or supplier. No retailer or brand is identified anywhere on the page, so nothing was added to the ledger.)
 
 - 2026-10-21 - blog-fortwhyte-alive-visitor-guide.html (no commercial businesses named: FortWhyte Alive is a non-profit nature centre, and the only other proper nouns on the page are its two entrance addresses on McCreary Road and McGillivray Boulevard and a Winnipeg Transit stop number. Nothing to add.)
 

@@ -16,6 +16,57 @@ Newest first.
 
 ---
 
+## blog-winnipeg-fringe-festival-guide.html (refreshed 2026-10-22)
+
+Checked on 2026-10-22. `winnipegfringe.com` does not resolve from this sandbox
+(DNS ENOTFOUND through the agent proxy), so the festival's own pages were read
+through search result summaries rather than fetched.
+
+- **2027 dates, July 14 to 25.** The festival's own site banner reads "Winnipeg
+  Fringe Theatre Festival, July 14 to 25, 2027", and its Facebook page carries
+  the same range described as twelve days. The dates also fit the festival's
+  Wednesday-to-Sunday pattern: 2025 ran July 16 to 27 and 2026 ran July 15 to 26,
+  both twelve days. Stated on the page as dates the festival has posted.
+- **2026 edition.** July 15 to 26 with 164 Canadian and international companies
+  (the festival's own 2026 media release, "Tickets and programs on sale"). A
+  Travel Manitoba listing said "more than 140 shows"; the organiser's own count
+  was used instead. The "second largest independent Fringe in North America"
+  line is the organisers' own claim and is attributed to them on the page.
+- **How shows are chosen.** Non-juried lottery; companies pay a flat
+  registration fee and keep their box office. The 2027 company entry deadline
+  in November 2026 with the lottery drawn in early December comes from the Royal
+  MTC "Pathways to the Fringe" page.
+- **2026 ticket figures (all labelled 2026 on the page).** Advance $12 to $14
+  with a $2.50 service charge per ticket, sold up to four hours before a
+  performance; at-door sales cash only, $10 to $14, with $10 for anyone 25 and
+  under; printed program $10; Kids Venue pay-what-you-can at the door; advance
+  sales at the Royal MTC box office, 174 Market Ave. From the festival's own
+  ticket page and its 2026 media release. Travel Manitoba and Creative Manitoba
+  listings gave $12 to $14 without the lower door price; the organiser's range
+  was used. **No 2027 price, pass structure, venue list or lineup is stated
+  anywhere on the page.**
+- **Royal MTC founded the festival in 1988** and still produces it. Carried from
+  the previous version of this post and consistent with the Royal MTC pages read
+  this run. Larry Desrochers as first executive producer was in the old body and
+  was dropped rather than re-sourced; it was not needed for the new shape.
+- **Old Market Square, 275 Bannatyne Ave**, free programming noon to midnight
+  daily through the festival with food and merchant vendors on site. Address
+  carried over from the verified note under the MEME post; the free noon-to-
+  midnight programming is in the festival's 2026 release.
+- **Distances** are only the verified ones in the playbook's house-facts table:
+  Portage and Main 9 min / 3.9 km, RBC Convention Centre 7 min / 3.0 km, Corydon
+  Avenue about ten minutes on foot, south. No walk time is given for the
+  Exchange District itself because none is verified. Transit (D19 Corydon, the
+  Kennedy Street terminal, $3.45 cash / $3.10 peggo) is carried from our own
+  sourced posts.
+- **Daylight.** Sunset in Winnipeg is after nine through mid-July; astronomical,
+  not sourced from a listing. It is the only weather claim on the page.
+- **Not stated anywhere:** a 2027 ticket price, a venue count (no count for any
+  recent year was found that could be cited), a sell-out or attendance figure,
+  and any claim about what audiences or locals say.
+
+---
+
 ## blog-winnipeg-folk-festival.html (refreshed 2026-10-21)
 
 Checked 2026-10-21 for the 2027 edition. The sandbox could not resolve

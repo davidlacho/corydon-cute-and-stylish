@@ -7,6 +7,114 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-22
+
+**Businesses verified (6 ledger entries, the stalest in rotation):** all six
+trading as the ledger describes them. No closure, rename or relocation, so no
+page text changed; three addresses were sharpened.
+
+- **Carnaval Brazilian BBQ**, 270 Waterfront Dr: **open.** Live OpenTable
+  listings carry current dinner service Monday through Sunday plus Thursday and
+  Friday lunch, and the address is consistent at Bannatyne and Waterfront in the
+  East Exchange. The listings disagree on the lounge and happy-hour times, which
+  is why `blog-winnipeg-steakhouses-bbq.html` states no hours and needed no
+  change.
+- **Chop Steakhouse & Bar**, 1750 Sargent Ave: **open.** AAA, OpenTable and a
+  Canadian directory listing all give the same current hours (weekdays 11:30 to
+  midnight, Saturday from 3, Sunday 3 to 11) and the same 204-788-2015 number.
+  Unambiguous.
+- **Danny's Whole Hog BBQ & Smokehouse**, Stony Mountain: **still moved, status
+  unchanged.** A current directory listing gives the address as 12045 MB-67 with
+  the 204-344-5675 number and weekday 8 to 4:30 hours, and a company profile
+  describes catering, drop-off and pick-up meals with a storefront on Highway 67
+  east of Highway 7. That confirms the ledger's "moved, pickup and catering
+  only" status, and the vague "Highway 67, Stony Mountain area" address was
+  replaced with the street address.
+- **Devil May Care Brewing Company**, 155-A Fort St: **open.** Its own events
+  page lists October 2026 dates at the Fort Street taproom (improv on October
+  14, trivia on October 20, a comedy night on October 25) and posts current
+  hours of noon to 9 or 11 depending on the day, and an April 2026 visitor
+  account describes sixteen rotating taps. A Yelp snapshot captured in July 2026
+  shows "Closed", which is the time of capture rather than a status.
+  `blog-winnipeg-event-venues.html` carries no hours, so nothing changed. The
+  address was filled in from blank.
+- **Eva's Gelato & Coffee Bar**, 101-1001 Corydon Ave: **open.** No source
+  anywhere indicates a permanent closure; the Yelp page was updated in April
+  2026, and Restaurant Guru carries 789 reviews at 4.4. Listings conflict badly
+  on hours (Tripadvisor gives 8am to 9pm daily, Apple Maps noon to 9), so no
+  hours were added to the four pages that name it. The suite number was added to
+  the address.
+- **Feast Café Bistro**, 587 Ellice Ave: **open.** A recent Manitoba Inc.
+  feature describes the 50-seat restaurant as having operated for more than a
+  decade, and Indigenous Tourism Manitoba's operator listing is live with owner
+  Christa Bruneau-Guenther named as co-chair of the Indigenous Culinary
+  Association of Nations board. Nothing on the two pages that name it needed
+  correcting.
+
+**Ledger backfill sweep:** `blog-fresh-decor-updates.html`. The post is about
+the home's own blankets, pillow covers and navy linens and names no restaurant,
+shop, cafe or supplier, so nothing was added. Moved to "Swept".
+
+**Page refreshed:** `blog-winnipeg-fringe-festival-guide.html`, retitled
+"Winnipeg Fringe Festival 2027: July 14 to 25, Tickets". First entry of the
+Events queue, marked "refresh", so the existing page was rewritten in place and
+its slug and URL kept.
+
+The festival's own site banner now reads July 14 to 25, 2027, corroborated by
+its Facebook page describing twelve days, which upgrades the queue entry's
+"mid to late July, typical window" to a posted date; the range also fits the
+Wednesday-to-Sunday shape of 2025 (July 16 to 27) and 2026 (July 15 to 26). The
+old body gave no dates at all, which is the whole of what a visitor searches for
+here, and it carried a generic "Planning Around the Crowds" heading, an
+unattributed claim about what crowds do in the second week, and a "Staying at
+the Corydon Airbnb" highlight-box. It was replaced rather than patched.
+
+The new body is an **explainer**: continuous prose, two content headings, built
+around the one thing a visitor needs explained, which is that a lottery rather
+than a programmer decides what is on, so nobody can recommend a show in advance
+and the sorting happens during the run. Form picked by the rotation rule, the
+previous three posts having been question and answer (kidsfest, 10-19),
+comparison (canada-day, 10-20) and walk (folk festival, 10-21).
+
+Sourced onto the page: the 2026 edition's 164 Canadian and international
+companies, from the festival's own media release, in place of a third-party
+listing's "more than 140 shows"; the 2027 company entry deadline in November
+2026 with the draw in early December, from Royal MTC's Pathways to the Fringe
+page; the non-juried lottery, the flat registration fee and artists keeping
+their box office; 2026 advance tickets at $12 to $14 plus a $2.50 per-ticket
+service charge, sold up to four hours before a performance, at-door sales cash
+only at $10 to $14 with $10 for anyone 25 and under, the $10 printed program and
+pay-what-you-can at the Kids Venue; advance sales through the Royal MTC box
+office at 174 Market Avenue, which is also where the 1988 founding gets
+explained; and Old Market Square at 275 Bannatyne Avenue running free
+programming noon to midnight daily. **Every price and count on the page is
+labelled a 2026 figure, and no 2027 price, pass structure, venue list or lineup
+is stated**; the single info-box sends readers to winnipegfringe.com.
+winnipegfringe.com does not resolve from this sandbox, so all of it came through
+search result summaries.
+
+Distances are only the verified ones in the house-facts table: Portage and Main
+9 min / 3.9 km, RBC Convention Centre 7 min / 3.0 km, Corydon Avenue about ten
+minutes on foot, south. No walk time is given for the Exchange District itself.
+The one weather claim is the mid-July sunset after nine, which is astronomical.
+Hero image unchanged: `images/exchange-district-pepsi.jpg` is a local photo of an
+Exchange District heritage wall, which is where the venues are. No skyline. The
+post names no restaurant, bar or shop, so the ledger needed no new entry.
+
+**Registration gap fixed:** the post had been missing from `blog.html` and
+`articles_data.json` since it was published on 2026-09-08, with no noscript card
+and no JSON-LD `blogPost` entry. Both were added this run, in date order, along
+with the usual refresh updates to `articles-data.js`, the sitemap `lastmod` for
+the post and for `blog.html`, and a regenerated `llms.txt`.
+
+**Files changed:** `blog-winnipeg-fringe-festival-guide.html`, `blog.html`,
+`articles-data.js`, `articles_data.json`, `sitemap.xml`, `llms.txt`,
+`blog-maintenance/business-ledger.json`, `blog-maintenance/ledger-sweep.md`,
+`blog-maintenance/post-ideas.md`, `blog-maintenance/post-sources.md`,
+`blog-maintenance/CHANGELOG.md`.
+
+---
+
 ## 2026-10-21
 
 **Businesses verified (6 ledger entries, the stalest in rotation):** all six

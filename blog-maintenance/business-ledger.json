@@ -401,11 +401,11 @@
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-25"
+      "last_verified": "2026-10-22"
     },
     {
       "name": "Eva's Gelato & Coffee Bar",
-      "address": "1001 Corydon Ave",
+      "address": "101-1001 Corydon Ave",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
         "blog-family-friendly-stops-near-corydon.html",
@@ -413,7 +413,7 @@
         "blog-winnipeg-ice-cream-gelato.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-25"
+      "last_verified": "2026-10-22"
     },
     {
       "name": "Feast Café Bistro",
@@ -423,7 +423,7 @@
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-25"
+      "last_verified": "2026-10-22"
     },
     {
       "name": "Foodfare",
@@ -1189,7 +1189,7 @@
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-24"
+      "last_verified": "2026-10-22"
     },
     {
       "name": "The Keg",
@@ -1202,12 +1202,12 @@
     },
     {
       "name": "Danny's Whole Hog BBQ & Smokehouse",
-      "address": "Highway 67, Stony Mountain area (pickup and catering only)",
+      "address": "12045 MB-67, Stony Mountain (pickup and catering only)",
       "pages": [
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "moved",
-      "last_verified": "2026-09-24"
+      "last_verified": "2026-10-22"
     },
     {
       "name": "Smokin' Hawg BBQ",
@@ -1225,7 +1225,7 @@
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-24"
+      "last_verified": "2026-10-22"
     },
     {
       "name": "Milk & Madu (Canggu)",
