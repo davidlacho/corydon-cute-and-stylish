@@ -108,6 +108,14 @@ the agent proxy), so the pages were served locally from the repo at
 127.0.0.1:8099 and checked there, with Chrome launched `--no-sandbox` and
 `--no-proxy-server`.
 
+**Push and deploy:** committed on `main` and pushed with
+`git push origin HEAD:main` (b835233..baea95f); `git rev-parse HEAD` matches
+`origin/main`. GitHub Pages deploy run 453 for baea95f completed with
+conclusion `success`. The live URL could not be checked from this sandbox:
+staywinnipeg.ca is refused at the egress proxy (`connect_rejected`) and does not
+resolve for the fetch tool, as on every recent run, so the successful Pages run
+is the furthest this environment can verify.
+
 **Pages changed:** `blog-winnipeg-coffee.html` and
 `blog-hargrave-st-market.html` (Fools & Horses closure), plus the new post and
 its registrations in `articles-data.js`, `articles_data.json`, `blog.html`
