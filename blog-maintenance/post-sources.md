@@ -16,6 +16,78 @@ Newest first.
 
 ---
 
+## blog-great-outdoors-comedy-festival-winnipeg.html (published 2026-10-24)
+
+All of it read through web search result summaries: greatoutdoorscomedyfestival.com
+and assiniboinepark.ca both fail DNS resolution from this sandbox (ENOTFOUND through
+the agent proxy), as they have for every run since mid-September.
+
+- **2027 dates, July 16 to 18, Assiniboine Park.** The festival's own Winnipeg city
+  page carries those dates, and its official Tixr event listing carries the same
+  opening date; third-party resellers (TickPick, MegaSeats) list a July 16, 2027
+  Winnipeg date with showtime TBD. **Conflict worth keeping an eye on:** another page
+  on the festival's own site showed a Winnipeg run of August 6 to 8, 2027 at Garrison
+  Grounds, which is almost certainly a Halifax entry crossed into the Winnipeg row of
+  a multi-city table. The post states July 16 to 18 and tells readers to confirm
+  before booking travel, rather than picking a side silently.
+- **2026 edition, July 17 to 19.** Ticketing pages and the festival's own
+  `winnipeg-mb-friday-july-17-2026-evening` page agree. One aggregator (allevents.in)
+  gave Friday as July 16; not used.
+- **2026 bill.** Jim Gaffigan, John Crist, Ryan Hamilton, Aziz Ansari, Pete Davidson,
+  Jordan Jensen, Adam Ray, Matt Rife. Two sources disagreed on which names fell on
+  which night, so the post names them without assigning days. Past Winnipeg headliners
+  (John Mulaney, Bill Burr, Martin Short) come from the festival's own city page.
+  Tickets for 2026 went on sale in April 2026 (TicketNews).
+- **No 2027 lineup and no price anywhere on the page.** A $99 VIP figure in CAD
+  appeared on the Tixr listing without a year or tier that could be pinned down, so no
+  price is quoted.
+- **Venue.** The park's own event listing and a Winnipeg event listing both place the
+  shows on the Lyric Theatre field; the park address (2355 Corydon Ave) and The
+  Pavilion (55 Pavilion Crescent) are from the park's own listings. "Cabaret-style
+  outdoor comedy club" is the festival's own description.
+- **Gate times.** 2026 Friday evening: VIP and GA+ 5:30, GA 6:30, show 7:30, curfew
+  11:00; afternoon shows VIP and GA+ at noon, GA at 1:00. Labelled on the page as the
+  shape of a day rather than as 2027's clock.
+- **Rules.** 18+ in Manitoba; unexpired government photo ID with date of birth, with
+  school IDs, consular IDs, birth certificates and expired IDs refused; search on
+  entry and no re-entry; chairs must fold, seat one, and have no recline, protruding
+  leg rest or covering; tarps and blankets to 6 by 6 feet; limited GA chair rentals;
+  VIP table and VIP Club seated. Bags: soft-sided backpacks and collapsible soft-sided
+  wagons allowed; hard-sided coolers, glass, outside drinks beyond a sealed 1 L water,
+  signs, flags, tents, cameras, drones, balls and umbrellas over 42 inches refused.
+  All from the festival's policies and FAQ pages and its 2026 Winnipeg listing.
+- **Parking and access.** Assiniboine Park's own page: parking very limited inside the
+  park, $20 per vehicle by credit or debit through HonkMobile, free bike valet on the
+  southeast (front) side of The Pavilion beside the parking lot under a white tent,
+  Assiniboine Park Drive near the Lyric field closed 3 p.m. to midnight across the
+  three days, park closed to incoming traffic no later than 5 p.m. Park attractions
+  closing early on festival days is from CTV Winnipeg's headline on the same subject.
+  A free shuttle appears on two older festival pages with two different origins (Seel
+  Station Park & Ride, Little Brown Jug); contradictory and stale, so no shuttle is
+  mentioned on the page.
+- **Transit.** D19 Corydon serves a Corydon / Shaftesbury (Assiniboine Park) stop and
+  route 22 Portage a Portage / Overdale (Assiniboine Park) stop, both from Transit App
+  route pages; the park's Wikipedia infobox also lists the D19. A WOW Winnipeg guide
+  naming routes 11, 18, 21, 67, 79, 85, 95 and 96 predates the June 2025 network
+  redesign and was not used. Fare ($3.45 cash, $3.10 peggo) carried from our own
+  recent sourced posts.
+- **Distances** are only the verified table in `AGENT-INSTRUCTIONS.md`: Assiniboine
+  Park 13 min / 8.4 km, Corydon Avenue about a ten-minute walk south.
+- **Daylight.** Mid-July sunset in Winnipeg around 9:30 p.m. is astronomical, not
+  sourced from a listing.
+- **Fringe overlap.** July 14 to 25, 2027 comes from our own refreshed
+  `blog-winnipeg-fringe-festival-guide.html` (sourced 2026-10-22 from the festival's
+  site banner).
+- **Winnipeg Design Festival.** Storefront Manitoba's annual festival; 2025 theme
+  CONNECT, launch September 12, 2025 and a closing party during Nuit Blanche on
+  September 27 (Storefront's own curator call), with IDCanada listing September 19 to
+  27; 2024 ran in late September with Room 201 at The Forks Market (Culture Days).
+  Presented by Architecture49 in 2025 (Winnipeg Arts Council). No 2026 or 2027 dates
+  are published anywhere findable, so the post gives none and points at
+  storefrontmb.ca.
+
+---
+
 ## blog-winnipeg-fringe-festival-guide.html (refreshed 2026-10-22)
 
 Checked on 2026-10-22. `winnipegfringe.com` does not resolve from this sandbox

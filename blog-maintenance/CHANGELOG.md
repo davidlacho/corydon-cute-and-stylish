@@ -7,6 +7,114 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-24
+
+**Businesses verified (6 ledger entries, the stalest in rotation):** one closure
+found and corrected on two pages; the other five trading as the ledger describes
+them.
+
+- **Foodfare**, 247 Lilac St: **open.** A current directory listing carries the
+  store with the 204-475-6638 number and weekday hours of 9 to 9, Saturday 9 to 7
+  and Sunday 11 to 6. Another listing gives an 8 a.m. weekday opening, so the
+  hours conflict; `blog-best-places-nearby-winnipeg.html` states none and needed
+  no change.
+- **Fools & Horses Coffee**, 242 Hargrave St: **closed.** This is the one change
+  this run. Yelp's listing for the Hargrave St. Market location is tagged CLOSED
+  on pages updated in March and April 2026, and the company's Broadway shop at
+  379 Broadway is tagged the same way, with an August 2025 capture showing it
+  closed then too. A Tripadvisor review says the company "is now at The Forks".
+  No news item or statement from the company was findable, but two separate
+  closed listings a year apart, plus a live Forks listing with regular hours, is
+  enough to stop sending readers downtown for it. Both pages in the entry's
+  `pages` array were corrected: `blog-winnipeg-coffee.html` had said the Broadway
+  shop was closed but Hargrave and The Forks were still pouring, and now names
+  only The Forks Market at 1 Forks Market Road;
+  `blog-hargrave-st-market.html` carried a full vendor section headed "The
+  Caffeine Anchor", which was replaced with a short, accurate note that the
+  market counter has closed and where the remaining location is.
+- **Fort Garry Brewing Company**, 130 Lowson Cres: **open.** The brewery's own
+  FAQ gives the Lowson Crescent address and posts Monday to Friday 8 to 4 office
+  hours with curbside keg pickup; a corporate profile places the facility in the
+  Tuxedo industrial park, which fits. The FAQ's hours are office hours rather
+  than taproom hours, and `blog-winnipeg-breweries.html` states no hours, so
+  nothing changed.
+- **French Way Café**, 238 Lilac St: **open.** Yellow Pages, Restaurant Guru and
+  Restaurantji all carry 238 Lilac Street with the 204-421-9002 number and
+  describe it as off Corydon in River Heights; Tripadvisor's page is current for
+  2026. One directory says the business has a second branch without naming it,
+  and a 2023 student-paper listing gave a "Frenchway Café & Catering" at 612
+  Academy Rd, which could not be corroborated anywhere current. Listings conflict
+  on hours and even on postal code, so the two pages that name it, which state no
+  hours, were left alone.
+- **Fusian Sushi (The Forks Market)**, 1 Forks Market Rd: **open.** The Forks'
+  own Eat & Drink section carries a live page for the vendor with hours of Sunday
+  to Thursday 10 to 6 and Friday and Saturday 10 to 7. Worth noting for a later
+  rotation: The Forks lists it as "Fusian Experience", so the ledger name may be
+  a variant rather than the trading name. A different Forks sushi vendor, Sushi
+  Train, is flagged permanently closed, and is not named on any of our pages.
+  `blog-winnipeg-vegan-restaurants.html` needed no change.
+- **Cafe Cinta (Canggu)**, Pererenan, Bali: **still moved, status unchanged.**
+  Current listings place Cinta Cafe in Pererenan, which is what the ledger
+  already records; one company profile puts it in Berawa, but it was last
+  verified in 2023. Nothing indicates a closure. `blog-bali-nyaman.html` needed
+  no change.
+
+**Ledger backfill sweep:** `blog-grocery-runs-near-corydon-airbnb.html`. Six
+businesses named. Three were already in the ledger and had this filename
+appended to their `pages` (The Cheesemongers Fromagerie, Forgotten Flavours,
+Sugar + Salt Bakeshoppe). Three were missing and were added with
+`last_verified: "2026-01-01"` because this run did not verify them: 7-Eleven at
+781 Corydon Ave, Safeway at 655 Osborne St, and Fair Havens Pharmacy at 894
+Corydon Ave. The post states hours for the last two, which a later rotation
+should check. Moved to "Swept".
+
+**Post published:** `blog-great-outdoors-comedy-festival-winnipeg.html`, "Great
+Outdoors Comedy Festival Winnipeg 2027: July 16 to 18". First entry of the
+Events queue, a new post rather than a refresh. Form is **question and answer**,
+eight questions as the only content headings; the previous three posts were
+comparison, walk and explainer, so the rotation rule left this open.
+
+The queue entry bundled two unrelated events under one slug
+(`winnipeg-summer-comedy-design`) and gave July as the window for both. Only one
+of them is a July event. The Assiniboine Park comedy weekend is the Great
+Outdoors Comedy Festival, which runs in mid-July; the Winnipeg Design Festival is
+Storefront Manitoba's September programme. The post therefore leads with the
+comedy festival, which is what visitors search by name, carries the searched slug
+rather than the queue's combined label, and answers the design festival in one
+question by saying plainly that it is not the same weekend and sending readers to
+storefrontmb.ca.
+
+The festival's own Winnipeg page and its official ticket listing give July 16 to
+18, 2027 at Assiniboine Park, so the title and opening paragraph state them;
+another page on the festival's own site shows a conflicting Winnipeg window, and
+the post tells readers to confirm before booking travel rather than pretending
+the conflict is not there. No 2027 lineup, ticket price or set time is stated
+anywhere on the page. Everything timed or priced is labelled a 2026 figure. The
+page carries the gate rules that actually turn people away (18+ with unexpired
+government photo ID, the chair specification, the sealed-litre water rule, the
+42-inch umbrella limit), the $20 HonkMobile parking and the 3 p.m. road closure
+on Assiniboine Park Drive, the free bike valet behind The Pavilion, and the D19
+and route 22 stops. Distances are only the verified ones: Assiniboine Park 13 min
+/ 8.4 km, Corydon Avenue about ten minutes on foot south. Image is
+`images/assiniboine-park.jpg`, a local summer photo of the English Garden
+colonnade in the park the festival is held in. The post names no restaurant, bar
+or shop, so it added no ledger entries. Provenance in `post-sources.md`.
+
+**pa11y:** four pages checked against WCAG2AA, all passing with zero issues:
+`blog-great-outdoors-comedy-festival-winnipeg.html`, `blog-winnipeg-coffee.html`,
+`blog-hargrave-st-market.html` and `blog.html`. staywinnipeg.ca is not reachable
+from this sandbox (the headless browser gets ERR_TUNNEL_CONNECTION_FAILED through
+the agent proxy), so the pages were served locally from the repo at
+127.0.0.1:8099 and checked there, with Chrome launched `--no-sandbox` and
+`--no-proxy-server`.
+
+**Pages changed:** `blog-winnipeg-coffee.html` and
+`blog-hargrave-st-market.html` (Fools & Horses closure), plus the new post and
+its registrations in `articles-data.js`, `articles_data.json`, `blog.html`
+(noscript card and JSON-LD `blogPost` entry), `sitemap.xml` and `llms.txt`.
+
+---
+
 ## 2026-10-22
 
 **Businesses verified (6 ledger entries, the stalest in rotation):** all six

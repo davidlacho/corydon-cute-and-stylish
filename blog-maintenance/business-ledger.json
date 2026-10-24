@@ -18,7 +18,8 @@
       "pages": [
         "blog-corydon-guide.html",
         "blog-coffee-near-corydon-airbnb.html",
-        "blog-forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb.html"
+        "blog-forgotten-flavours-wild-yeast-bakery-near-corydon-airbnb.html",
+        "blog-grocery-runs-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-10-16"
@@ -110,7 +111,8 @@
         "blog-beat-the-heat-near-corydon-airbnb.html",
         "blog-budget-day-corydon-airbnb.html",
         "blog-coffee-near-corydon-airbnb.html",
-        "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html"
+        "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html",
+        "blog-grocery-runs-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-10-17"
@@ -137,7 +139,8 @@
       "name": "The Cheesemongers Fromagerie",
       "address": "839 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-grocery-runs-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-10-17"
@@ -432,7 +435,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-25"
+      "last_verified": "2026-10-24"
     },
     {
       "name": "Fools & Horses Coffee",
@@ -441,8 +444,8 @@
         "blog-winnipeg-coffee.html",
         "blog-hargrave-st-market.html"
       ],
-      "status": "open",
-      "last_verified": "2026-09-25"
+      "status": "closed",
+      "last_verified": "2026-10-24"
     },
     {
       "name": "Fort Garry Brewing Company",
@@ -451,7 +454,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-25"
+      "last_verified": "2026-10-24"
     },
     {
       "name": "French Way Café",
@@ -461,7 +464,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-26"
+      "last_verified": "2026-10-24"
     },
     {
       "name": "Fusian Sushi (The Forks Market)",
@@ -470,7 +473,7 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-26"
+      "last_verified": "2026-10-24"
     },
     {
       "name": "Gondola Pizza",
@@ -1252,7 +1255,7 @@
         "blog-bali-nyaman.html"
       ],
       "status": "moved",
-      "last_verified": "2026-09-26"
+      "last_verified": "2026-10-24"
     },
     {
       "name": "Baked (Canggu)",
@@ -1487,6 +1490,33 @@
       ],
       "status": "open",
       "last_verified": "2026-10-18"
+    },
+    {
+      "name": "7-Eleven (781 Corydon Ave)",
+      "address": "781 Corydon Ave",
+      "pages": [
+        "blog-grocery-runs-near-corydon-airbnb.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Safeway (Osborne Village)",
+      "address": "655 Osborne St",
+      "pages": [
+        "blog-grocery-runs-near-corydon-airbnb.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Fair Havens Pharmacy",
+      "address": "894 Corydon Ave",
+      "pages": [
+        "blog-grocery-runs-near-corydon-airbnb.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
     }
   ]
 }

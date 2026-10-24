@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-grocery-runs-near-corydon-airbnb.html
 - blog-gunns-bakery.html
 - blog-hosting-best-practices.html
 - blog-human-rights-museum.html
@@ -128,6 +127,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-10-24 - blog-grocery-runs-near-corydon-airbnb.html (six businesses named; three were already in the ledger from the Corydon guide and other posts, so this filename was appended to their `pages`: The Cheesemongers Fromagerie, Forgotten Flavours and Sugar + Salt Bakeshoppe. Three were missing and were added with `last_verified: "2026-01-01"` because this run did not verify them: 7-Eleven at 781 Corydon Ave, Safeway at 655 Osborne St in Osborne Village, and Fair Havens Pharmacy at 894 Corydon Ave. The post also states hours for Safeway and Fair Havens, which a later rotation should check.)
 - 2026-10-22 - blog-fresh-decor-updates.html (no commercial businesses named: the post is about the home's own blankets, throw pillow covers and navy linens and names no restaurant, shop, cafe or supplier. No retailer or brand is identified anywhere on the page, so nothing was added to the ledger.)
 
 - 2026-10-21 - blog-fortwhyte-alive-visitor-guide.html (no commercial businesses named: FortWhyte Alive is a non-profit nature centre, and the only other proper nouns on the page are its two entrance addresses on McCreary Road and McGillivray Boulevard and a Winnipeg Transit stop number. Nothing to add.)
