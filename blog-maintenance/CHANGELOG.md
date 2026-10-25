@@ -111,6 +111,21 @@ from this sandbox, so the pages were served locally from the repo at
 127.0.0.1:8099 and checked there, with Chromium launched `--no-sandbox` and
 `--no-proxy-server`.
 
+
+**Push and deploy:** committed on `main` and pushed with
+`git push origin HEAD:main` (3109dcb..c86f3ab); `git rev-parse HEAD` matches
+`origin/main`. GitHub Pages deploy run 455 for c86f3ab completed with conclusion
+`success`. Two copy fixes on the new post (a comma splice, and a claim about
+when the 2027 pavilion list would be published) went up in the follow-up commit.
+The live URL cannot be checked from this sandbox: staywinnipeg.ca is refused at
+the egress proxy and does not resolve for the fetch tool, as on every recent
+run, so the successful Pages run is the verification of record.
+
+**Pages changed:** `blog-grocery-runs-near-corydon-airbnb.html` (two sets of
+unsupported hours removed), plus the new post and its registrations in
+`articles-data.js`, `articles_data.json`, `blog.html` (noscript card and JSON-LD
+`blogPost` entry), `sitemap.xml` and `llms.txt`.
+
 ---
 
 ## 2026-10-24
