@@ -7,6 +7,112 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-25
+
+**Businesses verified (6 ledger entries, the stalest in rotation):** all six
+trading as the ledger describes them. No closure, rename or relocation, but two
+sets of opening hours on one page could not be supported by any current source
+and were removed.
+
+- **7-Eleven**, 781 Corydon Ave: **open.** A current flyer directory carries the
+  store at 781 Corydon Avenue, R3M 0W5, listed as open 24 hours every day, and a
+  store-locator entry gives the 204-985-0117 number. 7-Eleven's own locator was
+  not reachable from here, so the 24-hour claim is single-sourced;
+  `blog-grocery-runs-near-corydon-airbnb.html` says only "open long hours",
+  which is within what the sources support, so that line was left alone.
+- **Safeway (Osborne Village)**, 655 Osborne St: **open, hours corrected on the
+  page.** Two directories carry the store and disagree: one gives 7:00 to 9:30
+  daily, the other 8:00 to 10:00 Monday to Saturday and 9:00 to 6:00 on Sunday.
+  Neither supports the "open daily from 7am to 11pm" the grocery post has been
+  carrying, and a visitor who walked over at 10:30 on that line would find it
+  shut. The specific hours were replaced with the shape both sources agree on,
+  that it closes in the evening rather than late at night, and the post now
+  sends a late-night top-up to the convenience stores.
+- **Fair Havens Pharmacy**, 894 Corydon Ave: **open, hours removed from the
+  page.** The only current source naming it is a September 2025 physician
+  recruitment posting for the Corydon Medical Clinic at 894 Corydon Ave, which
+  describes an in-house pharmacy of that name; a Medimap listing for the same
+  address carries a differently named pharmacy and states no hours. Nothing
+  supports the post's "open weekdays 9am to 5pm, closed on weekends", so the
+  clock times went and the line now says it runs on clinic hours, names the
+  clinic it sits inside, and tells the reader to phone ahead.
+- **Baked (Canggu)**, Bali: **open, address corrected in the ledger.** The
+  ledger had it on Jl. Pantai Batu Bolong; nothing current places it there. Two
+  sources give a Pererenan outlet at Jl Pantai Pererenan No. 118, and a listing
+  describes the Berawa outlet at Jl Raya Semat Gg. Kupu Kupu No. 1 as the
+  flagship, with a July 2026 Canggu cafe guide still carrying BAKED. Berawa. The
+  Batu Bolong bakery in those results is a different business. The ledger address
+  now carries both outlets. `blog-bali-nyaman.html` states no address and needed
+  no change.
+- **Finns Beach Club (Canggu)**, Jl. Pantai Berawa No. 99: **open.** Current
+  listings give daily 11:00 to midnight, adults only, free entry to the party
+  zones with paid beds from IDR 1,500,000, and a trade write-up dated August 2026
+  covers a new VIP section on the first level. An older listing's 10:00 opening
+  looks out of date. The post states no hours and needed no change.
+- **Atlas Beach Club (Canggu)**, Jl. Pantai Berawa No. 88: **open.** A Luxury
+  Escapes experience listing carries the Jl. Pantai Berawa No. 88 address, and
+  day passes are live on several resellers; prices and the quoted 10:00 to
+  midnight operating window disagree between sellers, which is why neither is on
+  our page. No change needed.
+
+**Ledger backfill sweep:** `blog-gunns-bakery.html`. One commercial business
+named, Gunn's Bakery at 247 Selkirk Ave, already in the ledger from two other
+posts; this filename was appended to its `pages`. The post names no other shop or
+supplier, so nothing was added. Moved to "Swept".
+
+**Post published:** `blog-folklorama-2027.html`, "Folklorama 2027 Winnipeg:
+August 1 to 14, Planning a Night". First entry of the Events queue, a new post
+rather than a refresh since no Folklorama page existed. Form is **one-day plan**,
+five clock-time headings that each state what the choice costs; the previous
+three posts were walk, explainer and question and answer, so the rotation rule
+left it open.
+
+The queue entry asked for "how the pavilion system and passports work". The
+pavilion system is covered; the passport is not, because it could not be
+sourced. The only claim of a pass covering every pavilion came from a travel
+blog whose prices also contradicted the festival's own, so the post describes
+per-pavilion general admission, which Folklorama's pavilion pages do carry, and
+says nothing about a multi-pavilion pass.
+
+Confirmed before writing: the 56th festival runs August 1 to 14, 2027; the 2026
+edition listed 45 pavilions over August 2 to 15; roughly half the pavilions open
+each week; general admission $7.50 plus service fee, non-refundable, children 12
+and under free with a paying adult to a maximum of five but still needing a
+booked ticket; online sales close an hour before showtime; seats are not
+reserved; outside food and drink are refused; payment methods are set per
+pavilion; shows commonly at 6:45, 8:15 and 9:45 with doors 30 to 45 minutes
+earlier and a run of about 45 minutes; closing times from 9:30 on a Sunday to
+midnight on a Friday at different pavilions; no festival shuttle, with coach VIP
+tours, custom group tours and 2026's pedal-powered tours as the alternatives;
+Winnipeg Transit full fare $3.45 cash exact change, $3.10 peggo, $11.45 for a
+24-hour e-pass, and a 90-minute transfer. Every price and count on the page is
+labelled a 2026 figure. **No 2027 pavilion, venue, week, showtime or price is
+stated anywhere on the page**, and the info-box sends readers to folklorama.ca.
+folklorama.ca does not resolve from this sandbox (DNS ENOTFOUND through the
+agent proxy), so all of it came through search result summaries.
+
+The one venue named, the Centre culturel franco-manitobain at 340 Provencher
+Blvd, is named as a hall whose pavilion assignment has changed between years,
+which is the planning point being made rather than a claim about 2027.
+Distances are only the verified ones: CCFM 11 min / 5.1 km, Portage and Main and
+The Forks 9 to 10 min / 3.9 km, Corydon Avenue about ten minutes on foot south.
+The post names no restaurant, bar or shop, so it added no ledger entries; the
+firms behind the bus and pedal tours were deliberately left unnamed. Image is
+`images/the-forks-indigenous-768x512.jpeg`, dancers in regalia at a pow wow at
+The Forks, the closest local photo to a live cultural performance in the city;
+`images/folkfest.jpg` was rejected as an aerial of the Folk Festival main stage
+at Birds Hill, which would misrepresent a festival held indoors across Winnipeg.
+Provenance in `post-sources.md`.
+
+**pa11y:** three pages checked against WCAG2AA, all passing with zero issues:
+`blog-folklorama-2027.html`, `blog.html` and
+`blog-grocery-runs-near-corydon-airbnb.html`. staywinnipeg.ca is not reachable
+from this sandbox, so the pages were served locally from the repo at
+127.0.0.1:8099 and checked there, with Chromium launched `--no-sandbox` and
+`--no-proxy-server`.
+
+---
+
 ## 2026-10-24
 
 **Businesses verified (6 ledger entries, the stalest in rotation):** one closure

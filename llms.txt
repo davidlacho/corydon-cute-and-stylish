@@ -14,14 +14,15 @@ Owner: Stay Winnipeg
 - [Booking Redirect](https://staywinnipeg.ca/book-now.html)
 
 # Content Overview
-Total Blog Posts: 166
-- Winnipeg Attractions & Activities: 148 guides
+Total Blog Posts: 167
+- Winnipeg Attractions & Activities: 149 guides
 - Hosting & Airbnb Philosophy: 13 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (148 guides)
+## Winnipeg Attractions & Activities (149 guides)
+- [Folklorama 2027 Winnipeg: August 1 to 14, Planning a Night](https://staywinnipeg.ca/blog-folklorama-2027.html)
 - [Great Outdoors Comedy Festival Winnipeg 2027: July 16 to 18](https://staywinnipeg.ca/blog-great-outdoors-comedy-festival-winnipeg.html)
 - [Canada Day in Winnipeg 2027: The Forks, Fireworks, July 1](https://staywinnipeg.ca/blog-canada-day-winnipeg.html)
 - [Kidsfest Winnipeg 2027: June Dates, Tickets and The Forks](https://staywinnipeg.ca/blog-kidsfest-winnipeg.html)
@@ -216,10 +217,10 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage showcasing boutique accommodation, tours, and experiences with booking information, guest review highlights, a two-column property overview with image carousel, and a centred booking CTA
-- Blog index page listing all 166 blog posts by category
+- Blog index page listing all 167 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
-- 166 individual blog post pages covering local guides, hosting insights, and travel stories
+- 167 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
@@ -294,5 +295,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
-October 24, 2026
+October 25, 2026
 

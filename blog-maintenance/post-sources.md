@@ -16,6 +16,78 @@ Newest first.
 
 ---
 
+## blog-folklorama-2027.html (published 2026-10-25)
+
+**Dates and scale.** Folklorama's own site gives the 56th festival as August 1
+to 14, 2027; a major-events aggregator lists the same Sunday-to-Saturday window
+as a 14-day event. The 2026 edition was the 55th, ran August 2 to 15 and listed
+45 pavilions including two new ones (festival materials and a CCFM event
+listing). The post states the 2027 dates and the 45-pavilion figure only as a
+2026 number. Attendance (362,397 in 2026, per the festival's post-event report)
+was found but deliberately left off the page; a visitor planning a night does
+not need it.
+
+**Two-week split.** Wikipedia and CTV's week-by-week pavilion listings both
+describe roughly half the pavilions running in week one and half in week two,
+with pavilions rarely open in both. Written on the page as "roughly half", not
+as a rule.
+
+**Venue reassignment.** The Centre culturel franco-manitobain, 340 Provencher
+Blvd, has hosted the French-Canadian Pavilion (CCFM's own 2025 event page) and,
+in an earlier edition, the Ghana Pavilion (a CTV pavilion listing). That pair is
+the source for the warning that a hall's pavilion changes between years. No
+claim is made about which pavilion is there in any particular year.
+
+**Admission.** Folklorama pavilion pages list General Admission at $7.50 per
+ticket plus applicable service fee, non-refundable, and the admission-options
+page states children 12 and under are free with a paying adult to a maximum of
+five children per adult, with the free ticket still requiring a booking. Online
+sales close one hour before each showtime unless sold out. Tickets guarantee
+admission only and seats are not reserved, except where a pavilion takes dinner
+reservations or where a VIP tour includes seating; the festival's own advice is
+to arrive early for the best seats. Outside food and drink are prohibited.
+Payment methods vary by pavilion and are listed in the festival's travel guide.
+The $7.50 is labelled on the page as a 2026 figure.
+
+**Showtimes and closing times.** 6:45, 8:15 and 9:45 p.m. is the common pattern
+across individual 2026 pavilion pages (Ukraine Kyiv, British Isles, Greek,
+Japanese), with earlier weekend slots at some. The Greek Pavilion's page gives
+doors 30 to 45 minutes before a show and a show length of about 45 minutes. The
+Scandinavian Pavilion listed 6:00 to 9:30 on Sunday and Monday and 6:00 to 11:00
+Tuesday to Saturday; Ukraine Kyiv listed closings to 11 on weeknights and to
+midnight on Friday and Saturday. A third-party planning site claiming a
+festival-wide 5 to 10 p.m. was not used, since it contradicts the pavilions'
+own pages. The post therefore says the times vary and names the common pattern.
+
+**Getting between pavilions.** There is no festival-wide shuttle. Folklorama
+runs its own VIP bus tours (two or three pavilions, coach transport, admission,
+reserved seating and a meal spread across the stops), custom group tours, and
+added pedal-powered tours between selected pavilions in 2026. The bus operator
+for the tours is Beaver Bus Lines; the firms are not named on the page, so no
+ledger entries were needed.
+
+**Transit.** The City of Winnipeg's fares table gives full fare $3.45 cash
+(exact change), $3.10 peggo e-cash, and a 24-hour e-pass at $11.45, with a cash
+transfer good for 90 minutes in any direction. The break-even arithmetic on the
+page (the day pass wins on the fourth ride) follows from those figures.
+
+**Distances.** Only the verified table in `AGENT-INSTRUCTIONS.md` was used:
+Centre culturel franco-manitobain 11 min / 5.1 km, Portage and Main 9 min /
+3.9 km, The Forks 10 min / 3.9 km, Corydon Avenue about ten minutes on foot
+south. No drive time is given for any pavilion venue not in that table.
+
+**Daylight.** Early-August sunset in Winnipeg falls around nine in the evening,
+which is the basis for "the sun is still up when the 6:45 show begins and well
+down by the time the last one lets out". Astronomical, no source needed beyond
+the latitude.
+
+**Not stated anywhere on the page:** the 2027 pavilion list, any pavilion's
+2027 venue, week or showtime, any 2027 price, and any attendance figure.
+folklorama.ca does not resolve from this sandbox (DNS ENOTFOUND through the
+agent proxy), so everything above came through search result summaries.
+
+---
+
 ## blog-great-outdoors-comedy-festival-winnipeg.html (published 2026-10-24)
 
 All of it read through web search result summaries: greatoutdoorscomedyfestival.com

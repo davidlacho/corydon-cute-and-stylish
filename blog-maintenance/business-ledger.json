@@ -517,7 +517,8 @@
       "address": "247 Selkirk Ave",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
-        "blog-corydon-cute-stylish-winnipeg-airbnb.html"
+        "blog-corydon-cute-stylish-winnipeg-airbnb.html",
+        "blog-gunns-bakery.html"
       ],
       "status": "open",
       "last_verified": "2026-09-27"
@@ -1259,12 +1260,12 @@
     },
     {
       "name": "Baked (Canggu)",
-      "address": "Jl. Pantai Batu Bolong No. 38, Canggu, Bali",
+      "address": "Jl. Raya Semat Gg. Kupu Kupu No. 1, Berawa, Canggu, Bali (second outlet Jl. Pantai Pererenan No. 118)",
       "pages": [
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-26"
+      "last_verified": "2026-10-25"
     },
     {
       "name": "Finns Beach Club (Canggu)",
@@ -1273,7 +1274,7 @@
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-26"
+      "last_verified": "2026-10-25"
     },
     {
       "name": "Atlas Beach Club (Canggu)",
@@ -1282,7 +1283,7 @@
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-26"
+      "last_verified": "2026-10-25"
     },
     {
       "name": "Adventure Caving Bt. (Budapest)",
@@ -1498,7 +1499,7 @@
         "blog-grocery-runs-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-25"
     },
     {
       "name": "Safeway (Osborne Village)",
@@ -1507,7 +1508,7 @@
         "blog-grocery-runs-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-25"
     },
     {
       "name": "Fair Havens Pharmacy",
@@ -1516,7 +1517,7 @@
         "blog-grocery-runs-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-10-25"
     }
   ]
 }

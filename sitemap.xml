@@ -11,9 +11,15 @@
     </url>
     <url>
         <loc>https://staywinnipeg.ca/blog.html</loc>
-        <lastmod>2026-10-24</lastmod>
+        <lastmod>2026-10-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://staywinnipeg.ca/blog-folklorama-2027.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
     <url>
         <loc>https://staywinnipeg.ca/blog-great-outdoors-comedy-festival-winnipeg.html</loc>
@@ -449,7 +455,7 @@
     </url>
     <url>
         <loc>https://staywinnipeg.ca/blog-grocery-runs-near-corydon-airbnb.html</loc>
-        <lastmod>2026-07-30</lastmod>
+        <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
