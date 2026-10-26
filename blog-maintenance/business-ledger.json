@@ -482,7 +482,7 @@
         "blog-winnipeg-pizza-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-27"
+      "last_verified": "2026-10-26"
     },
     {
       "name": "Good Neighbour Brewing Co.",
@@ -492,7 +492,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-27"
+      "last_verified": "2026-10-26"
     },
     {
       "name": "Graffiti Gallery",
@@ -501,7 +501,7 @@
         "blog-spacedoxa.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-27"
+      "last_verified": "2026-10-26"
     },
     {
       "name": "Granite Curling Club",
@@ -510,7 +510,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-27"
+      "last_verified": "2026-10-26"
     },
     {
       "name": "Gunn's Bakery",
@@ -521,7 +521,7 @@
         "blog-gunns-bakery.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-27"
+      "last_verified": "2026-10-26"
     },
     {
       "name": "Gusto North (Hargrave St. Market)",
@@ -530,7 +530,7 @@
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-27"
+      "last_verified": "2026-10-26"
     },
     {
       "name": "Half Pints Brewing Company",
@@ -1518,6 +1518,24 @@
       ],
       "status": "open",
       "last_verified": "2026-10-25"
+    },
+    {
+      "name": "H. P. Tergesen & Sons",
+      "address": "82 First Avenue, Gimli",
+      "pages": [
+        "blog-icelandic-festival-gimli.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-10-26"
+    },
+    {
+      "name": "Ship & Plough",
+      "address": "42 Centre St, Gimli",
+      "pages": [
+        "blog-icelandic-festival-gimli.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-10-26"
     }
   ]
 }

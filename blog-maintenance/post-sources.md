@@ -16,6 +16,70 @@ Newest first.
 
 ---
 
+## blog-icelandic-festival-gimli.html (published 2026-10-26)
+
+**The festival and its dates.** The organiser's own release for the 2026
+festival gives it as the 137th Íslendingadagurinn under the theme
+"Interconnected Shores / Tengdar Strendur", with Icelandic dignitaries
+attending, and names the Monday traditional program in Gimli Park where the
+Toast to Canada is presented and the Fjallkona brings greetings. Two independent
+event calendars give the 2026 run as July 31 to August 3, which matches the
+organiser's "every August long weekend". No 2027 dates had been published
+anywhere, so the post states the long-weekend pattern and the calendar fact that
+the 2027 holiday Monday is August 2, and sends the reader to
+icelandicfestival.com. Nothing on the page presents an inferred date as
+announced.
+
+**Schedule items.** The 2025 event-schedule PDF on the organiser's site places
+the parade on the Monday at 10:00 a.m. from the Gimli Rec Centre with
+registration an hour earlier, and Íslendingadunk at Gimli Harbour on the Sunday
+afternoon with registration beforehand; a 2024 festival release describes the
+dunk as two competitors on a soap-lubricated pole over the water with a sack
+holding a wet sponge. A race-registration listing puts the 10 mile, 5K and 1
+mile on Sunday, August 2, 2026. All of these are written on the page as "in past
+years" or "in recent years", because only the organiser's current schedule can
+confirm them for a given year.
+
+**Cost.** The only price the post states is the Odin's Festival Pass, $99 for
+the 2026 festival, from the organiser's own shop (shop.icelandicfestival.com),
+which describes priority seating at some events, skip-the-line access to the
+Vingólf beverage garden with drink tickets, limited quantities and pickup in
+Gimli rather than mailing. No source states whether general entry to the
+festival grounds is free or ticketed, so the post makes no claim either way and
+says the organiser sets what is ticketed each year. An earlier draft called the
+dunk "the best free spectacle of the weekend"; "free" was removed for this
+reason.
+
+**Getting there.** Manitoba Highway 8 runs from Winnipeg's north limit, where it
+meets Route 180 (McPhillips Street), north through Winnipeg Beach and Gimli to
+Hecla-Grindstone Provincial Park, posted at 100 km/h. Gimli tourism material
+gives the town as about an hour north of Winnipeg on Highway 9; a travel write-up
+gives roughly 90 km and about an hour and a quarter in summer conditions; a local
+operator says Highway 8 is the most direct and Highways 7 and 9 also work. The
+post gives the range rather than a single figure and states no drive time from
+the house, which is not in the verified distance table in
+`AGENT-INSTRUCTIONS.md`.
+
+**In town.** The Gimli Art Club's own page dates the seawall mural project to
+1997; sources count 72, "more than 70" and "more than 35" murals, so the post
+says more than seventy and notes they are repainted. Tourism and heritage
+material gives the pier with its small lighthouse, the hill in Harbour Park, and
+the fifteen-foot Viking at the south end of Second Avenue, designed by Gissur
+Eliasson of the University of Manitoba and built by sculptor George Barone, with
+the present Viking Park completed in 2017. Manitoba heritage records and the
+Manitoba Historical Society give H. P. Tergesen & Sons at 82 First Avenue,
+opened for business on 1 January 1899 and still trading under that name; a
+Wikivoyage listing gives the Ship & Plough at 42 Centre St. Both were added to
+the ledger. Kris' Fish & Chips, Beach Boy and a bakery named in the same search
+results were left off the page: one listing described Kris' as having been
+temporarily closed, and nothing current confirmed the others' trading status.
+
+**Daylight.** Sunset at Gimli (50.63 N, 96.99 W) on the 2027 long weekend
+computes to about 9:16 p.m. CDT on July 30 and 9:11 p.m. on August 2, so the
+page says "around a quarter past nine".
+
+---
+
 ## blog-folklorama-2027.html (published 2026-10-25)
 
 **Dates and scale.** Folklorama's own site gives the 56th festival as August 1

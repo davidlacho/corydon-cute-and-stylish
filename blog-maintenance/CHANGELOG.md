@@ -7,6 +7,83 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-26
+
+**Businesses verified (6 ledger entries, the stalest in rotation):** all six
+trading as the ledger describes them. No closure, rename or relocation, and no
+page needed a correction, because none of the pages that name these six states
+hours or prices for them.
+
+- **Gondola Pizza**, 1292 Pembina Hwy: **open.** A live online-ordering page for
+  that exact address carries the store with a 4:00 p.m. to 10:00 p.m. ordering
+  window, and a directory listing gives 204-949-2910 for it. Gondola's own site
+  was not reachable from here. Listings for the Portage Avenue and Fort Richmond
+  stores show different hours and are a different location; the ledger entry is
+  the Pembina store. `blog-winnipeg-pizza-guide.html` states no hours for it, so
+  nothing on the page changed.
+- **Good Neighbour Brewing Co.**, 110 Sherbrook St: **open.** A current venue
+  directory carries the brewery at 110 Sherbrook St, R3C 2B4. The only hours in
+  any source are from a May 2023 trade item (noon to 8 daily), and several of the
+  hour sets that come back in a search belong to One Sixteen and Next Door at 116
+  Sherbrook, which are a different address. Neither
+  `blog-best-places-nearby-winnipeg.html` nor `blog-winnipeg-breweries.html`
+  states hours for it, so no change.
+- **Graffiti Gallery**, 109 Higgins Ave: **open.** Run by Graffiti Art
+  Programming Inc., a youth arts non-profit, at 109 Higgins Ave in Point Douglas,
+  where it has been since 1999; current directory and Culture Days listings carry
+  it at that address. No 2026 exhibition schedule was reachable from here, which
+  is why `blog-spacedoxa.html` names only the organisation and links
+  graffitigallery.ca rather than listing what is on.
+- **Granite Curling Club**, 1 Granite Way: **open.** The club's own site is live
+  and carries a 2026 event (a free Learn to Curl drop-in on January 31, 2026,
+  noon to 2:30), the 204-775-8239 number, and a note that sheets 7 and 8 are now
+  open. `blog-winnipeg-breweries.html` mentions it only as the site of The Beer
+  Can's outdoor beer garden, which the sources support.
+- **Gunn's Bakery**, 247 Selkirk Ave: **open.** Still at 247 Selkirk Avenue and
+  still run by the family that bought the building; the Jewish Winnipeg directory
+  carries it with 204-582-2364. The only hours anywhere are on an undated
+  listing, so none were added to any of the three pages that name it.
+- **Gusto North (Hargrave St. Market)**, 242 Hargrave St: **open.** The market's
+  own restaurants page still describes it as the hall's only full-service sit-down
+  restaurant and the second Pizzeria Gusto location, and reservation listings for
+  it are live. hargravestmarket.com was not reachable from here, and no source
+  reports a closure. `blog-hargrave-st-market.html` gives market-wide hours rather
+  than Gusto North's own, so nothing changed; the Hargrave St. Market entry itself
+  is next in the rotation and those market hours should be checked then.
+
+**Ledger backfill sweep:** `blog-hosting-best-practices.html`. No commercial
+businesses named anywhere in it; the only places it mentions are Tokyo,
+Barcelona, Lisbon and Copenhagen as the cities of earlier stays, with no host,
+apartment, cafe or shop identified. Nothing added; the filename moved to "Swept".
+
+**New post:** `blog-icelandic-festival-gimli.html`, "Icelandic Festival in
+Gimli: August Long Weekend Day Trip". First entry of the Events queue, written
+as **host's notes** (the last three posts were a one-day plan, a question and
+answer and a comparison, so the form rotation was clear). It covers what
+Íslendingadagurinn is, the August long-weekend pattern, the drive up Highway 8,
+Íslendingadunk at Gimli Harbour and the Monday parade from the Gimli Rec Centre,
+what the Odin's Festival Pass cost in 2026, the seawall murals and the Viking at
+the south end of Second Avenue, what the lake wind does, and a "Where to stay"
+section. No 2027 dates have been announced by the organiser, so the post gives
+the long-weekend pattern and the calendar fact that the 2027 holiday Monday is
+August 2, and points to icelandicfestival.com. It makes no claim about whether
+general entry is free, because no source states it, and it gives no drive time
+from the house, which is not in the verified distance table. Provenance is in
+`post-sources.md`.
+
+**Ledger additions from the new post:** H. P. Tergesen & Sons (82 First Avenue,
+Gimli) and Ship & Plough (42 Centre St, Gimli), both `open`, both verified today.
+Three other Gimli eateries that came back in the same searches were left off the
+page because nothing current confirmed they are trading.
+
+**Pages changed:** `blog-icelandic-festival-gimli.html` (new), `blog.html`
+(noscript card and JSON-LD `blogPost` entry), `articles-data.js`,
+`articles_data.json`, `sitemap.xml` (new URL plus `blog.html` lastmod),
+`llms.txt` (regenerated, 168 posts), `post-ideas.md`, `post-sources.md`,
+`ledger-sweep.md`, `business-ledger.json`.
+
+---
+
 ## 2026-10-25
 
 **Businesses verified (6 ledger entries, the stalest in rotation):** all six
