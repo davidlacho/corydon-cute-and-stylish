@@ -82,6 +82,19 @@ page because nothing current confirmed they are trading.
 `llms.txt` (regenerated, 168 posts), `post-ideas.md`, `post-sources.md`,
 `ledger-sweep.md`, `business-ledger.json`.
 
+**Push and deploy:** commit `1b00320` landed on `main` (verified against
+`origin/main`). The GitHub Pages build and deployment, run 457, completed with
+conclusion success for that commit. The live URL could not be fetched from the
+run's sandbox, which cannot resolve staywinnipeg.ca, so the deploy is confirmed
+from the Pages run rather than from a page load.
+
+**pa11y (WCAG2AA):** `blog-icelandic-festival-gimli.html` and `blog.html`, both
+served over local HTTP so React renders; no issues on either. Run over `file://`
+the new post reports one false error, a skip link pointing at `#main-content`,
+because the absolute `/vendor/react*.js` paths do not resolve from the file
+system and the React `<main id="main-content">` is therefore never rendered.
+Serve the directory before checking a post.
+
 ---
 
 ## 2026-10-25
