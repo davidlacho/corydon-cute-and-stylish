@@ -82,6 +82,21 @@ out because four listings gave four versions of each. Full provenance in
 `blog-maintenance/ledger-sweep.md`, `blog-maintenance/post-ideas.md`,
 `blog-maintenance/post-sources.md`.
 
+**pa11y (WCAG2AA):** 2 pages checked against a locally served copy,
+`blog-winnipeg-summer-food-festivals.html` and `blog.html`. Both returned "No
+issues found!", 0 failures, no re-test needed. Note for later runs: pa11y's
+bundled Chromium will not start as root, so it needs a config file setting
+`chromeLaunchConfig.executablePath` to `/opt/pw-browsers/chromium` with
+`--no-sandbox`.
+
+**Push and deploy:** pushed to `main` as 6bb0c49 and verified that local HEAD
+and `origin/main` match. GitHub Pages deploy run 459 for that SHA completed with
+conclusion `success`, and the new post is present on `main` at the deployed SHA.
+The live site itself could not be fetched from this sandbox to confirm the page
+renders: the agent proxy returns 403 on CONNECT for staywinnipeg.ca and the host
+does not resolve, the same limitation earlier runs recorded for organiser
+domains.
+
 ---
 
 ## 2026-10-26
