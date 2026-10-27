@@ -16,6 +16,71 @@ Newest first.
 
 ---
 
+## blog-winnipeg-summer-food-festivals.html (published 2026-10-27)
+
+**The queue entry put StrEAT Feast at the wrong venue.** The Events queue
+described "Tacos and Tequila, StrEAT Feast and Winnipeg's late-summer food
+festivals at Blue Cross Park". Blue Cross Park, the Goldeyes' ballpark at 1
+Portage Avenue East, hosts the Tacos and Tequila Festival. StrEAT Feast does
+not go there: a Global News event listing, a Travel Manitoba listing and two
+local event calendars all place it at The Forks, on the CN Stage and Field, 1
+Forks Market Road, and no source anywhere connects it to the ballpark. The post
+gives each festival its own venue and drops the queue's combined framing.
+
+**StrEAT Feast.** The 2026 edition ran August 13 to 16 at The Forks, with hours
+of 4 to 10 p.m. on the Thursday, noon to 10 p.m. on the Friday and Saturday and
+11 a.m. to 9 p.m. on the Sunday, free to enter, with food trucks and booths, a
+pop-up market, an eating challenge, a kids zone and a competition among the
+vendors. Only one listing carried the 2026 hours, which is why the page labels
+them 2026 figures and points at streatfeast.ca. Earlier listings give 2025 as
+August 15 to 17 and 2024 as August 16 to 18, which is the basis for describing
+the festival as a mid-August fixture rather than naming a 2027 date. No 2027
+date is stated.
+
+**Tacos and Tequila Festival.** The Goldeyes' own announcement gives Saturday,
+August 22, 2026 at Blue Cross Park, 18+, with early-bird pricing of $49 general
+admission and $115 VIP while supplies lasted; aggregator listings later quoted
+higher numbers, so the page names the Goldeyes as the source of the early-bird
+figure and calls it a floor. **The lineup and the start time were deliberately
+left off the page.** Listings variously name T.I., Too Short, Frankie J, Murphy
+Lee, DJ Ashton Martin, Petey Pablo and Fat Joe, and give the start as either
+1:30 or 3:00 p.m. with doors at 2:00; nothing reconciles them, so the post says
+only that doors opened in the early afternoon and the headline set was an
+evening one.
+
+**Winnipeg Beer Festival.** Listed as the 9th annual, August 22, 2026, 5:00 to
+9:30 p.m. at Le Patio 340 at the Centre culturel franco-manitobain, 340
+Provencher Blvd in St. Boniface, with more than twenty Manitoba beer and spirit
+producers and samples included in the ticket price. A CTV weekend roundup for
+August 21 to 23, 2026 corroborates the date and the venue and is also what
+established that this and Tacos and Tequila share a Saturday, which is the
+post's central comparison. No ticket price is quoted, because none of the
+listings agreed on one. Le Patio 340 was added to the business ledger on this
+run.
+
+**Distances, transit and daylight.** Every distance on the page comes from the
+verified table in `AGENT-INSTRUCTIONS.md`: The Forks 10 min / 3.9 km, Portage
+and Main 9 min / 3.9 km, Centre culturel franco-manitobain 11 min / 5.1 km,
+Corydon Avenue about ten minutes on foot south of the house. No walking time
+between The Forks and Blue Cross Park is stated, because none is verified; the
+page gives the two addresses and the "two short blocks from Portage and Main"
+relation that 1 Portage Avenue East implies. Route 38 Salter and the on-site
+stop #10907 carry over from the Kidsfest and Canada Day runs' verified notes,
+as does the $3.45 cash / $3.10 peggo fare with a ninety-minute transfer. Sunset
+at about half past eight on the third Saturday of August was computed for
+Winnipeg (49.895 N, 97.138 W) rather than taken from a source; the figure for
+August 21, 2027 is 8:35 p.m. CDT.
+
+**What was checked and not used.** Ribfest is a May event at Red River
+Exhibition Park, not an August one, and two sources disagree on whether it is
+there or at Assiniboia Downs, so it is not on the page. Ballpark Brewfest is a
+Goldeyes event from July 18. La Pizza Week runs the first week of May. The
+Manitoba Night Market at Assiniboia Downs on August 23, 2026 and the Country
+Rising Festival at Blue Cross Park on August 21 were both found and left out as
+not food festivals in the sense the post is about.
+
+---
+
 ## blog-icelandic-festival-gimli.html (published 2026-10-26)
 
 **The festival and its dates.** The organiser's own release for the 2026

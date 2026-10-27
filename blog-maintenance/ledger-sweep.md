@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-human-rights-museum.html
 - blog-late-night-bites-near-corydon.html
 - blog-lisbon-2015.html
 - blog-little-free-libraries.html
@@ -125,6 +124,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-10-27 - blog-human-rights-museum.html (no commercial businesses named. The post covers the Canadian Museum for Human Rights itself, its architect Antoine Predock, the Tower of Hope and the permanent galleries, plus The Forks as the site it sits on; museums, parks and public sites are institutions rather than ledger entries, and the post names no restaurant, cafe, shop or tour operator. Nothing to add.)
 - 2026-10-26 - blog-hosting-best-practices.html (no commercial businesses named: the post is about the hosting practices themselves and the only places it mentions are Tokyo, Barcelona, Lisbon and Copenhagen as the cities where earlier stays happened, with no host, apartment, cafe or shop identified by name. Nothing to add.)
 - 2026-10-25 - blog-gunns-bakery.html (one commercial business named, Gunn's Bakery at 247 Selkirk Ave, which was already in the ledger from two other posts; this filename was appended to its `pages`. The post names no other shop, cafe or supplier: the only other proper nouns are the Gunn family, the 2019 owner Jon Hochman and Selkirk Avenue itself. Nothing new was added.)
 - 2026-10-24 - blog-grocery-runs-near-corydon-airbnb.html (six businesses named; three were already in the ledger from the Corydon guide and other posts, so this filename was appended to their `pages`: The Cheesemongers Fromagerie, Forgotten Flavours and Sugar + Salt Bakeshoppe. Three were missing and were added with `last_verified: "2026-01-01"` because this run did not verify them: 7-Eleven at 781 Corydon Ave, Safeway at 655 Osborne St in Osborne Village, and Fair Havens Pharmacy at 894 Corydon Ave. The post also states hours for Safeway and Fair Havens, which a later rotation should check.)

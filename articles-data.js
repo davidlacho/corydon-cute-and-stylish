@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-summer-food-festivals.html",
+    "category": "winnipeg",
+    "date": "2026-10-27",
+    "title": "Winnipeg Food Festivals in August: StrEAT Feast and More",
+    "image": "images/guidebook-winnipeg-16-the-beer-can.jpg",
+    "imageAlt": "Picnic tables and a painted open-air shelter at a Winnipeg beer garden on a summer afternoon",
+    "description": "Three Winnipeg food festivals in August compared: StrEAT Feast at The Forks, Tacos and Tequila at the ballpark, and the Winnipeg Beer Festival in St. Boniface.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>October 27, 2026</span>"
+  },
+  {
     "url": "/blog-icelandic-festival-gimli.html",
     "category": "winnipeg",
     "date": "2026-10-26",

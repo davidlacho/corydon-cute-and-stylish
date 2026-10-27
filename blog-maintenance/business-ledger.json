@@ -539,7 +539,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-29"
+      "last_verified": "2026-10-27"
     },
     {
       "name": "Hargrave St. Market",
@@ -552,7 +552,7 @@
         "blog-winnipeg-new-music-festival.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-27"
+      "last_verified": "2026-10-27"
     },
     {
       "name": "Harth Mozza & Wine Bar",
@@ -1301,16 +1301,16 @@
         "blog-winnipeg-holiday-markets.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-27"
+      "last_verified": "2026-10-27"
     },
     {
       "name": "Third + Bird",
-      "address": "",
+      "address": "3977 Portage Ave (Red River Exhibition Place, 2026 spring market)",
       "pages": [
         "blog-winnipeg-holiday-markets.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-27"
+      "last_verified": "2026-10-27"
     },
     {
       "name": "Scattered Seeds Craft Market",
@@ -1319,16 +1319,16 @@
         "blog-winnipeg-holiday-markets.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-27"
+      "last_verified": "2026-10-27"
     },
     {
       "name": "Christkindlmarkt (Fort Garry Place)",
-      "address": "Fort Garry Place",
+      "address": "85 Garry St (Fort Garry Place Mall)",
       "pages": [
         "blog-winnipeg-holiday-markets.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-27"
+      "last_verified": "2026-10-27"
     },
     {
       "name": "The Forks Market",
@@ -1536,6 +1536,15 @@
       ],
       "status": "open",
       "last_verified": "2026-10-26"
+    },
+    {
+      "name": "Le Patio 340",
+      "address": "340 Provencher Blvd (Centre culturel franco-manitobain)",
+      "pages": [
+        "blog-winnipeg-summer-food-festivals.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-10-27"
     }
   ]
 }

@@ -7,6 +7,83 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-27
+
+**Businesses verified (6 ledger entries, the stalest in rotation):** all six
+trading as the ledger and the pages describe them. No closure, rename or
+relocation, and no page needed a correction: the four holiday markets are all
+still running and the dates and hours already on
+`blog-winnipeg-holiday-markets.html` match what the sources give.
+
+- **Hargrave St. Market**, 242 Hargrave St: **open.** hargravestmarket.com is
+  live and its visit page carries hours of 7:30 a.m. to 10 p.m. Monday to
+  Friday, 9 a.m. to 11 p.m. Saturday and closed Sunday, which is exactly what
+  `blog-hargrave-st-market.html` already states, so nothing on the page changed.
+  The domain does not resolve from this sandbox, so that came through a search
+  result summary. No source reports a closure, and yesterday's run separately
+  confirmed Gusto North inside the hall.
+- **Winnipeg Christmas Market (Signatures Shows)**, 375 York Ave: **open.** The
+  2026 merchant and food application and the organiser's own show calendar both
+  give November 26 to 29, 2026 at the RBC Convention Centre, which is the date
+  the holiday-markets post already carries. Listings disagree on vendor count
+  (140+ in one, 130+ for 2025 in another), so no count was added.
+- **Third + Bird**: **open.** The 2026 spring market ran April 17 to 19 at Red
+  River Exhibition Place, so the organisation is active. No source gives 2026
+  holiday dates; the 2025 Christmas market was the 17th annual and ran November
+  21 to 23 at Red River Exhibition Place. The post's November 20 to 22 line was
+  left as it stands and the page already tells readers to confirm the venue on
+  thirdandbird.com, because this market has moved buildings between years. The
+  ledger's blank address was filled with the spring-market venue.
+- **Scattered Seeds Craft Market**, 3977 Portage Ave: **open.** The organiser's
+  Tickettailor listings give 2026 as two weekends, October 16 to 18 and 23 to
+  25, at Red River Exhibition Park, with Friday noon to 9, Saturday 10 to 6 and
+  Sunday 10 to 4. That matches the post. One newsletter gives October 17 to 19
+  and was not used.
+- **Christkindlmarkt (Fort Garry Place)**: **open.** Run by the German-Canadian
+  Congress since 1985 and billed as Canada's oldest German Christmas market. The
+  2025 edition ran November 28 to 30 at Fort Garry Place Mall, 85 Garry St, free
+  to enter, and a 40th-anniversary concert followed on December 6, 2025. No 2026
+  dates are posted anywhere, which is why the post names no weekend for it and
+  the page's "Before you go" box says listings disagree. The ledger address was
+  sharpened from "Fort Garry Place" to "85 Garry St (Fort Garry Place Mall)".
+- **Half Pints Brewing Company**, 550 Roseberry St: **open.** halfpintsbrewing.com
+  is live and currently advertising home delivery within Winnipeg. Hours sources
+  conflict (a 2023 directory gives 11 to 9, a listing giving 11 to 6 also places
+  the brewery in Ottawa and was discarded), so no hours were added;
+  `blog-winnipeg-breweries.html` states none for it and was not changed.
+
+**Ledger sweep:** `blog-human-rights-museum.html` read and moved to "Swept". It
+names no commercial business, only the Canadian Museum for Human Rights, its
+architect and The Forks, all institutions. Nothing added.
+
+**New post:** `blog-winnipeg-summer-food-festivals.html`, "Winnipeg Food
+Festivals in August: StrEAT Feast and More", form **comparison**, from the first
+entry of the Events queue. Three August food festivals set against each other on
+gate price, whether children get in, transit, sun and daylight, and the fact
+that two of them fell on the same Saturday in 2026.
+
+**The queue entry was wrong about one venue and silent about a third festival.**
+StrEAT Feast is at The Forks (CN Stage and Field, 1 Forks Market Road), not at
+Blue Cross Park, which hosts Tacos and Tequila; and the Winnipeg Beer Festival
+at Le Patio 340, 340 Provencher Blvd, shares the Tacos and Tequila date, which
+became the post's central comparison. All figures on the page are labelled 2026
+ones: StrEAT Feast August 13 to 16, free; Tacos and Tequila Saturday August 22,
+18+, early-bird $49 GA and $115 VIP as announced by the Goldeyes; the 9th
+Winnipeg Beer Festival August 22, 5 to 9:30 p.m. No 2027 date, price or lineup
+is stated anywhere, and the Tacos and Tequila lineup and start time were left
+out because four listings gave four versions of each. Full provenance in
+`blog-maintenance/post-sources.md`.
+
+**Pages changed:** `blog-winnipeg-summer-food-festivals.html` (new),
+`articles-data.js`, `articles_data.json`, `blog.html` (noscript card and JSON-LD
+`blogPost` entry), `sitemap.xml` (new entry plus `blog.html` lastmod),
+`llms.txt` (regenerated, 169 posts), `blog-maintenance/business-ledger.json`
+(six last_verified dates, two addresses sharpened, Le Patio 340 added),
+`blog-maintenance/ledger-sweep.md`, `blog-maintenance/post-ideas.md`,
+`blog-maintenance/post-sources.md`.
+
+---
+
 ## 2026-10-26
 
 **Businesses verified (6 ledger entries, the stalest in rotation):** all six
