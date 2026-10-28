@@ -90,6 +90,15 @@ re-test needed. The config recorded by yesterday's run works unchanged:
 `chromeLaunchConfig.executablePath` set to `/opt/pw-browsers/chromium` with
 `--no-sandbox`, because pa11y's bundled Chromium will not start as root.
 
+**Push and deploy:** committed on `main` as d61aa66 and pushed with
+`git push origin HEAD:main`; local HEAD and `origin/main` verified to match.
+GitHub Pages deploy run 461 for that SHA completed with conclusion `success`,
+and the new post is present on `main` at the deployed SHA with its title, H1,
+body, info-box and JSON-LD intact. The live site itself could not be fetched
+from this sandbox to confirm the rendered page: the agent proxy returns 403 on
+CONNECT for staywinnipeg.ca and the host does not resolve, the same limitation
+every recent run has recorded.
+
 **Pages changed:** `blog-manyfest-winnipeg-the-weekender.html` (new),
 `blog-group-dining.html` (Hy's location), `blog.html` (noscript card and JSON-LD
 `blogPost` entry), `articles-data.js`, `articles_data.json`, `sitemap.xml`
