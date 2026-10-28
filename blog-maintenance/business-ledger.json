@@ -40,7 +40,8 @@
       "pages": [
         "blog-corydon-guide.html",
         "blog-crescentwood-liveable.html",
-        "blog-date-night-on-corydon-avenue.html"
+        "blog-date-night-on-corydon-avenue.html",
+        "blog-late-night-bites-near-corydon.html"
       ],
       "status": "unverified",
       "last_verified": "2026-10-16"
@@ -77,7 +78,8 @@
       "address": "905 Corydon Ave",
       "pages": [
         "blog-corydon-guide.html",
-        "blog-budget-day-corydon-airbnb.html"
+        "blog-budget-day-corydon-airbnb.html",
+        "blog-late-night-bites-near-corydon.html"
       ],
       "status": "open",
       "last_verified": "2026-10-16"
@@ -163,7 +165,8 @@
       "address": "651 Corydon Ave",
       "pages": [
         "blog-corydon-guide.html",
-        "blog-date-night-on-corydon-avenue.html"
+        "blog-date-night-on-corydon-avenue.html",
+        "blog-late-night-bites-near-corydon.html"
       ],
       "status": "open",
       "last_verified": "2026-10-18"
@@ -562,17 +565,17 @@
         "blog-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-29"
+      "last_verified": "2026-10-28"
     },
     {
       "name": "Hy's Steakhouse",
-      "address": "",
+      "address": "1 Lombard Pl",
       "pages": [
         "blog-group-dining.html",
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-29"
+      "last_verified": "2026-10-28"
     },
     {
       "name": "Ichiban Japanese Steakhouse & Sushi Bar",
@@ -581,7 +584,7 @@
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-29"
+      "last_verified": "2026-10-28"
     },
     {
       "name": "Isekai Ramen",
@@ -590,7 +593,7 @@
         "blog-winnipeg-coffee.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-29"
+      "last_verified": "2026-10-28"
     },
     {
       "name": "King's Head Pub",
@@ -1292,7 +1295,7 @@
         "blog-budapest-caving.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-29"
+      "last_verified": "2026-10-28"
     },
     {
       "name": "Winnipeg Christmas Market (Signatures Shows)",
@@ -1342,7 +1345,7 @@
         "blog-kidsfest-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-09-29"
+      "last_verified": "2026-10-28"
     },
     {
       "name": "Tim Hortons (949 Corydon Ave)",
@@ -1350,7 +1353,8 @@
       "pages": [
         "blog-budget-day-corydon-airbnb.html",
         "blog-corydon-guide.html",
-        "blog-coffee-near-corydon-airbnb.html"
+        "blog-coffee-near-corydon-airbnb.html",
+        "blog-late-night-bites-near-corydon.html"
       ],
       "status": "open",
       "last_verified": "2026-10-15"

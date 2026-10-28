@@ -16,6 +16,82 @@ Newest first.
 
 ---
 
+## blog-manyfest-winnipeg-the-weekender.html (published 2026-10-28)
+
+Written from the events queue entry "manyfest-winnipeg - ManyFest on Broadway:
+food truck wars and the night market (typical window: second weekend of
+September)". That premise is out of date and the post says so: ManyFest is not
+running, and a page repeating its Broadway dates would have sent readers to a
+festival that no longer exists.
+
+Nothing was fetched directly. `downtownwinnipegbiz.com` and `www.chrisd.ca` both
+failed to resolve from this sandbox (DNS ENOTFOUND through the agent proxy), the
+same failure every recent run has recorded, so every fact below came from search
+result summaries of those pages rather than the pages themselves.
+
+**The Weekender, 2026 edition.** Downtown Winnipeg BIZ, with Smith Events and
+Arch Events, announced a new signature street festival for September 2026 and
+described it as building on ManyFest's legacy. It ran Friday September 11
+(4 p.m. to midnight), Saturday September 12 (noon to midnight) and Sunday
+September 13 (noon to 8 p.m.) on Graham Avenue between Donald and Fort streets.
+Free to attend, licensed, with Manitoba Liquor & Lotteries as presenting
+sponsor. A CTV Winnipeg report dated September 14, 2026 confirms the festival
+wrapped up on the Sunday on Graham Avenue and quotes organisers saying this
+year's feedback will shape next year's event. The post names only Downtown
+Winnipeg BIZ as organiser; Smith Events and Arch Events were left off the page
+to keep it readable, and neither is a ledger-class business.
+
+**Food Truck Wars.** Over 30 food trucks and mobile vendors; winners chosen
+entirely by public vote (the change from the earlier judges' awards, which a
+2017 CBC story describes) and crowned live on stage Sunday. About 20 market
+vendors alongside, described in one listing as an artisan market. No individual
+truck or vendor is named on the page, because no source pinned a line-up to a
+year, so the post adds no ledger entries.
+
+**Other 2026 programming** (Classic Car Show and Shine Friday, a free Winnipeg
+Pro Wrestling card Saturday, Bachata Sunday, 3x3 basketball with youth, adult
+and wheelchair divisions free for spectators, a Family Zone with kids' 3x3 and a
+Winnipeg Symphony Orchestra instrument petting zoo, free bike valet all three
+days with free repairs Saturday and Sunday) came from the pre-event listings and
+the Winnipeg Pro Wrestling event page. Written in the past tense throughout,
+because 2026 has happened and 2027 is not announced.
+
+**2027.** No source anywhere gives 2027 dates. The post does not claim any. The
+`.info-box` is the single permitted guest-facing line and sends readers to
+downtownwinnipegbiz.com to confirm dates, footprint and programme.
+
+**Old ManyFest footprint.** City of Winnipeg street-closure notices: 2019 closed
+Broadway from Osborne Street North to Edmonton Street plus Memorial Boulevard
+and Kennedy Street from York Avenue to Broadway; the 2017 notice gives 5:30 p.m.
+Friday September 8 to 9 p.m. Sunday September 10. A CBC story records the 2023
+cancellation. These are the only Broadway specifics on the page and all are
+attributed to a year.
+
+**Graham Avenue.** City of Winnipeg "Reimagining Graham Avenue" plus reporting
+in The Manitoban and Global News: pedestrian-first pilot between Carlton Street
+and Garry Street launched June 2025 and continuing into 2026, with murals,
+lighting and street furniture; buses off most of Graham under the Primary
+Transit Network, the exception being Garry Street to Main Street where the D11
+and D12 run; motor traffic two-way from Fort Street to Main. Note the apparent
+tension between the festival footprint (Donald to Fort) and the pilot zone
+(Carlton to Garry); the post states each as its source gives it and does not
+reconcile them.
+
+**Sunset.** "Just before eight in the middle of September" is an astronomical
+fact for Winnipeg, not sourced to a listing, and is deliberately approximate.
+
+**Distance.** The 10 minutes / 3.9 km to the Canada Life Centre at 300 Portage
+Avenue is the verified figure from the AGENT-INSTRUCTIONS.md table. Graham
+Avenue being one block south of Portage is downtown street order. No drive time
+to Graham Avenue itself is claimed, since that destination is not in the table.
+
+**Image.** The Unsplash food-truck photo already in use on
+`blog-winnipeg-food-trucks.html`, reused because no file in `images/` shows a
+food truck, a street festival or Graham Avenue, and `images.unsplash.com` cannot
+be reached from this sandbox to verify a new URL. The True North Square photo
+was considered and rejected: it is dominated by glass towers, which house style
+bars.
+
 ## blog-winnipeg-summer-food-festivals.html (published 2026-10-27)
 
 **The queue entry put StrEAT Feast at the wrong venue.** The Events queue

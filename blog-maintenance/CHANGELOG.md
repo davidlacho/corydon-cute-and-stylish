@@ -7,6 +7,98 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-28
+
+**Businesses verified (6 ledger entries, the stalest in rotation, all dated
+2026-09-29):** all six trading. One page correction, on a location rather than a
+closure.
+
+- **Adventure Caving Bt.**, Budapest: **open.** The operator (Barlangaszat,
+  Szepvolgyi ut 162) still runs the Pal-volgyi/Matyas-hegyi adventure tour,
+  year-round and by advance booking, and resellers including Pelago and
+  Booking.com are still selling it. `blog-budapest-caving.html` names the team
+  and the guides and states no price or hours, so nothing on the page changed.
+  Prices quoted by resellers vary widely and none was added.
+- **Harth Mozza & Wine Bar**, 980 St Anne's Rd: **open.** Aggregator listings
+  carry current weekday hours (lunch service Tuesday to Thursday, dinner from
+  5 p.m.) and a MapQuest listing recommends reservations. Weekend hours could
+  not be pinned down, so none were added; neither
+  `blog-best-places-nearby-winnipeg.html` nor `blog-restaurants.html` states
+  hours and both were left as they are.
+- **Hy's Steakhouse**, 1 Lombard Pl: **open.** The chain's own Winnipeg page is
+  live with a reserve-a-table link and hours, Yelp was updated October 2026, and
+  the restaurant sits on the main floor of the Richardson Building at Portage
+  and Main. **Page corrected:** `blog-group-dining.html` described it as "on
+  Portage Avenue", which it is not; that now reads "in the Richardson Building
+  at Portage and Main". `blog-winnipeg-steakhouses-bbq.html` only says
+  "downtown" and was left alone. The ledger's blank address was filled with
+  1 Lombard Pl. Hours sources disagree (the official page, Yelp and Yellow Pages
+  all differ), so no hours were added anywhere.
+- **Ichiban Japanese Steakhouse & Sushi Bar**, 189 Carlton St: **open.** The
+  Lakeview Hotels page for the restaurant is live and lists dinner service
+  Wednesday to Sunday from 5 p.m.; Sluurpy gives seven days from 5 p.m. The two
+  disagree on Monday and Tuesday, so nothing was added to
+  `blog-group-dining.html`, which states no hours.
+- **Isekai Ramen**, 1039 Cathedral Ave: **open.** An active Uber Eats storefront
+  at that address with 28 ratings. No official hours found, and
+  `blog-winnipeg-coffee.html` states none, so the page was left unchanged.
+- **The Forks Market**, 1 Forks Market Rd: **open.** theforks.com gives the
+  building as open daily 7 a.m. to 10 p.m., with retail Sunday to Thursday 10 to
+  6 and Friday and Saturday 10 to 7, and the food hall Sunday to Thursday 11 to
+  9 and Friday and Saturday 11 to 10. Third-party listings give wider hours and
+  were discarded. None of the six pages naming the market states hours, so none
+  changed.
+
+**Ledger sweep:** `blog-late-night-bites-near-corydon.html` read and moved to
+"Swept". It names four commercial businesses, all already in the ledger: Santa
+Lucia Pizza (905 Corydon Ave), Bar Italia (737 Corydon Ave), The Roost (651
+Corydon Ave) and Tim Hortons (949 Corydon Ave). The filename was appended to
+each one's `pages` array so a future hours change or closure gets corrected on
+that post too. Nothing new added.
+
+**New post:** `blog-manyfest-winnipeg-the-weekender.html`, "ManyFest Winnipeg Is
+Now The Weekender: September on Graham", form **explainer**, from the first
+entry of the events queue.
+
+The queue entry assumed ManyFest still runs on Broadway in the second weekend of
+September. It does not. The 2023 edition was cancelled and the festival stayed
+away for several years; Downtown Winnipeg BIZ relaunched the format in September
+2026 as The Weekender, on Graham Avenue between Donald and Fort streets, free
+and licensed, with Manitoba Liquor & Lotteries presenting. The 2026 edition ran
+September 11 to 13 (Friday 4 p.m. to midnight, Saturday noon to midnight, Sunday
+noon to 8 p.m.) and is already past, so the post is written in the past tense and
+claims no 2027 date, because none is announced anywhere findable. The slug keeps
+"manyfest" so the dead search term lands on the live answer.
+
+Food Truck Wars survived the rename: 30-plus trucks, winners now chosen entirely
+by public vote rather than by judges and crowned live on stage Sunday, with about
+20 artisan market vendors alongside. The post also covers the nightly draws
+(Classic Car Show and Shine, a free Winnipeg Pro Wrestling card, Bachata), the
+3x3 basketball tournament with youth, adult and wheelchair divisions, the Family
+Zone, and the free bike valet. The Graham Avenue pedestrian pilot and the D11/D12
+transit exception explain why the festival moved off Broadway. No individual food
+truck or vendor is named, so the post added no ledger entries.
+
+`downtownwinnipegbiz.com` and `www.chrisd.ca` were both unreachable from this
+sandbox again (DNS ENOTFOUND through the agent proxy), so all of the above came
+from search-result summaries. Provenance is in `post-sources.md`.
+
+**pa11y (WCAG2AA):** 3 pages checked against a locally served copy,
+`blog-manyfest-winnipeg-the-weekender.html`, `blog.html` and
+`blog-group-dining.html`. All three returned "No issues found!", 0 failures, no
+re-test needed. The config recorded by yesterday's run works unchanged:
+`chromeLaunchConfig.executablePath` set to `/opt/pw-browsers/chromium` with
+`--no-sandbox`, because pa11y's bundled Chromium will not start as root.
+
+**Pages changed:** `blog-manyfest-winnipeg-the-weekender.html` (new),
+`blog-group-dining.html` (Hy's location), `blog.html` (noscript card and JSON-LD
+`blogPost` entry), `articles-data.js`, `articles_data.json`, `sitemap.xml`
+(new entry plus `lastmod` on `blog.html` and `blog-group-dining.html`),
+`llms.txt` (regenerated, 170 posts), `post-ideas.md`, `ledger-sweep.md`,
+`business-ledger.json`, `post-sources.md`.
+
+---
+
 ## 2026-10-27
 
 **Businesses verified (6 ledger entries, the stalest in rotation):** all six
