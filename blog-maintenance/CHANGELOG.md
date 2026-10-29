@@ -104,6 +104,15 @@ it and every page fails with "Running as root without --no-sandbox is not
 supported". The working file is:
 `{"standard":"WCAG2AA","timeout":60000,"chromeLaunchConfig":{"executablePath":"/opt/pw-browsers/chromium","args":["--no-sandbox","--disable-dev-shm-usage"]}}`.
 
+**Push and deploy:** committed on `main` as 6f7c20f and pushed with
+`git push origin HEAD:main`; local HEAD and `origin/main` verified to match.
+GitHub Pages deploy run 463 for that SHA completed with conclusion `success`,
+and the new post was confirmed present on `main` at the deployed SHA with its
+title, H1, six question headings, info-box and JSON-LD intact. The live site
+itself could not be fetched from this sandbox to confirm the rendered page: the
+agent proxy returns 403 on CONNECT for staywinnipeg.ca, the same limitation
+every recent run has recorded.
+
 **Pages changed:** `blog-reel-pride-film-festival-winnipeg.html` (new),
 `blog-hargrave-st-market.html` (Lake of the Woods Sunday hours, four mentions),
 `blog-best-places-nearby-winnipeg.html` (Nonsuch address and map link),
