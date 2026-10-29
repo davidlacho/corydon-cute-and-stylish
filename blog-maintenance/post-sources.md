@@ -16,6 +16,63 @@ Newest first.
 
 ---
 
+## blog-reel-pride-film-festival-winnipeg.html (published 2026-10-29)
+
+Last entry of the events queue. Written on 2026-10-29, after the 2026 edition
+had already run.
+
+- **41st annual edition, September 16 to 20, 2026, five days:** the festival's
+  own Festival 2026 page at reelpride.ca, corroborated by an Eventbrite listing
+  for "The 2026 Reel Pride Arts and International Film Festival, Wednesday
+  September 16 to Sunday September 20" and by a Manitoban piece headlined "Reel
+  Pride Film Festival kicks off on Sept. 16" dated September 2026.
+- **Venues:** Gas Station Arts Centre, 445 River Avenue, as the main venue, with
+  the closing weekend at the Canadian Museum for Human Rights, from reelpride.ca
+  and humanrights.ca. **The two disagree on the split.** reelpride.ca has the
+  Gas Station on September 16 to 19 and the museum on September 20 only;
+  humanrights.ca lists museum screenings on both September 19 and 20 at 1 p.m.
+  and 2 p.m., and The Uniter agrees with the museum. The post therefore states
+  that the closing weekend moves to the museum and that the exact slots have
+  shifted between editions, and tells the reader to check the schedule, rather
+  than publishing either split as fact.
+- **Tickets:** single screenings and full festival passes sold through
+  reelpride.ca. Museum screenings at $10 plus fees per projection, from
+  humanrights.ca; that is the only price in the post, and the museum is named as
+  its source on the page. An Eventbrite listing showed a $12.06 to $65.40 range
+  and the Winnipeg Film Group carried a $50 pass and $10 single from an earlier
+  year; neither was used, because neither is the organiser's current published
+  price.
+- **Programme:** nine features from Japan, Chile, France, Spain, Canada and the
+  United States, and a short film competition, from reelpride.ca. The 75
+  submissions to the short film call and the closing Canadian premiere of *The
+  Mysterious Gaze of the Flamingo* at 2 p.m. at the museum, from a Classic 107
+  article on the 2026 festival. The Short Film Celebration being held at the
+  museum is on humanrights.ca.
+- **Transit:** Winnipeg Transit route 16, the Selkirk-Osborne, with a northbound
+  Osborne stop at River, from the Transit app's stop list for route 16. No
+  frequency or last-bus time was stated, because none was sourced.
+- **Walk and drive from the house:** 23 minutes and 1.6 km on foot to the Gas
+  Station Arts Centre, same side of the Assiniboine, no bridge, mostly flat; and
+  10 minutes and 3.9 km to The Forks for the museum end. Both are from the
+  verified distance table in `AGENT-INSTRUCTIONS.md`, not re-estimated.
+- **Daylight:** sunset in Winnipeg around 7:40 p.m. in mid-September. Two
+  independent almanac tables were consulted; they give 7:35 p.m. on September 18
+  and 7:42 p.m. on September 15, so the post rounds to "around 7:40" rather than
+  quoting a single date.
+- **No 2027 date is stated anywhere in the post.** None is announced on any
+  source reachable from here, and the festival publishes its programme only
+  weeks ahead. The post says the 2026 dates have passed and tells the reader to
+  hold the third week of September loosely.
+- **Blocked at the egress proxy** (DNS ENOTFOUND through the agent proxy):
+  `reelpride.ca`, `themanitoban.com`, `lowbrewco.com`, `nonsuch.beer`. All of
+  the above came from search-result summaries of those pages rather than from
+  the pages themselves.
+- **No commercial business is named in the post**, only the Gas Station Arts
+  Centre and the Canadian Museum for Human Rights, both institutions, so it
+  added no business-ledger entries.
+
+---
+
 ## blog-manyfest-winnipeg-the-weekender.html (published 2026-10-28)
 
 Written from the events queue entry "manyfest-winnipeg - ManyFest on Broadway:

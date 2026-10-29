@@ -7,6 +7,114 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-29
+
+**Businesses verified (6 ledger entries, the stalest in rotation, five dated
+2026-09-30 and one 2026-10-01):** all six trading. Two page corrections, neither
+of them a closure.
+
+- **King's Head Pub**, 120 King St: **open.** kingshead.ca is live, and Yelp's
+  listing for 120 King Street was updated in October 2026 with 86 reviews. The
+  pub's own site advertises daily and monthly specials and live music on
+  weekends; an independent venue-booking listing puts concerts Thursday to
+  Saturday. The two disagree on which nights, so no schedule was added to either
+  `blog-24-hour-winnipeg-budget.html` or `blog-group-dining.html`. The budget
+  post's "$12-16, often live music" is hedged already and was left alone.
+- **Kitchen Sync**, Unit A, 370 Donald St: **open.** Still listed as a licensed
+  commercial kitchen and event space in the Sports Hospitality Entertainment
+  District, rentable by the hour, and a ticketed dinner event ran there in April
+  2026. Capacity figures differ across listings (56, 60 and 100);
+  `blog-winnipeg-event-venues.html` states 100 for receptions and 54 seated,
+  which is within the range the sources give, so it was left as it is.
+- **Kum Koon Garden**, 257 King St: **open.** Still trading in Chinatown with
+  cart dim sum, an active phone number and a stream of reviews. Hours could not
+  be pinned down (one listing shows 11 a.m. to 3 p.m. and 4:30 to 11 p.m., a
+  MapQuest snapshot showed it closed), and `blog-restaurants.html` states none,
+  so nothing changed there.
+- **La Brasserie Nonsuch Brewing Co.**, 125 Pacific Ave: **open.** The taproom
+  is live at 125 Pacific Ave in the Exchange District, the former PEG Beer Co.
+  building, and the Exchange District business directory carries the same
+  address. **Page corrected:** `blog-best-places-nearby-winnipeg.html` had
+  Nonsuch at "125 Fort St, Winnipeg", with the Google Maps link pointing at that
+  wrong address and postal code; both the visible text and the map query now
+  read 125 Pacific Ave, R3B 0M1. Taproom hours differ between listings
+  (Tuesday to Saturday on most, one OpenTable page showing Sunday), and the
+  brewery closes the room for private events, so no hours were added anywhere.
+- **Lake of the Woods Brewing Company (Hargrave St. Market)**, 242 Hargrave St:
+  **open.** The brewery's own Winnipeg taproom page is live and recently updated,
+  with the taproom on the main floor of True North Square and an entrance off
+  Carlton Street. **Page corrected:** `blog-hargrave-st-market.html` stated
+  Sunday hours of 12 p.m. to 8 p.m. as a definite fact in four places, and built
+  a "Sunday afternoon destination" recommendation on it. The brewery's own
+  listing now has the taproom closed on Sundays apart from some Canada Life
+  Centre event days, while third-party directories still show the Sunday
+  afternoon opening. All four mentions were rewritten to say Sunday opening is
+  not guaranteed and to confirm with the brewery; no hours are now asserted.
+- **Little Brown Jug Brewing Company**, 336 William Ave: **open.** A Doors Open
+  Winnipeg 2026 listing for 336 William Avenue describes the 1927 former livery
+  stable as housing a brewery and taproom, with a modernised taproom and a
+  redesigned patio, and an active venue listing carries the address and phone
+  number. No current hours were found for the William Avenue room and neither
+  `blog-winnipeg-event-venues.html` nor `blog-best-places-nearby-winnipeg.html`
+  states any, so nothing changed.
+
+**Ledger sweep:** `blog-lisbon-2015.html` read and moved to "Swept". It is a
+hosting-philosophy essay about a 2015 apartment stay and names no commercial
+business at all, in Lisbon or in Winnipeg, and no address. Nothing added.
+
+**New post:** `blog-reel-pride-film-festival-winnipeg.html`, "Reel Pride Film
+Festival Winnipeg: Dates and Venues", form **question and answer**, from the
+last entry of the events queue.
+
+The 2026 edition was the 41st and ran September 16 to 20, 2026, so it is already
+past and the post says so in its second line rather than implying a festival the
+reader can still book. No 2027 date is stated, because none is announced
+anywhere reachable. The post covers the two venues (Gas Station Arts Centre at
+445 River Avenue as the main room, with the closing weekend at the Canadian
+Museum for Human Rights), how tickets and passes work, the 2026 programme of
+nine features from six countries plus a short film competition that drew 75
+submissions, route 16 Selkirk-Osborne stopping at Osborne and River, and
+mid-September daylight. reelpride.ca and humanrights.ca disagree on which of the
+Saturday and Sunday slots sit at the museum, so the post states that the closing
+weekend moves there and that the slots have shifted, and sends the reader to the
+schedule rather than publishing one split as fact. The only price on the page is
+the museum's own $10 plus fees per projection, with the museum named as its
+source. The post names no commercial business, only the two venues, which are
+institutions, so it added no ledger entries. Hero photo is
+`images/human-rights-museum.jpg`, a real photo of one of the two festival
+venues.
+
+**The events queue is now empty and the section has been deleted from
+`post-ideas.md`**, as the playbook directs. The next run resumes the general
+Queue, whose top entry is `manitoba-museum-planetarium-guide`.
+
+`reelpride.ca`, `themanitoban.com`, `lowbrewco.com` and `nonsuch.beer` were all
+unreachable from this sandbox (DNS ENOTFOUND through the agent proxy), so every
+fact above came from search-result summaries rather than the pages themselves.
+Provenance is in `post-sources.md`.
+
+**pa11y (WCAG2AA):** 4 pages checked against a locally served copy,
+`blog-reel-pride-film-festival-winnipeg.html`, `blog.html`,
+`blog-hargrave-st-market.html` and `blog-best-places-nearby-winnipeg.html`. All
+four returned "No issues found!", 0 failures, no re-test needed; the new post was
+re-checked after a late wording change and passed again. One config note for
+future runs: pa11y's `--config` file must carry `chromeLaunchConfig` at the top
+level, not nested under a `defaults` key. Nested under `defaults` the CLI ignores
+it and every page fails with "Running as root without --no-sandbox is not
+supported". The working file is:
+`{"standard":"WCAG2AA","timeout":60000,"chromeLaunchConfig":{"executablePath":"/opt/pw-browsers/chromium","args":["--no-sandbox","--disable-dev-shm-usage"]}}`.
+
+**Pages changed:** `blog-reel-pride-film-festival-winnipeg.html` (new),
+`blog-hargrave-st-market.html` (Lake of the Woods Sunday hours, four mentions),
+`blog-best-places-nearby-winnipeg.html` (Nonsuch address and map link),
+`blog.html` (noscript card and JSON-LD `blogPost` entry), `articles-data.js`,
+`articles_data.json`, `sitemap.xml` (new entry plus `lastmod` on `blog.html`,
+`blog-hargrave-st-market.html` and `blog-best-places-nearby-winnipeg.html`),
+`llms.txt` (regenerated, 171 posts), `post-ideas.md` (events queue section
+deleted), `ledger-sweep.md`, `business-ledger.json`, `post-sources.md`.
+
+---
+
 ## 2026-10-28
 
 **Businesses verified (6 ledger entries, the stalest in rotation, all dated
