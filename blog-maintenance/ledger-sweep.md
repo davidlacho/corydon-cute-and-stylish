@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-little-free-libraries.html
 - blog-little-italy-half-day-walking-loop.html
 - blog-marseille-trip-gone-wrong.html
 - blog-mattress-pillow-protectors.html
@@ -122,6 +121,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-10-30 - blog-little-free-libraries.html (an explainer about the Little Free Library movement and the book boxes in Winnipeg front yards. It names the Little Free Library organisation and littlefreelibrary.org, a non-profit rather than a commercial business, and no restaurant, cafe, shop, bakery or operator anywhere in the text. Nothing to add to the ledger and no "pages" array to extend.)
 - 2026-10-29 - blog-lisbon-2015.html (a hosting-philosophy essay about a 2015 apartment stay in Lisbon and what it taught us about furnishing the Winnipeg house. It names no commercial business at all, in Lisbon or in Winnipeg: no restaurant, cafe, bar, shop or operator, and no address. Nothing to add to the ledger and no "pages" array to extend.)
 - 2026-10-28 - blog-late-night-bites-near-corydon.html (four commercial businesses named, all four already in the ledger: Santa Lucia Pizza at 905 Corydon Ave, Bar Italia at 737 Corydon Ave, The Roost at 651 Corydon Ave and Tim Hortons at 949 Corydon Ave. This filename was appended to the "pages" array of each, so a future closure or hours change gets corrected on this post too. Nothing new added.)
 - 2026-10-27 - blog-human-rights-museum.html (no commercial businesses named. The post covers the Canadian Museum for Human Rights itself, its architect Antoine Predock, the Tower of Hope and the permanent galleries, plus The Forks as the site it sits on; museums, parks and public sites are institutions rather than ledger entries, and the post names no restaurant, cafe, shop or tour operator. Nothing to add.)

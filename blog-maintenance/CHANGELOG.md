@@ -7,6 +7,89 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-30
+
+**Businesses verified (6 ledger entries, the stalest in rotation, all dated
+2026-10-01):** four trading, two confirmed still closed. Three page corrections,
+none of them a new closure.
+
+- **Little Sister Coffee Maker**, 470 River Ave: **open**, and it runs two
+  rooms rather than one. The shop's own site lists 470 River Avenue, its
+  original subterranean space off Osborne Village, Monday to Friday and not
+  wheelchair accessible, and 539 Osborne Street, wheelchair accessible and
+  open seven days. A Yelp listing for River Avenue was updated in May 2026.
+  Neither room's listed hours run into the evening. **Two pages corrected:**
+  `blog-24-hour-winnipeg-budget.html` had it in a 9 p.m. "dessert or evening
+  coffee" list, which it cannot serve, so that line was removed;
+  `blog-winnipeg-osborne-village-guide.html` said it "stays open through the
+  evening", now rewritten to say it opens early and runs through the afternoon.
+  No hours are asserted on either page. The ledger address now records both
+  locations.
+- **Luda's Deli**, 410 Aberdeen Ave: **open.** Its own site is live and dates
+  the business to 1987, and a March 2026 discussion thread names it among the
+  city's mom-and-pop restaurants. A MapQuest listing shows "Closed" with no
+  date, which reads as a crawl-time hours snapshot rather than a closure.
+  `blog-best-places-nearby-winnipeg.html` states no hours, so nothing changed.
+- **MAKE Coffee + Stuff**, 751 Corydon Ave: **still closed.** A local thread
+  from April 2026 puts the closure at the end of March, and directory listings
+  that still carry the address and hours have no closure date and look stale.
+  The site no longer references it anywhere; the ledger entry stays as the
+  record. No page change.
+- **Manoomin Restaurant**, 460 Madison St: **open.** A Travel Manitoba feature
+  from April 2026 describes it operating inside the Wyndham Garden Winnipeg
+  Airport Hotel on Madison Street, with Red Seal Chef Jennifer Ballantyne still
+  leading the kitchen. **Page corrected:** `blog-indigenous-winnipeg.html`
+  stated hours of "Daily, 6:30 AM to 9 PM" as fact; those trace to a 2024
+  college alumni profile and could not be confirmed for 2026, so the line now
+  tells the reader to confirm the day's hours with the hotel.
+- **Marion Street Eatery**, 393 Marion St: **still closed**, as recorded. CTV
+  covered the announcement and the end-of-May closure. Both pages that mention
+  it, `blog-restaurants.html` and `blog-winnipeg-brunch-breakfast.html`, already
+  describe it in the past tense and name Roasted Nomad as the room's current
+  occupant, which matches the listings. No page change.
+- **Miss Browns (Hargrave St. Market)**, 242 Hargrave St: **unverified.**
+  Nothing dated 2026 confirms the Hargrave St. Market location one way or the
+  other. An events listing places a Miss Browns in the Exchange District at 288
+  William Avenue, and an Airbnb page flags 242 Hargrave as permanently closed,
+  but its reviews are from 2017 and 2018, which predates the food hall and so
+  describes a different tenant. Treated as unchanged per the playbook;
+  `blog-hargrave-st-market.html` was left exactly as it is. This one wants a
+  look next rotation.
+
+**Ledger backfill sweep:** `blog-little-free-libraries.html`. It names the
+Little Free Library organisation and littlefreelibrary.org, a non-profit, and no
+commercial business anywhere in the text. Nothing added; moved to "Swept".
+
+**New post:** `blog-manitoba-museum-planetarium-guide.html`, "Manitoba Museum
+Winnipeg: A Walk Through the Galleries". The first entry of the general Queue,
+taken up now that the Events queue is empty. It had been skipped on more than
+ten runs since 2026-08-23, every time because no local photo shows the museum
+and images.unsplash.com is unreachable from this sandbox; both it and
+manitobamuseum.ca were refused again this run at the proxy's CONNECT stage. The
+blocker was resolved rather than deferred again: the hero is
+`images/city-hall-council-building-2021.jpg`, a real landscape photo of Winnipeg
+City Hall at 510 Main Street, which stands directly across Main Street from the
+museum and is the first landmark on the post's route, with alt text describing
+City Hall rather than implying it is the museum.
+
+Form is **walk**, a route through the building in the order the galleries come,
+chosen by the rotation rule over the previous three posts (question and answer,
+explainer, comparison). Facts came from search results quoting the museum's own
+gallery, planetarium and admission pages, and from the Centennial Concert Hall's
+own transit page for routes FX2, FX3, F8, D16 and 43 and stops 10629 and 10635.
+No prices and no clock times are stated, the museum's founding date is left out
+because sources conflict between 1932 and 1970, and because the museum is not in
+the playbook's verified distance table the post gives no drive time to it. The
+post names no commercial business, so no ledger entries were added for it.
+
+**Registered:** `articles-data.js`, `articles_data.json`, the `blog.html`
+noscript card and JSON-LD `blogPost` array, `sitemap.xml`, and `llms.txt` via
+`blog-maintenance/update-llms.py` (172 posts). Sitemap `lastmod` bumped to
+2026-10-30 for `blog.html` and the three corrected pages. Provenance recorded in
+`post-sources.md`.
+
+---
+
 ## 2026-10-29
 
 **Businesses verified (6 ledger entries, the stalest in rotation, five dated

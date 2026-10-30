@@ -656,7 +656,7 @@
     },
     {
       "name": "Little Sister Coffee Maker",
-      "address": "470 River Ave",
+      "address": "470 River Ave; second location 539 Osborne St",
       "pages": [
         "blog-24-hour-winnipeg-budget.html",
         "blog-best-places-nearby-winnipeg.html",
@@ -664,7 +664,7 @@
         "blog-winnipeg-osborne-village-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-01"
+      "last_verified": "2026-10-30"
     },
     {
       "name": "Luda's Deli",
@@ -673,7 +673,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-01"
+      "last_verified": "2026-10-30"
     },
     {
       "name": "MAKE Coffee + Stuff",
@@ -682,7 +682,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "closed",
-      "last_verified": "2026-10-01"
+      "last_verified": "2026-10-30"
     },
     {
       "name": "Manoomin Restaurant",
@@ -691,7 +691,7 @@
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-01"
+      "last_verified": "2026-10-30"
     },
     {
       "name": "Marion Street Eatery",
@@ -701,7 +701,7 @@
         "blog-winnipeg-brunch-breakfast.html"
       ],
       "status": "closed",
-      "last_verified": "2026-10-01"
+      "last_verified": "2026-10-30"
     },
     {
       "name": "Miss Browns (Hargrave St. Market)",
@@ -710,7 +710,7 @@
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-01"
+      "last_verified": "2026-10-30"
     },
     {
       "name": "Nucci's Gelati",

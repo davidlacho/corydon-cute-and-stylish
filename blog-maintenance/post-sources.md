@@ -16,6 +16,103 @@ Newest first.
 
 ---
 
+## blog-manitoba-museum-planetarium-guide.html (published 2026-10-30)
+
+First entry of the general Queue, taken up after the Events queue emptied on
+2026-10-29. The idea had sat at the top of the queue since 2026-08-23 and was
+skipped on more than ten runs because no local photo depicts the museum and
+images.unsplash.com has been unreachable from this sandbox throughout. Resolved
+this run by using images/city-hall-council-building-2021.jpg, a real photo of
+Winnipeg City Hall at 510 Main Street, which stands directly across Main Street
+from the museum and is the first thing the post's route passes. The alt text
+says what the photo actually shows rather than implying it is the museum.
+manitobamuseum.ca itself is still blocked at the proxy's CONNECT stage, so every
+fact below came through web search results quoting the museum's own pages, not
+from fetching them.
+
+- **Address 190 Rupert Avenue, across Main Street from City Hall, adjacent to
+  the Centennial Concert Hall:** the museum's own Plan Your Visit page and
+  Tourism Winnipeg's attraction listing.
+- **Nine galleries and their order (Welcome, Earth History, Arctic/Subarctic,
+  Boreal Forest, Nonsuch, HBC, Parklands, Prairies, Winnipeg):** the museum's
+  own Museum Galleries index. Attractions Canada still lists the old
+  "Orientation Gallery" name and was not used.
+- **One pass covers the museum, Planetarium and Science Gallery; single
+  attraction tickets and individual Planetarium show tickets are not sold:**
+  the museum's own admission wording, quoted in search results. No price was
+  stated anywhere in the post, because none could be confirmed.
+- **Planetarium runs Tuesday to Sunday and is closed Mondays; Tuesday to Friday
+  two shows, late morning and mid-afternoon; weekends add more from about
+  eleven; doors ten minutes before; first come, first served:** the museum's
+  own Planetarium page. The post deliberately gives these as "late morning and
+  mid-afternoon" rather than clock times, and the info-box sends the reader to
+  manitobamuseum.ca, because the rotation changes by season.
+- **Welcome Gallery bison; Arctic/Sub-Arctic polar bear and caribou herd;
+  Parklands 27-metre wraparound painted mural; Earth History Ordovician
+  fossils and a Cretaceous pliosaur from about 90 million years ago:** the
+  museum's gallery pages and its Parklands Gallery page. One third-party guide
+  said "nearly 80 million years" for the marine reptiles; the museum's own
+  figure of about 90 million was used.
+- **Nonsuch: full-size replica of the 17th-century ketch, set in a recreated
+  1660s Deptford quayside, sailed about 14,000 km, arrived 1974, the 1668
+  voyage led to the founding of the Hudson's Bay Company:** the museum's own
+  Nonsuch Gallery page.
+- **Winnipeg Gallery created in 2019, an autumn evening in 1920:** the museum's
+  gallery page for its 2019 capital renewal, plus secondary guides describing
+  the 1920s streetscape.
+- **Science Gallery opened 2008 with more than 100 hands-on exhibits,
+  replacing Touch the Universe:** the museum's Science Gallery page.
+- **Transit routes FX2, FX3, F8, D16 and 43; northbound stop 10629 at Main and
+  James in front of the Concert Hall; southbound stop 10635 at Main and
+  William by City Hall:** the Centennial Concert Hall's own Location, Transit
+  and Parking page. Moovit's route lists disagreed with themselves (21 in one
+  place, 47 in another) and were not used. The two-to-three-minute walk from
+  stop 10629 to the museum is Moovit's figure and matches the block layout.
+- **Museum founding date deliberately omitted:** sources conflict, one giving
+  1970 for Manitoba's centenary and another 1932 for the Manitoba Museum of
+  Man and Nature, and nothing in the post depends on it.
+- **Clocks going back at the start of November and sunset before five in
+  Winnipeg afterwards:** astronomical, not sourced from a listing.
+- **Portage and Main at 9 minutes / 3.9 km by car:** the verified distance
+  table in AGENT-INSTRUCTIONS.md. The museum itself is not in that table, so
+  the post gives no drive time to it and only says it sits a few blocks north
+  of that corner on the same street. The D19 to Kennedy Street and the
+  fifteen-minute walk east and north to Main match what
+  blog-rwb-nutcracker-winnipeg.html already states for the Concert Hall, which
+  is the same block.
+- **Three-bedroom house:** the house-facts rule in AGENT-INSTRUCTIONS.md.
+
+Form: **walk**, a route through the building in the order the galleries come,
+with headings naming actual galleries and no bullet lists. Chosen by the
+rotation rule: the previous three posts were reel-pride-film-festival-winnipeg
+(question and answer, 2026-10-29), manyfest-winnipeg-the-weekender (explainer,
+2026-10-28) and winnipeg-summer-food-festivals (comparison, 2026-10-27), so
+walk, one-day plan, ranked short list and host's notes were all free.
+
+---
+
+## blog-business-ledger corrections 2026-10-30
+
+Three page corrections made during this run's ledger rotation.
+
+- **Little Sister Coffee Maker:** open, and it has two locations, not one. The
+  shop's own site lists 470 River Avenue (its original 2014 subterranean space,
+  Monday to Friday, not wheelchair accessible) and 539 Osborne Street
+  (wheelchair accessible, seven days). Neither set of hours runs into the
+  evening. `blog-24-hour-winnipeg-budget.html` listed it under a 9 p.m.
+  "evening coffee" heading, so that line was removed;
+  `blog-winnipeg-osborne-village-guide.html` said it "stays open through the
+  evening", which was rewritten to say it runs through the afternoon. No hours
+  are asserted on either page now. The ledger's address field now records both
+  addresses.
+- **Manoomin Restaurant:** open, confirmed by a Travel Manitoba feature from
+  April 2026 describing it inside the Wyndham Garden Winnipeg Airport Hotel on
+  Madison Street. `blog-indigenous-winnipeg.html` stated hours of "Daily, 6:30
+  AM to 9 PM", which trace to a Red River College alumni profile from 2024.
+  Those were replaced with a line telling the reader to confirm with the hotel.
+
+---
+
 ## blog-reel-pride-film-festival-winnipeg.html (published 2026-10-29)
 
 Last entry of the events queue. Written on 2026-10-29, after the 2026 edition

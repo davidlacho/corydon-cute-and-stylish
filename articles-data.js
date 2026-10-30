@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-manitoba-museum-planetarium-guide.html",
+    "category": "winnipeg",
+    "date": "2026-10-30",
+    "title": "Manitoba Museum Winnipeg: A Walk Through the Galleries",
+    "image": "images/city-hall-council-building-2021.jpg",
+    "imageAlt": "Winnipeg City Hall on Main Street, the low council building with flagpoles out front, across the road from the Manitoba Museum",
+    "description": "The Manitoba Museum holds nine galleries, a planetarium and a science gallery on one pass. A route through them in order, with transit, timing and the Nonsuch.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>October 30, 2026</span>"
+  },
+  {
     "url": "/blog-reel-pride-film-festival-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-10-29",
