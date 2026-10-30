@@ -88,6 +88,19 @@ noscript card and JSON-LD `blogPost` array, `sitemap.xml`, and `llms.txt` via
 2026-10-30 for `blog.html` and the three corrected pages. Provenance recorded in
 `post-sources.md`.
 
+**pa11y (WCAG2AA):** clean on all five changed pages. staywinnipeg.ca is still
+unreachable from this sandbox, so the pages were served from the working tree on
+127.0.0.1 and tested there with pa11y driving the pre-installed Chromium.
+`blog-manitoba-museum-planetarium-guide.html`, `blog.html`,
+`blog-24-hour-winnipeg-budget.html`, `blog-indigenous-winnipeg.html` and
+`blog-winnipeg-osborne-village-guide.html`: no issues found, 0 errors each.
+
+**Push and deploy:** pushed to `main` as 822479b and verified HEAD matches
+origin/main. Pages deploy run 465 for that SHA completed with conclusion
+success, and the new post is present on main at the deployed SHA. The live
+render could not be confirmed directly, since the sandbox cannot reach
+staywinnipeg.ca.
+
 ---
 
 ## 2026-10-29
