@@ -106,6 +106,15 @@ noscript card and `blogPost` JSON-LD entry, `sitemap.xml` (new URL plus
 `blog-sweet-tooth-crawl-corydon-desserts.html`), and `llms.txt` regenerated
 with `update-llms.py` (173 posts).
 
+**pa11y, push and deploy:** pa11y WCAG2AA reported no issues on all four
+changed pages (the new post, `blog.html`, `blog-24-hour-winnipeg-budget.html`,
+`blog-sweet-tooth-crawl-corydon-desserts.html`), tested against a local server
+because staywinnipeg.ca is unreachable from the sandbox. Pushed to `main` as
+2b13ab2 and verified HEAD matches origin/main. Pages deploy run 467 for that
+SHA finished with all three jobs, build, deploy and report-build-status,
+successful. The live URL could not be fetched from here, but the post is
+present on `main` at the deployed SHA.
+
 ---
 
 ## 2026-10-30
