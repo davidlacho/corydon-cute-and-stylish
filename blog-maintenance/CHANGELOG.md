@@ -7,6 +7,107 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-10-31
+
+**Businesses verified (6 ledger entries, the stalest in rotation, dated
+2026-10-01 and 2026-10-04):** all six trading. Two page corrections, neither of
+them a closure; both were hours asserted on a page that the sources do not
+support.
+
+- **Roasted Nomad**, 393 Marion St: **open.** A food blog review published
+  2026-09-08 describes three attempts to get a table and then a full breakfast
+  there, and listings give Tuesday to Sunday, roughly 8 a.m. to 2:30 p.m., no
+  reservations, in the former Marion Street Eatery room under an owner who
+  worked at the old restaurant. That matches what `blog-restaurants.html` and
+  `blog-winnipeg-brunch-breakfast.html` already say. No page change.
+- **Nucci's Gelati**, 643 Corydon Ave: **open, and seasonal.** Its own posts
+  through April to July 2026 announce the start of gelato season, extended
+  hours from June 1 of 11 a.m. to 11 p.m. weekdays and noon to 11 p.m.
+  weekends, and a 50th-anniversary celebration. Its Facebook page states
+  outright that hours change every season. **Page corrected:**
+  `blog-sweet-tooth-crawl-corydon-desserts.html` presented those summer hours
+  as the year-round schedule ("open daily, roughly 11am to 11pm on weekdays");
+  that line now says hours change with the season, that the late-evening
+  schedule belongs to summer, and that a reader should check before walking
+  over in the colder months. No hours are asserted.
+- **Old Gold Vintage Vinyl**, 187 Osborne St: **open.** A 2026 record-shop
+  guide ranks it fifth among the city's independent shops at 4.8 from 82 Google
+  reviews, and directory listings carry the Osborne address and a working
+  phone. `blog-winnipeg-osborne-village-guide.html` states no hours. No page
+  change.
+- **Parcel Pizza**, 221-A Stradbrook Ave: **open.** Listings, delivery
+  platforms and a local blog all describe it trading at that address; a
+  MapQuest "Closed" label has no date and reads as an hours snapshot. No
+  closure or relocation reported. `blog-winnipeg-pizza-guide.html` states no
+  hours. No page change.
+- **Park Café (Qualico Family Centre)**, Assiniboine Park: **open.** A Travel
+  Manitoba directory listing and a 2026 Tripadvisor review both have it
+  trading. The ledger address was blank and is now filled in as 330 Assiniboine
+  Park Dr from the Travel Manitoba listing. `blog-group-dining.html` states no
+  hours. No page change.
+- **Parlour Coffee**, 468 Main St: **open**, with one dissenting signal worth
+  recording. Yelp's listing was updated in October 2026 and shows weekday hours
+  of 7 a.m. to 5 p.m.; Tripadvisor carries 2026 pages; the shop changed hands a
+  few years ago and has kept trading. Against that, Apple Maps flags 468 Main
+  St as permanently closed, with no date, and parlourcoffee.ca could not be
+  reached from this sandbox (every outbound host beyond web search is refused
+  at the proxy), so the site itself could not be checked. Treated as open on
+  the weight of the dated listings. **Page corrected:** the daytime hours are
+  the point. `blog-24-hour-winnipeg-budget.html` listed Parlour as a 9 p.m.
+  "dessert or evening coffee" stop, which it cannot serve; that entry is
+  removed, the heading is now "9:00 PM - Dessert", and the paragraph tells the
+  reader that the Exchange District's specialty cafes keep daytime hours and
+  are shut by then. This is the same error the 2026-10-30 run fixed for Little
+  Sister Coffee Maker on the same page, so the rest of that page's evening
+  claims are worth a look next time it comes up.
+
+**Ledger backfill sweep:** `blog-little-italy-half-day-walking-loop.html`. It
+names eight commercial businesses, all with addresses in the text: The Roost,
+Sushi Ya, Colosseo Ristorante Italiano, Thom Bargen Coffee Roasters, The
+Cheesemongers Fromagerie, Bar Italia, Passero Restaurant and Sugar + Salt
+Bakeshoppe. Every one already had a ledger entry from an earlier post, so
+nothing new was added; the filename was appended to all eight `pages` arrays so
+a future closure correction reaches this post too. Moved to "Swept".
+
+**New post:** `blog-grand-beach-day-trip.html`, "Grand Beach Day Trip From
+Winnipeg: An Hour-by-Hour Plan". First entry of the general Queue. Written as a
+one-day plan, eight clock-time headings from a 7:30 a.m. departure to the drive
+south on Highway 59, each saying what that hour costs; the previous three posts
+were a walk, a question and answer and an explainer, so the form was open. The
+spine of it is the province's own statement that more than 20,000 people may be
+in the park on a hot sunny weekend, filling the lots, which is the argument for
+leaving early. Permit prices come from the provincial fee listing and a second
+2026 price table that agree: $9.50 daily, $16.50 for three consecutive days,
+$44.50 annual to April 30 2027, printed and displayed in the front window,
+required again since the free-admission period ended on 2026-03-31. Dune
+height, whether lifeguards are posted, and summer water temperature are all
+left out because the sources contradict each other or could not be confirmed,
+and no drive time from the house appears anywhere in the post, since Grand
+Beach is not in the playbook's verified distance table and mapping sites are
+unreachable here. Full provenance in `post-sources.md`.
+
+**Image limitation, recorded for a future run:** no photo in `images/` shows a
+lakeshore, and images.unsplash.com, unsplash.com and both Wikimedia hosts are
+refused at the proxy from this sandbox, so no new photo could be looked at
+before being used. The hero reuses the Unsplash day-trip photo already live on
+`blog-day-trips-near-winnipeg-from-corydon.html`, carrying that post's own alt
+text forward rather than inventing a description of an image that could not be
+seen. A run with working image access should swap in a real Lake Winnipeg
+shoreline photo. While checking the local files for a candidate, one unrelated
+problem turned up and was left alone: `images/forks-river.jpg` is a photo of
+the Esplanade Riel towers and the Canadian Museum for Human Rights with no
+river in frame, but `blog-st-boniface-walking-guide.html` captions it as the
+Red River.
+
+**Registered:** `articles-data.js`, `articles_data.json`, the `blog.html`
+noscript card and `blogPost` JSON-LD entry, `sitemap.xml` (new URL plus
+`lastmod` bumped to 2026-10-31 for `blog.html`,
+`blog-24-hour-winnipeg-budget.html` and
+`blog-sweet-tooth-crawl-corydon-desserts.html`), and `llms.txt` regenerated
+with `update-llms.py` (173 posts).
+
+---
+
 ## 2026-10-30
 
 **Businesses verified (6 ledger entries, the stalest in rotation, all dated

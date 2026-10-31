@@ -16,6 +16,80 @@ Newest first.
 
 ---
 
+## blog-grand-beach-day-trip.html (published 2026-10-31)
+
+First entry of the general Queue. Written as a one-day plan because the whole
+day turns on the departure hour, and because walk, question and answer and
+explainer were the forms of the previous three posts.
+
+Facts used, and where they came from:
+
+- **Distance and route.** About 95 km by road: Highway 59 north for roughly 80
+  km, then Provincial Road 12 east about 6 km to the park entrance (EH Canada
+  Travel's park page). Mapping and itinerary sites give 1 h 18 min to 1 h 24 min
+  (alldistancebetween.com, rome2rio); tourism pages round it to an hour to
+  ninety minutes. The post says "an hour and twenty minutes or so" and names the
+  rounding rather than picking one number.
+- **Crowding.** "On sunny, hot weekends more than 20,000 visitors may fill the
+  campground, picnic sites and parking lots" comes from the Manitoba
+  government's own Grand Beach Provincial Park information PDF
+  (manitoba.ca/sd/pubs/parks-protected-spaces/park_info/grand_beach_pp.pdf).
+  This is the single strongest fact in the post and the reason the 7:30 a.m.
+  departure is the lead.
+- **Vehicle permits.** $9.50 daily, $16.50 casual (three consecutive days),
+  $44.50 annual valid to April 30 2027; GST included. Two independent sources
+  agree: the provincial fee listing (gov.mb.ca/elicensing/fees.html, effective
+  April 1 2026) and Explorer Canada's 2026 price table. Permits must be printed
+  and displayed in the front window from May 1 2026; the free-admission period
+  ran April 1 2025 to March 31 2026 and has ended. Review sites still quoting
+  $5 or $9 were not used.
+- **West Beach and East Beach.** West has the boardwalk, concessions and shops
+  and is the busier side; East is the quiet one (Wikipedia's Grand Beach entry,
+  a Tripadvisor reviewer, and a tourism summary all agree).
+- **Shallow water.** A reviewer's "water is not deep at all for a long distance
+  from the edge" plus the park's own description of the beach. No water
+  temperature is stated: the only figure found (20 to 23 C by midsummer) came
+  from a generic aggregator and could not be confirmed.
+- **Ancient Beach Trail.** Self-guiding loop of about 2.1 km, allow one hour
+  (grandbeachtourism.com's things-to-do page).
+- **The lagoon.** Large marsh/lagoon complex with notable bird diversity; the
+  park management plan states a non-motorized zone shall be maintained in it.
+- **Grand Marais.** The park sits on the northern edge of the town.
+- **Daylight.** Mid-July sunset in Winnipeg is about 9:25 to 9:35 p.m.
+  (timeanddate, Trek Zone, sunrise-sunset tables agree within ten minutes); the
+  post says "about half past nine".
+
+Deliberately not stated:
+
+- **Dune height.** Travel Manitoba says up to 8 m, Wikipedia up to 12 m. The
+  post describes the dunes without a number.
+- **Lifeguards.** Sources conflict directly: some tourism pages and a visitor
+  review say lifeguards are on duty, EH Canada Travel and another tourism page
+  say they are not provided. The post makes no claim either way.
+- **Any drive time or distance from the house to Grand Beach.** Not in the
+  playbook's verified table, and mapping sites are unreachable from this
+  sandbox. The closing paragraph says only that the drive begins by crossing the
+  city northeast to Highway 59.
+- **Off-season boardwalk hours.** The post advises checking rather than
+  asserting what is open after the summer.
+
+**Image.** No local photo in images/ shows a lakeshore, and images.unsplash.com,
+unsplash.com, commons.wikimedia.org and upload.wikimedia.org are all refused at
+the proxy's CONNECT stage from this sandbox, so no new photo could be seen
+before being used. The hero reuses the Unsplash day-trip photo already live on
+blog-day-trips-near-winnipeg-from-corydon.html, with that post's own alt text,
+so the alt still describes what an earlier editor actually saw. A future run
+with working image access should replace this with a real Lake Winnipeg
+shoreline photo and write a matching alt.
+
+**Also noticed, not changed this run:** images/forks-river.jpg is captioned on
+blog-st-boniface-walking-guide.html as "The Red River in Winnipeg", but the
+photograph is of the Esplanade Riel bridge towers and the Canadian Museum for
+Human Rights against an evening sky, with no river visible. Worth correcting the
+alt text on a future run.
+
+---
+
 ## blog-manitoba-museum-planetarium-guide.html (published 2026-10-30)
 
 First entry of the general Queue, taken up after the Events queue emptied on
