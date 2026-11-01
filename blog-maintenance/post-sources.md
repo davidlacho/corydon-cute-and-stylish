@@ -16,6 +16,87 @@ Newest first.
 
 ---
 
+## blog-manitoba-legislative-building-tour.html (published 2026-11-01)
+
+First entry of the general Queue. Written as an explainer because the useful
+thing here is how the two tour routes into the building differ, and because the
+previous three posts were a one-day plan, a walk and a question and answer.
+
+Facts used, and where they came from:
+
+- **Address, phone, email.** 450 Broadway, Winnipeg R3C 0V8; (204) 945-5813;
+  `tour_reservation@mbassembly.ca` for groups over ten, with two weeks of notice
+  requested. All from the Legislative Assembly of Manitoba's Visitor Tour
+  Program page and its group tour information sheet
+  (gov.mb.ca/legislature/visiting/tour.html and
+  .../docs/group_tour_information.pdf).
+- **Cost, cap and ID.** Tours are free, tickets are reserved through the booking
+  link on that page, the cap is 30 guests and reservations are "strongly
+  recommended"; every guest 18 or older must present government-issued photo ID
+  on entry. Same two sources.
+- **Self-guided access.** Open every day of the year, 8:00 a.m. to 8:00 p.m.,
+  with a published self-guided route sheet
+  (gov.mb.ca/legislature/visiting/docs/indoorselfguidedtour.pdf).
+- **Summer program.** Free tours roughly hourly, seven days a week, 9:00 a.m. to
+  4:00 p.m., no reservation required (Tourism Winnipeg's listing for the
+  building).
+- **Winter program, and why it is hedged.** The most recent fall and winter
+  schedule retrievable from here gives Fridays at 11:00 a.m. and 2:00 p.m. and
+  Mondays at 2:00 p.m., but its own effective range was 2025-09-02 to
+  2026-07-01, so it has expired; no 2026-27 sheet could be retrieved. A second,
+  older PDF on the same site conflicts with it (Monday to Thursday, 9:00 a.m. to
+  3:00 p.m.) and was disregarded as stale. The post therefore describes the
+  shape of the winter program (a handful of slots a week, Monday and Friday
+  afternoons plus a late-morning Friday tour) without presenting any of it as
+  this year's confirmed timetable, and the one permitted `.info-box` sends the
+  reader to gov.mb.ca for current days and times.
+- **Golden Boy.** Installed 21 November 1919; 17.2 ft / 5.25 m from toe to torch
+  tip; gilded in 1948; 242 ft / 73 m above the Pool of the Black Star. From the
+  Legislative Assembly's own "Inside the Assembly" brochure
+  (gov.mb.ca/legislature/visiting/docs/insidetheassembly.pdf), via search
+  snippets. A secondary source gives 1918 and a 1,650 kg weight; the official
+  date was used and the weight left out.
+- **Bison.** Two life-size North American plains bison at the base of the
+  staircase, 2,268 kg (5,000 lb) each, designed by Georges Gardet. Same
+  brochure.
+- **Grand staircase.** Botticino marble, Italian and brown-veined. Same
+  brochure.
+- **Tyndall stone.** Exterior walls and much of the interior, quarried at Garson
+  northeast of Winnipeg, fossil-rich limestone. The province's own two pages
+  disagree on the distance (20 km on the tour page, 50 km in the PDF), so the
+  post says "northeast of the city" and states no number.
+- **Pool of the Black Star.** A circular room on the lower level directly beneath
+  the dome, with an eight-pointed black marble star in its floor and a ceiling
+  open to the rotunda above. Heritage and tourism descriptions
+  (heritageguide.ca, mhs.mb.ca) rather than an official survey, which is why the
+  post describes its position and shape and not the 27 ft radius one of them
+  gives.
+- **Hermetic Code tour.** Run and sold by Heartland Travel, not by the
+  Legislative Assembly; about 90 minutes; historically a seasonal weeknight
+  slot. Prices in circulation range from $39.30 to $39.95 and one source records
+  a year with no public dates at all because of building access restrictions.
+  No price, date or duration is stated in the post for that reason; it says only
+  that Heartland Travel sells it and that the dates vary.
+- **Transit.** The Broadway at Osborne (Legislature) stop is served by the D14,
+  D15 and D19 (Winnipeg Transit timetables and service advisories via the
+  wtlivewpg.com and info.winnipegtransit.com listings, plus the Wikipedia route
+  list for the June 2026 changes). The D19 is the Corydon route, already
+  established in this repo's notes from the 2026-09-22 run.
+- **November daylight.** "Down before five in the afternoon by the second week
+  of November" was computed astronomically for Winnipeg rather than sourced, as
+  on earlier posts.
+- **Distances from the house.** None stated. The Legislature is not in the
+  playbook's verified distance table and mapping sites are unreachable from this
+  sandbox, so the closing paragraph gives direction and the bus only.
+- **Image.** No photo in `images/` shows the Legislative Building, and
+  images.unsplash.com and the Wikimedia hosts are refused at the proxy from this
+  sandbox, so nothing new could be looked at. The hero reuses the Unsplash
+  guided-tour photo already live on `blog-winnipeg-tours.html`, carrying that
+  post's alt text forward. A run with working image access should swap in a photo
+  of the building itself.
+
+---
+
 ## blog-grand-beach-day-trip.html (published 2026-10-31)
 
 First entry of the general Queue. Written as a one-day plan because the whole

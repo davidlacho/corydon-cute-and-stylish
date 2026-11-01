@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-manitoba-legislative-building-tour.html",
+    "category": "winnipeg",
+    "date": "2026-11-01",
+    "title": "Touring the Manitoba Legislative Building in Winnipeg",
+    "image": "https://images.unsplash.com/photo-1711505326859-f59f22ed7196?q=80&w=1436&auto=format&fit=crop",
+    "imageAlt": "Group of people on a guided walking tour exploring Winnipeg's historic architecture",
+    "description": "Free guided and self-guided tours of the Manitoba Legislative Building at 450 Broadway: how booking works, what to look for inside, ID rules and the bus.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>November 1, 2026</span>"
+  },
+  {
     "url": "/blog-grand-beach-day-trip.html",
     "category": "winnipeg",
     "date": "2026-10-31",

@@ -7,6 +7,102 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-01
+
+**Businesses verified (6 ledger entries, the stalest in rotation, all dated
+2026-10-05):** all six trading, no closure, move or rename. One page correction,
+an address rather than a status.
+
+- **Patent 5 Distillery**, 108 Alexander Ave: **open.** The Exchange District
+  BIZ business directory carries it, an October 2025 Exchange District feature
+  covers its spirits, Doors Open Winnipeg lists a 2026-05-31 open house at the
+  building, and an Eventbrite series runs there. Reservation and directory
+  listings disagree on hours, so none were used. **Page corrected:**
+  `blog-best-places-nearby-winnipeg.html` gave the distillery's address as 1087
+  Logan Ave and linked a Google Maps query for it. Nothing anywhere supports
+  that address; the distillery is at 108 Alexander Ave in the East Exchange, as
+  the ledger, `blog-winnipeg-cocktail-bars-lounges.html` and every current
+  listing have it. Both the link text and the map query are now 108 Alexander
+  Ave.
+- **Pauline Bistro (Norwood Hotel)**, 112 Marion St: **open.** An active
+  OpenTable listing shows 4.4 from 173 reviews with daily brunch hours, and a
+  Travel Manitoba Norwood and Old St. Vital guide covers it.
+  `blog-winnipeg-brunch-breakfast.html` asserts no hours of its own, pointing the
+  reader at the hotel's published times. No page change.
+- **Niakwa Country Club**, 620 Niakwa Rd: **open.** Its own site's weddings and
+  events and FAQ pages are live, and WeddingWire, Bridebook and Eventective all
+  carry current listings. `blog-winnipeg-event-venues.html` states capacities and
+  square footage, not hours or prices. No page change.
+- **Garden City Shopping Centre**, 2305 McPhillips St: **open.** No closure
+  signal anywhere; the mall trades under a private ownership group that bought it
+  from Primaris in 2024, and the 2026 leasing activity in the search results
+  belongs to the adjacent Garden City Plaza at 2211 McPhillips, not to the mall.
+  `blog-classic107-spring-break-winnipeg.html` names it only as the location of a
+  past spring-break event listing. No page change.
+- **Milk & Madu (Canggu)**, Jl. Pantai Berawa No. 52: **open, status
+  unverified for 2026.** Multiple Bali guides place the Berawa branch at No. 52
+  and a second branch on Batu Bolong, but every source is undated and three of
+  them give different opening hours. Treated as unchanged.
+  `blog-bali-nyaman.html` names it in one sentence of walkable cafes with no
+  hours or prices. No page change.
+- **Milu by Nook (Canggu)**, Jl. Pantai Berawa No. 90 XO: **open, status
+  unverified for 2026.** Aggregator and guide listings are live, including one
+  showing 4.0 from about 4,371 reviews, but none is dated to 2026 and the sources
+  disagree on the street number (88 versus 90). Address left as the ledger has
+  it. Same single-sentence mention on `blog-bali-nyaman.html`. No page change.
+
+**Ledger backfill sweep:** `blog-marseille-trip-gone-wrong.html`. It names no
+commercial business at all, in Marseille or in Winnipeg; the only company in the
+text is Airbnb, which is a booking platform rather than a local business the site
+recommends. Nothing added. Moved to "Swept".
+
+**New post:** `blog-manitoba-legislative-building-tour.html`, "Touring the
+Manitoba Legislative Building in Winnipeg". First entry of the general Queue,
+written as an explainer: continuous prose, two content headings ("The staircase,
+the star and the Golden Boy" and "The Broadway stop, and November light") and one
+"Before you go" info-box. The previous three posts were a one-day plan, a walk
+and a question and answer, so the form was open. The spine of it is the
+difference between the two free ways into the building: self-guided access daily
+from 8 a.m. to 8 p.m. with a published route sheet, against the guided Visitor
+Tour Program, which is free but capped at 30, wants a reservation through the
+Legislative Assembly's booking page, and runs roughly hourly seven days a week in
+summer while shrinking to a few slots a week the rest of the year. Every visitor
+18 or older needs government photo ID at the door, and groups over ten book by
+email with two weeks' notice. Architectural specifics come from the Assembly's
+own brochure: the Golden Boy installed 21 November 1919, 5.25 m toe to torch tip,
+gilded in 1948 and 73 m above the Pool of the Black Star; the two Georges Gardet
+bronze bison at 2,268 kg each; the Botticino marble staircase; Tyndall stone from
+Garson.
+
+Three things were deliberately left out. The current winter timetable: the latest
+schedule retrievable from here expired on 2026-07-01, so the post describes the
+shape of the winter program and sends the reader to gov.mb.ca for days and times
+rather than printing an expired one. The Garson quarry distance: the province's
+own two pages say 20 km and 50 km. And any price or date for the separately run
+Hermetic Code tour, which Heartland Travel sells and which has had years with no
+public dates at all; the post says only that it exists, who sells it and that the
+dates vary. No drive or walk time from the house appears anywhere, since the
+Legislature is not in the playbook's verified distance table. Full provenance in
+`post-sources.md`.
+
+**Image limitation, still unresolved:** no photo in `images/` shows the
+Legislative Building, and images.unsplash.com and the Wikimedia hosts remain
+refused at the proxy from this sandbox, as does gov.mb.ca itself, so facts came
+from search snippets and no new photo could be looked at. The hero reuses the
+Unsplash guided-tour photo already live on `blog-winnipeg-tours.html` with that
+post's own alt text, which at least matches the subject: this post is about
+guided tours. A run with working image access should swap in a photo of the
+building.
+
+**Registered:** `articles-data.js`, `articles_data.json`, the `blog.html`
+noscript card and `blogPost` JSON-LD entry, `sitemap.xml` (new URL plus `lastmod`
+bumped to 2026-11-01 for `blog.html` and
+`blog-best-places-nearby-winnipeg.html`), and `llms.txt` regenerated with
+`update-llms.py` (174 posts). Heartland Travel added to the business ledger,
+since the post names it.
+
+---
+
 ## 2026-10-31
 
 **Businesses verified (6 ledger entries, the stalest in rotation, dated

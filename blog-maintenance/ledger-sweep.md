@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-marseille-trip-gone-wrong.html
 - blog-mattress-pillow-protectors.html
 - blog-nestaweya-river-trail.html
 - blog-osborne-village-corydon-evening-guide.html
@@ -120,6 +119,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-11-01 - blog-marseille-trip-gone-wrong.html (a hosting-lessons post about a bad Airbnb stay in Marseille in March 2024: check-in, maintenance, cleanliness and host communication. It names no commercial business at all, in Marseille or in Winnipeg; the only company mentioned is Airbnb itself, which is a booking platform rather than a local business the site recommends. Nothing added to the ledger.)
 - 2026-10-31 - blog-little-italy-half-day-walking-loop.html (a there-and-back walking loop of Corydon Avenue between Osborne Street and Cambridge Street. It names eight commercial businesses, all with street addresses in the text: The Roost, Sushi Ya, Colosseo Ristorante Italiano, Thom Bargen Coffee Roasters, The Cheesemongers Fromagerie, Bar Italia, Passero Restaurant and Sugar + Salt Bakeshoppe. Every one already had a ledger entry from an earlier post, so nothing new was added; this filename was appended to the "pages" array of all eight so a future closure correction reaches this post too.)
 - 2026-10-30 - blog-little-free-libraries.html (an explainer about the Little Free Library movement and the book boxes in Winnipeg front yards. It names the Little Free Library organisation and littlefreelibrary.org, a non-profit rather than a commercial business, and no restaurant, cafe, shop, bakery or operator anywhere in the text. Nothing to add to the ledger and no "pages" array to extend.)
 - 2026-10-29 - blog-lisbon-2015.html (a hosting-philosophy essay about a 2015 apartment stay in Lisbon and what it taught us about furnishing the Winnipeg house. It names no commercial business at all, in Lisbon or in Winnipeg: no restaurant, cafe, bar, shop or operator, and no address. Nothing to add to the ledger and no "pages" array to extend.)

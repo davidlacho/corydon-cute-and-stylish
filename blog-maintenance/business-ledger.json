@@ -778,7 +778,7 @@
         "blog-winnipeg-cocktail-bars-lounges.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-05"
+      "last_verified": "2026-11-01"
     },
     {
       "name": "Pauline Bistro (Norwood Hotel)",
@@ -787,7 +787,7 @@
         "blog-winnipeg-brunch-breakfast.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-05"
+      "last_verified": "2026-11-01"
     },
     {
       "name": "Peasant Cookery",
@@ -1123,7 +1123,7 @@
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-05"
+      "last_verified": "2026-11-01"
     },
     {
       "name": "Tundra Grill (Assiniboine Park Zoo)",
@@ -1249,7 +1249,7 @@
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-05"
+      "last_verified": "2026-11-01"
     },
     {
       "name": "Milu by Nook (Canggu)",
@@ -1258,7 +1258,7 @@
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-05"
+      "last_verified": "2026-11-01"
     },
     {
       "name": "Cafe Cinta (Canggu)",
@@ -1394,7 +1394,7 @@
         "blog-classic107-spring-break-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-05"
+      "last_verified": "2026-11-01"
     },
     {
       "name": "St. Vital Centre",
@@ -1557,6 +1557,15 @@
       ],
       "status": "open",
       "last_verified": "2026-10-27"
+    },
+    {
+      "name": "Heartland Travel",
+      "address": "",
+      "pages": [
+        "blog-manitoba-legislative-building-tour.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-01"
     }
   ]
 }
