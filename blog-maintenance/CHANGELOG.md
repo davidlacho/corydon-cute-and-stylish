@@ -101,6 +101,16 @@ bumped to 2026-11-01 for `blog.html` and
 `update-llms.py` (174 posts). Heartland Travel added to the business ledger,
 since the post names it.
 
+**pa11y, push and deploy:** pa11y WCAG2AA reported no issues on all three
+changed pages (the new post, `blog.html` and
+`blog-best-places-nearby-winnipeg.html`), tested against a local server because
+staywinnipeg.ca is unreachable from the sandbox. Pushed to `main` as 7e9cd48 and
+verified that HEAD matches origin/main. Pages deploy run 469 for that SHA
+finished with all three jobs, build, deploy and report-build-status, successful.
+The live URL could not be fetched from here (staywinnipeg.ca is refused at the
+proxy, as are gov.mb.ca and the image hosts), but the post is present on `main`
+at the deployed SHA.
+
 ---
 
 ## 2026-10-31
