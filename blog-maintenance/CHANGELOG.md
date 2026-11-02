@@ -90,6 +90,16 @@ owner would rather the word not appear on the site at all, drop that one title
 from the Warehouse list in `blog-winnipeg-performing-arts-season.html`; the
 sentence reads correctly with three titles and "four go up".
 
+**pa11y (WCAG2AA):** no issues on `blog-winnipeg-performing-arts-season.html`,
+`blog.html` or `blog-winnipeg-pizza-guide.html`. Run against a local server
+because staywinnipeg.ca is still blocked by this sandbox's network policy.
+
+**Push and deploy:** commit 51e162c pushed to `main` and verified against
+`origin/main`. Pages deploy run 471 for that SHA finished with build, deploy and
+report-build-status all successful, and the new post is present on `main` at the
+deployed SHA. The live URL could not be fetched from the sandbox for the same
+network reason.
+
 **Pages changed:** `blog-winnipeg-performing-arts-season.html` (new),
 `blog-winnipeg-pizza-guide.html`, `blog.html`, `articles-data.js`,
 `articles_data.json`, `sitemap.xml` (new entry plus `blog.html` and the pizza
