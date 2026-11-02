@@ -16,6 +16,74 @@ Newest first.
 
 ---
 
+## blog-winnipeg-performing-arts-season.html (published 2026-11-02)
+
+Form: comparison. Four companies, three of them in one building.
+
+- **Royal Winnipeg Ballet, Nutcracker 2026:** the company's own performance page
+  gives 18 to 27 December 2026 at the Centennial Concert Hall, twelve
+  performances, matinees at 1:00 pm on 19, 20, 23, 26 and 27 December, evening
+  performances at 6:30 pm, tickets from $45. Tourism Winnipeg's event listing
+  gives the same $45 starting price. Resale sites (StubHub, Event Tickets
+  Center, Ticketsmate) carry much higher prices and were not used. The box
+  office at 380 Graham Ave and the phone number come from the Concert Hall's
+  RWB 26/27 season page; the phone number is not on the post.
+- **RWB, The Mix:** 29 April to 2 May 2027, from the Concert Hall's RWB 26/27
+  season page.
+- **WSO Soundcheck:** free to join, ages 13 to 39, with a Soundcheck Unlimited
+  tier for 30 to 39 and a $30 guest ticket, from wso.ca/soundcheck. The $20
+  Soundcheck ticket price is from the orchestra's own 2026/27 season page. A
+  2025 WSO post on X advertising "most concerts for $99 or less" is a package
+  figure, not a per-ticket price, and was not used; older pages quoting $15 for
+  ages 15 to 30 are stale and were not used. Three-concert packages from $94
+  plus tax and fees, from the WSO subscription packages page. No single-ticket
+  price list for 2026/27 was published anywhere we could verify, so none is
+  stated; the resale figures on Ticketsdata, Vivid Seats and Expedia ($32 to
+  $301 for various dates) were deliberately left out.
+- **Royal Manitoba Theatre Centre, 2026/27:** ten productions, six on the John
+  Hirsch Mainstage (174 Market Ave) and four at the Tom Hendry Warehouse (140
+  Rupert Ave), from the company's 26/27 media release and its own homepage
+  listing, with the Classic107 report of the announcement as a second source.
+  Titles as listed: Cyrano de Bergerac, Anne of Green Gables The Musical,
+  Intrepid (world premiere, commissioned by the company), My Name Is Lucy
+  Barton, Waiting for Godot, fareWel on the Mainstage; Goblin:Macbeth, Comfort
+  Food, Misery, Fifteen Dogs at the Warehouse. Season announced January 2026
+  under artistic director Kelly Thornton. Single tickets from $30 subject to
+  availability, Mainstage subscriptions from $180, Warehouse from $105, from the
+  ticket information page and the media release. **Run dates were deliberately
+  left out of the post**: the media release and the homepage disagree by a day
+  on at least Goblin:Macbeth (7 versus 8 November), so only the broad windows
+  (Mainstage roughly October to May, Warehouse October to March) are stated.
+- **Tom Hendry Warehouse address and size:** 140 Rupert Ave is from Royal MTC's
+  own history page (permanent facility established there in 1969, renamed for
+  Tom Hendry in 2008) and is confirmed by Exchange District BIZ and Fever
+  listings. Capacity sources disagree, 286 seats on one listing against "300
+  seat theatre" at the Winnipeg Architecture Foundation, so the post says
+  "about 300 seats" rather than a figure.
+- **Manitoba Opera, 2026/27:** its 54th season, two productions, both at the
+  Centennial Concert Hall. Treemonisha (Scott Joplin, reimagined by Volcano
+  Theatre), Western Canadian premiere, 21, 25 and 27 November 2026, from the
+  company's own season announcement; the Concert Hall's Manitoba Opera 26/27
+  page also lists 19 November as Student Night at the Opera, which is why the
+  post names it as a Student Night rather than a fourth public performance.
+  Madama Butterfly 17, 21 and 23 April 2027 with Karah Son in the title role in
+  her Manitoba Opera debut, same source, with the myScena newswire and
+  Classic107 reports as a second source. Adult singles from $48, 65+ from $43,
+  students 18 to 25 from $27, from the subscriptions and tickets page.
+- **Distances:** Centennial Concert Hall 10 min / 4.3 km by car and Gas Station
+  Arts Centre 445 River Ave 23 min / 1.6 km on foot, both from the verified
+  table in AGENT-INSTRUCTIONS.md. The D19 as the Corydon-to-downtown route was
+  verified on the 2026-11-01 run; no claim is made that it stops at the Concert
+  Hall.
+- **Late December daylight:** Winnipeg sunset is before 4:30 pm around the
+  solstice, which is why the post says every evening Nutcracker performance
+  begins and ends in the dark.
+- **Not stated anywhere:** parking specifics at either venue, the Concert Hall's
+  exact capacity, any 2026/27 WSO programme title, and any claim about which
+  company is better.
+
+---
+
 ## blog-manitoba-legislative-building-tour.html (published 2026-11-01)
 
 First entry of the general Queue. Written as an explainer because the useful

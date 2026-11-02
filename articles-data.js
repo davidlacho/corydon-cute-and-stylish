@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-winnipeg-performing-arts-season.html",
+    "category": "winnipeg",
+    "date": "2026-11-02",
+    "title": "Winnipeg Performing Arts: Ballet, Symphony or Theatre?",
+    "image": "https://images.unsplash.com/photo-1692707483537-8f5e57e71531?q=80&w=2340&auto=format&fit=crop",
+    "imageAlt": "Theatre stage lit for a performance, seen from the house",
+    "description": "The Royal Winnipeg Ballet, the WSO, Royal MTC and Manitoba Opera compared: what a seat costs, which venue, how far ahead to book and what suits kids.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>7 min read</span>\n                                <span>November 2, 2026</span>"
+  },
+  {
     "url": "/blog-manitoba-legislative-building-tour.html",
     "category": "winnipeg",
     "date": "2026-11-01",
@@ -1009,7 +1019,7 @@ const ARTICLES_DATA = [
     "title": "Winnipeg pizza 2026: Neapolitan, thin crust & chef-led spots",
     "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop",
     "imageAlt": "Wood-fired pizza with basil fresh from the oven",
-    "description": "Where to eat pizza in Winnipeg: Pizzeria Gusto's wood-fired Academy room, Gondola's thin crust legacy, Parcel Pizza, Rebel Pizza, and planning takeout from Corydon.",
+    "description": "Where to eat pizza in Winnipeg: Pizzeria Gusto's wood-fired Academy room, Gondola's thin-crust legacy, Parcel Pizza in Osborne Village and Corydon takeout.",
     "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>9 min read</span>\n                                <span>May 10, 2026</span>"
   },
   {

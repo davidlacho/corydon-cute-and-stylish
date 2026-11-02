@@ -7,6 +7,97 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-02
+
+**Businesses verified (6 ledger entries, the stalest in rotation, all dated
+2026-10-06):** five trading, one closed. One page lost an entry.
+
+- **Peasant Cookery**, 283 Bannatyne Ave: **open.** Live OpenTable listings
+  across several country domains carry the address and the (204) 989-7700
+  number, an AAA TripCanvas entry and a ConcertHotels page with a November 2024
+  review are both live, and a Winnipeg restaurant roundup still lists it. Three
+  listings give three different schedules, so no hours were used or published.
+  `blog-restaurants.html` and `blog-winnipeg-jazz-festival.html` state no hours
+  for it. No page change.
+- **Pedal Pub Winnipeg**: **open.** Its own Winnipeg location pages are live
+  (routes, FAQ, bar partners, a pilot job posting), it carries a Travel Manitoba
+  directory entry, and the site shows a 5.0 rating from about 1,784 Google
+  reviews. Two-hour tours from Shaw Park on the Exchange District route, private
+  bookings for 8 to 15 seats, weekly Saturday single-seat tours. Prices on the
+  site ($589 to $619 per bike) were not added to `blog-winnipeg-tours.html`,
+  which states none. No page change.
+- **Pho Hoang**: **open.** Listings agree on the Sargent Avenue original at 794
+  Sargent Ave, and the group's Osborne, Portage and Seasons of Tuxedo branches
+  all appear in current listings, including an active Uber Eats store for the
+  Portage location. **Ledger address filled in** (it was blank): 794 Sargent
+  Ave, with the other branches noted. `blog-winnipeg-vietnamese-pho-guide.html`
+  names the four neighbourhoods without addresses or hours. No page change.
+- **Pho Kim Tuong**, 856 Ellice Ave: **open, hours unverified.** Directory and
+  delivery listings are live at that address with the 204-661-8888 number, and a
+  Sluurpy page carries Google reviews from recent months. The only hours found
+  anywhere come from a 2014 review and were not used. The post already tells the
+  reader to confirm the midweek closure before visiting. No page change.
+- **Pizzeria Gusto**, 404 Academy Rd: **open.** An active OpenTable profile
+  shows 4.8 from about 1,969 diners, and a Ciao Winnipeg listing places it in
+  River Heights with the 204-944-8786 number and the pizzeriagusto.com site. Its
+  downtown sister room, Gusto North on Hargrave Street, also trades; neither is
+  named with hours on our pages. No page change.
+- **Rebel Pizza**, 110-245 Vermillion Rd: **CLOSED.** The Tripadvisor page for
+  the Vermillion Road address is labelled CLOSED, a Chamber of Commerce listing
+  for the same address carries an August 2022 review reading "sad to see they are
+  closed now", the DoorDash store for 110-245 Vermillion Road shows as not
+  active, and the brand's other Winnipeg location at 2188 McPhillips St is
+  flagged permanently closed on Yelp, Restaurant Guru and FindMeGlutenFree. No
+  source anywhere shows the business trading since 2022, and rebelpizza.ca did
+  not resolve. **Page corrected:** the Rebel Pizza section and its dead link
+  were removed from `blog-winnipeg-pizza-guide.html`, which now covers four
+  rooms rather than five, and the business was dropped from that post's meta
+  description and JSON-LD description. The same description copies were synced
+  in `blog.html` (noscript card and JSON-LD), `articles-data.js` and
+  `articles_data.json`. Ledger status set to `closed`.
+
+**Ledger backfill sweep:** `blog-mattress-pillow-protectors.html`. A hosting
+post about waterproof mattress and pillow protectors. The only brands it names
+are two bedding manufacturers sold online, Jet's Home and Utopia Bedding, which
+are not local businesses a guest would visit and cannot go stale through a
+closure or a move. It names no Winnipeg business and links to no external site.
+Nothing added. Moved to "Swept".
+
+**New post:** `blog-winnipeg-performing-arts-season.html`, "Winnipeg Performing
+Arts: Ballet, Symphony or Theatre?". First entry of the general Queue (the
+Events queue section no longer exists in `post-ideas.md`, so the general queue
+is back in use). Form: **comparison**, chosen by the rotation rule, since the
+previous three posts were walk, one-day plan and explainer. The four companies
+are set against each other on the axes a visitor decides by: what a seat costs,
+how far ahead the date has to be fixed, how long the evening runs, and whether
+children are coming. City-wide topic; the house appears only in the closing
+paragraph, with the Concert Hall drive and the Gas Station Arts Centre walk
+taken from the verified distance table.
+
+Sourced facts and the figures deliberately left out are recorded in
+`post-sources.md`. Worth naming here: Royal MTC run dates were omitted because
+the company's own media release and homepage disagree by a day; no WSO
+single-ticket price is stated because none is published and only resale figures
+exist; the Warehouse is described as "about 300 seats" because sources give 286
+and 300.
+
+**One judgement call for review:** the post lists Royal MTC's Warehouse season,
+which includes a production titled *Fifteen Dogs*. That is the real title of a
+play in the announced 2026/27 season, in a factual list of what is on. It makes
+no claim about animals at the house and does no pet-related SEO work, so it was
+kept under the incidental-mention exception in the hard content rule. If the
+owner would rather the word not appear on the site at all, drop that one title
+from the Warehouse list in `blog-winnipeg-performing-arts-season.html`; the
+sentence reads correctly with three titles and "four go up".
+
+**Pages changed:** `blog-winnipeg-performing-arts-season.html` (new),
+`blog-winnipeg-pizza-guide.html`, `blog.html`, `articles-data.js`,
+`articles_data.json`, `sitemap.xml` (new entry plus `blog.html` and the pizza
+guide relastmodded), `llms.txt` (regenerated, 175 posts), the business ledger,
+`ledger-sweep.md`, `post-ideas.md` and `post-sources.md`.
+
+---
+
 ## 2026-11-01
 
 **Businesses verified (6 ledger entries, the stalest in rotation, all dated
