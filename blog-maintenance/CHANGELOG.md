@@ -51,6 +51,12 @@ Hammock Marsh is not in the playbook's verified distance table.
 2 pages, no issues found on either. staywinnipeg.ca is still unreachable from
 this sandbox, so both were served from the working tree over localhost.
 
+**Push and deploy:** commit `76dad5b` landed on `main` (HEAD verified equal to
+`origin/main`). GitHub Pages build and deployment run 475 for that commit
+completed with build, deploy and report-build-status all successful. The live
+site could not be fetched from this sandbox to confirm the page by URL, because
+staywinnipeg.ca is blocked from the agent proxy here.
+
 **Also changed:** `articles-data.js`, `articles_data.json`, the `blog.html`
 noscript card and JSON-LD `blogPost` array, `sitemap.xml`, `llms.txt`
 (regenerated, now 176 posts), `post-ideas.md`, `post-sources.md`,
