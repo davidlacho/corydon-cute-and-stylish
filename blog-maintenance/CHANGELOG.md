@@ -7,6 +7,34 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-03 (events calendar added; owner-requested feature, not a rotation run)
+
+**New Events tab.** `events.html` is a calendar of Winnipeg events with day, week
+and month views; it opens on the current week, and clicking an event opens the
+blog post that covers it. The nav (`blog-components.js`, `nav.html`), the footer
+(`blog-components.js`, `footer.html`) and the SEO nav in `index.html` gained an
+"Events" link. Data lives in `events-data.js` (54 entries seeded from the dates
+the existing event posts already state: 2026 holiday markets, the Santa Parade,
+Nutcracker, New Year's Eve at The Forks, Festival du Voyageur 2027, JUNO Week,
+Folk Festival, Fringe, Folklorama and so on; entries whose organiser has not
+announced dates carry `"status": "typical"`). `blog-maintenance/update-events.py`
+validates the data and regenerates the static list and Event JSON-LD in the page.
+Styles in `events-styles.css` (minified copy committed). `sitemap.xml` lists the
+page (daily); `llms.txt` and `CLAUDE.md` document it.
+
+**Playbook change.** `AGENT-INSTRUCTIONS.md` has a new Part 2b: every run checks
+the calendar data, refreshes stale entries, confirms typical entries within 60
+days, adds the day's event post, refills the standing "Events queue" in
+`post-ideas.md` with up to two upcoming events that lack a post, and regenerates
+`events.html`. The events queue section is now permanent (currently empty).
+
+**Known stale entries left on purpose:** six 2026 entries that have already
+passed (Jets home opener, Bombers finale, two Scattered Seeds weekends, the
+Heritage Classic, Manito Ahbee) stay so the calendar shows them when browsing
+back; the next runs retire or roll them under Part 2b step 2.
+
+---
+
 ## 2026-11-03 (daily rotation run)
 
 **Businesses verified (6, the stalest in the ledger).** All six were checked by

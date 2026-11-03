@@ -230,16 +230,17 @@ Winnipeg. If it does not, the post is not ready.
 
 The run should finish in well under an hour of agent time. To keep it there:
 
-- Read only what the run needs: this playbook, `post-ideas.md`, the ledger, the
-  last three `CHANGELOG.md` entries, one recent post as a template, and the
-  pages you are actually editing. Do not read the whole archive or run
+- Read only what the run needs: this playbook, `post-ideas.md`, the ledger,
+  `events-data.js`, the last three `CHANGELOG.md` entries, one recent post as a
+  template, and the pages you are actually editing. Do not read the whole archive or run
   repo-wide searches except the greps named in this playbook.
 - Web search only for the businesses in this run's batch and for the facts in
   the one post you are writing. One or two well-chosen sources per fact; stop
   when you have a source, do not keep collecting.
 - Write the post in one pass, then do one editing pass against the checks above.
   Do not redraft the whole post more than once.
-- Run `pa11y` on the one or two pages you changed, not the sitemap.
+- Run `pa11y` on the one or two pages you changed (plus `events.html` when the
+  calendar data changed), not the sitemap.
 - One commit at the end of the run.
 
 ## Part 1 — Verify a rotating batch of businesses (do NOT check them all)
@@ -313,9 +314,10 @@ every run.
   recent post already owns — check `articles-data.js` for near-duplicate titles
   before writing.
 
-1. Read `blog-maintenance/post-ideas.md`. **If an "Events queue" section exists
-   and has entries, take its first entry** (see "Event posts" below). Otherwise
-   take the first idea under "Queue".
+1. Read `blog-maintenance/post-ideas.md`. **If the "Events queue" section has
+   entries, take its first entry** (see "Event posts" below). Otherwise take the
+   first idea under "Queue". The events queue is refilled by Part 2b below, so
+   it is a standing section; never delete it.
 2. Copy the structure of an existing recent post (open any `blog-*.html` such as
    `blog-rainy-day-winnipeg-itinerary.html`) as a template. Keep the same
    `<head>` meta pattern, the React/noscript scaffolding, and the JSON-LD block.
@@ -370,9 +372,10 @@ every run.
 Added 2026-09-21. Winnipeg hosts a run of name-brand events (Heritage Classic,
 JUNO Week, Festival du Voyageur, Folklorama, Folk Festival, Fringe, and so on)
 that visitors search for by name, months ahead, while deciding where to stay.
-Until the events queue is empty, each run publishes or refreshes one event page
-so those searches land on us. When the queue is empty, delete the section from
-`post-ideas.md` and go back to the general queue.
+While the events queue has entries, each run publishes or refreshes one event page
+so those searches land on us. When the queue is empty, leave the section in place
+(Part 2b refills it) and go back to the general queue. Since 2026-11-03 every
+event post also feeds the events calendar (`events.html`); see Part 2b.
 
 - **Order is fixed.** Take the top entry; it is chronological, so the nearest
   event gets covered first. Do not skip ahead or reorder.
@@ -409,11 +412,94 @@ so those searches land on us. When the queue is empty, delete the section from
 - **Category** stays `"winnipeg"`. Slug is the event name plus the year only when
   the queue entry includes the year.
 
+## Part 2b — Keep the events calendar current (every run)
+
+Added 2026-11-03. The site has an Events tab, `events.html`, a calendar with day,
+week and month views that opens on the current week. Every event on it links to
+the blog post that covers it, and the data is the `EVENTS_DATA` array in
+`events-data.js` (format and rules in `CLAUDE.md`, "Events Calendar"). **The
+calendar is only as good as its last update, so this part runs on every run,
+whether or not the day's post is an event.** Keep it to about ten minutes.
+
+1. **Check the data.** Run `python3 blog-maintenance/update-events.py --check`.
+   It prints problems (a `url` whose post does not exist, a bad date, a missing
+   field) and "stale" entries whose end date has passed. Fix every problem before
+   anything else; a problem means the calendar has a dead link or will not load.
+
+2. **Refresh stale entries.** For each stale entry, decide one of three things:
+   - The organiser has announced the next edition: web search it (the post's
+     own "Before you go" box names the site to check). Update `start`, `end`,
+     `time` and `venue`, set `"status": "confirmed"`, and refresh the post
+     itself the same way an "Event posts" refresh does (title, H1, meta
+     description, dates in the body, `article:modified_time`, `dateModified`,
+     the sitemap `<lastmod>`, the description copies in `articles-data.js`,
+     `articles_data.json` and `blog.html`). Record the source in
+     `post-sources.md`.
+   - Nothing is announced but the post states a usual window ("the second
+     weekend of July", "usually late April"): move the entry to that window in
+     the next year, keeping the same weekdays where the pattern depends on them,
+     and set `"status": "typical"`. Do not touch the post.
+   - The event was a one-off (the Heritage Classic), or the post says not to
+     assume it repeats: remove the entry once it is more than 30 days past.
+     Until then leave it; the calendar shows past weeks when a visitor browses
+     back.
+   At most two stale entries get a full post refresh in one run; the rest can
+   wait for the next run. Typical-window moves and removals are cheap and should
+   all be done.
+
+3. **Confirm typical entries that fall within the next 60 days.** List the
+   entries with `"status": "typical"` whose `start` is within 60 days. For each,
+   check the organiser's site once. If dates are now published, update the entry
+   and set `confirmed`; if they differ from the post, refresh the post as above.
+   If still unannounced, leave it typical. Never set `confirmed` without a
+   published date from the organiser.
+
+4. **Add the day's event post.** If the post you published or refreshed in Part
+   2 is about a dated event, add (or update) its entry: one entry per dated
+   event the post covers, `url` pointing at the post, status by the rule above.
+   A post that names several dated things (a holiday-markets ranking, a
+   summer-food-festivals comparison) gets one entry per dated thing, all with
+   the same `url`. A guide with no date (a neighbourhood walk, a ramen list)
+   gets no entry.
+
+5. **Refill the events queue.** Every run, look two to eight weeks ahead for
+   Winnipeg events a visitor would plan a trip around that have no entry in
+   `events-data.js` and no post: one or two web searches against Tourism
+   Winnipeg's events listing, The Forks, Canada Life Centre, Princess Auto
+   Stadium, the Centennial Concert Hall and the Exchange District BIZ are
+   enough; do not trawl. Add at most two such events per run to the "Events
+   queue" in `post-ideas.md`, nearest first, in the queue's format (slug, title,
+   the confirmed or typical dates, venue, and the organiser's site). Skip small
+   recurring things (a weekly market, a club night) and anything that fails the
+   pet rule. The queue entry becomes a post on a later run, and that post
+   becomes a calendar entry in step 4. Concerts and games already covered by a
+   venue or team post (the Jets, the Goldeyes) need only a calendar entry
+   pointing at that post, not a new post.
+
+6. **Regenerate and register.** Run `python3 blog-maintenance/update-events.py`
+   (no flag). It rewrites the static list and the Event JSON-LD inside
+   `events.html` and stamps today's date on the page. If `events-data.js`
+   changed at all, set the `<lastmod>` for `https://staywinnipeg.ca/events.html`
+   in `sitemap.xml` to today, and include `events.html` in the run's pa11y check.
+   Note what changed on the calendar in the CHANGELOG block (entries added,
+   refreshed, confirmed, removed, and anything added to the events queue).
+
+Hard rules for the calendar:
+
+- **No entry without a post.** The script refuses a `url` that does not exist;
+  do not work around it by pointing an event at an unrelated post. Write the
+  post first (through the events queue), then add the entry.
+- **No invented dates.** `confirmed` means the organiser published the dates;
+  `typical` means the post itself states the usual window. Anything else stays
+  off the calendar.
+- **Do not edit the generated spans in `events.html` by hand**, and do not
+  remove the `<!-- events-list -->` and `<!-- events-jsonld -->` markers.
+
 ## Part 3 — Record and push
 
 1. Prepend a dated block to `blog-maintenance/CHANGELOG.md` (newest on top) with:
-   businesses verified this run and their outcomes, any pages changed, and the
-   new post's slug and title.
+   businesses verified this run and their outcomes, any pages changed, the
+   new post's slug and title, and what changed on the events calendar (Part 2b).
 2. Before touching git state, confirm you are actually on `main`, not a
    detached HEAD or a session branch the sandbox may have started you on.
    The 2026-10-11 run's own log shows exactly this failure: its first git
@@ -460,6 +546,9 @@ so those searches land on us. When the queue is empty, delete the section from
   reviewable.
 - While the "Events queue" in `post-ideas.md` has entries, it takes priority
   over the general queue (see Part 2, "Event posts").
+- The events calendar (`events-data.js`, `events.html`) is checked and
+  regenerated on every run (Part 2b). Never list an event without a post, and
+  never mark a date `confirmed` that the organiser has not published.
 - Write for city-wide Winnipeg searches by default; no more than one post in four
   may be anchored to Corydon/Crescentwood or the Airbnb's surroundings (see
   Part 2, "Topic breadth").

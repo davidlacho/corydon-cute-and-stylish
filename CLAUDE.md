@@ -523,6 +523,64 @@ After creating a new blog post, you MUST:
      Other sections of `llms.txt` (property facts, review counts, keywords) are still
      edited by hand.
 
+## Events Calendar (events.html)
+
+`events.html` is the Events tab: a calendar of what is on in Winnipeg with day, week
+and month views (week is the default, opening on the current week). Every event on
+it links to the blog post that covers that event, so **an event can only be on the
+calendar if its post exists**.
+
+### Files
+
+- `events-data.js` holds the `EVENTS_DATA` array, one object per dated event:
+  ```javascript
+  {
+      "title": "Festival du Voyageur",            // short name shown on the calendar
+      "url": "/blog-festival-du-voyageur.html",   // the post that covers it; the file must exist
+      "start": "2027-02-12",                      // first day, YYYY-MM-DD
+      "end": "2027-02-21",                        // last day (same as start for one day)
+      "time": "5 p.m.",                           // optional display string
+      "venue": "Whittier Park, St. Boniface",     // optional
+      "status": "confirmed"                       // or "typical" (usual window, organiser has not announced)
+  }
+  ```
+  Keep the array sorted by `start`. A long season (a skating trail, a light show)
+  is one entry spanning its opening and closing dates. A recurring game is one
+  entry per dated game the post actually names; do not list a whole sports
+  season day by day.
+- `blog-maintenance/update-events.py` validates the data (every `url` must be an
+  existing `blog-*.html`, dates must be real and ordered, `status` must be
+  `confirmed` or `typical`) and regenerates the two marked spans in `events.html`:
+  the static "Upcoming events" list (what no-JS visitors and crawlers see) and the
+  `ItemList` of schema.org `Event` objects (confirmed entries only). It also prints
+  "stale" entries whose end date has passed. **Run it after every change to
+  `events-data.js`** and never edit the generated spans by hand:
+  ```bash
+  python3 blog-maintenance/update-events.py          # validate and regenerate
+  python3 blog-maintenance/update-events.py --check  # validate only
+  ```
+- `events-styles.css` is the page's stylesheet (minify to `events-styles.min.css`
+  with `npx --yes csso-cli events-styles.css -o events-styles.min.css` after
+  editing, the same rule as the other stylesheets). The calendar itself is
+  React (`React.createElement`, no JSX) inside `events.html`.
+- The Events link lives in `blog-components.js` (`Navigation` and `Footer`),
+  `nav.html`, `footer.html` and the SEO nav in `index.html`.
+
+### When a post is about a dated event
+
+Add this to the post-creation checklist and to every event-page refresh:
+
+8. ✅ Add or update the event in `events-data.js` (one entry per dated event the
+   post covers, `url` pointing at the post), run
+   `python3 blog-maintenance/update-events.py`, and bump the `events.html`
+   `<lastmod>` in `sitemap.xml` to today. If the organiser has only a usual
+   window and no announced dates, use `"status": "typical"`; switch it to
+   `"confirmed"` on the day the dates are published. Never put an event on the
+   calendar with a guessed date that the post itself does not state as typical.
+
+The daily maintenance run keeps the calendar current; the rules for that are in
+`blog-maintenance/AGENT-INSTRUCTIONS.md` under "Events calendar".
+
 ## Page Update Requirements
 
 **CRITICAL: When updating ANY page on the site (including index.html, blog.html, or any blog post), you MUST also update:**
@@ -1036,9 +1094,9 @@ Run automated accessibility checks with `pa11y` for homepage, blog listing, tour
 
 ### When Required
 
-- Any changes to `index.html`, `blog.html`, `tours-experiences.html`, or any `blog-*.html`.
+- Any changes to `index.html`, `blog.html`, `tours-experiences.html`, `events.html`, or any `blog-*.html`.
 - Any shared component/layout updates.
-- Any CSS changes (`styles.css`, `blog-styles.css`, `tours-styles.css`) that can affect contrast, focus, spacing, or visibility.
+- Any CSS changes (`styles.css`, `blog-styles.css`, `tours-styles.css`, `events-styles.css`) that can affect contrast, focus, spacing, or visibility.
 
 ### Failure Handling
 

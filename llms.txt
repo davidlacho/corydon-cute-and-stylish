@@ -10,6 +10,7 @@ Owner: Stay Winnipeg
 - [Home](https://staywinnipeg.ca/)
 - [Blog](https://staywinnipeg.ca/blog.html)
 - [Discounted Tours & Experiences](https://staywinnipeg.ca/tours-experiences.html)
+- [Winnipeg Events Calendar](https://staywinnipeg.ca/events.html)
 - [Accessibility Statement](https://staywinnipeg.ca/accessibility.html)
 - [Booking Redirect](https://staywinnipeg.ca/book-now.html)
 
@@ -228,6 +229,7 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 - Main homepage showcasing boutique accommodation, tours, and experiences with booking information, guest review highlights, a two-column property overview with image carousel, and a centred booking CTA
 - Blog index page listing all 176 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
+- Winnipeg Events Calendar page (events.html) with day, week and month views of festivals, games, markets, parades and shows; every calendar event links to the blog post that covers it, and the data lives in events-data.js
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
 - 176 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
@@ -242,6 +244,7 @@ The site combines three content pillars:
 
 # Additional Features
 - **Discounted Tours & Experiences**: Partnership with tour providers offering exclusive discounts on Winnipeg tours, activities, and experiences. The tours-experiences.html page features a Viator widget for easy booking of discounted tours.
+- **Winnipeg Events Calendar**: events.html shows what is on in Winnipeg by day, week (the default) or month. Each event is a dated entry in events-data.js that links to its own guide post; the daily blog-maintenance run adds new event posts to the calendar, refreshes dates when organisers announce them, and regenerates the page's static list and Event JSON-LD with blog-maintenance/update-events.py.
 - **Accessibility Quality Checks**: WCAG 2.1 AA checks are run with Pa11y for page-level and full-sitemap audits, with reports saved to `pa11y-sitemap-report.json`.
 
 # Review update workflow

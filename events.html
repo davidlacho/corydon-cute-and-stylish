@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Winnipeg Events Calendar: Festivals, Games and Shows by Date</title>
+    <meta name="title" content="Winnipeg Events Calendar: Festivals, Games and Shows by Date">
+    <meta name="description" content="A calendar of what is on in Winnipeg: festivals, Jets and Goldeyes games, markets, parades and shows by day, week and month, each linked to a guide for planning the day.">
+    <meta name="keywords" content="Winnipeg events, Winnipeg events calendar, what's on in Winnipeg, Winnipeg festivals, Winnipeg this week, Winnipeg this weekend, things to do in Winnipeg, Winnipeg events 2026, Winnipeg events 2027">
+    <meta name="author" content="Stay Winnipeg">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="language" content="en-CA">
+    <meta name="geo.region" content="CA-MB">
+    <meta name="geo.placename" content="Winnipeg">
+    <meta name="geo.position" content="49.87275;-97.16177">
+    <meta name="ICBM" content="49.87275, -97.16177">
+    <link rel="canonical" href="https://staywinnipeg.ca/events.html">
+    <link rel="alternate" hreflang="en-CA" href="https://staywinnipeg.ca/events.html">
+    <link rel="alternate" hreflang="x-default" href="https://staywinnipeg.ca/events.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://staywinnipeg.ca/events.html">
+    <meta property="og:title" content="Winnipeg Events Calendar: Festivals, Games and Shows by Date">
+    <meta property="og:description" content="What is on in Winnipeg by day, week and month: festivals, Jets and Goldeyes games, markets, parades and shows, each linked to a guide for planning the day.">
+    <meta property="og:image" content="https://staywinnipeg.ca/images/human-rights-museum.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="800">
+    <meta property="og:image:alt" content="The Canadian Museum for Human Rights at The Forks in Winnipeg">
+    <meta property="og:site_name" content="Stay Winnipeg">
+    <meta property="og:locale" content="en_CA">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://staywinnipeg.ca/events.html">
+    <meta name="twitter:title" content="Winnipeg Events Calendar: Festivals, Games and Shows by Date">
+    <meta name="twitter:description" content="What is on in Winnipeg by day, week and month: festivals, Jets and Goldeyes games, markets, parades and shows, each linked to a guide.">
+    <meta name="twitter:image" content="https://staywinnipeg.ca/images/human-rights-museum.jpg">
+    <meta name="twitter:image:alt" content="The Canadian Museum for Human Rights at The Forks in Winnipeg">
+
+    <link rel="icon" type="image/png" href="/home-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+
+    <!-- Shared Blog Styles -->
+    <link rel="stylesheet" href="/blog-styles.css">
+    <!-- Events Calendar Page Styles (source: events-styles.css) -->
+    <link rel="stylesheet" href="/events-styles.min.css">
+
+    <!-- Load React libraries with defer for non-blocking execution (self-hosted copies of React 18.3.1) -->
+    <script src="/vendor/react.production.min.js" defer></script>
+    <script src="/vendor/react-dom.production.min.js" defer></script>
+
+    <!-- Load shared blog components -->
+    <script src="/blog-components.js" defer></script>
+
+    <!-- Load the events data (maintained daily; see blog-maintenance/AGENT-INSTRUCTIONS.md) -->
+    <script src="/events-data.js" defer></script>
+
+    <!-- Smooth transition function -->
+    <script>
+        (function() {
+            function hideNoscriptSmoothly() {
+                const noscript = document.querySelector('noscript');
+                if (noscript) {
+                    noscript.classList.add('fade-out');
+                    setTimeout(function() {
+                        noscript.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; position: absolute !important; left: -9999px !important;';
+                        const allChildren = noscript.querySelectorAll('*');
+                        allChildren.forEach(el => {
+                            el.style.cssText = 'display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important;';
+                        });
+                    }, 300);
+                }
+            }
+            window.hideNoscriptWhenReady = hideNoscriptSmoothly;
+        })();
+    </script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Winnipeg Events Calendar",
+        "description": "A calendar of what is on in Winnipeg: festivals, Jets and Goldeyes games, markets, parades and shows by day, week and month, each linked to a guide for planning the day.",
+        "url": "https://staywinnipeg.ca/events.html",
+        "publisher": {
+            "@type": "Organization",
+            "@id": "https://staywinnipeg.ca/#organization",
+            "name": "Stay Winnipeg",
+            "url": "https://staywinnipeg.ca"
+        },
+        "about": {
+            "@type": "Place",
+            "name": "Winnipeg, Manitoba",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Winnipeg",
+                "addressRegion": "MB",
+                "addressCountry": "CA"
+            }
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://staywinnipeg.ca/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Events",
+                "item": "https://staywinnipeg.ca/events.html"
+            }
+        ]
+    }
+    </script>
+
+    <!-- events-jsonld:start (generated by blog-maintenance/update-events.py; do not edit by hand) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Winnipeg events calendar",
+        "url": "https://staywinnipeg.ca/events.html",
+        "numberOfItems": 28,
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "Event",
+                    "name": "Crafted Show and Sale",
+                    "startDate": "2026-11-06",
+                    "endDate": "2026-11-08",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-holiday-markets.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Winnipeg",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "Event",
+                    "name": "Manitoba Hydro Santa Parade",
+                    "startDate": "2026-11-14",
+                    "endDate": "2026-11-14",
+                    "url": "https://staywinnipeg.ca/blog-santa-claus-parade-winnipeg.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Portage Avenue, downtown",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@type": "Event",
+                    "name": "Third + Bird Christmas Market",
+                    "startDate": "2026-11-20",
+                    "endDate": "2026-11-22",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-holiday-markets.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Winnipeg",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@type": "Event",
+                    "name": "Rise Above Handmade Holiday Market",
+                    "startDate": "2026-11-23",
+                    "endDate": "2026-11-23",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-holiday-markets.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Winnipeg",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg Christmas Market",
+                    "startDate": "2026-11-26",
+                    "endDate": "2026-11-29",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-holiday-markets.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "RBC Convention Centre",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@type": "Event",
+                    "name": "Royal Winnipeg Ballet: Nutcracker",
+                    "startDate": "2026-12-18",
+                    "endDate": "2026-12-27",
+                    "url": "https://staywinnipeg.ca/blog-rwb-nutcracker-winnipeg.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Centennial Concert Hall",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 7,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg school winter break",
+                    "startDate": "2026-12-18",
+                    "endDate": "2027-01-04",
+                    "url": "https://staywinnipeg.ca/blog-christmas-winnipeg.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Winnipeg",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 8,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg Jets vs Dallas, back-to-back",
+                    "startDate": "2026-12-19",
+                    "endDate": "2026-12-20",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-jets.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Canada Life Centre",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 9,
+                "item": {
+                    "@type": "Event",
+                    "name": "New Year's Eve at The Forks",
+                    "startDate": "2026-12-31",
+                    "endDate": "2026-12-31",
+                    "url": "https://staywinnipeg.ca/blog-new-years-eve-the-forks.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "The Forks",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 10,
+                "item": {
+                    "@type": "Event",
+                    "name": "Festival du Voyageur",
+                    "startDate": "2027-02-12",
+                    "endDate": "2027-02-21",
+                    "url": "https://staywinnipeg.ca/blog-festival-du-voyageur.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Whittier Park, St. Boniface",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 11,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg Jets six-game homestand",
+                    "startDate": "2027-03-01",
+                    "endDate": "2027-03-13",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-jets.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Canada Life Centre",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 12,
+                "item": {
+                    "@type": "Event",
+                    "name": "Freeze Frame kids' film festival",
+                    "startDate": "2027-03-07",
+                    "endDate": "2027-03-13",
+                    "url": "https://staywinnipeg.ca/blog-freeze-frame-film-festival.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Centre culturel franco-manitobain",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 13,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg Jets vs Toronto",
+                    "startDate": "2027-03-11",
+                    "endDate": "2027-03-11",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-jets.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Canada Life Centre",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 14,
+                "item": {
+                    "@type": "Event",
+                    "name": "Manitoba spring break",
+                    "startDate": "2027-03-29",
+                    "endDate": "2027-04-02",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-spring-break-guide.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Winnipeg",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 15,
+                "item": {
+                    "@type": "Event",
+                    "name": "JUNO Week",
+                    "startDate": "2027-04-01",
+                    "endDate": "2027-04-04",
+                    "url": "https://staywinnipeg.ca/blog-juno-awards-winnipeg-2027.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Downtown and Exchange District venues",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 16,
+                "item": {
+                    "@type": "Event",
+                    "name": "JUNO Awards broadcast",
+                    "startDate": "2027-04-02",
+                    "endDate": "2027-04-02",
+                    "url": "https://staywinnipeg.ca/blog-juno-awards-winnipeg-2027.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Canada Life Centre",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 17,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg Jets vs Edmonton",
+                    "startDate": "2027-04-07",
+                    "endDate": "2027-04-07",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-jets.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Canada Life Centre",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 18,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg Goldeyes home opener vs Sioux City",
+                    "startDate": "2027-05-14",
+                    "endDate": "2027-05-14",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-goldeyes.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Blue Cross Park",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 19,
+                "item": {
+                    "@type": "Event",
+                    "name": "Doors Open Winnipeg",
+                    "startDate": "2027-05-29",
+                    "endDate": "2027-05-30",
+                    "url": "https://staywinnipeg.ca/blog-doors-open-winnipeg.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Buildings across the city",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 20,
+                "item": {
+                    "@type": "Event",
+                    "name": "MEME: Manitoba Electronic Music Exhibition",
+                    "startDate": "2027-06-11",
+                    "endDate": "2027-06-12",
+                    "url": "https://staywinnipeg.ca/blog-manitoba-electronic-music-exhibition.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Old Market Square, Exchange District",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 21,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg Goldeyes Father's Day home game",
+                    "startDate": "2027-06-20",
+                    "endDate": "2027-06-20",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-goldeyes.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Blue Cross Park",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 22,
+                "item": {
+                    "@type": "Event",
+                    "name": "Canada Day at The Forks",
+                    "startDate": "2027-07-01",
+                    "endDate": "2027-07-01",
+                    "url": "https://staywinnipeg.ca/blog-canada-day-winnipeg.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "The Forks",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 23,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg Goldeyes Canada Day home game",
+                    "startDate": "2027-07-01",
+                    "endDate": "2027-07-01",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-goldeyes.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Blue Cross Park",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 24,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg Folk Festival",
+                    "startDate": "2027-07-08",
+                    "endDate": "2027-07-11",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-folk-festival.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Birds Hill Provincial Park",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 25,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg Fringe Theatre Festival",
+                    "startDate": "2027-07-14",
+                    "endDate": "2027-07-25",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-fringe-festival-guide.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Exchange District",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 26,
+                "item": {
+                    "@type": "Event",
+                    "name": "Great Outdoors Comedy Festival",
+                    "startDate": "2027-07-16",
+                    "endDate": "2027-07-18",
+                    "url": "https://staywinnipeg.ca/blog-great-outdoors-comedy-festival-winnipeg.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Lyric Theatre field, Assiniboine Park",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 27,
+                "item": {
+                    "@type": "Event",
+                    "name": "Folklorama",
+                    "startDate": "2027-08-01",
+                    "endDate": "2027-08-14",
+                    "url": "https://staywinnipeg.ca/blog-folklorama-2027.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Pavilions across Winnipeg",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 28,
+                "item": {
+                    "@type": "Event",
+                    "name": "Winnipeg Goldeyes final homestand vs Lincoln",
+                    "startDate": "2027-08-31",
+                    "endDate": "2027-09-05",
+                    "url": "https://staywinnipeg.ca/blog-winnipeg-goldeyes.html",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Blue Cross Park",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Winnipeg",
+                            "addressRegion": "MB",
+                            "addressCountry": "CA"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+    </script>
+    <!-- events-jsonld:end -->
+</head>
+<body class="events-page">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- React will render here -->
+    <div id="root"></div>
+
+    <!-- Page content (accessible to React and noscript fallback) -->
+    <main id="article-content">
+        <article class="container">
+            <div class="article-header">
+                <h1>Winnipeg Events Calendar</h1>
+                <p class="events-lede">What is on in Winnipeg, by day, week or month. Every event on the calendar links to our guide for it: dates, tickets, how to get there from Crescentwood and what to bring. Dates marked as typical are the usual window for an event whose organiser has not yet published this year's schedule.</p>
+            </div>
+
+            <div class="article-body">
+                <div id="events-static">
+                    <!-- events-list:start (generated by blog-maintenance/update-events.py; do not edit by hand) -->
+<h2>Upcoming events</h2>
+<h3>November 2026</h3>
+<ul class="events-list">
+<li><a href="/blog-winnipeg-holiday-markets.html">Crafted Show and Sale</a><span class="events-list-date">November 6 to 8</span></li>
+<li><a href="/blog-santa-claus-parade-winnipeg.html">Manitoba Hydro Santa Parade</a><span class="events-list-date">Saturday, November 14, 5 p.m.</span><span class="events-list-venue">Portage Avenue, downtown</span></li>
+<li><a href="/blog-winnipeg-holiday-markets.html">Third + Bird Christmas Market</a><span class="events-list-date">November 20 to 22</span></li>
+<li><a href="/blog-winnipeg-holiday-markets.html">Rise Above Handmade Holiday Market</a><span class="events-list-date">Monday, November 23</span></li>
+<li><a href="/blog-winnipeg-holiday-markets.html">Winnipeg Christmas Market</a><span class="events-list-date">November 26 to 29</span><span class="events-list-venue">RBC Convention Centre</span></li>
+<li><a href="/blog-canad-inns-winter-wonderland.html">Canad Inns Winter Wonderland drive-through lights</a><span class="events-list-date">November 28, 2026 to January 3, 2027, 6 p.m. to 10 p.m. nightly (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Red River Exhibition Park</span></li>
+</ul>
+<h3>December 2026</h3>
+<ul class="events-list">
+<li><a href="/blog-rwb-nutcracker-winnipeg.html">Royal Winnipeg Ballet: Nutcracker</a><span class="events-list-date">December 18 to 27</span><span class="events-list-venue">Centennial Concert Hall</span></li>
+<li><a href="/blog-christmas-winnipeg.html">Winnipeg school winter break</a><span class="events-list-date">December 18, 2026 to January 4, 2027</span></li>
+<li><a href="/blog-winnipeg-jets.html">Winnipeg Jets vs Dallas, back-to-back</a><span class="events-list-date">December 19 to 20</span><span class="events-list-venue">Canada Life Centre</span></li>
+<li><a href="/blog-arctic-glacier-winter-park-forks.html">Arctic Glacier Winter Park opens for the season</a><span class="events-list-date">December 19, 2026 to March 7, 2027 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">The Forks</span></li>
+<li><a href="/blog-new-years-eve-the-forks.html">New Year's Eve at The Forks</a><span class="events-list-date">Thursday, December 31</span><span class="events-list-venue">The Forks</span></li>
+</ul>
+<h3>January 2027</h3>
+<ul class="events-list">
+<li><a href="/blog-nestaweya-river-trail.html">Nestaweya River Trail skating season</a><span class="events-list-date">January 9 to March 7 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Red and Assiniboine rivers at The Forks</span></li>
+<li><a href="/blog-snow-maze-st-adolphe.html">Snow maze at A Maze in Corn</a><span class="events-list-date">January 15 to March 14 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">St. Adolphe</span></li>
+<li><a href="/blog-warming-huts-red-river-trail.html">Warming Huts on the river trail</a><span class="events-list-date">January 18 to February 28 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Nestaweya River Trail, The Forks</span></li>
+<li><a href="/blog-winnipeg-new-music-festival.html">Winnipeg New Music Festival</a><span class="events-list-date">January 20 to 28 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Centennial Concert Hall</span></li>
+</ul>
+<h3>February 2027</h3>
+<ul class="events-list">
+<li><a href="/blog-festival-du-voyageur.html">Festival du Voyageur</a><span class="events-list-date">February 12 to 21</span><span class="events-list-venue">Whittier Park, St. Boniface</span></li>
+</ul>
+<h3>March 2027</h3>
+<ul class="events-list">
+<li><a href="/blog-winnipeg-jets.html">Winnipeg Jets six-game homestand</a><span class="events-list-date">March 1 to 13</span><span class="events-list-venue">Canada Life Centre</span></li>
+<li><a href="/blog-freeze-frame-film-festival.html">Freeze Frame kids' film festival</a><span class="events-list-date">March 7 to 13</span><span class="events-list-venue">Centre culturel franco-manitobain</span></li>
+<li><a href="/blog-winnipeg-jets.html">Winnipeg Jets vs Toronto</a><span class="events-list-date">Thursday, March 11</span><span class="events-list-venue">Canada Life Centre</span></li>
+<li><a href="/blog-winnipeg-spring-break-guide.html">Manitoba spring break</a><span class="events-list-date">March 29 to April 2</span></li>
+</ul>
+<h3>April 2027</h3>
+<ul class="events-list">
+<li><a href="/blog-juno-awards-winnipeg-2027.html">JUNO Week</a><span class="events-list-date">April 1 to 4</span><span class="events-list-venue">Downtown and Exchange District venues</span></li>
+<li><a href="/blog-juno-awards-winnipeg-2027.html">JUNO Awards broadcast</a><span class="events-list-date">Friday, April 2</span><span class="events-list-venue">Canada Life Centre</span></li>
+<li><a href="/blog-winnipeg-jets.html">Winnipeg Jets vs Edmonton</a><span class="events-list-date">Wednesday, April 7</span><span class="events-list-venue">Canada Life Centre</span></li>
+<li><a href="/blog-winnipeg-comedy-festival.html">Winnipeg Comedy Festival</a><span class="events-list-date">April 19 to 25 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Gas Station Arts Centre and Burton Cummings Theatre</span></li>
+</ul>
+<h3>May 2027</h3>
+<ul class="events-list">
+<li><a href="/blog-winnipeg-goldeyes.html">Winnipeg Goldeyes home opener vs Sioux City</a><span class="events-list-date">Friday, May 14, 7 p.m.</span><span class="events-list-venue">Blue Cross Park</span></li>
+<li><a href="/blog-winnipeg-pride.html">Pride Winnipeg festival (40th year)</a><span class="events-list-date">May 25 to June 6 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Downtown and The Forks</span></li>
+<li><a href="/blog-table-for-1200-winnipeg.html">Table for 1200</a><span class="events-list-date">Saturday, May 29 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Secret location, announced at noon</span></li>
+<li><a href="/blog-doors-open-winnipeg.html">Doors Open Winnipeg</a><span class="events-list-date">May 29 to 30</span><span class="events-list-venue">Buildings across the city</span></li>
+</ul>
+<h3>June 2027</h3>
+<ul class="events-list">
+<li><a href="/blog-kidsfest-winnipeg.html">Kidsfest (Winnipeg International Children's Festival)</a><span class="events-list-date">June 10 to 13 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">The Forks</span></li>
+<li><a href="/blog-manitoba-electronic-music-exhibition.html">MEME: Manitoba Electronic Music Exhibition</a><span class="events-list-date">June 11 to 12</span><span class="events-list-venue">Old Market Square, Exchange District</span></li>
+<li><a href="/blog-red-river-exhibition.html">Red River Ex</a><span class="events-list-date">June 11 to 20 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Red River Exhibition Park</span></li>
+<li><a href="/blog-winnipeg-jazz-festival.html">TD Winnipeg International Jazz Festival</a><span class="events-list-date">June 15 to 20 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Old Market Square and Exchange District venues</span></li>
+<li><a href="/blog-winnipeg-goldeyes.html">Winnipeg Goldeyes Father's Day home game</a><span class="events-list-date">Sunday, June 20</span><span class="events-list-venue">Blue Cross Park</span></li>
+</ul>
+<h3>July 2027</h3>
+<ul class="events-list">
+<li><a href="/blog-canada-day-winnipeg.html">Canada Day at The Forks</a><span class="events-list-date">Thursday, July 1</span><span class="events-list-venue">The Forks</span></li>
+<li><a href="/blog-winnipeg-goldeyes.html">Winnipeg Goldeyes Canada Day home game</a><span class="events-list-date">Thursday, July 1</span><span class="events-list-venue">Blue Cross Park</span></li>
+<li><a href="/blog-winnipeg-folk-festival.html">Winnipeg Folk Festival</a><span class="events-list-date">July 8 to 11</span><span class="events-list-venue">Birds Hill Provincial Park</span></li>
+<li><a href="/blog-winnipeg-fringe-festival-guide.html">Winnipeg Fringe Theatre Festival</a><span class="events-list-date">July 14 to 25</span><span class="events-list-venue">Exchange District</span></li>
+<li><a href="/blog-great-outdoors-comedy-festival-winnipeg.html">Great Outdoors Comedy Festival</a><span class="events-list-date">July 16 to 18</span><span class="events-list-venue">Lyric Theatre field, Assiniboine Park</span></li>
+<li><a href="/blog-icelandic-festival-gimli.html">Icelandic Festival of Manitoba (Islendingadagurinn)</a><span class="events-list-date">July 30 to August 2 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Gimli</span></li>
+</ul>
+<h3>August 2027</h3>
+<ul class="events-list">
+<li><a href="/blog-folklorama-2027.html">Folklorama</a><span class="events-list-date">August 1 to 14</span><span class="events-list-venue">Pavilions across Winnipeg</span></li>
+<li><a href="/blog-winnipeg-summer-food-festivals.html">StrEAT Feast food truck festival</a><span class="events-list-date">August 12 to 15 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">The Forks</span></li>
+<li><a href="/blog-winnipeg-summer-food-festivals.html">Tacos and Tequila Festival</a><span class="events-list-date">Saturday, August 21 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Blue Cross Park</span></li>
+<li><a href="/blog-winnipeg-summer-food-festivals.html">Winnipeg Beer Festival</a><span class="events-list-date">Saturday, August 21 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">St. Boniface</span></li>
+<li><a href="/blog-winnipeg-goldeyes.html">Winnipeg Goldeyes final homestand vs Lincoln</a><span class="events-list-date">August 31 to September 5</span><span class="events-list-venue">Blue Cross Park</span></li>
+</ul>
+<h3>September 2027</h3>
+<ul class="events-list">
+<li><a href="/blog-manyfest-winnipeg-the-weekender.html">The Weekender on Graham Avenue</a><span class="events-list-date">September 10 to 12 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Graham Avenue, downtown</span></li>
+<li><a href="/blog-reel-pride-film-festival-winnipeg.html">Reel Pride Film Festival</a><span class="events-list-date">September 15 to 19 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Gas Station Arts Centre and Canadian Museum for Human Rights</span></li>
+<li><a href="/blog-culture-days-winnipeg.html">Culture Days</a><span class="events-list-date">September 17 to October 3 (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Venues across Winnipeg and Manitoba</span></li>
+<li><a href="/blog-nuit-blanche-winnipeg.html">Nuit Blanche Winnipeg</a><span class="events-list-date">Saturday, September 25, 6 p.m. to midnight (typical dates; not yet confirmed by the organiser)</span><span class="events-list-venue">Downtown, Exchange District, The Forks and St. Boniface</span></li>
+</ul>
+<p class="events-updated">Calendar last updated November 3, 2026. Dates come from each organiser; confirm on their site before you book travel around an event.</p>
+    <!-- events-list:end -->
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <noscript>
+        <!-- Fallback for no JavaScript -->
+        <div id="nav-placeholder"></div>
+        <div id="footer-placeholder"></div>
+        <script src="/load-components.js"></script>
+    </noscript>
+
+    <!-- React App for the Events Calendar -->
+    <script type="text/javascript" defer>
+    document.addEventListener('DOMContentLoaded', function () {
+        const { useState, useEffect, useMemo } = React;
+        const h = React.createElement;
+
+        const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        const WEEKDAYS_SHORT = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        const VIEWS = ['day', 'week', 'month'];
+
+        function parseISO(s) {
+            const p = String(s).split('-').map(Number);
+            return new Date(p[0], p[1] - 1, p[2]);
+        }
+        function toISO(d) {
+            const m = String(d.getMonth() + 1).padStart(2, '0');
+            const day = String(d.getDate()).padStart(2, '0');
+            return d.getFullYear() + '-' + m + '-' + day;
+        }
+        function addDays(d, n) {
+            const r = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+            r.setDate(r.getDate() + n);
+            return r;
+        }
+        function addMonths(d, n) {
+            return new Date(d.getFullYear(), d.getMonth() + n, 1);
+        }
+        function startOfWeek(d) {
+            return addDays(d, -d.getDay());
+        }
+        function sameDay(a, b) {
+            return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
+        }
+        function todayLocal() {
+            const n = new Date();
+            return new Date(n.getFullYear(), n.getMonth(), n.getDate());
+        }
+        function longDate(d) {
+            return WEEKDAYS[d.getDay()] + ', ' + MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+        }
+        function rangeLabel(s, t) {
+            if (sameDay(s, t)) {
+                return MONTHS[s.getMonth()] + ' ' + s.getDate() + ', ' + s.getFullYear();
+            }
+            if (s.getFullYear() === t.getFullYear() && s.getMonth() === t.getMonth()) {
+                return MONTHS[s.getMonth()] + ' ' + s.getDate() + ' to ' + t.getDate() + ', ' + s.getFullYear();
+            }
+            if (s.getFullYear() === t.getFullYear()) {
+                return MONTHS[s.getMonth()] + ' ' + s.getDate() + ' to ' + MONTHS[t.getMonth()] + ' ' + t.getDate() + ', ' + s.getFullYear();
+            }
+            return MONTHS[s.getMonth()] + ' ' + s.getDate() + ', ' + s.getFullYear() + ' to ' + MONTHS[t.getMonth()] + ' ' + t.getDate() + ', ' + t.getFullYear();
+        }
+        function plural(n, word) {
+            return n + ' ' + word + (n === 1 ? '' : 's');
+        }
+
+        const ALL_EVENTS = (typeof EVENTS_DATA !== 'undefined' ? EVENTS_DATA : [])
+            .map(function (e, i) {
+                return Object.assign({}, e, { id: i, s: parseISO(e.start), t: parseISO(e.end || e.start) });
+            })
+            .filter(function (e) { return !isNaN(e.s) && !isNaN(e.t); })
+            .sort(function (a, b) { return a.s - b.s || a.t - b.t || a.title.localeCompare(b.title); });
+
+        function eventsOn(day) {
+            return ALL_EVENTS.filter(function (e) { return e.s <= day && day <= e.t; });
+        }
+        function eventsBetween(s, t) {
+            return ALL_EVENTS.filter(function (e) { return e.s <= t && s <= e.t; });
+        }
+
+        function readStateFromUrl() {
+            const params = new URLSearchParams(window.location.search);
+            const view = VIEWS.indexOf(params.get('view')) >= 0 ? params.get('view') : 'week';
+            let anchor = todayLocal();
+            const d = params.get('date');
+            if (d && /^\d{4}-\d{2}-\d{2}$/.test(d)) {
+                const parsed = parseISO(d);
+                if (!isNaN(parsed)) anchor = parsed;
+            }
+            return { view: view, anchor: anchor };
+        }
+
+        function EventLink(props) {
+            const e = props.event;
+            const detail = props.detail;
+            const typical = e.status === 'typical';
+            const classes = ['cal-event'];
+            if (typical) classes.push('cal-event--typical');
+            const bits = [];
+            if (detail) {
+                const meta = [];
+                if (!sameDay(e.s, e.t)) meta.push(rangeLabel(e.s, e.t));
+                if (e.time) meta.push(e.time);
+                if (e.venue) meta.push(e.venue);
+                if (meta.length) {
+                    bits.push(h('span', { className: 'cal-event-meta', key: 'meta' }, meta.join(' · ')));
+                }
+            }
+            if (typical) {
+                bits.push(h('span', { className: 'cal-event-flag', key: 'flag' }, 'typical dates'));
+            }
+            return h('a', {
+                href: e.url,
+                className: classes.join(' '),
+                'aria-label': e.title + (typical ? ' (typical dates, not yet confirmed)' : '') + ' - read the guide'
+            },
+                h('span', { className: 'cal-event-title' }, e.title),
+                bits
+            );
+        }
+
+        function DayCell(props) {
+            const day = props.day;
+            const events = eventsOn(day);
+            const isToday = sameDay(day, props.today);
+            const classes = ['cal-cell'];
+            if (props.outside) classes.push('cal-cell--outside');
+            if (isToday) classes.push('cal-cell--today');
+            if (!events.length) classes.push('cal-cell--empty');
+            const label = (props.weekday ? WEEKDAYS[day.getDay()] + ', ' : '') + MONTHS[day.getMonth()] + ' ' + day.getDate() +
+                (isToday ? ' (today)' : '') + ': ' + (events.length ? plural(events.length, 'event') : 'no events') + '. Open day view.';
+            return h('li', { className: classes.join(' ') },
+                h('button', {
+                    type: 'button',
+                    className: 'cal-daynum',
+                    'aria-label': label,
+                    'aria-current': isToday ? 'date' : undefined,
+                    onClick: function () { props.onPick(day); }
+                },
+                    props.weekday ? h('span', { className: 'cal-daynum-weekday', 'aria-hidden': 'true' }, WEEKDAYS_SHORT[day.getDay()]) : null,
+                    h('span', { className: 'cal-daynum-num', 'aria-hidden': 'true' }, String(day.getDate()))
+                ),
+                events.length ? h('span', { className: 'cal-cell-count', 'aria-hidden': 'true' }, String(events.length)) : null,
+                events.length ? h('ul', { className: 'cal-cell-events' },
+                    events.map(function (e) {
+                        return h('li', { key: e.id }, h(EventLink, { event: e, detail: props.detail }));
+                    })
+                ) : null
+            );
+        }
+
+        function MonthView(props) {
+            const first = new Date(props.anchor.getFullYear(), props.anchor.getMonth(), 1);
+            const gridStart = startOfWeek(first);
+            const cells = [];
+            for (let i = 0; i < 42; i++) cells.push(addDays(gridStart, i));
+            return h('div', { className: 'cal-month' },
+                h('ol', { className: 'cal-weekday-row', 'aria-hidden': 'true' },
+                    WEEKDAYS_SHORT.map(function (w) { return h('li', { key: w }, w); })
+                ),
+                h('ol', { className: 'cal-grid cal-grid--month' },
+                    cells.map(function (day) {
+                        return h(DayCell, {
+                            key: toISO(day),
+                            day: day,
+                            today: props.today,
+                            outside: day.getMonth() !== first.getMonth(),
+                            onPick: props.onPick,
+                            detail: false,
+                            weekday: true
+                        });
+                    })
+                )
+            );
+        }
+
+        function WeekView(props) {
+            const start = startOfWeek(props.anchor);
+            const days = [];
+            for (let i = 0; i < 7; i++) days.push(addDays(start, i));
+            return h('ol', { className: 'cal-grid cal-grid--week' },
+                days.map(function (day) {
+                    return h(DayCell, {
+                        key: toISO(day),
+                        day: day,
+                        today: props.today,
+                        outside: false,
+                        onPick: props.onPick,
+                        detail: true,
+                        weekday: true
+                    });
+                })
+            );
+        }
+
+        function DayView(props) {
+            const events = eventsOn(props.anchor);
+            if (!events.length) {
+                return h('p', { className: 'cal-empty' }, 'Nothing on our calendar for this day. Use the arrows to move to another day, or switch to the month view.');
+            }
+            return h('ul', { className: 'cal-agenda' },
+                events.map(function (e) {
+                    return h('li', { key: e.id }, h(EventLink, { event: e, detail: true }));
+                })
+            );
+        }
+
+        function EventsCalendar() {
+            const initial = useMemo(readStateFromUrl, []);
+            const [view, setView] = useState(initial.view);
+            const [anchor, setAnchor] = useState(initial.anchor);
+            const today = useMemo(todayLocal, []);
+
+            useEffect(function () {
+                try {
+                    const params = new URLSearchParams();
+                    params.set('view', view);
+                    params.set('date', toISO(anchor));
+                    window.history.replaceState(null, '', window.location.pathname + '?' + params.toString());
+                } catch (err) { /* history unavailable; the calendar still works */ }
+            }, [view, anchor]);
+
+            function step(direction) {
+                if (view === 'day') setAnchor(addDays(anchor, direction));
+                else if (view === 'week') setAnchor(addDays(anchor, 7 * direction));
+                else setAnchor(addMonths(anchor, direction));
+            }
+            function pickDay(day) {
+                setAnchor(day);
+                setView('day');
+            }
+
+            let rangeText;
+            let count;
+            let periodWord;
+            if (view === 'day') {
+                rangeText = longDate(anchor);
+                count = eventsOn(anchor).length;
+                periodWord = 'day';
+            } else if (view === 'week') {
+                const s = startOfWeek(anchor);
+                const t = addDays(s, 6);
+                rangeText = 'Week of ' + rangeLabel(s, t);
+                count = eventsBetween(s, t).length;
+                periodWord = 'week';
+            } else {
+                const s = new Date(anchor.getFullYear(), anchor.getMonth(), 1);
+                const t = addDays(addMonths(anchor, 1), -1);
+                rangeText = MONTHS[anchor.getMonth()] + ' ' + anchor.getFullYear();
+                count = eventsBetween(s, t).length;
+                periodWord = 'month';
+            }
+
+            const body = view === 'day'
+                ? h(DayView, { anchor: anchor, today: today })
+                : view === 'week'
+                    ? h(WeekView, { anchor: anchor, today: today, onPick: pickDay })
+                    : h(MonthView, { anchor: anchor, today: today, onPick: pickDay });
+
+            return h('section', { className: 'cal', 'aria-labelledby': 'cal-range' },
+                h('div', { className: 'cal-toolbar' },
+                    h('div', { className: 'cal-nav', role: 'group', 'aria-label': 'Move through the calendar' },
+                        h('button', {
+                            type: 'button', className: 'cal-btn', 'aria-label': 'Previous ' + periodWord,
+                            onClick: function () { step(-1); }
+                        }, h('span', { 'aria-hidden': 'true' }, '←'), h('span', { className: 'cal-btn-text' }, 'Previous')),
+                        h('button', {
+                            type: 'button', className: 'cal-btn',
+                            onClick: function () { setAnchor(today); }
+                        }, 'Today'),
+                        h('button', {
+                            type: 'button', className: 'cal-btn', 'aria-label': 'Next ' + periodWord,
+                            onClick: function () { step(1); }
+                        }, h('span', { className: 'cal-btn-text' }, 'Next'), h('span', { 'aria-hidden': 'true' }, '→'))
+                    ),
+                    h('h2', { className: 'cal-range', id: 'cal-range', 'aria-live': 'polite' }, rangeText),
+                    h('div', { className: 'cal-views', role: 'group', 'aria-label': 'Calendar view' },
+                        VIEWS.map(function (v) {
+                            return h('button', {
+                                key: v,
+                                type: 'button',
+                                className: 'filter-btn' + (view === v ? ' active' : ''),
+                                'aria-pressed': view === v,
+                                onClick: function () { setView(v); }
+                            }, v.charAt(0).toUpperCase() + v.slice(1));
+                        })
+                    )
+                ),
+                h('p', { className: 'cal-count', 'aria-live': 'polite' },
+                    (count ? plural(count, 'event') : 'No events') + ' this ' + periodWord + '. Select an event to open its guide' +
+                    (view === 'day' ? '.' : ', or a date to see that day.')
+                ),
+                h('div', { className: 'cal-body cal-body--' + view }, body),
+                h('p', { className: 'cal-legend' },
+                    h('span', { className: 'cal-event-flag' }, 'typical dates'),
+                    ' marks an event whose organiser has not yet published this year’s schedule; the dates shown are its usual window. Confirm on the organiser’s site before booking travel around it.'
+                )
+            );
+        }
+
+        function EventsPageApp() {
+            const [headerHtml, setHeaderHtml] = useState(null);
+            const [listHtml, setListHtml] = useState('');
+
+            useEffect(function () {
+                const mainEl = document.getElementById('article-content');
+                const headerEl = mainEl ? mainEl.querySelector('.article-header') : null;
+                const listEl = mainEl ? mainEl.querySelector('#events-static') : null;
+                if (headerEl) setHeaderHtml(headerEl.innerHTML);
+                if (listEl) setListHtml(listEl.innerHTML);
+                if (mainEl) mainEl.style.display = 'none';
+            }, []);
+
+            return h('div', null,
+                h(Navigation),
+                h('main', { id: 'main-content' },
+                    h('div', { className: 'container' },
+                        headerHtml !== null
+                            ? h('div', { className: 'article-header', dangerouslySetInnerHTML: { __html: headerHtml } })
+                            : h('div', { className: 'article-header' }, h('h1', null, 'Winnipeg Events Calendar')),
+                        h('div', { className: 'article-body' },
+                            h(EventsCalendar),
+                            h('div', { className: 'events-static', dangerouslySetInnerHTML: { __html: listHtml } })
+                        )
+                    )
+                ),
+                h(Footer),
+                h(FloatingBookButton)
+            );
+        }
+
+        function initEventsApp() {
+            if (typeof React !== 'undefined' && typeof ReactDOM !== 'undefined' && typeof Navigation === 'function') {
+                const root = ReactDOM.createRoot(document.getElementById('root'));
+                root.render(h(EventsPageApp));
+                setTimeout(function () {
+                    const rootEl = document.getElementById('root');
+                    if (rootEl) rootEl.classList.add('react-ready');
+                    if (window.hideNoscriptWhenReady) window.hideNoscriptWhenReady();
+                }, 100);
+            } else {
+                setTimeout(initEventsApp, 100);
+            }
+        }
+        initEventsApp();
+    });
+    </script>
+</body>
+</html>

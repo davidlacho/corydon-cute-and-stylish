@@ -30,6 +30,20 @@ interests. Prefer these over anything framed around the Airbnb's doorstep.
 - riding-mountain-national-park-trip - Riding Mountain National Park: a weekend from Winnipeg
 - northern-lights-near-winnipeg - Chasing the northern lights within reach of Winnipeg
 
+## Events queue (standing; refilled by Part 2b of the playbook)
+
+Dated Winnipeg events a visitor would plan a trip around, nearest first, that
+have no post yet and therefore cannot be on the events calendar
+(`events-data.js`). The daily run takes the first entry here before the general
+queue, writes the post under the "Event posts" rules, then adds the calendar
+entry. Each run also adds up to two newly found events here (see Part 2b). Do
+not delete this section when it is empty.
+
+Format: `- slug - Title (dates: confirmed <dates> | typical <window>; venue;
+organiser site)`
+
+- (empty: nothing queued as of 2026-11-03; refill from the next run's two-to-eight-week look-ahead)
+
 ## Used (append when published: date - slug - title)
 
 - 2026-07-23 - (seed) - none yet
