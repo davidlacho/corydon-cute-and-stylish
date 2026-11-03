@@ -581,6 +581,27 @@ Add this to the post-creation checklist and to every event-page refresh:
 The daily maintenance run keeps the calendar current; the rules for that are in
 `blog-maintenance/AGENT-INSTRUCTIONS.md` under "Events calendar".
 
+## Branch Hygiene
+
+**Delete stale branches, always.** Owner's standing instruction (2026-11-03). Work
+lands on `main`; a branch exists only to carry a change there.
+
+- After a branch is merged into `main` (fast-forward or merge commit), delete it on
+  the remote in the same session: `git push origin --delete <branch>`. Delete the
+  local copy too (`git branch -d <branch>`).
+- At the start or end of any session that touches git, run
+  `git fetch --prune origin` and `git branch -r --merged origin/main`, and delete
+  every merged remote branch other than `main`. Treat a branch whose every change
+  already exists on `main` (a stranded daily-run branch whose post, ledger and
+  changelog updates were later redone on `main`) as merged; check with
+  `git log origin/main..origin/<branch>` plus a look at whether its new files exist
+  on `main`.
+- Never delete `main`, and never delete a branch that carries work `main` does not
+  have; merge or report it instead.
+- If the session's GitHub access cannot delete remote refs (the cloud sandbox proxy
+  returns 403 on ref deletes), say so plainly and list the branches to delete by
+  name so the owner can remove them in the GitHub UI.
+
 ## Page Update Requirements
 
 **CRITICAL: When updating ANY page on the site (including index.html, blog.html, or any blog post), you MUST also update:**

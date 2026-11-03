@@ -536,6 +536,14 @@ Hard rules for the calendar:
    If it reports a mismatch, retry the rebase-and-push once. If it still
    mismatches, say so plainly in the run's final report rather than ending
    silently — do not report the run as complete.
+5. **Delete stale branches** (owner's standing instruction, 2026-11-03). Run
+   `git fetch --prune origin` and delete every remote branch other than `main`
+   that is already merged into `origin/main` (`git branch -r --merged
+   origin/main`), including any session branch the sandbox created for this
+   run once its commits are on `main`: `git push origin --delete <branch>`.
+   Never delete a branch that holds work `main` lacks; merge it instead. If
+   the sandbox cannot delete remote refs (a 403 on the delete push), list the
+   branch names in the run's final report so the owner can remove them.
 
 ## Guardrails
 
