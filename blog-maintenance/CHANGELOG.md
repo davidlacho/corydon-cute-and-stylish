@@ -93,6 +93,11 @@ in the history post.
 against a local server; staywinnipeg.ca is blocked by this sandbox's network
 policy.
 
+**Push and deploy:** commit 057f2e4 pushed to `main` and verified against
+`origin/main`. Pages deploy run 473 for that SHA finished with build, deploy and
+report-build-status all successful. The live URLs could not be fetched from the
+sandbox to confirm by eye; staywinnipeg.ca is blocked by the network policy.
+
 **Pages changed:** `blog-manito-ahbee-festival.html`,
 `blog-santa-claus-parade-winnipeg.html`, `blog-crescentwood-history.html`,
 `blog-crescentwood-liveable.html`, `blog.html`, `articles-data.js`,
