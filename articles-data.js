@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-oak-hammock-marsh-birding.html",
+    "category": "winnipeg",
+    "date": "2026-11-03",
+    "title": "Oak Hammock Marsh Birding: A Day Trip From Winnipeg",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Path through trees and open grass at a Manitoba nature area",
+    "description": "Oak Hammock Marsh is half an hour north of Winnipeg. What flies in each season, what admission costs, which trail to walk and when to arrive.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>7 min read</span>\n                                <span>November 3, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-performing-arts-season.html",
     "category": "winnipeg",
     "date": "2026-11-02",

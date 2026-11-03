@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-nestaweya-river-trail.html
 - blog-osborne-village-corydon-evening-guide.html
 - blog-peanut-park.html
 - blog-post-review-philosophy.html
@@ -118,6 +117,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-11-03 - blog-nestaweya-river-trail.html (a winter guide to the Nestaweya River Trail at The Forks. The only commercial business it names in prose is The Forks Market, which is already in the ledger; this filename was appended to its pages. Skate rental, the warming huts, the Trail Together programme and the Winter Park rinks are all run by The Forks itself, which is an institution rather than a ledger entry, and no individual vendor or restaurant is named.)
 - 2026-11-02 - blog-mattress-pillow-protectors.html (a hosting post on waterproof mattress and pillow protectors. The only brands it names are two bedding manufacturers sold online, Jet's Home and Utopia Bedding, not local businesses a guest would visit, and nothing in the post can go stale through a closure or a move. It names no Winnipeg business and links to no external site. Nothing added to the ledger.)
 - 2026-11-01 - blog-marseille-trip-gone-wrong.html (a hosting-lessons post about a bad Airbnb stay in Marseille in March 2024: check-in, maintenance, cleanliness and host communication. It names no commercial business at all, in Marseille or in Winnipeg; the only company mentioned is Airbnb itself, which is a booking platform rather than a local business the site recommends. Nothing added to the ledger.)
 - 2026-10-31 - blog-little-italy-half-day-walking-loop.html (a there-and-back walking loop of Corydon Avenue between Osborne Street and Cambridge Street. It names eight commercial businesses, all with street addresses in the text: The Roost, Sushi Ya, Colosseo Ristorante Italiano, Thom Bargen Coffee Roasters, The Cheesemongers Fromagerie, Bar Italia, Passero Restaurant and Sugar + Salt Bakeshoppe. Every one already had a ledger entry from an earlier post, so nothing new was added; this filename was appended to the "pages" array of all eight so a future closure correction reaches this post too.)

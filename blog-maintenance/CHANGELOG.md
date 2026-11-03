@@ -7,6 +7,57 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-03 (daily rotation run)
+
+**Businesses verified (6, the stalest in the ledger).** All six were checked by
+web search and all six stand as recorded, so no page needed a correction:
+
+- **A Maze in Corn**, 1351 PR 200, St. Adolphe: open. Its own site is already
+  advertising the snow maze opening in mid-January 2027, so the operation is
+  live. No 2027 hours or prices are posted yet and none were added to
+  `blog-snow-maze-st-adolphe.html`.
+- **Kannuk Outfitters**: open. Current Travel Manitoba and Cast n Blast listings
+  show guided open-water and ice fishing on Lake Winnipeg still being sold.
+- **Red River Co-op Food Store**, 1120 Grant Ave: open, still in Grant Park
+  Shopping Centre. Directory hours disagree with the mall's own posted hours, so
+  nothing about hours was published.
+- **River Heights Farmers' Market**, 1370 Grosvenor Ave: open. The Corydon
+  Community Centre's own page gives the 2026 season as July 3 to September 25,
+  Fridays noon to 5. `blog-farmers-market-near-corydon-airbnb.html` already says
+  exactly that, in the past tense, so it was left alone.
+- **Roughage Eatery**: still `moved`, still with no dining room. Sources agree it
+  runs as a pop-up, markets and catering operation since the Sherbrook Street
+  closure, which is what `blog-winnipeg-vegan-restaurants.html` already tells
+  readers.
+- **Saburo Kitchen**, 242 Hargrave St: open. A 2026 vendor list for Hargrave St.
+  Market still names it. The food hall's own site could not be reached from the
+  sandbox, so the listing is the evidence.
+
+**Ledger sweep.** `blog-nestaweya-river-trail.html` swept. The only commercial
+business it names in prose is The Forks Market, already in the ledger, so that
+filename was appended to its `pages`. The warming huts, Trail Together and the
+Winter Park rinks are all run by The Forks itself and are not ledger entries.
+
+**New post: `blog-oak-hammock-marsh-birding.html`**, "Oak Hammock Marsh Birding:
+A Day Trip From Winnipeg". Question and answer form, seven questions. The first
+idea in the general queue, which many earlier runs had skipped for lack of a
+fitting local photo; it ran this time with an Unsplash nature-path image already
+in use on the site, because Unsplash and Wikimedia are both blocked from this
+sandbox and no new image URL could be verified. Facts and their sources are in
+`post-sources.md`. No drive time from the house appears on the page, since Oak
+Hammock Marsh is not in the playbook's verified distance table.
+
+**pa11y (WCAG2AA):** `blog-oak-hammock-marsh-birding.html` and `blog.html`,
+2 pages, no issues found on either. staywinnipeg.ca is still unreachable from
+this sandbox, so both were served from the working tree over localhost.
+
+**Also changed:** `articles-data.js`, `articles_data.json`, the `blog.html`
+noscript card and JSON-LD `blogPost` array, `sitemap.xml`, `llms.txt`
+(regenerated, now 176 posts), `post-ideas.md`, `post-sources.md`,
+`business-ledger.json`, `ledger-sweep.md`.
+
+---
+
 ## 2026-11-03 (unscheduled: accuracy pass on five trending pages)
 
 Not the daily rotation run. The owner sent the Search Console "trending up"

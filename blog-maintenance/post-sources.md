@@ -16,6 +16,48 @@ Newest first.
 
 ---
 
+## blog-oak-hammock-marsh-birding.html (published 2026-11-03)
+
+New post, question and answer form. Everything on the page came from these
+checks, made on the day of writing:
+
+- **Address (1 Snow Goose Bay, on PR 220) and hours (10 a.m. to 4:30 p.m. daily,
+  open late during the fall migration):** Ducks Unlimited Canada's Oak Hammock
+  Marsh page.
+- **Fall-migration hours (mid-September to mid-October, 10 a.m. to dusk) and the
+  four annual closure days (January 1, November 11, December 24, December 25):**
+  Association of Manitoba Museums listing for the interpretive centre.
+- **Admission ($14 adult, $12 senior 60+, $12 youth 3 to 17, $46 family pass of
+  two adults and up to four children, plus GST, members free):** the centre's own
+  posted 2026 rates. An older museums listing still shows a $10 adult rate and was
+  not used. A separate birding guide gives $14 for 2025, which agrees. The page
+  carries the one permitted "Before you go:" line pointing readers to
+  oakhammockmarsh.ca, because these rates are the thing most likely to move.
+- **Roughly 300 species recorded; peak-migration waterfowl counts in the hundreds
+  of thousands per day; about 30 km of colour-coded trails with boardwalk over the
+  wet sections, some wheelchair-accessible; the rooftop observation deck and the
+  east mound in morning light; winter birds (snow bunting, common redpoll, snowy
+  owl); fall birding running to freeze-up in November:** birdingplaces.eu's Oak
+  Hammock Marsh entry and Interlake Tourism's wildlife management area page. The
+  peak-day waterfowl figure is reported variously as more than 100,000, more than
+  200,000 and over 400,000, so the post says "hundreds of thousands" rather than
+  picking one.
+- **Directions (north on Highway 8, which McPhillips Street becomes, or Highway 7,
+  then PR 220; PR 220 running 3.75 km north of PTH 67 to the marsh; blue tourism
+  signs; free parking; thirty to forty minutes from downtown Winnipeg):** the PR
+  220 road description and the AAA and Interlake Tourism directions. Sources give
+  the distance from Winnipeg as anywhere from 20 km to 34 km, so no kilometre
+  figure was published, only the drive time, which two sources agree on.
+- **Winnipeg sunset just after 5 p.m. in the first week of November and about 4:30
+  by the start of December, and light past nine in late May:** computed
+  astronomically for 49.895 N, 97.138 W, not sourced.
+- **Not stated anywhere:** any drive or walk time from the house (Oak Hammock
+  Marsh is not in the playbook's verified distance table), any transit route (there
+  is no bus), any claim that the centre lends binoculars (drafted, then cut for
+  lack of a source), and any 2027 price or schedule.
+
+---
+
 ## Trending-page accuracy pass (2026-11-03)
 
 Five pages from the owner's Search Console "trending up" list.

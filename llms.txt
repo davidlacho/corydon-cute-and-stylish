@@ -14,14 +14,15 @@ Owner: Stay Winnipeg
 - [Booking Redirect](https://staywinnipeg.ca/book-now.html)
 
 # Content Overview
-Total Blog Posts: 175
-- Winnipeg Attractions & Activities: 157 guides
+Total Blog Posts: 176
+- Winnipeg Attractions & Activities: 158 guides
 - Hosting & Airbnb Philosophy: 13 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (157 guides)
+## Winnipeg Attractions & Activities (158 guides)
+- [Oak Hammock Marsh Birding: A Day Trip From Winnipeg](https://staywinnipeg.ca/blog-oak-hammock-marsh-birding.html)
 - [Winnipeg Performing Arts: Ballet, Symphony or Theatre?](https://staywinnipeg.ca/blog-winnipeg-performing-arts-season.html)
 - [Touring the Manitoba Legislative Building in Winnipeg](https://staywinnipeg.ca/blog-manitoba-legislative-building-tour.html)
 - [Grand Beach Day Trip From Winnipeg: An Hour-by-Hour Plan](https://staywinnipeg.ca/blog-grand-beach-day-trip.html)
@@ -225,10 +226,10 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage showcasing boutique accommodation, tours, and experiences with booking information, guest review highlights, a two-column property overview with image carousel, and a centred booking CTA
-- Blog index page listing all 175 blog posts by category
+- Blog index page listing all 176 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
-- 175 individual blog post pages covering local guides, hosting insights, and travel stories
+- 176 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
