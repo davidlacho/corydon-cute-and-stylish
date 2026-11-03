@@ -16,6 +16,42 @@ Newest first.
 
 ---
 
+## Trending-page accuracy pass (2026-11-03)
+
+Five pages from the owner's Search Console "trending up" list.
+
+- **Santa parade 2026:** date, 5 p.m. step-off, 4 p.m. block parties and the
+  11 a.m. southbound Main Street closure between Portage and York, from the
+  parade's own site via search; Tourism Winnipeg and a Park Indigo roundup agree
+  on the 5 p.m. start. The Portage-to-Memorial route description traces back to a
+  CBC report rather than the official map, which could not be opened from here;
+  it matches what the post already said, so nothing in the route text changed.
+  mbhydrosantaparade.com itself is blocked by the sandbox network policy.
+- **Manito Ahbee:** 2026 edition 30 October to 1 November at Canada Life Centre
+  (Tourism Winnipeg, Canada Life Centre calendar, Manitoba Music). 2024 edition
+  at Red River Exhibition Park, same sources. No 2027 announcement exists on any
+  of them, which is why the page states that rather than a projected date.
+  Festival office number 204-956-1849 retained from the original research.
+- **Bar Italia:** trading. Tourism Winnipeg nightlife listing live; Yelp page
+  updated January 2026 showing daily hours; 737 Corydon Ave consistent across
+  listings. A MapQuest "Closed" label is a current-time flag, not a permanent
+  one. Hours disagree between listings, so none is published.
+- **514 Wellington Crescent (Gordon House):** built 1909 for James T. Gordon of
+  Gordon, Ironside and Fares. Victor Sifton at that address 1936 to 1961 (MHS
+  Memorable Manitobans biography). Demolished 25 November 2020 (MHS historic
+  sites page; Archiseek lists it under Lost Buildings of Winnipeg; CBC and Global
+  covered the 2019 demolition order and the city's intervention). Sources
+  disagree on whether the 2020 demolition was authorised and on W. R. Bawlf's
+  years in the house, so the post states neither.
+- **Qaumajuq:** correct spelling of the Inuit art centre at the Winnipeg Art
+  Gallery, as our own `blog-qaumajuq-wag-guide.html` already had it.
+- **Could not be verified from this sandbox:** areavibes.com (all the
+  statistics in `blog-crescentwood-liveable.html`), mhs.mb.ca,
+  mbhydrosantaparade.com and staywinnipeg.ca are all blocked by the network
+  policy. The AreaVibes figures were therefore left exactly as they were.
+
+---
+
 ## blog-winnipeg-performing-arts-season.html (published 2026-11-02)
 
 Form: comparison. Four companies, three of them in one building.

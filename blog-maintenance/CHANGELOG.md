@@ -7,6 +7,100 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-03 (unscheduled: accuracy pass on five trending pages)
+
+Not the daily rotation run. The owner sent the Search Console "trending up"
+list and asked that those five pages be checked for accuracy. No new post was
+published and no rotation batch was verified.
+
+**`blog-manito-ahbee-festival.html` (the real problem).** The page described the
+2026 festival in the future tense, with the dates in the title, the meta
+description and the first line. That edition ended on 1 November, so every
+search arriving at it from 2 November onward was being told an event two days
+past was still to come. No 2027 dates are announced anywhere (manitoahbee.com,
+the Canada Life Centre calendar and Tourism Winnipeg all carry only the 2026
+edition), so the page was rebuilt as an evergreen pow wow guide instead of being
+rolled forward to invented dates:
+
+- Title and description changed from "Manito Ahbee Festival 2026: Oct 30 to Nov
+  1, Winnipeg" to "Manito Ahbee Festival Winnipeg: A Visitor Pow Wow Guide",
+  synced across `articles-data.js`, `articles_data.json`, the `blog.html`
+  noscript card and the `blog.html` JSON-LD. URL and slug unchanged.
+- Opening paragraph now states plainly that the 2026 edition has passed, gives
+  its dates and venue in the past tense, and says 2027 has not been announced.
+- The "clocks go back on the Sunday morning" section, which was written for 1
+  November 2026 only, was replaced by one on confirming the venue as well as the
+  dates: the festival was at Red River Exhibition Park in 2024 and at Canada
+  Life Centre in 2026, two addresses that need completely different travel
+  plans. The daylight-saving warning survives in general form.
+- 2026-only programme, food-vendor hours and "this year it lands on Halloween"
+  copy generalised. Ticket guidance kept, still with no price quoted.
+- A "Weather Spark's normals put..." attribution was removed from the page under
+  the no-sources-on-the-page rule; the figures stay, the source name goes.
+
+**`blog-santa-claus-parade-winnipeg.html`.** Checked against the parade's own
+site and Tourism Winnipeg because the parade is 11 days out. Date (Saturday 14
+November 2026), 5 p.m. step-off, 4 p.m. block parties and the Portage-to-Memorial
+route all confirmed correct as published. One omission fixed: the official
+closure list starts with southbound Main Street between Portage and York at 11
+a.m., six hours before the parade, which the post did not mention while it did
+mention the 2 p.m. Portage closure. Added.
+
+**`blog-corydon-guide.html`.** No page change needed. The Mighty Kiwi, closed
+and removed on 2026-10-17, is already gone from the page. Bar Italia, 737
+Corydon Ave, which the post's meta description names, was carrying ledger status
+`unverified`: a live Tourism Winnipeg nightlife listing and a Yelp page updated
+January 2026 both show it trading, so the ledger entry is now `open`, verified
+today.
+
+**`blog-crescentwood-history.html`.** Two factual corrections:
+- 514 Wellington Crescent was listed twice, once for James T. Gordon and once
+  for Victor Sifton, as though they were two houses. They are one: Sifton lived
+  in Gordon's house from 1936 until his death in 1961. More to the point for a
+  visitor told to walk down Wellington, **Gordon House was demolished on 25
+  November 2020** (Manitoba Historical Society; Archiseek files it under Lost
+  Buildings of Winnipeg). The entry now says so, because the post otherwise
+  sends readers to an empty lot.
+- "The Art Gallery of Winnipeg" corrected to the Winnipeg Art Gallery, in the
+  line about the tour of the Davidson mansion before its 1963 demolition.
+
+**`blog-crescentwood-liveable.html`.** "Quamajuq" corrected to "Qaumajuq", and
+identified as the Inuit art centre at the Winnipeg Art Gallery.
+
+**Not changed, needs the owner's call (see "Open questions" below):** the
+AreaVibes statistics that this post is built on, and the US spellings in it and
+in the history post.
+
+**Open questions for the owner**
+
+1. `blog-crescentwood-liveable.html` rests on about a dozen AreaVibes figures
+   (92/100 livability, crime 58% below the city average, 2,583 per 100,000, a 1
+   in 39 victim chance, $132,016 median household income, 8.2% transit
+   commuting, 74% labour force participation, 4% unemployment, 93% graduation,
+   58% with a bachelor's degree) and on the claim that Crescentwood is the
+   safest neighbourhood in Winnipeg. areavibes.com is blocked by this sandbox's
+   network policy, so not one of them could be rechecked. They are undated on
+   the page and presented as current. Nothing was changed, per the rule about
+   leaving content alone without a source, but this is the least verifiable page
+   of the five and it makes the strongest claims.
+2. The same post uses US spellings 67 times ("neighborhood"), and the history
+   post 19 times, including in its indexed `<title>` ("Winnipeg's Most
+   Prestigious Neighborhood"). CLAUDE.md requires Canadian spelling. Body text
+   was left alone and titles were deliberately not touched: retitling a page
+   trending up 600% is an SEO decision, not an accuracy fix.
+
+**pa11y (WCAG2AA):** no issues on the four changed posts or `blog.html`. Run
+against a local server; staywinnipeg.ca is blocked by this sandbox's network
+policy.
+
+**Pages changed:** `blog-manito-ahbee-festival.html`,
+`blog-santa-claus-parade-winnipeg.html`, `blog-crescentwood-history.html`,
+`blog-crescentwood-liveable.html`, `blog.html`, `articles-data.js`,
+`articles_data.json`, `sitemap.xml` (five lastmods), `llms.txt` (regenerated for
+the retitle) and the business ledger.
+
+---
+
 ## 2026-11-02
 
 **Businesses verified (6 ledger entries, the stalest in rotation, all dated
