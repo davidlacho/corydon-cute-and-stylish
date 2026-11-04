@@ -16,6 +16,60 @@ Newest first.
 
 ---
 
+## blog-winnipeg-with-kids-indoor.html (published 2026-11-04)
+
+New post, ranked short list of six indoor places. Checked on the day of writing:
+
+- **Manitoba Children's Museum, 45 Forks Market Road; the building is the 1889
+  Northern Pacific and Manitoba Railway repair shop, the oldest building at The
+  Forks and a provincial heritage site; the Engine House gallery occupies the
+  railway's own engine house:** Manitoba Historic Resources Branch entry for
+  Provincial Heritage Site No. 88 and the museum's own About page.
+- **Children's Museum hours (9:30 a.m. to 4:30 p.m.):** Travel Manitoba family
+  guide (June 2026). Which days it opens is contested: a Downtown Winnipeg BIZ
+  listing shows Tuesday and Wednesday closed and a Roadtrippers listing shows
+  Sunday to Thursday. The page therefore gives the daily window and sends the
+  reader to childrensmuseum.com rather than stating open days.
+- **Children's Museum admission:** deliberately unpriced on the page. Three
+  listings give three figures (Todo Canada $11 plus GST, Association of Manitoba
+  Museums $12.25 plus GST, WhichMuseum $13.75), all undated, and a February 2026
+  Winnipeg for Free headline refers to the museum ending free admission. The page
+  says only that one flat rate covers everyone over a year old.
+- **The Leaf: biomes open daily 9 a.m. to 9 p.m., last entry 8 p.m., 9 a.m. to
+  4 p.m. on December 24, closed December 25, outdoor Gardens free, online rates
+  below gate rates:** Assiniboine Park Conservancy's own hours and rates pages.
+  Prices are not stated on our page; the only figures found were from 2022
+  opening coverage.
+- **Six-storey waterfall in the tropical biome:** CBC's coverage of The Leaf's
+  opening. The "tallest indoor waterfall in Canada" claim was found only in a
+  blog headline and is not used.
+- **Winnipeg Transit D19 Corydon runs between Corydon and the Assiniboine Park
+  Zoo loop:** Winnipeg Transit spring 2026 timetable for D19 and the route list.
+  No Transit stop at The Leaf itself was found; the park's free Domo Trolley is
+  seasonal and is not mentioned on the page.
+- **Activate Games: founded in Winnipeg in 2019, head office in the city, more
+  than seventy locations worldwide, east-end room at 1150 Nairn Avenue, second
+  Winnipeg site in Transcona:** Retail Insider (March 2026) and the Winnipeg EDT
+  newsroom profile. Session length is given as "about an hour"; no age or height
+  rule is stated because none was sourced.
+- **Pan Am Pool, 25 Poseidon Bay, three pools including a kiddie pool and an
+  indoor track; the City expects construction from January 2027 to summer 2028
+  with the building closed to the public:** City of Winnipeg news release,
+  August 19 2026, and the City's Pan Am Pool facility page. The 44-inch
+  shoulder-height entry rule appears on a 2024 City swim schedule, so the page
+  refers to a height rule without the number.
+- **Millennium Library, 251 Donald Street:** City of Winnipeg library locations
+  page. Hours are not stated on our page: the third-party listings disagree about
+  Sundays, and the City's page switches between summer and winter schedules.
+- **Manitoba Museum (190 Rupert Avenue, nine galleries plus planetarium plus
+  Science Gallery on one pass, no single-attraction tickets, planetarium dark on
+  Mondays):** reused from our own blog-manitoba-museum-planetarium-guide.html,
+  sourced on 2026-10-30; not re-checked this run.
+- **Drive times (The Forks ten minutes, Assiniboine Park about thirteen):** the
+  verified distance table in AGENT-INSTRUCTIONS.md, not re-measured.
+
+---
+
 ## blog-oak-hammock-marsh-birding.html (published 2026-11-03)
 
 New post, question and answer form. Everything on the page came from these

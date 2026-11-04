@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-osborne-village-corydon-evening-guide.html
 - blog-peanut-park.html
 - blog-post-review-philosophy.html
 - blog-puerto-vallarta-stay.html
@@ -117,6 +116,7 @@ last because they are partly covered.
 
 (append: date - filename)
 
+- 2026-11-04 - blog-osborne-village-corydon-evening-guide.html (a short evening-pacing guide to combining Osborne Village and Corydon. It names no commercial business anywhere in the text: the only proper nouns are the two neighbourhoods, Confusion Corner and Crescentwood. Nothing added to the ledger.)
 - 2026-11-03 - blog-nestaweya-river-trail.html (a winter guide to the Nestaweya River Trail at The Forks. The only commercial business it names in prose is The Forks Market, which is already in the ledger; this filename was appended to its pages. Skate rental, the warming huts, the Trail Together programme and the Winter Park rinks are all run by The Forks itself, which is an institution rather than a ledger entry, and no individual vendor or restaurant is named.)
 - 2026-11-02 - blog-mattress-pillow-protectors.html (a hosting post on waterproof mattress and pillow protectors. The only brands it names are two bedding manufacturers sold online, Jet's Home and Utopia Bedding, not local businesses a guest would visit, and nothing in the post can go stale through a closure or a move. It names no Winnipeg business and links to no external site. Nothing added to the ledger.)
 - 2026-11-01 - blog-marseille-trip-gone-wrong.html (a hosting-lessons post about a bad Airbnb stay in Marseille in March 2024: check-in, maintenance, cleanliness and host communication. It names no commercial business at all, in Marseille or in Winnipeg; the only company mentioned is Airbnb itself, which is a booking platform rather than a local business the site recommends. Nothing added to the ledger.)

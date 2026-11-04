@@ -887,7 +887,7 @@
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-08"
+      "last_verified": "2026-11-04"
     },
     {
       "name": "Shelly's Indigenous Bistro",
@@ -896,7 +896,7 @@
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-08"
+      "last_verified": "2026-11-04"
     },
     {
       "name": "Sho Coffee and Bar",
@@ -906,7 +906,7 @@
         "blog-winnipeg-coffee.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-11"
+      "last_verified": "2026-11-04"
     },
     {
       "name": "Shorty's Pizza",
@@ -915,7 +915,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-11"
+      "last_verified": "2026-11-04"
     },
     {
       "name": "Sookram's Brewing Company",
@@ -1195,7 +1195,7 @@
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-11"
+      "last_verified": "2026-11-04"
     },
     {
       "name": "Chop Steakhouse & Bar",
@@ -1375,7 +1375,7 @@
         "blog-budget-day-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-11"
+      "last_verified": "2026-11-04"
     },
     {
       "name": "Roasted Nomad",
@@ -1567,6 +1567,15 @@
       ],
       "status": "open",
       "last_verified": "2026-11-01"
+    },
+    {
+      "name": "Activate Games",
+      "address": "1150 Nairn Ave",
+      "pages": [
+        "blog-winnipeg-with-kids-indoor.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-04"
     }
   ]
 }

@@ -21,14 +21,6 @@
 // to validate the entries and regenerate the static list and JSON-LD in events.html.
 const EVENTS_DATA = [
   {
-    "title": "Winnipeg Jets 2026-27 home opener vs Boston",
-    "url": "/blog-winnipeg-jets.html",
-    "start": "2026-10-02",
-    "end": "2026-10-02",
-    "venue": "Canada Life Centre",
-    "status": "confirmed"
-  },
-  {
     "title": "Blue Bombers home finale vs Calgary",
     "url": "/blog-winnipeg-blue-bombers.html",
     "start": "2026-10-10",

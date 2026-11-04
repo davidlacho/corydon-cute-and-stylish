@@ -7,6 +7,71 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-04
+
+**Businesses verified (6, the stalest in the rotation).** All six are still
+trading at the addresses the ledger holds, so no page needed correcting.
+
+- **Shelly's Indigenous Bistro, 1364 Main St** (`blog-indigenous-winnipeg.html`):
+  open. Indigenous Tourism Manitoba's operator page carries the address, phone
+  and email; the name appears as both "Shelly's" and "Shelley's" across
+  listings, and we keep the ledger spelling.
+- **The Saddlery on Market, 114 Market Ave** (`blog-group-dining.html`): open. A
+  Yelp listing updated October 2026 shows regular weekday hours. Its Uber Eats
+  page shows the restaurant closed on the delivery app since August 2026, which
+  is a delivery status and not a closure; no news item or official notice of a
+  permanent closure exists.
+- **Peking Chinese Food, 840 Corydon Ave** (`blog-budget-day-corydon-airbnb.html`):
+  open. The Uber Eats store at that address is live and MainMenus lists evening
+  hours; a MapQuest entry shows "closed" with no hours, which is stale.
+- **Rae & Jerry's, 1405 Portage Ave** (`blog-winnipeg-steakhouses-bbq.html`):
+  open, daily from late afternoon per its OpenTable listing. The 2024 ownership
+  change kept the name; nothing newer found.
+- **Sho Coffee and Bar, 290 William Ave** (`blog-24-hour-winnipeg-budget.html`,
+  `blog-winnipeg-coffee.html`): open; listed in the Exchange District BIZ
+  business directory, coffee by day and a bar in the evening. No published
+  hours found, and our pages state none.
+- **Shorty's Pizza, 53 Maryland St** (`blog-best-places-nearby-winnipeg.html`):
+  open and expanding; the Winnipeg Free Press reported a second Winnipeg
+  location on February 3, 2026.
+
+`last_verified` set to 2026-11-04 for all six.
+
+**New post.** `blog-winnipeg-with-kids-indoor.html`, "Indoor Things to Do in
+Winnipeg With Kids, Ranked" (form: ranked short list, six entries). Taken from
+the general queue because the Events queue was empty. Covers the Manitoba
+Children's Museum, the Manitoba Museum and its Science Gallery, The Leaf,
+Activate Games, Pan Am Pool and the Millennium Library, ranked by how much of an
+afternoon each actually absorbs. The usable new fact for anyone booking a winter
+trip: the City expects Pan Am Pool to be closed to the public from January 2027
+to summer 2028 for its renewal. Prices are deliberately absent where listings
+conflict (Children's Museum, The Leaf, city pools). Hero image is our own photo
+of The Leaf's tropical biome. Registered in `articles-data.js`,
+`articles_data.json`, the `blog.html` noscript grid and `blog.html` JSON-LD, and
+`sitemap.xml`; `llms.txt` regenerated (177 posts). Sources recorded in
+`post-sources.md`.
+
+**Ledger.** Added Activate Games (1150 Nairn Ave), the only commercial business
+the new post names. Backfill sweep: `blog-osborne-village-corydon-evening-guide.html`
+read and moved to "Swept"; it names no commercial business at all, so nothing
+was added.
+
+**Events calendar.** Removed the Winnipeg Jets 2026-27 home opener (October 2,
+more than 30 days past and superseded by the other Jets entries). The Blue
+Bombers home finale, both Scattered Seeds weekends, the Heritage Classic and
+Manito Ahbee are all stale but less than 30 days past, so they stay for now; the
+Heritage Classic is a one-off and comes off next run. The two typical entries
+starting within 60 days were both checked and neither organiser has published
+dates yet, so both stay typical: Canad Inns Winter Wonderland (the Red River Ex
+page still shows the 2025 run, November 28 to January 3, nightly 6 p.m. to
+10 p.m., closed December 25) and the Arctic Glacier Winter Park at The Forks.
+`update-events.py` rerun; `events.html` lastmod bumped. Events queue refilled
+with two December events that have no post: the WSO's Christmas concerts at the
+Centennial Concert Hall and the JP Hoe Hoe Hoe Holiday Show at the Burton
+Cummings Theatre on December 11 and 12.
+
+---
+
 ## 2026-11-03 (events calendar added; owner-requested feature, not a rotation run)
 
 **New Events tab.** `events.html` is a calendar of Winnipeg events with day, week
