@@ -7,6 +7,98 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-05
+
+**Businesses verified (6, the stalest in the rotation).** All six are trading;
+no page needed correcting, and two blank addresses were filled in.
+
+- **Smokin' Hawg BBQ** (`blog-winnipeg-steakhouses-bbq.html`): open, and no
+  longer "unverified". Tripadvisor and MapQuest both place it at 1867
+  Springfield Rd and its own site (smokinhawgbbqco.com) is live, describing
+  wood-smoked southern-style barbecue and a catering arm. Listings also show
+  Oakbank and Grunthal locations. Address added to the ledger.
+- **Sookram's Brewing Company, 479 Warsaw Ave** (`blog-best-places-nearby-winnipeg.html`):
+  open. Directory listings show a current taproom schedule (closed Mondays and
+  Tuesdays) at 479-B Warsaw Ave in Fort Rouge. Ledger spelling of the address
+  kept; our page states no hours.
+- **Splash Dash Boat Tours, 1700 Pembina Hwy** (`blog-winnipeg-tours.html`):
+  open. Travel Manitoba's directory confirms the Red River tours now leave from
+  the Pony Corral docks at 1700 Pembina, matching the ledger address, after the
+  move from The Forks. The separate water-taxi service could not be confirmed
+  as running; our page does not promise it, so nothing was changed.
+- **SquarePeg Tours** (`blog-winnipeg-tours.html`): open. Travel Manitoba's
+  directory lists its current range of paranormal, walking and seasonal tours.
+  No street address published, so the ledger address stays blank.
+- **St. Boniface Golf Club** (`blog-winnipeg-event-venues.html`): open. Tee-time
+  booking was live through autumn 2026. Address 100 Youville St added from the
+  Manitoba Historical Society and Travel Manitoba records. A Winnipeg course
+  being shut in November is a seasonal closure, not a closure.
+- **St. Norbert Farmers' Market, 3514 Pembina Hwy** (`blog-winnipeg-farmers-markets-guide.html`):
+  open. A Manitoba event calendar carries its Saturday kiosk dates at that
+  address through 2026, and CTV reports it runs year-round on reduced winter
+  hours. No confirmed 2026 winter indoor schedule was found, so no winter dates
+  were added to the page.
+
+`last_verified` set to 2026-11-05 for all six.
+
+**New post.** `blog-wso-christmas-concerts-winnipeg.html`, "Winnipeg Symphony
+Christmas Concerts 2026: Dates and Tickets" (form: explainer). Taken as the
+first entry of the Events queue. Its job is to separate three December programs
+that visitors assume are one Christmas show: Handel's Messiah on Thursday
+December 3 at 7:30 p.m. (Ivars Taurins, with soloists Ellen McAteer and Emma
+Parkinson), the Christmas Pops on December 5 at 7:30 p.m. and December 6 at
+2 p.m. (Monica Chen), and How the Grinch Stole Christmas in Concert on December
+12 and 13, the film on screen with the score played live. The usable facts for
+anyone booking: Messiah is a single Thursday performance, so a weekend trip
+misses it; the parkade behind the hall off Lily Ave has a 6 ft 10 in clearance,
+which rules out a tall van; and the Rupert Ave entrance is closed during museum
+construction. **No ticket prices were published** because the aggregator ranges
+conflicted badly ($27 to $92 against $16 to $128) and no figure from the
+orchestra itself was reachable. Registered in `articles-data.js`,
+`articles_data.json`, the `blog.html` noscript grid and `blog.html` JSON-LD, and
+`sitemap.xml`; `llms.txt` regenerated (178 posts). Sources in `post-sources.md`.
+
+**Sandbox limits worth recording.** `wso.ca`, `www.travelmanitoba.com` and
+`unsplash.com` all fail DNS resolution from this session, so the organiser's own
+page could not be fetched; the dates were corroborated across several
+independent listings carrying the orchestra's event data instead, and all
+agreed. Because Unsplash is unreachable and no local `images/` photo shows a
+concert hall, the hero image reuses the in-repo lit-stage photo that several
+arts posts already use. It should be swapped for a real Centennial Concert Hall
+photo when one lands in `images/`.
+
+**Ledger.** No additions from the new post: it names no commercial business in
+the ledger's scope (the orchestra, the hall and the museum are institutions).
+Backfill sweep: `blog-peanut-park.html` read and moved to "Swept"; it names no
+commercial business either, so nothing was added. Note for a later run that the
+Peanut Park post is an old one and carries house-style problems ("vibrant",
+a "What to Expect" heading, American spellings); it is a refresh candidate.
+
+**Finding for a later run: `blog.html` is 53 posts behind.** A check across all
+178 entries in `articles-data.js` found 53 that have no `<noscript>` article card
+and no `blogPost` JSON-LD entry in `blog.html` (the oldest include
+`blog-winnipeg-st-vital-guide.html`, `blog-winnipeg-osborne-village-guide.html`
+and `blog-winnipeg-chinatown-guide.html`). The gap is pre-existing and was
+exactly 53 before this run as well, so nothing here caused it; today's post is
+registered in both places. It is left alone because backfilling 53 cards is far
+outside a one-post run budget and would make an unreviewable diff. It wants its
+own session, and it is a real SEO and no-JS accessibility gap until then.
+
+**Events calendar.** Three entries added for the new post: WSO Handel's Messiah
+(December 3), WSO Christmas Pops (December 5 to 6) and WSO Grinch in Concert
+(December 12 to 13), all confirmed, all at Centennial Concert Hall. Three stale
+entries moved to their next typical window, since each post states the usual
+one: both Scattered Seeds Craft Market weekends to October 15 to 17 and 22 to 24,
+2027, and Manito Ahbee Festival to November 5 to 7, 2027, all set to "typical".
+Two stale entries deliberately left alone because neither is yet more than 30
+days past: the Blue Bombers home finale (26 days) and the NHL Heritage Classic
+(11 days, and a one-off the playbook says to remove rather than roll forward).
+`events.html` regenerated, 54 upcoming events listed, 31 confirmed in the
+JSON-LD, and the `events.html` `<lastmod>` bumped. Added to the Events queue:
+the Manitoba Craft Council and IKEA Vinterfest Market, December 18 to 20, 2026.
+
+---
+
 ## 2026-11-04
 
 **Businesses verified (6, the stalest in the rotation).** All six are still

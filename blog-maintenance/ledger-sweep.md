@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-peanut-park.html
 - blog-post-review-philosophy.html
 - blog-puerto-vallarta-stay.html
 - blog-qaumajuq-wag-guide.html
@@ -113,6 +112,8 @@ last because they are partly covered.
 - blog-winnipeg-vietnamese-pho-guide.html
 
 ## Swept
+
+- blog-peanut-park.html (2026-11-05, no commercial business named)
 
 (append: date - filename)
 

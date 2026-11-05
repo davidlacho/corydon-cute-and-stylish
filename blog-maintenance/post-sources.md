@@ -16,6 +16,61 @@ Newest first.
 
 ---
 
+## blog-wso-christmas-concerts-winnipeg.html (published 2026-11-05)
+
+Events-queue entry, written as an explainer. The queue entry required the dates
+to be confirmed against the orchestra before being treated as published.
+**wso.ca, www.travelmanitoba.com and unsplash.com all fail DNS resolution from
+this sandbox**, so the orchestra's own page could not be fetched directly. The
+dates below were instead corroborated across several independent listings that
+each carry the orchestra's own event data, and they agree with each other.
+
+- **Handel's Messiah: Thursday, December 3, 2026, 7:30 p.m., Centennial Concert
+  Hall.** Ivars Taurins conducting. AXS (the event's ticketing listing,
+  axs.com/events/1576322), Travel Manitoba's event listing, winnipegarts.ca and
+  exchangedistrict.org all give the same date, time and venue. The WSO's own
+  event page (wso.ca/whats-on/sp8-handels-messiah-2026/) names soloists Ellen
+  McAteer, soprano, and Emma Parkinson, alto; a tenor is listed but was
+  truncated in the search result, so no further soloist is named on our page.
+- **WSO Christmas Pops: Saturday, December 5, 2026, 7:30 p.m. and Sunday,
+  December 6, 2026, 2 p.m.** Associate Conductor Monica Chen, with guest
+  artists. Travel Manitoba's event listing and exchangedistrict.org.
+- **How the Grinch Stole Christmas in Concert: Saturday, December 12, 2026,
+  7:30 p.m. and Sunday, December 13, 2026, 2 p.m.** Part of the Leon and Cecilia
+  Asper Night at the Movies series (wso.ca/series/asper-night-at-the-movies-2026-27/,
+  wso.ca/whats-on/mo3-how-the-grinch-stole-christmas-in-concert/) and a
+  todocanada.ca listing with the same dates, times and venue.
+- **Tickets.** Sold through the orchestra, wso.ca, or the box office on
+  204-949-3999 (Travel Manitoba listings). The 20 per cent discount on a single
+  concert added to a subscription or Flex package comes from the WSO's own
+  Messiah event page.
+- **No ticket prices were published on our page, deliberately.** The aggregator
+  ranges conflict: todocanada gave $27 to $92 for both Messiah and the Grinch,
+  while AXS listings gave $15.71 to $128 and $16 to $123. With no figure from
+  the orchestra itself reachable, the page states only that prices run in tiers
+  by seating section.
+- **The hall.** centennialconcerthall.com's own Parking & Location and Guest
+  Services pages: indoor parkade entered from Lily Ave behind the hall, 6 ft
+  10 in clearance; event parking sold first-come with the posted rate varying
+  between the venue's own pages ($25 on one, $15 on another, $12 on a
+  third), which is why our page tells the reader to check it rather than quoting
+  it; free indoor bike rack for event patrons; accessible parking referred to
+  Imperial Parking, 204-943-3578; coat check in the main lobby directly behind
+  the feature wall mural, at most performances; no glass or outside food in the
+  theatre; the MCC entrance off Rupert Ave unavailable until museum
+  construction completes.
+- **Distance from the house.** Centennial Concert Hall, 555 Main St: 10 minutes
+  and 4.3 km driving, from the verified table in `AGENT-INSTRUCTIONS.md`. Not
+  re-checked this run; mapping sites are unreachable from the sandbox.
+- **Daylight.** Sunset in Winnipeg in the first week of December is before
+  4:30 p.m. Stated as a general seasonal fact, not sourced to a listing.
+- **Hero image.** No local `images/` photo depicts a concert hall or an
+  orchestra, and unsplash.com cannot be reached to resolve a new photo ID, so
+  the post reuses the in-repo Unsplash lit-stage photo
+  (`photo-1692707483537-8f5e57e71531`) that several arts posts already use.
+  Worth replacing with a real Centennial Concert Hall photo when one is added
+  to `images/`.
+
 ## blog-winnipeg-with-kids-indoor.html (published 2026-11-04)
 
 New post, ranked short list of six indoor places. Checked on the day of writing:

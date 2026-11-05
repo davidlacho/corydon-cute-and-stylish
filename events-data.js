@@ -30,34 +30,12 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
-    "title": "Scattered Seeds Craft Market, first weekend",
-    "url": "/blog-winnipeg-holiday-markets.html",
-    "start": "2026-10-16",
-    "end": "2026-10-18",
-    "status": "confirmed"
-  },
-  {
-    "title": "Scattered Seeds Craft Market, second weekend",
-    "url": "/blog-winnipeg-holiday-markets.html",
-    "start": "2026-10-23",
-    "end": "2026-10-25",
-    "status": "confirmed"
-  },
-  {
     "title": "NHL Heritage Classic: Jets vs Canadiens",
     "url": "/blog-nhl-heritage-classic-winnipeg-2026.html",
     "start": "2026-10-25",
     "end": "2026-10-25",
     "time": "6 p.m. puck drop",
     "venue": "Princess Auto Stadium",
-    "status": "confirmed"
-  },
-  {
-    "title": "Manito Ahbee Festival",
-    "url": "/blog-manito-ahbee-festival.html",
-    "start": "2026-10-30",
-    "end": "2026-11-01",
-    "venue": "Canada Life Centre",
     "status": "confirmed"
   },
   {
@@ -108,10 +86,30 @@ const EVENTS_DATA = [
     "status": "typical"
   },
   {
-    "title": "Winnipeg school winter break",
-    "url": "/blog-christmas-winnipeg.html",
-    "start": "2026-12-18",
-    "end": "2027-01-04",
+    "title": "WSO: Handel's Messiah",
+    "url": "/blog-wso-christmas-concerts-winnipeg.html",
+    "start": "2026-12-03",
+    "end": "2026-12-03",
+    "time": "7:30 p.m.",
+    "venue": "Centennial Concert Hall, 555 Main St",
+    "status": "confirmed"
+  },
+  {
+    "title": "WSO Christmas Pops",
+    "url": "/blog-wso-christmas-concerts-winnipeg.html",
+    "start": "2026-12-05",
+    "end": "2026-12-06",
+    "time": "7:30 p.m. Saturday, 2 p.m. Sunday",
+    "venue": "Centennial Concert Hall, 555 Main St",
+    "status": "confirmed"
+  },
+  {
+    "title": "WSO: How the Grinch Stole Christmas in Concert",
+    "url": "/blog-wso-christmas-concerts-winnipeg.html",
+    "start": "2026-12-12",
+    "end": "2026-12-13",
+    "time": "7:30 p.m. Saturday, 2 p.m. Sunday",
+    "venue": "Centennial Concert Hall, 555 Main St",
     "status": "confirmed"
   },
   {
@@ -123,12 +121,11 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
-    "title": "Arctic Glacier Winter Park opens for the season",
-    "url": "/blog-arctic-glacier-winter-park-forks.html",
-    "start": "2026-12-19",
-    "end": "2027-03-07",
-    "venue": "The Forks",
-    "status": "typical"
+    "title": "Winnipeg school winter break",
+    "url": "/blog-christmas-winnipeg.html",
+    "start": "2026-12-18",
+    "end": "2027-01-04",
+    "status": "confirmed"
   },
   {
     "title": "Winnipeg Jets vs Dallas, back-to-back",
@@ -137,6 +134,14 @@ const EVENTS_DATA = [
     "end": "2026-12-20",
     "venue": "Canada Life Centre",
     "status": "confirmed"
+  },
+  {
+    "title": "Arctic Glacier Winter Park opens for the season",
+    "url": "/blog-arctic-glacier-winter-park-forks.html",
+    "start": "2026-12-19",
+    "end": "2027-03-07",
+    "venue": "The Forks",
+    "status": "typical"
   },
   {
     "title": "New Year's Eve at The Forks",
@@ -441,6 +446,28 @@ const EVENTS_DATA = [
     "end": "2027-09-25",
     "time": "6 p.m. to midnight",
     "venue": "Downtown, Exchange District, The Forks and St. Boniface",
+    "status": "typical"
+  },
+  {
+    "title": "Scattered Seeds Craft Market, first weekend",
+    "url": "/blog-winnipeg-holiday-markets.html",
+    "start": "2027-10-15",
+    "end": "2027-10-17",
+    "status": "typical"
+  },
+  {
+    "title": "Scattered Seeds Craft Market, second weekend",
+    "url": "/blog-winnipeg-holiday-markets.html",
+    "start": "2027-10-22",
+    "end": "2027-10-24",
+    "status": "typical"
+  },
+  {
+    "title": "Manito Ahbee Festival",
+    "url": "/blog-manito-ahbee-festival.html",
+    "start": "2027-11-05",
+    "end": "2027-11-07",
+    "venue": "Canada Life Centre",
     "status": "typical"
   }
 ];

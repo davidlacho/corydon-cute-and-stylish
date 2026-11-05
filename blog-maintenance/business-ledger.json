@@ -924,7 +924,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-11"
+      "last_verified": "2026-11-05"
     },
     {
       "name": "Splash Dash Boat Tours",
@@ -933,7 +933,7 @@
         "blog-winnipeg-tours.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-05"
     },
     {
       "name": "SquarePeg Tours",
@@ -942,16 +942,16 @@
         "blog-winnipeg-tours.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-05"
     },
     {
       "name": "St. Boniface Golf Club",
-      "address": "",
+      "address": "100 Youville St",
       "pages": [
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-05"
     },
     {
       "name": "St. Norbert Farmers' Market",
@@ -960,7 +960,7 @@
         "blog-winnipeg-farmers-markets-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-05"
     },
     {
       "name": "Stella's Café & Bakery",
@@ -1226,12 +1226,12 @@
     },
     {
       "name": "Smokin' Hawg BBQ",
-      "address": "",
+      "address": "1867 Springfield Rd",
       "pages": [
         "blog-winnipeg-steakhouses-bbq.html"
       ],
-      "status": "unverified",
-      "last_verified": "2026-10-11"
+      "status": "open",
+      "last_verified": "2026-11-05"
     },
     {
       "name": "Carnaval Brazilian BBQ",

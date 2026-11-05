@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-wso-christmas-concerts-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-11-05",
+    "title": "Winnipeg Symphony Christmas Concerts 2026: Dates and Tickets",
+    "image": "https://images.unsplash.com/photo-1692707483537-8f5e57e71531?q=80&w=2340&auto=format&fit=crop",
+    "imageAlt": "A concert hall stage lit for a performance, seen from the seats",
+    "description": "The Winnipeg Symphony's December 2026 concerts at Centennial Concert Hall: Messiah on the 3rd, Christmas Pops the 5th and 6th, the Grinch the 12th and 13th.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>November 5, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-with-kids-indoor.html",
     "category": "winnipeg",
     "date": "2026-11-04",
