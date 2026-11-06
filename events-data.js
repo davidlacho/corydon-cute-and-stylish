@@ -104,6 +104,15 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
+    "title": "JP Hoe Hoe Hoe Holiday Show",
+    "url": "/blog-jp-hoe-holiday-show-winnipeg.html",
+    "start": "2026-12-11",
+    "end": "2026-12-12",
+    "time": "8 p.m. both nights",
+    "venue": "Burton Cummings Theatre, 364 Smith St",
+    "status": "confirmed"
+  },
+  {
     "title": "WSO: How the Grinch Stole Christmas in Concert",
     "url": "/blog-wso-christmas-concerts-winnipeg.html",
     "start": "2026-12-12",

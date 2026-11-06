@@ -16,6 +16,64 @@ Newest first.
 
 ---
 
+## blog-jp-hoe-holiday-show-winnipeg.html (published 2026-11-06)
+
+- Dates and start times: the JP Hoe Hoe Hoe Holiday Show plays the Burton
+  Cummings Theatre on Friday, December 11 and Saturday, December 12, 2026, both
+  nights at 8 p.m. Tourism Winnipeg's own event listing carries both dates and
+  the 8 p.m. starts; the Winnipeg Folk Festival's concert page and the Burton
+  Cummings Theatre's own event pages list the same two nights. One news item
+  (chrisd.ca, 2026-10-21) printed "December 1 and 12", which is a typo against
+  every other source, so the 11th was used.
+- Presenter and milestone: the Winnipeg Folk Festival presents the show; 2026 is
+  the twentieth edition and the second night was added for the anniversary. JP
+  Hoe's own blog post of 2026-10-20 ("The JP Hoe Hoe Hoe Holiday Show Turns 20")
+  and the Folk Festival's concert page.
+- Tickets: $29.50 to $69.50 advance, plus fees, on sale from October 22 at
+  10 a.m., sold through Ticketmaster. The Winnipeg Folk Festival's concert page
+  for the face-value range and on-sale; JP Hoe's blog names Ticketmaster as the
+  official seller. Resale aggregators quoted higher and in USD and were ignored.
+- Venue history: 364 Smith Street, opened 1906 as the Walker Theatre, a
+  designated historic site. Carried from our own earlier sourcing for
+  `blog-winnipeg-comedy-festival.html` (Wikipedia, winnipegarchitecture.ca and
+  the Manitoba Historical Society's Historic Sites of Manitoba entry).
+- Accessibility and house rules: main floor wheelchair accessible only, no lift
+  to the balcony, wheelchair seating in Loges 1 and 2 arranged by calling
+  Ticketmaster, children two and over need their own ticket and under-twos may
+  sit on a lap. The theatre's own Guest Services page. That page is a couple of
+  years old, which is why the post's "Before you go" box tells the reader to
+  confirm the seating arrangements rather than trusting us.
+- Parking: lots beside and directly across from the venue plus metered street
+  parking nearby, per Ticketmaster's venue information page.
+- Transit: F5, F8, D12 and D13 serve the venue (Wikipedia's Burton Cummings
+  Theatre infobox). D19 Corydon running east along Corydon Avenue and finishing
+  on Kennedy Street just south of Portage Avenue is carried from our own
+  previously sourced posts (`blog-nuit-blanche-winnipeg.html`,
+  `blog-culture-days-winnipeg.html`, `blog-christmas-winnipeg.html`), as is the
+  "under fifteen minutes on foot" bound, which is derived from the Kennedy
+  terminal to Old Market Square walk already stated on the Culture Days post;
+  364 Smith Street lies between the two, so the post states it as an upper bound
+  rather than a figure.
+- Capacity was deliberately omitted: listings gave 1,560, 1,600, 1,604, 1,638
+  and 1,646 and the theatre publishes none of them.
+- The after-party at the Park Theatre that older jphoe.com listings describe was
+  left out. The only listing found for it predates the 2026 dates and names a
+  line-up from an earlier anniversary, so it cannot be stated for this year.
+- Distance from the house: 364 Smith Street is not in the verified distance
+  table in `AGENT-INSTRUCTIONS.md`, and this sandbox cannot reach mapping sites,
+  so no drive time to the theatre is stated. The post gives the table's verified
+  Canada Life Centre figure (3.9 km, about ten minutes) and says the theatre is
+  on the same downtown blocks.
+- Daylight: Winnipeg sunset in the second week of December falls at about
+  4:30 p.m., consistent with the figure already used on
+  `blog-wso-christmas-concerts-winnipeg.html`.
+- Image: Unsplash photo photo-1730875647697-eace28e2a77e ("a man standing on a
+  stage holding a microphone" by Alex Gallegos), free under the Unsplash
+  License, already in use on `blog-winnipeg-comedy-festival.html` and confirmed
+  reachable when that post was published. images.unsplash.com is not reachable
+  from this sandbox, so a photo already proven to load was reused rather than a
+  new, unverifiable one.
+
 ## blog-wso-christmas-concerts-winnipeg.html (published 2026-11-05)
 
 Events-queue entry, written as an explainer. The queue entry required the dates

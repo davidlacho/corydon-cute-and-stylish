@@ -7,6 +7,87 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-06
+
+**Businesses verified (6, the stalest in the rotation).** All six are trading.
+No page needed correcting and one blank address was filled in.
+
+- **Stella's Café & Bakery** (`blog-24-hour-winnipeg-budget.html`,
+  `blog-best-breakfast-brunch-near-corydon-airbnb.html`, `blog-restaurants.html`,
+  `blog-winnipeg-brunch-breakfast.html`, `blog-winnipeg-coffee.html`,
+  `blog-winnipeg-vegan-restaurants.html`): open, and still a multi-location
+  chain. Current listings place branches at 1699 Corydon Ave, the Buhler Centre
+  downtown, 1485 Portage Ave inside EQ3, Pembina Hwy, the CCFM and the airport.
+  stellas.ca itself is unreachable from this sandbox. One third-party listing
+  flags the **Sherbrook Street** location as permanently closed; none of our six
+  pages names Sherbrook, so nothing was changed, and the ledger address stays
+  blank because the entry covers the chain.
+- **T.H. Dang Restaurant** (`blog-winnipeg-vietnamese-pho-guide.html`): open.
+  Directory listings agree on 1425 Pembina Hwy and phone 204-415-5588; the
+  address was added to the ledger, which had it blank. Hours conflict between
+  listings, and our page states none, so nothing was added to the page.
+- **Tall Grass Prairie Bread Co., 1 Forks Market Rd**
+  (`blog-winnipeg-bakeries-artisan-bread.html`): open. Listed as a current
+  tenant on theforks.com and in Travel Manitoba's directory. The Forks' own 2024
+  note that the Grass Roots Prairie Kitchen production space was closing while
+  the Market bakery stayed is still the last word on it; the Wolseley bakery at
+  859 Westminster Ave also remains.
+- **Teekca's Aboriginal Boutique, 1 Forks Market Rd**
+  (`blog-indigenous-winnipeg.html`): open, on the second floor of The Forks
+  Market (unit 223), per The Forks' own shop directory and a 2025 tenant feature.
+- **The Beer Can, 1 Granite Way** (`blog-winnipeg-breweries.html`): open,
+  seasonally. The Uniter reported in March 2026 that it opens for the season in
+  early May, and its own site lists noon to midnight daily, weather dependent.
+  A dated-looking aggregator page calling it "temporarily closed" was outweighed
+  by that. Being shut in November is the season, not a closure, and our page
+  already frames it as a summer riverside patio, so nothing was changed.
+- **The Common (The Forks Market), 1 Forks Market Rd**
+  (`blog-winnipeg-breweries.html`): open. The Forks lists it with 20 craft beer
+  and 20 wine taps, nine of the beer taps always Manitoban, opening daily at
+  11 a.m., and an UnCommon Pours series ran there through 2026.
+
+`last_verified` set to 2026-11-06 for all six.
+
+**Ledger backfill sweep.** `blog-post-review-philosophy.html` read in full; it
+is a hosting-philosophy post about a guest review and names no commercial
+business, so nothing was added. Moved to "Swept".
+
+**New post.** `blog-jp-hoe-holiday-show-winnipeg.html`, "The JP Hoe Hoe Hoe
+Holiday Show 2026: December 11 and 12" (form: host's notes). Taken as the first
+entry of the Events queue. The twentieth edition runs two nights at the Burton
+Cummings Theatre, 364 Smith Street, Friday December 11 and Saturday December 12,
+2026, both at 8 p.m., presented by the Winnipeg Folk Festival; the second night
+is new for the anniversary, which is the practical point for anyone who finds
+the Friday sold out. Tickets $29.50 to $69.50 advance plus fees through
+Ticketmaster, on sale since October 22. The post also carries what the 1906
+building asks of a visitor: main floor wheelchair accessible with no lift to the
+balcony, wheelchair seating in Loges 1 and 2 arranged by phone, children two and
+over ticketed. **No capacity figure was published** (five sources, five numbers)
+and **no drive time to the theatre** (364 Smith Street is not in the verified
+distance table). The Park Theatre after-party that older listings mention was
+left out for want of a 2026 source. Registered in `articles-data.js`,
+`articles_data.json`, the `blog.html` noscript grid and `blog.html` JSON-LD, and
+`sitemap.xml`; `llms.txt` regenerated (179 posts). Sources in `post-sources.md`.
+
+**Events calendar.** Added the JP Hoe Hoe Hoe Holiday Show as one confirmed
+entry spanning December 11 to 12, 2026 at the Burton Cummings Theatre, pointing
+at the new post. The two stale entries (Blue Bombers home finale, 27 days past;
+Heritage Classic, 12 days past and a one-off) are both inside the 30-day window
+and were left alone. Both typical entries starting within 60 days were checked
+and stay typical: Red River Exhibition Park has not published 2026 Canad Inns
+Winter Wonderland dates (the last confirmed run was November 28, 2025 to
+January 3, 2026), and The Forks has not announced an Arctic Glacier Winter Park
+opening for 2026-27. `update-events.py` regenerated `events.html` (55 upcoming,
+32 confirmed in JSON-LD) and the `events.html` `<lastmod>` was bumped.
+
+**Events queue refilled.** Two December concerts with no post and no calendar
+entry were added, nearest first: Jann Arden and Her Holiday Orchestra at
+Centennial Concert Hall (listings disagree between December 8 and 9, flagged to
+confirm) and Choir! Choir! Choir! at the Burton Cummings Theatre (listed
+December 16). Vinterfest moved down behind them to keep the queue chronological.
+
+---
+
 ## 2026-11-05
 
 **Businesses verified (6, the stalest in the rotation).** All six are trading;

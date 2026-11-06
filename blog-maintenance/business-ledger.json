@@ -557,9 +557,10 @@
       "address": "242 Hargrave St",
       "pages": [
         "blog-hargrave-st-market.html",
-        "blog-winnipeg-breweries.html",
+        "blog-jp-hoe-holiday-show-winnipeg.html",
         "blog-manito-ahbee-festival.html",
         "blog-santa-claus-parade-winnipeg.html",
+        "blog-winnipeg-breweries.html",
         "blog-winnipeg-new-music-festival.html"
       ],
       "status": "open",
@@ -974,16 +975,16 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-06"
     },
     {
       "name": "T.H. Dang Restaurant",
-      "address": "",
+      "address": "1425 Pembina Hwy",
       "pages": [
         "blog-winnipeg-vietnamese-pho-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-06"
     },
     {
       "name": "Tall Grass Prairie Bread Co.",
@@ -992,7 +993,7 @@
         "blog-winnipeg-bakeries-artisan-bread.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-06"
     },
     {
       "name": "Teekca's Aboriginal Boutique",
@@ -1001,7 +1002,7 @@
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-06"
     },
     {
       "name": "The Beer Can",
@@ -1010,7 +1011,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-06"
     },
     {
       "name": "The Common (The Forks Market)",
@@ -1019,7 +1020,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-06"
     },
     {
       "name": "The Good Fight Taco",
