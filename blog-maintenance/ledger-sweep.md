@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-puerto-vallarta-stay.html
 - blog-qaumajuq-wag-guide.html
 - blog-rainbow-stage.html
 - blog-rainy-afternoon-on-corydon.html
@@ -112,6 +111,7 @@ last because they are partly covered.
 
 ## Swept
 
+- blog-puerto-vallarta-stay.html (2026-11-07, no commercial business named; the post is about an Airbnb stay in Mexico and names no restaurant, cafe, bar or shop)
 - blog-post-review-philosophy.html (2026-11-06, no commercial business named)
 - blog-peanut-park.html (2026-11-05, no commercial business named)
 

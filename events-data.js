@@ -104,6 +104,15 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
+    "title": "Jann Arden and Her Holiday Orchestra",
+    "url": "/blog-jann-arden-holiday-orchestra-winnipeg.html",
+    "start": "2026-12-08",
+    "end": "2026-12-08",
+    "time": "7:30 p.m.",
+    "venue": "Centennial Concert Hall, 555 Main St",
+    "status": "confirmed"
+  },
+  {
     "title": "JP Hoe Hoe Hoe Holiday Show",
     "url": "/blog-jp-hoe-holiday-show-winnipeg.html",
     "start": "2026-12-11",

@@ -1029,7 +1029,7 @@
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-07"
     },
     {
       "name": "The Good Lands Cafe",
@@ -1038,7 +1038,7 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "closed",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-07"
     },
     {
       "name": "The Grove Pub & Restaurant",
@@ -1049,7 +1049,7 @@
         "blog-crescentwood-liveable.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-07"
     },
     {
       "name": "The Indigenous Kitchen (food truck)",
@@ -1058,16 +1058,16 @@
         "blog-indigenous-winnipeg.html"
       ],
       "status": "unverified",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-07"
     },
     {
       "name": "The Merchant Kitchen",
-      "address": "",
+      "address": "314 Donald St",
       "pages": [
         "blog-group-dining.html"
       ],
-      "status": "unverified",
-      "last_verified": "2026-10-12"
+      "status": "open",
+      "last_verified": "2026-11-07"
     },
     {
       "name": "The Toad in the Hole Pub",
@@ -1076,7 +1076,7 @@
         "blog-osborne-village-vs-corydon-evening-compared.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-07"
     },
     {
       "name": "Thermëa Spa Village",

@@ -16,6 +16,67 @@ Newest first.
 
 ---
 
+## blog-jann-arden-holiday-orchestra-winnipeg.html (published 2026-11-07)
+
+- Date, time and venue: Jann Arden and Her Holiday Orchestra plays the
+  Centennial Concert Hall, 555 Main Street, on Tuesday, December 8, 2026 at
+  7:30 p.m. The Centennial Concert Hall's own event page for the show and
+  Tourism Winnipeg's event listing both carry the December 8 date, and an
+  Exclaim concert-listing page for the Winnipeg stop is dated 2026-12-08.
+- The December 9 confusion the post opens by clearing up: December 9, 2026 is
+  the Regina stop, at the Conexus Arts Centre. The tour announcement carried by
+  liveinlimbo (dated 2026-09-12) and the Exclaim per-city listings put Winnipeg
+  on the 8th and Regina on the 9th, which is why both dates surface in a search
+  for the tour. The queue entry in post-ideas.md had flagged the disagreement
+  and asked for it to be resolved before publishing.
+- Tour shape: announced September 12, 2026; twelve shows in ten cities across
+  five provinces between November 28 and December 16, 2026; per-city dates from
+  the announcement are Kitchener Nov 28, London Nov 29, Hamilton Dec 1, Toronto
+  Dec 3 and 4, Winnipeg Dec 8, Regina Dec 9, Calgary Dec 11 and 12, Edmonton
+  Dec 13, Vancouver Dec 15, Victoria Dec 16. Only the Winnipeg and Regina dates
+  are used on the page.
+- The show's material: built on her Christmas album, A Jann Arden Christmas.
+  One source describes the album as platinum-certified; that claim was left off
+  the page because only one source carried it.
+- Tickets: sold through the hall at centennialconcerthall.com, the box office in
+  person, or 204-949-3999. Presale September 9, 2026; general sale September 14,
+  2026. The hall's page gives the on-sale hour as noon Winnipeg time and
+  Ticketmaster-side listings give 10 a.m., so the post states the dates and not
+  the hour.
+- No support act: no listing for any city names one, and one aggregator states
+  explicitly that the posted time is the event start rather than a confirmed
+  opener time. That is the basis for the "no opener, so this is the real start
+  time" heading.
+- **No prices on the page.** Aggregator figures ranged from about $61 to about
+  $97 with at least one quoted in US dollars, so the post tells the reader to
+  take the number from the hall.
+- Concert Hall practicalities (parkade behind the hall entered from Lily Avenue,
+  six-foot-ten clearance, accessible parking through Imperial Parking on
+  204-943-3578, free indoor bike rack for event patrons, the Manitoba Centennial
+  Centre entrance off Rupert Avenue closed during museum construction, coat
+  check in the main lobby behind the feature-wall mural, no glass or outside
+  food in the theatre) were reused from the sourcing done for
+  blog-wso-christmas-concerts-winnipeg.html on 2026-11-05, not re-checked this
+  run.
+- Transit (routes FX2, FX3, F8, D16 and 43; stops 10629 and 10635) was reused
+  from the 2026-10-30 run's reading of the Centennial Concert Hall's own transit
+  page.
+- Distance from the house: the playbook's verified table only, ten minutes and
+  4.3 km to 555 Main St. No walk time between the hall and the Exchange District
+  restaurants is stated because none is verified.
+- Daylight: the sun sets in Winnipeg before 4:30 p.m. in the first half of
+  December. Astronomical, computed, not sourced to a page.
+- **Sandbox limits this run:** centennialconcerthall.com, hargravestmarket.com
+  and images.unsplash.com were all unreachable through the agent proxy, so every
+  fact above came from search-result summaries rather than a fetched page, and
+  the hero image reuses the in-repo Unsplash concert-hall-stage photo already
+  live on the WSO post.
+- The post names no restaurant, cafe, bar or shop, so it added no business
+  ledger entries. The only commercial name on the page is Imperial Parking, the
+  hall's accessible-parking operator, which is not a ledger category.
+
+---
+
 ## blog-jp-hoe-holiday-show-winnipeg.html (published 2026-11-06)
 
 - Dates and start times: the JP Hoe Hoe Hoe Holiday Show plays the Burton

@@ -7,6 +7,124 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-07
+
+**Businesses verified (6, the stalest in the rotation).** No closure, move or
+rename was found, so no page was corrected. One blank address was filled in and
+one `unverified` status was resolved to `open`.
+
+- **The Good Fight Taco, 242 Hargrave St** (`blog-hargrave-st-market.html`):
+  open. Still listed as a vendor on the Hargrave St. Market's own restaurant
+  directory, with its own tableside-ordering page on that site. Vendor hours
+  conflict between the market's page and OpenTable, and our page states none, so
+  nothing was changed. hargravestmarket.com is unreachable from this sandbox, so
+  this rests on search-result summaries of those pages.
+- **The Good Lands Cafe, 679 Sargent Ave** (`blog-winnipeg-vegan-restaurants.html`):
+  **unverified this run**, status left at `closed` as a previous run recorded it.
+  Nothing current could be found either way: the only substantial source is a
+  Uniter piece from the cafe's 2019 opening, and a third-party listing gives the
+  address as 681 Sargent. Our vegan-restaurants page does not name it anywhere,
+  so there is nothing on the site to correct.
+- **The Grove Pub & Restaurant, 164 Stafford St** (`blog-best-places-nearby-winnipeg.html`,
+  `blog-grove-pub-near-corydon-airbnb.html`, `blog-crescentwood-liveable.html`):
+  open. Directory listings agree on the Stafford Street address and the phone
+  number 204-415-3262, and describe it as trading seven days. Hours differ
+  between listings, so none was added to any page.
+- **The Indigenous Kitchen (food truck)** (`blog-indigenous-winnipeg.html`):
+  **unverified**, status unchanged. Tara Hall's truck is well documented through
+  2024 (an APTN piece from May 2024, a Manitoba Inc. profile describing a planned
+  permanent restaurant at Kenaston and Taylor), but nothing dated confirms the
+  2026 season, and the truck does not appear in the 2026 food-truck event
+  listings found. Our page describes it as seasonal and names no hours or
+  locations beyond the events it appears at, so it was left as written.
+- **The Merchant Kitchen** (`blog-group-dining.html`): open, and the ledger entry
+  was completed. The address **314 Donald St** was added (it was blank) and the
+  status moved from `unverified` to `open`. The Alt Hotel's own dining page
+  carries current hours for it and OpenTable lists it as taking bookings; no
+  closure or relocation notice appeared anywhere.
+- **The Toad in the Hole Pub, 112 Osborne St**
+  (`blog-osborne-village-vs-corydon-evening-compared.html`): open. Songkick lists
+  three upcoming 2026 and 2027 concerts at the venue with the 112 Osborne Street
+  address. One directory gives 155 Osborne Street and 2 p.m. to 2 a.m. daily;
+  that address disagrees with every other source, so the ledger address stands
+  and nothing was added to the page.
+
+**Ledger backfill sweep.** `blog-puerto-vallarta-stay.html` was read and moved
+to "Swept". It is a hosting-lessons post about an Airbnb stay in Mexico and names
+no restaurant, cafe, bar or shop, so no ledger entry was added.
+
+**New post:** `blog-jann-arden-holiday-orchestra-winnipeg.html`, "Jann Arden in
+Winnipeg 2026: December 8 at the Concert Hall". First entry of the Events queue,
+unmarked, so a new post rather than a refresh. Form: **one-day plan**, six
+clock-time headings pacing the evening from 4:30 p.m. to 7:30 p.m. with the
+trade-off of each hour stated, plus a tickets section and the "Where to stay for
+the December 8 show" section the event-post rules allow. The previous three posts
+were a ranked short list, an explainer and host's notes, so this form was free.
+
+The queue entry's date disagreement is resolved on the page: **the Winnipeg date
+is Tuesday, December 8, 2026 at 7:30 p.m. at the Centennial Concert Hall, 555
+Main St**, and December 9 is the Regina stop at the Conexus Arts Centre, which is
+where the second date in the listings comes from. The tour was announced
+September 12, 2026 and runs twelve shows in ten cities across five provinces
+between November 28 and December 16, built on her Christmas album A Jann Arden
+Christmas. Tickets go through centennialconcerthall.com, the box office or
+204-949-3999; presale September 9, general sale September 14. No support act is
+announced for any city. **No prices were published** because aggregator figures
+ranged from about $61 to $97 and at least one was in US dollars. Hall
+practicalities and the transit routes were reused from our own 2026-11-05 and
+2026-10-30 sourcing rather than re-checked. The only distance on the page is the
+verified table's ten minutes and 4.3 km. Full provenance in `post-sources.md`.
+
+Registered in `articles-data.js`, `articles_data.json`, the `blog.html` noscript
+grid and its `blogPost` JSON-LD, `sitemap.xml` (new entry plus a `<lastmod>` bump
+for `blog.html` and `events.html`), and `llms.txt` via
+`blog-maintenance/update-llms.py` (now 180 posts). The post names no commercial
+business, so it added no ledger entries.
+
+**Events calendar.** One entry added: Jann Arden and Her Holiday Orchestra,
+December 8, 2026, Centennial Concert Hall, `confirmed`, pointing at the new post.
+`update-events.py` regenerated `events.html` (56 upcoming, 33 confirmed in the
+JSON-LD) and the `events.html` `<lastmod>` was bumped.
+
+- Both stale entries were left in place deliberately. The Blue Bombers home
+  finale (ended 2026-10-10) and the NHL Heritage Classic (ended 2026-10-25) are
+  both inside the thirty-day window the playbook keeps them for; the Heritage
+  Classic is the one-off the playbook names by example, so it comes off the
+  calendar on a run after 2026-11-24, and the Bombers entry is removable from
+  2026-11-10 unless a 2027 home date is published.
+- Two `typical` entries fall inside the next sixty days and both were checked
+  once and left typical: **Canad Inns Winter Wonderland** (every findable source
+  still describes the 2025 season, November 28, 2025 to January 3, 2026, with no
+  2026 announcement) and the **Arctic Glacier Winter Park** opening (The Forks
+  has published nothing for 2026-27; past openings range from November 18 to
+  December 28, weather dependent).
+- **Events queue refilled with two**, nearest first: Elmo's Got the Moves at the
+  Burton Cummings Theatre (listed December 5, 2026, start time disputed) and
+  Trooper at the same theatre (listed December 30, 2026 at 8 p.m.). The existing
+  Choir! Choir! Choir! entry was annotated: venue-side listings carry it as
+  "Choir! Un-Silent Night" on **December 15**, not the 16th, so the date, time
+  and billing all need confirming before that post is written.
+
+**Flagged, not fixed: `blog.html` fallbacks are 53 posts behind.** The
+verification step in the post-creation checklist (every post in
+`articles-data.js` represented in the `<noscript>` grid and in the `blogPost`
+JSON-LD) fails on both: `articles-data.js` now holds 180 posts and `blog.html`
+carries 127 cards and 127 `blogPost` entries, the same 53 missing from each. The
+React listing reads `articles-data.js`, so visitors see all 180; it is the no-JS
+fallback and the structured data that are short. Today's post was added to both,
+so the gap did not grow. Backfilling 53 cards and 53 JSON-LD objects is a far
+larger diff than a daily run's churn budget allows, so it is left here for a
+dedicated run. Oldest missing include `blog-winnipeg-st-vital-guide.html`,
+`blog-winnipeg-osborne-village-guide.html` and
+`blog-winnipeg-chinatown-guide.html`.
+
+**Accessibility.** `pa11y --standard WCAG2AA` run against a local server (the
+live domain is unreachable from this sandbox) on the three changed pages:
+`blog-jann-arden-holiday-orchestra-winnipeg.html`, `blog.html` and
+`events.html`. No issues found on any of them.
+
+---
+
 ## 2026-11-06
 
 **Businesses verified (6, the stalest in the rotation).** All six are trading.
