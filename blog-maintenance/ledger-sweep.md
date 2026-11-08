@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-qaumajuq-wag-guide.html
 - blog-rainbow-stage.html
 - blog-rainy-afternoon-on-corydon.html
 - blog-rainy-day-winnipeg-itinerary.html
@@ -111,6 +110,7 @@ last because they are partly covered.
 
 ## Swept
 
+- blog-qaumajuq-wag-guide.html (2026-11-08, no commercial business named; it covers Qaumajuq and the Winnipeg Art Gallery, both institutions, and points onward to The Forks and the Exchange District as areas)
 - blog-puerto-vallarta-stay.html (2026-11-07, no commercial business named; the post is about an Airbnb stay in Mexico and names no restaurant, cafe, bar or shop)
 - blog-post-review-philosophy.html (2026-11-06, no commercial business named)
 - blog-peanut-park.html (2026-11-05, no commercial business named)

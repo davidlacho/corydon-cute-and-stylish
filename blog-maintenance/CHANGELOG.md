@@ -7,6 +7,120 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-08
+
+**Businesses verified (6, the stalest in the rotation).** No closure, move or
+rename was found, so no page was corrected. One `unverified` status was resolved
+to `open`. All six had been sitting on 2026-10-12 or 2026-10-13.
+
+- **Thermëa Spa Village, 775 Crescent Dr** (`blog-best-places-nearby-winnipeg.html`,
+  `blog-thermea-spa-day-near-corydon-airbnb.html`, `blog-winnipeg-vegan-restaurants.html`):
+  open. The spa's own contact page carries the 775 Crescent Drive address and
+  spa hours of 8:30 a.m. to 10 p.m., seven days a week, with free parking in the
+  Spa Village lot. None of our pages states hours, so nothing was added.
+- **Thyme Cafe and Bookstore, 268 Tache Ave** (`blog-winnipeg-vegan-restaurants.html`):
+  open, but on thin evidence. HappyCow and Spinach both carry active listings at
+  the Tache Avenue address with hours and no closure flag, and nothing suggests
+  it has gone; the newest review found is from 2022 and the two listings disagree
+  on hours (Tuesday to Saturday 11 a.m. to 5:30 p.m. versus a longer seven-day
+  schedule). Our page describes the cafe in one sentence and states no hours, so
+  there was nothing to correct. Worth a dated source on its next rotation.
+- **G G Gelati, 705 Corydon Ave** (`blog-crescentwood-liveable.html`): open.
+  Multiple listings agree on 705 Corydon Avenue, all show early-afternoon to
+  about 9:30 p.m. trading with later closes on Friday and Saturday, and a Uniter
+  taste-test piece describes the split-level shop as a Corydon fixture. Hours
+  differ enough between listings that none was added to the page.
+- **G.J. Andrews, 384 Academy Rd** (`blog-crescentwood-liveable.html`): open, and
+  the status moved from `unverified` to `open`. The shop appears as a current
+  stockist in two live retailer directories (Roger's Chocolates' where-to-buy
+  page, which gives 384 Academy Road, 204-487-7300 and gjandrews.ca, and Wooden
+  Gate Cider's Winnipeg retailer list). gjandrews.ca itself was not reachable
+  from this sandbox and a search on the domain returned nothing useful, so no
+  hours were added anywhere.
+- **Mr. Calzone, 653 Corydon Ave** (`blog-crescentwood-liveable.html`): open,
+  status unchanged. Uber Eats runs a "Mr. Calzone (Corydon)" store at the 653
+  Corydon address and DoorDash lists the restaurant as well. One MapQuest
+  listing shows the Corydon address flagged "Closed" with no hours, which reads
+  as a closed-right-now snapshot rather than a closure notice; no source
+  anywhere reports the location shutting. The chain's other branches publish
+  late hours; those were not transferred to our page, since they are not this
+  location's.
+- **Slices, 401 Stafford St** (`blog-crescentwood-liveable.html`): open. Several
+  directories carry the Stafford Street address with the phone number
+  204-475-3443 and slicespizza.com, reviews describe decades of trading, and one
+  listing shows Monday to Thursday 11 a.m. to 11 p.m. Postal codes differ
+  between listings and no official hours were confirmed, so nothing was added.
+
+**Ledger backfill sweep.** `blog-qaumajuq-wag-guide.html` was read and moved to
+"Swept". It names no commercial business: Qaumajuq and the Winnipeg Art Gallery
+are institutions, and The Forks and the Exchange District appear as areas. No
+ledger entry was added. `blog-elmo-got-the-moves-winnipeg.html` was appended to
+the `pages` list for **Hargrave St. Market**, the one business the new post
+names.
+
+**New post:** `blog-elmo-got-the-moves-winnipeg.html`, "Elmo's Got the Moves
+Winnipeg 2026: December 5 Shows". First entry of the Events queue, unmarked, so a
+new post rather than a refresh. Form: **question and answer**, seven questions a
+parent actually types as the only content headings, plus the "Where to stay for
+the December 5 shows" section the event-post rules allow. The previous three
+posts were an explainer, host's notes and a one-day plan, so this form was free.
+Image is the local `images/family-activities.jpg`; it was last used on
+2026-10-17, and there is no theatre photo in `images/`.
+
+The queue entry's start-time disagreement is resolved on the page: **the
+Burton Cummings Theatre's own family-events listing gives two performances on
+Saturday, December 5, 2026, at 2 p.m. and 6 p.m.**, so the lone 2 p.m. in some
+aggregator listings is the matinee of a pair. The tour's own site gives the run
+time as 60 minutes plus one 20-minute intermission and carries a sensory notice
+for flashing lights, haze and confetti. Three things were deliberately left off
+the page: resale prices (they move, and they are not face value), the
+lap-ticket rule (set venue by venue on this tour, and the Winnipeg rule was not
+found), and a walk time in minutes from the Kennedy Street bus stop to Smith
+Street, which is not in the verified distance table. Provenance is in
+`post-sources.md`.
+
+**Events calendar.** One entry added: Sesame Street Live: Elmo's Got the Moves,
+December 5, 2026, 2 p.m. and 6 p.m., Burton Cummings Theatre, 364 Smith St,
+`confirmed`, pointing at the new post. `update-events.py` now reports 57
+upcoming events and 34 confirmed in the JSON-LD.
+
+- **Stale entries (2), both left in place deliberately.** The Blue Bombers home
+  finale ended 2026-10-10, 29 days ago, and the NHL Heritage Classic ended
+  2026-10-25, 14 days ago. Both are under the playbook's 30-day removal
+  threshold, and the Heritage Classic is a one-off that should be removed rather
+  than rolled forward. The Bombers entry crosses 30 days tomorrow.
+- **Typical entries inside 60 days (2), both checked, both still typical.**
+  Canad Inns Winter Wonderland (currently November 28 to January 3) and the
+  Arctic Glacier Winter Park season opening (currently December 19) have no
+  announced 2026-27 dates. The newest Winter Wonderland dates findable are the
+  2025-26 run, November 28, 2025 to January 3, 2026, 6 p.m. to 10 p.m. nightly
+  and closed December 25, at Exhibition Park's West Gate, which is the pattern
+  our typical window already follows. The Forks still points skaters at
+  theforks.com/skate for conditions rather than publishing an opening date.
+  Neither was switched to `confirmed` and neither post was touched.
+- **Events queue: nothing added this run.** Two searches were spent on the
+  window two to eight weeks out (the January 2027 Canada Life Centre and
+  Concert Hall listings, and New Year's at The Forks) and a third on December
+  2026 listings. Nothing surfaced that is both uncovered and firm enough to
+  queue: New Year's Eve and New Year's Day at The Forks already have a post and
+  a calendar entry, the 2027 edition is unannounced ("updates coming" on the
+  Forks' own page), Vinterfest and Choir! Choir! Choir! are already queued (one
+  aggregator independently corroborated Choir! on December 15), and the only new
+  name found, a Gene Simmons date of December 9, 2026, came from a single
+  aggregator with no venue attached and was not queued on that basis. The Jets
+  January 2027 home dates (January 2, 16, 19 and 21) appear only on resale
+  aggregators; they need an organiser-published schedule before a calendar entry
+  can point at the Jets post.
+
+**Known gap, not fixed this run.** `blog.html` carries 128 of the 181 posts in
+`articles-data.js`, in both the `<noscript>` grid and the JSON-LD `blogPost`
+array; 53 posts are in neither. The new post was added to both, so the gap did
+not grow. Closing it means generating about 900 lines into `blog.html` from
+`articles-data.js`, which is well outside a daily run's churn budget, so it is
+flagged here for the owner rather than done unattended.
+
+---
+
 ## 2026-11-07
 
 **Businesses verified (6, the stalest in the rotation).** No closure, move or

@@ -16,6 +16,50 @@ Newest first.
 
 ---
 
+## blog-elmo-got-the-moves-winnipeg.html (published 2026-11-08)
+
+- Date, times and venue: Sesame Street Live: Elmo's Got the Moves plays the
+  Burton Cummings Theatre, 364 Smith Street, on Saturday, December 5, 2026.
+  The theatre's own family-events listing gives two performances that day,
+  2 p.m. and 6 p.m. ("Saturday, December 5 - 2PM & 6PM - Burton Cummings
+  Theatre"), and the venue runs two separate event pages for the date. This
+  resolves the start-time disagreement recorded in the events-queue entry: the
+  single 2 p.m. some aggregators show is the matinee of a pair, not the only
+  show. burtoncummingstheatre.ca does not resolve from this sandbox, so the
+  venue text rests on search-result extracts of those pages.
+- Run time and content notice: the tour's own site (sesamestreetlive.com)
+  states 60 minutes of performance "not including one 20 minute intermission",
+  and venue listings across the tour carry the same sensory notice for flashing
+  lights, haze (fog) and confetti. Both figures are the tour's, not a venue's.
+- Tickets and accessibility: tickets run through Ticketmaster and the theatre
+  box office; resale listings for December 5 (TickPick, Vivid Seats, Gametime)
+  sat between about $53 and $65 at the time of writing and were deliberately
+  NOT published, since they are resale and will move. The venue's accessibility
+  note (main floor only, wheelchair seating in Loges 1 and 2, arranged by
+  calling Ticketmaster at 1-855-985-5000) is the theatre's own.
+- Lap-ticket rule: deliberately left unstated. The policy is set venue by venue
+  on this tour (some stops exempt under-2s, some require a ticket for every
+  body in the room, some sell a discounted lap pass), and nothing found states
+  the Winnipeg rule. The post tells the reader to ask the theatre.
+- Transit and the walk: D19 Corydon east along Corydon Avenue, ending on
+  Kennedy Street just south of Portage Avenue, with F5, F8, D12 and D13 also
+  serving the venue. These come from the site's own existing Burton Cummings
+  coverage (blog-jp-hoe-holiday-show-winnipeg.html, 2026-11-06). No walk time
+  in minutes was published for the Kennedy-to-Smith leg, since that figure is
+  not in the verified distance table in AGENT-INSTRUCTIONS.md.
+- Distances from the house: the 3.9 km / about ten minutes to Canada Life
+  Centre at 300 Portage Avenue and the ten-minute walk south to Corydon Avenue
+  are both from the verified table in AGENT-INSTRUCTIONS.md. No distance was
+  stated for Smith Street itself.
+- December daylight: sunset in Winnipeg in the first week of December falls
+  before 4:30 p.m., which is why the post steers families with toddlers to the
+  matinee.
+- Theatre history: described only as "built as the Walker Theatre" and "a
+  designated historic site". The site's own posts disagree on whether it opened
+  in 1906 or 1907, so no opening year was published here.
+
+---
+
 ## blog-jann-arden-holiday-orchestra-winnipeg.html (published 2026-11-07)
 
 - Date, time and venue: Jann Arden and Her Holiday Orchestra plays the

@@ -561,7 +561,8 @@
         "blog-manito-ahbee-festival.html",
         "blog-santa-claus-parade-winnipeg.html",
         "blog-winnipeg-breweries.html",
-        "blog-winnipeg-new-music-festival.html"
+        "blog-winnipeg-new-music-festival.html",
+        "blog-elmo-got-the-moves-winnipeg.html"
       ],
       "status": "open",
       "last_verified": "2026-10-27"
@@ -1087,7 +1088,7 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-08"
     },
     {
       "name": "Thyme Cafe and Bookstore",
@@ -1096,7 +1097,7 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-11-08"
     },
     {
       "name": "Torque Brewing",
@@ -1432,7 +1433,7 @@
         "blog-crescentwood-liveable.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-13"
+      "last_verified": "2026-11-08"
     },
     {
       "name": "G.J. Andrews",
@@ -1440,8 +1441,8 @@
       "pages": [
         "blog-crescentwood-liveable.html"
       ],
-      "status": "unverified",
-      "last_verified": "2026-10-13"
+      "status": "open",
+      "last_verified": "2026-11-08"
     },
     {
       "name": "Slices",
@@ -1450,7 +1451,7 @@
         "blog-crescentwood-liveable.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-13"
+      "last_verified": "2026-11-08"
     },
     {
       "name": "The Handsome Daughter",
@@ -1468,7 +1469,7 @@
         "blog-crescentwood-liveable.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-13"
+      "last_verified": "2026-11-08"
     },
     {
       "name": "Warehouse Artworks",

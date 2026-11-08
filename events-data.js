@@ -95,6 +95,15 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
+    "title": "Sesame Street Live: Elmo's Got the Moves",
+    "url": "/blog-elmo-got-the-moves-winnipeg.html",
+    "start": "2026-12-05",
+    "end": "2026-12-05",
+    "time": "2 p.m. and 6 p.m.",
+    "venue": "Burton Cummings Theatre, 364 Smith St",
+    "status": "confirmed"
+  },
+  {
     "title": "WSO Christmas Pops",
     "url": "/blog-wso-christmas-concerts-winnipeg.html",
     "start": "2026-12-05",
