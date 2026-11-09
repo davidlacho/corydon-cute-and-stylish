@@ -7,6 +7,108 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-09
+
+**Businesses verified (6, the stalest in the rotation).** No closure, move or
+rename was found, so no page was corrected for a closure. All six had been
+sitting on 2026-10-13 or 2026-10-14 and are now dated today.
+
+- **St. Vital Centre, 1225 St. Mary's Rd** (`blog-classic107-spring-break-winnipeg.html`):
+  open, and busier than ever. Montreal-based Leyad bought the mall in February
+  2026 for $160.5 million; it runs about 160 to 170 tenants over roughly a
+  million square feet, and Uniqlo was reported taking a 15,000 sq ft space near
+  centre court built out of six smaller units. Our page mentions the centre only
+  for its spring-break Kids Club programming, so there was nothing to correct.
+- **The Handsome Daughter, 61 Sherbrook St** (`blog-crescentwood-liveable.html`):
+  open. Songkick lists upcoming shows at the Sherbrook Street address into 2027
+  and a venue directory listing was updated in June 2026. Listings disagree on
+  the phone number and the postal code, and our page names the bar in a single
+  list without hours, so nothing was added.
+- **Torque Brewing, 330-830 King Edward St** (`blog-winnipeg-breweries.html`,
+  `blog-winnipeg-event-venues.html`): open, status unchanged. Directory listings
+  carry the King Edward Street unit and the taproom phone number, and no source
+  reports a closure. Published taproom hours differ between every listing found,
+  so none were added to either page.
+- **Transcona Country Club, 2070 Dugald Rd** (`blog-winnipeg-event-venues.html`):
+  open, and **the page was corrected**. It had claimed 24,000 sq ft of space,
+  a 20,000 sq ft largest room, and capacity for 2,000 at a reception or 1,400 at
+  a seated dinner. Nothing found supports those numbers and every source is far
+  below them: Eventective 1,300 across four spaces, Bridebook 450 overall with
+  the smallest ballroom at 100, Cvent's English page 250 standing, Cvent's
+  translated pages 300 seated and 150 standing. The paragraph now states only
+  the four rooms, the roughly hundred-guest smallest one, and the address, and
+  sends the reader to the club for the capacity of the room they want. The golf
+  course is a separate property at 2120 Dugald Road.
+- **Tundra Grill (Assiniboine Park Zoo)** (`blog-winnipeg-event-venues.html`):
+  open. The Conservancy's own restaurant page still lists it, with the Polar
+  Playground inside it, member discounts, and school boxed lunches ordered five
+  business days ahead through tundra.grill@parkhospitality.ca. Hours appear as
+  9 a.m. to 5 p.m. on that page but with seasonal concession hours listed
+  separately, so no hours were put on our page.
+- **Vera Pizza, 670 Osborne St** (`blog-restaurants.html`): open. Listings under
+  both "Vera Pizza" and "Vera Pizzeria" carry the 670 Osborne Street address
+  with several hundred reviews and a 4.8 rating, and no source reports a
+  closure. Our page already says dinner service only and closed Sundays, which
+  matches the schedules found, so it was left alone.
+
+**Ledger backfill sweep.** `blog-rainbow-stage.html` was read and moved to
+"Swept". It names no commercial business: Rainbow Stage is a not-for-profit
+theatre in Kildonan Park and Winnipeg Jewish Theatre is a company, both
+institutions. No ledger entry was added.
+`blog-choir-choir-choir-winnipeg.html` was appended to the `pages` list for
+**Hargrave St. Market**, the one business the new post names.
+
+**New post:** `blog-choir-choir-choir-winnipeg.html`, "Choir! Choir! Choir!
+Winnipeg 2026: December 15 at the Burt". First entry of the Events queue,
+unmarked, so a new post. Form: **explainer**, continuous prose with two
+subject-specific headings plus the "Where to stay" section the event-post rules
+allow; the previous three posts were host's notes, one-day plan and question and
+answer, so explainer was free.
+
+The queue entry's two open questions are resolved on the page. **The date is
+Tuesday, December 15, 2026**, not December 16: Tourism Winnipeg, Live Nation and
+Exclaim all carry the 15th and nothing found supports the 16th. **The billing is
+Un-Silent Night: An EPIC Holiday Sing-Along!**, which is how all three list it.
+The posted start is 8 p.m. on Tourism Winnipeg, Live Nation and Ticketmaster.ca;
+one Ticketmaster page showed 9 p.m., so the post gives 8 p.m. and tells the
+reader their own ticket governs. No price appears anywhere, because the only
+figure found was a resale marketplace's high-end number. Lyric sheets and a
+three-part voice split, both widely repeated about this act, were left out for
+want of a source. Theatre practicalities and the transit routes came from our
+own 2026-11-06 JP Hoe post; the only distance stated is the verified table's
+Canada Life Centre figure. Image is the in-repo Unsplash holiday-lights photo,
+chosen over a fourth reuse of the concert-hall stage photo in five days.
+
+**Events calendar.** Added **Choir! Choir! Choir!: Un-Silent Night**, December
+15, 2026, 8 p.m., Burton Cummings Theatre, `confirmed`. Removed the stale
+**Blue Bombers home finale vs Calgary** entry of October 10: the CFL has not
+published its 2027 schedule (past releases have landed in mid-December), so
+there is no next edition to move it to and the post states the 2026 home
+schedule is finished. Left in place: the **NHL Heritage Classic** of October 25,
+a one-off and only 15 days past, and the **Crafted Show and Sale** of
+November 6 to 8, one day past with no 2027 dates announced and no usual window
+stated in its post. Both typical entries starting within 60 days, Canad Inns
+Winter Wonderland and the Arctic Glacier Winter Park, were left typical; neither
+organiser has published this season's dates. `events.html` regenerated, 57
+upcoming events listed and 34 confirmed in the JSON-LD.
+
+**Events queue refilled** with two January 2027 events that have neither a post
+nor a calendar entry: the **Harlem Globetrotters** at Canada Life Centre, listed
+Tuesday January 5 at 7 p.m., and **Winterruption WPG 2027**, listed January 20
+to 24 across several venues. Both carry a note to re-check against the venue or
+organiser before publishing. Hilary Duff at Canada Life Centre was found but
+skipped: listings put the same show on both January 5 and January 30.
+
+**Files changed:** `blog-choir-choir-choir-winnipeg.html` (new),
+`blog-winnipeg-event-venues.html` (Transcona correction),
+`articles-data.js`, `articles_data.json`, `blog.html`, `sitemap.xml`,
+`events-data.js`, `events.html`, `llms.txt`,
+`blog-maintenance/business-ledger.json`, `blog-maintenance/ledger-sweep.md`,
+`blog-maintenance/post-ideas.md`, `blog-maintenance/post-sources.md`,
+`blog-maintenance/CHANGELOG.md`.
+
+---
+
 ## 2026-11-08
 
 **Businesses verified (6, the stalest in the rotation).** No closure, move or

@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-choir-choir-choir-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-11-09",
+    "title": "Choir! Choir! Choir! Winnipeg 2026: December 15 at the Burt",
+    "image": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Strings of warm white Christmas lights glowing against a dark winter evening",
+    "description": "Choir! Choir! Choir! brings Un-Silent Night to the Burton Cummings Theatre on Tuesday, December 15, 2026 at 8 p.m. How the sing-along works, and where to sit.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>November 9, 2026</span>"
+  },
+  {
     "url": "/blog-elmo-got-the-moves-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-11-08",

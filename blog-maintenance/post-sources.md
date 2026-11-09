@@ -16,6 +16,80 @@ Newest first.
 
 ---
 
+## blog-choir-choir-choir-winnipeg.html (published 2026-11-09)
+
+- Date, billing, time and venue: Choir! Choir! Choir! plays the Burton Cummings
+  Theatre, 364 Smith Street, on Tuesday, December 15, 2026, billed as
+  "Un-Silent Night: An EPIC Holiday Sing-Along!". Tourism Winnipeg's event
+  listing, Live Nation's event page and Exclaim's concert listing all carry the
+  same title and the same December 15 date, and Ticketmaster.ca is the official
+  seller. The queue entry had flagged a disagreement between December 15 and
+  December 16 and a possible alternative billing ("Choir! Un-Silent Night");
+  nothing found this run supports December 16, so the post states the 15th.
+- Start time: 8 p.m. on Tourism Winnipeg, Live Nation and Ticketmaster.ca; one
+  Ticketmaster page showed 9 p.m. The post states 8 p.m. and tells the reader
+  the time printed on their own ticket governs.
+- Prices: not published on the page. The only figure found was a resale
+  marketplace's high-end listing ($249), which is not face value, so no price
+  or range appears anywhere in the post.
+- What the act is and how it works: Nobu Adilman and Daveed Goldman founded
+  Choir! Choir! Choir! in Toronto in February 2011 as a weekly singing night;
+  it is an open-participation project with no auditions, where everyone who
+  attends sings and the hosts teach the room an arrangement of a song it
+  already knows. The group's standing advice to newcomers is to listen to the
+  songs beforehand. Sourced from the project's own touring material and
+  encyclopaedia and press coverage of the format.
+- Deliberately left out: lyric sheets handed to the audience and a three-part
+  voice split. Both are widely repeated about this act and neither could be
+  confirmed from anything sourceable this run, so the post describes the
+  teaching only as taught by ear and demonstration.
+- Tour context: the Winnipeg date is one night of a short December 2026 run
+  that also stops in Calgary, Edmonton and Montreal, which is why the post
+  tells readers there is no second local performance to move to.
+- Venue practicalities (theatre opened 1906 as the Walker and is a designated
+  historic site; main floor wheelchair accessible, balcony by stairs with no
+  lift; wheelchair seating in Loges 1 and 2 arranged by phone; children two and
+  over need a ticket; lots beside and across from the theatre plus metered
+  street parking; transit routes F5, F8, D12 and D13, with D19 Corydon
+  finishing on Kennedy Street just south of Portage Avenue) were reused from
+  our own 2026-11-06 JP Hoe post, where they were sourced, rather than
+  re-sourced this run.
+- Distance: only the playbook's verified table figure is used, Canada Life
+  Centre at 300 Portage Avenue, ten minutes and 3.9 km from the house, with
+  the note that the Burt is on the same downtown blocks. 364 Smith Street is
+  not in the table, so no drive time to the theatre itself is stated.
+- Daylight: the sun being down before half past four in mid-December Winnipeg
+  is astronomical, not sourced to a listing.
+- Image: the in-repo Unsplash holiday-lights photo
+  (photo-1482517967863-00e15c9b44be), already live on
+  blog-christmas-winnipeg.html and blog-canad-inns-winter-wonderland.html.
+  images.unsplash.com and unsplash.com were both unreachable from this sandbox
+  (curl returned no response through the egress proxy), so no new image URL
+  could be verified, and the concert-hall stage photo was avoided because it
+  had already run on three posts in the previous five days.
+
+---
+
+## blog-winnipeg-event-venues.html (corrected 2026-11-09)
+
+- The Transcona Country Club paragraph previously stated 24,000 square feet of
+  total space, a largest meeting room of 20,000 square feet, and capacity for
+  2,000 guests at a reception or 1,400 at a seated dinner. No source found this
+  run supports those figures and every source found is far below them:
+  Eventective gives a 1,300 capacity across four spaces, Bridebook gives 450
+  guests overall with a smallest ballroom (the Sunset) at a maximum of 100,
+  Cvent's English page gives 250 standing across four meeting rooms with about
+  20,000 sq ft of total meeting space, and Cvent's translated pages of the same
+  venue give 300 seated, 150 standing and about 3,050 sq ft. Because the
+  published figures conflict that badly, the paragraph was rewritten to state
+  only what the sources agree on, that the club has four event rooms of
+  different sizes with the smallest suited to about a hundred guests, and to
+  send the reader to the club for the capacity of the room they want. The
+  address, 2070 Dugald Road, is confirmed by Cvent, Eventective and WeddingWire;
+  the golf course itself is a separate property at 2120 Dugald Road.
+
+---
+
 ## blog-elmo-got-the-moves-winnipeg.html (published 2026-11-08)
 
 - Date, times and venue: Sesame Street Live: Elmo's Got the Moves plays the

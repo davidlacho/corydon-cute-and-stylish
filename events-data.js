@@ -21,15 +21,6 @@
 // to validate the entries and regenerate the static list and JSON-LD in events.html.
 const EVENTS_DATA = [
   {
-    "title": "Blue Bombers home finale vs Calgary",
-    "url": "/blog-winnipeg-blue-bombers.html",
-    "start": "2026-10-10",
-    "end": "2026-10-10",
-    "time": "6 p.m. kickoff",
-    "venue": "Princess Auto Stadium",
-    "status": "confirmed"
-  },
-  {
     "title": "NHL Heritage Classic: Jets vs Canadiens",
     "url": "/blog-nhl-heritage-classic-winnipeg-2026.html",
     "start": "2026-10-25",
@@ -137,6 +128,15 @@ const EVENTS_DATA = [
     "end": "2026-12-13",
     "time": "7:30 p.m. Saturday, 2 p.m. Sunday",
     "venue": "Centennial Concert Hall, 555 Main St",
+    "status": "confirmed"
+  },
+  {
+    "title": "Choir! Choir! Choir!: Un-Silent Night",
+    "url": "/blog-choir-choir-choir-winnipeg.html",
+    "start": "2026-12-15",
+    "end": "2026-12-15",
+    "time": "8 p.m.",
+    "venue": "Burton Cummings Theatre, 364 Smith St",
     "status": "confirmed"
   },
   {
