@@ -140,6 +140,15 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
+    "title": "Vinterfest craft market at IKEA Winnipeg",
+    "url": "/blog-vinterfest-market-winnipeg.html",
+    "start": "2026-12-18",
+    "end": "2026-12-20",
+    "time": "10 a.m., closing 8 p.m. Friday",
+    "venue": "IKEA Winnipeg, 500 Sterling Lyon Parkway",
+    "status": "confirmed"
+  },
+  {
     "title": "Royal Winnipeg Ballet: Nutcracker",
     "url": "/blog-rwb-nutcracker-winnipeg.html",
     "start": "2026-12-18",

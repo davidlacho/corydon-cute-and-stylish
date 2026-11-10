@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-vinterfest-market-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-11-10",
+    "title": "Vinterfest Winnipeg 2026: Free Craft Market at IKEA",
+    "image": "https://images.unsplash.com/photo-1622880833523-7cf1c0bd4296?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Vendor stalls under one roof in an indoor market hall",
+    "description": "Vinterfest puts 21 Manitoba makers in IKEA Winnipeg's self-serve warehouse from December 18 to 20, 2026. Free admission, hours, transit routes and parking.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>November 10, 2026</span>"
+  },
+  {
     "url": "/blog-choir-choir-choir-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-11-09",

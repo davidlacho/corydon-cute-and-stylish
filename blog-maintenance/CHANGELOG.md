@@ -7,6 +7,109 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-10
+
+**Businesses verified (6, the stalest in the rotation).** No closure, move or
+rename was found, so no page was corrected for a closure. All six were sitting on
+2026-10-14 or 2026-10-15 and are now dated today.
+
+- **Vi-Ann Restaurant, 1020 Notre Dame Ave** (`blog-winnipeg-vietnamese-pho-guide.html`):
+  treated as open, with the weakest evidence of the six. Directory listings carry
+  the Notre Dame Avenue address and a phone number, nothing reports a closure, and
+  no 2026 news item mentions the restaurant either way. The one negative signal is
+  an Uber Eats page marked closed, dated October 2024, which is a delivery-app
+  status rather than a closure. Our page names it in a list without hours, so
+  nothing was changed; it is worth a second look next rotation.
+- **Winnipeg Trolley Company** (`blog-winnipeg-tours.html`): open. The company ran
+  the Trolley Bus Tour at Doors Open Winnipeg on May 31, 2026, with five
+  departures from the Upper Fort Garry parking lot at 25 Fort Street, and city,
+  brewery and ghost tours plus charters are still listed. Listings disagree on
+  tour length (two hours against two and a half) and on price, so no times or
+  prices were added to the page. Address left blank: it is a tour operator with
+  no storefront in any source found.
+- **Warehouse Artworks, 222 McDermot Ave** (`blog-doors-open-winnipeg.html`):
+  open, and **the ledger address was filled in** (it was blank). The Exchange
+  District BIZ marked the gallery and custom framer's 45th year in 2024, it
+  shows a new exhibition on the first Friday of each month, and the Doors Open
+  listing places it in the Silvester-Wilson Building. Published hours trace back
+  to a 2017 article, so none were put on our page.
+- **Thom Bargen Coffee Roasters, 743 Corydon Ave** (five pages): open. The only
+  hours found are scraped from the roaster's own Instagram bio by a
+  lead-generation site and disagree with a second listing for the Sherbrook
+  Street shop, so nothing was added. No source reports a closure at the Corydon
+  address.
+- **Yard Burger, 242 Hargrave St** (`blog-hargrave-st-market.html`): open. The
+  market's own restaurant page still lists it, and the Downtown Winnipeg BIZ
+  entry carries the dine-in description and the Wagyu, chicken and vegan patties.
+  Hours conflict between the vendor listing (Monday and Tuesday only, 11:30 a.m.
+  to 8 p.m.) and the hall's overall hours, so our page keeps none.
+- **Yujiro Japanese Restaurant, 1822 Grant Ave** (`blog-winnipeg-ramen-japanese-guide.html`):
+  open. Listings carry the Grant Avenue address, the phone number and a Canada's
+  100 Best placing, and kitchen job postings from 2024 and 2025 point the same
+  way. Every listing disagrees on the service windows, so the page was left as
+  it is.
+
+**Ledger backfill sweep.** `blog-rainy-afternoon-on-corydon.html` was read and
+moved to "Swept". It names five businesses, all already in the ledger: The
+Cheesemongers Fromagerie, Bar Italia, Passero Restaurant, Thom Bargen Coffee
+Roasters and Sugar + Salt Bakeshoppe. The filename was appended to each of their
+`pages` lists. Two new entries were added for the businesses the day's post
+names: **IKEA Winnipeg** (500 Sterling Lyon Parkway) and **Outlet Collection
+Winnipeg** (555 Sterling Lyon Parkway), both verified today.
+
+**New post:** `blog-vinterfest-market-winnipeg.html`, "Vinterfest Winnipeg 2026:
+Free Craft Market at IKEA". First entry of the Events queue, unmarked, so a new
+post. Form: **host's notes**, first person plural with four subject-specific
+headings; the previous three posts were one-day plan, question and answer and
+explainer, so host's notes, walk, ranked short list and comparison were free, and
+a single free market with no route to walk and nothing to rank fits host's notes.
+
+The queue entry's open question was the date, and it holds: December 18 to 20,
+2026 at IKEA Winnipeg, 500 Sterling Lyon Parkway, with two independent listings
+agreeing on the dates, the free admission, the self-serve warehouse setting, the
+21 Manitoba craftspeople and the digital-payments-only rule. Friday runs 10 a.m.
+to 8 p.m. and Saturday 10 a.m. to 7 p.m.; Sunday's close is published as both
+5 p.m. and 6 p.m., so the page calls Sunday the short day, gives no hour for it,
+and the single `.info-box` sends readers to manitobacraftcouncil.ca to confirm
+that and the maker list. Transit is the three routes IKEA's own store page names
+(74 Kenaston-Keewatin, 664 Taylor-West Taylor, 677 Wilkes) at the Seasons of
+Tuxedo at IKEA stop, with a note to use the current trip planner because Transit
+redrew the network in 2025. No drive time from the house to IKEA is stated
+anywhere on the page: IKEA is not in the verified distances table. Provenance is
+in `post-sources.md`.
+
+**Events calendar.** Checked with `update-events.py --check`: no data problems,
+two stale entries.
+
+- **Added:** Vinterfest craft market at IKEA Winnipeg, December 18 to 20, 2026,
+  `confirmed`, pointing at the new post.
+- **Stale, left in place:** the NHL Heritage Classic (ended October 25) is a
+  one-off and is 16 days past, so it stays until it is more than 30 days past.
+  The Crafted Show and Sale (ended November 8) has no 2027 dates published by the
+  WAG; past editions have run November 1 to 5 (2023), November 8 to 10 (2024) and
+  November 6 to 8 (2026), but `blog-winnipeg-holiday-markets.html` states only
+  the 2026 dates and no usual window, so it cannot be moved to `typical` under
+  the calendar's rules. It stays until it is more than 30 days past.
+- **Typical entries starting within 60 days, re-checked, all still unannounced:**
+  Canad Inns Winter Wonderland (the 2025 season ran November 28 to January 3 and
+  no 2026 dates are published), Arctic Glacier Winter Park and the Nestaweya
+  River Trail (The Forks announces both close to opening; nothing for 2026-27).
+  All three left `typical`.
+- **Events queue:** one event added, Don Amero's Amero Little Christmas at the
+  Burton Cummings Theatre, listed Friday December 4, 2026 at 7 p.m., placed above
+  the Trooper entry because it is nearer. Beetlejuice at the Centennial Concert
+  Hall was found for January 29 to 31, 2027 (Broadway Across Canada, on sale from
+  September 14, 2026) but is outside the two-to-eight-week window, so it was not
+  queued this run.
+
+**Registered:** `articles-data.js`, `articles_data.json`, the `blog.html`
+noscript card and JSON-LD `blogPost` entry, `sitemap.xml` (new URL plus today's
+`<lastmod>` on `blog.html` and `events.html`), `llms.txt` regenerated by
+`update-llms.py` (183 posts), and `events.html` regenerated by
+`update-events.py`.
+
+---
+
 ## 2026-11-09
 
 **Businesses verified (6, the stalest in the rotation).** No closure, move or

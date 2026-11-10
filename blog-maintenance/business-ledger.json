@@ -8,7 +8,8 @@
       "pages": [
         "blog-corydon-guide.html",
         "blog-date-night-on-corydon-avenue.html",
-        "blog-little-italy-half-day-walking-loop.html"
+        "blog-little-italy-half-day-walking-loop.html",
+        "blog-rainy-afternoon-on-corydon.html"
       ],
       "status": "open",
       "last_verified": "2026-10-16"
@@ -44,7 +45,8 @@
         "blog-crescentwood-liveable.html",
         "blog-date-night-on-corydon-avenue.html",
         "blog-late-night-bites-near-corydon.html",
-        "blog-little-italy-half-day-walking-loop.html"
+        "blog-little-italy-half-day-walking-loop.html",
+        "blog-rainy-afternoon-on-corydon.html"
       ],
       "status": "open",
       "last_verified": "2026-11-03"
@@ -118,7 +120,8 @@
         "blog-corydon-guide.html",
         "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html",
         "blog-grocery-runs-near-corydon-airbnb.html",
-        "blog-little-italy-half-day-walking-loop.html"
+        "blog-little-italy-half-day-walking-loop.html",
+        "blog-rainy-afternoon-on-corydon.html"
       ],
       "status": "open",
       "last_verified": "2026-10-17"
@@ -148,7 +151,8 @@
       "pages": [
         "blog-corydon-guide.html",
         "blog-grocery-runs-near-corydon-airbnb.html",
-        "blog-little-italy-half-day-walking-loop.html"
+        "blog-little-italy-half-day-walking-loop.html",
+        "blog-rainy-afternoon-on-corydon.html"
       ],
       "status": "open",
       "last_verified": "2026-10-17"
@@ -186,10 +190,11 @@
         "blog-coffee-near-corydon-airbnb.html",
         "blog-corydon-guide.html",
         "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html",
-        "blog-little-italy-half-day-walking-loop.html"
+        "blog-little-italy-half-day-walking-loop.html",
+        "blog-rainy-afternoon-on-corydon.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-15"
+      "last_verified": "2026-11-10"
     },
     {
       "name": "Tommy's Pizzeria",
@@ -1153,7 +1158,7 @@
         "blog-winnipeg-vietnamese-pho-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-14"
+      "last_verified": "2026-11-10"
     },
     {
       "name": "Winnipeg Trolley Company",
@@ -1162,7 +1167,7 @@
         "blog-winnipeg-tours.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-14"
+      "last_verified": "2026-11-10"
     },
     {
       "name": "Yard Burger (Hargrave St. Market)",
@@ -1171,7 +1176,7 @@
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-15"
+      "last_verified": "2026-11-10"
     },
     {
       "name": "Yujiro Japanese Restaurant",
@@ -1180,7 +1185,7 @@
         "blog-winnipeg-ramen-japanese-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-15"
+      "last_verified": "2026-11-10"
     },
     {
       "name": "529 Wellington",
@@ -1474,12 +1479,12 @@
     },
     {
       "name": "Warehouse Artworks",
-      "address": "",
+      "address": "222 McDermot Ave",
       "pages": [
         "blog-doors-open-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-14"
+      "last_verified": "2026-11-10"
     },
     {
       "name": "Fun Mountain Water Slide Park",
@@ -1579,6 +1584,24 @@
       ],
       "status": "open",
       "last_verified": "2026-11-04"
+    },
+    {
+      "name": "IKEA Winnipeg",
+      "address": "500 Sterling Lyon Parkway",
+      "pages": [
+        "blog-vinterfest-market-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-10"
+    },
+    {
+      "name": "Outlet Collection Winnipeg",
+      "address": "555 Sterling Lyon Parkway",
+      "pages": [
+        "blog-vinterfest-market-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-10"
     }
   ]
 }

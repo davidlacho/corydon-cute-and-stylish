@@ -16,6 +16,52 @@ Newest first.
 
 ---
 
+## blog-vinterfest-market-winnipeg.html (published 2026-11-10)
+
+Checked 2026-11-10. The Manitoba Craft Council's own site (manitobacraftcouncil.ca)
+and travelmanitoba.com could not be fetched from the sandbox (DNS refused by the
+network policy), so the event's details come from two independent listings that
+agree with each other, and one that does not:
+
+- **Dates, venue, admission, format:** Explore The Peg's Christmas-markets listing
+  and Todo Canada's Winnipeg Christmas markets and craft fairs page both give
+  December 18 to 20, 2026 at IKEA Winnipeg, 500 Sterling Lyon Parkway, free
+  admission, three days in the store's self-serve warehouse, 21 local
+  craftspeople in a Swedish-village setting, and vendors accepting digital
+  payments only.
+- **Hours:** Explore The Peg gives Friday 10 a.m. to 8 p.m., Saturday 10 a.m. to
+  7 p.m., Sunday 10 a.m. to 6 p.m. Meg Does Pottery's pop-ups page gives a Sunday
+  close of 5 p.m. The page therefore states Friday and Saturday hours in full,
+  calls Sunday "the short day" without an hour, and the info-box sends the reader
+  to the council to confirm it.
+- **Organiser and history:** c2centreforcraft.ca carries the council's Vinterfest
+  notices from 2022 through the 2025 call for artists, which is how the
+  council-plus-IKEA arrangement and the members-only vendor list are known. Older
+  listings give 1555 Regent Avenue West for the 2024 edition; the current address
+  is the Sterling Lyon Parkway store, so the old one was not used.
+- **Transit:** IKEA's own Winnipeg store page (ikea.com/ca/en/stores/winnipeg)
+  names Winnipeg Transit routes 74 Kenaston-Keewatin, 664 Taylor-West Taylor and
+  677 Wilkes as serving the store, and says the store has ample parking.
+  Winnipeg Transit's service advisory list carries the stop names used here
+  (61189 northbound Seasons of Tuxedo at IKEA, 61257 southbound). CBC reported
+  the network overhaul launched in late June 2025, which is why the page tells
+  readers to use the current trip planner rather than an old timetable; no route
+  number was stated as a Vinterfest-specific shuttle.
+- **Daylight:** sunrise-sunset.org gives Winnipeg's earliest 2026 sunset as
+  December 11 at 4:29 p.m. and about 8 hours 9 minutes of daylight at the
+  December 21 solstice, hence "down by about half past four" for December 18 to 20
+  rather than a per-day time.
+- **Outlet Collection Winnipeg, 555 Sterling Lyon Parkway:** the centre's own
+  leasing material and its Wikipedia entry both give that address.
+- **Distances** are from the verified table in `AGENT-INSTRUCTIONS.md` (Canada
+  Life Centre 3.9 km / 10 min, Centennial Concert Hall 10 min, Corydon Avenue
+  about a ten-minute walk). IKEA is not in that table, so no drive time to it is
+  stated anywhere on the page.
+
+Re-check before December 18: Sunday's closing hour, and the maker list.
+
+---
+
 ## blog-choir-choir-choir-winnipeg.html (published 2026-11-09)
 
 - Date, billing, time and venue: Choir! Choir! Choir! plays the Burton Cummings
