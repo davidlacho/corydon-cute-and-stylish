@@ -1096,11 +1096,11 @@ const ARTICLES_DATA = [
     "url": "/blog-winnipeg-vietnamese-pho-guide.html",
     "category": "winnipeg",
     "date": "2026-05-11",
-    "title": "Best Pho in Winnipeg: Vietnamese Restaurants Worth a Trip",
+    "title": "Best Pho in Winnipeg: Pho Hoang, Pembina Hwy and West End",
     "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
     "imageAlt": "Steaming bowl of noodle soup with herbs and lime",
-    "description": "Where to eat pho and Vietnamese food in Winnipeg: Pho Hoang, T.H. Dang, Pho Kim Tuong and Vi-Ann, with hours, what to order, and the closest bowls to Corydon.",
-    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>9 min read</span>\n                                <span>May 11, 2026</span>"
+    "description": "Best pho in Winnipeg by area: Pho Hoang's four branches and hours, T.H. Dang for pho on Pembina Highway, and the Sargent and Ellice cluster in the West End.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>May 11, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-pizza-guide.html",
@@ -1239,7 +1239,7 @@ const ARTICLES_DATA = [
     "title": "Stay Winnipeg: Your Crescentwood Airbnb Guide",
     "image": "images/2025-10-09-5-Ruskin-Row-00001.jpg",
     "imageAlt": "Mid-century modern Airbnb in Crescentwood, Winnipeg",
-    "description": "A top-rated mid-century Airbnb in Crescentwood. Mid-century modern 3-bedroom home in historic Crescentwood with 121 guest reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
+    "description": "A top-rated mid-century Airbnb in Crescentwood. Mid-century modern 3-bedroom home in historic Crescentwood with 125 guest reviews. Superhost. Perfect location near restaurants, attractions & downtown.",
     "metaHtml": "<span>Winnipeg Accommodations</span>\n                                <span>10 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {
@@ -1369,7 +1369,7 @@ const ARTICLES_DATA = [
     "title": "Corydon Restaurants Winnipeg: Where to Eat on Corydon Ave",
     "image": "images/pasta-dish.jpg",
     "imageAlt": "Delicious pasta dish at a Corydon restaurant",
-    "description": "Twenty Corydon Avenue restaurants with addresses, from Bar Italia and Passero to Santa Lucia and Saperavi, plus patios, gelato, cafés and when to visit.",
+    "description": "Corydon Avenue restaurants in Winnipeg's Little Italy, with addresses: Passero, Bar Italia, Saperavi, Tommy's and more, plus patios, breakfast, gelato and bars.",
     "metaHtml": "<span>Location Guide</span>\n                                <span>5 min read</span>\n                                <span>January 15, 2025</span>"
   },
   {
@@ -1426,11 +1426,11 @@ const ARTICLES_DATA = [
     "url": "/blog-family-activities.html",
     "category": "winnipeg",
     "date": "2025-02-01",
-    "title": "Things to Do with Kids in Winnipeg: 20+ Family Activities",
+    "title": "Things to Do with Kids in Winnipeg: Family Fun by Season",
     "image": "images/family-activities.jpg",
     "imageAlt": "Family enjoying activities together",
-    "description": "Things to do with kids in Winnipeg, indoors and out: Assiniboine Park Zoo, the Children's Museum, splash pads, play centres and family restaurants, some free.",
-    "metaHtml": "<span>Family</span>\n                                <span>6 min read</span>\n                                <span>February 1, 2025</span>"
+    "description": "Things to do with kids in Winnipeg in winter and summer: zoo and museum admission, the Children's Museum, FortWhyte, cultural visits, and what is summer-only.",
+    "metaHtml": "<span>Family</span>\n                                <span>5 min read</span>\n                                <span>February 1, 2025</span>"
   },
   {
     "url": "/blog-transportation.html",
@@ -1439,8 +1439,8 @@ const ARTICLES_DATA = [
     "title": "Getting Around Winnipeg: Transit, Uber, Parking & Airport",
     "image": "images/airport-terminal.jpg",
     "imageAlt": "Winnipeg airport terminal",
-    "description": "How to get around Winnipeg without a car: the new Primary Transit Network, airport-to-downtown options, Uber and taxi costs, parking, and winter changes.",
-    "metaHtml": "<span>Transportation</span>\n                                <span>8 min read</span>\n                                <span>Updated December 8, 2025</span>"
+    "description": "Getting around Winnipeg: bus fares ($3.45 cash, $3.10 peggo), the D12 and D13 airport buses, Uber and taxis, park and ride lots, parking, and the trolley tour.",
+    "metaHtml": "<span>Transportation</span>\n                                <span>6 min read</span>\n                                <span>Updated November 11, 2026</span>"
   },
   {
     "url": "/blog-gunns-bakery.html",
@@ -1556,41 +1556,41 @@ const ARTICLES_DATA = [
     "url": "/blog-winnipeg-coffee.html",
     "category": "winnipeg",
     "date": "2025-12-05",
-    "title": "Best Coffee Shops in Winnipeg: 20+ Cafés & Roasters",
+    "title": "Best Coffee Shops in Winnipeg: Cafés and Local Roasters",
     "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2000&auto=format&fit=crop",
     "imageAlt": "Artisan coffee being prepared in a Winnipeg cafe",
-    "description": "The best coffee in Winnipeg, café by café: Parlour, Thom Bargen, Little Sister, Fools & Horses and more, with what to order, where each is and who roasts.",
-    "metaHtml": "<span>Coffee Guide</span>\n                                <span>12 min read</span>\n                                <span>December 5, 2025</span>"
+    "description": "The best coffee shops in Winnipeg by area: Parlour, Thom Bargen, Little Sister, Más and Sho downtown, who roasts locally, and cafés on Corydon and in St. Vital.",
+    "metaHtml": "<span>Coffee Guide</span>\n                                <span>6 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-breweries.html",
     "category": "winnipeg",
     "date": "2025-12-05",
-    "title": "Best Breweries in Winnipeg: Taprooms & Craft Beer Guide",
+    "title": "Craft Breweries in Winnipeg: Taprooms, Brew Pubs and Hours",
     "image": "https://plus.unsplash.com/premium_photo-1661964016869-491574f2610b?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Craft beer taps at a Winnipeg brewery taproom",
-    "description": "The best breweries and taprooms in Winnipeg: Half Pints, Torque, Good Neighbour, Brazen and more, with what to try at each, where they are and how to plan.",
-    "metaHtml": "<span>Beer & Breweries</span>\n                                <span>13 min read</span>\n                                <span>December 5, 2025</span>"
+    "description": "Winnipeg craft breweries and brew pubs by neighbourhood: Torque, Half Pints, Barn Hammer, Sookram's, Nonsuch and more, with taproom hours and who opens Mondays.",
+    "metaHtml": "<span>Beer & Breweries</span>\n                                <span>6 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {
     "url": "/blog-24-hour-winnipeg-budget.html",
     "category": "winnipeg",
     "date": "2025-12-05",
-    "title": "24 Hours in Winnipeg for Under $40: Free & Cheap Itinerary",
+    "title": "Cheap Things to Do in Winnipeg: A 24-Hour Budget Plan",
     "image": "https://images.unsplash.com/photo-1650821414031-cf7291ce938c?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Peanut Park bench in Winnipeg's Crescentwood neighborhood",
-    "description": "An hour-by-hour Winnipeg itinerary for $30 to $40 a day: free museum days, Assiniboine Park, The Forks, the Legislative Building and cheap eats near Corydon.",
-    "metaHtml": "<span>Budget Travel</span>\n                                <span>14 min read</span>\n                                <span>December 5, 2025</span>"
+    "description": "Cheap and free things to do in Winnipeg in one day: which museum is free on which day, $3.10 bus fares, the free Legislative tour and a plan for winter.",
+    "metaHtml": "<span>Budget Travel</span>\n                                <span>7 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {
     "url": "/blog-hargrave-st-market.html",
     "category": "winnipeg",
     "date": "2025-12-05",
-    "title": "Hargrave St. Market (True North Square): Vendors & Hours",
+    "title": "Hargrave St. Market Hours, Menu and True North Square Food",
     "image": "https://images.unsplash.com/photo-1622880833523-7cf1c0bd4296?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Modern food hall interior with diverse dining options",
-    "description": "A guide to Hargrave St. Market, the food hall in Winnipeg's True North Square: every vendor, from Gusto North to Saburo Kitchen, plus hours, seating and picks.",
-    "metaHtml": "<span>Food & Dining</span>\n                                <span>11 min read</span>\n                                <span>December 5, 2025</span>"
+    "description": "Hargrave St. Market hours and vendors: the True North Square food hall at 242 Hargrave opens Monday to Saturday, with Gusto North, Saburo Kitchen and more.",
+    "metaHtml": "<span>Food & Dining</span>\n                                <span>5 min read</span>\n                                <span>December 5, 2025</span>"
   },
   {
     "url": "/blog-winter-driving-winnipeg.html",
@@ -1696,10 +1696,10 @@ const ARTICLES_DATA = [
     "url": "/blog-little-free-libraries.html",
     "category": "winnipeg",
     "date": "2025-12-08",
-    "title": "Little Free Libraries in Winnipeg: Building Community Through Book Sharing",
+    "title": "Little Free Library Winnipeg: Map, Finding and Starting One",
     "image": "https://images.unsplash.com/photo-1743610426905-010086499ad6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Little Free Library book exchange box in a neighborhood",
-    "description": "Discover Winnipeg's Little Free Libraries, a global movement promoting literacy and community connection. Learn how to find LFLs across the city and how Winnipeg Public Library supports this initiative.",
+    "description": "Little Free Library Winnipeg: find boxes near you on the official world map or app, how the take-a-book swap works, how to start one, and where to get books.",
     "metaHtml": "<span>Community & Culture</span>\n                                <span>6 min read</span>\n                                <span>December 8, 2025</span>"
   },
   {
@@ -1726,11 +1726,11 @@ const ARTICLES_DATA = [
     "url": "/blog-winnipeg-event-venues.html",
     "category": "winnipeg",
     "date": "2025-12-09",
-    "title": "Planning Large Group Events in Winnipeg: Unique Venues & Complete Guide",
+    "title": "Event Venues in Winnipeg: Spaces for 30 to 2,500 Guests",
     "image": "https://images.unsplash.com/photo-1560439514-4e9645039924?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Elegant event venue with modern lighting and seating for large group gatherings",
-    "description": "Discover Winnipeg's outstanding off-site venues for large group events. From historic sites to modern spaces, find the perfect venue for galas, receptions, and group activities with capacities up to 2,500 guests.",
-    "metaHtml": "<span>Event Planning</span>\n                                <span>14 min read</span>\n                                <span>December 9, 2025</span>"
+    "description": "Event venues in Winnipeg sorted by size, from 30 to 2,500 guests: capacities for corporate events, office parties, small parties and celebrations of life.",
+    "metaHtml": "<span>Event Planning</span>\n                                <span>8 min read</span>\n                                <span>December 9, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-food-trucks.html",
@@ -1746,21 +1746,21 @@ const ARTICLES_DATA = [
     "url": "/blog-group-dining.html",
     "category": "winnipeg",
     "date": "2025-12-09",
-    "title": "Winnipeg Restaurants for Groups: Private Rooms & Big Tables",
+    "title": "Private Dining in Winnipeg: Restaurants with Private Rooms",
     "image": "https://plus.unsplash.com/premium_photo-1723633229720-adc672458647?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Group dining at an elegant restaurant table with multiple place settings",
-    "description": "Winnipeg restaurants that take large parties: private dining rooms, buyouts and venues for 25 to 1,000 guests, with capacities, prices and when to book.",
-    "metaHtml": "<span>Group Dining</span>\n                                <span>12 min read</span>\n                                <span>December 9, 2025</span>"
+    "description": "Winnipeg restaurants with private dining rooms and banquet halls, with capacities from 8 to 350 seats, for birthday dinners and large group reservations.",
+    "metaHtml": "<span>Group Dining</span>\n                                <span>7 min read</span>\n                                <span>December 9, 2025</span>"
   },
   {
     "url": "/blog-crescentwood-liveable.html",
     "category": "winnipeg",
     "date": "2025-12-11",
-    "title": "Safest Neighbourhoods in Winnipeg: Why Crescentwood Leads",
+    "title": "Safest Neighbourhoods in Winnipeg: What the Crime Data Shows",
     "image": "https://images.unsplash.com/photo-1591658522986-9eb791d2a89a?q=80&w=1652&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Peaceful residential street in Crescentwood with mature trees and well-maintained historic homes",
-    "description": "Which Winnipeg neighbourhoods are safest and most liveable? Crescentwood scores 92/100 for livability with crime 58% below the city average. The data.",
-    "metaHtml": "<span>Neighborhood Guide</span>\n                                <span>15 min read</span>\n                                <span>December 11, 2025</span>"
+    "description": "Safest neighbourhoods in Winnipeg by crime data: Linden Woods, Whyte Ridge, Wellington Crescent, Crescentwood and River Heights, and how safe Winnipeg is.",
+    "metaHtml": "<span>Neighborhood Guide</span>\n                                <span>5 min read</span>\n                                <span>December 11, 2025</span>"
   },
   {
     "url": "/blog-winnipeg-short-term-rental-compliance.html",

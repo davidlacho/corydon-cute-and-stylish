@@ -42,14 +42,13 @@
       "address": "737 Corydon Ave",
       "pages": [
         "blog-corydon-guide.html",
-        "blog-crescentwood-liveable.html",
         "blog-date-night-on-corydon-avenue.html",
         "blog-late-night-bites-near-corydon.html",
         "blog-little-italy-half-day-walking-loop.html",
         "blog-rainy-afternoon-on-corydon.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-03"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Peking Chinese Restaurant",
@@ -67,7 +66,7 @@
         "blog-corydon-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-16"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Saffron's Restaurant",
@@ -76,7 +75,7 @@
         "blog-corydon-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-16"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Santa Lucia Pizza",
@@ -87,7 +86,7 @@
         "blog-late-night-bites-near-corydon.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-16"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Saperavi Georgian Cuisine",
@@ -98,7 +97,7 @@
         "blog-date-night-on-corydon-avenue.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-16"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Starbucks",
@@ -108,7 +107,7 @@
         "blog-coffee-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-16"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Sugar + Salt Bakeshoppe",
@@ -124,7 +123,7 @@
         "blog-rainy-afternoon-on-corydon.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-17"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Sunshine Chinese Restaurant",
@@ -133,7 +132,7 @@
         "blog-corydon-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-17"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Sushi Ya",
@@ -143,7 +142,7 @@
         "blog-little-italy-half-day-walking-loop.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-17"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "The Cheesemongers Fromagerie",
@@ -155,20 +154,14 @@
         "blog-rainy-afternoon-on-corydon.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-17"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "The Mighty Kiwi Juice Bar & Eatery",
       "address": "709 Corydon Ave",
-      "pages": [
-        "blog-corydon-guide.html",
-        "blog-beat-the-heat-near-corydon-airbnb.html",
-        "blog-best-breakfast-brunch-near-corydon-airbnb.html",
-        "blog-family-friendly-stops-near-corydon.html",
-        "blog-vegetarian-vegan-eats-corydon.html"
-      ],
+      "pages": [],
       "status": "closed",
-      "last_verified": "2026-10-17"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "The Roost",
@@ -180,7 +173,7 @@
         "blog-little-italy-half-day-walking-loop.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-18"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Thom Bargen Coffee Roasters",
@@ -194,7 +187,7 @@
         "blog-rainy-afternoon-on-corydon.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-10"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Tommy's Pizzeria",
@@ -203,7 +196,7 @@
         "blog-corydon-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-16"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Wako Sushi Café",
@@ -212,7 +205,7 @@
         "blog-corydon-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-16"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Amsterdam Tea Room and Bar",
@@ -243,7 +236,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-18"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Bison Bus Tours",
@@ -270,7 +263,7 @@
         "blog-winnipeg-coffee.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-19"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Brazen Brewing Co.",
@@ -279,7 +272,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-19"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Bridge Drive-In (BDI)",
@@ -315,7 +308,7 @@
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-20"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Cargo Bar",
@@ -336,14 +329,14 @@
       "last_verified": "2026-10-20"
     },
     {
-      "name": "Chaise Café & Lounge",
+      "name": "Chez-Nous (formerly Chaise Café & Lounge)",
       "address": "271 Provencher Blvd",
       "pages": [
         "blog-group-dining.html",
         "blog-festival-du-voyageur.html"
       ],
-      "status": "open",
-      "last_verified": "2026-10-20"
+      "status": "renamed",
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Cho Ichi Ramen",
@@ -363,7 +356,7 @@
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-21"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Clay Oven Restaurant",
@@ -372,7 +365,7 @@
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-21"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Clementine Café",
@@ -389,10 +382,11 @@
       "name": "Confusion Corner Drinks + Food",
       "address": "500 Corydon Ave",
       "pages": [
-        "blog-best-corydon-patios.html"
+        "blog-best-corydon-patios.html",
+        "blog-corydon-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-21"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "COBS Bread (Tuxedo Park)",
@@ -416,9 +410,7 @@
     {
       "name": "Devil May Care Brewing Company",
       "address": "155-A Fort St",
-      "pages": [
-        "blog-winnipeg-event-venues.html"
-      ],
+      "pages": [],
       "status": "open",
       "last_verified": "2026-10-22"
     },
@@ -427,12 +419,13 @@
       "address": "101-1001 Corydon Ave",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
+        "blog-corydon-guide.html",
         "blog-family-friendly-stops-near-corydon.html",
         "blog-sweet-tooth-crawl-corydon-desserts.html",
         "blog-winnipeg-ice-cream-gelato.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-22"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Feast Café Bistro",
@@ -455,13 +448,12 @@
     },
     {
       "name": "Fools & Horses Coffee",
-      "address": "242 Hargrave St (Hargrave St. Market)",
+      "address": "The Forks Market, 1 Forks Market Rd",
       "pages": [
-        "blog-winnipeg-coffee.html",
-        "blog-hargrave-st-market.html"
+        "blog-winnipeg-coffee.html"
       ],
       "status": "closed",
-      "last_verified": "2026-10-24"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Fort Garry Brewing Company",
@@ -470,7 +462,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-24"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "French Way Café",
@@ -508,7 +500,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-26"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Graffiti Gallery",
@@ -526,7 +518,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-26"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Gunn's Bakery",
@@ -546,7 +538,7 @@
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-26"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Half Pints Brewing Company",
@@ -555,7 +547,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-27"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Hargrave St. Market",
@@ -572,7 +564,7 @@
         "blog-rainy-day-winnipeg-itinerary.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-27"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Harth Mozza & Wine Bar",
@@ -586,13 +578,13 @@
     },
     {
       "name": "Hy's Steakhouse",
-      "address": "1 Lombard Pl",
+      "address": "One Lombard Place",
       "pages": [
         "blog-group-dining.html",
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-28"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Ichiban Japanese Steakhouse & Sushi Bar",
@@ -601,14 +593,12 @@
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-28"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Isekai Ramen",
       "address": "1039 Cathedral Ave",
-      "pages": [
-        "blog-winnipeg-coffee.html"
-      ],
+      "pages": [],
       "status": "open",
       "last_verified": "2026-10-28"
     },
@@ -620,7 +610,7 @@
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-29"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Kitchen Sync",
@@ -629,7 +619,7 @@
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-29"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Kum Koon Garden",
@@ -645,22 +635,21 @@
       "address": "125 Pacific Ave",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
-        "blog-group-dining.html",
         "blog-winnipeg-event-venues.html",
         "blog-winnipeg-new-music-festival.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-29"
+      "last_verified": "2026-11-11"
     },
     {
-      "name": "Lake of the Woods Brewing Company (Hargrave St. Market)",
-      "address": "242 Hargrave St",
+      "name": "Lake of the Woods Brewing Company",
+      "address": "221 Carlton St",
       "pages": [
         "blog-hargrave-st-market.html",
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-29"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Little Brown Jug Brewing Company",
@@ -669,7 +658,7 @@
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-29"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Little Sister Coffee Maker",
@@ -681,7 +670,7 @@
         "blog-winnipeg-osborne-village-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-30"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Luda's Deli",
@@ -723,22 +712,21 @@
     {
       "name": "Miss Browns (Hargrave St. Market)",
       "address": "242 Hargrave St",
-      "pages": [
-        "blog-hargrave-st-market.html"
-      ],
-      "status": "open",
-      "last_verified": "2026-10-30"
+      "pages": [],
+      "status": "closed",
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Nucci's Gelati",
       "address": "643 Corydon Ave",
       "pages": [
+        "blog-corydon-guide.html",
         "blog-family-friendly-stops-near-corydon.html",
         "blog-sweet-tooth-crawl-corydon-desserts.html",
         "blog-winnipeg-ice-cream-gelato.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-31"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Old Gold Vintage Vinyl",
@@ -765,7 +753,7 @@
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-31"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Parlour Coffee",
@@ -777,7 +765,7 @@
         "blog-winnipeg-new-music-festival.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-31"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Patent 5 Distillery",
@@ -802,11 +790,12 @@
       "name": "Peasant Cookery",
       "address": "283 Bannatyne Ave",
       "pages": [
+        "blog-group-dining.html",
         "blog-restaurants.html",
         "blog-winnipeg-jazz-festival.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Pedal Pub Winnipeg",
@@ -819,12 +808,12 @@
     },
     {
       "name": "Pho Hoang",
-      "address": "794 Sargent Ave (plus Osborne St, Portage Ave and Seasons of Tuxedo branches)",
+      "address": "794 Sargent Ave; 117 Osborne St; 235 Portage Ave; 605 Sterling Lyon Pkwy",
       "pages": [
         "blog-winnipeg-vietnamese-pho-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Pho Kim Tuong",
@@ -833,16 +822,18 @@
         "blog-winnipeg-vietnamese-pho-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Pizzeria Gusto",
       "address": "404 Academy Rd",
       "pages": [
+        "blog-group-dining.html",
+        "blog-hargrave-st-market.html",
         "blog-winnipeg-pizza-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Rebel Pizza",
@@ -887,7 +878,7 @@
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-03"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "The Saddlery on Market",
@@ -896,7 +887,7 @@
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-04"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Shelly's Indigenous Bistro",
@@ -911,11 +902,10 @@
       "name": "Sho Coffee and Bar",
       "address": "290 William Ave",
       "pages": [
-        "blog-24-hour-winnipeg-budget.html",
         "blog-winnipeg-coffee.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-04"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Shorty's Pizza",
@@ -930,10 +920,11 @@
       "name": "Sookram's Brewing Company",
       "address": "479 Warsaw Ave",
       "pages": [
-        "blog-best-places-nearby-winnipeg.html"
+        "blog-best-places-nearby-winnipeg.html",
+        "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Splash Dash Boat Tours",
@@ -960,7 +951,7 @@
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "St. Norbert Farmers' Market",
@@ -983,7 +974,7 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-06"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "T.H. Dang Restaurant",
@@ -992,7 +983,7 @@
         "blog-winnipeg-vietnamese-pho-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-06"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Tall Grass Prairie Bread Co.",
@@ -1019,7 +1010,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-06"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "The Common (The Forks Market)",
@@ -1028,7 +1019,7 @@
         "blog-winnipeg-breweries.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-06"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "The Good Fight Taco",
@@ -1037,7 +1028,7 @@
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-07"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "The Good Lands Cafe",
@@ -1053,8 +1044,7 @@
       "address": "164 Stafford St",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
-        "blog-grove-pub-near-corydon-airbnb.html",
-        "blog-crescentwood-liveable.html"
+        "blog-grove-pub-near-corydon-airbnb.html"
       ],
       "status": "open",
       "last_verified": "2026-11-07"
@@ -1071,11 +1061,9 @@
     {
       "name": "The Merchant Kitchen",
       "address": "314 Donald St",
-      "pages": [
-        "blog-group-dining.html"
-      ],
-      "status": "open",
-      "last_verified": "2026-11-07"
+      "pages": [],
+      "status": "closed",
+      "last_verified": "2026-11-11"
     },
     {
       "name": "The Toad in the Hole Pub",
@@ -1114,7 +1102,7 @@
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-09"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Transcona Country Club",
@@ -1123,7 +1111,7 @@
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-09"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Niakwa Country Club",
@@ -1132,7 +1120,7 @@
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-01"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Tundra Grill (Assiniboine Park Zoo)",
@@ -1141,7 +1129,7 @@
         "blog-winnipeg-event-venues.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-09"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Vera Pizza",
@@ -1159,16 +1147,17 @@
         "blog-winnipeg-vietnamese-pho-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-10"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Winnipeg Trolley Company",
       "address": "",
       "pages": [
+        "blog-transportation.html",
         "blog-winnipeg-tours.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-10"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Yard Burger (Hargrave St. Market)",
@@ -1177,7 +1166,7 @@
         "blog-hargrave-st-market.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-10"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Yujiro Japanese Restaurant",
@@ -1192,10 +1181,11 @@
       "name": "529 Wellington",
       "address": "529 Wellington Cres",
       "pages": [
+        "blog-group-dining.html",
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-17"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Rae & Jerry's",
@@ -1364,7 +1354,7 @@
         "blog-rainy-day-winnipeg-itinerary.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-28"
+      "last_verified": "2026-11-11"
     },
     {
       "name": "Tim Hortons (949 Corydon Ave)",
@@ -1437,45 +1427,35 @@
     {
       "name": "G G Gelati",
       "address": "705 Corydon Ave",
-      "pages": [
-        "blog-crescentwood-liveable.html"
-      ],
+      "pages": [],
       "status": "open",
       "last_verified": "2026-11-08"
     },
     {
       "name": "G.J. Andrews",
       "address": "384 Academy Rd",
-      "pages": [
-        "blog-crescentwood-liveable.html"
-      ],
+      "pages": [],
       "status": "open",
       "last_verified": "2026-11-08"
     },
     {
       "name": "Slices",
       "address": "401 Stafford St",
-      "pages": [
-        "blog-crescentwood-liveable.html"
-      ],
+      "pages": [],
       "status": "open",
       "last_verified": "2026-11-08"
     },
     {
       "name": "The Handsome Daughter",
       "address": "61 Sherbrook St",
-      "pages": [
-        "blog-crescentwood-liveable.html"
-      ],
+      "pages": [],
       "status": "open",
       "last_verified": "2026-11-09"
     },
     {
       "name": "Mr. Calzone",
       "address": "653 Corydon Ave",
-      "pages": [
-        "blog-crescentwood-liveable.html"
-      ],
+      "pages": [],
       "status": "open",
       "last_verified": "2026-11-08"
     },
@@ -1491,9 +1471,7 @@
     {
       "name": "Fun Mountain Water Slide Park",
       "address": "804 Murdock Rd, RM of Springfield",
-      "pages": [
-        "blog-family-activities.html"
-      ],
+      "pages": [],
       "status": "closed",
       "last_verified": "2026-10-18"
     },
@@ -1604,6 +1582,307 @@
       ],
       "status": "open",
       "last_verified": "2026-11-10"
+    },
+    {
+      "name": "Pho Binh Minh",
+      "address": "101-819 Sargent Ave",
+      "pages": [
+        "blog-winnipeg-vietnamese-pho-guide.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Empty Cup",
+      "address": "242 Hargrave St (Hargrave St. Market)",
+      "pages": [
+        "blog-hargrave-st-market.html",
+        "blog-winnipeg-coffee.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Rose Bar (Hargrave St. Market)",
+      "address": "242 Hargrave St",
+      "pages": [
+        "blog-hargrave-st-market.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Yujiro",
+      "address": "",
+      "pages": [
+        "blog-hargrave-st-market.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "GaiJin Izakaya",
+      "address": "",
+      "pages": [
+        "blog-hargrave-st-market.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Harrisons Coffee Co.",
+      "address": "151-25 Forks Market Rd",
+      "pages": [
+        "blog-24-hour-winnipeg-budget.html",
+        "blog-winnipeg-coffee.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Más Coffee Co.",
+      "address": "100-70 Arthur St",
+      "pages": [
+        "blog-winnipeg-coffee.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Colosimo Coffee Roasters",
+      "address": "145 Pacific Ave",
+      "pages": [
+        "blog-winnipeg-coffee.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Black Pearl Coffee",
+      "address": "",
+      "pages": [
+        "blog-winnipeg-coffee.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Saintuary",
+      "address": "123 James Ave",
+      "pages": [
+        "blog-winnipeg-coffee.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Yellow Derny Cafe",
+      "address": "433 St. Mary's Rd",
+      "pages": [
+        "blog-winnipeg-coffee.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Café Postal",
+      "address": "202 Provencher Blvd",
+      "pages": [
+        "blog-winnipeg-coffee.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Baked Expectations",
+      "address": "161 Osborne St",
+      "pages": [
+        "blog-24-hour-winnipeg-budget.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Fergie's Fish 'n Chips (The Forks Market)",
+      "address": "1 Forks Market Rd",
+      "pages": [
+        "blog-24-hour-winnipeg-budget.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Taste of Sri Lanka (The Forks Market)",
+      "address": "1 Forks Market Rd",
+      "pages": [
+        "blog-24-hour-winnipeg-budget.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Wienerpeg (The Forks Market)",
+      "address": "1 Forks Market Rd",
+      "pages": [
+        "blog-24-hour-winnipeg-budget.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "The Forks Market (food hall)",
+      "address": "1 Forks Market Rd",
+      "pages": [
+        "blog-family-activities.html",
+        "blog-24-hour-winnipeg-budget.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Red River Exhibition Park",
+      "address": "3977 Portage Ave",
+      "pages": [
+        "blog-winnipeg-event-venues.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "The Metropolitan Entertainment Centre (Canad Inns)",
+      "address": "281 Donald St",
+      "pages": [
+        "blog-winnipeg-event-venues.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Assiniboia Downs",
+      "address": "3975 Portage Ave",
+      "pages": [
+        "blog-winnipeg-event-venues.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Pineridge Hollow",
+      "address": "67086 Heatherdale Rd, Oakbank",
+      "pages": [
+        "blog-winnipeg-event-venues.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Ethical Death Care",
+      "address": "603 Wellington Cres",
+      "pages": [
+        "blog-winnipeg-event-venues.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "SMITH (Inn at the Forks)",
+      "address": "75 Forks Market Rd",
+      "pages": [
+        "blog-group-dining.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Fusion Grill",
+      "address": "550 Academy Rd",
+      "pages": [
+        "blog-group-dining.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Nicolino's",
+      "address": "4-2077 Pembina Hwy",
+      "pages": [
+        "blog-group-dining.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "The Gates on Roblin",
+      "address": "6945 Roblin Blvd, Headingley",
+      "pages": [
+        "blog-group-dining.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Rae & Jerry's Steak House",
+      "address": "1405 Portage Ave",
+      "pages": [
+        "blog-group-dining.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Old Spaghetti Factory",
+      "address": "25 Forks Market Rd",
+      "pages": [
+        "blog-group-dining.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Resto Gare",
+      "address": "630 Des Meurons St",
+      "pages": [
+        "blog-group-dining.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Sabi on Taylor",
+      "address": "1360 Taylor Ave",
+      "pages": [
+        "blog-group-dining.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Fort Garry Hotel",
+      "address": "222 Broadway",
+      "pages": [
+        "blog-transportation.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Uber",
+      "address": "",
+      "pages": [
+        "blog-transportation.html",
+        "blog-crescentwood-liveable.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-11"
+    },
+    {
+      "name": "Unicity Taxi",
+      "address": "",
+      "pages": [
+        "blog-transportation.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
     }
   ]
 }

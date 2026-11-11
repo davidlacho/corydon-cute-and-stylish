@@ -7,6 +7,20 @@ recent entries to avoid repeating work.
 
 ---
 
+
+## 2026-11-11 (manual session, not the cron)
+
+- Reviews: added Matthew, Byron and Derek (all 5 stars); total 125, 5-star 115, rating 4.89 site-wide (also rebuilt `app.js` for the fallback rating).
+- Search Console export from the owner (impressions only): added "Search demand", "Event rollover" and the every-third-run refresh rule to `AGENT-INSTRUCTIONS.md`; Corydon Avenue by name now counts as a searched topic, the one-in-four cap applies to house-anchored posts.
+- `post-ideas.md`: added three rollovers to the top of the Events queue (Santa Claus Parade 2027 from 2026-11-15, Nuit Blanche 2027, Rainbow Stage 2027) and a new Refresh queue of twelve pages that already draw searches.
+- Retitled in place (slugs unchanged): `blog-winnipeg-event-venues.html` to "Event Venues in Winnipeg: Event Spaces for 30 to 2,500 Guests" (plus a link to the group-dining guide), `blog-little-free-libraries.html` to "Little Free Library Winnipeg: Finding and Starting One". Bodies not yet rechecked; both are in the Refresh queue.
+- Near-duplicate pages for the owner to decide on (not changed): `osborne-village-vs-corydon-evening-compared` against `osborne-village-corydon-evening-guide`, and `winnipeg-brunch-breakfast` against `best-breakfast-brunch-near-corydon-airbnb`. Search Console also still shows `blog-cozy-winter-warm-up-spots-corydon-airbnb.html`, which has no file (an old URL that now 404s).
+- Refresh pass (same session): all twelve Refresh-queue pages refreshed in place by verifying every business and fact; sources in `post-sources.md`. Retitled: coffee, budget (now "Cheap Things to Do in Winnipeg"), group dining (now "Private Dining in Winnipeg"), event venues, crescentwood-liveable (the "#1 safest" claim was wrong; Crescentwood is 10th on AreaVibes' list), pho, Hargrave, breweries, family activities, Little Free Libraries. The Corydon guide and transportation kept their titles.
+- Closures found and removed: The Mighty Kiwi (from the Corydon guide; the 2026-10-17 run had already removed it from four other pages), Miss Browns, Mottola Grocery and the Fools & Horses counter at Hargrave St. Market, Rudy's Eat & Drink, The Merchant Kitchen, Pho Saigon (Pembina). Chaise is now Chez-Nous.
+- Ledger: about 40 new entries, address fills, closures marked, `pages` arrays reconciled against the refreshed pages.
+- For the owner to check by phone: Saffron's (681 Corydon is listed for lease), Nicolino's (domain for sale), Bailey's (expired certificate), The 44 at Hargrave St. Market, 529 Wellington's capacity.
+- Not fixed: `blog-beat-the-heat-near-corydon-airbnb.html`, `blog-family-friendly-stops-near-corydon.html` and `blog-vegetarian-vegan-eats-corydon.html` have no noscript card or `blogPost` JSON-LD in `blog.html`, and best-breakfast-brunch has no `blogPost` entry.
+
 ## 2026-11-11
 
 **Businesses verified (6, the stalest in the rotation).** No closure, move or

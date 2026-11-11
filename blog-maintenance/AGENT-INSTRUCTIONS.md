@@ -280,7 +280,93 @@ The run should finish in well under an hour of agent time. To keep it there:
      filename to "Swept" with today's date. When "Not yet swept" is empty, skip
      this duty.
 
-## Part 2 — Publish one fresh, guest-relevant post
+## Part 2 — Publish one fresh post, or refresh one that already gets searches
+
+### Search demand: what Google Search Console shows (owner's export, 2026-11-11)
+
+The owner exported query and page impressions from Search Console on
+2026-11-11. Impressions only (no clicks or positions), so this tells us what
+people search for and which pages Google already shows, not which pages
+convert. The pattern is clear enough to steer every run:
+
+- **Demand sits in a few clusters, and the site already has a page for nearly
+  every one.** In rough order: Corydon Avenue restaurants (the single largest
+  cluster, dozens of phrasings, served by `blog-corydon-guide.html`, the
+  site's top page); coffee shops and roasters (`blog-winnipeg-coffee.html`);
+  named events with a year ("santa claus parade 2026", "nuit blanche winnipeg
+  2026", "rainbow stage 2027", "folk fest 2027", "fringe 2027"); event space,
+  private dining and large-group restaurants (`blog-winnipeg-event-venues.html`,
+  `blog-group-dining.html`); "safest neighbourhoods in Winnipeg"
+  (`blog-crescentwood-liveable.html`); pho (`blog-winnipeg-vietnamese-pho-guide.html`);
+  getting around (`blog-transportation.html`); Little Free Libraries;
+  Hargrave St. Market and True North Square; breweries; things to do with kids.
+- **Pages framed around the house get almost nothing.** The
+  `-near-corydon-airbnb` posts and similar proximity pieces sit at single or
+  low double-digit impressions, while the city-wide or Corydon-Avenue page on
+  the same subject gets thousands (the coffee near the Airbnb post: 5; the
+  city-wide coffee guide: over 5,000). Travel stories and hosting posts also
+  draw little search traffic; they stay, but the cron does not add more.
+- **Visitors type questions, and pages that answer them get shown.** "Is
+  Rainbow Stage covered", "how many seats at Rainbow Stage", "what time does
+  Nuit Blanche end", "is Nuit Blanche free", "Santa Claus parade route",
+  "when does winter start in Winnipeg". The Rainbow Stage page, which puts
+  those answers in its title and description, is the model.
+- **Event pages keep drawing searches after the event.** Nuit Blanche 2026 was
+  September 26 and its page is still one of the most-shown on the site, now
+  for a date that has passed.
+
+What this changes, in order of priority:
+
+1. **Refresh before you publish.** Before writing a new post, check
+   `articles-data.js` for a page that already covers the target search. If one
+   exists, refresh that page in place (see "Refresh queue" in
+   `post-ideas.md`) instead of creating a second page that competes with it.
+   Two pages on one query split the impressions and both rank worse.
+2. **Roll event pages over to next year once the event ends** (see "Event
+   rollover" below).
+3. **Every third run is a refresh run.** If neither of the last two "Used"
+   entries in `post-ideas.md` came from the "Refresh queue", take the top
+   entry of the Refresh queue this run instead of the Events queue or the
+   general queue. Event rollovers that are due still come first. If the
+   Refresh queue is empty, skip this rule.
+4. **Lead titles and descriptions with the words people search.** "Event
+   Venues in Winnipeg", "Little Free Library Winnipeg", "Best Pho in
+   Winnipeg", "Corydon Restaurants". Put a year in the title only for a dated
+   event. Answer the commonest questions in the opening paragraph and the meta
+   description, with figures you can source.
+5. **Never change a published slug.** The site is on GitHub Pages, which
+   cannot send 301 redirects, so a new URL starts from zero and the old one
+   404s. Retitle and refresh in place. Do not delete or merge near-duplicate
+   pages either; list them in the run's CHANGELOG entry for the owner to
+   decide.
+6. **Leave `blog-ruskin-row-residents.html` alone.** It draws searches for
+   individual Ruskin Row house addresses. Do not optimise it, add addresses,
+   or connect it to the fact that the home is on that street.
+
+A retitle has to reach every copy of the title and description: `<title>`,
+`meta name="title"`, `description`, `og:` and `twitter:` titles and
+descriptions, the H1, the JSON-LD `headline` and `description`,
+`articles-data.js`, `articles_data.json`, and in `blog.html` both the
+`<noscript>` card (`data-title`, `<h2>`, `<p>`) and the `blogPost` JSON-LD
+entry. Then set `article:modified_time`, `dateModified` and the sitemap
+`<lastmod>` to today, run `update-llms.py`, and grep the repo for the old title
+to confirm nothing is left.
+
+### Event rollover
+
+Within a week after an event whose page has a year in its title (parade,
+festival, season, game), roll the page to the next edition in place: new
+year in the title, H1, description and opening, "usually" or "in past years"
+wording for any date the organiser has not announced, a short line on what
+happened at the edition just past if you can source it, and the usual
+`dateModified`/sitemap/listing updates, and update the event's entry in
+`events-data.js` (Part 2b). Keep the slug. Rollovers that are due
+go to the top of the "Events queue" in `post-ideas.md` and take priority over
+everything else in that queue. Never roll a page over before its event has
+happened: a rollover marked "not before" a date that is still in the future is
+skipped, which is an allowed exception to the Events queue's fixed order, and
+the run takes the next entry. The week before an event is its busiest search
+week, so the page must still describe this year's edition then.
 
 ### Topic breadth — write a Winnipeg guide, not an Airbnb-proximity guide
 
@@ -292,10 +378,17 @@ every run.
 - **Default to a city-wide topic.** Write for someone searching "things to do in
   Winnipeg", "best ramen Winnipeg", "Winnipeg in February", "St. Boniface
   walking tour", not for someone standing on our front step.
-- **At most one post in four may be anchored to Corydon/Crescentwood or the
-  Airbnb's immediate surroundings.** Check the last several entries in
-  "Used" in `post-ideas.md` before choosing; if two of the last four are
-  Corydon-anchored, pick something else.
+- **At most one post in four may be anchored to the Airbnb's immediate
+  surroundings** (framed as "near the house", "within a walk of the Airbnb").
+  Check the last several entries in "Used" in `post-ideas.md` before
+  choosing; if two of the last four are house-anchored, pick something else.
+  Corydon Avenue is different: people search for it by name (Corydon
+  restaurants, patios on Corydon, breakfast on Corydon, gelato on Corydon,
+  bars on Corydon), so a Corydon Avenue topic counts as a city-wide search
+  topic. Those searches already have pages (`blog-corydon-guide.html`,
+  `blog-best-corydon-patios.html`, `blog-best-breakfast-brunch-near-corydon-airbnb.html`,
+  `blog-sweet-tooth-crawl-corydon-desserts.html`), so meet them by refreshing
+  those pages, not by writing new Corydon posts.
 - **Never append `-near-corydon-airbnb` to a slug by default.** Slug and title
   should read like a general Winnipeg guide: `winnipeg-ramen-guide`, not
   `ramen-near-corydon-airbnb`. Use a proximity slug only when proximity is
@@ -314,10 +407,14 @@ every run.
   recent post already owns — check `articles-data.js` for near-duplicate titles
   before writing.
 
-1. Read `blog-maintenance/post-ideas.md`. **If the "Events queue" section has
-   entries, take its first entry** (see "Event posts" below). Otherwise take the
-   first idea under "Queue". The events queue is refilled by Part 2b below, so
-   it is a standing section; never delete it.
+1. Read `blog-maintenance/post-ideas.md` and choose in this order: (a) a
+   due event rollover at the top of the "Events queue"; (b) the top of the
+   "Refresh queue" if this is a refresh run (rule 3 under "Search demand"
+   above); (c) the first entry of the "Events queue" (see "Event posts"
+   below); (d) the first idea under "Queue". For a refresh, follow the
+   retitle checklist under "Search demand" and the "Refresh, do not
+   duplicate" rules under "Event posts"; skip steps 2 and 3 below. The events queue is refilled by
+   Part 2b below, so it is a standing section; never delete it.
 2. Copy the structure of an existing recent post (open any `blog-*.html` such as
    `blog-rainy-day-winnipeg-itinerary.html`) as a template. Keep the same
    `<head>` meta pattern, the React/noscript scaffolding, and the JSON-LD block.
@@ -326,7 +423,12 @@ every run.
    (`article:published_time`, `article:modified_time`, `datePublished`,
    `dateModified`) to today. Write genuinely useful content; keep any specifics
    you cannot verify general rather than inventing them.
-4. Register the post so it appears in the index and sitemap:
+4. Register the post so it appears in the index and sitemap. **On a refresh
+   or rollover, add no new entries anywhere**: update the existing entry's
+   `title` and `description` in `articles-data.js` and
+   `articles_data.json`, the existing `<noscript>` card and `blogPost` entry
+   in `blog.html`, and the existing sitemap `<lastmod>`, then run
+   `update-llms.py`. For a new post:
    - Prepend a new entry to the `ARTICLES_DATA` array in `articles-data.js`
      (match the existing object shape: `url`, `category`, `date`, `title`,
      `image`, `imageAlt`, `description`, `metaHtml`). Use `"category": "winnipeg"`
@@ -550,16 +652,19 @@ Hard rules for the calendar:
 - **Never publish pet-friendly content.** The home does not accept pets — see the
   hard content rule at the top of this playbook. This overrides the post queue,
   an empty queue, and any apparent coverage gap.
-- One new post (or one event-page refresh) per run. Keep total churn small and
-  reviewable.
+- One new post, or one refresh of an existing page, per run. Keep total churn
+  small and reviewable. Refresh a page that already gets searches before you
+  publish a competitor to it, and never change a published slug (see Part 2,
+  "Search demand").
 - While the "Events queue" in `post-ideas.md` has entries, it takes priority
   over the general queue (see Part 2, "Event posts").
 - The events calendar (`events-data.js`, `events.html`) is checked and
   regenerated on every run (Part 2b). Never list an event without a post, and
   never mark a date `confirmed` that the organiser has not published.
 - Write for city-wide Winnipeg searches by default; no more than one post in four
-  may be anchored to Corydon/Crescentwood or the Airbnb's surroundings (see
-  Part 2, "Topic breadth").
+  may be anchored to the Airbnb's surroundings. Corydon Avenue by name is a
+  searched topic, met by refreshing the existing Corydon pages (see Part 2,
+  "Topic breadth").
 - Never fabricate facts. Prefer leaving content unchanged over guessing.
 - Never publish a source list, an access date, or a note about our own
   research on a page. Provenance goes in `blog-maintenance/post-sources.md`

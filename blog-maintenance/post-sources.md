@@ -16,6 +16,81 @@ Newest first.
 
 ---
 
+## Refresh pass, 2026-11-11: twelve pages from the Search Console refresh queue
+
+Manual session. Each page was rechecked business by business and fact by fact,
+retitled where the title missed its searches, and rewritten where the old copy
+was wrong or unsourced. Key sources per page:
+
+### blog-corydon-guide.html
+- globalnews.ca/news/11916140/winnipeg-restaurateurs-car-free-corydon-saturdays/ (2026-06-22): Open Corydon car-free Sundays, Daly to Lilac, July 5 to Sept 6, 10 a.m. to 8 p.m.; Tommy's owner Thomas Schneider.
+- schoolofrock.com/locations/winnipeg/events/open-corydon-august-23-2026 and a Winnipeg Free Press repost (June 2026): Open Corydon run by the Corydon BIZ.
+- colosseo.ca (670 Corydon, since 1973); winnipegsunshine.com (635 Corydon); thecheesemongers.ca (839 Corydon, Tue to Sat 10 to 6); thombargen.com; santaluciapizza.com (the .ca redirects); ccdrinksandfood.com (500 Corydon, second-storey patio).
+- opentable.ca/r/saperavi-winnipeg, opentable.ca/r/saffrons-winnipeg, opentable.com/r/cafe-22-corydon-winnipeg; canadianpizzamag.com/profile-tommys-pizzeria/.
+- Closure: The Mighty Kiwi, 709 Corydon. themightykiwi.ca lists only Selkirk and Leila Ave; Wanderlog marks Corydon permanently closed. Removed here and from beat-the-heat, best-breakfast-brunch, family-friendly-stops and vegetarian-vegan-eats.
+- Open questions: a Chapter Real Estate listing (MLS 202514629) offers a restaurant space at 681 Corydon (Saffron's); Saffron's own site shows no closure. Yelp reports Spin (720 Corydon) closed; not named on the site.
+
+### blog-little-free-libraries.html
+- wpl.winnipeg.ca/library/whatshappening/littlefreelibraries.asp: exists, last updated 2021-05-07, no map of its own; links to littlefreelibrary.org. Steward help (pamphlets, branch donations, Branch Head, sealed pickup).
+- littlefreelibrary.org/map/ and /docs/how-can-i-find-libraries-near-me/: map and app; unregistered boxes not shown. /about/milestones-and-awards/: more than 200,000 in 128 countries; first in 2009, Hudson, Wisconsin, Todd Bol.
+- No reliable dated count of Winnipeg boxes found, so none is given.
+
+### blog-winnipeg-coffee.html
+- thombargen.com; parlourcoffee.ca (hours, roasters stocked; Parlour does not roast); littlesistercoffeemaker.ca; harrisonscoffeeco.com; saintuary.com.
+- exchangedistrict.org 2024-11-13 coffee guide, Más directory entry, 2024-10-15 Sho profile, 2025-02-27 Saintuary profile.
+- hargravestmarket.com/restaurants: Empty Cup at the market, no Fools & Horses counter (Yelp marks the Hargrave listing closed, Mar/Apr 2026). theforks.com: Fools & Horses at The Forks Market.
+- headsupwinnipeg.ca (2026-02-23): Black Pearl roasting since 2000; Café Postal. woodcockcycle.com: Yellow Derny Cafe.
+- Unverified in 2026: Más, Colosimo. Isekai Ramen removed (no source for a coffee program).
+
+### blog-24-hour-winnipeg-budget.html
+- winnipeg.ca transit fares page (2026): $3.10 e-cash, $3.45 cash, $11.45 24-hour pass. D19 Corydon terminal on Kennedy from 2026-06-21 (winnipeg.ca news 2026-04-29).
+- gov.mb.ca/legislature/visiting/tour.html: Sept to Dec tours Fri 11 a.m. and 2 p.m., Mon 2 p.m.; 30-person cap; ID.
+- humanrights.ca/node/3 ($23 adult, free first Sundays); manitobamuseum.ca (First Fridays free 4 to 9; adult $25); WAG free Wednesdays 5 to 9 (CTV, wpgforfree.ca) and second Sundays (wag.ca).
+- assiniboinepark.ca/park/gardens (Leo Mol garden 9 to dusk, gallery closed in winter). api.sunrise-sunset.org for mid-November daylight.
+- Removed as wrong: Stella's Osborne, the Esplanade Riel restaurant (closed 2020), evening coffee at Parlour, The Common as a food court.
+
+### blog-group-dining.html
+- Own private-dining pages: hyssteakhouse.com (One Lombard Place), smithrestaurant.ca, cheznouswpg.ca (chaisecafe.com redirects here), fusiongrill.mb.ca, thegatesonroblin.com, raeandjerrys.com, kingshead.ca, saddleryonmarket.com, clayoven.ca, oldspaghettifactory.ca, gustonorth.com, pizzeriagusto.com, restogare.com, assiniboinepark.ca/park-cafe, peasantcookery.ca, cibowaterfrontcafe.com, wasabiwpg.com (now Sabi on Taylor). lakeviewhotels.com: Ichiban "over 50 years".
+- 529 Wellington "8 to 36" and no elevator: OpenTable snippet only.
+- Closures: Rudy's Eat & Drink (CP24, 2026-08-26); The Merchant Kitchen (Restaurant Guru, domains dead). Prairie's Edge removed (domain now unrelated). Nicolino's: domain for sale, needs a phone check. Bailey's: expired TLS certificate.
+
+### blog-winnipeg-event-venues.html
+- Capacities from each venue's own page: redriverex.com/plan-your-event (2,500 seated), centennialconcerthall.com event spaces, canadinns.com The Met, humanrights.ca facility rentals, Manitoba Museum rate card (May 2026 PDF), canadalifecentre.ca private events (non-event days, no capacity), wcc.mb.ca (square footage only), umanitoba.ca event planning, cmu.ca rental rates, bluebombers.com, asdowns.com, ccfm.mb.ca, assiniboinepark.ca/host, kitchen-sync.ca, torquebrewing.beer, Nonsuch events, littlebrownjug.ca, capitalkdistillery.com, fortgibraltar.com, corydoncc.com, pineridgehollow.com, niakwacountryclub.ca, ethicaldeathcare.com, stbonifacegolfclub.com, transconacountryclub.com, parks.canada.ca (Lower Fort Garry), fortwhyte.org, oakhammockmarsh.ca, royalaviationmuseum.com.
+- The Pinnacle Club and Assiniboia Downs figures came from search snippets of their official pages.
+
+### blog-crescentwood-liveable.html
+- areavibes.com/winnipeg-mb/safest-neighborhoods (Crescentwood 10th, 3,471 per 100k, -43%); areavibes.com/winnipeg-mb/crime (2020 data, city 6,088 per 100k).
+- saveonhouse.com 2025 neighbourhood counts (Winnipeg Police Service data, raw counts).
+- Statistics Canada Daily 2026-07-22, table t004a: 2025 CSI Winnipeg 113.4, Canada 75.0, 5th of 41.
+- winnipeg.ca police news release 2026-05-27 (2025 statistical report): severity -8.8%, violent -11.2%, homicides -48.8%.
+- The old "#1 safest" framing, 92/100 score and the cost-of-living comparisons were removed as wrong or unsourced. The old dangerous-neighbourhood list was dropped (no data year).
+
+### blog-transportation.html
+- winnipeg.ca transit fares; news 2025-10-02 (90-minute transfers from 2025-10-06); new network launch page (frequency tiers, On-Request); park-ride page (lots, stalls, hours; McPhillips discontinued).
+- theforks.com/blog/463 (route names). winnipegtrolley.ca/city-tour (prices, May to October season; guided loop, not hop-on hop-off). uber.com/global/en/cities/winnipeg (sample fares).
+- ywg.ca returned 403; airport taxi and rental details kept from the airport arrival guide.
+
+### blog-winnipeg-vietnamese-pho-guide.html
+- phohoang.com and /contact (four branches and hours; Portage branch is 235 Portage, downtown). thdangrestaurant.ca (1425 Pembina, closed Tuesday).
+- Yelp: Pho Kim Tuong (closed Wednesday), Vi-Ann 1020 Notre Dame (hours conflict). findglocal.com: Pho Binh Minh. Facebook: Pho Saigon, 2696 Pembina, permanently closed.
+- There is no current Pembina pho cluster; T.H. Dang is the one confirmed open.
+
+### blog-hargrave-st-market.html
+- hargravestmarket.com/restaurants and /visit: seven vendors, hours (Mon to Fri 7:30 a.m. to 10 p.m., Sat 9 a.m. to 11 p.m., Sunday closed except the Lake of the Woods taproom).
+- Closures: Miss Browns (Yelp, DoorDash inactive), Mottola Grocery (closed July 2025; /grocery 404), Fools & Horses counter.
+- en.wikipedia.org/wiki/True_North_Square (opened 2019-12-13; plaza, rink, Hawerchuk statue).
+- Open question: The 44 sandwich counter (the44wpg.ca still lists hours; not on the operator's list).
+
+### blog-winnipeg-breweries.html
+- Each brewery's own site: halfpintsbrewing.com, torquebrewing.beer, barnhammerbrewing.ca, brazenbrewing.ca, goodneighbourbrewing.com, fortgarry.com, lowbrewco.com/winnipeg-taproom (221 Carlton, two floors), sookrams.com, nonsuch.beer, littlebrownjug.ca, devilmaycarebrewing.com, theforks.com/eat-and-drink/the-common, thebeercanwpg.com ("See you in 2027").
+- FullGeek BrewLab removed (no taproom; a 2022 contract brand).
+
+### blog-family-activities.html
+- assiniboinepark.ca/zoo (November hours, prices; Zoo Lights Nov 20 to Jan 3); childrensmuseum.com (Vignettes from Nov 14); manitobamuseum.ca (First Friday Dec 4); royalaviationmuseum.com; humanrights.ca/visit; fortwhyte.org (free 60th-anniversary day Nov 29); heho.ca (Festival du Voyageur Feb 12 to 21, 2027); winnipeg.ca news 2026-05-25 and 2026-08-20 (spray pad and pool seasons).
+- Fun Mountain removed (site now unrelated; no 2026 season found). The Rec Room unverified.
+
+---
+
 ## blog-don-amero-little-christmas-winnipeg.html (published 2026-11-11)
 
 Checked 2026-11-11. burtoncummingstheatre.ca and indigenousmusic.ca could not be
