@@ -693,7 +693,7 @@
                 },
                 {
                     title: "Guest favourite",
-                    description: "Rated 4.88 out of 5, is a Superhost, and is a Guest favourite. Category ratings: Cleanliness 4.9, Accuracy 4.9, Check-in 5.0, Communication 5.0, Location 5.0, and Value 4.9."
+                    description: "Rated 4.89 out of 5, is a Superhost, and is a Guest favourite. Category ratings: Cleanliness 4.9, Accuracy 4.9, Check-in 5.0, Communication 5.0, Location 5.0, and Value 4.9."
                 },
                 {
                     title: "Top 10% of eligible listings",
@@ -748,7 +748,7 @@
                     }
 
                     if (!listingData) {
-                        return { reviews: [], ratingValue: '4.88', reviewCount: '0' };
+                        return { reviews: [], ratingValue: '4.89', reviewCount: '0' };
                     }
 
                     const mappedReviews = listingData.review.map((review, index) => {
@@ -769,18 +769,18 @@
 
                     return {
                         reviews: mappedReviews,
-                        ratingValue: String(listingData.aggregateRating?.ratingValue || '4.88'),
+                        ratingValue: String(listingData.aggregateRating?.ratingValue || '4.89'),
                         reviewCount: String(listingData.aggregateRating?.reviewCount || mappedReviews.length)
                     };
                 } catch (error) {
                     console.error('Unable to parse JSON-LD reviews:', error);
-                    return { reviews: [], ratingValue: '4.88', reviewCount: '0' };
+                    return { reviews: [], ratingValue: '4.89', reviewCount: '0' };
                 }
             };
 
             const listingJsonLdData = getListingJsonLdData();
             const reviews = listingJsonLdData.reviews;
-            const listingRatingValue = listingJsonLdData.ratingValue || '4.88';
+            const listingRatingValue = listingJsonLdData.ratingValue || '4.89';
             const listingReviewCount = listingJsonLdData.reviewCount || String(reviews.length);
 
             const REVIEW_SLIDER_LIMIT = 30;
