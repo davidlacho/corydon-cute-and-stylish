@@ -19,7 +19,7 @@ recent entries to avoid repeating work.
 - Closures found and removed: The Mighty Kiwi (from the Corydon guide; the 2026-10-17 run had already removed it from four other pages), Miss Browns, Mottola Grocery and the Fools & Horses counter at Hargrave St. Market, Rudy's Eat & Drink, The Merchant Kitchen, Pho Saigon (Pembina). Chaise is now Chez-Nous.
 - Ledger: about 40 new entries, address fills, closures marked, `pages` arrays reconciled against the refreshed pages.
 - For the owner to check by phone: Saffron's (681 Corydon is listed for lease), Nicolino's (domain for sale), Bailey's (expired certificate), The 44 at Hargrave St. Market, 529 Wellington's capacity.
-- Not fixed: `blog-beat-the-heat-near-corydon-airbnb.html`, `blog-family-friendly-stops-near-corydon.html` and `blog-vegetarian-vegan-eats-corydon.html` have no noscript card or `blogPost` JSON-LD in `blog.html`, and best-breakfast-brunch has no `blogPost` entry.
+- Fixed later the same day: 53 posts in `articles-data.js` (all Winnipeg guides, mostly the Corydon series from July to September 2026) had no noscript card and no `blogPost` JSON-LD entry in `blog.html`, including beat-the-heat, family-friendly-stops, vegetarian-vegan-eats and best-breakfast-brunch. All 53 were added in date order; both lists now match the 184 posts in `articles-data.js`.
 
 ## 2026-11-11
 
