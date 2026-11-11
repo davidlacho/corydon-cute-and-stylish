@@ -400,6 +400,136 @@
     "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 22, 2026</span>"
   },
   {
+    "url": "/blog-winnipeg-st-vital-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-21",
+    "title": "Winnipeg's St. Vital: A Neighbourhood Guide",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-15-harth-mozza-wine-bar.jpg",
+    "imageAlt": "Wine bottles and glassware on the bar at Harth Mozza and Wine Bar in St. Vital, Winnipeg",
+    "description": "A guide to Winnipeg's St. Vital: Riel House National Historic Site, St. Vital Centre and St. Vital Park, and a St Anne's Road wine bar worth the drive.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 21, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-osborne-village-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-20",
+    "title": "Winnipeg's Osborne Village: A Neighbourhood Guide",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-26-buvette.jpg",
+    "imageAlt": "Buvette, a small brunch cafe on Scott Street in Winnipeg's Osborne Village",
+    "description": "A guide to Winnipeg's Osborne Village: its density, the Gas Station Arts Centre, and where to get coffee, brunch, and vintage vinyl.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 20, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-chinatown-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-19",
+    "title": "Winnipeg's Chinatown: what's there and what to eat",
+    "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
+    "imageAlt": "The dining room of a Winnipeg restaurant",
+    "description": "A guide to Winnipeg's Chinatown on King Street: the Chinatown Arch, the Chinese Heritage Garden, the Dynasty Building, and where to get dim sum nearby.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 19, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-middle-eastern-food-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-18",
+    "title": "Winnipeg's Middle Eastern food scene: shawarma, falafel, and manakeesh",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-11-falafel-place.jpg",
+    "imageAlt": "Dining room interior at The Falafel Place on Corydon Avenue, Winnipeg",
+    "description": "Where to eat Middle Eastern food in Winnipeg: Palestinian cafes in St. James and Pembina, a Lebanese-style shawarma spot, and a longtime falafel counter on Corydon.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 18, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-grocery-shopping-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-17",
+    "title": "Grocery shopping in Winnipeg: a visitor's guide",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-48-foodfare-stores.jpg",
+    "imageAlt": "Food Fare grocery storefront on Vilac Street in Winnipeg",
+    "description": "Where to buy groceries in Winnipeg if you're staying somewhere with a kitchen: the big chains, a Winnipeg-owned corner grocer, and an Italian specialty shop.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 17, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-wine-bars-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-16",
+    "title": "Winnipeg's wine bars and wine shops: where to drink and buy",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-15-harth-mozza-wine-bar.jpg",
+    "imageAlt": "Wine bottles and glassware on the bar at Harth Mozza and Wine Bar in St. Vital, Winnipeg",
+    "description": "A guide to drinking and buying wine in Winnipeg: an Italian wine bar in St. Vital, a natural-wine shop at The Forks, and a Spanish tapas bar in the Exchange District.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 16, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-bookstores-record-shops.html",
+    "category": "winnipeg",
+    "date": "2026-09-15",
+    "title": "Independent Bookstores and Record Shops in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-46-exchange-district.jpg",
+    "imageAlt": "A heritage warehouse storefront with a bronze horse statue in Winnipeg's Exchange District",
+    "description": "Where to browse in Winnipeg: independent bookstores like McNally Robinson and Bison Books, and record shops in the Exchange District and West End.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 15, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-indian-south-asian-food.html",
+    "category": "winnipeg",
+    "date": "2026-09-14",
+    "title": "Winnipeg's Indian and South Asian food scene: curry, biryani, and beyond",
+    "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
+    "imageAlt": "The dining room of a Winnipeg restaurant",
+    "description": "A guide to Indian, Punjabi, and Sri Lankan restaurants in Winnipeg, from a downtown pub with roots in a 1970s McDermot Avenue delicatessen to Transcona's Punjabi kitchens.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 14, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-live-music-venues.html",
+    "category": "winnipeg",
+    "date": "2026-09-13",
+    "title": "Where to See Live Music in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-16-the-beer-can.jpg",
+    "imageAlt": "Picnic tables at The Beer Can, an outdoor beer garden and live-music venue in downtown Winnipeg",
+    "description": "A guide to Winnipeg's live music venues, from the historic Burton Cummings Theatre to neighbourhood clubs and a riverside summer beer garden.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 13, 2026</span>"
+  },
+  {
+    "url": "/blog-royal-aviation-museum-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-12",
+    "title": "The Royal Aviation Museum of Western Canada: A Visitor's Guide",
+    "image": "https://staywinnipeg.ca/images/airport-terminal.jpg",
+    "imageAlt": "A view of an airplane wing above the clouds during descent",
+    "description": "A visitor's guide to the Royal Aviation Museum of Western Canada in Winnipeg: the aircraft collection, how long to allow, admission, and getting there.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 12, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-seasons-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-11",
+    "title": "Winnipeg's Seasons: A Visitor's Weather Guide",
+    "image": "https://staywinnipeg.ca/images/assiniboine-park.jpg",
+    "imageAlt": "A garden pergola in Assiniboine Park during Winnipeg's warm summer season",
+    "description": "What Winnipeg's four seasons actually feel like, from deep winter cold to short spring thaws and warm prairie summers, and how to pack for each one.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 11, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-west-end-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-10",
+    "title": "Winnipeg's West End: A Neighbourhood Guide",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-28-feast-cafe-bistro.jpg",
+    "imageAlt": "The curved wood bar and dining tables inside Feast Café Bistro, an Indigenous-owned restaurant on Ellice Avenue in Winnipeg's West End",
+    "description": "A guide to Winnipeg's West End: the West End Cultural Centre's live-music history, Sherbrook Pool's Art Deco design, and Ellice Avenue's Indigenous-owned food scene.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 10, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-thrift-vintage-shopping.html",
+    "category": "winnipeg",
+    "date": "2026-09-09",
+    "title": "Thrift, Vintage, and Secondhand Shopping in Winnipeg",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-46-exchange-district.jpg",
+    "imageAlt": "A heritage warehouse storefront with a bronze horse statue in Winnipeg's Exchange District",
+    "description": "Where to find Winnipeg's best thrift, vintage, and consignment shopping, from Exchange District vintage warehouses to Osborne Village record stores.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 9, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-fringe-festival-guide.html",
     "category": "winnipeg",
     "date": "2026-09-08",
@@ -408,6 +538,26 @@
     "imageAlt": "A vintage Pepsi-Cola mural painted on a heritage building in Winnipeg's Exchange District",
     "description": "The 2027 Winnipeg Fringe Theatre Festival runs July 14 to 25 in the Exchange District. How the show lottery works, what tickets cost and where to stay.",
     "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>Updated October 22, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-filipino-food-guide.html",
+    "category": "winnipeg",
+    "date": "2026-09-07",
+    "title": "Winnipeg's Filipino food scene: lumpia, lechon, and silog breakfasts",
+    "image": "https://staywinnipeg.ca/images/restaurant-dining.jpg",
+    "imageAlt": "The dining room of a Winnipeg restaurant",
+    "description": "A guide to Filipino food in Winnipeg, home to Canada's largest per-capita Filipino community, from a West End restaurant named after a cooking pot to St. James fried chicken.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>4 min read</span>\n                                <span>September 7, 2026</span>"
+  },
+  {
+    "url": "/blog-winnipeg-craft-distilleries.html",
+    "category": "winnipeg",
+    "date": "2026-09-06",
+    "title": "Winnipeg's craft distilleries: a guide to the city's gin, vodka, and whisky",
+    "image": "https://staywinnipeg.ca/images/guidebook-winnipeg-29-patent-5-distillery.jpg",
+    "imageAlt": "A bottle of Patent 5 gin with cocktail ingredients on a table inside the distillery's tasting room",
+    "description": "A guide to Winnipeg's craft distilleries, from a 1903 heritage building in the Exchange District making whisky again after 139 years to a family-run gin and vodka producer in St. James.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>September 6, 2026</span>"
   },
   {
     "url": "/blog-rwb-nutcracker-winnipeg.html",

@@ -523,6 +523,14 @@ After creating a new blog post, you MUST:
      Other sections of `llms.txt` (property facts, review counts, keywords) are still
      edited by hand.
 
+8. ✅ Run the listing check
+   - Run `python3 blog-maintenance/check-blog-listing.py` from the repo root. It
+     confirms that every post in `articles-data.js` also appears in
+     `articles_data.json`, the `blog.html` noscript grid, the `blog.html` `blogPost`
+     JSON-LD and `sitemap.xml`, with the same title and description everywhere.
+   - It must print `OK` before you commit. Run it after retitling or refreshing a
+     post as well, since those change the same copies.
+
 ## Events Calendar (events.html)
 
 `events.html` is the Events tab: a calendar of what is on in Winnipeg with day, week
@@ -570,7 +578,7 @@ calendar if its post exists**.
 
 Add this to the post-creation checklist and to every event-page refresh:
 
-8. ✅ Add or update the event in `events-data.js` (one entry per dated event the
+9. ✅ Add or update the event in `events-data.js` (one entry per dated event the
    post covers, `url` pointing at the post), run
    `python3 blog-maintenance/update-events.py`, and bump the `events.html`
    `<lastmod>` in `sitemap.xml` to today. If the organiser has only a usual

@@ -464,6 +464,14 @@ every run.
      in `articles-data.js`, so the file must be regenerated then too). Never edit
      the post lists in `llms.txt` by hand; they were 56 posts behind by
      2026-09-21 because they were.
+   - **Run the listing check** on every run that adds, retitles or refreshes
+     a post: `python3 blog-maintenance/check-blog-listing.py`. It fails if any
+     post in `articles-data.js` is missing from `articles_data.json`, the
+     `blog.html` noscript grid, the `blogPost` JSON-LD or `sitemap.xml`, or if
+     a copy's title or description differs from `articles-data.js`. Fix every
+     line it prints, then run it again until it prints `OK`. By 2026-11-11, 53
+     posts the daily run had published were missing from `blog.html` because
+     this step was done by eye.
 5. Move the used idea from "Queue" to "Used" in `post-ideas.md` with today's date,
    the slug, the title, and the form you chose (`(form: walk)` etc., see
    "Writing" above). If the queue is empty, invent a comparable
@@ -614,6 +622,8 @@ Hard rules for the calendar:
    git fetch origin main
    git rebase origin/main
    ```
+   Then run `python3 blog-maintenance/check-blog-listing.py` once more. Do
+   not commit or push while it prints `FAIL`; fix the listed copies first.
    This run's playbook changes (business ledger, CHANGELOG, post-ideas.md,
    the new post, articles-data.js, etc.) should already be committed as local
    commits on top of `main` by this point; if they aren't yet, commit them now
