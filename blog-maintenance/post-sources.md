@@ -16,6 +16,63 @@ Newest first.
 
 ---
 
+## blog-don-amero-little-christmas-winnipeg.html (published 2026-11-11)
+
+Checked 2026-11-11. burtoncummingstheatre.ca and indigenousmusic.ca could not be
+fetched from the sandbox (DNS refused by the network policy), so the Winnipeg
+details come from search-result summaries of several independent listings that
+agree with each other, and the Winkler details come from the Winkler hall's own
+event page as summarised in search results.
+
+- **Winnipeg date, time, venue:** Friday, December 4, 2026 at 7 p.m. at the Burton
+  Cummings Theatre, 364 Smith St, carried by Ticketmaster's venue listing and by
+  the local announcement that True North Sports and Entertainment is bringing the
+  show back this holiday season. A QX104 post gives a presale on Thursday,
+  October 1 and general on-sale Friday, October 2, 2026; the same post calls
+  December 4 a Tuesday, which it is not, so only its sale dates were used.
+- **Start-time conflict:** Live Nation's venue page carries 8 p.m. for this date
+  against 7 p.m. everywhere else, so the post states 7 p.m. and tells the reader
+  the time on the ticket governs. Re-check against the theatre if the page is
+  reachable on a later run.
+- **Winkler second night:** winklerconcerthall.ca's own Amero Little Christmas
+  2026 page gives Saturday, December 5, 2026 at 7:00 p.m. at the P.W. Enns
+  Centennial Concert Hall, 783 Mountain Ave, Winkler, tickets $30. A Manitoba
+  Music roundup places an Amero Winkler stop on December 13; that article is from
+  last season and was ignored. The $30 is the only price published on the page.
+- **No Winnipeg price was published.** The figures a search returns for the Burt
+  date are resale marketplace asks, some quoted in US dollars.
+- **Show format:** described in the Winkler listing and the Winnipeg listings as a
+  family-friendly variety show of music, stories and humour, with original songs,
+  video, and guest appearances. No guest is named in any 2026 listing, so none is
+  named on the page.
+- **Don Amero:** Winnipeg singer-songwriter of Cree and Métis heritage, country and
+  folk. JUNO nominations confirmed on junoawards.ca nomination pages: 2013
+  Aboriginal Album of the Year (Heart on My Sleeve) and 2016 in both Aboriginal
+  Album of the Year and Adult Contemporary Album of the Year (Refined); several
+  profiles describe him as a three-time nominee, consistent with those. 2022 CCMA
+  nomination for the EP Nothing Is Meaningless, Canadian Folk Music Award for
+  Aboriginal Songwriter of the Year, and the hardwood-flooring start, all from his
+  Wikipedia entry and artist profiles. Date of birth and label were not used.
+- **Venue practicalities reused, not re-sourced:** the 1906 Walker Theatre and its
+  historic designation, the accessible main floor, the stair-only balcony with no
+  lift, wheelchair seating in Loges 1 and 2 arranged by phone, children two and
+  over needing a ticket, the lots beside and across from the theatre plus metered
+  street parking, the cashless box office taking Visa, Mastercard, Amex and debit,
+  photo ID matching the name on tickets at pickup, and transit routes F5, F8, D12
+  and D13 with D19 Corydon finishing on Kennedy Street just south of Portage. These
+  come from the 2026-11-06 JP Hoe and 2026-11-09 Choir! Choir! Choir! runs.
+- **Distances:** only the playbook's verified Canada Life Centre figure (10 minutes,
+  3.9 km) appears. No drive time to Winkler and no walk time between downtown
+  blocks is stated, since neither was checked this run.
+- **Daylight:** early-December sunset in Winnipeg is written as "down by about half
+  past four", consistent with the December 11 earliest sunset of 4:29 p.m. sourced
+  on the 2026-11-10 run.
+- **Correction made while writing:** a draft sentence put Sesame Street Live at
+  Canada Life Centre. Our own blog-elmo-got-the-moves-winnipeg.html and the events
+  calendar both give the Burton Cummings Theatre, and the sentence was rewritten.
+
+---
+
 ## blog-vinterfest-market-winnipeg.html (published 2026-11-10)
 
 Checked 2026-11-10. The Manitoba Craft Council's own site (manitobacraftcouncil.ca)

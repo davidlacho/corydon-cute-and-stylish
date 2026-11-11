@@ -7,6 +7,89 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-11
+
+**Businesses verified (6, the stalest in the rotation).** No closure, move or
+rename was found that was not already reflected on the site, so no page was
+corrected. All six were sitting on 2026-10-15 or 2026-10-16 and are now dated
+today.
+
+- **The Keg** (`blog-winnipeg-steakhouses-bbq.html`): status unchanged at `moved`,
+  and the page is still accurate. CTV's reporting stands: the Garry Street room in
+  the former Hudson's Bay garage closed with a last day of July 29, and the chain
+  said it is relocating to 185 Donald Street. Nothing found this run announces an
+  opening date for the Donald Street location, so the page's advice to book the
+  Southside room at 2034 McGillivray Boulevard or St. James in the meantime is
+  left as it is. A Wikipedia mirror dated March 2026 still describes Garry Street
+  as operating; it is out of date and was ignored.
+- **Tim Hortons, 949 Corydon Ave** (4 pages): open. A directory listing carries the
+  949 Corydon address with 5 a.m. to 11 p.m. Monday to Saturday. Our pages name it
+  without hours, so nothing changed.
+- **Passero Restaurant, 774 Corydon Ave** (4 pages): open. A current listing gives
+  the Corydon address with 11 a.m. to 10 p.m. on the first days of the week, and
+  other listings confirm the move from the Forks Market to Corydon. TableAgent is
+  still on the old Forks Market address, 147-1 Forks Market Rd, which is stale.
+- **Forgotten Flavours, 858 Corydon Ave** (4 pages): open. The bakery's own
+  locations page lists the Winnipeg shop at 858 Corydon Ave, Tuesday to Saturday,
+  11 a.m. to 6 p.m., and a January 2026 news piece describes the business as
+  running two locations, Niverville and Winnipeg. One directory shows 858 Corydon
+  as The Pennyloaf Bakery; that is an older listing for the same address and is
+  contradicted by the company's own site, so it was not acted on. Worth watching:
+  the Corydon site is a sales point rather than a bakery, with production in
+  Niverville.
+- **Colosseo Ristorante Italiano, 670 Corydon Ave** (3 pages): open. The
+  restaurant's own pages and a directory agree on Tuesday to Friday 11 a.m. to
+  10 p.m., Saturday from 2 p.m., Sunday from 3 p.m., closed Monday. One listing
+  differs on Thursday's closing hour, so no hours were added to our pages.
+- **Peking Chinese Restaurant, 840 Corydon Ave** (`blog-corydon-guide.html`):
+  treated as open, on the weakest evidence of the six. Aggregator listings carry
+  the 840 Corydon address with evening-only hours and nothing reports a closure,
+  but one page shows a contradictory open/closed label and a 2023 review mentions
+  a change of ownership. Our page names it in a list without hours, so nothing was
+  changed; it is worth a second look next rotation.
+
+**Ledger backfill sweep.** `blog-rainy-day-winnipeg-itinerary.html` was swept. It
+names two commercial businesses, The Forks Market and Hargrave St. Market, both
+already in the ledger; the filename was appended to the `pages` list of each. The
+Canadian Museum for Human Rights and Qaumajuq are institutions and take no entry.
+Next up: `blog-renting-a-bike-near-corydon-airbnb.html`.
+
+**New post.** `blog-don-amero-little-christmas-winnipeg.html`, "Amero Little
+Christmas 2026: December 4 in Winnipeg", taken from the top of the Events queue
+and written as a **comparison**: the Friday night at the Burton Cummings Theatre
+set against the Saturday night in Winkler. The Winnipeg date was confirmed at
+Friday, December 4, 2026, 7 p.m., 364 Smith St, announced by True North Sports and
+Entertainment, with a presale October 1 and general sale October 2. One national
+listing carries 8 p.m., so the page states 7 p.m. and tells the reader the ticket
+governs. The Winkler night was confirmed on the hall's own page: Saturday,
+December 5, 7 p.m., P.W. Enns Centennial Concert Hall, 783 Mountain Ave, $30,
+which is the only published price of the two nights; no Winnipeg face value is
+published on the page because the figures in reach were resale asks. Registered in
+`articles-data.js`, `articles_data.json`, the `blog.html` noscript grid and
+JSON-LD, `sitemap.xml`, and `llms.txt` (regenerated, 184 posts). Sources in
+`post-sources.md`. No new ledger entries: the post names no restaurant, cafe or
+shop, and theatres are not ledger businesses. One error was caught in drafting:
+Sesame Street Live plays the Burt, not Canada Life Centre, and the paragraph was
+corrected against our own Elmo post.
+
+**Events calendar.** Added "Amero Little Christmas", December 4, 2026, 7 p.m.,
+Burton Cummings Theatre, `confirmed`, pointing at the new post, and regenerated
+`events.html` (59 upcoming entries, 36 confirmed in the JSON-LD). The two stale
+entries were left in place deliberately: the NHL Heritage Classic ended
+2026-10-25, is a one-off, and comes out once it is more than 30 days past (after
+2026-11-24), and the Crafted Show and Sale ended 2026-11-08, three days ago, with
+no 2027 edition announced and no usual window stated in
+`blog-winnipeg-holiday-markets.html` to move it to. The two typical entries
+starting inside 60 days were both checked and both stay typical: nothing found
+publishes 2026-27 dates for the Canad Inns Winter Wonderland drive-through (only
+last season's November 28 to January 3 window) or for the Arctic Glacier Winter
+Park season at The Forks. Queue refill found nothing new worth a post in the two-
+to-eight-week window that is not already queued or covered; the one find was a
+conflicting December 31 listing for the already-queued Trooper date, which was
+noted on that queue entry. The events queue still holds three entries.
+
+---
+
 ## 2026-11-10
 
 **Businesses verified (6, the stalest in the rotation).** No closure, move or

@@ -86,6 +86,15 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
+    "title": "Amero Little Christmas",
+    "url": "/blog-don-amero-little-christmas-winnipeg.html",
+    "start": "2026-12-04",
+    "end": "2026-12-04",
+    "time": "7 p.m.",
+    "venue": "Burton Cummings Theatre, 364 Smith St",
+    "status": "confirmed"
+  },
+  {
     "title": "Sesame Street Live: Elmo's Got the Moves",
     "url": "/blog-elmo-got-the-moves-winnipeg.html",
     "start": "2026-12-05",

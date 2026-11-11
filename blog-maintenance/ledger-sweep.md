@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-rainy-day-winnipeg-itinerary.html
 - blog-renting-a-bike-near-corydon-airbnb.html
 - blog-river-walks.html
 - blog-royal-aviation-museum-guide.html
@@ -108,6 +107,7 @@ last because they are partly covered.
 
 ## Swept
 
+- blog-rainy-day-winnipeg-itinerary.html (2026-11-11, two commercial businesses named, both already in the ledger: The Forks Market and Hargrave St. Market, and this filename was appended to the pages list of each. The Canadian Museum for Human Rights and Qaumajuq are institutions, so neither takes a ledger entry.)
 - blog-rainy-afternoon-on-corydon.html (2026-11-10, five businesses named, all already in the ledger: The Cheesemongers Fromagerie, Bar Italia, Passero Restaurant, Thom Bargen Coffee Roasters and Sugar + Salt Bakeshoppe; this filename was appended to each of their pages lists)
 - blog-rainbow-stage.html (2026-11-09, no commercial business named; Rainbow Stage is a not-for-profit theatre in Kildonan Park and Winnipeg Jewish Theatre is a company, both institutions, and the post names no restaurant, cafe, bar or shop)
 - blog-qaumajuq-wag-guide.html (2026-11-08, no commercial business named; it covers Qaumajuq and the Winnipeg Art Gallery, both institutions, and points onward to The Forks and the Exchange District as areas)
