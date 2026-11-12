@@ -113,6 +113,27 @@ unchanged, to "Nuit Blanche Winnipeg 2027: September 25, Free All Night".
   for January 30, 2027. Everything inside the two-to-eight-week window already has
   a post and a calendar entry.
 
+**pa11y (WCAG2AA).** Four pages checked, all four clean, zero errors:
+`blog-nuit-blanche-winnipeg.html`, `blog-canad-inns-winter-wonderland.html`,
+`blog.html` and `events.html`. The sandbox's network policy refuses
+`staywinnipeg.ca` (403 at the CONNECT stage), so the checks ran against the
+built files over a local static server rather than the live URLs. Same markup,
+and it tests this run's changes rather than yesterday's deploy, but it does mean
+no run can currently confirm the deployed page itself from in here. Adding
+`staywinnipeg.ca` under Allowed domains in the environment's network settings
+would fix that for every future run.
+
+**Deploy.** Pushed to `main` as `e9ad12f`; the GitHub Pages
+`pages-build-deployment` run completed with conclusion `success` for that commit.
+
+**Stale branches (cannot be deleted from the sandbox).** The proxy refuses remote
+ref deletes, so these ten remain for the owner to remove in the GitHub UI. Every
+file each one added already exists on `main`, so none holds work `main` lacks:
+`claude/dazzling-mayer-08lb50`, `claude/dazzling-mayer-j4njmk`,
+`claude/dazzling-mayer-rbrilo`, `claude/dazzling-mayer-tjgzt4`,
+`claude/events-calendar`, `main-42tnc4`, `main-93eu68`, `main-t3tkyj`,
+`main-u6mm7q`, `main-wnplpp`.
+
 ## 2026-11-11 (manual session, not the cron)
 
 - Reviews: added Matthew, Byron and Derek (all 5 stars); total 125, 5-star 115, rating 4.89 site-wide (also rebuilt `app.js` for the fallback rating).
