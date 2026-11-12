@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-renting-a-bike-near-corydon-airbnb.html
 - blog-river-walks.html
 - blog-royal-aviation-museum-guide.html
 - blog-ruskin-row-residents.html
@@ -107,6 +106,7 @@ last because they are partly covered.
 
 ## Swept
 
+- blog-renting-a-bike-near-corydon-airbnb.html (2026-11-12, one commercial business named that the ledger lacked: Plain Bicycle, the non-profit bike shop whose main store trades as Bicycle Garden at 267 Sherbrook St, added with its three pages. The Forks Market, which houses its seasonal rental kiosk, and Winnipeg Transit were already covered or are not commercial.)
 - blog-rainy-day-winnipeg-itinerary.html (2026-11-11, two commercial businesses named, both already in the ledger: The Forks Market and Hargrave St. Market, and this filename was appended to the pages list of each. The Canadian Museum for Human Rights and Qaumajuq are institutions, so neither takes a ledger entry.)
 - blog-rainy-afternoon-on-corydon.html (2026-11-10, five businesses named, all already in the ledger: The Cheesemongers Fromagerie, Bar Italia, Passero Restaurant, Thom Bargen Coffee Roasters and Sugar + Salt Bakeshoppe; this filename was appended to each of their pages lists)
 - blog-rainbow-stage.html (2026-11-09, no commercial business named; Rainbow Stage is a not-for-profit theatre in Kildonan Park and Winnipeg Jewish Theatre is a company, both institutions, and the post names no restaurant, cafe, bar or shop)

@@ -16,6 +16,61 @@ Newest first.
 
 ---
 
+## blog-nuit-blanche-winnipeg.html, refreshed 2026-11-12 (rollover to 2027)
+
+- **Date.** nuitblanchewinnipeg.ca's homepage states that Nuit Blanche Winnipeg
+  2027 will take place September 25th. Its About page describes the event as
+  held annually on the last Saturday of September, and September 25, 2027 is
+  that Saturday. Treated as confirmed on the organiser's own publication.
+- **Hours.** Not published for 2027 by the organiser as of this run. 6pm to
+  midnight is what it has published in past years, including 2026, and the post
+  says so rather than presenting it as the 2027 schedule. One third-party
+  calendar carries 6 p.m. to midnight for 2027 but flags it as a typical time,
+  so it was not relied on.
+- **2026 edition.** The Manitoban's review (September 2026) reports 87 events in
+  the festival guide, heavy rain through the evening with foot traffic holding
+  up, and IMABOX in Old Market Square, lit inflatable figures by the
+  Winnipeg-based Kurdish artist Bistyek, as the standout; the same review notes
+  Arthur Street leaning to vendors and DJs over visual art. The organiser's
+  About page gives over 100 events and about 40,000 attendees for 2025, which is
+  the most recent figure it publishes; no 2026 attendance count was found.
+- **Illuminate the Night.** Four funded projects at $2,500 each for 2026, from
+  the organiser's own stream description. Stated as a 2026 figure.
+- **Shuttle, water bus, bike valet.** The 2026 listing describes a free Winnipeg
+  Transit shuttle linking the four zones. A past Forks guide records a free
+  Winnipeg Waterways water bus running 9 p.m. to midnight with stops at The
+  Forks, St. Boniface cathedral, Stephen Juba Park and Hugo Docks, and multiple
+  years record a free bike valet at The Forks (the lot between the rail cars)
+  and in the Exchange at Bannatyne and Arthur, 6 p.m. to just before midnight.
+  Neither the water bus nor the valet was confirmed for 2026 or 2027, so both
+  are written as past-years provision.
+- **Parking.** No event lot. A downtown guide states the event turns the
+  downtown into pedestrian space and that you will not be able to drive to it.
+  No meter rules or lot prices were stated.
+- **Sunset.** 7:20 p.m. on September 25, 2027, computed for Winnipeg
+  (49.8951, -97.1384).
+- **Distances.** From the verified table in `AGENT-INSTRUCTIONS.md`: Portage and
+  Main 9 min / 3.9 km, The Forks 10 min / 3.9 km, Centre culturel
+  franco-manitobain 11 min / 5.1 km, Hugo Docks trailhead a 10 min / 700 m walk
+  north. These replaced a "fifteen-minute drive" the page had carried.
+
+## blog-canad-inns-winter-wonderland.html, refreshed 2026-11-12 (calendar confirmation)
+
+- **2026-27 season.** redriverex.com's own event listing gives Friday November
+  27, 2026 to Saturday January 2, 2027, closed Friday December 25, 2026, nightly
+  6 p.m. to 10 p.m., a route of about 2.5 kilometres and over 30 new displays.
+  The page previously said the Ex had not posted these dates, which was true
+  when it was written.
+- **Price.** Tourism Winnipeg's listing for the event gives a $30 to $130 range,
+  and the Ex's listing describes per-vehicle passes covering up to seven people.
+  The post states the $30 entry-level pass and the range, and sends the reader
+  to redriverex.com for the tier.
+- **Sunset.** 4:33 p.m. on November 27, 2026, computed for Winnipeg.
+- Older third-party ticket listings still carry the 2025-26 dates (November 28
+  to January 3) and were ignored.
+
+---
+
 ## Refresh pass, 2026-11-11: twelve pages from the Search Console refresh queue
 
 Manual session. Each page was rechecked business by business and fact by fact,

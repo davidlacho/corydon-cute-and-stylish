@@ -8,6 +8,111 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-12
+
+**Businesses verified (6, the stalest in the rotation).** Five were still sitting
+on the 2026-01-01 backfill date and one on 2026-10-18. No closure, move or rename
+was found that the site does not already reflect, so no page copy was corrected
+for a business this run. Three `pages` arrays were wrong and were reconciled
+against the actual files.
+
+- **GaiJin Izakaya, 1575 Regent Ave W, Unit 2** (2 pages): treated as open, on the
+  weakest evidence of the six, and worth a phone check. Its own site and order
+  page show it open with Monday hours from 4:30 p.m., but its Uber Eats page has
+  been closed since December 2025, Apple Maps carries a "Closing Soon" label, and
+  MapQuest and Tripadvisor both show it closed. No news item announces a closure.
+  Address filled in from its own listings. `pages` corrected: it is named in
+  `blog-winnipeg-ramen-japanese-guide.html` as well as
+  `blog-hargrave-st-market.html`, and only the latter was recorded. The Hargrave
+  mention is just the kitchen the Saburo chefs came from, so nothing there turns
+  on its status; the ramen guide recommends it, which is why this one matters.
+- **Mas Coffee Co., 100-70 Arthur St** (`blog-winnipeg-coffee.html`): open. A
+  current listing carries 70 Arthur St suite 100 with 10 a.m. to 4 p.m. and the
+  business's own domain. Our page names no hours, so nothing changed.
+- **Colosimo Coffee Roasters, 145 Pacific Ave** (`blog-winnipeg-coffee.html`):
+  open. The Exchange District BIZ guide carries 145 Pacific Ave and the same
+  history our page gives, a bean supplier to offices and cafes that later opened
+  its own cafe. Two other listings put a Colosimo cafe at 360 Portage Ave and at
+  140 Provencher Blvd; they may be other locations or stale, and since our page
+  only claims the Pacific Avenue cafe, it was left alone.
+- **Nicolino's, 4-2077 Pembina Hwy** (`blog-group-dining.html`): no closure found.
+  Its OpenTable listing still describes it as operating at that address with a
+  phone number. The 2026-11-11 session flagged its domain as being for sale and
+  that is still worth the owner's phone call; nothing this run moved it either way.
+- **Unicity Taxi, 340 Hargrave Pl** (2 pages): open. A BBB listing carries the
+  Hargrave Place address with 204-925-3131, its customer app is live, and the City
+  of Winnipeg still lists it on the accessible-vehicle dispatch. Address filled in.
+  `pages` corrected: it is also named in `blog-winnipeg-airport-arrival-guide.html`.
+- **Amsterdam Tea Room and Bar, 103-211 Bannatyne Ave** (4 pages): open. Its Yelp
+  page was updated in October 2026 and Tripadvisor carries 2026 reviews, including
+  one from August 2026, which is the clearest evidence of the six. A MapQuest
+  listing showing it closed is undated and was ignored. `pages` corrected: the
+  ledger listed `blog-winnipeg-new-music-festival.html`, which does not name it,
+  and omitted nothing else.
+
+**Ledger sweep (one post, per the rotation).**
+`blog-renting-a-bike-near-corydon-airbnb.html` was swept. One business it names
+was missing: Plain Bicycle, the non-profit bike shop whose main store trades as
+Bicycle Garden at 267 Sherbrook St. Added with its three pages
+(`blog-best-places-nearby-winnipeg.html`, the bike post and
+`blog-winnipeg-cycling-routes.html`) at `last_verified: 2026-01-01`, since this
+sweep did not verify it. The Forks Market and Winnipeg Transit needed no entry.
+The ledger now holds 200 businesses.
+
+**Page refreshed: `blog-nuit-blanche-winnipeg.html`, rolled over to 2027.** First
+entry of the Events queue, the rollover marked due now. Retitled in place, slug
+unchanged, to "Nuit Blanche Winnipeg 2027: September 25, Free All Night".
+
+- The organiser's own homepage now publishes **Saturday, September 25, 2027**, so
+  the date is written as settled. The **hours are not posted for 2027**, and the
+  page says so instead of carrying 2026's 6pm to midnight forward as this year's
+  schedule.
+- Two questions added, both from the Search Console export's query list: how big
+  the night gets, which carries the 2026 recap (87 events in the guide, heavy rain
+  with the crowd holding up, IMABOX in Old Market Square by Bistyek, and the
+  organiser's own count of over 100 events and about 40,000 people in 2025), and
+  where to park, which the page had never answered.
+- Two errors corrected on the way through: a **"fifteen-minute drive" to the
+  downtown zone**, which the playbook's verified table puts at about ten minutes
+  and 3.9 km, and **two provenance sentences** that are not allowed on a page, one
+  in the opening and one in the "Before you go" box, both naming where the facts
+  came from. The "since the June 21, 2026 summer schedule" framing on the D19
+  terminal was dropped so the line does not age.
+- Sources in `post-sources.md`. Title, description, `article:modified_time`,
+  `dateModified`, the sitemap `<lastmod>` and the copies in `articles-data.js`,
+  `articles_data.json` and both `blog.html` lists were all updated;
+  `check-blog-listing.py` prints `OK`.
+
+**Events calendar.**
+
+- **Nuit Blanche Winnipeg** moved from `typical` to **`confirmed`** for
+  2027-09-25 on the organiser's published date. Its `time` was removed rather than
+  left at 6 p.m. to midnight, which is not published for 2027.
+- **Canad Inns Winter Wonderland** moved from `typical` to **`confirmed`**: the Ex
+  has posted the 2026-27 season as November 27 to January 2, closed December 25,
+  nightly 6 p.m. to 10 p.m. The calendar had November 28 to January 3, last
+  season's dates. Because the dates differ from the post,
+  `blog-canad-inns-winter-wonderland.html` was refreshed too: the season
+  paragraph, the price (a $30 to $130 range, per vehicle up to seven people), and
+  the opening-night sunset, now 4:33 p.m. on November 27.
+- **Crafted Show and Sale** ended November 8 and 2027 is unannounced. The post
+  calls it a three-day juried sale early in November at the Winnipeg Art Gallery,
+  so the entry moved to the same Friday-to-Sunday slot in 2027, November 5 to 7,
+  as `typical`, with the gallery added as its venue. The post was not touched.
+- **NHL Heritage Classic** (October 25) is 18 days past. A one-off, so it stays on
+  the calendar until it is more than 30 days gone, then it goes.
+- **Arctic Glacier Winter Park** (December 19) and the **Nestaweya River Trail**
+  (January 9) are both `typical` and inside 60 days. The Forks has announced no
+  2026-27 winter dates yet, so both were left as they are.
+- The array was re-sorted by `start` after the Crafted move, and
+  `update-events.py` regenerated the static list and the Event JSON-LD: 60
+  upcoming entries, 38 confirmed in the JSON-LD.
+- **Added to the Events queue** (two, both on the same night, both to be
+  re-checked against the venue before publishing): Hilary Duff at Canada Life
+  Centre and Beetlejuice the Musical at the Centennial Concert Hall, each listed
+  for January 30, 2027. Everything inside the two-to-eight-week window already has
+  a post and a calendar entry.
+
 ## 2026-11-11 (manual session, not the cron)
 
 - Reviews: added Matthew, Byron and Derek (all 5 stars); total 125, 5-star 115, rating 4.89 site-wide (also rebuilt `app.js` for the fallback rating).

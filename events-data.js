@@ -30,13 +30,6 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
-    "title": "Crafted Show and Sale",
-    "url": "/blog-winnipeg-holiday-markets.html",
-    "start": "2026-11-06",
-    "end": "2026-11-08",
-    "status": "confirmed"
-  },
-  {
     "title": "Manitoba Hydro Santa Parade",
     "url": "/blog-santa-claus-parade-winnipeg.html",
     "start": "2026-11-14",
@@ -70,11 +63,11 @@ const EVENTS_DATA = [
   {
     "title": "Canad Inns Winter Wonderland drive-through lights",
     "url": "/blog-canad-inns-winter-wonderland.html",
-    "start": "2026-11-28",
-    "end": "2027-01-03",
-    "time": "6 p.m. to 10 p.m. nightly",
+    "start": "2026-11-27",
+    "end": "2027-01-02",
+    "time": "6 p.m. to 10 p.m. nightly, closed December 25",
     "venue": "Red River Exhibition Park",
-    "status": "typical"
+    "status": "confirmed"
   },
   {
     "title": "WSO: Handel's Messiah",
@@ -489,9 +482,8 @@ const EVENTS_DATA = [
     "url": "/blog-nuit-blanche-winnipeg.html",
     "start": "2027-09-25",
     "end": "2027-09-25",
-    "time": "6 p.m. to midnight",
     "venue": "Downtown, Exchange District, The Forks and St. Boniface",
-    "status": "typical"
+    "status": "confirmed"
   },
   {
     "title": "Scattered Seeds Craft Market, first weekend",
@@ -505,6 +497,14 @@ const EVENTS_DATA = [
     "url": "/blog-winnipeg-holiday-markets.html",
     "start": "2027-10-22",
     "end": "2027-10-24",
+    "status": "typical"
+  },
+  {
+    "title": "Crafted Show and Sale",
+    "url": "/blog-winnipeg-holiday-markets.html",
+    "start": "2027-11-05",
+    "end": "2027-11-07",
+    "venue": "Winnipeg Art Gallery",
     "status": "typical"
   },
   {
