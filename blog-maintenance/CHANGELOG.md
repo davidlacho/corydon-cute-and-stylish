@@ -128,6 +128,21 @@ deploy, but no run can confirm the deployed page itself from in here. Adding
 `staywinnipeg.ca` under Allowed domains in the environment's network settings
 would fix that for every future run.
 
+**Deploy.** Pushed to `main` as `9054a95`; the GitHub Pages
+`pages-build-deployment` run for that commit finished with all three jobs green,
+including "Deploy to GitHub Pages". The live URL itself still cannot be fetched
+from the sandbox (403 at the CONNECT stage), so the successful deploy job is the
+furthest this run can confirm.
+
+**Stale branches (cannot be deleted from the sandbox).** The proxy refuses remote
+ref deletes again, so the same ten remain for the owner to remove in the GitHub
+UI. Four are ancestors of `origin/main` outright
+(`claude/dazzling-mayer-08lb50`, `claude/dazzling-mayer-j4njmk`,
+`claude/dazzling-mayer-tjgzt4`, `claude/events-calendar`); the other six were
+checked on 2026-11-12 and every file each added already exists on `main`
+(`claude/dazzling-mayer-rbrilo`, `main-42tnc4`, `main-93eu68`, `main-t3tkyj`,
+`main-u6mm7q`, `main-wnplpp`).
+
 ---
 
 
