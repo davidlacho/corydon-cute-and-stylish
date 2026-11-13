@@ -1356,10 +1356,10 @@ const ARTICLES_DATA = [
     "url": "/blog-rainbow-stage.html",
     "category": "winnipeg",
     "date": "2025-12-03",
-    "title": "Rainbow Stage Winnipeg: Seats, Roof, Tickets & Show Length",
+    "title": "Rainbow Stage Winnipeg 2027: Season, Seats, Roof, Tickets",
     "image": "https://images.unsplash.com/photo-1692707483537-8f5e57e71531?q=80&w=2340&auto=format&fit=crop",
     "imageAlt": "Theatre stage with dramatic lighting",
-    "description": "Rainbow Stage answers: 2,300 seats under a covered dome, tickets from $27, shows about 2.5 hours with intermission, Kildonan Park parking, and a season recap.",
+    "description": "Rainbow Stage seats about 2,300 under a covered dome, tickets start at $27 and shows run about 2.5 hours. What is known about the 2027 season, plus parking.",
     "metaHtml": "<span>Arts & Culture</span>\n                                <span>12 min read</span>\n                                <span>December 3, 2025</span>"
   },
   {

@@ -226,7 +226,7 @@
         "blog-group-dining.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-18"
+      "last_verified": "2026-11-13"
     },
     {
       "name": "Barn Hammer Brewing Company",
@@ -244,7 +244,7 @@
         "blog-winnipeg-tours.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-19"
+      "last_verified": "2026-11-13"
     },
     {
       "name": "Bistro on Notre Dame",
@@ -1472,16 +1472,16 @@
       "address": "804 Murdock Rd, RM of Springfield",
       "pages": [],
       "status": "closed",
-      "last_verified": "2026-10-18"
+      "last_verified": "2026-11-13"
     },
     {
       "name": "The Rec Room (Seasons of Tuxedo)",
-      "address": "",
+      "address": "696 Sterling Lyon Pkwy",
       "pages": [
         "blog-family-activities.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-18"
+      "last_verified": "2026-11-13"
     },
     {
       "name": "The Fort Garry Hotel",
@@ -1490,7 +1490,7 @@
         "blog-winnipeg-jazz-festival.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-18"
+      "last_verified": "2026-11-13"
     },
     {
       "name": "7-Eleven (781 Corydon Ave)",
@@ -1894,7 +1894,7 @@
         "blog-winnipeg-cycling-routes.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-11-13"
     }
   ]
 }

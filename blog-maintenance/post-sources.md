@@ -16,6 +16,36 @@ Newest first.
 
 ---
 
+## blog-rainbow-stage.html, refreshed 2026-11-13 (rollover to the 2027 season)
+
+- **No 2027 lineup exists to report.** A web search for a Rainbow Stage 2027 or
+  73rd season announcement turned up nothing: no title list, no dates, no on-sale
+  date. The page now states that the titles are not published rather than
+  guessing at them.
+- **"The 2026 lineup was announced on December 2, 2025"** comes from Classic107's
+  piece on the company's record-breaking season, which reported the announcement
+  date. That is the only basis for the page's line about the next announcement
+  landing around the turn of the year, and it is written as what the company did
+  last time, not as a promise about 2027.
+- **Broadway Sings with Rainbow Stage, Saturday February 27, 2027, 2 p.m.,
+  Centennial Concert Hall, 555 Main Street, conducted by Juliane Gallant, with
+  singers from Rainbow Stage**: the WSO's own event page for the 2026-27 season.
+  A third-party listing carried a $27 to $92 price range for it; that was not
+  used on the page, because it is not the orchestra's own figure. The page sends
+  readers to the orchestra for tickets instead.
+- **Everything evergreen on the page is unchanged and was not re-sourced this
+  run**: the 2,300 seats, the $27 starting price, the two-and-a-half-hour
+  running time with a 20-minute intermission, 2021 Main Street, row 13 for
+  wheelchair seating, the box office number 204-989-0888, the 1950 flood origin
+  story and the renovation list. They were carried over from the 2026-09-14
+  version of the page.
+- **Removed as unsupportable** while editing: a claim that the second act of a
+  July show starts after sunset, and a 7:30 p.m. curtain time, neither of which
+  the page sources. The curtain reference is now "the doors opening an hour
+  before the show", which the page's own box-office paragraph supports.
+
+---
+
 ## blog-nuit-blanche-winnipeg.html, refreshed 2026-11-12 (rollover to 2027)
 
 - **Date.** nuitblanchewinnipeg.ca's homepage states that Nuit Blanche Winnipeg

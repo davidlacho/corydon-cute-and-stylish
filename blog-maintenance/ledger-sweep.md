@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-river-walks.html
 - blog-royal-aviation-museum-guide.html
 - blog-ruskin-row-residents.html
 - blog-smart-tv-every-bedroom.html
@@ -106,6 +105,7 @@ last because they are partly covered.
 
 ## Swept
 
+- blog-river-walks.html (2026-11-13, no ledger entries needed: the post names no commercial business. It refers to The Forks, Assiniboine Park and St. Vital Park as places, not to The Forks Market or any tenant, so no filename was appended to an existing entry either. Flagged for the owner: the post is one of the oldest on the site and carries several house-style tells ("isn't just", "Whether you're", "offers something for everyone"), so it is a candidate for the Refresh queue.)
 - blog-renting-a-bike-near-corydon-airbnb.html (2026-11-12, one commercial business named that the ledger lacked: Plain Bicycle, the non-profit bike shop whose main store trades as Bicycle Garden at 267 Sherbrook St, added with its three pages. The Forks Market, which houses its seasonal rental kiosk, and Winnipeg Transit were already covered or are not commercial.)
 - blog-rainy-day-winnipeg-itinerary.html (2026-11-11, two commercial businesses named, both already in the ledger: The Forks Market and Hargrave St. Market, and this filename was appended to the pages list of each. The Canadian Museum for Human Rights and Qaumajuq are institutions, so neither takes a ledger entry.)
 - blog-rainy-afternoon-on-corydon.html (2026-11-10, five businesses named, all already in the ledger: The Cheesemongers Fromagerie, Bar Italia, Passero Restaurant, Thom Bargen Coffee Roasters and Sugar + Salt Bakeshoppe; this filename was appended to each of their pages lists)

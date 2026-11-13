@@ -8,6 +8,129 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-13
+
+**Businesses verified (6, the stalest in the rotation).** One was still on the
+2026-01-01 backfill date and five on 2026-10-18 or 2026-10-19. No closure, move
+or rename was found that the site does not already reflect, so no page copy was
+corrected for a business this run. One address was filled in.
+
+- **Plain Bicycle (Bicycle Garden), 267 Sherbrook St** (3 pages): open, on
+  directory evidence rather than anything the shop published this year. Listings
+  carry the Sherbrook Street shop with hours and a phone number, and Winnipeg
+  Trails Association, the non-profit that runs it, is still described as
+  operating Plain Bicycle as its social enterprise with a second point at The
+  Forks. Nothing found reports a closure. Our three pages name no hours or
+  prices, and `blog-renting-a-bike-near-corydon-airbnb.html` describes two
+  locations without stating rates, so nothing changed. The Forks location is the
+  part worth re-checking next rotation: the clearest source for it is a mall
+  directory, not the operator.
+- **Bailey's Restaurant & Bar, 185 Lombard Ave** (`blog-group-dining.html`):
+  open. No closure is reported. A CTV item from July 2, 2026 headed "Downtown
+  tavern closes its doors" turned out to be Tavern United's downtown location
+  across from Canada Life Centre, not Bailey's, so it does not apply here.
+  Directory listings still carry 185 Lombard with service hours. The expired
+  certificate the 2026-11-11 session flagged is still worth the owner's phone
+  call; nothing this run moved it either way.
+- **Fun Mountain Water Slide Park, 804 Murdock Rd, RM of Springfield**: still
+  `closed`, confirmed. Global News describes the site as the former Fun Mountain
+  waterslide park, permanently closed, in its coverage of a building fire there.
+  No page on the site names it, so there was nothing to correct.
+- **The Fort Garry Hotel, 222 Broadway**
+  (`blog-winnipeg-jazz-festival.html`): open and operating as the Fort Garry
+  Hotel, Spa and Conference Centre in the Ascend Collection. Worth the owner's
+  attention: commercial listings dated July and August 2026 have the building
+  itself for sale. Nothing reports a sale completing or an operator change, and
+  our page only names it as a 2026 jazz festival venue, so the page was left
+  alone.
+- **The Rec Room (Seasons of Tuxedo)** (`blog-family-activities.html`): open.
+  Address filled in as 696 Sterling Lyon Pkwy, which is what the venue's own
+  location page and most listings use; OpenTable's 690 Sterling Lyon looks like a
+  listing error. Our page already says 696, so nothing changed. No 2026-dated
+  review surfaced, which is the weak point in this one.
+- **Bison Bus Tours, 1961 McCreary Rd** (`blog-winnipeg-tours.html`): open, and
+  more precisely it is a FortWhyte Alive programme rather than a separate
+  company. A 2026 listing has the season running late June to mid-September with
+  Sunday and Thursday departures from the Alloway Reception Centre, at $26, or
+  $23 for FortWhyte members. Our page names no dates or prices, so nothing
+  changed.
+
+**Ledger sweep (one post, per the rotation).** `blog-river-walks.html` was swept
+and needed no entries: it names no commercial business, only The Forks,
+Assiniboine Park and St. Vital Park as places. Flagged for the owner, since the
+sweep meant reading the whole post: it is one of the oldest pages on the site and
+is thick with the tells the house style bans ("isn't just", "Whether you're",
+"offers something for everyone", "There's something special about"), so it is a
+good candidate for the Refresh queue. The ledger still holds 200 businesses.
+
+**Page refreshed: `blog-rainbow-stage.html`, rolled over to the 2027 season.**
+First entry of the Events queue. The Santa Claus Parade rollover sits above it
+but is marked "not before 2026-11-15" (the 2026 parade is tomorrow), so it was
+skipped under the Events-queue exception and is due on the next run. Retitled in
+place, slug unchanged, to "Rainbow Stage Winnipeg 2027: Season, Seats, Roof,
+Tickets".
+
+- **Rainbow Stage has not published a 2027 lineup.** A search for a 2027 or 73rd
+  season announcement found nothing, so the page says the titles are not out
+  rather than guessing. What it can say is that the 2026 lineup was announced on
+  December 2, 2025, which puts the next announcement around the turn of the year,
+  and that tickets usually go on sale in the spring.
+- **One fixed 2027 date was added**: Broadway Sings with Rainbow Stage, singers
+  from the company with the Winnipeg Symphony Orchestra, Saturday February 27,
+  2027 at 2 p.m. in the Centennial Concert Hall, conducted by Juliane Gallant,
+  from the orchestra's own event page. A third-party $27 to $92 price range for
+  it was deliberately not used.
+- The 72nd-season recap was kept and demoted to a section below the 2027 answer,
+  since it is still what the page's history is built on.
+- **Eight generic-AI tells were removed** on the way through: "more than just a
+  theatre", "a testament", "something for everyone", "vibrant" twice, "Whether
+  you're", "not just" and three uses of "unforgettable". Three generic headings
+  were made specific ("Plan Your Visit", "Practical Information for Your Visit",
+  "Make It a Perfect Winnipeg Experience"), and the "A Winnipeg Treasure"
+  heading became "Who Runs Rainbow Stage".
+- **One provenance box was removed**, the "What's Next" box opening "As of this
+  update", which is exactly the form the page rules forbid. It is replaced by a
+  "Before you go" box pointing at rainbowstage.ca and the box office.
+- **Two unsupportable specifics were cut**: a claim that the second act of a July
+  show starts after sunset, and an invented 7:30 p.m. curtain time.
+- Sources in `post-sources.md`. Title, description, `article:modified_time`,
+  `dateModified`, the visible last-updated line, the sitemap `<lastmod>` and the
+  copies in `articles-data.js`, `articles_data.json` and both `blog.html` lists
+  were all updated; `check-blog-listing.py` prints `OK` for all 184 posts.
+
+**Events calendar.**
+
+- **Added: Broadway Sings with Rainbow Stage**, 2027-02-27, 2 p.m., Centennial
+  Concert Hall, `confirmed` on the orchestra's published date, pointing at the
+  refreshed Rainbow Stage page.
+- **NHL Heritage Classic** (October 25) is 19 days past. A one-off, so it stays
+  until it is more than 30 days gone, then it goes; that falls on the next run.
+- **Arctic Glacier Winter Park** (December 19) and the **Nestaweya River Trail**
+  (January 9) are both `typical` and inside 60 days. Checked again: The Forks has
+  still announced no 2026-27 winter dates, so both were left as they are.
+- `update-events.py` regenerated the static list and the Event JSON-LD: 61
+  upcoming entries, 39 confirmed in the JSON-LD. `events.html` `<lastmod>` bumped.
+- **Nothing was added to the Events queue.** Everything found in the two-to-eight
+  week window already has a post and a calendar entry. Two items that looked new
+  were not: the **Signatures Handmade Market** at the RBC Convention Centre,
+  November 26 to 29, is the same Signatures Shows event as the **Winnipeg
+  Christmas Market** already on the calendar for those dates at that venue (the
+  handmade and non-handmade tracks of one show), and **Christmas at FortWhyte
+  Alive**, November 21 to 29, is Santa photo sessions, which the playbook treats
+  as too small. The queue still holds five entries.
+
+**pa11y (WCAG2AA).** Three pages checked, all three clean, zero errors:
+`blog-rainbow-stage.html`, `blog.html` and `events.html`. As on previous runs the
+sandbox's network policy refuses `staywinnipeg.ca` (403 at the CONNECT stage), so
+the checks ran against the built files over a local static server rather than the
+live URLs. Same markup, and it tests this run's changes rather than yesterday's
+deploy, but no run can confirm the deployed page itself from in here. Adding
+`staywinnipeg.ca` under Allowed domains in the environment's network settings
+would fix that for every future run.
+
+---
+
+
 ## 2026-11-12
 
 **Businesses verified (6, the stalest in the rotation).** Five were still sitting

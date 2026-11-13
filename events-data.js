@@ -230,6 +230,15 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
+    "title": "Broadway Sings with Rainbow Stage",
+    "url": "/blog-rainbow-stage.html",
+    "start": "2027-02-27",
+    "end": "2027-02-27",
+    "time": "2 p.m.",
+    "venue": "Centennial Concert Hall, 555 Main St",
+    "status": "confirmed"
+  },
+  {
     "title": "Winnipeg Jets six-game homestand",
     "url": "/blog-winnipeg-jets.html",
     "start": "2027-03-01",
