@@ -8,6 +8,115 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-14
+
+**Businesses verified (6, the stalest in the rotation).** Three sat on
+2026-10-19 and three on 2026-10-20. No closure, move or rename was found, so no
+page copy was corrected for a business this run.
+
+- **Bistro on Notre Dame, 784 Notre Dame Ave** (`blog-indigenous-winnipeg.html`):
+  open. Its Tock page is live and taking bookings for parties of two to ten and
+  naming a private dining room, and Indigenous Tourism Manitoba still lists it
+  with the same address and phone number. Our page names no hours or prices, only
+  the address and Chef Dean Herkert, so nothing changed.
+- **Bridge Drive-In (BDI), 766 Jubilee Ave** (`blog-winnipeg-ice-cream-gelato.html`):
+  open. A CTV/CP24 piece from April 12, 2026 interviews the shop about its 2026
+  season, including a new soda menu, which is the most recent first-hand evidence
+  of it trading. No 2026 opening date was announced anywhere findable, which does
+  not matter here: our page names the two locations and no dates.
+- **Buffalo Stone Cafe (FortWhyte Alive), 1961 McCreary Rd**
+  (`blog-winnipeg-vegan-restaurants.html`): open, on the weakest evidence in this
+  batch. FortWhyte's own site promotes the cafe on its home page and several of
+  its spring 2026 programme listings (April 15 to May 29) finish with coffee and
+  a muffin at the cafe, but nothing dated since May was found, and winter hours
+  are not published. Our page names no hours and only says vegan options such as
+  hummus bowls are served, so it was left alone. Re-check the winter season next
+  rotation.
+- **Café Carlo, 243 Lilac St** (`blog-best-places-nearby-winnipeg.html`): open.
+  OpenTable carries diner reviews dated September 2026 against a rating from more
+  than 2,500 diners, which is live-trading evidence rather than a directory stub.
+  Address confirmed as 243 Lilac Street, which is what our page already shows.
+- **Cargo Bar, Assiniboine Park (Riley Family Duck Pond)**
+  (`blog-best-places-nearby-winnipeg.html`): open as a seasonal operation, and
+  currently shut for the winter. Assiniboine Park's own page for it reads "CLOSED
+  for the season" and describes it as a pop-up patio built from a shipping
+  container on the banks of the duck pond. Our page already labels it
+  "Assiniboine Park, Winnipeg (seasonal)", which is the right description for a
+  mid-November reader, so nothing changed and the status stays `open`.
+- **Chaeban Ice Cream, 390 Osborne St** (`blog-winnipeg-ice-cream-gelato.html`):
+  open. Multiple current listings carry the Osborne Street shop with consistent
+  hours and online ordering, and nothing reports a closure. Our page names the
+  address and the award coverage and no hours, so nothing changed.
+
+**Ledger sweep (one post, per the rotation).** `blog-royal-aviation-museum-guide.html`
+was swept and needed no entries: the museum is an institution and the airport is
+infrastructure, and the post names no restaurant, cafe, bar or shop. The ledger
+still holds 200 businesses; `blog-trooper-burton-cummings-winnipeg.html` was
+appended to the `pages` list of Hargrave St. Market, the one commercial business
+the new post names.
+
+**New post: `blog-trooper-burton-cummings-winnipeg.html`, "Trooper in Winnipeg
+2026: December 30 at the Burt".** First entry of the Events queue after the Santa
+Claus Parade rollover above it was skipped again: it is marked "not before
+2026-11-15" and the 2026 parade is today, so it falls due on the next run.
+Written as host's notes, the form the rotation rule left free.
+
+- **The queue's date disagreement is settled.** The theatre's own event listing
+  and Ticketmaster both give Wednesday December 30, 2026 at 8 p.m. The December
+  31 date came from a single resale aggregator and was not used. No door time is
+  published for the show, so the post does not state one, and no ticket price is
+  quoted: every figure found was resale, in US dollars and moving.
+- **The post's distinct ground is the week, not the venue.** The
+  choir-choir-choir page of 2026-11-09 already covers the Burt, so the
+  overlapping facts (transit routes, the historic building, the Loge 1 and 2
+  accessible seating) were rewritten rather than copied, and this page carries
+  what the other does not: why a Wednesday between Christmas and New Year's is
+  the easiest downtown night of the winter to drive and park for and the hardest
+  to eat out on, and which seats to take for a loud show.
+- **One correction for a later run, not made this run** (one page per run):
+  `blog-choir-choir-choir-winnipeg.html` says the theatre "opened in 1906". That
+  is the construction year; Historic Sites of Manitoba gives the official opening
+  as February 18, 1907, which is what the new post uses.
+- Registered through the full checklist: `articles-data.js`, `articles_data.json`,
+  the `blog.html` noscript card and `blogPost` JSON-LD, `sitemap.xml`, `llms.txt`
+  (185 posts) and `post-sources.md`. `check-blog-listing.py` prints OK.
+
+**Events calendar.** One entry added: Trooper at the Burton Cummings Theatre,
+December 30, 2026, 8 p.m., `confirmed`, pointing at the new post. Nothing was
+confirmed or removed.
+
+- **The two typical entries inside 60 days stay typical.** Arctic Glacier Winter
+  Park (December 19) has no 2026-27 opening announced; the most recent published
+  season ran December 1 to February 28 "while conditions last". The Nestaweya
+  River Trail (January 9) has no 2026-27 announcement either; last season The
+  Forks reported its first sections open on January 1, 2026 and the full six
+  kilometres later. Both depend on ice, so neither can be confirmed in advance.
+- **The one stale entry was left in place.** The NHL Heritage Classic ended
+  2026-10-25, 20 days ago; the playbook keeps a one-off on the calendar until it
+  is more than 30 days past, so it is due for removal on or after 2026-11-24.
+- **Events queue refilled with one item, as a calendar-only note:** the Winnipeg
+  Jets host San Jose on Monday December 28, 2026 at Canada Life Centre, which
+  fills the gap between the December 19 and 20 Dallas back-to-back and New Year's
+  Eve. It takes no new post, because `blog-winnipeg-jets.html` covers the team,
+  but that page names only the December 19 and 20 games, and the calendar script
+  will not accept a date the post does not name, so a run that refreshes the Jets
+  page should confirm the date against nhl.com/jets and add it then. Every
+  listing found for it was resale or aggregator and they disagree on the start
+  time (6:30 p.m. against 7:30 p.m.), so no time was recorded.
+- **One existing queue note corrected:** the Beetlejuice entry had a single
+  January 30, 2027 performance; a Ticketmaster venue listing read today carries a
+  run of January 29, 30 and 31, so the note now asks for the whole run.
+
+**Sandbox note.** burtoncummingstheatre.ca, tourismwinnipeg.com, trooper.com and
+images.unsplash.com were all unreachable from this session (DNS refused at the
+proxy), so the venue and Tourism Winnipeg listings were read through search
+results rather than fetched, and the hero image reuses an Unsplash URL already on
+the site rather than a newly chosen one.
+
+
+---
+
+
 ## 2026-11-13
 
 **Businesses verified (6, the stalest in the rotation).** One was still on the

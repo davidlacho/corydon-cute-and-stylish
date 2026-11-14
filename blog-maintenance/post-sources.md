@@ -16,6 +16,58 @@ Newest first.
 
 ---
 
+## blog-trooper-burton-cummings-winnipeg.html, published 2026-11-14
+
+- **Date, time and venue.** Wednesday December 30, 2026, 8 p.m., Burton Cummings
+  Theatre, 364 Smith Street. The theatre's own event page
+  (burtoncummingstheatre.ca/event/trooper/) and Ticketmaster's Trooper artist
+  page both carry that date and start time, and Tourism Winnipeg's event listing
+  points at the same Ticketmaster sale. The December 31 date the events queue
+  flagged came from one resale aggregator (eventticketscenter.com) and is
+  contradicted by all three of those, so it was not used and is not mentioned on
+  the page. Neither the theatre's page nor any listing gives a door time, so the
+  post does not state one.
+- **Band.** Touring since the mid-1970s; inducted into the Canadian Music Hall of
+  Fame and Canada's Walk of Fame in 2023 (Wikipedia's Ra McGuire article, which
+  records the Juno statuette presented to the inducted members). The three song
+  titles named are the band's best-known singles. No current lineup is stated on
+  the page: sources disagree about who tours under the name after Ra McGuire's
+  and Brian Smith's retirement, so the post says nothing about it.
+- **Theatre.** Built for Corliss Powers Walker to a design by the Montreal
+  architect Howard Colton Stone, official opening February 18, 1907 (Historic
+  Sites of Manitoba, mhs.mb.ca/docs/sites/walkertheatre.shtml; Heritage Winnipeg
+  dates construction to 1906, which is why the page gives the opening rather than
+  a build year). Planned at about 2,000 seats, same source. National Historic
+  Site designation 1991, under the Walker Theatre name; renamed for Burton
+  Cummings in 2002. Current capacity is reported as 1,638 (Wikipedia), 1,600
+  (Venue Coalition, which splits it 577 floor, 504 first balcony, 498 second) and
+  1,604 (Cvent), so the page says "somewhere around 1,600 across a floor and two
+  balconies" rather than picking one figure. **Worth correcting elsewhere:**
+  `blog-choir-choir-choir-winnipeg.html` says the theatre "opened in 1906", which
+  is the construction year, not the opening.
+- **Accessibility, parking and transit** carry over from the sourcing done for
+  `blog-choir-choir-choir-winnipeg.html` on 2026-11-09 (main floor accessible,
+  balconies by stairs with no lift, wheelchair seating in Loges 1 and 2 arranged
+  by phoning Ticketmaster, children two and older need a ticket; lots beside and
+  across from the theatre with metered street spots; D19 Corydon to Kennedy
+  Street just south of Portage, then under fifteen minutes on foot east along
+  Portage, with F5, F8, D12 and D13 also serving the venue).
+- **What else is on that week** is taken from entries already on our own events
+  calendar, each of which was sourced when its post was written: the Royal
+  Winnipeg Ballet's Nutcracker to December 27, Canad Inns Winter Wonderland to
+  January 2, New Year's Eve at The Forks on December 31, and the Manitoba school
+  break December 18 to January 4.
+- **Deliberately not stated:** ticket prices (every figure found was resale, in
+  US dollars, and moving), a door time, any restaurant's holiday hours, and the
+  seat split between the two balconies. The claim that downtown restaurants cut
+  hours between the holidays is written as the reason to phone ahead, not as a
+  statement about any named business.
+- **The seating opinion is an opinion**, not sourced: the first balcony over the
+  back half of the floor, on the flat rear floor and a standing crowd. House
+  style allows opinions in a host's-notes post.
+
+---
+
 ## blog-rainbow-stage.html, refreshed 2026-11-13 (rollover to the 2027 season)
 
 - **No 2027 lineup exists to report.** A web search for a Rainbow Stage 2027 or

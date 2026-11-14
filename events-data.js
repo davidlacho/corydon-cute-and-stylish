@@ -182,6 +182,15 @@ const EVENTS_DATA = [
     "status": "typical"
   },
   {
+    "title": "Trooper at the Burton Cummings Theatre",
+    "url": "/blog-trooper-burton-cummings-winnipeg.html",
+    "start": "2026-12-30",
+    "end": "2026-12-30",
+    "time": "8 p.m.",
+    "venue": "Burton Cummings Theatre, 364 Smith St",
+    "status": "confirmed"
+  },
+  {
     "title": "New Year's Eve at The Forks",
     "url": "/blog-new-years-eve-the-forks.html",
     "start": "2026-12-31",

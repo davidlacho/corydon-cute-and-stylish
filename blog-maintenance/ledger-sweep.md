@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-royal-aviation-museum-guide.html
 - blog-ruskin-row-residents.html
 - blog-smart-tv-every-bedroom.html
 - blog-spa-shower-upgrade.html
@@ -105,6 +104,7 @@ last because they are partly covered.
 
 ## Swept
 
+- blog-royal-aviation-museum-guide.html (2026-11-14, no ledger entries needed: the post names no commercial business. The Royal Aviation Museum of Western Canada is an institution and Winnipeg Richardson International Airport is infrastructure, so neither takes an entry; the post names no restaurant, cafe, bar or shop, and its only other references are to other pages on this site.)
 - blog-river-walks.html (2026-11-13, no ledger entries needed: the post names no commercial business. It refers to The Forks, Assiniboine Park and St. Vital Park as places, not to The Forks Market or any tenant, so no filename was appended to an existing entry either. Flagged for the owner: the post is one of the oldest on the site and carries several house-style tells ("isn't just", "Whether you're", "offers something for everyone"), so it is a candidate for the Refresh queue.)
 - blog-renting-a-bike-near-corydon-airbnb.html (2026-11-12, one commercial business named that the ledger lacked: Plain Bicycle, the non-profit bike shop whose main store trades as Bicycle Garden at 267 Sherbrook St, added with its three pages. The Forks Market, which houses its seasonal rental kiosk, and Winnipeg Transit were already covered or are not commercial.)
 - blog-rainy-day-winnipeg-itinerary.html (2026-11-11, two commercial businesses named, both already in the ledger: The Forks Market and Hargrave St. Market, and this filename was appended to the pages list of each. The Canadian Museum for Human Rights and Qaumajuq are institutions, so neither takes a ledger entry.)
