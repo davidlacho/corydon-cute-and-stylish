@@ -113,6 +113,24 @@ proxy), so the venue and Tourism Winnipeg listings were read through search
 results rather than fetched, and the hero image reuses an Unsplash URL already on
 the site rather than a newly chosen one.
 
+**Deploy.** Pushed to `main` as 936afaf. The `pages-build-deployment` run for
+that commit (run 495, id 43589546298) completed with all three jobs successful,
+build, report-build-status and deploy, the deploy finishing at 11:21:15 UTC.
+
+**pa11y.** staywinnipeg.ca and davidlacho.github.io are both refused at the
+CONNECT stage by this session's network policy, so the live URLs could not be
+checked and the deploy job is the furthest the run can confirm. pa11y WCAG2AA
+was run instead over `file://` against the three changed pages, the new post,
+`blog.html` and `events.html`, using the preinstalled Chromium. Each returned
+exactly one error, the skip link reporting no `#main-content` anchor, and
+`blog-choir-choir-choir-winnipeg.html`, a live page that has passed before,
+returns the same single error under the same conditions. That error is an
+artefact of the file:// run: `#main-content` is created by React, whose scripts
+load from absolute paths that do not resolve off a web server. So the new post
+matches the site's baseline, with no contrast, duplicate-ID, alt-text or ARIA
+findings. A live-URL pa11y pass still needs staywinnipeg.ca allowed in the
+session's network settings.
+
 
 ---
 
