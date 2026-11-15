@@ -16,6 +16,59 @@ Newest first.
 
 ---
 
+## blog-santa-claus-parade-winnipeg.html, rolled over to 2027 on 2026-11-15
+
+No 2027 date exists to source: nothing from the organiser, Tourism Winnipeg or
+any news outlet carries one, so the page states the pattern (a Saturday in
+mid-November at 5 p.m., November 14 in 2026 and November 15 in 2025) and names
+November 13, 2027 only as the Saturday to pencil in. The calendar entry in
+`events-data.js` is `typical` for the same reason.
+
+Sourced for this rollover, all through search-result summaries because
+winnipeg.ca, mbhydrosantaparade.com and tourismwinnipeg.com are all refused at
+the sandbox proxy:
+
+- **The 2026 edition ran Saturday November 14, 2026 at 5 p.m.** Confirmed in the
+  City of Winnipeg's closure notice of November 12, 2026, CTV Winnipeg's story of
+  November 13, CBC Manitoba's closure story, and chrisd.ca of November 12.
+- **Route: westbound on Portage at Main, west along Portage, south onto Memorial
+  Boulevard, finishing at the Broadway end.** City of Winnipeg and CTV both give
+  Broadway. Tourism Winnipeg's own listing and todocanada give York Avenue
+  instead, and the page we had said St. Mary Avenue, which no source supports.
+  The city's release was taken as authoritative and the page now says Broadway.
+  A later run should re-check this against the organiser's route map.
+- **Closures in 2026: in at 11 a.m., held until 10 p.m.** Portage between Main
+  Street and St. Mary Avenue, Memorial Boulevard between Portage and Broadway,
+  southbound Main from William Avenue to York; the north-south streets between
+  Main and Memorial held for local and parkade access from Ellice Avenue to
+  Broadway; transit rerouted. City of Winnipeg news release, 2026-11-12. This
+  replaces the old page's 2 p.m. Portage closure, which was wrong for 2026.
+- **Block parties from 4 p.m.** todocanada's 2026 listing.
+- **Grand marshal: the Winnipeg Sea Bears**, after winning the 2026 Canadian
+  Elite Basketball League championship, with owner David Asper describing the
+  role as a thank-you to the fans. chrisd.ca, 2026-11-09, and Tourism Winnipeg's
+  own preview. **The edition number is not on the page**: chrisd.ca calls it the
+  117th and another listing the 118th.
+- Carried over from the 2026-09-27 sourcing and unchanged: the 1909 Eaton's
+  origin, Eaton's withdrawal after 1965, Captain George Smith's $1.50 purchase
+  for the Winnipeg Firefighters Club, the roughly 3,000 participants, the
+  largest-nighttime-parade standing, free admission, the accessible space in
+  front of the barricades at each intersection, the June 27, 2025 reopening of
+  the Portage and Main at-grade crossings, the D19 Corydon terminal on Kennedy
+  Street, and the 2026 Winnipeg Transit fare of $3.45 cash or $3.10 peggo
+  e-cash. The "since the summer schedule took effect on June 21, 2026" framing
+  on the D19 terminal was dropped so the sentence does not age; the fare is now
+  stated as the 2026 figure rather than the current one.
+- The 4:46 p.m. sunset for November 14, 2026 was removed with the date it
+  belonged to. "The sun is down before five" for mid-November in Winnipeg is
+  astronomical, not sourced.
+- The 1.5 km / fifteen-to-twenty-minute Portage-to-Memorial walk and the
+  four-kilometre figure from the house to Portage and Main are from the
+  playbook's verified distance table and the 2026-09-27 sourcing; neither was
+  re-measured.
+
+---
+
 ## blog-trooper-burton-cummings-winnipeg.html, published 2026-11-14
 
 - **Date, time and venue.** Wednesday December 30, 2026, 8 p.m., Burton Cummings

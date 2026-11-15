@@ -8,6 +8,134 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-15
+
+**Businesses verified (6, the stalest in the rotation).** One sat on 2026-10-20,
+three on 2026-10-21 and two on 2026-10-22. No closure, move or rename was found,
+and none of our pages states hours or prices for any of the six, so no page copy
+was corrected for a business this run.
+
+- **Cho Ichi Ramen, 1151 Pembina Hwy** (`blog-winnipeg-ramen-japanese-guide.html`,
+  `blog-winnipeg-blue-bombers.html`, `blog-nhl-heritage-classic-winnipeg-2026.html`):
+  open. Its own site, choichi.ca, is live with daily hours and a note about
+  Christmas closures, and its Yelp page was updated in November 2026 and now
+  carries 25 reviews. A Sluurpy listing surfaced a user question asking whether
+  the shop had closed permanently; nothing anywhere supports that, and the
+  official site answers it. Our three pages name the address and the house-made
+  noodles and no hours.
+- **COBS Bread (Tuxedo Park), 2025 Corydon Ave**
+  (`blog-winnipeg-bakeries-artisan-bread.html`): open. The chain's own Tuxedo
+  Park bakery page is live, which is the page our post links to, and directory
+  listings carry the 2025 Corydon Avenue address with daily hours. Those
+  listings disagree on the weekday opening hour, 7 a.m. against 8 a.m., which
+  does not matter here: the post deliberately sends readers to the national site
+  for hours rather than stating them.
+- **Clementine Café, 123 Princess St** (`blog-best-places-nearby-winnipeg.html`,
+  `blog-winnipeg-brunch-breakfast.html`, `blog-winnipeg-vegan-restaurants.html`):
+  open, on moderate evidence. Its Tripadvisor and Yelp pages are live and
+  current, about 400 and 117 reviews, with no closure flag, and listings agree on
+  a daytime-only 9 a.m. to 2 p.m. service. Nothing dated 2026 was found, so this
+  one is worth a harder look next rotation. Our pages state the address and send
+  readers to clementinewinnipeg.com for hours, which is the right shape for a
+  cafe whose waits and hours move.
+- **Deer + Almond, 85 Princess St** (`blog-restaurants.html`,
+  `blog-winnipeg-new-music-festival.html`): open. Its Yelp page went from 156
+  photos and 95 reviews in October 2026 to 163 and 97 in November 2026, which is
+  live-trading evidence rather than a directory stub, and listings agree on
+  Tuesday to Saturday dinner service. Our pages name the address, the small-plates
+  format and the seasonal menu, none of which changed.
+- **Carnaval Brazilian BBQ, 270 Waterfront Dr**
+  (`blog-winnipeg-steakhouses-bbq.html`): open. Its OpenTable profile is live and
+  carries a 2026 update stamp with a CAN$51-and-over dinner band at the 270
+  Waterfront Drive address. Per-person figures across other listings range from
+  about $40 at lunch to $90, so no price is stated on our page, which describes
+  only the rodizio format and the salad bar.
+- **Chop Steakhouse & Bar, 1750 Sargent Ave** (`blog-winnipeg-steakhouses-bbq.html`):
+  open. The chain's own site carries a live Winnipeg location page and a current
+  Winnipeg patio menu, with daily hours and a 3 p.m. to 6 p.m. and 9 p.m. to
+  close happy hour in the lounge and on the patio. OpenTable and AAA give an
+  11:30 a.m. weekday opening against the chain's own 11 a.m.; our page names no
+  hours, so nothing changed.
+
+**Ledger sweep (one post, per the rotation).** `blog-ruskin-row-residents.html`
+was swept and needed no entries. Every company it names is historical and defunct
+(Stovel Printing, Lake of the Woods Milling, Confederation Life Assurance, the
+British Elevator Company, Russell, Lang & Co.), and the two present-day firms it
+names, Design Shop Interior Design and Harris Builders, worked on a private
+renovation at 12 Ruskin Row and sit outside the ledger's scope of guest-facing
+restaurants, cafes, bars, shops and the like. The Manitoba Historical Society and
+the Winnipeg Regional Real Estate Board are institutions. The page was otherwise
+left alone, per the playbook's standing instruction about it. The ledger still
+holds 200 businesses; 89 posts remain unswept.
+
+**Page refreshed: `blog-santa-claus-parade-winnipeg.html`, rolled over to
+"Winnipeg Santa Claus Parade 2027: Route, Time, Closures".** This was the top of
+the Events queue, marked "not before 2026-11-15"; the 2026 parade ran yesterday,
+November 14, so it fell due today. Slug and URL unchanged. Written as a walk, the
+form the page already had and the one the rotation rule left free.
+
+- **No 2027 date is announced**, by the organiser or anyone else. The page says
+  so and gives the pattern instead: a Saturday in mid-November at 5 p.m.,
+  November 14 in 2026 and November 15 in 2025, which puts November 13 as the
+  Saturday to pencil in for 2027. No inferred date is presented as fact.
+- **Two errors on the old page were corrected.** It said the route finished at
+  St. Mary Avenue; the City of Winnipeg's own closure notice and CTV both have it
+  turning south onto Memorial Boulevard and finishing at the Broadway end, with
+  St. Mary Avenue being the western extent of the Portage closure rather than the
+  finish. It also gave the closures as 11 a.m. for southbound Main and 2 p.m. for
+  Portage; the 2026 notice put every full closure in at 11 a.m. and held them
+  until 10 p.m. **One conflict is unresolved and flagged for a later run:**
+  Tourism Winnipeg's own listing and todocanada put the finish at York Avenue,
+  not Broadway. The city's release was taken as authoritative.
+- **The 2026 recap added**, as the rollover rules ask: the Winnipeg Sea Bears led
+  the parade as grand marshal after taking that summer's Canadian Elite
+  Basketball League championship, with owner David Asper framing it as a
+  thank-you to the fans. The edition number was left off the page because
+  sources split between the 117th and the 118th.
+- **Two things that were about to age were dropped:** the "since the summer
+  schedule took effect on June 21, 2026" framing on the D19 Corydon terminal at
+  Kennedy Street, and the 4:46 p.m. sunset for November 14, 2026, replaced with
+  the sun being down before five in mid-November. The transit fare is now stated
+  as the 2026 figure rather than as the current one.
+- Registered as a refresh, with no new entries anywhere: the title and
+  description updated in `articles-data.js`, `articles_data.json`, the
+  `blog.html` noscript card and `blogPost` JSON-LD, with `article:modified_time`,
+  `dateModified` and the sitemap `<lastmod>` set to today, `llms.txt`
+  regenerated (185 posts) and `post-sources.md` updated.
+  `check-blog-listing.py` prints OK.
+
+**Events calendar.** The Santa Parade entry was rolled forward rather than
+removed: 2026-11-14 `confirmed` became 2027-11-13 `typical`, which is the window
+the refreshed post now states. That clears one of yesterday's two stale entries.
+
+- **The one remaining stale entry is still the NHL Heritage Classic**, which
+  ended 2026-10-25, 21 days ago. The playbook keeps a one-off on the calendar
+  until it is more than 30 days past, so it is due for removal on or after
+  2026-11-24.
+- **The two typical entries inside 60 days stay typical.** Arctic Glacier Winter
+  Park (December 19) was re-checked today and The Forks has still published no
+  2026-27 opening date; the most recent posted season ran December 1 to February
+  28 "while conditions last". The Nestaweya River Trail (January 9) was checked
+  yesterday with the same result and both depend on ice, so neither can be
+  confirmed in advance.
+- **Events queue refilled with one item:** Manitoba Moose home games at Canada
+  Life Centre on January 1, 3, 8 and 10, 2027. These fill the January 1 to 10 gap
+  on the calendar, and unlike the Jets and the Goldeyes the Moose have no post at
+  all, so this one needs a post before it can become a calendar entry. The dates
+  came off a ticket aggregator and all four need confirming against the league or
+  the arena before anything is published. Nothing else inside the two-to-eight-week
+  window was found without a post: Greta Van Fleet at Canada Life Centre turned
+  out to be July 10, 2027, well outside it, and the January concerts and shows
+  already sit in the queue.
+
+**Sandbox note.** winnipeg.ca, mbhydrosantaparade.com, tourismwinnipeg.com,
+opentable.ca and theforks.com were all refused at the egress proxy (DNS refused),
+so every fact above was read through search-result summaries rather than fetched
+from the source page. No image was changed, so no image URL needed verifying.
+
+---
+
+
 ## 2026-11-14
 
 **Businesses verified (6, the stalest in the rotation).** Three sat on

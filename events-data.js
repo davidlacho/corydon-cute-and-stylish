@@ -30,15 +30,6 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
-    "title": "Manitoba Hydro Santa Parade",
-    "url": "/blog-santa-claus-parade-winnipeg.html",
-    "start": "2026-11-14",
-    "end": "2026-11-14",
-    "time": "5 p.m.",
-    "venue": "Portage Avenue, downtown",
-    "status": "confirmed"
-  },
-  {
     "title": "Third + Bird Christmas Market",
     "url": "/blog-winnipeg-holiday-markets.html",
     "start": "2026-11-20",
@@ -531,6 +522,15 @@ const EVENTS_DATA = [
     "start": "2027-11-05",
     "end": "2027-11-07",
     "venue": "Canada Life Centre",
+    "status": "typical"
+  },
+  {
+    "title": "Manitoba Hydro Santa Parade",
+    "url": "/blog-santa-claus-parade-winnipeg.html",
+    "start": "2027-11-13",
+    "end": "2027-11-13",
+    "time": "5 p.m.",
+    "venue": "Portage Avenue, downtown",
     "status": "typical"
   }
 ];
