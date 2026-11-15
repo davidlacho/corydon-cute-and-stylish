@@ -133,6 +133,35 @@ opentable.ca and theforks.com were all refused at the egress proxy (DNS refused)
 so every fact above was read through search-result summaries rather than fetched
 from the source page. No image was changed, so no image URL needed verifying.
 
+**pa11y, and a way around the blocked host.** staywinnipeg.ca and
+davidlacho.github.io are both refused at CONNECT by this session's network
+policy, so pa11y cannot reach the live site. Rather than fall back to `file://`,
+which the 2026-11-14 run did and which makes every page fail the skip-link check
+because React never runs, this run served the repository over
+`python3 -m http.server` on 127.0.0.1 and pointed pa11y at that. React loads, the
+pages render as they do in a browser, and all three changed pages pass clean:
+
+- `blog-santa-claus-parade-winnipeg.html`: no issues
+- `blog.html`: no issues
+- `events.html`: no issues
+
+That is the method later runs should use while the live host stays blocked:
+`python3 -m http.server 8765 --bind 127.0.0.1` from the repo root, then
+`NO_PROXY=127.0.0.1 npx --yes pa11y "http://127.0.0.1:8765/<page>" --standard WCAG2AA`.
+
+**Deploy.** Pushed to `main` as ff73e81. The `pages-build-deployment` run for
+that commit (run 497, id 43708280489) completed with all three jobs successful,
+build at 11:18:52 UTC, report-build-status at 11:18:59 and deploy at 11:19:09.
+The deploy job is the furthest this session can confirm: fetching
+https://staywinnipeg.ca/blog or the github.io mirror returns a 403 at the proxy
+CONNECT, so the live page cannot be read from here. **For the owner:** adding
+`staywinnipeg.ca` under Allowed domains in the environment's network settings
+would let the daily run both verify its own deploy and run the pa11y checks
+against the live site the way `CLAUDE.md` specifies.
+
+**Branches.** None to delete. `git branch -r` now lists only `origin/main`, so
+the five stranded `main-*` branches the 2026-11-14 run could not remove are gone.
+
 ---
 
 
