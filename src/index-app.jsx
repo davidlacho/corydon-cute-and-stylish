@@ -945,7 +945,7 @@
                                     <a
                                         className="airbnb-summary-card"
                                         href="/reviews-now.html?source=guest-favorite-summary"
-                                        aria-label="Open Airbnb reviews for this listing"
+                                        aria-label="View this home's Airbnb listing"
                                     >
                                         <div className="airbnb-summary-cell airbnb-summary-guest-favorite">
                                             <img
@@ -993,7 +993,7 @@
                                                     key={review.id}
                                                     className="review-card review-slide review-card-link fade-in-up"
                                                     href={`/reviews-now.html?source=review-card-${review.id}`}
-                                                    aria-label={`Read Airbnb reviews after viewing review from ${review.name}`}
+                                                    aria-label={`Review from ${review.name}. View this home's Airbnb listing`}
                                                 >
                                                     <div className="review-header">
                                                         <div className="review-avatar">{review.avatar}</div>
