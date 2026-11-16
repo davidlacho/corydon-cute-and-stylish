@@ -969,11 +969,11 @@
                                         </div>
                                         <div className="airbnb-summary-cell airbnb-summary-rating">
                                             <span className="airbnb-summary-metric">{listingRatingValue}</span>
-                                            <span className="airbnb-summary-label">Average rating</span>
+                                            <span className="airbnb-summary-label">Host rating</span>
                                         </div>
                                         <div className="airbnb-summary-cell airbnb-summary-count">
                                             <span className="airbnb-summary-metric">{listingReviewCount}</span>
-                                            <span className="airbnb-summary-label">Reviews</span>
+                                            <span className="airbnb-summary-label">Host reviews</span>
                                         </div>
                                     </a>
                                     <section id="reviews" className="reviews" aria-label="Guest reviews">
