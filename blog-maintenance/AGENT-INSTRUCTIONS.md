@@ -445,6 +445,10 @@ every run.
         (a cup of coffee, a patio table, a plate of food, a park path, snow on a
         residential street), not a generic "city" shot.
      Set `imageAlt` to describe what the photo actually shows.
+     **Every post must have its own photo.** Before choosing, grep `articles-data.js`
+     for the file name or Unsplash photo id; if another post already uses it, pick a
+     different one. The owner asked for this on 2026-11-16 after 79 posts were found
+     sharing hero photos.
    - **Never use a skyline, downtown-tower, or cityscape photo of a large city.**
      Winnipeg is a low-rise prairie city, so a generic big-city skyline (New
      York, Toronto, Chicago, an anonymous glass-tower downtown) looks wrong on a

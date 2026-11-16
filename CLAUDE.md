@@ -353,6 +353,7 @@ Commit `src/index-app.jsx` and `app.js` together. Notes that matter when editing
 ### Images
 
 - Hero image: Use in `article-hero-image` div with `loading="eager"`
+- Hero images must be unique across posts: grep `articles-data.js` for the file name or Unsplash photo id before using one, and pick another if a post already has it
 - Other images: Use `loading="lazy"` for performance
 - Always include descriptive `alt` text
 - Images can be from `/images/` directory or external URLs (Unsplash, etc.)
