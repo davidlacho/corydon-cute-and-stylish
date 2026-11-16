@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting to Airbnb Reviews</title>
+    <title>Redirecting to Airbnb Host Profile</title>
     <meta name="robots" content="noindex, nofollow">
     <style>
         :root {
@@ -121,7 +121,9 @@
     </script>
     <script>
         (function () {
-            const airbnbReviewsUrl = 'https://www.airbnb.ca/rooms/716340250371431352/reviews';
+            // The host profile is where the listing's "Meet your host" section links (aria-label "Go to Host full profile");
+            // it shows every review, the average rating and the host details. Owner's choice, 2026-11-16.
+            const airbnbReviewsUrl = 'https://www.airbnb.ca/users/profile/1462516228306445381';
             const destination = new URL(airbnbReviewsUrl);
             const params = new URLSearchParams(window.location.search);
             const source = params.get('source');
@@ -162,11 +164,11 @@
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <main id="main-content">
-        <section class="redirect-card" aria-label="Redirect to Airbnb reviews">
+        <section class="redirect-card" aria-label="Redirect to Airbnb host profile">
             <h1 class="redirect-brand">Stay Winnipeg</h1>
-            <p class="redirect-subtitle">Redirecting you to Airbnb reviews</p>
+            <p class="redirect-subtitle">Redirecting you to our Airbnb host profile</p>
             <div class="loader" aria-hidden="true"></div>
-            <p class="redirect-copy">Redirecting to Airbnb reviews. <a id="continue-link" href="https://www.airbnb.ca/rooms/716340250371431352/reviews">Continue</a>.</p>
+            <p class="redirect-copy">Redirecting to our Airbnb host profile and reviews. <a id="continue-link" href="https://www.airbnb.ca/users/profile/1462516228306445381">Continue</a>.</p>
         </section>
     </main>
 </body>
