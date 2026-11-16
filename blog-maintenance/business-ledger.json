@@ -409,9 +409,11 @@
     {
       "name": "Devil May Care Brewing Company",
       "address": "155-A Fort St",
-      "pages": [],
+      "pages": [
+        "blog-winnipeg-breweries.html"
+      ],
       "status": "open",
-      "last_verified": "2026-10-22"
+      "last_verified": "2026-11-16"
     },
     {
       "name": "Eva's Gelato & Coffee Bar",
@@ -431,10 +433,11 @@
       "address": "587 Ellice Ave",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
-        "blog-indigenous-winnipeg.html"
+        "blog-indigenous-winnipeg.html",
+        "blog-winnipeg-west-end-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-22"
+      "last_verified": "2026-11-16"
     },
     {
       "name": "Foodfare",
@@ -443,7 +446,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-24"
+      "last_verified": "2026-11-16"
     },
     {
       "name": "Fools & Horses Coffee",
@@ -471,7 +474,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-24"
+      "last_verified": "2026-11-16"
     },
     {
       "name": "Fusian Sushi (The Forks Market)",
@@ -480,7 +483,7 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-24"
+      "last_verified": "2026-11-16"
     },
     {
       "name": "Gondola Pizza",
@@ -1221,7 +1224,7 @@
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "moved",
-      "last_verified": "2026-10-22"
+      "last_verified": "2026-11-16"
     },
     {
       "name": "Smokin' Hawg BBQ",

@@ -8,6 +8,139 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-16
+
+**Businesses verified (6, the stalest in the rotation).** Three sat on
+2026-10-22 and three on 2026-10-24. No closure, move or rename was found, so no
+page copy was corrected for a business this run. Two ledger errors were found and
+fixed instead: `pages` was empty for Devil May Care although
+`blog-winnipeg-breweries.html` names it twice, and Feast Cafe Bistro was missing
+`blog-winnipeg-west-end-guide.html`. An unlisted page is a page that would not
+have been corrected if the business had closed.
+
+- **Devil May Care Brewing Company, 155-A Fort St** (`blog-winnipeg-breweries.html`):
+  open. A travel write-up published in April 2026 describes a visit to the
+  taproom, which is trading evidence rather than a directory stub, and two
+  directories carry the same taproom schedule our page already states, noon daily
+  with an 11 p.m. close Thursday to Saturday. The 2022 opening-era hours on
+  Canadian Beer News are superseded. **`pages` corrected from empty to
+  `["blog-winnipeg-breweries.html"]`**, which names it in the Exchange District
+  answer and again in the Monday and Sunday answer.
+- **Feast Cafe Bistro, 587 Ellice Ave** (`blog-best-places-nearby-winnipeg.html`,
+  `blog-indigenous-winnipeg.html`, `blog-winnipeg-west-end-guide.html`): open. Its
+  OpenTable listing carries posted weekday and Saturday hours and takeout, the
+  Indigenous Tourism Manitoba and Destination Indigenous operator listings are
+  both live, and a Manitoba Inc. feature frames the restaurant as a decade of
+  culinary entrepreneurship, consistent with the December 2015 opening CBC
+  reported. A Sluurpy listing carries a "has this closed permanently?" prompt;
+  that is a form field, not evidence. **`blog-winnipeg-west-end-guide.html` added
+  to `pages`.**
+- **Danny's Whole Hog BBQ & Smokehouse, 12045 MB-67, Stony Mountain**
+  (`blog-winnipeg-steakhouses-bbq.html`): still moved, status unchanged, and our
+  page already says so correctly. A Golden West business profile marks 25 years
+  of trading, which puts it in 2026 for a business started in 2001, and describes
+  catering, drop-off and pickup only, from Highway 67 east of Highway 7. A
+  Stony Mountain listing carries weekday 8 a.m. to 4.30 p.m. and Saturday 10 a.m.
+  to 3 p.m. hours. Our page states no hours and already warns readers not to
+  drive out expecting a table.
+- **Foodfare, 247 Lilac St** (`blog-best-places-nearby-winnipeg.html`): open on
+  moderate evidence. A grocery-flyer directory lists the Lilac Street store as
+  operating with 9 a.m. to 9 p.m. weekday hours, and nothing in the 2026 Winnipeg
+  grocery news (FreshCo's new store, T&T coming to Polo Park, Adelina's No Frills
+  on McPhillips, the Portage Place and Market Lands stores) concerns Foodfare.
+  Nothing dated 2026 names this store directly, so it is worth a harder look next
+  rotation. Our page states the address and no hours. Note for a future run:
+  `index.html` also names the Foodfare, inside a guest review, which is quoted
+  text and not ours to edit, so it was not added to `pages`.
+- **French Way Cafe, 238 Lilac St** (`blog-best-breakfast-brunch-near-corydon-airbnb.html`,
+  `blog-best-places-nearby-winnipeg.html`): open. Three independent listings carry
+  the 238 Lilac Street address with a live schedule and no closure flag, and they
+  agree on the shape of it: closed Mondays, 7 a.m. to 5 p.m. Tuesday and
+  Wednesday, Sundays 9 a.m. to 4 p.m. An Atly note about long waits at peak
+  brunch hours is the kind of thing only a trading cafe gets. None of the sources
+  is dated 2026 and they disagree past Wednesday; our pages state no hours.
+- **Fusian Sushi (The Forks Market), 1 Forks Market Rd**
+  (`blog-winnipeg-vegan-restaurants.html`): unverified, left unchanged. The Forks'
+  own vendor page describes a kiosk version of Fusian Experience on Main Street
+  inside the market, and a directory gives Unit 125, but nothing dated 2026
+  confirms it is still in the building, and `www.theforks.com` is refused at the
+  sandbox proxy so the tenant directory could not be read. Treated as unchanged
+  per Part 1 step 3. Our page names it in a list of market vendors with no hours
+  or prices. **This one should be re-checked early, not left to the rotation.**
+
+**Ledger sweep (one post, per the rotation).** `blog-smart-tv-every-bedroom.html`
+was swept and needed no entries: it is a hosting-decision piece about putting a
+smart TV in each of the three bedrooms and it names no commercial business at
+all, not even a streaming service. 87 posts remain unswept. The ledger still
+holds 200 businesses.
+
+**Page refreshed: `blog-winnipeg-jets.html`.** Slug, URL and title unchanged.
+This was the top of the Events queue: the calendar-only Jets vs San Jose entry
+of December 28, 2026, which the queue says a run should confirm against the club
+and name in the post before adding to the calendar. Written as question and
+answer, the form the page already had and the one the rotation rule left free
+after explainer (11-13), host's notes (11-14) and walk (11-15).
+
+- **The page was two months out of date.** It opened on "the Winnipeg Jets open
+  their 2026-27 home schedule on Friday, October 2" and described the October 25
+  Heritage Classic against Montreal in the future tense, seven weeks after it was
+  played. Both now read as past, and the opening moves to December and January,
+  which is the window guests are actually booking.
+- **Two new questions answered**, which is what a visitor searching now types:
+  "Which home games are left in December?" (Philadelphia December 8, Chicago
+  December 10, Dallas December 19 and 20, San Jose December 28) and "What about
+  January?" (seven games, Calgary January 2 through Buffalo January 24, all
+  7 p.m. except Buffalo at 3 p.m.).
+- **The December 28 start time is not stated anywhere, deliberately.** The date
+  is solid across ESPN, CBS Sports, Ticketmaster and the arena listing, but the
+  time is not: 7:30 p.m. on ESPN and CBS, 7 p.m. on Ticketmaster, 6:30 p.m. on
+  the resale sites. The page carries a "Before you go" box sending the reader to
+  winnipegjets.com for puck drop instead, and the calendar entry has no `time`
+  field. The team's current record was also left off: three sources gave three
+  different records on the same day.
+- **Two stale paragraphs replaced rather than patched:** the "when are the Jets
+  actually in town" answer no longer leads with the October 2 opener and the
+  October 4 Detroit trip, and the "where should we stay" answer no longer names
+  the Heritage Classic weekend as a date that tightens early. It names the Dallas
+  pair and December 28 instead.
+- Registered as a refresh, with no new entries anywhere: the description updated
+  in `articles-data.js`, `articles_data.json`, the `blog.html` noscript card and
+  `blogPost` JSON-LD, with `article:modified_time`, `dateModified` and the
+  sitemap `<lastmod>` set to today. `llms.txt` regenerated (185 posts) and
+  `post-sources.md` updated. `check-blog-listing.py` prints OK.
+
+**Events calendar.** Ten entries added, all pointing at the refreshed Jets post
+and all dates the post now names: December 8 Philadelphia, December 10 Chicago,
+December 28 San Jose, then January 2 Calgary, January 7 Nashville, January 9
+Utah, January 16 Anaheim, January 19 Minnesota, January 21 New York Rangers and
+January 24 Buffalo. That closes the two gaps earlier runs flagged, December 21 to
+29 and January 1 to 10, which are the weeks guests ask about most. The existing
+Dallas back-to-back entry gained the sourced times (7 p.m. Saturday, 5 p.m.
+Sunday). 73 entries now, 72 upcoming.
+
+- **The one stale entry is still the NHL Heritage Classic**, which ended
+  2026-10-25, 22 days ago. The playbook keeps a one-off until it is more than 30
+  days past, so it is due for removal on or after 2026-11-24.
+- **Typical entries inside 60 days stay typical.** The snow maze at A Maze in
+  Corn was the one not checked recently: cornmaze.ca now says "Opens: mid January
+  2027" and "The Den - Opens February 2027", with no day named, which is exactly
+  what our 2027-01-15 `typical` entry assumes, so it was left alone. Arctic
+  Glacier Winter Park and the Nestaweya River Trail were checked on 2026-11-15
+  and 2026-11-14 with nothing announced; both depend on ice.
+- **Nothing was added to the events queue this run.** The only candidate inside
+  the two-to-eight-week window without a post was a "Frost" Cirque holiday show
+  that one aggregator listed for December 14 at the Centennial Concert Hall. It
+  does not survive checking: every FROST listing found is a US touring date (Five
+  Flags Center on December 9, the PACE Center in Parker, Colorado on November 28
+  and 29) and no Winnipeg date exists for it. Not added. Everything else in the
+  window already has a post or a calendar entry.
+- **One conflict for a later run.** Listings split on Jann Arden and Her Holiday
+  Orchestra at the Centennial Concert Hall: December 8 at 7:30 p.m. on most,
+  December 9 on at least one. Our calendar and
+  `blog-jann-arden-holiday-orchestra-winnipeg.html` carry December 8. Worth
+  confirming against the hall before the week of.
+
+
 ## 2026-11-15
 
 **Businesses verified (6, the stalest in the rotation).** One sat on 2026-10-20,

@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-smart-tv-every-bedroom.html
 - blog-spa-shower-upgrade.html
 - blog-st-boniface-walking-guide.html
 - blog-st-vital-park.html
@@ -103,6 +102,7 @@ last because they are partly covered.
 
 ## Swept
 
+- blog-smart-tv-every-bedroom.html (2026-11-16, no ledger entries needed: the post names no commercial business at all. It is a hosting-decision piece about putting a smart TV in each of the three bedrooms, and it names no restaurant, cafe, bar, shop or streaming service; its only references are to the house itself and to group sleeping arrangements. Nothing to append to an existing entry either.)
 - blog-ruskin-row-residents.html (2026-11-15, no ledger entries needed: the post names no restaurant, cafe, bar, shop or other guest-facing commercial business. Its company names are all historical and defunct (Stovel Printing Company, Lake of the Woods Milling Company, Confederation Life Assurance, the British Elevator Company, Russell, Lang & Co.), and the two present-day firms it names, Design Shop Interior Design and Harris Builders, worked on a private renovation at 12 Ruskin Row and fall outside the ledger's scope. The Manitoba Historical Society and the Winnipeg Regional Real Estate Board are institutions. Per the playbook this page is left alone otherwise: it draws searches for individual Ruskin Row addresses and is not to be optimised.)
 - blog-royal-aviation-museum-guide.html (2026-11-14, no ledger entries needed: the post names no commercial business. The Royal Aviation Museum of Western Canada is an institution and Winnipeg Richardson International Airport is infrastructure, so neither takes an entry; the post names no restaurant, cafe, bar or shop, and its only other references are to other pages on this site.)
 - blog-river-walks.html (2026-11-13, no ledger entries needed: the post names no commercial business. It refers to The Forks, Assiniboine Park and St. Vital Park as places, not to The Forks Market or any tenant, so no filename was appended to an existing entry either. Flagged for the owner: the post is one of the oldest on the site and carries several house-style tells ("isn't just", "Whether you're", "offers something for everyone"), so it is a candidate for the Refresh queue.)

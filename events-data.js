@@ -106,6 +106,24 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
+    "title": "Winnipeg Jets vs Philadelphia",
+    "url": "/blog-winnipeg-jets.html",
+    "start": "2026-12-08",
+    "end": "2026-12-08",
+    "time": "7 p.m.",
+    "venue": "Canada Life Centre, 300 Portage Ave",
+    "status": "confirmed"
+  },
+  {
+    "title": "Winnipeg Jets vs Chicago",
+    "url": "/blog-winnipeg-jets.html",
+    "start": "2026-12-10",
+    "end": "2026-12-10",
+    "time": "7 p.m.",
+    "venue": "Canada Life Centre, 300 Portage Ave",
+    "status": "confirmed"
+  },
+  {
     "title": "JP Hoe Hoe Hoe Holiday Show",
     "url": "/blog-jp-hoe-holiday-show-winnipeg.html",
     "start": "2026-12-11",
@@ -133,20 +151,20 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
+    "title": "Royal Winnipeg Ballet: Nutcracker",
+    "url": "/blog-rwb-nutcracker-winnipeg.html",
+    "start": "2026-12-18",
+    "end": "2026-12-27",
+    "venue": "Centennial Concert Hall",
+    "status": "confirmed"
+  },
+  {
     "title": "Vinterfest craft market at IKEA Winnipeg",
     "url": "/blog-vinterfest-market-winnipeg.html",
     "start": "2026-12-18",
     "end": "2026-12-20",
     "time": "10 a.m., closing 8 p.m. Friday",
     "venue": "IKEA Winnipeg, 500 Sterling Lyon Parkway",
-    "status": "confirmed"
-  },
-  {
-    "title": "Royal Winnipeg Ballet: Nutcracker",
-    "url": "/blog-rwb-nutcracker-winnipeg.html",
-    "start": "2026-12-18",
-    "end": "2026-12-27",
-    "venue": "Centennial Concert Hall",
     "status": "confirmed"
   },
   {
@@ -157,20 +175,29 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
-    "title": "Winnipeg Jets vs Dallas, back-to-back",
-    "url": "/blog-winnipeg-jets.html",
-    "start": "2026-12-19",
-    "end": "2026-12-20",
-    "venue": "Canada Life Centre",
-    "status": "confirmed"
-  },
-  {
     "title": "Arctic Glacier Winter Park opens for the season",
     "url": "/blog-arctic-glacier-winter-park-forks.html",
     "start": "2026-12-19",
     "end": "2027-03-07",
     "venue": "The Forks",
     "status": "typical"
+  },
+  {
+    "title": "Winnipeg Jets vs Dallas, back-to-back",
+    "url": "/blog-winnipeg-jets.html",
+    "start": "2026-12-19",
+    "end": "2026-12-20",
+    "time": "7 p.m. Saturday, 5 p.m. Sunday",
+    "venue": "Canada Life Centre",
+    "status": "confirmed"
+  },
+  {
+    "title": "Winnipeg Jets vs San Jose",
+    "url": "/blog-winnipeg-jets.html",
+    "start": "2026-12-28",
+    "end": "2026-12-28",
+    "venue": "Canada Life Centre, 300 Portage Ave",
+    "status": "confirmed"
   },
   {
     "title": "Trooper at the Burton Cummings Theatre",
@@ -190,12 +217,39 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
+    "title": "Winnipeg Jets vs Calgary",
+    "url": "/blog-winnipeg-jets.html",
+    "start": "2027-01-02",
+    "end": "2027-01-02",
+    "time": "7 p.m.",
+    "venue": "Canada Life Centre, 300 Portage Ave",
+    "status": "confirmed"
+  },
+  {
+    "title": "Winnipeg Jets vs Nashville",
+    "url": "/blog-winnipeg-jets.html",
+    "start": "2027-01-07",
+    "end": "2027-01-07",
+    "time": "7 p.m.",
+    "venue": "Canada Life Centre, 300 Portage Ave",
+    "status": "confirmed"
+  },
+  {
     "title": "Nestaweya River Trail skating season",
     "url": "/blog-nestaweya-river-trail.html",
     "start": "2027-01-09",
     "end": "2027-03-07",
     "venue": "Red and Assiniboine rivers at The Forks",
     "status": "typical"
+  },
+  {
+    "title": "Winnipeg Jets vs Utah",
+    "url": "/blog-winnipeg-jets.html",
+    "start": "2027-01-09",
+    "end": "2027-01-09",
+    "time": "7 p.m.",
+    "venue": "Canada Life Centre, 300 Portage Ave",
+    "status": "confirmed"
   },
   {
     "title": "Snow maze at A Maze in Corn",
@@ -206,6 +260,15 @@ const EVENTS_DATA = [
     "status": "typical"
   },
   {
+    "title": "Winnipeg Jets vs Anaheim",
+    "url": "/blog-winnipeg-jets.html",
+    "start": "2027-01-16",
+    "end": "2027-01-16",
+    "time": "7 p.m.",
+    "venue": "Canada Life Centre, 300 Portage Ave",
+    "status": "confirmed"
+  },
+  {
     "title": "Warming Huts on the river trail",
     "url": "/blog-warming-huts-red-river-trail.html",
     "start": "2027-01-18",
@@ -214,12 +277,39 @@ const EVENTS_DATA = [
     "status": "typical"
   },
   {
+    "title": "Winnipeg Jets vs Minnesota",
+    "url": "/blog-winnipeg-jets.html",
+    "start": "2027-01-19",
+    "end": "2027-01-19",
+    "time": "7 p.m.",
+    "venue": "Canada Life Centre, 300 Portage Ave",
+    "status": "confirmed"
+  },
+  {
     "title": "Winnipeg New Music Festival",
     "url": "/blog-winnipeg-new-music-festival.html",
     "start": "2027-01-20",
     "end": "2027-01-28",
     "venue": "Centennial Concert Hall",
     "status": "typical"
+  },
+  {
+    "title": "Winnipeg Jets vs New York Rangers",
+    "url": "/blog-winnipeg-jets.html",
+    "start": "2027-01-21",
+    "end": "2027-01-21",
+    "time": "7 p.m.",
+    "venue": "Canada Life Centre, 300 Portage Ave",
+    "status": "confirmed"
+  },
+  {
+    "title": "Winnipeg Jets vs Buffalo",
+    "url": "/blog-winnipeg-jets.html",
+    "start": "2027-01-24",
+    "end": "2027-01-24",
+    "time": "3 p.m.",
+    "venue": "Canada Life Centre, 300 Portage Ave",
+    "status": "confirmed"
   },
   {
     "title": "Festival du Voyageur",
@@ -319,20 +409,20 @@ const EVENTS_DATA = [
     "status": "typical"
   },
   {
-    "title": "Table for 1200",
-    "url": "/blog-table-for-1200-winnipeg.html",
-    "start": "2027-05-29",
-    "end": "2027-05-29",
-    "venue": "Secret location, announced at noon",
-    "status": "typical"
-  },
-  {
     "title": "Doors Open Winnipeg",
     "url": "/blog-doors-open-winnipeg.html",
     "start": "2027-05-29",
     "end": "2027-05-30",
     "venue": "Buildings across the city",
     "status": "confirmed"
+  },
+  {
+    "title": "Table for 1200",
+    "url": "/blog-table-for-1200-winnipeg.html",
+    "start": "2027-05-29",
+    "end": "2027-05-29",
+    "venue": "Secret location, announced at noon",
+    "status": "typical"
   },
   {
     "title": "Kidsfest (Winnipeg International Children's Festival)",

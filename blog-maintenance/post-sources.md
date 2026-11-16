@@ -16,6 +16,47 @@ Newest first.
 
 ---
 
+## blog-winnipeg-jets.html, refreshed 2026-11-16
+
+Mid-season refresh. The page was written before the season started and still
+opened on the October 2 home opener and put the October 25 Heritage Classic in
+the future tense. It now opens on December and January, the window guests are
+booking, and carries the home dates for both months.
+
+All of it came through search-result summaries; every sports and ticketing host
+tried (`www.cbssports.com`, `www.theforks.com`) is refused at the sandbox proxy,
+so no page was fetched directly this run.
+
+- **December home games.** Philadelphia Tuesday December 8 at 7 p.m. (Ticketmaster
+  bills it as Canadian Armed Forces Night), Chicago Thursday December 10 at
+  7 p.m., Dallas Saturday December 19 at 7 p.m. and Sunday December 20 at 5 p.m.,
+  San Jose Monday December 28. Ticketmaster's own home-games listing and CBS
+  Sports agree on the dates; the Dallas pair was already on the page from the
+  club's season preview.
+- **The December 28 start time is still unresolved and deliberately not on the
+  page.** ESPN's game page and CBS Sports both give 7:30 p.m., Ticketmaster gives
+  7 p.m., and the resale listings (StubHub, EventTicketsCenter) give 6:30 p.m. A
+  JustWatch listing showing 4:30 p.m. is a time-zone artefact. The date itself is
+  solid across all of them, so the calendar entry carries the date with no `time`
+  field and the post sends the reader to winnipegjets.com for puck drop.
+- **January home games.** Calgary Saturday January 2, Nashville Thursday
+  January 7, Utah Saturday January 9, Anaheim Saturday January 16, Minnesota
+  Tuesday January 19, the New York Rangers Thursday January 21, Buffalo Sunday
+  January 24. All 7 p.m. except Buffalo at 3 p.m. Canada Life Centre's own
+  `/events/jets-events/` listing and Ticketmaster agree on dates and times;
+  several carry promotional names (Après Ski Night, Mittens Giveaway, Ukrainian
+  Heritage Night) which were left off the page because they move.
+- **Not used:** the team's current record. StatMuse gave 4-3-2, Legion Report
+  4-4-3 and Champs or Chumps 2-0-1 on the same day, so no standing is stated
+  anywhere on the page.
+- **Unchanged and still sourced from the earlier pass:** the January 28 to
+  February 15 road stretch, the February 4 to 12 All-Star break, the March 1 to
+  13 homestand, the March 11 Toronto and April 7 Edmonton dates, the $3.45 cash
+  and $3.10 peggo transit fare, the parkade and bag-policy detail, and the
+  -21°C January overnight average.
+
+---
+
 ## blog-santa-claus-parade-winnipeg.html, rolled over to 2027 on 2026-11-15
 
 No 2027 date exists to source: nothing from the organiser, Tourism Winnipeg or
