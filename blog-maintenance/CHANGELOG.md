@@ -141,6 +141,43 @@ Sunday). 73 entries now, 72 upcoming.
   confirming against the hall before the week of.
 
 
+**pa11y.** Served the repository over `python3 -m http.server 8765 --bind
+127.0.0.1` and ran `NO_PROXY=127.0.0.1 npx --yes pa11y
+"http://127.0.0.1:8765/<page>" --standard WCAG2AA`, the method the 2026-11-15
+run established while the live host stays blocked. All three changed pages pass
+with no issues: `blog-winnipeg-jets.html`, `blog.html`, `events.html`.
+
+**Deploy.** Pushed to `main` as 1b8ca92. The `pages-build-deployment` run for
+that commit (run 499, id 43856716692) completed with all three jobs successful:
+build at 11:19:55 UTC, report-build-status at 11:20:03 and the deploy at
+11:20:09. There is no manually dispatchable deploy workflow in this repository;
+the Pages build is the dynamic one GitHub runs on every push to `main`, so the
+push is what deploys. The deploy job is the furthest this session can confirm:
+`https://staywinnipeg.ca/blog` and `https://staywinnipeg.ca/blog-winnipeg-jets.html`
+both fail at the proxy CONNECT, so the live pages cannot be read from here.
+**For the owner, third run in a row asking:** the environment's network policy
+is Limited with an empty Allowed domains list. Adding `staywinnipeg.ca` there
+(cloud environment menu in the session title bar, then Edit, Network access,
+Allowed domains, leaving Allow package managers ticked) would let the daily run
+verify its own deploy and run pa11y against the live site the way `CLAUDE.md`
+specifies. No change was proposed from inside this run, because an approval card
+raised by an unattended 11 a.m. job would sit unanswered.
+
+**Branches. Five stale remote branches still cannot be deleted from here.**
+`git push origin --delete` fails for every one of them with "send-pack:
+unexpected disconnect while reading sideband packet", which is the sandbox proxy
+refusing ref deletes, and the GitHub tools available to this session have no
+delete-branch method. They were checked first and every one is safe to remove:
+each is a stranded October daily-run branch whose posts (table-for-1200,
+doors-open, freeze-frame, winnipeg-pride) all exist on `main`, and none carries a
+file `main` lacks except `main-u6mm7q`, which still holds
+`blog-winnipeg-accessible-attractions.html` from before the owner asked for that
+page to be removed. **For the owner to delete in the GitHub UI:**
+`origin/main-42tnc4`, `origin/main-93eu68`, `origin/main-t3tkyj`,
+`origin/main-u6mm7q`, `origin/main-wnplpp`. Note that `main-u6mm7q` and
+`main-wnplpp` were not visible to the 2026-11-15 run, which reported only
+`origin/main` remaining; they came back on this run's `git fetch --prune`.
+
 ## 2026-11-15
 
 **Businesses verified (6, the stalest in the rotation).** One sat on 2026-10-20,
