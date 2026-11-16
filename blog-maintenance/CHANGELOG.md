@@ -8,6 +8,53 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-16 (owner session, not the cron)
+
+Handoff from an interactive session with the owner. Five commits, all on `main`
+and deployed: 82d3899, 71f693d, 999d06e, 2a15465, a16c854.
+
+**Every post now has its own hero photo (82d3899).** 79 of 185 posts shared a hero
+with at least one other post, in 40 groups. The oldest post in each group kept its
+photo. Nine of the others got unused local `images/` photos and 70 got Unsplash
+photos of their actual subject, each checked by eye; every URL returned 200 at
+full size. Each post's og:image, twitter:image, JSON-LD image, hero `<img>` and
+hero alt changed together with `articles-data.js`, `articles_data.json`, the
+`blog.html` card and the sitemap `<lastmod>`. Six posts whose head tags disagreed
+with their listing image were aligned too. The rule is now written into
+`CLAUDE.md` (Images) and `AGENT-INSTRUCTIONS.md` (choosing the `image`). **Before
+picking a hero, grep `articles-data.js` for the file name or Unsplash photo id and
+choose another if any post already uses it.** A new local file,
+`images/guidebook-winnipeg-12-g-to-bakeshop.jpg`, is a JPEG copy of the existing
+PNG and is the bakeries post's hero.
+
+**James's 5-star review added (71f693d).** Total reviews 127, 5-star tally 117,
+rating unchanged at 4.89. All count references were updated per the review
+workflow; no review below 5 stars is in the array.
+
+**Homepage review links now open the Airbnb listing (999d06e, 2a15465, a16c854).**
+`reviews-now.html` redirects to `https://www.airbnb.ca/rooms/716340250371431352`,
+the top of the listing, with its tracking parameters unchanged. The owner wanted
+the "Meet your host" section of the listing, but no URL can reach it: the section
+has no element id, Airbnb ignores id fragments even for elements that exist, and
+it rewrites text fragments on load. Do not point the redirect at the host profile
+(the owner rejected it) or at the `/reviews` popup. The review cards' accessible
+labels now say they open the listing.
+
+**Host figures and listing figures are different numbers, and both are right.**
+The site's 4.89 from 127 reviews are the owner's host totals. The listing banner
+shows the listing's own 4.86 from 103. The homepage summary card now labels its
+figures "Host rating" and "Host reviews". When reconciling counts against
+Airbnb, never change the site's numbers to the listing's.
+
+**Checks.** `check-blog-listing.py` printed OK and `update-llms.py` was rerun.
+Live pa11y (WCAG2AA) passed on the homepage, `blog.html`, `tours-experiences.html`,
+the Corydon post and five re-imaged posts. The full sitemap pa11y sweep was not
+run, because the other edited posts changed only an image URL and alt text.
+
+**Open items.** None from this session.
+
+---
+
 ## 2026-11-16
 
 **Businesses verified (6, the stalest in the rotation).** Three sat on
