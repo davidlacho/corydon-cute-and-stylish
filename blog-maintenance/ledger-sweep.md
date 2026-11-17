@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-spa-shower-upgrade.html
 - blog-st-boniface-walking-guide.html
 - blog-st-vital-park.html
 - blog-sunday-on-corydon-avenue.html
@@ -102,6 +101,7 @@ last because they are partly covered.
 
 ## Swept
 
+- blog-spa-shower-upgrade.html (2026-11-17, no ledger entries needed: the post is a hosting announcement about a shower panel being installed in the house, and it names no commercial business. No manufacturer or retailer is named for the panel, and its only outward references are to Canada Life Centre, Assiniboine Park, The Forks and "Corydon's restaurants" in the abstract, none of which takes an entry.)
 - blog-smart-tv-every-bedroom.html (2026-11-16, no ledger entries needed: the post names no commercial business at all. It is a hosting-decision piece about putting a smart TV in each of the three bedrooms, and it names no restaurant, cafe, bar, shop or streaming service; its only references are to the house itself and to group sleeping arrangements. Nothing to append to an existing entry either.)
 - blog-ruskin-row-residents.html (2026-11-15, no ledger entries needed: the post names no restaurant, cafe, bar, shop or other guest-facing commercial business. Its company names are all historical and defunct (Stovel Printing Company, Lake of the Woods Milling Company, Confederation Life Assurance, the British Elevator Company, Russell, Lang & Co.), and the two present-day firms it names, Design Shop Interior Design and Harris Builders, worked on a private renovation at 12 Ruskin Row and fall outside the ledger's scope. The Manitoba Historical Society and the Winnipeg Regional Real Estate Board are institutions. Per the playbook this page is left alone otherwise: it draws searches for individual Ruskin Row addresses and is not to be optimised.)
 - blog-royal-aviation-museum-guide.html (2026-11-14, no ledger entries needed: the post names no commercial business. The Royal Aviation Museum of Western Canada is an institution and Winnipeg Richardson International Airport is infrastructure, so neither takes an entry; the post names no restaurant, cafe, bar or shop, and its only other references are to other pages on this site.)

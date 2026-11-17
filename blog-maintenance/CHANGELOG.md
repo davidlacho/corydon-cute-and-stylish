@@ -8,6 +8,110 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-17
+
+**Businesses verified (6, the stalest in the rotation).** Four Bali entries from
+`blog-bali-nyaman.html` and two Winnipeg ones, all dated 2026-10-24 or 10-25. No
+closure was found. One geographic error was corrected on a page as a result.
+
+- **Cafe Cinta, Pererenan, Bali** (`blog-bali-nyaman.html`): still moved, status
+  unchanged. A live Bali.live venue listing describes Cinta in Pererenan as a
+  trading restaurant and cafe, which is what the ledger already records; a
+  separate listing still carries an old Jalan Pantai Berawa address, which is the
+  move itself rather than a second business. The page names it in a past-tense
+  recollection of a stay, so nothing on it needed changing.
+- **Baked, Canggu** (`blog-bali-nyaman.html`): open. Both outlets in the ledger
+  address are live on separate listings with posted hours, Berawa at Jl Raya
+  Semat Gg. Kupu Kupu No. 1 and Pererenan at Jl Pantai Pererenan No. 118. The
+  listings disagree on the closing time, between 4 p.m. and 7 p.m.; our page
+  states no hours.
+- **Finns Beach Club, Berawa** (`blog-bali-nyaman.html`): open, on the strongest
+  evidence in the batch. A July 2026 trade piece reports a new VIP section opening
+  on the venue's first level on August 1, 2026. A separate item about Finns
+  Recreation Club, the inland sports club, closing to be rebuilt as a resort says
+  in the same breath that the beach club remains open; the two are different
+  businesses and should not be confused on a future run.
+- **Atlas Beach Club, Berawa** (`blog-bali-nyaman.html`): open. Several 2026
+  guides describe it as operating; nothing reports a closure or suspension.
+- **7-Eleven, 781 Corydon Ave** (`blog-grocery-runs-near-corydon-airbnb.html`):
+  open. The store is taking delivery orders on Uber Eats as "781 Corydon &
+  Arbuthnot", which is trading evidence rather than a directory stub, and a
+  flyer directory lists it as 24 hours. Worth noting for future rotations that
+  7-Eleven Canada has closed Winnipeg stores over theft since 2024, ten named as
+  at risk and four confirmed closed; none of the coverage names this one.
+- **Safeway, 655 Osborne St** (`blog-grocery-runs-near-corydon-airbnb.html`):
+  open. Safeway's own site lists the store as "Safeway Osborne and Kylemore" with
+  a phone number, and it has an active FoodHero store page. **Renamed in the
+  ledger from "Safeway (Osborne Village)" to "Safeway (Osborne at Kylemore)" and
+  the address completed**, because the store is not in Osborne Village: 655
+  Osborne is at Kylemore Avenue, south of the Osborne Street bridge.
+  `blog-grocery-runs-near-corydon-airbnb.html` called it Osborne Village in five
+  places, including the keywords meta, and now says where it actually is. The
+  same sentence claimed "a short walk or quick rideshare" from Crescentwood for a
+  trip of some kilometres; that is now "a short drive or rideshare". No other
+  page names the store.
+
+**Ledger sweep (one post, per the rotation).** `blog-spa-shower-upgrade.html`
+was swept and needed no entries: it is a hosting announcement about a shower
+panel and names no commercial business, not even a manufacturer. 86 posts remain
+unswept. The ledger still holds 200 businesses.
+
+**No new post could be published: every image host is refused at the sandbox
+proxy.** images.unsplash.com, upload.wikimedia.org, images.pexels.com and
+cdn.pixabay.com all answer 403 at CONNECT, so no hero photo can be fetched or
+even checked for a 200. Since the owner's 2026-11-16 rule that every post carries
+its own hero, there is no unused local file in `images/` left that could honestly
+illustrate a new post, and none at all that depicts hockey or an arena. The top
+of the Events queue, the Manitoba Moose post, is therefore blocked rather than
+skipped, and a note saying so sits at the head of the queue. **Owner action:
+either allow an image host in the environment's network settings or add photos to
+`images/`, and the queue starts moving again.** The Moose research was done
+anyway and is recorded in the queue entry so the next run does not repeat it: six
+January home games and six in December, with dates and start times.
+
+**Page refreshed instead: `blog-nhl-heritage-classic-winnipeg-2026.html`.** Slug,
+URL and title unchanged. It was the stalest page on the site. The game was played
+on October 25 and the whole page was still in the future tense, laid out hour by
+hour as a plan for a Sunday three weeks gone, down to telling readers to check
+gate times "that week". Rewritten as an explainer, the form the rotation rule left
+free after host's notes (11-14), walk (11-15) and question and answer (11-16).
+
+- **The result leads the page now.** Montreal won 2-1 in front of 32,342, Jacob
+  Fowler made 33 saves, and Winnipeg became the tenth city to host more than one
+  outdoor NHL game. The 2016 comparison the page already carried (33,240, Edmonton
+  3-0) now has something to sit beside. No goal scorer is named: the search
+  summaries that came back disagreed and included players from other clubs.
+- **What survived is what still has a use.** The rink geometry on a football
+  field, the late-October light and temperature, the Seel and Clarence
+  park-and-ride lots, the BLUE, F8, F9, 74, X74, XF8 and XBLUE service, the 2026
+  fare, and the Gate 4 pickup that appears in no published schedule. Those apply
+  to anything that fills Princess Auto Stadium, which is why the page keeps them.
+- **The drive time from the house was wrong and is now right**: "about fifteen
+  minutes" became thirteen, from the verified distance table in the playbook.
+- **The league has announced no next Heritage Classic**, and the page says so
+  rather than implying another one is coming. The single `info-box` points
+  readers at nhl.com and at our Jets guide for games they can actually attend.
+- Descriptions synced in `articles-data.js`, `articles_data.json`, the
+  `blog.html` noscript card and the `blogPost` JSON-LD; `article:modified_time`,
+  `dateModified` and the sitemap `<lastmod>` set to today; `update-llms.py` rerun
+  and `check-blog-listing.py` printing OK for all 185 posts.
+
+**Events calendar.** `events-data.js` was not changed this run. The one stale
+entry is the Heritage Classic itself, 23 days past; the playbook keeps a one-off
+on the calendar until it is more than 30 days past, so it stays until a run on or
+after November 25 removes it. The three typical entries starting within 60 days
+were each checked once and all three stay typical: The Forks has announced
+nothing for the 2026-27 river trail or Arctic Glacier Winter Park season, and
+A Maze in Corn's own site still says only "Opens: mid January 2027", which is the
+window our entry already uses. Nothing was added to the events queue: the January
+searches turned up Winterruption, Hilary Duff and Beetlejuice, all already queued,
+the New Music Festival, already on the calendar, and a run of Club Regent club
+shows too small to plan a trip around. `update-events.py` was rerun and moved only
+the page's date stamp, and `events.html` got a sitemap `<lastmod>` bump for it.
+
+---
+
+
 ## 2026-11-16 (owner session, not the cron)
 
 Handoff from an interactive session with the owner. Five commits, all on `main`

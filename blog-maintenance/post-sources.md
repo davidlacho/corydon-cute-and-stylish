@@ -16,6 +16,57 @@ Newest first.
 
 ---
 
+## blog-nhl-heritage-classic-winnipeg-2026.html, refreshed 2026-11-17
+
+The game had been played three weeks earlier and the whole page was still in the
+future tense, telling readers how to plan for a Sunday that had already gone.
+Rewritten as an explainer in the past tense: the result first, then what the
+night showed about watching a game on a football field in Fort Garry, which is
+what still has a use for anyone attending anything at that stadium.
+
+Everything came through search-result summaries. `en.wikipedia.org`,
+`www.canadalifecentre.ca` and `theahl.com` are all refused at the sandbox proxy,
+so no page was fetched directly.
+
+- **Result, 2-1 Montreal.** Agreed by the NHL's own recap
+  (nhl.com/news/montreal-canadiens-winnipeg-jets-heritage-classic-game-recap-october-25-2026),
+  ESPN's box score for the October 25, 2026 game, and The Hockey News ("Power
+  Outage: Jets Fall 2-1 to Canadiens in Heritage Classic").
+- **Jacob Fowler, 33 saves.** In the NHL recap's own headline. Individual goal
+  scorers were reported inconsistently in the summaries that came back, including
+  two names who play for other clubs, so no scorer is named on the page.
+- **Attendance 32,342.** ESPN's box score and the Wikipedia article on the 2026
+  NHL Heritage Classic give the same figure. One aggregator says 32,343; the two
+  agreeing sources were used.
+- **Tenth city to host more than one outdoor NHL game.** The league's own 2026
+  Heritage Classic media guide (media.nhl.com, 2026HeritageClassicGuide.pdf) as
+  quoted in search results.
+- **No 2027 Heritage Classic announced.** Searched for one; the only outdoor
+  games found for the rest of the season are the Winter Classic on December 31,
+  2026 at Rice-Eccles Stadium and the Stadium Series on February 20, 2027 at
+  AT&T Stadium. The page says the league has not said where the next one goes.
+- **Carried over unchanged from the September version**, all previously sourced:
+  the 2016 game (33,240, Edmonton 3-0), the stadium address at 315 Chancellor
+  Matheson Road, the Seel and Clarence park-and-ride lots, the BLUE, F8, F9, 74,
+  X74, XF8 and XBLUE service, the 2026 Winnipeg Transit fare of $3.45 cash and
+  $3.10 peggo, the Gate 4 pickup, the late-October sunset and temperature
+  averages, and Cho Ichi Ramen at 1151 Pembina Hwy.
+- **Drive time from the house** now states thirteen minutes, from the verified
+  distance table in `AGENT-INSTRUCTIONS.md` (Princess Auto Stadium, 13 min /
+  7.8 km), replacing the "about fifteen minutes" the earlier version carried.
+
+## blog-grocery-runs-near-corydon-airbnb.html, corrected 2026-11-17
+
+Not a refresh; a correction found while verifying the Safeway at 655 Osborne St
+in this run's ledger batch. The page called it "Osborne Village" in five places.
+Safeway's own site names the store "Safeway Osborne and Kylemore" and the
+directory listings give the address as 655 Osborne at Kylemore, which is south of
+the Osborne Street bridge and not in Osborne Village. The page now says so, and
+the unverified "a short walk" from Crescentwood was dropped for "a short drive or
+rideshare".
+
+---
+
 ## blog-winnipeg-jets.html, refreshed 2026-11-16
 
 Mid-season refresh. The page was written before the season started and still
