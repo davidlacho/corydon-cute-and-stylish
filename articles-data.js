@@ -1210,17 +1210,17 @@ const ARTICLES_DATA = [
     "image": "images/city-hall-council-building-2021.jpg",
     "imageAlt": "Winnipeg City Hall Council Building and plaza on a clear day",
     "description": "Winnipeg's three City Halls (from the 1876 original to the 1964 campus) and City Archives' History in Focus. Plan a downtown visit from Corydon.",
-    "metaHtml": "<span>Winnipeg History</span>\n                                <span>6 min read</span>\n                                <span>March 26, 2026</span>"
+    "metaHtml": "<span>Winnipeg History</span>\n                                <span>6 min read</span>\n                                <span>Updated November 18, 2026</span>"
   },
   {
     "url": "/blog-classic107-spring-break-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-03-26",
-    "title": "Classic 107's Spring Break List: Family Fun Across Winnipeg",
+    "title": "Assiniboine Park, The Forks or FortWhyte: A Day With Kids",
     "image": "https://images.unsplash.com/photo-1615723411974-ed6cf1a6180a?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Family with children enjoying time together outdoors on a sunny day",
-    "description": "Classic 107 gathered Winnipeg spring break activities for families, zoos, museums, pools, libraries, and more. See highlights, confirm details, and plan from Crescentwood.",
-    "metaHtml": "<span>Winnipeg Activities</span>\n                                <span>6 min read</span>\n                                <span>March 26, 2026</span>"
+    "description": "Assiniboine Park, The Forks or FortWhyte Alive: three full days out with children in Winnipeg, compared on cost, ages, weather and how long each fills.",
+    "metaHtml": "<span>Winnipeg Activities</span>\n                                <span>6 min read</span>\n                                <span>Updated November 18, 2026</span>"
   },
   {
     "url": "/blog-winnipeg-general-strike.html",

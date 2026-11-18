@@ -37,6 +37,14 @@ const EVENTS_DATA = [
     "status": "confirmed"
   },
   {
+    "title": "Zoo Lights at Assiniboine Park Zoo",
+    "url": "/blog-family-activities.html",
+    "start": "2026-11-20",
+    "end": "2027-01-03",
+    "venue": "Assiniboine Park Zoo",
+    "status": "confirmed"
+  },
+  {
     "title": "Rise Above Handmade Holiday Market",
     "url": "/blog-winnipeg-holiday-markets.html",
     "start": "2026-11-23",

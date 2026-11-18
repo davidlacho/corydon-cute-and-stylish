@@ -8,6 +8,159 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-18
+
+**Businesses verified (6, the stalest in the rotation).** One Corydon pharmacy,
+one Pembina Highway pizza branch, two North End and Higgins Avenue entries and
+the two Gimli businesses from the Icelandic Festival post, all dated 2026-10-25
+or 10-26. No closure, move or rename was found, so no page needed correcting.
+
+- **Fair Havens Pharmacy, 894 Corydon Ave**: open, and worth a note for future
+  rotations because the first searches looked like a closure. A name-only search
+  returns other Corydon pharmacies and lists 894 Corydon under *Drug Knowledge
+  Pharmacy* and *Corydon Medical Clinic*, which reads as a rename. It is not:
+  the pharmacy has its own live site at fairhavenspharmacy.com carrying the
+  address and advertising free same-day delivery in Winnipeg, and a Yelp listing
+  updated August 2025 gives weekday hours of 9 a.m. to 5 p.m., closed weekends.
+  894 Corydon is a medical building with more than one pharmacy in it; *Fort
+  Rouge Pharmacy* is listed inside the Corydon Medical Clinic at the same
+  address. Nothing on our page states hours, so nothing changed.
+- **Gondola Pizza, 1292 Pembina Hwy**: open. The branch has its own live
+  ordering page with posted online-ordering hours of 4 p.m. to 10 p.m. and a
+  DoorDash store page, which is trading evidence rather than a directory stub.
+  Two different phone numbers appear across listings, so a future run should not
+  treat either as our own.
+- **Graffiti Gallery, 109 Higgins Ave**: open, on the strongest evidence in the
+  batch. A Creative Manitoba listing has an exhibition, *Mending with Tradition*,
+  running at the address from September 4, 2026 to January 22, 2027.
+- **Gunn's Bakery, 247 Selkirk Ave**: open. A live Uber Eats store, a bakery
+  directory carrying Monday to Thursday retail hours, and a catering page with
+  weekday delivery windows. Hours disagree between listings; our pages state
+  none.
+- **H. P. Tergesen & Sons, 82 First Avenue, Gimli**: open. A September 2026 CTV
+  News piece on Manitoba general stores describes the fourth generation of the
+  family running it, which is the freshest evidence any entry got this run. The
+  Red Apple store refresh in Gimli reported in April 2026 is a different
+  business and should not be confused with it on a later run.
+- **Ship & Plough, 42 Centre St, Gimli**: **unverified, treated as unchanged.**
+  Three searches, including one aimed squarely at closure and ownership news,
+  turned up only undated directory and review pages; the most recent review
+  found anywhere is from June 2022. There is no closure signal and the listings
+  carry a live day-based "opens at 12:00" label, so the entry stays `open`, but
+  this is the weakest evidence in the batch and the next rotation should try the
+  pub's own channels or an Interlake outlet rather than repeating these searches.
+
+**Ledger sweep (one post, per the rotation).** `blog-st-boniface-walking-guide.html`
+needed no entries: everything it names is an institution or infrastructure (the
+Esplanade Riel, the cathedral and its ruins, Louis Riel's grave, the
+Saint-Boniface Museum in the Grey Nuns' convent), and its only trade reference is
+to "cafes, bakeries, and small shops" on Provencher in the abstract, with no
+business named. 85 posts remain unswept. The ledger still holds 200 businesses.
+
+**Still no new post: every image host is refused at the sandbox proxy, rechecked
+today.** images.unsplash.com, upload.wikimedia.org, images.pexels.com and
+cdn.pixabay.com all answer 403 at CONNECT, as does staywinnipeg.ca itself. One
+correction to yesterday's note, because it matters to the next run: there *are*
+unused local photos in `images/`, about eighteen of them from the Corydon
+guidebook set (Cafe Carlo, Passero, Deer + Almond, Clementine, Low Life Barrel
+House, Good Neighbour, Sookram's, Nonsuch, Petit Socco, Peasant Cookery, Little
+Sister, Parlour, Shorty's, G to Bakeshop and others), so a **food, cafe or
+brewery** post could be published with its own hero today. What does not exist
+is any local photo of hockey, basketball, a stage or an arena, and all five
+entries at the top of the Events queue are arena or theatre events. The Moose
+post therefore stays blocked. **Owner action: allow an image host in the
+environment's network settings, or add a few venue photos to `images/`, and the
+events queue starts moving again.**
+
+**Page refreshed and retitled: `blog-classic107-spring-break-winnipeg.html`,
+now "Assiniboine Park, The Forks or FortWhyte: A Day With Kids".** Slug and URL
+unchanged. It was the stalest page on the site, untouched since 2026-03-26, and
+every date on it had passed: it summarised Classic 107's March 2026 spring-break
+roundup in the future tense, listing programming for March 28 to April 5, 2026
+down to a community-centre movie night. Rewritten as a **comparison**, the form
+the rotation rule left free after walk (11-15), question and answer (11-16) and
+explainer (11-17).
+
+- **A duplication trap was caught mid-run and the post was rewritten because of
+  it.** The first rewrite was titled "Spring Break in Winnipeg 2027: Seven Places
+  Worth the Day", which would have competed head-on with
+  `blog-winnipeg-spring-break-guide.html`, already titled "Spring Break in
+  Winnipeg 2027: March 29 to April 2" and already the target of the calendar's
+  "Manitoba spring break" entry. Worse, its seven-venue ranked list restated five
+  of the six entries in `blog-winnipeg-with-kids-indoor.html`, published two
+  weeks ago. The sibling page's own body assigns this page a role: "the bigger
+  day out ... if you have one full day to fill and a car". The second rewrite
+  fills exactly that niche instead, and the sibling's link label, which still
+  called this page a Classic 107 roundup, was corrected to describe the
+  comparison. **Worth adding to the playbook's refresh step: grep
+  `articles-data.js` for the target keyword before retitling, not only before
+  publishing.**
+- **What the page now does.** Three destinations set against each other on four
+  axes: what you pay, which ages it suits, what survives bad weather, and how
+  long it holds. Assiniboine Park with the zoo and The Leaf, The Forks with the
+  Children's Museum and CMHR, and FortWhyte Alive, with a short "How they come
+  out" verdict rather than a conclusion heading.
+- **Newly sourced facts.** Manitoba's 2027 spring break is Monday March 29 to
+  Friday April 2, with Good Friday on March 26, from the province's own
+  school-calendar page and the Winnipeg School Division calendar. Winnipeg
+  Transit's **D19 Corydon reaches Assiniboine Park Zoo** at its western end,
+  from an April 2026 timetable, which is the most useful thing on the page for a
+  family without a car: the same route that runs downtown one way runs to the
+  zoo the other. The Children's Museum charges one rate for everyone over the
+  age of one, around thirteen dollars before tax; three listings disagree
+  between $12.25 and $13.75, so the page says "around" and sends readers to
+  childrensmuseum.com.
+- **What was deliberately left off.** No CMHR price: the only figures findable
+  are from the museum's 2014 launch. CMHR's free admission for children twelve
+  and under is written as something it has done in past breaks and announces
+  each year, not as a 2027 fact. No Children's Museum exhibit is named and no
+  walk time across the Forks site is given, because neither could be verified.
+  The only distances are the verified table's thirteen minutes and 8.4 km to
+  Assiniboine Park and ten minutes and 3.9 km to The Forks.
+- Descriptions synced in `articles-data.js`, `articles_data.json`, the
+  `blog.html` noscript card and the `blogPost` JSON-LD;
+  `article:modified_time`, `dateModified` and the sitemap `<lastmod>` set to
+  today on both this page and the sibling; `update-llms.py` rerun and
+  `check-blog-listing.py` printing OK for all 185 posts.
+- No commercial business is named in the post, so it added no ledger entries.
+
+**Events calendar.** One entry added and one gap closed, nothing removed.
+
+- **Added: Zoo Lights at Assiniboine Park Zoo, November 20, 2026 to January 3,
+  2027, confirmed**, pointing at `blog-family-activities.html`, which already
+  names those dates from its 2026-11-11 refresh and is corroborated by a current
+  tourism listing. A nine-week evening event on the calendar's busiest stretch
+  was missing from it entirely.
+- **No spring break entry was added**, because "Manitoba spring break",
+  2027-03-29 to 2027-04-02, is already there pointing at the canonical spring
+  break page, and its dates match what was sourced today.
+- **The three typical entries starting within 60 days all stay typical.** The
+  Forks has still announced nothing for the 2026-27 Nestaweya River Trail or
+  Arctic Glacier Winter Park season; the trail opened on December 31 in each of
+  the last two seasons, with a record-late January 25 opening in 2024, but a
+  pattern is not an announcement. A Maze in Corn's own site still says only
+  "Opens: mid January 2027" for the snow maze, with The Den in February 2027,
+  which is the window our entry already uses.
+- **The one stale entry, the Heritage Classic, stays** at 24 days past; the
+  playbook keeps a one-off until it is more than 30 days past, so a run on or
+  after November 25 removes it.
+- **Two events added to the events queue**: Thomas Dambo's TROLLS at Assiniboine
+  Park Zoo, listed as running through February 13, 2027 with no admission beyond
+  the zoo gate, and the Winnipeg Real to Reel Film Festival, listed for February
+  16 to 21, 2027. Both came off third-party listings and both entries say so;
+  neither goes on the calendar until a post names confirmed dates.
+- `update-events.py` rerun with no warnings: 73 upcoming entries, 50 confirmed in
+  the JSON-LD. `events.html` got a sitemap `<lastmod>` bump.
+
+**pa11y.** staywinnipeg.ca is refused at the sandbox proxy like the image hosts,
+so the live site could not be tested. The four changed pages were served locally
+and checked instead: `blog-classic107-spring-break-winnipeg.html`,
+`blog-winnipeg-spring-break-guide.html`, `blog.html` and `events.html`, all four
+WCAG2AA with **zero errors**.
+
+---
+
+
 ## 2026-11-17
 
 **Businesses verified (6, the stalest in the rotation).** Four Bali entries from

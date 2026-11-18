@@ -16,6 +16,69 @@ Newest first.
 
 ---
 
+## blog-classic107-spring-break-winnipeg.html, refreshed and retitled 2026-11-18
+
+Retitled from "Classic 107 Spring Break Picks: Winnipeg Family Activities" to
+"Assiniboine Park, The Forks or FortWhyte: A Day With Kids". Slug unchanged.
+
+- **Manitoba spring break 2027: Monday, March 29 to Friday, April 2, with Good
+  Friday on Friday, March 26.** Manitoba Education's school-calendar page gives
+  the spring vacation for all divisions as March 29 to April 2, 2027 inclusive,
+  and the Winnipeg School Division's own 2026/27 calendar and a divisional school
+  page carry the same week with school reopening on Monday, April 5. The ten-day
+  no-school stretch on the page (March 26 to April 4) is arithmetic from those
+  two facts, not a claim from a source.
+- **Winnipeg Transit route D19 Corydon reaches Assiniboine Park Zoo at its
+  western end.** A wtlivewpg timetable page dated 2026-04-12 lists D19 Corydon
+  with weekday, Saturday and Sunday schedules and "to Assiniboine Park Zoo" trips
+  in both directions, and the route list names the zoo and downtown (Webb at
+  Vaughan) as its two ends. Our other pages describe the same route running east
+  along Corydon to a terminal on Kennedy Street, which is the same downtown end.
+  Routes 11 and 18 served the zoo before the June 2025 network overhaul and
+  should not be revived from older notes. The page tells the reader to check
+  winnipegtransit.com rather than quoting a departure time, because none was
+  sourced.
+- **Manitoba Children's Museum, 45 Forks Market Road, one rate for everyone over
+  the age of one, around thirteen dollars before tax.** The museum's own shop
+  lists general admission at $12.75 plus GST; a Winnipeg listing site gives
+  $13.75 and the Association of Manitoba Museums $12.25 plus GST. Because the
+  three disagree the page says "around thirteen dollars before tax" and names
+  childrensmuseum.com as the place to confirm. The address is from the museum's
+  own guide listing.
+- **CMHR free admission for children twelve and under over the break: stated as
+  a past-years pattern only.** A museum news item describes a spring-break
+  promotion of free admission for children 12 and under over a March 29 to
+  April 6 window, but the year is not clear from the summary, and no 2027
+  announcement exists. The 2014 launch prices ($15 adult, $8 youth 7 to 17) are
+  far too old to publish, so **no CMHR price is on the page.** The lots off
+  Israel Asper Way come from our own existing pages.
+- **Reused from our own recently sourced pages rather than re-searched:** the
+  zoo's gate admission of $25.70 for adults and $14.60 for children 3 to 17
+  before GST, a little less online, and the diver cleaning the Journey to
+  Churchill tunnels on Tuesday and Thursday mornings with the water staying
+  cloudy up to two hours afterwards, both from the 2026-11-11 refresh of
+  `blog-family-activities.html`; the full-scale Nonsuch and the planetarium
+  timetable from `blog-manitoba-museum-planetarium-guide.html`; The Leaf's
+  tropical and Mediterranean biomes from `blog-assiniboine-park-zoo-leaf-guide.html`;
+  FortWhyte Alive's two entrances at 1961 McCreary Road and 2505 McGillivray
+  Boulevard; the early-April temperature range (highs around 8 degrees, nights
+  below freezing) from `blog-winnipeg-spring-break-guide.html`. The Pavilion at
+  55 Pavilion Crescent is from our own Assiniboine Park pages.
+- **Daylight.** Sunset past half past seven at the end of the break week, and
+  more than three hours later than at Christmas, is astronomical, set against
+  the 4:29 p.m. earliest sunset recorded in the 2026-11-10 Vinterfest sourcing.
+- **Nothing was published about where any of this came from.** The page carries
+  one `.info-box` headed "Before you go:" naming the venue sites and
+  winnipegtransit.com, which is the permitted form.
+- **Duplication check, which changed the post.** `blog-winnipeg-spring-break-guide.html`
+  already holds the title "Spring Break in Winnipeg 2027: March 29 to April 2"
+  and the calendar's "Manitoba spring break" entry points at it, so this page
+  must not lead on that phrase. That page's body also assigns this one the role
+  of the bigger day out for a visitor with a car, which is the niche the
+  comparison now fills. Its link label was updated to match, and its
+  `article:modified_time`, `dateModified` and sitemap `<lastmod>` moved to
+  2026-11-18 for that one-sentence change.
+
 ## blog-nhl-heritage-classic-winnipeg-2026.html, refreshed 2026-11-17
 
 The game had been played three weeks earlier and the whole page was still in the

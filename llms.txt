@@ -142,7 +142,7 @@ Total Blog Posts: 185
 - [spacedoxa at Graffiti Gallery: Winnipeg's Experimental Performance Home](https://staywinnipeg.ca/blog-spacedoxa.html)
 - [E.L. Taylor, K.C.: The Name on the Crescentwood Map](https://staywinnipeg.ca/blog-el-taylor-crescentwood.html)
 - [Winnipeg's Three City Halls: History, Archives & a Downtown Visit](https://staywinnipeg.ca/blog-winnipeg-three-city-halls.html)
-- [Classic 107's Spring Break List: Family Fun Across Winnipeg](https://staywinnipeg.ca/blog-classic107-spring-break-winnipeg.html)
+- [Assiniboine Park, The Forks or FortWhyte: A Day With Kids](https://staywinnipeg.ca/blog-classic107-spring-break-winnipeg.html)
 - [The Winnipeg General Strike: History, Bloody Saturday & the Memorial](https://staywinnipeg.ca/blog-winnipeg-general-strike.html)
 - [Winnipeg Snow Clearing Map: Real-Time Sidewalk & Pathway Updates](https://staywinnipeg.ca/blog-winnipeg-snow-clearing-map.html)
 - [Winnipeg Transit History: A Journey Through Time](https://staywinnipeg.ca/blog-winnipeg-transit-history.html)
@@ -316,5 +316,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
-November 17, 2026
+November 18, 2026
 
