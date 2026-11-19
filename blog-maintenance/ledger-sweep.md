@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-sunday-on-corydon-avenue.html
 - blog-the-forks-cmhr-day-plan.html
 - blog-the-forks.html
 - blog-things-to-do.html
@@ -99,7 +98,8 @@ last because they are partly covered.
 
 ## Swept
 
-- blog-st-vital-park.html (2026-11-19, no ledger entries needed: the post names no commercial business. St. Vital Park is a City of Winnipeg regional park and everything the post names inside it is city-run or a monument: the Duck Pond Pavilion, the treetop lookout, the two toboggan slides, the boat launch and the totem pole. The page was refreshed on the same run, so its text was read in full.)
+
+- blog-sunday-on-corydon-avenue.html (2026-11-19)- blog-st-vital-park.html (2026-11-19, no ledger entries needed: the post names no commercial business. St. Vital Park is a City of Winnipeg regional park and everything the post names inside it is city-run or a monument: the Duck Pond Pavilion, the treetop lookout, the two toboggan slides, the boat launch and the totem pole. The page was refreshed on the same run, so its text was read in full.)
 - blog-st-boniface-walking-guide.html (2026-11-18, no ledger entries needed: the post names no commercial business. Everything it names is an institution or infrastructure (the Esplanade Riel, St. Boniface Cathedral and its ruins, the cemetery and Louis Riel's grave, Provencher Boulevard, the Saint-Boniface Museum in the former Grey Nuns' convent). Its only trade reference is to "cafes, bakeries, and small shops" on Provencher in the abstract, with no business named, so nothing could be entered or appended.)
 - blog-spa-shower-upgrade.html (2026-11-17, no ledger entries needed: the post is a hosting announcement about a shower panel being installed in the house, and it names no commercial business. No manufacturer or retailer is named for the panel, and its only outward references are to Canada Life Centre, Assiniboine Park, The Forks and "Corydon's restaurants" in the abstract, none of which takes an entry.)
 - blog-smart-tv-every-bedroom.html (2026-11-16, no ledger entries needed: the post names no commercial business at all. It is a hosting-decision piece about putting a smart TV in each of the three bedrooms, and it names no restaurant, cafe, bar, shop or streaming service; its only references are to the house itself and to group sleeping arrangements. Nothing to append to an existing entry either.)

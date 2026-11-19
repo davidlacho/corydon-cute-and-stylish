@@ -8,6 +8,81 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-19 (second run, the cron)
+
+**The image-host allowlist works.** images.unsplash.com returned a photo on the
+first try, and so did staywinnipeg.ca. No owner action is outstanding. Organiser
+sites outside the allowlist still fail DNS in `WebFetch` (moosehockey.com was
+tried), so event facts still come through the search tool's extracts.
+
+**Businesses verified (6, the stalest in the rotation).** All dated 2026-10-28 to
+10-30. No closure, move or rename, and nothing on any page needed correcting.
+
+- **Isekai Ramen, 1039 Cathedral Ave: open, on thin evidence.** A live Uber Eats
+  storefront for the address with 28 ratings, and a Reddit thread naming it as
+  the Dwarf no Cachette owners' second room. No 2026 review, news item or hours
+  anywhere reachable. It is on no page of ours (`pages` is empty), so nothing
+  was at risk; a later rotation should treat it as unverified rather than
+  confirmed.
+- **Adventure Caving (Budapest): open.** Expedia, Trip.com, Magpie and Ultimate
+  Budapest all currently sell the Mátyás-hegy adventure tour, with daily 10:00
+  and 14:00 departures. Prices differ wildly between resellers and the park's
+  own Hungarian page, and the two language versions of one guide contradict each
+  other on which cave closes which day, so `blog-budapest-caving.html` should
+  never carry a price or a closing day from a reseller.
+- **Kum Koon Garden, 257 King St: open.** Listings agree on the address and the
+  (204) 943-4655 number, and a 2025-updated guide still describes weekend
+  cart dim sum. Published hours could not be established; our page states none.
+- **Luda's Deli, 410 Aberdeen Ave: open.** A December 2024 Winnipeg food blog
+  gives the pattern our page relies on: a breakfast-and-lunch diner, cash only,
+  Monday to Saturday in winter and Monday to Friday in summer.
+- **MAKE Coffee + Stuff, 751 Corydon Ave: still closed**, and already gone from
+  `blog-best-places-nearby-winnipeg.html`. The only surviving trace on the site
+  is the interior photo used as a hero image and its alt text, which is a
+  picture of a room, not a recommendation. Left alone.
+- **Manoomin Restaurant, 460 Madison St: open.** CTV Winnipeg filmed there in
+  July 2026 and a 2026 travel guide names it among the province's Indigenous
+  restaurants. The 6:30 a.m. to 9 p.m. hours in a 2020 profile were not
+  re-confirmed and are not on our page.
+
+**Ledger sweep (one post, per the rotation).** `blog-sunday-on-corydon-avenue.html`.
+All four businesses it names were already in the ledger (Thom Bargen, Tommy's
+Pizzeria, Wako Sushi Café, the Tim Hortons at 949 Corydon), so the filename was
+appended to each one's `pages`. No new entries. 83 posts remain unswept; the
+ledger still holds 200 businesses.
+
+**New post: `blog-manitoba-moose-hockey.html`, "Manitoba Moose Tickets and
+Schedule: AHL Hockey in Winnipeg".** The first entry in the Events queue, held
+since 2026-11-17 only by the image block, and the first post on the Moose: the
+site covered the Jets and the Goldeyes but not the AHL team that plays in the
+same building. Form: question and answer, seven questions, which the rotation
+allowed (the last three were walk, comparison and explainer). It states the ten
+home games of the December 12 to January 10 home stand with their start times,
+how memberships and single-game sales work, **no ticket price** (the club
+publishes none and resale numbers are not the club's), the lower-bowl seating
+pattern, the eighteen 2 p.m. starts that make it the easiest hockey here to
+bring children to, the BLUE line from Osborne Village at the 2026 fare, and a
+"Where to stay for a Moose game" section. Hero photo: an Unsplash arena interior,
+checked by eye before use and not used by any other post. Provenance is in
+`post-sources.md`.
+
+**Events calendar.** Ten entries added, all `confirmed`, all pointing at the new
+post: Iowa December 12 and 13, Rockford December 16 (10:30 a.m.) and 18,
+Abbotsford December 29 and the New Year's Eve game December 31, Calgary
+January 1 and 3, Texas January 8 and 10. That fills the January 1 to 10 gap the
+calendar had. The three `typical` entries starting within 60 days were each
+checked and all three stay typical: The Forks has announced no 2026-27 river
+trail or Winter Park opening date, cornmaze.ca says only "mid January 2027" for
+the snow maze, and no 2027 Warming Huts winners are published. The Heritage
+Classic entry is 25 days past and stays until it is more than 30. Queue refill:
+the two January dates found (Harlem Globetrotters January 5, Hilary Duff
+January 30) are already in the Events queue, so nothing was added; the Hilary
+Duff entry was annotated with a venue listing giving 7:30 p.m. and naming
+Lauren Spencer Smith as support.
+
+---
+
+
 ## 2026-11-19 (owner session, not the cron)
 
 **The image-host block is lifted.** The Nov 17, 18 and 19 runs each asked the

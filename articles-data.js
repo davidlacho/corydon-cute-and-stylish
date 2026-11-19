@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-manitoba-moose-hockey.html",
+    "category": "winnipeg",
+    "date": "2026-11-19",
+    "title": "Manitoba Moose Tickets and Schedule: AHL Hockey in Winnipeg",
+    "image": "https://images.unsplash.com/photo-1765599020795-d203ff66e400?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Seating and scoreboard above the ice in a hockey arena before a game",
+    "description": "The Jets' AHL affiliate plays at Canada Life Centre. The December and January home dates, how tickets work, where you sit and how to get there.",
+    "metaHtml": "<span>Winnipeg Sports</span>\n                                <span>7 min read</span>\n                                <span>November 19, 2026</span>"
+  },
+  {
     "url": "/blog-trooper-burton-cummings-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-11-14",

@@ -184,7 +184,8 @@
         "blog-corydon-guide.html",
         "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html",
         "blog-little-italy-half-day-walking-loop.html",
-        "blog-rainy-afternoon-on-corydon.html"
+        "blog-rainy-afternoon-on-corydon.html",
+        "blog-sunday-on-corydon-avenue.html"
       ],
       "status": "open",
       "last_verified": "2026-11-11"
@@ -193,7 +194,8 @@
       "name": "Tommy's Pizzeria",
       "address": "842 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-sunday-on-corydon-avenue.html"
       ],
       "status": "open",
       "last_verified": "2026-11-11"
@@ -202,7 +204,8 @@
       "name": "Wako Sushi Café",
       "address": "875 Corydon Ave",
       "pages": [
-        "blog-corydon-guide.html"
+        "blog-corydon-guide.html",
+        "blog-sunday-on-corydon-avenue.html"
       ],
       "status": "open",
       "last_verified": "2026-11-11"
@@ -603,7 +606,7 @@
       "address": "1039 Cathedral Ave",
       "pages": [],
       "status": "open",
-      "last_verified": "2026-10-28"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "King's Head Pub",
@@ -631,7 +634,7 @@
         "blog-restaurants.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-29"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "La Brasserie Nonsuch Brewing Co.",
@@ -682,7 +685,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-30"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "MAKE Coffee + Stuff",
@@ -691,7 +694,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "closed",
-      "last_verified": "2026-10-30"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "Manoomin Restaurant",
@@ -700,7 +703,7 @@
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-30"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "Marion Street Eatery",
@@ -1305,7 +1308,7 @@
         "blog-budapest-caving.html"
       ],
       "status": "open",
-      "last_verified": "2026-10-28"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "Winnipeg Christmas Market (Signatures Shows)",
@@ -1364,9 +1367,10 @@
       "address": "949 Corydon Ave",
       "pages": [
         "blog-budget-day-corydon-airbnb.html",
-        "blog-corydon-guide.html",
         "blog-coffee-near-corydon-airbnb.html",
-        "blog-late-night-bites-near-corydon.html"
+        "blog-corydon-guide.html",
+        "blog-late-night-bites-near-corydon.html",
+        "blog-sunday-on-corydon-avenue.html"
       ],
       "status": "open",
       "last_verified": "2026-11-11"

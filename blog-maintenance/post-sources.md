@@ -16,6 +16,51 @@ Newest first.
 
 ---
 
+## blog-manitoba-moose-hockey.html, published 2026-11-19
+
+New post, the first on the Moose. The site covered the Jets and the Goldeyes but
+not the AHL team. Facts and where they came from, all read through the search
+tool's extracts on 2026-11-19 (moosehockey.com itself is outside the environment's
+allowed hosts and fails DNS in WebFetch):
+
+- **Affiliation, arena, season shape:** the Moose's own schedule release as
+  carried by The Hockey News and The Hockey Writers, 2026-07-09: a 72-game
+  2026-27 regular season, opening Saturday October 3 at Canada Life Centre
+  against the Chicago Wolves, with eighteen 2 p.m. starts across the season and
+  a longest home stand of ten games from December 12 through January 10.
+- **December and January home dates and times:** the same released schedule, as
+  carried by The Hockey News, plus the 2026-11-17 run's own check against
+  Illegal Curve, Ticketmaster and the arena's Moose events listing (recorded in
+  post-ideas.md). Re-confirmed on 2026-11-19: the Texas Stars' own schedule
+  lists Friday January 8 at 7 p.m. and Sunday January 10 at 2 p.m. at Manitoba;
+  The Hockey News's schedule listing gives Friday January 1 at 7 p.m. against
+  Calgary and a January 3 home game, and a ticket listing for Sunday January 3
+  gives 2 p.m. The Moose's own release names the December 31 Abbotsford game as
+  the club's New Year's Eve theme night.
+- **Tickets:** moosehockey.com's membership pages as returned in search: full
+  season, half season and 12-game packs, a minimum ten per cent deposit at
+  purchase, and a twelve-month payment plan. **No official single-game price is
+  published anywhere reachable, so the post quotes none**; only resale
+  marketplaces carry numbers and they are not the team's price. This is a
+  standing constraint for later refreshes of this page.
+- **Lower bowl and crowd size:** a Stadium Journey venue review of Canada Life
+  Centre for Moose games (lower bowl used for most games, upper deck opened
+  only occasionally, crowds consistently between 5,000 and 7,000) against the
+  arena's Jets capacity of about 15,300 from Elite Prospects and Wikipedia. The
+  review is undated, so the page states the pattern rather than any figure as
+  current fact, and the intermission entertainment described (shoot-outs,
+  mascot, sign contests) comes from venue reviews rather than the club.
+- **Transit fare, BLUE line and the walk to Osborne Village, the True North
+  Square parkade, the -21°C January low:** carried over from
+  blog-winnipeg-jets.html, which sourced them on earlier runs; the 3.9 km / ten
+  minute drive is the verified figure in the house-facts table in
+  AGENT-INSTRUCTIONS.md.
+- **Not stated on the page:** any ticket price; the Jets' January schedule; the
+  January 29 and 31 Milwaukee home games, which fall outside the home stand the
+  post covers and are not on the calendar.
+
+---
+
 ## blog-st-vital-park.html, refreshed and retitled 2026-11-19
 
 Rewritten as a walk after sitting untouched since 2025-04-05. Facts and where
