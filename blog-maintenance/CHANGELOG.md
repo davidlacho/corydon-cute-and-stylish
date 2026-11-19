@@ -8,6 +8,21 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-19 (owner session, not the cron)
+
+**The image-host block is lifted.** The Nov 17, 18 and 19 runs each asked the
+owner to allow an image host. The routine's cloud environment ("Default") had
+network access set to Limited with no allowed domains. It now allows
+images.unsplash.com, unsplash.com, upload.wikimedia.org, commons.wikimedia.org,
+images.pexels.com, www.pexels.com, staywinnipeg.ca and davidlacho.github.io.
+**The next run should publish the top Events-queue entry as a new post**, and stop
+logging "Still no new post" and the owner action. staywinnipeg.ca is reachable
+now too, so pa11y can run against the live pages again.
+
+`AGENT-INSTRUCTIONS.md` ("Event posts") gained a fallback: if no hero photo fits
+the top Events-queue entry, take the next entry that has one rather than
+switching to a refresh run.
+
 ## 2026-11-19
 
 **Businesses verified (6, the stalest in the rotation).** The four holiday

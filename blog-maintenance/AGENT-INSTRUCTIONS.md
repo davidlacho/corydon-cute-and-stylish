@@ -492,7 +492,18 @@ so those searches land on us. When the queue is empty, leave the section in plac
 event post also feeds the events calendar (`events.html`); see Part 2b.
 
 - **Order is fixed.** Take the top entry; it is chronological, so the nearest
-  event gets covered first. Do not skip ahead or reorder.
+  event gets covered first. Do not skip ahead or reorder. One exception, added
+  2026-11-19: if no suitable hero photo can be found for the top entry (no
+  fitting local `images/` file and no reachable image host), take the next entry
+  that does have one, leave the skipped entry in place, and log why in the
+  changelog. A missing photo must never turn a new-post run into a refresh run;
+  five runs in a row (2026-11-15 to 11-19) published no new post that way.
+- **Image hosts are allowlisted.** Since 2026-11-19 the routine's cloud
+  environment allows images.unsplash.com, unsplash.com, upload.wikimedia.org,
+  commons.wikimedia.org, images.pexels.com, www.pexels.com, staywinnipeg.ca and
+  davidlacho.github.io. If one of these returns 403 at CONNECT again, say so at
+  the top of the changelog block as an owner action, and still apply the
+  exception above.
 - **Refresh, do not duplicate.** Entries marked "refresh" name an existing
   `blog-*.html`. Update that file in place: new dates, venue, tickets and on-sale
   timing, what is new this year, `article:modified_time`, `dateModified`, the
