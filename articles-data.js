@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-harlem-globetrotters-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-11-19",
+    "title": "Harlem Globetrotters Winnipeg 2027: January 5 Tickets",
+    "image": "https://images.unsplash.com/photo-1728637690621-ad046564a657?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "A basketball dropping through the net on an indoor court",
+    "description": "The Rivalry Tour plays Canada Life Centre on Tuesday, January 5, 2027 at 7 p.m. What the new format changes, how the court passes work, and getting there.",
+    "metaHtml": "<span>Winnipeg Sports</span>\n                                <span>5 min read</span>\n                                <span>November 19, 2026</span>"
+  },
+  {
     "url": "/blog-gene-simmons-band-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-11-19",

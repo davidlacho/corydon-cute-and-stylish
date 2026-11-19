@@ -810,7 +810,7 @@
         "blog-winnipeg-tours.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "Pho Hoang",
@@ -848,7 +848,7 @@
         "blog-winnipeg-pizza-guide.html"
       ],
       "status": "closed",
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "Red River Co-op Food Store",
@@ -1254,7 +1254,7 @@
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-01"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "Milu by Nook (Canggu)",
@@ -1263,7 +1263,7 @@
         "blog-bali-nyaman.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-01"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "Cafe Cinta (Canggu)",
@@ -1358,7 +1358,8 @@
         "blog-kidsfest-winnipeg.html",
         "blog-nestaweya-river-trail.html",
         "blog-rainy-day-winnipeg-itinerary.html",
-        "blog-the-forks-cmhr-day-plan.html"
+        "blog-the-forks-cmhr-day-plan.html",
+        "blog-the-forks.html"
       ],
       "status": "open",
       "last_verified": "2026-11-11"
@@ -1403,7 +1404,7 @@
         "blog-classic107-spring-break-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-01"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "St. Vital Centre",
@@ -1562,7 +1563,7 @@
         "blog-manitoba-legislative-building-tour.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-01"
+      "last_verified": "2026-11-19"
     },
     {
       "name": "Activate Games",
@@ -1904,6 +1905,15 @@
       ],
       "status": "open",
       "last_verified": "2026-11-13"
+    },
+    {
+      "name": "Johnston Terminal",
+      "address": "",
+      "pages": [
+        "blog-the-forks.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
     }
   ]
 }

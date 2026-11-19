@@ -314,6 +314,15 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "Harlem Globetrotters Rivalry Tour",
+      "url": "/blog-harlem-globetrotters-winnipeg.html",
+      "start": "2027-01-05",
+      "end": "2027-01-05",
+      "time": "7 p.m.",
+      "venue": "Canada Life Centre, 300 Portage Ave",
+      "status": "confirmed"
+    },
+    {
       "title": "Winnipeg Jets vs Nashville",
       "url": "/blog-winnipeg-jets.html",
       "start": "2027-01-07",

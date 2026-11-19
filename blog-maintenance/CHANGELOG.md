@@ -8,6 +8,126 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-19 (fourth run, the cron)
+
+**Fourth firing of the day.** Three runs had already committed on 2026-11-19, so
+this one took the next rotation batch and the next publishable Events queue entry
+rather than repeating their work. Nothing earlier was undone. images.unsplash.com
+returned the hero photo on the first try (HTTP 200), so the allowlist is still
+working and no owner action is outstanding. Organiser sites outside the allowlist
+remain unreachable in `WebFetch`, so event facts came through search extracts.
+
+**Businesses verified (6, the stalest in the rotation).** Dated 2026-11-01 and
+11-02 before this run. No closure, move or rename, and no page needed correcting.
+
+- **Milk & Madu, Jl. Pantai Berawa No. 52, Canggu: open.** A Bali guide updated
+  in 2026 describes the brand as now running two Canggu rooms with Berawa as the
+  original, and a travel guide updated in May 2026 carries the Berawa location.
+  Published hours disagree between listings (7 a.m. to 10 p.m. against 7.30 a.m.
+  to 10 p.m.), and `blog-bali-nyaman.html` states none, so nothing to correct.
+- **Milu by Nook, Canggu: unverified, left as open.** A listing gives Jl. Pantai
+  Berawa No. 99X and daily 8 a.m. to 11 p.m., but it is undated, the 2026
+  Honeycombers Canggu roundup does not include the room, and one directory shows
+  only a "check business" status. No 2026 review, news item or official page was
+  reachable. Status left unchanged and `last_verified` moved to today, but a
+  later rotation should treat this entry as unconfirmed rather than open.
+- **Garden City Shopping Centre, 2305 McPhillips St: open.** Three separate 2026
+  Winnipeg holiday-hours notices list the centre's opening times (Louis Riel Day,
+  Good Friday and Easter Monday), which is current-year evidence of an operating
+  mall. Regular hours could not be established from the centre's own site and one
+  directory files the property under a Leila Avenue address, so no hours were
+  added to `blog-classic107-spring-break-winnipeg.html`, which states none.
+- **Heartland Travel: open.** Active site, an active tours page and the
+  (204) 989-9630 number. **Its Christmas lights tour still has no 2026 dates on
+  the operator's own pages**, which settles the second Events queue entry for
+  another run: the only 2026 dates (December 16 to 18) and the $21 to $34.65
+  range come from an aggregator, not from Heartland, and the queue forbids
+  publishing either until the operator posts them.
+- **Pedal Pub Winnipeg: open.** Reviews dated June 2026 on its own site and a
+  2026-dated article on the company's Winnipeg blog. Private bookings from $589
+  to $619 for 8 to 15 seats and a weekly Saturday single-seat tour are published
+  on undated pages, so `blog-winnipeg-tours.html` carries no price from them.
+- **Rebel Pizza: still closed**, and the ledger already said so. No live
+  storefront, menu or hours anywhere; the one remaining directory entry asks
+  visitors to confirm whether the restaurant has permanently closed and carries a
+  reviewer's "RIP REBEL PIZZA" edit. It is no longer named anywhere in
+  `blog-winnipeg-pizza-guide.html`, so nothing needed correcting. Note for a
+  later run: that directory gives the address as 2188 McPhillips St, while the
+  ledger has 110-245 Vermillion Rd. Neither can be checked against a live source
+  now that the business is gone, so the ledger address was left as recorded.
+
+**Ledger sweep (one post, per the rotation).** `blog-the-forks.html`. The Forks
+Market was already in the ledger, so the filename went on its `pages`, and
+Johnston Terminal was added (no address stated on the page, `last_verified`
+2026-01-01 since it was not verified this run). Everything else the post names is
+a site feature, a museum or an abstract reference to "over 50 vendors" with no
+business named. 81 posts remain unswept.
+
+**New post: `blog-harlem-globetrotters-winnipeg.html`, "Harlem Globetrotters
+Winnipeg 2027: January 5 Tickets".** Form: host's notes, which the rotation
+allowed (the last three were walk, question and answer, and explainer).
+
+This is the **third** entry of the Events queue, and the two above it were dealt
+with rather than skipped:
+
+- `choir-choir-choir-winnipeg` was a **duplicate**. The post and the calendar
+  entry have both existed since 2026-11-09; the third run of 2026-11-19 added the
+  event to the queue as a refill without checking that it was already covered.
+  A listing read today still carries Tuesday December 15 at 8 p.m., which matches
+  the published post, so the queue entry was deleted and nothing on the site
+  changed.
+- `winnipeg-christmas-lights-tour` stays in place, unpublishable for the same
+  reason as before: Heartland Travel has posted no 2026 schedule (verified in
+  this run's ledger batch, above).
+
+What the post states: the Rivalry Tour stop is Tuesday, January 5, 2027 at 7 p.m.
+at Canada Life Centre, 300 Portage Avenue, with tickets on sale since the start of
+October; the 2027 tour adds two rival teams alongside the Washington Generals, a
+points table that carries between cities, five challenges per game with crowd
+input, new uniforms and a hybrid ball marking 75 years of the rivalry; the MVP
+Court Pass and the Ultimate Fan Pass each need a game ticket as well and vary by
+market; and January 5 is the one evening in that stretch with no hockey in the
+building, since the Jets have January 2, 7 and 9 and the Moose January 1, 3, 8
+and 10. **Left off the page on purpose:** any ticket price (three resale sites
+gave three different starting figures and some are in US dollars), any door time
+(the hour-before-puck-drop figure on the Jets page is an NHL game fact, not a
+venue rule), any transit fare (the sourced $3.45 cash and $3.10 peggo figures are
+2026 fares and this game is in 2027, so the page points at winnipegtransit.com),
+and any walk time to Osborne Village, which is not in the verified distance table.
+Provenance is in `post-sources.md`. No new ledger entries: the post names no
+restaurant, bar or shop, and the two parkades it names are parking rather than
+retail.
+
+**Events calendar.** One entry added: Harlem Globetrotters Rivalry Tour, January
+5, 2027, 7 p.m., Canada Life Centre, confirmed, pointing at the new post. The NHL
+Heritage Classic remains the only stale entry at 25 days past; the playbook keeps
+a one-off until it is more than 30 days past, so it was left for the run after
+next. The four typical entries inside the next 60 days (Arctic Glacier Winter
+Park, the Nestaweya River Trail season, the St. Adolphe snow maze and the warming
+huts) are unchanged; the third run of today checked them against their organisers
+and found nothing dated, and they were not re-searched hours later.
+`update-events.py` regenerated `events.html`: 86 entries, 85 upcoming, 62
+confirmed in the JSON-LD.
+
+**Events queue refilled (1).** Munschbusters! at Prairie Theatre Exchange, 393
+Portage Avenue, listed by one aggregator as December 18, 2026 to January 3, 2027
+on the Cherry Karpyshin Mainstage at $15.50 to $19. PTE's own site still showed
+the 2025-26 season, so the entry says the title, dates, times and price all have
+to be re-checked against pte.mb.ca before publishing. Nothing else found in the
+two-to-eight-week window needed a new post: the Assiniboine Park Zoo lights and
+the Canad Inns Winter Wonderland drive-through are already on the calendar, the
+Grunthal drive-through display is too small and too far out of the city, and a
+Burton Cummings Theatre listing for a December 5 children's show gave no year.
+
+**pa11y (WCAG2AA).** The three changed pages were served over
+`python3 -m http.server 8765 --bind 127.0.0.1` and checked there, because the new
+post and today's edits are not on the live site until this push deploys:
+`blog-harlem-globetrotters-winnipeg.html`, `blog.html` and `events.html`. No
+issues found on any of the three. `check-blog-listing.py` prints OK at 188 posts.
+
+---
+
+
 ## 2026-11-19 (third run, the cron)
 
 **Third firing of the day.** Two runs had already committed on 2026-11-19 before

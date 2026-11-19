@@ -16,6 +16,55 @@ Newest first.
 
 ---
 
+## blog-harlem-globetrotters-winnipeg.html (published 2026-11-19)
+
+- Date, time and venue: the Harlem Globetrotters play Canada Life Centre, 300
+  Portage Avenue, on Tuesday, January 5, 2027 at 7 p.m. Basketball Manitoba's
+  October 2026 announcement of the stop and the Globetrotters' own world-tour
+  page for the venue agree on the date, the 7 p.m. start and the address.
+  Bandsintown and Vivid Seats carry the same date.
+- Tickets went on sale Friday, October 2, 2026 at 10 a.m., per the Basketball
+  Manitoba announcement. The page says "the start of October" rather than
+  repeating the hour, since only one source gives it.
+- **No price on the page.** SeatGeek showed seats from $35, Gametime from $32
+  and Vivid Seats from $52 for the same game, and some aggregator figures are
+  in US dollars, so none of them is the arena's price.
+- Format: the 2027 tour is branded the Rivalry Tour, tied to the
+  organisation's hundredth year. Two new rival teams join the Washington
+  Generals, games feed a season-long Rivalry Points table, five new challenges
+  are built into each game with crowd input in some outcomes, all teams are in
+  new uniforms, and a half-Globetrotters, half-Generals hybrid ball marks 75
+  years of the rivalry. From the Globetrotters' own world-tour pages and the
+  tour announcement carried by several local outlets; the North American leg
+  tips off December 18 and runs through spring 2027.
+- Add-ons: the MVP Court Pass (warm-up access on the floor) and the Ultimate
+  Fan Pass (30 minutes of court access before doors open), both requiring a
+  game ticket, with availability varying by market, plus a free pre-game
+  tip-off party. From the Globetrotters' own tour pages. The page says to
+  confirm which passes are sold here, because no Winnipeg-specific listing of
+  them was found.
+- Arena practicalities reused from the sourcing behind
+  `blog-winnipeg-jets.html` and `blog-manitoba-moose-hockey.html`: the BLUE
+  line along Portage Avenue, the True North Square parkade with its Hargrave
+  Street entrance and the downtown walkway, Cityplace at Hargrave and St.
+  Mary, metal detectors and small bags only with no bag check on site, and
+  January overnight lows averaging around -21C. **No transit fare is quoted**,
+  because the sourced $3.45 cash and $3.10 peggo figures are 2026 fares and
+  this game is in January 2027; the page sends readers to winnipegtransit.com.
+- **No door time on the page.** The hour-before-puck-drop figure on the Jets
+  page is an NHL game fact, not a venue-wide rule, and nothing sourced gives
+  the doors for this event.
+- The surrounding arena dates (Jets January 2, 7 and 9; Moose January 1, 3, 8
+  and 10) come from our own already-sourced Jets and Moose pages, which is why
+  the post can say January 5 is the one evening in that stretch with no hockey
+  in the building, and that the arena has eight nights booked in the first ten
+  days of the month.
+- Distance from the house: 3.9 km and ten minutes, from the verified distance
+  table in `AGENT-INSTRUCTIONS.md`. No walk time to Osborne Village is stated,
+  since that figure is not in the table.
+
+---
+
 ## blog-gene-simmons-band-winnipeg.html (published 2026-11-19)
 
 - Date, time and venue: the Gene Simmons Band plays the Centennial Concert Hall,
