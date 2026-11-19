@@ -123,6 +123,15 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "Gene Simmons Band",
+      "url": "/blog-gene-simmons-band-winnipeg.html",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "time": "8 p.m.",
+      "venue": "Centennial Concert Hall, 555 Main St",
+      "status": "confirmed"
+    },
+    {
       "title": "Winnipeg Jets vs Chicago",
       "url": "/blog-winnipeg-jets.html",
       "start": "2026-12-10",

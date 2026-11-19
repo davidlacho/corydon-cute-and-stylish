@@ -8,6 +8,91 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-19 (third run, the cron)
+
+**Third firing of the day.** Two runs had already committed on 2026-11-19 before
+this one started, so this run took the next rotation batch and the next Events
+queue entry rather than repeating their work. Nothing from either earlier run
+was undone. The image-host allowlist kept working: images.unsplash.com returned
+the hero photo on the first try (HTTP 200). Organiser sites outside the
+allowlist are still unreachable, so event facts came from search extracts.
+
+**Businesses verified (6, the stalest in the rotation).** Dated 2026-10-30 to
+11-01 before this run. No closure, move or rename, and no page needed
+correcting.
+
+- **Marion Street Eatery, 393 Marion St: still closed**, and both pages that
+  name it already say so correctly. CTV Winnipeg's report of the closure stands,
+  and the search turned up no reopening. Roasted Nomad occupies the room, which
+  is what `blog-restaurants.html` and `blog-winnipeg-brunch-breakfast.html`
+  both state. Left as written.
+- **Roasted Nomad, 393 Marion St: open.** Directory and review listings place it
+  at the address as the successor to Marion Street Eatery, run by Pamela
+  Holunga, who worked at the old room. The brunch-and-coffee pattern our two
+  pages describe is intact. No published hours were established and neither page
+  states precise ones.
+- **Old Gold Vintage Vinyl, 187 Osborne St: open.** A 2026 Winnipeg record-store
+  guide carries it at 4.8 from 82 Google reviews, and a directory gives the
+  address, the (204) 294-7784 number and an active Instagram account. Hours
+  could not be established; `blog-winnipeg-osborne-village-guide.html` states
+  none.
+- **Parcel Pizza, 221-A Stradbrook Ave: open.** A live SkipTheDishes storefront
+  for the address plus two current venue listings. One MapQuest page shows
+  "Closed", which is an hours-at-capture snapshot rather than a closure flag,
+  and nothing else supports a closure. No price or hours on our page to correct.
+- **Patent 5 Distillery, 108 Alexander Ave: open.** An Exchange District BIZ
+  piece from October 2025 describes it as a seven-year-old fixture of the city's
+  cocktail scene, a Doors Open Winnipeg listing has the building open May 31,
+  2026, and Eventbrite carries its cocktail classes and First Fridays.
+- **Pauline Bistro (Norwood Hotel), 112 Marion St: open.** Listings and a blog
+  review agree on brunch daily 8 a.m. to 2 p.m., reservations recommended, free
+  parking in the hotel lot, and Le Goûter afternoon tea on Sundays from 3 to 5
+  p.m. The address was already in the ledger and is unchanged.
+
+**Ledger sweep (one post, per the rotation).**
+`blog-the-forks-cmhr-day-plan.html`. The only ledger-category business it names
+is The Forks Market, already in the ledger, so the filename was appended to its
+`pages`. The Canadian Museum for Human Rights is a museum and no market tenant
+is named individually. 82 posts remain unswept. The sweep file also had two
+entries run together on one line from the previous run; that line was split.
+
+**New post: `blog-gene-simmons-band-winnipeg.html`, "Gene Simmons Winnipeg
+Tickets: December 9, 2026 Concert Hall".** First entry in the Events queue, and
+the city's one December concert date that had neither a post nor a calendar
+entry. Form: explainer, which the rotation allowed (the last three were question
+and answer, walk and comparison). It states the date, the 8 p.m. start with no
+listed support act, the three ways the hall sells tickets, the May 1 on-sale
+date, the Lily Avenue parkade with its six-foot-ten clearance, the Rupert Avenue
+entrance still closed for museum construction, the Main Street bus routes and
+stop numbers, and the coat check. It quotes **no ticket price** (resale figures
+disagree and some are in US dollars) and **no seating capacity**: a first draft
+said "2,300-seat theatre", which is Rainbow Stage's figure, not the Concert
+Hall's, and it was cut rather than reused. It also clears up the two names the
+room is listed under, since resale sites file it as Manitoba Centennial Concert
+Hall. Provenance is in `post-sources.md`. No new ledger entries: the page names
+no restaurant, bar or shop.
+
+**Events calendar.** One entry added: Gene Simmons Band, December 9, 2026, 8
+p.m., Centennial Concert Hall, confirmed, pointing at the new post. The NHL
+Heritage Classic entry is still the only stale one at 25 days past; the playbook
+keeps a one-off on the calendar until it is more than 30 days past, so it was
+left for a later run. The four typical entries inside the next 60 days (Arctic
+Glacier Winter Park, the Nestaweya River Trail season, the St. Adolphe snow maze
+and the warming huts) are all weather-dependent openings that no organiser has
+dated yet; they stay typical. `update-events.py` regenerated `events.html`: 85
+entries, 84 upcoming, 61 confirmed in the JSON-LD.
+
+**Events queue refilled (2).** Choir! Choir! Choir! Un-Silent Night at the
+Burton Cummings Theatre, listed December 15, 2026 at 8 p.m. on two concert
+listings, December 16 on a third, and flagged unavailable on one aggregator, so
+the entry says to re-check with the theatre before publishing. Christmas Lights
+Sightseeing Tour from The Forks, added as typical only: Heartland Travel's own
+page still shows the 2025 season, so the entry says to publish nothing until
+the operator posts 2026 dates, and to quote no price before then.
+
+---
+
+
 ## 2026-11-19 (second run, the cron)
 
 **The image-host allowlist works.** images.unsplash.com returned a photo on the

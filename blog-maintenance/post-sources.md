@@ -16,6 +16,68 @@ Newest first.
 
 ---
 
+## blog-gene-simmons-band-winnipeg.html (published 2026-11-19)
+
+- Date, time and venue: the Gene Simmons Band plays the Centennial Concert Hall,
+  555 Main Street, on Wednesday, December 9, 2026 at 8 p.m. The hall's own event
+  page for the show, Tourism Winnipeg's event listing and the resale listings
+  (TickPick, Event Ticket Center, Eventworld) all carry December 9 at 8 p.m.
+- Tickets: through the hall at centennialconcerthall.com, the box office in
+  person, or 204-949-3999, the same three channels the hall gives for every
+  show. On-sale date May 1, 2026. Two sources give different on-sale hours, 10
+  a.m. on one and 11 a.m. on another, with presales from April 29, so the page
+  states the date and not the hour.
+- **No price on the page.** Resale figures ranged from about US$136 to US$170
+  across SeatGeek, TickPick and Calitickets, at least one of them quoted in US
+  dollars without saying so, and none of them is the hall's own number. The page
+  tells the reader to take the figure from the hall and to check fees on a resale
+  listing.
+- **No seating capacity on the page.** No capacity figure for the Concert Hall
+  was sourced this run. A first draft carried "2,300-seat theatre"; that number
+  belongs to Rainbow Stage in `post-sources.md` and was removed rather than
+  reused. The page says "a seated theatre on Main Street rather than the
+  downtown arena" instead, which the booking itself supports.
+- No support act: no listing for the Winnipeg date names one, which is the basis
+  for treating 8 p.m. as the start time rather than a doors time.
+- Venue naming: resale sites file the room as "Manitoba Centennial Concert Hall"
+  while the hall and Tourism Winnipeg call it the "Centennial Concert Hall". Same
+  555 Main Street address, one date. On the page because a visitor searching will
+  meet both names.
+- Tour shape: a Canadian run of about seven dates announced in late April 2026,
+  opening November 30 in the Edmonton area (sources disagree on whether the venue
+  is in Nisku or Edmonton, so neither is on the page), with Saskatoon at TCU
+  Place on December 7 and Sydney, Nova Scotia, at Centre 200 on December 12
+  either side of Winnipeg. Only the Saskatoon and Sydney dates are used.
+- Setlist: marketing copy says the classic hits; no official song list exists for
+  the Winnipeg date, and the one fan page found was openly speculating. Nothing
+  about the setlist is on the page.
+- Concert Hall practicalities (parkade behind the hall entered from Lily Avenue,
+  six-foot-ten clearance, accessible parking through Imperial Parking on
+  204-943-3578, free indoor bike rack for event patrons, the Manitoba Centennial
+  Centre entrance off Rupert Avenue closed during museum construction, coat check
+  in the main lobby behind the feature-wall mural, no glass or outside food in
+  the theatre) were reused from the sourcing done for
+  blog-wso-christmas-concerts-winnipeg.html on 2026-11-05 and carried through
+  blog-jann-arden-holiday-orchestra-winnipeg.html on 2026-11-07, not re-checked
+  this run.
+- Transit (routes FX2, FX3, F8, D16 and 43; stops 10629 and 10635) was reused
+  from the 2026-10-30 run's reading of the Centennial Concert Hall's own transit
+  page.
+- Distance from the house: the playbook's verified table only, ten minutes and
+  4.3 km to 555 Main St.
+- Daylight: the sun sets in Winnipeg before 4:30 p.m. in the first half of
+  December. Astronomical, computed, not sourced to a page.
+- Hero image: images.unsplash.com photo-1462965326201-d02e4f455804, a bass
+  player on a dim stage, fetched successfully through the proxy (HTTP 200) and
+  used by no other post. Organiser sites were not fetched directly: as on
+  earlier runs, centennialconcerthall.com is outside the environment's host
+  allowlist, so every fact above came from search-result extracts.
+- The post names no restaurant, cafe, bar or shop, so it added no business
+  ledger entries. Its only commercial name is Imperial Parking, the hall's
+  accessible-parking operator, which is not a ledger category.
+
+---
+
 ## blog-manitoba-moose-hockey.html, published 2026-11-19
 
 New post, the first on the Moose. The site covered the Jets and the Goldeyes but
