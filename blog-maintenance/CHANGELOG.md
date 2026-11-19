@@ -8,6 +8,156 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-19
+
+**Businesses verified (6, the stalest in the rotation).** The four holiday
+markets from `blog-winnipeg-holiday-markets.html`, Le Patio 340 and Harth Mozza
+& Wine Bar, all dated 2026-10-27 or 10-28. No closure, move or rename. One date
+correction did come out of it, and it is the most useful thing this run did.
+
+- **Christkindlmarkt (Fort Garry Place): open, and its 2026 dates are now
+  pinned.** The page had said this was the one market whose weekend we could not
+  establish, with listings split between November 27 to 29 and November 29 to
+  December 1. Neither is right. The German-Canadian Congress (MB) Inc.'s own
+  2026 exhibitor application, hosted on the organiser's site, gives Saturday
+  November 28, 10 a.m. to 7 p.m. and Sunday November 29, 10 a.m. to 4 p.m. at
+  the Fort Garry Place Mall, 85 Garry Street, with exhibitor registration having
+  closed September 30. The page now states those dates and hours, the hedge came
+  out of the "Before you go" box, and the heading carries the dates like the
+  other five entries. The edition number was left off because listings disagree
+  on it.
+- **Winnipeg Christmas Market (Signatures Shows): open**, and the page's
+  November 26 to 29 is right. Two separate Signatures merchant applications for
+  2026 give Thursday to Sunday, November 26 to 29 at the RBC Convention Centre,
+  with 140-plus artisans over 70,000 square feet.
+- **Third + Bird: open**, and this weekend. Its market runs November 20 to 22 as
+  the page says. The ledger address was trimmed to "3977 Portage Ave (Red River
+  Exhibition Place)": it had been qualified as the 2026 *spring* market address,
+  which is misleading now that the Christmas market is at the same venue.
+- **Scattered Seeds Craft Market: open.** Its own Ticket Tailor listings for the
+  2026 fall edition give October 16 to 18 and 23 to 25, matching the page. A
+  second Ticket Tailor page showing October 17 to 19 and 24 to 26 is last year's
+  and should be ignored on a later rotation. The organiser also runs a Mother's
+  Day market, May 9 and 10 in 2026.
+- **Le Patio 340: open**, on the strongest evidence in the batch. The CCFM's own
+  page carries a 2026 season opening of June 12 and is recruiting artists for the
+  season with a capacity of 800 and one show an evening. Note for a later run: a
+  third-party directory describes the venue in terms the site must not repeat;
+  only the CCFM's own wording is usable here.
+- **Harth Mozza & Wine Bar: open.** Live Tock pages for reservations, private
+  dining and an FAQ, which is trading evidence rather than a directory stub. A
+  third-party listing gives 980 St Anne's Rd, matching our ledger and
+  `blog-best-places-nearby-winnipeg.html`. Published hours could not be
+  established and neither of our pages states any, so nothing changed.
+
+**Ledger sweep (one post, per the rotation).** `blog-st-vital-park.html`, which
+is also the page refreshed below, needed no entries: it is a City of Winnipeg
+regional park and everything the post names inside it is city-run or a monument.
+84 posts remain unswept. The ledger still holds 200 businesses.
+
+**Still no new post: every image host is refused at the sandbox proxy,
+rechecked today.** images.unsplash.com, upload.wikimedia.org, images.pexels.com
+and cdn.pixabay.com all answer 403 at CONNECT, and staywinnipeg.ca does too. New
+today: `WebFetch` now fails DNS resolution for every host (winnipeg.ca,
+legacy.winnipeg.ca, gccmb.ca were all tried), so organiser pages can only be
+read through the search tool's own extracts. All seven entries at the top of the
+Events queue need an arena, stage, basketball or hockey photo, and the unused
+local files in `images/` are food, cafe and brewery shots from the Corydon
+guidebook set. **Owner action, unchanged from the last three runs: allow an image
+host in the environment's network settings, or add a few venue photos to
+`images/`, and the events queue starts moving again.**
+
+**Page refreshed and retitled: `blog-st-vital-park.html`, now "St. Vital Park
+Winnipeg: Duck Pond, Trails, Toboggan Hills".** Slug and URL unchanged, hero
+photo unchanged (ducks on a pond, which now matches what the page is actually
+about). It was the stalest page on the site, `dateModified` 2025-04-05, and the
+Refresh queue is empty, so it was taken on the stalest-page rule the 11-18 run
+used. Rewritten as a **walk**, the form the rotation rule left open after
+question and answer (11-16), explainer (11-17) and comparison (11-18).
+
+- **What it was.** Template filler with no fact in it a visitor could not have
+  guessed: "Nestled along the banks of the Red River", "it's a testament to the
+  park's beauty", "Whether you're looking for a place to exercise", headings
+  called Getting There, Seasonal Activities, Wildlife and Nature and Why St.
+  Vital Park Matters, and four-item reflex lists under most of them. It also put
+  the park "about a 15-minute drive from our Airbnb", a figure not in the
+  verified distance table, so it was removed rather than reworded.
+- **What it is now.** A route in order, continuous prose, no bullet lists: the
+  duck pond and its pavilion, up the slope to the treetop lookout and the two
+  toboggan slides, down to the river bend and the totem pole, then an honest
+  paragraph on what transit actually does out there. One `.info-box` telling the
+  reader that the ice and the slides depend on the weather and to check
+  winnipeg.ca before loading skates into the car.
+- **Newly sourced facts.** 190 River Road, on a bend of the Red River, free, open
+  7 a.m. to 10 p.m. daily. The Duck Pond Pavilion replaced an older shelter in
+  2014; its wing-shaped roof makes two covered picnic areas, and it is the heated
+  change building when the pond is skateable. The city has **$3.395 million**
+  committed to dredging the pond, naturalising the basin and reworking the path
+  connections, design under way and construction set for **2027**, prompted by
+  algae in a shallow pond; a separate **$1.2-million** repaving of the park roads
+  was done this year. The treetop lookout and both toboggan slides date from the
+  end of 2017, and the city's own toboggan-hill listing gives this hill two
+  slides, night lighting and a warm-up building with a washroom. In low-snow
+  winters the city has held the slides shut, naming St. Vital Park alongside
+  Bunn's Creek, Fraser's Grove and Crescent Drive. The totem pole was given by
+  the Billinkof family in memory of their father and once stood at the family
+  lumber yard. **Route 101, the South St. Vital On-Request service**, names St.
+  Vital Park among the places it serves, so a transit trip there is booked rather
+  than timetabled, and the 2025 network rebuild makes route numbers in older
+  guides unreliable.
+- **What was deliberately left off.** The acreage: sources split between 100
+  acres and 46 hectares, so no figure is given. The 9 a.m. to 9 p.m. pond-skating
+  hours: the only listing carrying them puts the pond on St. Vital Road rather
+  than River Road. Any loop walk time, because nothing verifiable gives one. Any
+  drive time from the house, because St. Vital Park is not in the verified table.
+- Title and description synced in `articles-data.js`, `articles_data.json`, the
+  `blog.html` noscript card (including `data-title`) and the `blogPost` JSON-LD;
+  the meta line now reads "Winnipeg Guides / 5 min read / Updated November 19,
+  2026" and the `date` field stays 2025-04-05; `article:modified_time`,
+  `dateModified` and the sitemap `<lastmod>` set to today on this page and on
+  `blog-winnipeg-holiday-markets.html`; `update-llms.py` rerun and
+  `check-blog-listing.py` printing OK for all 185 posts.
+- Internal links added to `blog-river-walks.html` and `blog-assiniboine-park.html`.
+- The post names no commercial business, so it added no ledger entries.
+
+**Events calendar.** Checked, regenerated, no data change. 74 entries, 73
+upcoming.
+
+- **One stale entry, left in place on purpose.** The NHL Heritage Classic ended
+  2026-10-25, 25 days ago. It was a one-off, and the rule is to remove a one-off
+  once it is more than 30 days past, so it comes off on or after 2026-11-25.
+- **Four `typical` entries inside the 60-day window were checked and all four
+  stay typical.** Arctic Glacier Winter Park (2026-12-19), the Nestaweya River
+  Trail skating season (2027-01-09) and the Warming Huts (2027-01-18) have no
+  2026-27 announcement from The Forks at all; everything findable is last
+  season's, and The Forks posts trail status at theforks.com/skate when the ice
+  is ready. The snow maze at A Maze in Corn (2027-01-15) now has organiser
+  wording, "expected to open in mid-January 2027", plus a winter restaurant
+  called The Den slated for February 2027. "Expected" is not a published date, so
+  the entry stays `typical`, but the window we had already guessed is confirmed
+  as the organiser's own expectation.
+- **Today's post is not about a dated event**, so it added no calendar entry.
+- **Events queue refilled with one entry:** the **Gene Simmons Band at the
+  Centennial Concert Hall, Wednesday December 9, 2026 at 8 p.m.**, from the
+  hall's own event page. It is the only December date in the city with neither a
+  calendar entry nor a post, and it sits above the January entries in the queue's
+  chronological order. It cannot be written until an image host is reachable.
+- `events.html` was regenerated (its date stamp changed) and its sitemap
+  `<lastmod>` set to today.
+
+**pa11y.** The live-URL check could not run: staywinnipeg.ca is refused at the
+sandbox proxy (`ERR_TUNNEL_CONNECTION_FAILED`), and a local static server to test
+against is not permitted in this sandbox. Instead the four changed pages were
+run through pa11y over `file://`
+(`blog-st-vital-park.html`, `blog-winnipeg-holiday-markets.html`, `blog.html`,
+`events.html`). Each returns exactly one error, the skip link pointing at
+`#main-content`, which does not exist under `file://` because React never renders
+the `<main>`. An untouched control page, `blog-winnipeg-jets.html`, returns the
+same single error, so the changed pages introduce no new WCAG2AA issue. The
+live-URL check still needs running once staywinnipeg.ca is reachable.
+
+---
+
 ## 2026-11-18
 
 **Businesses verified (6, the stalest in the rotation).** One Corydon pharmacy,

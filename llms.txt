@@ -181,7 +181,7 @@ Total Blog Posts: 185
 - [Assiniboine Park and The Leaf: Winnipeg's Urban Oasis](https://staywinnipeg.ca/blog-assiniboine-park.html)
 - [River Walks and Outdoor Activities in Winnipeg](https://staywinnipeg.ca/blog-river-walks.html)
 - [Canadian Museum for Human Rights: A Journey of Understanding](https://staywinnipeg.ca/blog-human-rights-museum.html)
-- [St. Vital Park: Winnipeg's Riverside Oasis](https://staywinnipeg.ca/blog-st-vital-park.html)
+- [St. Vital Park Winnipeg: Duck Pond, Trails, Toboggan Hills](https://staywinnipeg.ca/blog-st-vital-park.html)
 - [The Forks Winnipeg: What to See, Eat & Do (Visitor Guide)](https://staywinnipeg.ca/blog-the-forks.html)
 - [Festival du Voyageur 2027: February 12 to 21 in Winnipeg](https://staywinnipeg.ca/blog-festival-du-voyageur.html)
 - [Getting Around Winnipeg: Transit, Uber, Parking & Airport](https://staywinnipeg.ca/blog-transportation.html)
@@ -316,5 +316,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
-November 18, 2026
+November 19, 2026
 

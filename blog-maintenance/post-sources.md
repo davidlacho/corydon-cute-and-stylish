@@ -16,6 +16,76 @@ Newest first.
 
 ---
 
+## blog-st-vital-park.html, refreshed and retitled 2026-11-19
+
+Rewritten as a walk after sitting untouched since 2025-04-05. Facts and where
+they came from:
+
+- **Address, hours, admission, amenities:** the City of Winnipeg's own St. Vital
+  Park page (legacy.winnipeg.ca/publicworks/parks/st-vital.stm) as returned in
+  search: 190 River Road, open 7 a.m. to 10 p.m. daily, free, year-round
+  washrooms, wheelchair accessible, BBQ pits at bookable sites, soccer field,
+  playground, volleyball courts, boat launch and dock.
+- **Duck Pond Pavilion:** the city's 2014 news release on the pavilion's opening
+  (it replaced a shelter demolished in 2013, cost about $1.4 million, has a
+  wing-inspired roof making two covered picnic zones, and serves as the heated
+  change area for skating on the pond).
+- **Pond revitalization:** the city's news release of 2026-08-07, "Revitalization
+  slated for St. Vital Park duck pond": $3.395 million, dredging, naturalising
+  the basin, improving pathway connections, design under way and construction in
+  2027, prompted by algae in a shallow pond. CTV Winnipeg carried the same
+  figures. The separate $1.2-million park road repaving comes from the city's own
+  construction notices for 26-R-9B, with the work window given as August to
+  September 2026.
+- **Treetop lookout and toboggan slides:** the city's news release of 2017-12-22;
+  the two-slides / night-lighting / warm-up-building-with-washroom detail is from
+  the city's toboggan hills listing (legacy.winnipeg.ca, page last updated
+  2026-03-23, every location showing "Closed" because it is a spring snapshot).
+  The low-snow delay naming St. Vital Park alongside Bunn's Creek, Fraser's Grove
+  and Crescent Drive is from the city's "Lack of snow delays some free winter
+  activities around Winnipeg" story.
+- **Totem pole:** donated by the Billinkof family in memory of their father, and
+  previously standing at the family lumber business (Wikipedia's St. Vital Park
+  article, which cites 1929 Winnipeg Free Press coverage for the park's
+  development).
+- **Transit:** Winnipeg Transit's description of Route 101, South St. Vital
+  On-Request, which lists St. Vital Park among the places it serves; the June
+  2025 Primary Transit Network rebuild is why the page tells readers to use the
+  trip planner rather than a route number from an older guide.
+
+Deliberately not stated on the page:
+
+- **Acreage.** Wikipedia and its mirrors give 100 acres (40 ha); a travel guide
+  gives 46 hectares (114 acres). Two irreconcilable figures, so neither is used.
+  The "third largest park in the city" claim is from a Wikipedia mirror only.
+- **Pond skating hours.** One city listing gives 9 a.m. to 9 p.m. with change
+  facilities, but puts the pond at "190 St. Vital Road" rather than River Road,
+  so the hours are not quoted.
+- **A loop walk time.** No source gives one and the sandbox cannot reach mapping
+  sites, so the page says "an hour is enough to do it slowly" rather than a
+  figure.
+- **Any drive or walk time from the house.** St. Vital Park is not in the
+  verified distance table in `AGENT-INSTRUCTIONS.md`. The old page's "about a
+  15-minute drive from our Airbnb" was removed for that reason, not replaced.
+
+## blog-winnipeg-holiday-markets.html, Christkindlmarkt dates pinned 2026-11-19
+
+The page had said the Christkindlmarkt weekend could not be pinned down, with
+2026 listings split between November 27 to 29 and November 29 to December 1.
+Neither is right. The German-Canadian Congress (MB) Inc.'s own 2026 exhibitor
+application, hosted on the organiser's site
+(irp.cdn-website.com/cedb495c/files/uploaded/Exhibitor+application+2026.pdf),
+gives Saturday November 28, 2026, 10 a.m. to 7 p.m. and Sunday November 29,
+2026, 10 a.m. to 4 p.m. at the Fort Garry Place Mall, with exhibitor
+registration closed as of September 30, 2026. The venue address is 85 Garry
+Street; an older listing giving 30 Fort St appears to be wrong. The market has
+run since 1985. The edition number was left off the page because listings
+disagree (one calls a past year the 38th, another the 39th). gccmb.ca could not
+be read directly from the sandbox, so the application PDF, quoted in search
+results, is the organiser-level source for these dates.
+
+---
+
 ## blog-classic107-spring-break-winnipeg.html, refreshed and retitled 2026-11-18
 
 Retitled from "Classic 107 Spring Break Picks: Winnipeg Family Activities" to
