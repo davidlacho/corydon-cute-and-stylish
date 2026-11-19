@@ -72,6 +72,12 @@ Newest first.
   used by no other post. Organiser sites were not fetched directly: as on
   earlier runs, centennialconcerthall.com is outside the environment's host
   allowlist, so every fact above came from search-result extracts.
+- Editing pass, after the first push: "the symphony's Christmas run fills most
+  of the following fortnight" was replaced with the WSO's actual December dates
+  (the 3rd, 5th, 6th, 12th and 13th) from blog-wso-christmas-concerts-winnipeg.html,
+  an estimated "near eleven o'clock" end time became "late on a December night",
+  and a three-item list in the stay section became the symphony programs plus the
+  December 8 and 10 Jets home games, both of which are on our own calendar.
 - The post names no restaurant, cafe, bar or shop, so it added no business
   ledger entries. Its only commercial name is Imperial Parking, the hall's
   accessible-parking operator, which is not a ledger category.
