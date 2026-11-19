@@ -498,12 +498,13 @@ event post also feeds the events calendar (`events.html`); see Part 2b.
   that does have one, leave the skipped entry in place, and log why in the
   changelog. A missing photo must never turn a new-post run into a refresh run;
   five runs in a row (2026-11-15 to 11-19) published no new post that way.
-- **Image hosts are allowlisted.** Since 2026-11-19 the routine's cloud
-  environment allows images.unsplash.com, unsplash.com, upload.wikimedia.org,
-  commons.wikimedia.org, images.pexels.com, www.pexels.com, staywinnipeg.ca and
-  davidlacho.github.io. If one of these returns 403 at CONNECT again, say so at
-  the top of the changelog block as an owner action, and still apply the
-  exception above.
+- **Network access is Full.** Since 2026-11-19 the routine's cloud environment
+  can reach any domain: image hosts, staywinnipeg.ca, and organiser, venue and
+  city sites through `WebFetch` or `curl`. Read the organiser's own page with
+  `WebFetch` instead of relying on search extracts whenever a date, time, venue
+  or price is at stake. If a host fails DNS or returns 403 at CONNECT again,
+  say so at the top of the changelog block as an owner action (the environment
+  setting was probably changed), and still apply the exception above.
 - **Refresh, do not duplicate.** Entries marked "refresh" name an existing
   `blog-*.html`. Update that file in place: new dates, venue, tickets and on-sale
   timing, what is new this year, `article:modified_time`, `dateModified`, the

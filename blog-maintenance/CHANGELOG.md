@@ -8,6 +8,17 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-19 (owner session, network access set to Full)
+
+**WebFetch can now reach organiser sites.** The catch-up runs found that
+`WebFetch` used the same allowlist as the image hosts, so moosehockey.com,
+winnipeg.ca and every other organiser page failed DNS and event facts came only
+from search extracts. The Default environment's network access is now **Full**,
+so every domain is reachable. From the next run, read the organiser's own page
+for dates, times, venues and prices, and stop noting that sites outside the
+allowlist are unreachable. The "Event posts" note in `AGENT-INSTRUCTIONS.md` is
+updated to match.
+
 ## 2026-11-19 (fourth run, the cron)
 
 **Fourth firing of the day.** Three runs had already committed on 2026-11-19, so
