@@ -567,7 +567,8 @@
         "blog-elmo-got-the-moves-winnipeg.html",
         "blog-choir-choir-choir-winnipeg.html",
         "blog-rainy-day-winnipeg-itinerary.html",
-        "blog-trooper-burton-cummings-winnipeg.html"
+        "blog-trooper-burton-cummings-winnipeg.html",
+        "blog-munschbusters-prairie-theatre-exchange.html"
       ],
       "status": "open",
       "last_verified": "2026-11-11"
@@ -857,7 +858,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-03"
+      "last_verified": "2026-11-20"
     },
     {
       "name": "River Heights Farmers' Market",
@@ -866,7 +867,7 @@
         "blog-farmers-market-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-03"
+      "last_verified": "2026-11-20"
     },
     {
       "name": "Roughage Eatery",
@@ -875,7 +876,7 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "moved",
-      "last_verified": "2026-11-03"
+      "last_verified": "2026-11-20"
     },
     {
       "name": "Saburo Kitchen (Hargrave St. Market)",
@@ -1359,7 +1360,8 @@
         "blog-nestaweya-river-trail.html",
         "blog-rainy-day-winnipeg-itinerary.html",
         "blog-the-forks-cmhr-day-plan.html",
-        "blog-the-forks.html"
+        "blog-the-forks.html",
+        "blog-things-to-do.html"
       ],
       "status": "open",
       "last_verified": "2026-11-11"
@@ -1422,7 +1424,7 @@
         "blog-snow-maze-st-adolphe.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-03"
+      "last_verified": "2026-11-20"
     },
     {
       "name": "Kannuk Outfitters",
@@ -1431,7 +1433,7 @@
         "blog-snow-maze-st-adolphe.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-03"
+      "last_verified": "2026-11-20"
     },
     {
       "name": "G G Gelati",
@@ -1480,7 +1482,9 @@
     {
       "name": "Fun Mountain Water Slide Park",
       "address": "804 Murdock Rd, RM of Springfield",
-      "pages": [],
+      "pages": [
+        "blog-things-to-do.html"
+      ],
       "status": "closed",
       "last_verified": "2026-11-13"
     },
@@ -1908,12 +1912,21 @@
     },
     {
       "name": "Johnston Terminal",
-      "address": "",
+      "address": "25 Forks Market Rd",
       "pages": [
         "blog-the-forks.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-11-20"
+    },
+    {
+      "name": "Portage Place",
+      "address": "393 Portage Ave",
+      "pages": [
+        "blog-munschbusters-prairie-theatre-exchange.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-20"
     }
   ]
 }

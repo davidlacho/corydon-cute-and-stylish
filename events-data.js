@@ -211,6 +211,14 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "Munschbusters! at Prairie Theatre Exchange",
+      "url": "/blog-munschbusters-prairie-theatre-exchange.html",
+      "start": "2026-12-18",
+      "end": "2027-01-03",
+      "venue": "Prairie Theatre Exchange, 393 Portage Ave",
+      "status": "confirmed"
+    },
+    {
       "title": "Vinterfest craft market at IKEA Winnipeg",
       "url": "/blog-vinterfest-market-winnipeg.html",
       "start": "2026-12-18",

@@ -8,6 +8,134 @@ recent entries to avoid repeating work.
 ---
 
 
+## 2026-11-20 (the cron)
+
+**Full network access works, and it changed the run.** Organiser pages loaded
+directly in `WebFetch` for the first time: pte.mb.ca, cornmaze.ca,
+heartlandtravel.ca, centennialconcerthall.com and travelmanitoba.com all
+returned content, so today's post is sourced entirely from the organiser rather
+than from search extracts. Two hosts to note for later runs, neither an owner
+action: **tourismwinnipeg.com answers 403** to `WebFetch`, and
+**redriver.coop does not resolve at all**, with or without `www`, which looks
+like the host rather than the allowlist. The stale "organiser sites still fail
+DNS" paragraph in `post-ideas.md` has been corrected.
+
+**Businesses verified (6, the stalest in the rotation).** One was dated
+2026-01-01 (a backfill entry) and five 2026-11-03. No closure, no rename, and
+one move already correctly described on the site. Two pages were corrected.
+
+- **Johnston Terminal, 25 Forks Market Rd: open.** The Forks' own attractions
+  page still describes it as "a variety of unique specialty boutiques and
+  stores, plus offices, caf&eacute; and The Old Spaghetti Factory" and warns that
+  "The building hours and tenant hours may vary from The Forks Market"; a
+  directory listing verified in March 2026 gives 9 a.m. to 9 p.m. The address was
+  blank in the ledger and is now filled in. **Page corrected:**
+  `blog-the-forks.html` said the building houses the Manitoba Children's Museum.
+  It does not. The museum is at 45 Forks Market Road, in the former Northern
+  Pacific and Manitoba Railway repair shop (the Kinsmen / Bridges and Structures
+  Building, a provincial heritage site since 1995 and the oldest building at The
+  Forks); the museum's own visit page gives that address, and Johnston Terminal
+  is 25 Forks Market Road. The sentence was rewritten to name the real tenants
+  and point the reader to the right building, which also removed an "is a
+  testament to" house-style tell.
+- **Red River Co-op Food Store, 1120 Grant Ave: open.** No closure evidence.
+  redriver.coop would not resolve, but a Harvest Manitoba listing records a
+  community event at the Grant Park food store in December 2025 and Canadian
+  Grocer reports the co-op planning a new downtown food and pharmacy store for
+  2029, so the organisation is operating and expanding.
+  `blog-best-places-nearby-winnipeg.html` states only the address, so nothing to
+  correct.
+- **River Heights Farmers' Market, 1370 Grosvenor Ave: open.** The Corydon
+  Community Centre's own page gives the 2026 season as opening July 3 and running
+  every Friday 12 to 5 p.m. until September 25, in the parking lot at 1370
+  Grosvenor. `blog-farmers-market-near-corydon-airbnb.html` already says exactly
+  that. No change.
+- **Roughage Eatery: still a pop-up, status left as "moved".** Its own site
+  (copyright 2026) says the kitchen is on a break to restock and cater and will
+  "return for dinner service at Club 200 at the end of November" with holiday
+  meals in December; it lists pop-ups rather than regular hours and no dining
+  room. `blog-winnipeg-vegan-restaurants.html` already describes it this way and
+  sends readers to roughageeatery.ca. No change.
+- **A Maze in Corn, St. Adolphe: open.** cornmaze.ca now carries the next season:
+  the snow maze "Opens: mid January 2027", The Den "Opens February 2027", and
+  sleigh rides "Available Sat &amp; Sun 12:30-4:30pm (weather dependent)". **Page
+  corrected:** `blog-snow-maze-st-adolphe.html` gave the sleigh rides as "from
+  one until four" and said the maze "has opened in late January in recent
+  seasons"; both were updated to the operator's current figures. No 2027 prices
+  are published, so the existing admission figures were left alone. The calendar
+  entry stays `typical` at January 15, since "mid January" is not a published
+  date.
+- **Kannuk Outfitters: open, on soft evidence.** The Travel Manitoba directory
+  lists guided open-water and ice fishing and luxury Ice Castle rentals, "Open
+  year-round", contact Matthew Smith at (204) 801-2366. The newest dated artifact
+  is a 2025 rates PDF and the photos are from 2023 and 2025, so there is no 2026
+  confirmation. Status left as open; a later rotation should treat this as
+  unconfirmed. `blog-snow-maze-st-adolphe.html` names it only as one of the
+  licensed outfitters on Lake Winnipeg.
+
+**New post: `blog-munschbusters-prairie-theatre-exchange.html`**, "Munschbusters
+Winnipeg 2026: PTE Dates, Tickets, Parking", form **one-day plan**. Second entry
+of the Events queue. The first, winnipeg-christmas-lights-tour, is still
+unpublishable: heartlandtravel.ca was read directly today and lists no Christmas
+lights tour at all, so there is still nothing from Heartland to quote, and the
+queue forbids using the aggregator's December 16 to 18 dates and $21 to $34.65
+range. The entry stays in place. The Refresh queue is empty, so the
+every-third-run refresh rule was skipped.
+
+The queue entry's doubts are now resolved from PTE's own site: the title is
+Munschbusters!, the run is December 18, 2026 to January 3, 2027 on the third
+floor of Portage Place at 393 Portage Avenue, Debbie Patterson adapted it from
+five Robert Munsch stories, it is billed for ages 3+, and tickets are $15.50 for
+ages 2 to 13, $19 for 14 and up and $65 for a family four-pack. Performances run
+December 18 to 23, December 26 to 30 and January 2 and 3, with nothing on
+December 24, 25, 31 or January 1. **Matinee times are not on the page**, because
+the organiser does not publish them in HTML: the show calendar is
+JavaScript-driven and purchase.pte.mb.ca returned an empty document, so the post
+gives the 7 p.m. evening slot (the one time PTE does publish, in its cookies-and-
+milk Pyjama Parties note) and sends readers to the box office on 204.942.5483 for
+the afternoons. No running time either, for the same reason. The page's distinct
+value is PTE's own parking and access detail, which no listing carries: the
+Vaughan Street entrance with Carlton Street permanently closed, the blue and
+yellow pillar sections by elevators 6 and 4/5, paying before going up, $7 after
+6 p.m. against $15 on a Canada Life Centre night, and the accessible box office,
+lobby and washrooms. Hero image is an unused Unsplash photo of red theatre seats.
+
+**Events calendar.** One entry added, `confirmed`: Munschbusters! at Prairie
+Theatre Exchange, December 18, 2026 to January 3, 2027, spanning the run with no
+`time` field because the matinee times vary and are unpublished. Nothing
+confirmed, moved or removed otherwise. The one stale entry, the NHL Heritage
+Classic of October 25, is 26 days past; the playbook says to leave a one-off
+until it is more than 30 days past, so it stays for one more run and should be
+removed around November 25. No `typical` entry inside the next 60 days needed
+confirming beyond the snow maze, handled above. `update-events.py` regenerated
+`events.html`: 86 upcoming events, 63 confirmed in the JSON-LD.
+
+**Events queue refilled (one entry).** `wso-from-the-inside-out-winnipeg`, the
+WSO's From the Inside Out at the Centennial Concert Hall, January 14 to 16, 2027,
+confirmed on the hall's own 2026-27 WSO season page; start times are not on that
+page and need taking from wso.ca before publishing. Only one was added rather
+than two because the December-to-mid-January window is already well covered: Zoo
+Lights, Winter Wonderland, New Year's Eve at The Forks, the RWB Nutcracker, the
+WSO Christmas Pops and Grinch concerts, Vinterfest, Arctic Glacier Winter Park
+and every Jets and Moose home date are all on the calendar already. A Classic
+Albums Live "Van Halen: 1984" show appears on the Centennial Concert Hall's own
+front page but no date for it could be found anywhere, so it was not queued.
+
+**Ledger backfill sweep:** `blog-things-to-do.html`. Two pages appended (Fun
+Mountain Water Slide Park, The Forks Market), no new entries: everything else the
+post names is a museum, park, district, crown corporation or venue, none of which
+the ledger lists. One new entry from today's post: **Portage Place**, 393 Portage
+Ave, and `blog-munschbusters-prairie-theatre-exchange.html` appended to Hargrave
+St. Market. Prairie Theatre Exchange itself was not added, to stay consistent
+with a ledger that lists neither Canada Life Centre nor the Royal Manitoba
+Theatre Centre.
+
+**Pages changed:** `blog-munschbusters-prairie-theatre-exchange.html` (new),
+`blog-the-forks.html`, `blog-snow-maze-st-adolphe.html`, `blog.html`,
+`events.html`, `articles-data.js`, `articles_data.json`, `events-data.js`,
+`sitemap.xml` (new URL plus lastmod on the forks, snow maze and events pages),
+`llms.txt` (189 posts). `check-blog-listing.py` prints OK.
+
 ## 2026-11-19 (owner session, network access set to Full)
 
 **WebFetch can now reach organiser sites.** The catch-up runs found that

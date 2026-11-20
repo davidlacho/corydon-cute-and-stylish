@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-munschbusters-prairie-theatre-exchange.html",
+    "category": "winnipeg",
+    "date": "2026-11-20",
+    "title": "Munschbusters Winnipeg 2026: PTE Dates, Tickets, Parking",
+    "image": "https://images.unsplash.com/photo-1574267432553-4b4628081c31?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Rows of red padded theatre seats facing a stage",
+    "description": "Munschbusters plays Prairie Theatre Exchange December 18, 2026 to January 3, 2027. Tickets $15.50 for ages 2 to 13, $19 for 14 and up, parking $7.",
+    "metaHtml": "<span>Winnipeg Arts</span>\n                                <span>5 min read</span>\n                                <span>November 20, 2026</span>"
+  },
+  {
     "url": "/blog-harlem-globetrotters-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-11-19",

@@ -16,6 +16,71 @@ Newest first.
 
 ---
 
+## blog-munschbusters-prairie-theatre-exchange.html (published 2026-11-20)
+
+Every fact on the page came from Prairie Theatre Exchange's own site, read
+2026-11-20 with `WebFetch` now that the environment has Full network access.
+
+- **Show, run and credits** (pte.mb.ca season page and pte.mb.ca/munschbusters):
+  Munschbusters!, December 18, 2026 to January 3, 2027, "Adapted by Debbie
+  Patterson | Based on the stories by Robert Munsch", from Alligator Baby, The
+  Dark, Mud Puddle, Good Families Don't and The Boy in the Drawer. "SUITABLE FOR
+  AGES 3+ AND FAMILIES". Venue given as "3rd Floor, Portage Place, Unit
+  Y300-393 Portage Avenue, Winnipeg, MB R3B 3H6". The same season page lists the
+  rest of the 2026-27 season (The Incomplete Dictionary of Lexical Gaps November
+  17 to 29, 2026; Gaslight January 19 to 31, 2027; Behind the Moon February 23 to
+  March 7, 2027; The Blackout April 13 to 25, 2027; Nanabush and the Spirit of
+  Thunder May 12 to 16, 2027), which is how the queue entry's doubt about the
+  title was settled.
+- **Prices** (same page): ages 2 to 13 $15.50; ages 14+ $19.00; Family 4-Pack
+  $65.00, "discount applies automatically at checkout"; children under 2 need no
+  ticket; subscribers 15 per cent off the single ticket price.
+- **Performance dates** (the show page's calendar): December 18, 19, 20, 21, 22,
+  23, 26, 27, 28, 29, 30 and January 2, 3. Nothing on December 24, 25, 31 or
+  January 1.
+- **Showtimes: not sourced, and deliberately absent from the page.** The only
+  time the organiser publishes in HTML is the 7 p.m. evening slot, named in the
+  Pyjama Parties note: "Enjoy complimentary cookies & milk after all 7:00 pm
+  shows, compliments of Winnipeg Kinsmen. Pyjamas and stuffies welcome!" The
+  calendar is JavaScript-driven and purchase.pte.mb.ca returned an empty
+  document to `WebFetch`, so matinee times could not be read. The queue entry
+  carried aggregator times (December 18 at 2 p.m. and 7 p.m., January 3 at 1 p.m.
+  and 3 p.m.); those were NOT used. The post sends readers to the box office on
+  204.942.5483 instead. A later run with a rendering browser could fill these in.
+- **Running time:** not published by PTE, so the post states none.
+- **Parking** (pte.mb.ca/plan-your-visit/parking): heated underground Portage
+  Place parkade, zone #46615; "Enter from Vaughan Street"; "Carlton Street
+  entrance is now permanently closed"; park at the "blue pillars (near elevator
+  6)" or "yellow pillars (near elevators 4 and 5)"; pay at the machines near the
+  elevators before going up; "$7 for an evening after 6 pm" and "$15 during
+  Canada Life Centre events"; ParkMobile via the "QR code on the side of the
+  payment machine". Box office 204-942-5483.
+- **Accessibility** (pte.mb.ca/plan-your-visit/accessibility): "PTE's facility is
+  fully accessible, including the Box Office (wheelchair-height window),
+  washrooms, lobby and lounge"; "Railings are in place to assist those who need
+  the help to climb stairs"; "Walkers can be stored with coats just inside the
+  doors of the theatre, until needed to exit". Relaxed, ASL-interpreted and
+  audio-described performances exist but the page says "Please check the page of
+  the play you wish to see for the date of the Relaxed performance", and the
+  Munschbusters page gives no such date, so the post routes that to the box
+  office.
+- **Daylight:** Winnipeg sunsets of about 4:30 p.m. through mid-December and
+  4:37 p.m. on December 31, from sunrise-sunset tables for 2026 (earliest sunset
+  December 11 at 4:29 p.m.). Consistent with the 4:37 p.m. figure already used in
+  blog-new-years-eve-the-forks.html.
+- **Transit and fare:** carried from our own
+  blog-winnipeg-transit-basics-getting-downtown-from-corydon.html (BLUE line on
+  the Southwest Transitway into downtown along Portage Avenue; $3.45 cash fare in
+  2026). Not re-sourced this run, and the post tells the reader to confirm the
+  fare on winnipegtransit.com.
+- **Distance:** Portage Place is described only as being on the same stretch of
+  Portage Avenue as Canada Life Centre, whose 10 min / 3.9 km drive is in the
+  verified table in AGENT-INSTRUCTIONS.md. No separate figure was invented for
+  393 Portage Avenue.
+- **Hargrave St. Market** (242 Hargrave, closed Sundays): carried from our own
+  blog-hargrave-st-market.html. The three Sundays in the run (December 20,
+  December 27, January 3) were confirmed by calendar.
+
 ## blog-harlem-globetrotters-winnipeg.html (published 2026-11-19)
 
 - Date, time and venue: the Harlem Globetrotters play Canada Life Centre, 300

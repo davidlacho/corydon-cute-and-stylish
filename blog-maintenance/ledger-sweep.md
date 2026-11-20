@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-things-to-do.html
 - blog-transportation.html
 - blog-travel-perspectives-hosting.html
 - blog-unique-airbnb-features.html
@@ -96,7 +95,7 @@ last because they are partly covered.
 
 ## Swept
 
-
+- blog-things-to-do.html (2026-11-20, two pages appended, no new entries: Fun Mountain Water Slide Park and The Forks Market were already in the ledger, so this filename went on their pages. Everything else the post names is institutional and out of ledger scope by the convention the ledger already follows: the Canadian Museum for Human Rights, the Manitoba Museum, the Winnipeg Art Gallery and the Children's Museum are museums, The Forks National Historic Site, Assiniboine Park, the Leo Mol Sculpture Garden, the Exchange District and FortWhyte Alive are parks and districts, the Royal Canadian Mint is a crown corporation, and Canada Life Centre, Princess Auto Stadium and the Royal Manitoba Theatre Centre are venues, none of which the ledger lists. No business named on the page has closed or moved.)
 - blog-the-forks.html (2026-11-19, one page appended and one entry added: The Forks Market was already in the ledger, so this filename went on its pages, and Johnston Terminal was added at last_verified 2026-01-01 since the post describes it as a building of restaurants and shops but was not re-verified this run. Nothing else on the page is a ledger category: the Forks Market Tower, the Oodena Celebration Circle and the riverwalk are site features, the Manitoba Children's Museum and the Canadian Museum for Human Rights are museums, the market vendors and riverside restaurants are described only in the abstract with none named, and the Hudson's Bay Company and North West Company appear as 18th-century fur-trade posts.)
 - blog-the-forks-cmhr-day-plan.html (2026-11-19, one page appended: The Forks Market was already in the ledger, so this filename was added to its pages. Nothing else on the page is a ledger category: the Canadian Museum for Human Rights is a museum, and the post names no individual market tenant, restaurant or shop, only "indoor seating at the market".)
 - blog-sunday-on-corydon-avenue.html (2026-11-19)
