@@ -16,6 +16,115 @@ Newest first.
 
 ---
 
+## blog-queer-owned-businesses-winnipeg.html (published 2026-11-21)
+
+Owner-requested post, published as a second run on 2026-11-21. Ownership is an
+identity claim about real people, so the rule applied here was: a business is
+called queer-owned on the page only where a published source says so, and
+"hosts queer events", "queer-friendly" and "ally-owned" were never treated as
+ownership. Read 2026-11-21.
+
+**Sources that could not be read.** tourismwinnipeg.com returns 403 to
+automated fetches (both its 2SLGBTQIA+ page and its Pride guide), as does
+uwinnipeg.ca; pinktickettravel.com returned 429 on two URLs. thegayagenda.fyi,
+which earlier searches pointed to, has been sunset and its Winnipeg directory
+is gone. Nothing on the page rests on those.
+
+**Ownership claims, business by business:**
+
+- **Oh Doughnuts, 326 Broadway.** Strongest sourced item. Downtown Winnipeg BIZ
+  ("Queer-Owned & Downtown Proud") calls it "a queer-owned neighbourhood
+  doughnut shop" with "over 100 creative flavours"; outxout.com calls it
+  "Queer-owned artisan doughnut shop on Broadway ... since 2014"; a QuickBooks
+  Pride Month profile quotes founder Amanda Kinden herself on Oh Doughnuts
+  being queer owned, and Manitoba Inc reports her estimate that 30 to 50 per
+  cent of staff identify as queer. Safe Space Alliance registration from the
+  same profiles. Hours deliberately omitted: three listings disagree.
+- **Capital Grill & Bar, 275 Broadway.** Downtown Winnipeg BIZ: "This cozy,
+  queer-owned eatery has been serving comfort food with a twist since 2018."
+  Chef Wayne Martin and the street-side patio from an Interligne listing and
+  Wanderlog. Single local source for the ownership claim.
+- **Boomerang 360, 166 Hargrave St.** Downtown Winnipeg BIZ: "a queer-owned
+  retail store in downtown Winnipeg". Stock (artwork, accessories, apparel) and
+  the weekday-only hours from the now-sunset Gay Agenda listing via search
+  extract. Single source for ownership.
+- **Club 200, 190 Garry St.** Downtown Winnipeg BIZ: "one of Winnipeg's
+  longest-standing queer-owned spots"; outxout.com: "Winnipeg's long-running gay
+  bar with drag shows and karaoke on Garry Street". 1988 appears in two
+  directory listings. One listing gives 176 Garry St instead of 190; 190 is what
+  the BIZ and outxout both carry and is what the page uses.
+- **Club Happenings, 114b Osborne St.** thehomoculture.com (2022): "This BIPOC
+  and Latinx 2SLGBTQIA+ owned and operated nightclub"; outxout.com:
+  "Indigenous-owned queer nightclub in Osborne Village, continuing a legacy
+  since 1974". The two sources disagree on which community the owners belong
+  to, so the page says only "queer-owned and operated" and hedges the lineage as
+  "goes back decades" rather than repeating 1974 as fact.
+- **Black Market Provisions, 550 Osborne St.** outxout.com: "LGBTQ+ owned
+  specialty food and gift shop in the heart of Osborne Village." Already in the
+  ledger as open (verified 2026-11-11).
+- **Good Fortune Barbershop, 555 Osborne St.** A Square case study (June 2021)
+  describes it as an "inclusive, cruelty-free, LGBTQ+ owned and operated
+  company" and is the source for pricing by hair length rather than by a men's
+  or women's label and for staff wearing pronoun pins. Address from
+  outxout.com. The source is four years old; the business is still listed and
+  taking bookings on Fresha.
+- **Vantage Vintage Boutique, Unit 210, 70 Albert St.** outxout.com:
+  "Queer-owned vintage boutique with curated finds in the Exchange District."
+  exchangedistrict.org names Michael Duchon and Joshua Alderson as the two who
+  "own and run it" and is the source for the address.
+- **Eadha Bakery Worker Co-op, 577 Ellice Ave.** outxout.com: "Queer worker-owned
+  bakery serving sourdough and pastries in Winnipeg's West End." Single-sourced
+  for the queer part; the worker-owned co-op structure is corroborated by a
+  HappyCow reviewer and the business's own name. Address confirmed by several
+  listings and a West End BIZ page; it is on Ellice, not Sargent.
+
+**Deliberately NOT called queer-owned on the page**, and why:
+
+- **Little Brown Jug, 336 William Ave.** thehomoculture.com (2022) says "Little
+  Brown Jug is a gay-owned business" and a Pink Ticket search extract calls it a
+  "queer-owned taproom", but no local or first-party source confirms it and
+  outxout.com makes no ownership claim. The page instead uses the solid fact:
+  Pride Winnipeg selected it as the Queer Beer producer for 2022 and again for
+  2023 (Global News; Canadian Beer News).
+- **Good Neighbour Brewing, 110 Sherbrook St.** Sources conflict. outxout.com
+  says only "Manitoba's first all-women-owned craft brewery"; other directories
+  and a Pink Ticket extract add queer ownership. The page uses the
+  uncontested all-women-owned wording alone.
+- **Joe Black Coffee & Bar, 2037 Portage Ave.** Listed as an LGBTQ+ coffee shop
+  by gayout.com and carried by outxout.com, neither making an ownership claim.
+- **Botanical PaperWorks**: described everywhere as women-owned, not queer-owned,
+  and it changed hands in January 2026 (ASI). Its Pride line donates to PFLAG
+  Canada, which is support, not ownership. Left out.
+- **Beyond Flowers, 1099 Corydon Ave**: a WEKH profile has co-owner Gloria
+  Sawatzky as a long-standing Manitoba LGBT Chamber of Commerce member, which is
+  not a statement that the business is queer-owned. Left out.
+- **Chocolate Zen Bakery**: an early search extract called it queer-owned; no
+  source for that could be found on a second pass. Left out.
+- **Bear Face General Store**: sources say it supports queer, trans and female
+  artists, which is not ownership. Left out.
+- **Coal and Canary**: described as ally-owned. Left out.
+- **The Tallest Poppy, ALT Hotel, Synonym Art Consultation, Pride Winnipeg**: named
+  in queer guides with no ownership claim; Synonym and Pride Winnipeg carry none
+  even in the Downtown BIZ Pride feature. Left out.
+- **Adonis Men's Spa, 1060 Main St**: a queer venue with no published ownership
+  claim, so it fails the page's test. Left out on that basis.
+- The **Manitoba Métis Federation's** June 2025 feature on five Red River Métis
+  2SLGBTQIA+ businesses was read in full. None has a Winnipeg storefront (one
+  home studio in Thompson, the rest online, market or service based), so none
+  fits a walk-in city guide. Left out.
+
+**Other facts on the page:** sunset of 4:38 p.m. on 2026-11-21 from the
+sunrise-sunset API for 49.8951, -97.1384 (8 h 47 m of daylight). The 23-minute,
+1.6 km walk to the Gas Station Arts Centre and the nine-minute, 3.9 km drive to
+Portage and Main are from the verified distance table in
+`AGENT-INSTRUCTIONS.md`; no distance was interpolated for the Osborne Street
+shops themselves, which is why the page says only that they sit just past it.
+The D19 and BLUE line routings are from our own `blog-transportation.html`.
+Pride Winnipeg's fortieth year and the March 2027 Fierte Canada Pride
+conference are from our own `blog-winnipeg-pride.html`.
+
+---
+
 ## blog-wso-from-the-inside-out-winnipeg.html (published 2026-11-21)
 
 Read 2026-11-21 with `WebFetch`. Both organiser pages loaded without trouble.

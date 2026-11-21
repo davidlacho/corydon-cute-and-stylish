@@ -262,10 +262,11 @@
       "name": "Black Market Provisions",
       "address": "550 Osborne St",
       "pages": [
-        "blog-winnipeg-coffee.html"
+        "blog-winnipeg-coffee.html",
+        "blog-queer-owned-businesses-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-11"
+      "last_verified": "2026-11-21"
     },
     {
       "name": "Brazen Brewing Co.",
@@ -502,10 +503,11 @@
       "address": "110 Sherbrook St",
       "pages": [
         "blog-best-places-nearby-winnipeg.html",
-        "blog-winnipeg-breweries.html"
+        "blog-winnipeg-breweries.html",
+        "blog-queer-owned-businesses-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-11"
+      "last_verified": "2026-11-21"
     },
     {
       "name": "Graffiti Gallery",
@@ -663,10 +665,11 @@
       "name": "Little Brown Jug Brewing Company",
       "address": "336 William Ave",
       "pages": [
-        "blog-winnipeg-event-venues.html"
+        "blog-winnipeg-event-venues.html",
+        "blog-queer-owned-businesses-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-11"
+      "last_verified": "2026-11-21"
     },
     {
       "name": "Little Sister Coffee Maker",
@@ -1983,6 +1986,87 @@
       ],
       "status": "open",
       "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Oh Doughnuts",
+      "address": "326 Broadway",
+      "pages": [
+        "blog-queer-owned-businesses-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-21"
+    },
+    {
+      "name": "Capital Grill & Bar (Broadway)",
+      "address": "275 Broadway",
+      "pages": [
+        "blog-queer-owned-businesses-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-21"
+    },
+    {
+      "name": "Boomerang 360",
+      "address": "166 Hargrave St",
+      "pages": [
+        "blog-queer-owned-businesses-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-21"
+    },
+    {
+      "name": "Club 200",
+      "address": "190 Garry St",
+      "pages": [
+        "blog-queer-owned-businesses-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-21"
+    },
+    {
+      "name": "Good Fortune Barbershop",
+      "address": "555 Osborne St",
+      "pages": [
+        "blog-queer-owned-businesses-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-21"
+    },
+    {
+      "name": "Club Happenings",
+      "address": "114b Osborne St",
+      "pages": [
+        "blog-queer-owned-businesses-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-21"
+    },
+    {
+      "name": "Vantage Vintage Boutique",
+      "address": "70 Albert St, Unit 210",
+      "pages": [
+        "blog-queer-owned-businesses-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-21"
+    },
+    {
+      "name": "Eadha Bakery Worker Co-op",
+      "address": "577 Ellice Ave",
+      "pages": [
+        "blog-queer-owned-businesses-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-21"
+    },
+    {
+      "name": "Joe Black Coffee & Bar",
+      "address": "2037 Portage Ave",
+      "pages": [
+        "blog-queer-owned-businesses-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-21"
     }
   ]
 }

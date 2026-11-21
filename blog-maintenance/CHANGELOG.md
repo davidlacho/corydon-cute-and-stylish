@@ -7,6 +7,78 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-21 (second run, owner-requested)
+
+**Not a scheduled run.** The owner asked in session for a second post today: a
+large list of queer-owned businesses, dated today. No business verification
+batch and no events-queue entry were consumed; the calendar was not touched,
+since nothing on the new page is dated. Part 1 and Part 2b of the playbook were
+done in the scheduled run earlier today, logged in the block below.
+
+**New post.** `blog-queer-owned-businesses-winnipeg.html`, "Queer-Owned
+Businesses in Winnipeg: Shops, Food, Bars". A sectioned list guide grouped by
+cluster: Broadway and downtown, Osborne Village, the Exchange District, the West
+End. This is not one of the playbook's seven rotation forms; the owner asked for
+a list, so the rotation rule was set aside, and the shape still differs from the
+question-and-answer post published earlier today.
+
+**The rule applied to every name on the page.** Ownership here is an identity
+claim about real, named people, so a business is called queer-owned only where a
+published source says so in those words. "Hosts queer events", "queer-friendly",
+"a safe space" and "ally-owned" were not treated as ownership at any point.
+
+- **Called queer-owned (9):** Oh Doughnuts (326 Broadway), Capital Grill & Bar
+  (275 Broadway), Boomerang 360 (166 Hargrave St), Club 200 (190 Garry St),
+  Club Happenings (114b Osborne St), Black Market Provisions (550 Osborne St),
+  Good Fortune Barbershop (555 Osborne St), Vantage Vintage Boutique (Unit 210,
+  70 Albert St), Eadha Bakery Worker Co-op (577 Ellice Ave). Oh Doughnuts is the
+  best sourced: Downtown Winnipeg BIZ, outxout.com and the founder's own words
+  in a QuickBooks Pride profile all agree. Capital Grill, Boomerang 360 and
+  Eadha rest on a single source each, which `post-sources.md` records.
+- **Named but explicitly NOT called queer-owned (3):** Little Brown Jug, where
+  only two travel blogs make the claim and no local source backs it, so the page
+  uses its Pride Winnipeg Queer Beer contracts for 2022 and 2023 instead; Good
+  Neighbour Brewing, where sources conflict between "all-women-owned" and
+  "queer-owned", so the page uses the uncontested wording; and Joe Black Coffee
+  & Bar, which queer venue listings carry without an ownership claim.
+- **Checked and left out (11):** Botanical PaperWorks (women-owned, and sold to
+  new owners in January 2026), Beyond Flowers (a co-owner's LGBT Chamber
+  membership is not a statement of ownership), Chocolate Zen Bakery (an early
+  search extract called it queer-owned; no source survived a second pass), Bear
+  Face General Store (supports queer artists, not ownership), Coal and Canary
+  (ally-owned), The Tallest Poppy, ALT Hotel, Synonym Art Consultation, Pride
+  Winnipeg, Adonis Men's Spa (a queer venue with no ownership claim), and the
+  five Red River Métis 2SLGBTQIA+ businesses in the Manitoba Métis Federation's
+  June 2025 feature, none of which has a Winnipeg storefront.
+
+**Sources that refused automated reads**, worth knowing for later runs:
+tourismwinnipeg.com answers 403 on both its 2SLGBTQIA+ page and its Pride guide,
+uwinnipeg.ca answers 403, and pinktickettravel.com answered 429 on two URLs.
+thegayagenda.fyi, which search results still point at, has been sunset and its
+Winnipeg business directory is gone. outxout.com, downtownwinnipegbiz.com,
+thehomoculture.com and mmf.mb.ca all read fine.
+
+**No hours anywhere on the page.** Listings disagree for nearly every business
+on it, so the page carries one "Before you go" box telling readers to check with
+the business instead. Two existing queer-topic pages
+(`blog-winnipeg-pride.html`, `blog-reel-pride-film-festival-winnipeg.html`) were
+checked first for the refresh-before-publish rule: neither is a business list, so
+this post complements them rather than competing, and it links to both.
+
+**Ledger.** Nine new entries at `last_verified` 2026-11-21 (Oh Doughnuts,
+Capital Grill & Bar (Broadway), Boomerang 360, Club 200, Good Fortune
+Barbershop, Club Happenings, Vantage Vintage Boutique, Eadha Bakery Worker
+Co-op, Joe Black Coffee & Bar). The filename was appended to Black Market
+Provisions, Good Neighbour Brewing Co. and Little Brown Jug Brewing Company,
+whose `last_verified` also moved to today. The ledger now holds 217 entries.
+
+**Pages changed.** `blog-queer-owned-businesses-winnipeg.html` (new),
+`blog.html`, `articles-data.js`, `articles_data.json`, `sitemap.xml`,
+`llms.txt` (191 posts), `business-ledger.json`, `post-ideas.md`,
+`post-sources.md`. `check-blog-listing.py` prints OK.
+
+---
+
 ## 2026-11-21
 
 **Part 1, businesses verified (6, the stalest in the ledger).** All six stay
