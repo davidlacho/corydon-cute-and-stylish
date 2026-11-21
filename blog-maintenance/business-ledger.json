@@ -568,7 +568,8 @@
         "blog-choir-choir-choir-winnipeg.html",
         "blog-rainy-day-winnipeg-itinerary.html",
         "blog-trooper-burton-cummings-winnipeg.html",
-        "blog-munschbusters-prairie-theatre-exchange.html"
+        "blog-munschbusters-prairie-theatre-exchange.html",
+        "blog-wso-from-the-inside-out-winnipeg.html"
       ],
       "status": "open",
       "last_verified": "2026-11-11"
@@ -903,7 +904,7 @@
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-04"
+      "last_verified": "2026-11-21"
     },
     {
       "name": "Sho Coffee and Bar",
@@ -921,7 +922,7 @@
         "blog-best-places-nearby-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-04"
+      "last_verified": "2026-11-21"
     },
     {
       "name": "Sookram's Brewing Company",
@@ -940,7 +941,7 @@
         "blog-winnipeg-tours.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-21"
     },
     {
       "name": "SquarePeg Tours",
@@ -1201,7 +1202,7 @@
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-04"
+      "last_verified": "2026-11-21"
     },
     {
       "name": "Chop Steakhouse & Bar",
@@ -1386,7 +1387,7 @@
         "blog-budget-day-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-04"
+      "last_verified": "2026-11-21"
     },
     {
       "name": "Roasted Nomad",
@@ -1403,7 +1404,8 @@
       "name": "Garden City Shopping Centre",
       "address": "2305 McPhillips St",
       "pages": [
-        "blog-classic107-spring-break-winnipeg.html"
+        "blog-classic107-spring-break-winnipeg.html",
+        "blog-transportation.html"
       ],
       "status": "open",
       "last_verified": "2026-11-19"
@@ -1576,7 +1578,7 @@
         "blog-winnipeg-with-kids-indoor.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-04"
+      "last_verified": "2026-11-21"
     },
     {
       "name": "IKEA Winnipeg",
@@ -1927,6 +1929,60 @@
       ],
       "status": "open",
       "last_verified": "2026-11-20"
+    },
+    {
+      "name": "Club Regent Casino",
+      "address": "1425 Regent Ave W",
+      "pages": [
+        "blog-transportation.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Kildonan Place",
+      "address": "1555 Regent Ave W",
+      "pages": [
+        "blog-transportation.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Southdale Centre",
+      "address": "",
+      "pages": [
+        "blog-transportation.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Charleswood Centre",
+      "address": "",
+      "pages": [
+        "blog-transportation.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Safeway (Southpark, Pembina Highway)",
+      "address": "",
+      "pages": [
+        "blog-transportation.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
+    },
+    {
+      "name": "Vista Place (St. Mary's Road)",
+      "address": "",
+      "pages": [
+        "blog-transportation.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-01-01"
     }
   ]
 }

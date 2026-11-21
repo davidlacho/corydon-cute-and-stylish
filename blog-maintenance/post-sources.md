@@ -16,6 +16,61 @@ Newest first.
 
 ---
 
+## blog-wso-from-the-inside-out-winnipeg.html (published 2026-11-21)
+
+Read 2026-11-21 with `WebFetch`. Both organiser pages loaded without trouble.
+
+- **Dates, times, conductor, programme and format** (wso.ca, the orchestra's own
+  event page at wso.ca/whats-on/sp2-from-the-inside-out-2027/): Thursday
+  January 14, Friday January 15 and Saturday January 16, 2027, each at
+  7:30 p.m., Centennial Concert Hall. Naomi Woo conducts, described as a former
+  assistant conductor here who now works with the Philadelphia Orchestra. The
+  programme is the overture to Ethel Smyth's *The Wreckers*, Bizet's Suite No. 1
+  from *Carmen*, Isabella Gellis's Four Morris Interludes and Grieg's Suite No. 1
+  from *Peer Gynt*. The page says the stage is reimagined and the audience sits
+  among the musicians, with nothing amplified: no speakers, no headphones. It
+  publishes no run time and no accessibility note for this concert.
+- **No price is stated anywhere official.** The WSO's page carries a "Book
+  tickets" link but no figure; a search extract showed a third-party listing at
+  $65 to $95, which is not the orchestra's own number, so the post quotes
+  nothing and sends readers to the box office.
+- **Ticketing and box office** (centennialconcerthall.com/Online/article/WSO2627,
+  the hall's own WSO 2026-27 season page): the hall lists *From the Inside Out*
+  under Specials for January 14 to 16, 2027, publishes no start times for any
+  event in the season, and tells buyers to contact the WSO directly at wso.ca or
+  204-949-3999. Box office 11 a.m. to 4 p.m. Wednesday to Saturday, and open in
+  the Concert Hall lobby one hour before performances.
+- **Daylight** (sunrise-sunset API for 49.8951, -97.1384): sunset 22:55 UTC on
+  2027-01-15, which is 4:55 p.m. CST, and a day length of 8 h 35 m. The
+  timeanddate.com page for the same month returned times an hour later in
+  `WebFetch`, which looks like a timezone rendering problem on their side; the
+  API figures are the ones used.
+- **Parkade, clearance, accessible parking and the Main Street bus routes**
+  (FX2, FX3, F8, D16, 43, stops 10629 and 10635) are the Centennial Concert Hall
+  facts already sourced on this site for the Gene Simmons and Jann Arden posts
+  in November 2026 and carried over unchanged. The Rupert Avenue entrance
+  closure that those posts mention was not re-checked today and is not repeated
+  here.
+- **What else is on that weekend** came from `events-data.js`: the Jets host
+  Anaheim on January 16, 2027 and are home on the 19th and the 21st, all
+  confirmed entries, and the Winnipeg New Music Festival sits at January 20 to
+  28 as a typical window, which is why the post says "usually".
+
+---
+
+## blog-winnipeg-tours.html (Splash Dash correction, 2026-11-21)
+
+splashdash.ca, read 2026-11-21: "Splash Dash is now Closed" for the 2026 season
+with a return in May 2027, and departures from the docks behind the Pony Corral
+at 1700 Pembina Highway. theforks.com's own Splash Dash page now 301-redirects
+to splashdash.ca, so The Forks is no longer the departure point to quote. The
+page previously implied no season; one clause was added saying the boats run in
+the warm months, leave from Pembina Highway rather than The Forks, and return in
+May. No price was added: the operator publishes none, and the fares in circulation
+(adult $11, senior and youth $9) trace to a 2016 CBC article.
+
+---
+
 ## blog-munschbusters-prairie-theatre-exchange.html (published 2026-11-20)
 
 Every fact on the page came from Prairie Theatre Exchange's own site, read

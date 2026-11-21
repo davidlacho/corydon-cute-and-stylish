@@ -7,6 +7,118 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-21
+
+**Part 1, businesses verified (6, the stalest in the ledger).** All six stay
+`open`; none has closed, moved or been renamed, and no page needed a correction
+for a closure.
+
+- **Shelly's Indigenous Bistro, 1364 Main St** (`blog-indigenous-winnipeg.html`):
+  operating. An Uber Eats storefront is live and several 2026 front-of-house and
+  line-cook job postings are open under the restaurant's name. No listing
+  publishes hours we can stand behind, and the page already tells readers that
+  listings disagree and to confirm, so it was left as written.
+- **Shorty's Pizza, 53 Maryland St** (`blog-best-places-nearby-winnipeg.html`):
+  open. Live SkipTheDishes and DoorDash storefronts with full menus, and a
+  HappyCow entry updated March 2026. No closure notice anywhere.
+- **Rae & Jerry's, 1405 Portage Ave** (`blog-winnipeg-steakhouses-bbq.html`):
+  open. raeandjerrys.com loads and gives the same address and phone number,
+  204-783-6155. The site publishes no hours, and listings disagree on them, so
+  none were added to the page.
+- **Peking Chinese Food, 840 Corydon Ave** (`blog-budget-day-corydon-airbnb.html`):
+  open. Live Uber Eats storefront and a directory listing with a 4 p.m. daily
+  opening. Hours still conflict between sources, so nothing was changed on the
+  page.
+- **Activate Games, 1150 Nairn Ave** (`blog-winnipeg-with-kids-indoor.html`):
+  open, and the address confirmed as 10-1150 Nairn Ave from the company's own
+  Winnipeg East location page, which lists hours of 11 a.m. to 10 p.m. Monday to
+  Thursday, 9:30 a.m. to 11 p.m. Friday and Saturday and 9:30 a.m. to 10 p.m.
+  Sunday. Two Winnipeg locations now exist, East and West.
+- **Splash Dash Boat Tours, 1700 Pembina Hwy** (`blog-winnipeg-tours.html`):
+  open but seasonal, not closed. splashdash.ca says the 2026 season is over and
+  the boats return in May 2027, and theforks.com's Splash Dash page now
+  redirects to splashdash.ca, so The Forks is no longer the departure point.
+  **One clause was added to `blog-winnipeg-tours.html`** saying the boats run in
+  the warm months, leave from the docks on Pembina Highway rather than The Forks,
+  and return in May. No fare quoted: the operator publishes none and the figures
+  in circulation trace to 2016.
+
+**Ledger backfill sweep.** `blog-transportation.html` swept and moved to
+"Swept". Six new entries, all unverified and dated 2026-01-01, all named on that
+page as Park & Ride lots: Club Regent Casino, Kildonan Place, Southdale Centre,
+Charleswood Centre, the Southpark Safeway on Pembina Highway and Vista Place on
+St. Mary's Road. `blog-transportation.html` was appended to Garden City
+Shopping Centre's `pages`. Winnipeg Trolley Company, the Fort Garry Hotel,
+Unicity Taxi and Uber already carried the filename. The ledger now holds 208
+entries.
+
+**Part 2, new post.** `blog-wso-from-the-inside-out-winnipeg.html`, "WSO From
+the Inside Out 2027: Winnipeg, January 14 to 16", form **question and answer**
+(the last three posts were one-day plan, host's notes and explainer).
+
+- **Taken from the Events queue, second entry rather than the first.**
+  `winnipeg-christmas-lights-tour` sits at the top of that queue with a publish
+  condition of its own: do not publish until Heartland Travel posts 2026 dates.
+  heartlandtravel.ca, read today, still lists only the sold-out Thursday
+  December 18, 2025 tour and carries no 2026 schedule, and its home page does
+  not list a Christmas lights tour at all. The entry stays in place for a later
+  run; the aggregator dates of December 16 to 18, 2026 and the $21 to $34.65
+  price remain unsourced by the operator and were not used.
+- Facts read today from wso.ca's own event page and the Centennial Concert
+  Hall's WSO 2026-27 season page: January 14, 15 and 16, 2027, all at 7:30 p.m.,
+  Naomi Woo conducting, a four-work programme (Smyth, Bizet, Gellis, Grieg),
+  audience seated among the players with nothing amplified, tickets through the
+  WSO at wso.ca or 204-949-3999, box office Wednesday to Saturday 11 a.m. to
+  4 p.m. and in the lobby an hour before each performance. **No price is
+  published by the orchestra, so the post quotes none.** Sunset of 4:55 p.m. on
+  January 15 came from a solar-position API after timeanddate.com returned times
+  an hour out. Hero photo: Unsplash photo-1465847899084-d164df4dedc6, string
+  players on a dim stage, checked unused across `articles-data.js`,
+  `articles_data.json` and `blog.html`, HTTP 200.
+- Registered everywhere: `articles-data.js`, `articles_data.json`, the
+  `blog.html` noscript card and `blogPost` JSON-LD, `sitemap.xml`, and
+  `llms.txt` regenerated (190 posts). `check-blog-listing.py` prints OK.
+  `Hargrave St. Market` had this filename appended to its ledger `pages`; every
+  other name on the page is a venue, an orchestra or a district, none of which
+  the ledger lists.
+
+**Part 2b, events calendar.**
+
+- Added: **WSO: From the Inside Out**, January 14 to 16, 2027, 7:30 p.m.,
+  Centennial Concert Hall, `confirmed`, pointing at the new post. One entry
+  spanning the three nights, as with other theatre runs.
+- Stale: the **NHL Heritage Classic** entry (ended 2026-10-25, 27 days ago) is a
+  one-off and stays until it is more than 30 days past, per the playbook. It
+  becomes removable on 2026-11-25.
+- `typical` entries starting within 60 days were checked once each. **A Maze in
+  Corn** (cornmaze.ca) says only "Opens: mid January 2027", so the January 15
+  entry stays `typical`; the Den is listed for February 2027. **Winnipeg New
+  Music Festival** has no 2027 dates announced on wso.ca or wnmf.ca, so it stays
+  `typical` at January 20 to 28. **Arctic Glacier Winter Park** could not be
+  checked: theforks.com/attractions/arctic-glacier-winter-park and
+  theforks.com/things-to-do/winter both return 404 and a search surfaced only a
+  Colorado ski resort of the same name, so the December 19 entry stays
+  `typical`. **Nestaweya River Trail** and the **Warming Huts** depend on river
+  ice and are not announced this far out.
+- Events queue: nothing added this run. Canada Life Centre's own events page
+  lists only the Harlem Globetrotters (January 5) and Hilary Duff (January 30)
+  between now and the end of January, both already in the queue or on the
+  calendar; the December listings found elsewhere (Messiah, Christmas POPS,
+  Choir! Choir! Choir! on December 15) all already have posts and calendar
+  entries. The Hilary Duff queue entry was annotated: the arena's own page gives
+  Saturday January 30, 2027 at 7:30 p.m., which settles the 7 p.m. versus
+  7:30 p.m. disagreement in favour of 7:30.
+- `update-events.py` run; `events.html` regenerated (87 upcoming, 64 confirmed in
+  JSON-LD) and its sitemap `<lastmod>` set to today.
+
+**Pages changed.** `blog-wso-from-the-inside-out-winnipeg.html` (new),
+`blog-winnipeg-tours.html` (Splash Dash season clause, `dateModified` bumped),
+`blog.html`, `events.html`, `events-data.js`, `articles-data.js`,
+`articles_data.json`, `sitemap.xml`, `llms.txt`, `business-ledger.json`,
+`ledger-sweep.md`, `post-ideas.md`, `post-sources.md`.
+
+---
+
 
 ## 2026-11-20 (the cron)
 

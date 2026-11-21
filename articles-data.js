@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-wso-from-the-inside-out-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-11-21",
+    "title": "WSO From the Inside Out 2027: Winnipeg, January 14 to 16",
+    "image": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "String players bowing together in the low light of a concert stage",
+    "description": "The Winnipeg Symphony plays From the Inside Out on January 14, 15 and 16, 2027 at 7:30 p.m., Centennial Concert Hall, with the audience seated among the players.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>November 21, 2026</span>"
+  },
+  {
     "url": "/blog-munschbusters-prairie-theatre-exchange.html",
     "category": "winnipeg",
     "date": "2026-11-20",

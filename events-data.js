@@ -375,6 +375,15 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "WSO: From the Inside Out",
+      "url": "/blog-wso-from-the-inside-out-winnipeg.html",
+      "start": "2027-01-14",
+      "end": "2027-01-16",
+      "time": "7:30 p.m.",
+      "venue": "Centennial Concert Hall, 555 Main St",
+      "status": "confirmed"
+    },
+    {
       "title": "Snow maze at A Maze in Corn",
       "url": "/blog-snow-maze-st-adolphe.html",
       "start": "2027-01-15",
