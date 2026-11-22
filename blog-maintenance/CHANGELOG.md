@@ -7,6 +7,107 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-22
+
+**Part 1, businesses verified (6, the stalest in the ledger).** All six are the
+Park & Ride lots backfilled unverified on 2026-11-21, and all six are open. No
+page needed a correction.
+
+- Source: the City of Winnipeg's own park-and-ride page, read today.
+  `info.winnipegtransit.com` is no longer usable for this (its
+  `/en/riding-transit/park-and-ride` path 301s to a URL that then 404s, and
+  `/rider-guide/park-and-rides` 302s to an http URL); the winnipeg.ca page is
+  the one that answers.
+- **Club Regent Casino** (70 stalls on Regent Avenue, southwest corner),
+  **Kildonan Place** (69, east side of the centre), **Southdale Centre** (14,
+  southwest corner at Lakewood & Vermillion), **Charleswood Centre** (30, east
+  end of the mall lot by Laxdal), **Safeway at Pembina & Southpark** (50,
+  southeast corner) and **Vista Place** (15, northwest corner at St. Mary's &
+  Vista) are all listed as operating.
+- **Nothing on `blog-transportation.html` was changed.** Every stall count, the
+  6 a.m. to 6 p.m. weekday hours, the Seel (665) and Clarence (400) exceptions
+  and the note that McPhillips Station is closed already match the city's page
+  exactly. Four blank `address` fields were filled from it; the lots are given
+  as intersections rather than street addresses, so that is how they are
+  recorded.
+
+**Ledger backfill sweep.** `blog-travel-perspectives-hosting.html` swept and
+moved to "Swept". **No new entries**: it is a hosting-philosophy post about
+staying in other people's Airbnbs and names no commercial business, in Winnipeg
+or anywhere else. Five new entries came from the day's post instead (below), so
+the ledger now holds 222.
+
+**Part 2, new post.** `blog-winterruption-winnipeg.html`, "Winterruption
+Winnipeg 2027: January 20 to 24, Wristbands", form **explainer** (the last three
+were a sectioned list, question and answer, and one-day plan).
+
+- **Second entry of the Events queue, not the first.** The top entry,
+  `winnipeg-christmas-lights-tour`, was skipped again under its own publish
+  condition. heartlandtravel.ca was read directly today and lists no Christmas
+  lights tour at all now, only Churchill aurora trips, so the operator still
+  publishes nothing to quote and the aggregator's December 16 to 18 dates and
+  $21 to $34.65 price remain unusable. The entry stays in place.
+- Facts are all from winterruptionwpg.ca, read today: January 20 to 24, 2027;
+  produced by Real Love Winnipeg and the West End Cultural Centre; an
+  all-access wristband sold as "one wristband, every show, all five days", with
+  Winnipeg Pro Wrestling the one named exclusion; single shows through Showpass,
+  on sale since October 12. Seven venues with the organiser's own addresses:
+  Sidestage (700 Osborne St), Park Alleys (730), The Park Theatre (698), West
+  End Cultural Centre (586 Ellice Ave), The Handsome Daughter (61 Sherbrook St),
+  Public Domain (633 Portage Ave) and Cornerstone (300 Hugo St N). Public Domain
+  is the only 18+ room, on the Friday and Saturday; the Handsome Daughter splits
+  those nights into early and late shows with separate doors.
+- **One price on the page only**: from $30 plus fees for Reuben and the Dark at
+  the Park Theatre on January 22, which is the sole figure the festival prints
+  beside a show. The wristband price is not published, so none is quoted.
+- **Cornerstone is single-sourced and flagged for a later run.** Two searches
+  found no independent record of a venue at 300 Hugo Street North; the festival's
+  own ticket page is the only source, so the post names it and the address and
+  claims nothing else. The ticket page was fetched a second time with curl to
+  confirm the venue-to-address pairing rather than trusting a summary.
+- **No distance figures.** None of the venues is in the verified distance table,
+  so the page says "close enough to walk" for the Hugo Street room and "a short
+  drive" for the rest, with no numbers. Sunsets of 6:03 p.m. on January 20 and
+  6:06 p.m. on January 22 came from a solar-position API.
+- Hero photo: Unsplash photo-1605340406960-f5b496c38b3d, a bass player and drum
+  kit on a small stage, checked unused across `articles-data.js`,
+  `articles_data.json` and `blog.html`, HTTP 200, and viewed before use.
+- Registered everywhere: `articles-data.js`, `articles_data.json`, the
+  `blog.html` noscript card and `blogPost` JSON-LD, `sitemap.xml`, and
+  `llms.txt` regenerated (192 posts). `check-blog-listing.py` prints OK. Five
+  ledger entries added (Sidestage, Park Alleys, The Park Theatre, Public Domain,
+  Cornerstone) and the filename appended to The Handsome Daughter. The West End
+  Cultural Centre is a venue, like the Concert Hall and Canada Life Centre, so
+  it stays out of the ledger by the convention the ledger already follows.
+
+**Part 2b, events calendar.**
+
+- Added: **Winterruption WPG**, January 20 to 24, 2027, seven venues across
+  Winnipeg, `confirmed`, pointing at the new post. One entry spanning the five
+  nights.
+- Stale: the **NHL Heritage Classic** entry (ended 2026-10-25, 28 days ago) is a
+  one-off and stays until it is more than 30 days past. It becomes removable on
+  2026-11-25.
+- `typical` entries starting within 60 days were checked. **Arctic Glacier
+  Winter Park**, the **Nestaweya River Trail** skating season and the **Warming
+  Huts** all depend on freeze-up and none has 2026-27 dates announced; The
+  Forks' own attraction and winter pages now 404, and the most recent published
+  material is the 2025-26 season. All three stay `typical`. **A Maze in Corn**
+  and the **Winnipeg New Music Festival** were checked yesterday and are
+  unchanged, so they were not re-searched today.
+- Events queue refilled with two: **WSO Christmas Pops** (listed December 5 at
+  7:30 p.m. and December 6 at 2 p.m.) and **Candlelight at the Crescent Arts
+  Centre** (listed December 19). Both are aggregator-sourced and the queue
+  entries say so; each must be re-checked against the organiser before a post
+  is written.
+
+**Pages changed.** `blog-winterruption-winnipeg.html` (new), `blog.html`,
+`events.html` (regenerated), `events-data.js`, `articles-data.js`,
+`articles_data.json`, `sitemap.xml`, `llms.txt`, `business-ledger.json`,
+`ledger-sweep.md`, `post-ideas.md`, `post-sources.md`.
+
+---
+
 ## 2026-11-21 (second run, owner-requested)
 
 **Not a scheduled run.** The owner asked in session for a second post today: a

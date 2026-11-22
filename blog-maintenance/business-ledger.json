@@ -1464,9 +1464,11 @@
     {
       "name": "The Handsome Daughter",
       "address": "61 Sherbrook St",
-      "pages": [],
+      "pages": [
+        "blog-winterruption-winnipeg.html"
+      ],
       "status": "open",
-      "last_verified": "2026-11-09"
+      "last_verified": "2026-11-22"
     },
     {
       "name": "Mr. Calzone",
@@ -1940,7 +1942,7 @@
         "blog-transportation.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-11-22"
     },
     {
       "name": "Kildonan Place",
@@ -1949,43 +1951,43 @@
         "blog-transportation.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-11-22"
     },
     {
       "name": "Southdale Centre",
-      "address": "",
+      "address": "Lakewood Blvd at Vermillion Rd",
       "pages": [
         "blog-transportation.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-11-22"
     },
     {
       "name": "Charleswood Centre",
-      "address": "",
+      "address": "Charleswood Centre mall lot, east end by Laxdal Rd",
       "pages": [
         "blog-transportation.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-11-22"
     },
     {
       "name": "Safeway (Southpark, Pembina Highway)",
-      "address": "",
+      "address": "Pembina Hwy at Southpark Dr",
       "pages": [
         "blog-transportation.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-11-22"
     },
     {
       "name": "Vista Place (St. Mary's Road)",
-      "address": "",
+      "address": "St. Mary's Rd at Vista Ave",
       "pages": [
         "blog-transportation.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-11-22"
     },
     {
       "name": "Oh Doughnuts",
@@ -2067,6 +2069,51 @@
       ],
       "status": "open",
       "last_verified": "2026-11-21"
+    },
+    {
+      "name": "Sidestage",
+      "address": "700 Osborne St",
+      "pages": [
+        "blog-winterruption-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-22"
+    },
+    {
+      "name": "Park Alleys",
+      "address": "730 Osborne St",
+      "pages": [
+        "blog-winterruption-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-22"
+    },
+    {
+      "name": "The Park Theatre",
+      "address": "698 Osborne St",
+      "pages": [
+        "blog-winterruption-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-22"
+    },
+    {
+      "name": "Public Domain",
+      "address": "633 Portage Ave",
+      "pages": [
+        "blog-winterruption-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-22"
+    },
+    {
+      "name": "Cornerstone",
+      "address": "300 Hugo St N",
+      "pages": [
+        "blog-winterruption-winnipeg.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-22"
     }
   ]
 }

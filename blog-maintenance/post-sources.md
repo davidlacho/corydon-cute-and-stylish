@@ -16,6 +16,78 @@ Newest first.
 
 ---
 
+## blog-winterruption-winnipeg.html (published 2026-11-22)
+
+Everything stated about the festival came from winterruptionwpg.ca, read on
+2026-11-22, with the ticket page fetched twice (once through WebFetch, once with
+curl) because the venue-to-address pairing mattered and a summary could have
+mangled it. The raw page text pairs each show with its room and address.
+
+- **Dates:** "January 20-24, 2027" on the festival's home page; the schedule
+  page runs Wednesday January 20 through Sunday January 24, which agrees. One
+  search result claimed the official site showed "January 19 - 24"; the site
+  itself does not, and January 20 to 24 is what both its pages carry. Several
+  results describe **Winterruption YEG in Edmonton**, a separate festival whose
+  2027 dates happen to be January 20 to 24 as well. Do not conflate them.
+- **Producers:** Real Love Winnipeg and the West End Cultural Centre, credited
+  on the home page.
+- **Ticketing:** the all-access wristband is described on the ticket page as
+  "One wristband, every show, all five days", and "Festival wristbands do not
+  include Winnipeg Pro Wrestling". Sales opened "Monday, October 12 at 10 AM
+  CT". Wristbands and single shows both link to Showpass. **No wristband price
+  is published on that page.** The only per-show figure printed on it is "From
+  $30 + fees" for Reuben and the Dark, Park Theatre, Friday January 22, which is
+  why that is the only price on our page.
+- **Venues and addresses, all from the ticket page:** Sidestage 700 Osborne St,
+  Park Alleys 730 Osborne St, The Park Theatre 698 Osborne St, West End Cultural
+  Centre 586 Ellice Ave, The Handsome Daughter 61 Sherbrook St, Public Domain
+  633 Portage Ave, Cornerstone 300 Hugo St N.
+- **Cornerstone is single-sourced.** Two web searches found no independent
+  record of a venue called Cornerstone at 300 Hugo Street North; the closest
+  hits were a Cornerstone Bar & Restaurant at 93 Osborne St that several
+  listings mark closed, and Hugo St N appearing as a stage location in the
+  Corydon Avenue BIZ summer concert series. The festival's own page is the only
+  source, so the post names it with that address and claims nothing else about
+  it. A later run should re-check it.
+- **Age restrictions and doors:** every room on the schedule is marked "All
+  Ages" except Public Domain, which is "18+" on both January 22 and 23. The
+  Handsome Daughter runs a separate early show and late show on January 22 and
+  23 (doors 6 p.m. and 9 p.m. on the 23rd). Doors across the festival start
+  about 6:15 p.m.
+- **Set times quoted:** Janky Bungag, Park Theatre, Thursday 8 p.m.; Gizmo,
+  Sidestage, Thursday 8:15 p.m.; Grouper, West End Cultural Centre, Thursday
+  8 p.m.; Bill Callahan, same room, Sunday 8 p.m.; Habibi, Sidestage, Sunday
+  9:30 p.m.; DJ Shub, Public Domain, Friday 11:30 p.m.; Chad VanGaalen,
+  Cornerstone, Wednesday 9 p.m. The schedule page says lineups and times are
+  subject to change, which is what the page's one "Before you go" box tells the
+  reader.
+- **Daylight:** sunset 6:03 p.m. on 2027-01-20 and 6:06 p.m. on 2027-01-22,
+  day length 8 h 47 m and 8 h 52 m, from the sunrise-sunset API for 49.8951,
+  -97.1384 in America/Winnipeg.
+- **Distances deliberately omitted.** 300 Hugo St N, 698-730 Osborne St, 586
+  Ellice Ave and 633 Portage Ave are none of them in the verified distance
+  table, so the post says "close enough to walk" and "a short drive" and gives
+  no figure.
+
+## blog-transportation.html (Park & Ride batch re-verified 2026-11-22)
+
+The six Park & Ride lots backfilled unverified on 2026-11-21 were checked
+against the City of Winnipeg's own page,
+winnipeg.ca/services-programs/transportation-roads-parking/transit/riding-transit/park-ride,
+read 2026-11-22. (info.winnipegtransit.com's equivalent paths 301 and then 404,
+so the city page is the one that works.) It lists 11 locations, of which
+McPhillips Station is "temporarily discontinued", and gives hours of 6 a.m. to
+6 p.m. Monday to Friday, except Seel and Clarence Stations which run during
+regular transit service hours. Stall counts: Charleswood Centre 30 (east end of
+the mall lot by Laxdal), Club Regent Casino 70 (on Regent Avenue, southwest
+corner), Garden City Shopping Centre about 20, Grant & Cambridge 17 (Bethesda
+Church lot), Kildonan Place 69 (east side), Safeway at Pembina & Southpark 50
+(southeast corner), Southdale Centre 14 at Lakewood & Vermillion (southwest
+corner), Vista Place 15 at St. Mary's & Vista (northwest corner), Seel Station
+665, Clarence Station 400. **Every figure in the existing paragraph on
+`blog-transportation.html` already matched this page**, so nothing on the post
+was changed; only the ledger's `last_verified` and the four blank addresses.
+
 ## blog-queer-owned-businesses-winnipeg.html (published 2026-11-21)
 
 Owner-requested post, published as a second run on 2026-11-21. Ownership is an

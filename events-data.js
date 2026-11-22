@@ -418,6 +418,14 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "Winterruption WPG",
+      "url": "/blog-winterruption-winnipeg.html",
+      "start": "2027-01-20",
+      "end": "2027-01-24",
+      "venue": "Seven venues across Winnipeg",
+      "status": "confirmed"
+    },
+    {
       "title": "Winnipeg New Music Festival",
       "url": "/blog-winnipeg-new-music-festival.html",
       "start": "2027-01-20",
