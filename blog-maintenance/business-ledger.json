@@ -953,7 +953,7 @@
         "blog-winnipeg-tours.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-23"
     },
     {
       "name": "St. Boniface Golf Club",
@@ -971,7 +971,7 @@
         "blog-winnipeg-farmers-markets-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-23"
     },
     {
       "name": "Stella's Café & Bakery",
@@ -1003,7 +1003,7 @@
         "blog-winnipeg-bakeries-artisan-bread.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-06"
+      "last_verified": "2026-11-23"
     },
     {
       "name": "Teekca's Aboriginal Boutique",
@@ -1012,7 +1012,7 @@
         "blog-indigenous-winnipeg.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-06"
+      "last_verified": "2026-11-23"
     },
     {
       "name": "The Beer Can",
@@ -1048,7 +1048,7 @@
         "blog-winnipeg-vegan-restaurants.html"
       ],
       "status": "closed",
-      "last_verified": "2026-11-07"
+      "last_verified": "2026-11-23"
     },
     {
       "name": "The Grove Pub & Restaurant",
@@ -1241,7 +1241,7 @@
         "blog-winnipeg-steakhouses-bbq.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-23"
     },
     {
       "name": "Carnaval Brazilian BBQ",
@@ -1571,7 +1571,8 @@
       "name": "Heartland Travel",
       "address": "",
       "pages": [
-        "blog-manitoba-legislative-building-tour.html"
+        "blog-manitoba-legislative-building-tour.html",
+        "blog-winnipeg-christmas-lights-tour.html"
       ],
       "status": "open",
       "last_verified": "2026-11-19"
@@ -2114,6 +2115,15 @@
       ],
       "status": "open",
       "last_verified": "2026-11-22"
+    },
+    {
+      "name": "Canad Inns",
+      "address": "",
+      "pages": [
+        "blog-winnipeg-christmas-lights-tour.html"
+      ],
+      "status": "open",
+      "last_verified": "2026-11-23"
     }
   ]
 }

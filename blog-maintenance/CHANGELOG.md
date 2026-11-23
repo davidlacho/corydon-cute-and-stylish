@@ -7,6 +7,134 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-23
+
+**Part 1, businesses verified (6, the stalest in the ledger).** Five open, one
+still closed. Two pages corrected.
+
+- **St. Norbert Farmers' Market** (3514 Pembina Hwy) is open, and its hours on
+  our page were a season out of date. The market's own site gives winter hours
+  of 10:00 a.m. to 2:00 p.m. in effect from October 17, 2026 through May 15,
+  2027, and says it opens every Saturday year-round, rain, shine or snow. Our
+  page had the 2025-26 windows (winter "through 9 May 2026", summer "16 May
+  through 10 October 2026") and claimed no regular market Saturdays sat between
+  them, which the market's own year-round line contradicts. The paragraph in
+  `blog-winnipeg-farmers-markets-guide.html` was rewritten with the current
+  dates; the summer 8:00 a.m. opening is now given as what past seasons have
+  done rather than as a 2027 fact, since the cooperative has not posted the
+  switch yet. The "over two hundred vendor stalls" figure was replaced by the
+  market's own description of itself as a not-for-profit cooperative of hundreds
+  of Manitoba farms, kitchens and businesses.
+- **Smokin' Hawg BBQ** is open but seasonal, and the page did not say so. The
+  operator's own catering page states that the restaurant closes for the winter
+  while catering and the banquet room carry on. `blog-winnipeg-steakhouses-bbq.html`
+  had called it "the go-to for brisket and smoked meats done low and slow" with
+  no caveat, which would send a guest out in December to a dark building. The
+  sentence now names the winter closure and says to phone first. **Flagged for a
+  later run:** smokinhawgbbqco.com does not resolve from this sandbox (502 at
+  CONNECT on three spellings), so the seasonal line rests on a search extract of
+  the operator's page rather than a direct read, and the ledger's
+  "1867 Springfield Rd" address could not be confirmed; listings variously place
+  the business near Oakbank and Grunthal. Address left unchanged rather than
+  guessed.
+- **SquarePeg Tours** is open. squarepegtours.com is live and lists Symbols,
+  Secrets and Sacrifices Under the Golden Boy at the Manitoba Legislative
+  Building, 450 Broadway, 10 a.m. to noon on Saturday November 28 and Saturday
+  December 19, 2026, at $20 adult, $15 senior or university and $12 youth.
+  Nothing on `blog-winnipeg-tours.html` contradicts the site, so it was left
+  alone.
+- **Tall Grass Prairie Bread Co.** and **Teekca's Aboriginal Boutique** are both
+  still listed as Forks Market tenants on theforks.com, read today: the bakery
+  daily 7 a.m. to 7 p.m. on (204) 957-5097, the boutique on (204) 946-0539 under
+  the market's general shop hours. No page change needed.
+- **The Good Lands Cafe** stays `closed`. A search today turned up no evidence it
+  has reopened, and it was already removed from
+  `blog-winnipeg-vegan-restaurants.html` by the 2026-11-07 run.
+
+**Ledger backfill sweep.** `blog-unique-airbnb-features.html` swept and moved to
+"Swept". No new entries: it is a hosting-philosophy post about stays in other
+people's Airbnbs abroad and every business reference on it is generic. Two
+entries came from the day's post instead, so the ledger now holds 223.
+
+**Part 2, new post.** `blog-winnipeg-christmas-lights-tour.html`, "Winnipeg
+Christmas Lights Tour 2026: Bus or Your Own Car", form **comparison** (the last
+three were explainer, sectioned list and question and answer).
+
+- **First entry of the Events queue, unblocked at last.** The entry had carried
+  a publish condition since 2026-11-17: nothing goes on the page until Heartland
+  Travel posts 2026 dates on its own site. heartlandtravel.ca was read today and
+  now carries a "2026 Christmas Lights Sightseeing Tours" section. Five previous
+  runs skipped this entry; it is now published and removed from the queue.
+- **Both 2026 public nights are sold out**, as are all three private charter
+  dates, and the post says so in its second paragraph and its meta description.
+  Publishing anyway is deliberate: the page answers the search with real fares
+  and real logistics, it stands for next December, and the honest answer for
+  this year is the drive-through, which the post gives in full.
+- Tour facts are the operator's own: December 16 and 18, 6:30 to 9 p.m., up to
+  three hours, departing the Travel Manitoba Information Centre at The Forks
+  Market beside the Johnston Terminal, highway coach with a washroom, Winter
+  Wonderland entry included, $34.65 adult and $21.00 child with GST, under three
+  free on a lap, $29.40 and $16.80 for ten or more adults paying together,
+  non-refundable and booked by phone on 204-989-9630, private charter $1,678.95
+  for up to fifty-two with a $250 deposit.
+- Drive-through facts are Red River Exhibition Park's own: November 27, 2026 to
+  January 2, 2027, closed December 25, 6 to 10 p.m., West Gate at 3977 Portage
+  Avenue turning north onto Festival Drive, a 2.5 km route at a recommended
+  5 km/h taking 25 to 30 minutes, $30 a vehicle for one to seven people rising
+  to $130 for forty-one and over, one admission per loop.
+- **The Winter Wonderland side is kept deliberately short and linked**, because
+  `blog-canad-inns-winter-wonderland.html` already covers it and two pages
+  competing for one query both rank worse.
+- Sunset of 4:27 p.m. on December 16 came from a solar-position API. No drive
+  time is given for Red River Exhibition Park, which is not in the verified
+  distance table; only The Forks figure (10 minutes, 3.9 km) is stated.
+- **Hero photo is the site's first from Pexels**, photo 29675608, a snowy
+  bungalow with coloured lights on the porch rail, downloaded, viewed and checked
+  unused. **Owner action worth knowing:** unsplash.com answered a bot challenge to
+  curl and 401/429 to WebFetch today, and upload.wikimedia.org returned 429 to
+  every request, so neither of the usual image hosts could be used. If this
+  persists, future runs will need Pexels or local files.
+- Registered everywhere: `articles-data.js`, `articles_data.json`, the
+  `blog.html` noscript card and `blogPost` JSON-LD, `sitemap.xml`, and `llms.txt`
+  regenerated (193 posts). `check-blog-listing.py` prints OK.
+
+**Part 2b, events calendar.**
+
+- Added: **two entries for the Christmas Lights Sightseeing Tour**, December 16
+  and December 18, 2026, both `confirmed` and both titled "(sold out)" so the
+  calendar does not send anyone to a tour they cannot book.
+- **A duplicate was found and removed from the Events queue.** `wso-christmas-pops`
+  was queued on 2026-11-22 from aggregator listings, but
+  `blog-wso-christmas-concerts-winnipeg.html` already covers the December 5 and 6
+  Pops concerts and the calendar already has the entry, with the same times. The
+  queue entry was deleted rather than written again. This is the second such
+  duplicate (choir-choir-choir on 2026-11-19); queue refills should be checked
+  against `events-data.js` before being added.
+- Stale: the **NHL Heritage Classic** (ended 2026-10-25, 29 days ago) is a
+  one-off and becomes removable on 2026-11-25. **Third + Bird Christmas Market**
+  ended 2026-11-22; the organiser has announced nothing for 2027 and the post
+  deliberately states no usual window, because the market changes buildings
+  between years, so neither of the first two refresh options applies. It is left
+  in place and becomes removable on 2026-12-22.
+- `typical` entries starting within 60 days: **Arctic Glacier Winter Park**
+  (December 19) was re-checked today and The Forks has still published no
+  2026-27 opening date, so it stays `typical`. The **Nestaweya River Trail**,
+  the **Warming Huts**, the **A Maze in Corn** snow maze and the **Winnipeg New
+  Music Festival** were all checked on 2026-11-21 and 11-22 and were not
+  re-searched today.
+- **Nothing added to the events queue this run.** The two-to-eight-week window is
+  already dense: thirty-seven calendar entries fall between December 7 and
+  January 18, and the one January 2027 booking a venue search surfaced, Hilary
+  Duff at Canada Life Centre, is already in the queue.
+
+**Pages changed.** `blog-winnipeg-christmas-lights-tour.html` (new), `blog.html`,
+`blog-winnipeg-farmers-markets-guide.html`, `blog-winnipeg-steakhouses-bbq.html`,
+`events.html` (regenerated), `events-data.js`, `articles-data.js`,
+`articles_data.json`, `sitemap.xml`, `llms.txt`, `business-ledger.json`,
+`ledger-sweep.md`, `post-ideas.md`, `post-sources.md`.
+
+---
+
 ## 2026-11-22
 
 **Part 1, businesses verified (6, the stalest in the ledger).** All six are the

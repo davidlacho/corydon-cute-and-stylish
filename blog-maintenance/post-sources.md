@@ -16,6 +16,66 @@ Newest first.
 
 ---
 
+## blog-winnipeg-christmas-lights-tour.html (published 2026-11-23)
+
+Two sources, both the operators' own pages, read on 2026-11-23.
+
+**heartlandtravel.ca/winnipeg-tours** (fetched with WebFetch and again with curl
+so the sold-out flags could be read against the raw page rather than a summary).
+Its "2026 Christmas Lights Sightseeing Tours" section gives: public dates
+Wednesday December 16 and Friday December 18, 2026, both marked SOLD OUT;
+6:30pm to 9:00pm; "Up to 3-hour guided Christmas Lights Sightseeing Tour in
+Winnipeg that include residential and business areas"; transportation by highway
+motor coach with washroom; entrance to Winter Wonderland included; trivia, games,
+bingo and Christmas facts; "we have been seeing the glowing lights in the city
+for twenty merry years"; the route copy names "the nostalgic camels at the Canada
+Life Building" and "the 2.5km long Canad Inns Winter Wonderland with over 30 new
+light displays"; adults 13+ $33.00 + GST = $34.65, children 12 and under $20.00 +
+GST = $21.00, under 3 "free on the knee"; seats non-refundable and prepaid, by
+phone with Visa or MasterCard; "Call Shannon or Heather 204-989-9630; note there
+are no physical tickets"; meeting point "the Travel Manitoba Information Centre
+located at the Forks Market, adjacent to the Johnston Terminal"; group rate for
+10+ adults on one payment $28.00 + GST = $29.40 adult and $16.00 + GST = $16.80
+child; private tours $1,599.00 + GST = $1,678.95, maximum 52 people, $250
+non-refundable deposit, pickup anywhere in Winnipeg the bus can safely load,
+2026 private dates December 3, 9 and 14 all SOLD OUT.
+
+This is the first time the operator has published a 2026 schedule. The queue
+entry had blocked the post since 2026-11-17 on exactly that condition, and
+heartlandtravel.ca was checked and found empty of it on 11-19, 11-20, 11-21 and
+11-22.
+
+**redriverex.com/events/canad-inns-winter-wonderland** gives: Friday November 27,
+2026 to Saturday January 2, 2027, closed December 25; 6:00 pm to 10:00 pm; West
+Gate, Red River Exhibition Park, 3977 Portage Avenue, turning north off Portage
+Avenue onto Festival Drive; "NEW 2.5 km route", recommended 5 km/h and not
+exceeding 10 km/h, 25 to 30 minutes for most vehicles; per-vehicle admission of
+$30 (1 to 7 people), $50 (8 to 15), $65 (16 to 30), $90 (31 to 40) and $130 (41+),
+plus tax and service fee, "prices may change without notice"; one admission is
+one loop and a second loop needs a new admission; tickets at tobatickets.ca, the
+entrance gate and Canad Inns Winnipeg Destination Centres, cash or debit/credit;
+photo stop, skating pond and weekend hayrides.
+
+**Sunset 4:27 p.m. on December 16, 2026** (sunrise-sunset.org API, 22:27:43 UTC
+converted to CST).
+
+**Distance** from the house to The Forks, 10 minutes and 3.9 km, is from the
+verified table in AGENT-INSTRUCTIONS.md. Red River Exhibition Park is not in that
+table, so the page gives no figure for it, only that it is west along Portage.
+
+**Deliberately not on the page:** any Winter Wonderland detail beyond what the
+comparison needs, because `blog-canad-inns-winter-wonderland.html` already covers
+the drive-through and two pages competing for one query rank worse than one.
+
+**Image:** Pexels photo 29675608, a snowy bungalow at night with coloured lights
+on its porch rail. Downloaded, viewed and confirmed unused across
+`articles-data.js`, `articles_data.json` and `blog.html`. It is the site's first
+Pexels image; unsplash.com served a bot challenge to curl and 401/429 to WebFetch
+today, and upload.wikimedia.org returned 429 to repeated requests, so neither of
+the usual hosts could supply a photo.
+
+---
+
 ## blog-winterruption-winnipeg.html (published 2026-11-22)
 
 Everything stated about the festival came from winterruptionwpg.ca, read on

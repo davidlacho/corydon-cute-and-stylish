@@ -194,6 +194,15 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "Christmas Lights Sightseeing Tour (sold out)",
+      "url": "/blog-winnipeg-christmas-lights-tour.html",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "time": "6:30 p.m. to 9 p.m.",
+      "venue": "Departs Travel Manitoba Information Centre, The Forks Market",
+      "status": "confirmed"
+    },
+    {
       "title": "Manitoba Moose vs Rockford",
       "url": "/blog-manitoba-moose-hockey.html",
       "start": "2026-12-18",
@@ -232,6 +241,15 @@ const EVENTS_DATA = [
       "url": "/blog-christmas-winnipeg.html",
       "start": "2026-12-18",
       "end": "2027-01-04",
+      "status": "confirmed"
+    },
+    {
+      "title": "Christmas Lights Sightseeing Tour (sold out)",
+      "url": "/blog-winnipeg-christmas-lights-tour.html",
+      "start": "2026-12-18",
+      "end": "2026-12-18",
+      "time": "6:30 p.m. to 9 p.m.",
+      "venue": "Departs Travel Manitoba Information Centre, The Forks Market",
       "status": "confirmed"
     },
     {
