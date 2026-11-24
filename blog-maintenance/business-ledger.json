@@ -45,7 +45,8 @@
         "blog-date-night-on-corydon-avenue.html",
         "blog-late-night-bites-near-corydon.html",
         "blog-little-italy-half-day-walking-loop.html",
-        "blog-rainy-afternoon-on-corydon.html"
+        "blog-rainy-afternoon-on-corydon.html",
+        "blog-vegetarian-vegan-eats-corydon.html"
       ],
       "status": "open",
       "last_verified": "2026-11-11"
@@ -94,7 +95,8 @@
       "pages": [
         "blog-corydon-guide.html",
         "blog-cozy-winter-warm-up-spots-near-corydon-airbnb.html",
-        "blog-date-night-on-corydon-avenue.html"
+        "blog-date-night-on-corydon-avenue.html",
+        "blog-vegetarian-vegan-eats-corydon.html"
       ],
       "status": "open",
       "last_verified": "2026-11-11"
@@ -170,7 +172,8 @@
         "blog-corydon-guide.html",
         "blog-date-night-on-corydon-avenue.html",
         "blog-late-night-bites-near-corydon.html",
-        "blog-little-italy-half-day-walking-loop.html"
+        "blog-little-italy-half-day-walking-loop.html",
+        "blog-vegetarian-vegan-eats-corydon.html"
       ],
       "status": "open",
       "last_verified": "2026-11-11"
@@ -1058,7 +1061,7 @@
         "blog-grove-pub-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-07"
+      "last_verified": "2026-11-24"
     },
     {
       "name": "The Indigenous Kitchen (food truck)",
@@ -1066,8 +1069,8 @@
       "pages": [
         "blog-indigenous-winnipeg.html"
       ],
-      "status": "unverified",
-      "last_verified": "2026-11-07"
+      "status": "open",
+      "last_verified": "2026-11-24"
     },
     {
       "name": "The Merchant Kitchen",
@@ -1083,7 +1086,7 @@
         "blog-osborne-village-vs-corydon-evening-compared.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-07"
+      "last_verified": "2026-11-24"
     },
     {
       "name": "Thermëa Spa Village",
@@ -1445,14 +1448,14 @@
       "address": "705 Corydon Ave",
       "pages": [],
       "status": "open",
-      "last_verified": "2026-11-08"
+      "last_verified": "2026-11-24"
     },
     {
       "name": "G.J. Andrews",
       "address": "384 Academy Rd",
       "pages": [],
       "status": "open",
-      "last_verified": "2026-11-08"
+      "last_verified": "2026-11-24"
     },
     {
       "name": "Slices",
@@ -1475,7 +1478,7 @@
       "address": "653 Corydon Ave",
       "pages": [],
       "status": "open",
-      "last_verified": "2026-11-08"
+      "last_verified": "2026-11-24"
     },
     {
       "name": "Warehouse Artworks",

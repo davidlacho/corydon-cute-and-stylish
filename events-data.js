@@ -69,6 +69,15 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "Candlelight: Hans Zimmer, then Queen and the Beatles",
+      "url": "/blog-candlelight-concerts-winnipeg.html",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "time": "6:30 p.m. and 8:45 p.m.",
+      "venue": "Crescent Arts Centre, 525 Wardlaw Ave",
+      "status": "confirmed"
+    },
+    {
       "title": "WSO: Handel's Messiah",
       "url": "/blog-wso-christmas-concerts-winnipeg.html",
       "start": "2026-12-03",
@@ -185,15 +194,6 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
-      "title": "Manitoba Moose vs Rockford",
-      "url": "/blog-manitoba-moose-hockey.html",
-      "start": "2026-12-16",
-      "end": "2026-12-16",
-      "time": "10:30 a.m. puck drop",
-      "venue": "Canada Life Centre",
-      "status": "confirmed"
-    },
-    {
       "title": "Christmas Lights Sightseeing Tour (sold out)",
       "url": "/blog-winnipeg-christmas-lights-tour.html",
       "start": "2026-12-16",
@@ -205,10 +205,46 @@ const EVENTS_DATA = [
     {
       "title": "Manitoba Moose vs Rockford",
       "url": "/blog-manitoba-moose-hockey.html",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "time": "10:30 a.m. puck drop",
+      "venue": "Canada Life Centre",
+      "status": "confirmed"
+    },
+    {
+      "title": "Candlelight: Christmas Classics",
+      "url": "/blog-candlelight-concerts-winnipeg.html",
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "time": "6:30 p.m. and 8:45 p.m.",
+      "venue": "Crescent Arts Centre, 525 Wardlaw Ave",
+      "status": "confirmed"
+    },
+    {
+      "title": "Christmas Lights Sightseeing Tour (sold out)",
+      "url": "/blog-winnipeg-christmas-lights-tour.html",
+      "start": "2026-12-18",
+      "end": "2026-12-18",
+      "time": "6:30 p.m. to 9 p.m.",
+      "venue": "Departs Travel Manitoba Information Centre, The Forks Market",
+      "status": "confirmed"
+    },
+    {
+      "title": "Manitoba Moose vs Rockford",
+      "url": "/blog-manitoba-moose-hockey.html",
       "start": "2026-12-18",
       "end": "2026-12-18",
       "time": "7 p.m. puck drop",
       "venue": "Canada Life Centre",
+      "status": "confirmed"
+    },
+    {
+      "title": "Vinterfest craft market at IKEA Winnipeg",
+      "url": "/blog-vinterfest-market-winnipeg.html",
+      "start": "2026-12-18",
+      "end": "2026-12-20",
+      "time": "10 a.m., closing 8 p.m. Friday",
+      "venue": "IKEA Winnipeg, 500 Sterling Lyon Parkway",
       "status": "confirmed"
     },
     {
@@ -228,15 +264,6 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
-      "title": "Vinterfest craft market at IKEA Winnipeg",
-      "url": "/blog-vinterfest-market-winnipeg.html",
-      "start": "2026-12-18",
-      "end": "2026-12-20",
-      "time": "10 a.m., closing 8 p.m. Friday",
-      "venue": "IKEA Winnipeg, 500 Sterling Lyon Parkway",
-      "status": "confirmed"
-    },
-    {
       "title": "Winnipeg school winter break",
       "url": "/blog-christmas-winnipeg.html",
       "start": "2026-12-18",
@@ -244,21 +271,13 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
-      "title": "Christmas Lights Sightseeing Tour (sold out)",
-      "url": "/blog-winnipeg-christmas-lights-tour.html",
-      "start": "2026-12-18",
-      "end": "2026-12-18",
-      "time": "6:30 p.m. to 9 p.m.",
-      "venue": "Departs Travel Manitoba Information Centre, The Forks Market",
-      "status": "confirmed"
-    },
-    {
-      "title": "Arctic Glacier Winter Park opens for the season",
-      "url": "/blog-arctic-glacier-winter-park-forks.html",
+      "title": "Candlelight: Christmas Classics and Carols on Strings",
+      "url": "/blog-candlelight-concerts-winnipeg.html",
       "start": "2026-12-19",
-      "end": "2027-03-07",
-      "venue": "The Forks",
-      "status": "typical"
+      "end": "2026-12-19",
+      "time": "4:30, 6:30 and 8:45 p.m.",
+      "venue": "Crescent Arts Centre, 525 Wardlaw Ave",
+      "status": "confirmed"
     },
     {
       "title": "Winnipeg Jets vs Dallas, back-to-back",
@@ -268,6 +287,14 @@ const EVENTS_DATA = [
       "time": "7 p.m. Saturday, 5 p.m. Sunday",
       "venue": "Canada Life Centre",
       "status": "confirmed"
+    },
+    {
+      "title": "Arctic Glacier Winter Park opens for the season",
+      "url": "/blog-arctic-glacier-winter-park-forks.html",
+      "start": "2026-12-19",
+      "end": "2027-03-07",
+      "venue": "The Forks",
+      "status": "typical"
     },
     {
       "title": "Winnipeg Jets vs San Jose",
@@ -322,6 +349,15 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "Candlelight: Queen and the Beatles, then Drake",
+      "url": "/blog-candlelight-concerts-winnipeg.html",
+      "start": "2027-01-02",
+      "end": "2027-01-02",
+      "time": "6:30 p.m. and 8:45 p.m.",
+      "venue": "Crescent Arts Centre, 525 Wardlaw Ave",
+      "status": "confirmed"
+    },
+    {
       "title": "Winnipeg Jets vs Calgary",
       "url": "/blog-winnipeg-jets.html",
       "start": "2027-01-02",
@@ -358,6 +394,15 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "Candlelight: Vivaldi, then Ed Sheeran Meets Coldplay",
+      "url": "/blog-candlelight-concerts-winnipeg.html",
+      "start": "2027-01-08",
+      "end": "2027-01-08",
+      "time": "6:30 p.m. and 8:45 p.m.",
+      "venue": "Crescent Arts Centre, 525 Wardlaw Ave",
+      "status": "confirmed"
+    },
+    {
       "title": "Manitoba Moose vs Texas",
       "url": "/blog-manitoba-moose-hockey.html",
       "start": "2027-01-08",
@@ -367,14 +412,6 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
-      "title": "Nestaweya River Trail skating season",
-      "url": "/blog-nestaweya-river-trail.html",
-      "start": "2027-01-09",
-      "end": "2027-03-07",
-      "venue": "Red and Assiniboine rivers at The Forks",
-      "status": "typical"
-    },
-    {
       "title": "Winnipeg Jets vs Utah",
       "url": "/blog-winnipeg-jets.html",
       "start": "2027-01-09",
@@ -382,6 +419,14 @@ const EVENTS_DATA = [
       "time": "7 p.m.",
       "venue": "Canada Life Centre, 300 Portage Ave",
       "status": "confirmed"
+    },
+    {
+      "title": "Nestaweya River Trail skating season",
+      "url": "/blog-nestaweya-river-trail.html",
+      "start": "2027-01-09",
+      "end": "2027-03-07",
+      "venue": "Red and Assiniboine rivers at The Forks",
+      "status": "typical"
     },
     {
       "title": "Manitoba Moose vs Texas",
@@ -408,6 +453,15 @@ const EVENTS_DATA = [
       "end": "2027-03-14",
       "venue": "St. Adolphe",
       "status": "typical"
+    },
+    {
+      "title": "Candlelight: Hans Zimmer, then ABBA",
+      "url": "/blog-candlelight-concerts-winnipeg.html",
+      "start": "2027-01-16",
+      "end": "2027-01-16",
+      "time": "6:30 p.m. and 8:45 p.m.",
+      "venue": "Crescent Arts Centre, 525 Wardlaw Ave",
+      "status": "confirmed"
     },
     {
       "title": "Winnipeg Jets vs Anaheim",
@@ -470,6 +524,15 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "Candlelight: Vivaldi, then Valentine's Classical Romance",
+      "url": "/blog-candlelight-concerts-winnipeg.html",
+      "start": "2027-02-12",
+      "end": "2027-02-12",
+      "time": "6:30 p.m. and 8:45 p.m.",
+      "venue": "Crescent Arts Centre, 525 Wardlaw Ave",
+      "status": "confirmed"
+    },
+    {
       "title": "Festival du Voyageur",
       "url": "/blog-festival-du-voyageur.html",
       "start": "2027-02-12",
@@ -492,6 +555,15 @@ const EVENTS_DATA = [
       "start": "2027-03-01",
       "end": "2027-03-13",
       "venue": "Canada Life Centre",
+      "status": "confirmed"
+    },
+    {
+      "title": "Candlelight: Hans Zimmer, then ABBA",
+      "url": "/blog-candlelight-concerts-winnipeg.html",
+      "start": "2027-03-05",
+      "end": "2027-03-05",
+      "time": "6:30 p.m. and 8:45 p.m.",
+      "venue": "Crescent Arts Centre, 525 Wardlaw Ave",
       "status": "confirmed"
     },
     {
@@ -567,20 +639,20 @@ const EVENTS_DATA = [
       "status": "typical"
     },
     {
-      "title": "Doors Open Winnipeg",
-      "url": "/blog-doors-open-winnipeg.html",
-      "start": "2027-05-29",
-      "end": "2027-05-30",
-      "venue": "Buildings across the city",
-      "status": "confirmed"
-    },
-    {
       "title": "Table for 1200",
       "url": "/blog-table-for-1200-winnipeg.html",
       "start": "2027-05-29",
       "end": "2027-05-29",
       "venue": "Secret location, announced at noon",
       "status": "typical"
+    },
+    {
+      "title": "Doors Open Winnipeg",
+      "url": "/blog-doors-open-winnipeg.html",
+      "start": "2027-05-29",
+      "end": "2027-05-30",
+      "venue": "Buildings across the city",
+      "status": "confirmed"
     },
     {
       "title": "Kidsfest (Winnipeg International Children's Festival)",

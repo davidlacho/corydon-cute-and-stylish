@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-candlelight-concerts-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-11-24",
+    "title": "Candlelight Concerts Winnipeg: Dates, Prices, Best Nights",
+    "image": "https://images.unsplash.com/photo-1744921006967-30680fe48cf8?q=80&w=1200&h=800&fit=crop",
+    "imageAlt": "Hundreds of candles on the steps and stage of a church sanctuary, with music stands set for a quartet",
+    "description": "Candlelight concerts run at Winnipeg's Crescent Arts Centre from November 28 to March 5. The winter dates, what the four zones cost, and which night to pick.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>November 24, 2026</span>"
+  },
+  {
     "url": "/blog-winnipeg-christmas-lights-tour.html",
     "category": "winnipeg",
     "date": "2026-11-23",

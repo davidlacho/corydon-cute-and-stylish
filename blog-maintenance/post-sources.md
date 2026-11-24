@@ -16,6 +16,67 @@ Newest first.
 
 ---
 
+## blog-candlelight-concerts-winnipeg.html (published 2026-11-24)
+
+Everything on the page comes from Fever, the series' own ticketing platform,
+read on 2026-11-24, plus two building-history sources and a solar-position API.
+
+- **feverup.com/en/winnipeg/candlelight** (the Winnipeg Candlelight listing
+  page): twenty-five concerts listed for Winnipeg between November 28, 2026 and
+  March 5, 2027. Nineteen are at the Crescent Arts Centre; three are at the
+  Canadian Museum for Human Rights (December 6 at 6:30 and 8:45, December 16 at
+  6:30 Michael Jackson and 8:45 Adele) and three at the Winnipeg Art Gallery
+  (Disney Love Songs, January 30, February 7 and February 13, each 6:30 and
+  8:45). Crescent Arts Centre dates and the listing's opening ("from") prices:
+  November 28 Hans Zimmer 6:30 $23.76, Queen & The Beatles 8:45 $26.35;
+  December 17 Christmas Classics 6:30 and 8:45 $31.86; December 18 same $37.80;
+  December 19 Christmas Classics 4:30 and 6:30 $51.84, Carols on Strings 8:45
+  $37.26; January 2 Queen & The Beatles 6:30 $30.13, Drake 8:45 $32.08;
+  January 8 Vivaldi's Seasons & More 6:30 $26.73, Ed Sheeran Meets Coldplay
+  8:45 $31.10; January 16 Hans Zimmer 6:30 $29.16, ABBA 8:45 $26.73; January 22
+  Taylor Swift 6:30 $30.13; February 12 Vivaldi 6:30 $29.16, Valentine's
+  Classical Romance 8:45 $32.40; February 26 Ed Sheeran Meets Coldplay 6:30
+  $26.78, Queen & The Beatles 8:45 $29.38; March 5 Hans Zimmer 6:30 $24.19,
+  ABBA 8:45 $24.19. **These "from" figures move with Fever's own promotions**,
+  which is why the page carries the fixed zone prices as well and the
+  "Before you go" box tells the reader to confirm.
+- **feverup.com/m/249965/en** (the Christmas Classics event page): Crescent Arts
+  Centre, 525 Wardlaw Avenue, Winnipeg MB R3L 0L9; sixty minutes of live string
+  quartet by candlelight; December 17, 18 and 19 with 6:30 and 8:45 sittings;
+  Listeso named as the quartet for December 17 and 18, none named for the 19th;
+  a seventeen-piece programme including Dance of the Sugar Plum Fairy, O Holy
+  Night, Carol of the Bells, Jingle Bells and All I Want for Christmas Is You,
+  billed as a tribute performance; ages 8+, under 16 with an adult; zones
+  D (balcony) $29.50 + $2.36 fee, C (balcony) $36.00 + $2.88, B $43.50 + $3.48,
+  A $60.00 + $4.80, optional candle 3-pack $25; seats assigned on arrival, first
+  come first served within the zone; tickets only through the Fever app or site,
+  none at the venue; doors forty-five minutes before, no late entry; date or
+  time changes up to 48 hours before, no refunds without a flexible ticket; no
+  on-site parking; wheelchair accessible; cashless bar.
+- **winnipegarchitecture.ca/places/525-wardlaw-avenue/** and the Manitoba
+  Historical Society: Crescent Fort Rouge United Church, built 1910 for the Fort
+  Rouge Methodist congregation, architect J. H. G. Russell, Gothic Revival,
+  wood-finished interior with a horseshoe-shaped balcony in the sanctuary and a
+  Casavant organ, renamed after the 1935 United Church union, listed under
+  Osborne Village. An Eventbrite organiser page gives the Crescent Arts Centre
+  as an independent not-for-profit offshoot of the congregation formed in early
+  2017 to use the building for the arts.
+- **Sunsets** of 4:32 p.m. (November 28), 4:28 p.m. (December 19) and 4:45 p.m.
+  (January 8), and a day length of 8 h 20 m on January 8, from a solar-position
+  API for Winnipeg, converted from UTC to CST.
+
+**What was deliberately left off the page.** No walk time or distance from the
+house: 525 Wardlaw Avenue is not in the verified distance table in
+`AGENT-INSTRUCTIONS.md`, so the page says only "close enough to walk on a mild
+evening". No cross streets for the venue: no source named any. No candle count,
+no seating capacity and no attendance figure: none is published. The venue's
+service-animal line on the Fever page was not carried over.
+
+**To re-check on a later run.** Fever's "from" prices and the session list both
+change; a sold-out sitting is simply removed from the calendar, so the eight
+`events-data.js` entries added for this post should be re-read against
+feverup.com before each of their dates.
+
 ## blog-winnipeg-christmas-lights-tour.html (published 2026-11-23)
 
 Two sources, both the operators' own pages, read on 2026-11-23.

@@ -7,6 +7,127 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-24
+
+**Part 1, businesses verified (6, the stalest in the ledger).** All six open. No
+page carried a wrong claim; one page gained a sourced correction.
+
+- **The Grove Pub & Restaurant** (164 Stafford St) is open. Current directory
+  listings agree it runs seven days a week for lunch, dinner and late night, and
+  one carries the pub's own line about Tuesday oyster night from 4 p.m. Nothing
+  on `blog-best-places-nearby-winnipeg.html` or
+  `blog-grove-pub-near-corydon-airbnb.html` contradicts that; neither page states
+  hours, so neither was changed.
+- **The Indigenous Kitchen (food truck)** moves from `unverified` to **open**, its
+  first real check. A Manitoba Inc. feature tagged Fall 2026, with July 2026
+  images, has Tara Hall running the truck April through October, attending the
+  Red River Exhibition and the Winnipeg Folk Festival, and parking at the Oodena
+  gas station at Taylor Avenue and Kenaston Boulevard between events. The same
+  piece says she plans a year-round restaurant in a new retail development at
+  Kenaston and Taylor; **no opening date is published and none was put on the
+  page**. `blog-indigenous-winnipeg.html` had the season as the vague "spring
+  through autumn" and named only two events, so the paragraph now gives April to
+  October, adds the Exhibition and the Folk Festival, and tells a reader where
+  the truck actually parks the rest of the time. Note for a later run: the page
+  now says "Oodena" in two unrelated senses, the gas station and the Celebration
+  Circle at The Forks.
+- **The Toad in the Hole Pub** is open. Its Yellow Pages listing is live with no
+  closure flag and describes it as an Osborne Village fixture since 1990, and a
+  menu directory shows it operating 2 p.m. to 2 a.m. daily. **Address flagged,
+  not changed.** The ledger holds 112 Osborne St; two directories give 155
+  Osborne St and one puts The Osborne Taphouse at 112. Directories copy each
+  other, no page on this site states the pub's address, and the playbook prefers
+  leaving a field alone to guessing, so 112 stands until a run can read the pub's
+  own site. toadinthehole.ca does not resolve from this sandbox.
+- **G.J. Andrews** is open, and this one is first-hand: gjandrews.ca loads and
+  gives 384 Academy Road, 9 a.m. to 8 p.m. Monday to Saturday, noon to 5 p.m.
+  Sunday, closed statutory holidays.
+- **G G Gelati** (705 Corydon Ave) and **Mr. Calzone** (653 Corydon Ave) are both
+  open, with current listings at the ledger's addresses and active delivery menus
+  for Mr. Calzone. Neither is named on a page in its `pages` array yet.
+
+**Ledger backfill sweep.** `blog-vegetarian-vegan-eats-corydon.html` swept and
+moved to "Swept". No new entries: the three businesses it names, The Roost,
+Bar Italia and Saperavi Georgian Cuisine, are all already in the ledger, and the
+filename was appended to each one's `pages`. The ledger still holds 223.
+
+**Part 2, new post.** `blog-candlelight-concerts-winnipeg.html`, "Candlelight
+Concerts Winnipeg: Dates, Prices, Best Nights", form **ranked short list** (the
+last three were comparison, explainer and sectioned list; a ranked list has not
+been used in more than ten posts).
+
+- **First entry of the Events queue, taken as written.** The Refresh queue is
+  empty, so the every-third-run refresh rule was skipped. The queue entry had
+  asked for three things to be re-checked against feverup.com before publishing:
+  the December 19 date, the programme, and whether there are two seatings. All
+  three were checked today against the Winnipeg Candlelight listing page and the
+  Christmas Classics event page, and all three turned out to be understated. The
+  series is not one December date; it is twenty-five Winnipeg concerts between
+  November 28, 2026 and March 5, 2027, nineteen of them in one room, most nights
+  running two sittings at 6:30 and 8:45.
+- The post ranks seven Crescent Arts Centre nights for a visitor with one free
+  evening, with each night's programmes, start times and opening price in its own
+  paragraph. Venue: Crescent Fort Rouge United Church, 525 Wardlaw Avenue,
+  built 1910 to J. H. G. Russell's design, horseshoe balcony and a Casavant
+  organ, run as a performance space by the Crescent Arts Centre since 2017,
+  which is why the two cheapest ticket zones are balcony seats.
+- **Both the fixed zone prices and the moving "from" prices are on the page**,
+  and the distinction is stated: Fever discounts its own listed opening prices,
+  so the page gives Christmas Classics at $29.50, $36.00, $43.50 and $60.00 plus
+  named booking fees, alongside each night's opening figure.
+- Mechanics a visitor cannot get from a listing page without reading the fine
+  print: unassigned seating within the zone you buy, doors forty-five minutes
+  before, no late entry at all, ages 8+ with under-16s accompanied, no tickets at
+  the venue, no parking lot.
+- **No walk time or distance from the house.** 525 Wardlaw Avenue is not in the
+  verified distance table, so the page says only that it is close enough to walk
+  on a mild evening. Sunsets of 4:32 p.m. on November 28, 4:28 p.m. on December
+  19 and 4:45 p.m. on January 8 came from a solar-position API.
+- **No ledger entries from this post.** It names no restaurant, bar or shop; the
+  arts centre, the Canadian Museum for Human Rights and the Winnipeg Art Gallery
+  are institutions, and Fever is a ticketing platform rather than a place that
+  can close its doors on a guest.
+- Hero: Unsplash photo-1744921006967-30680fe48cf8, hundreds of candles banked on
+  the steps of a church sanctuary with music stands set for a quartet. Checked
+  unused across `articles-data.js`, `articles_data.json` and `blog.html`, HTTP
+  200, and viewed before use. **images.unsplash.com worked normally today**,
+  after yesterday's bot challenge and 429s.
+- Registered everywhere: `articles-data.js`, `articles_data.json`, the
+  `blog.html` noscript card and `blogPost` JSON-LD, `sitemap.xml`, and `llms.txt`
+  regenerated (194 posts). `check-blog-listing.py` prints OK.
+
+**Part 2b, events calendar.**
+
+- Added: **eight entries, one per Crescent Arts Centre night the post names**,
+  all `confirmed` from Fever's own listings: November 28, December 17, December
+  19, January 2, January 8, January 16, February 12 and March 5, each with its
+  sitting times and the venue address. The calendar now holds 99 entries.
+- Stale: the **NHL Heritage Classic** ended exactly 30 days ago, so it is not yet
+  "more than 30 days past" and stays one more day; it becomes removable
+  2026-11-25. **Third + Bird Christmas Market** (ended 11-22) is unchanged from
+  yesterday's assessment and becomes removable 2026-12-22. **Rise Above Handmade
+  Holiday Market** (ended 11-23) is new to the stale list: it is a one-day
+  university market, the organiser has announced nothing for 2027, and
+  `blog-winnipeg-holiday-markets.html` names the date rather than a usual window,
+  so none of the three refresh options applies. Left in place; removable
+  2026-12-23.
+- `typical` entries starting within 60 days are Arctic Glacier Winter Park,
+  the Nestaweya River Trail, the A Maze in Corn snow maze, the Warming Huts and
+  the Winnipeg New Music Festival. All five were checked between 2026-11-21 and
+  2026-11-23 and none was re-searched today.
+- **Nothing added to the events queue.** The two-to-eight-week window is still
+  dense, and the only two candidates a venue and tourism search surfaced,
+  Zoo Lights at Assiniboine Park Zoo and New Year's Eve at The Forks, both
+  already have calendar entries and posts.
+
+**Pages changed.** `blog-candlelight-concerts-winnipeg.html` (new),
+`blog-indigenous-winnipeg.html`, `blog.html`, `events.html` (regenerated),
+`events-data.js`, `articles-data.js`, `articles_data.json`, `sitemap.xml`,
+`llms.txt`, `business-ledger.json`, `ledger-sweep.md`, `post-ideas.md`,
+`post-sources.md`.
+
+---
+
 ## 2026-11-23
 
 **Part 1, businesses verified (6, the stalest in the ledger).** Five open, one

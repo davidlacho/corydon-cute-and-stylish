@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-vegetarian-vegan-eats-corydon.html
 - blog-wellington-crescent-walk-near-corydon-airbnb.html
 - blog-wine-beer-spirits-near-corydon-airbnb.html
 - blog-winnipeg-48-hour-itinerary.html
@@ -92,6 +91,7 @@ last because they are partly covered.
 
 ## Swept
 
+- blog-vegetarian-vegan-eats-corydon.html (2026-11-24)
 - blog-unique-airbnb-features.html (2026-11-23, no commercial businesses named. It is a hosting-philosophy post about features remembered from stays in other people's Airbnbs in Barcelona, Tokyo, Lisbon, Melbourne, Copenhagen and Mexico City; every reference is generic ("a nearby roaster", "a local beekeeper", "neighbourhood shops") and no restaurant, cafe, shop or operator is named anywhere on the page, in Winnipeg or abroad.)
 - blog-travel-perspectives-hosting.html (2026-11-22, no commercial businesses named)
 - blog-transportation.html (2026-11-21, six new entries and two pages appended. New: Club Regent Casino, Kildonan Place, Southdale Centre, Charleswood Centre, the Southpark Safeway on Pembina Highway and Vista Place on St. Mary's Road, all named as Park & Ride lots and all unverified, so dated 2026-01-01. Appended: Garden City Shopping Centre, which already had an entry. Winnipeg Trolley Company, the Fort Garry Hotel, Unicity Taxi and Uber were already listed with this filename on their pages. Winnipeg Transit, VIA Rail and Winnipeg Richardson International Airport are public bodies and out of ledger scope.)
