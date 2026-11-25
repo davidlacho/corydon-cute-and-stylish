@@ -7,6 +7,90 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-25
+
+**Part 1, businesses verified (6, the stalest in the ledger).** All six open. No
+page needed a correction; one hours mismatch is flagged below rather than
+changed.
+
+- **Thermëa Spa Village** (775 Crescent Dr) is open. The spa's own contact page
+  carries the address and 8:30 a.m. to 10 p.m. daily, with a third-party listing
+  repeating the same window as the winter schedule. No page on this site states
+  the spa's hours, so nothing changed on
+  `blog-thermea-spa-day-near-corydon-airbnb.html`.
+- **Thyme Cafe and Bookstore** (268 Tache Ave) is open. Live listings across
+  HappyCow and two directories, no closure flag, still described as plant-based
+  with secondhand books. The listings disagree on hours (one has Tuesday to
+  Saturday 11 a.m. to 5:30 p.m., another Tuesday to Sunday from 10 a.m.), so no
+  hours were added to `blog-winnipeg-vegan-restaurants.html`, which states none.
+- **Slices** (401 Stafford St) is open. The chain's own site lists two Winnipeg
+  shops, Stafford at 401 Stafford Street (at Lorette), 204-475-3443, and
+  1329 Portage Ave. No hours published on the operator's site. The ledger entry
+  has no pages, so there was nothing to correct.
+- **Vera Pizza** (670 Osborne St) is open. A directory refreshed 2026-11-24
+  carries live weekly hours and an aggregate of 759 Google reviews with no
+  permanently-closed flag. **Hours mismatch flagged, not changed.**
+  `blog-restaurants.html` says "dinner service only, and closed Sundays"; that
+  directory shows the room open Wednesday to Saturday 5 p.m. to 10 p.m. and
+  closed Sunday, Monday and Tuesday. One aggregator is not enough to rewrite a
+  guest-facing line, so it stands until a run can read the restaurant's own
+  posting. Worth a look next time the ledger brings it round.
+- **St. Vital Centre** (1225 St. Mary's Rd) is open. The centre's own site now
+  redirects to its management company's page, which carries current mall hours
+  (Monday to Friday 10 a.m. to 9 p.m., Saturday 10 a.m. to 6 p.m., Sunday
+  11 a.m. to 6 p.m.) and extended Black Friday hours for November 27, 2026.
+  `blog-classic107-spring-break-winnipeg.html` states no hours and needed no
+  change.
+- **Yujiro Japanese Restaurant** (1822 Grant Ave) is open. Active listings with
+  no closure flag, and it still appears on a national best-restaurants list.
+  Hours differ between listings, so none were added;
+  `blog-winnipeg-ramen-japanese-guide.html` names the restaurant and its
+  neighbourhood only.
+
+**Ledger housekeeping.** All six dated today. `blog-hilary-duff-winnipeg.html`
+appended to Hargrave St. Market's `pages`; the new post names no other
+commercial business. Backfill sweep:
+`blog-wellington-crescent-walk-near-corydon-airbnb.html` read and moved to
+"Swept", no businesses to add (it is a free residential walk that names streets,
+the river and the pedestrian bridge and nothing commercial).
+
+**Part 2, new post.** `blog-hilary-duff-winnipeg.html`, "Hilary Duff Winnipeg
+2027: January 30 Tickets, Doors". First entry of the Events queue, taken as
+written. Form: question and answer, which none of the last three posts used.
+Everything on the page comes from the arena's own pages (date, 7:30 p.m. start,
+February 20, 2026 on-sale, box office location and hours, the 4 by 6 by 1.5 inch
+bag limit, the three screening gates, no on-site bag check, 58 transit routes,
+Platinum Parking's 1,700 advance stalls and the named drop-off curbs) and from
+Global News for the tour itself (first full-scale global headline run in nearly
+two decades, nine Canadian stops, Lauren Spencer Smith opening the 2027 dates).
+No ticket price and no doors time are published on the page: the arena lists
+neither, and resale figures disagree by tens of dollars. Registered in
+`articles-data.js`, `articles_data.json`, the `blog.html` noscript grid and
+`blogPost` JSON-LD, and `sitemap.xml`; `llms.txt` regenerated (195 posts);
+`check-blog-listing.py` prints OK.
+
+**Part 2b, events calendar.**
+
+- Added: Hilary Duff, the lucky me tour, January 30, 2027, 7:30 p.m., Canada
+  Life Centre, confirmed, pointing at the new post.
+- Removed: NHL Heritage Classic (October 25, 2026), a one-off now more than 30
+  days past.
+- Left stale for now: Third + Bird Christmas Market (ended November 22) and
+  Rise Above Handmade Holiday Market (ended November 23).
+  `blog-winnipeg-holiday-markets.html` is a dated 2026 ranking and states no
+  usual window for either, and no 2027 dates are announced, so there is nothing
+  to move them to that the post itself supports.
+- Typical entries inside 60 days: The Forks' own events page announces no dates
+  for the Arctic Glacier Winter Park, the Nestaweya River Trail season or the
+  Warming Huts, and no 2027 dates are published for the Winnipeg New Music
+  Festival. All left as typical.
+- Events queue refilled with two, both from the arena's own events page read
+  today: Simple Plan (February 2, 2027, 7 p.m.) and The Ram Motorsports
+  Spectacular (February 6 and 7, 2027, 2 p.m.). `update-events.py` run;
+  `events.html` regenerated and its sitemap `<lastmod>` set to today.
+
+---
+
 ## 2026-11-24
 
 **Part 1, businesses verified (6, the stalest in the ledger).** All six open. No

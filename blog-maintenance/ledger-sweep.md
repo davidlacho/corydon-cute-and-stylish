@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-wellington-crescent-walk-near-corydon-airbnb.html
 - blog-wine-beer-spirits-near-corydon-airbnb.html
 - blog-winnipeg-48-hour-itinerary.html
 - blog-winnipeg-airport-arrival-guide.html
@@ -91,6 +90,7 @@ last because they are partly covered.
 
 ## Swept
 
+- blog-wellington-crescent-walk-near-corydon-airbnb.html (2026-11-25, no commercial businesses named. The post is a free residential walk from Crescentwood north to Wellington Crescent; it names streets, the river, the pedestrian bridge and Assiniboine Park, and no restaurant, cafe, shop or operator anywhere on the page.)
 - blog-vegetarian-vegan-eats-corydon.html (2026-11-24)
 - blog-unique-airbnb-features.html (2026-11-23, no commercial businesses named. It is a hosting-philosophy post about features remembered from stays in other people's Airbnbs in Barcelona, Tokyo, Lisbon, Melbourne, Copenhagen and Mexico City; every reference is generic ("a nearby roaster", "a local beekeeper", "neighbourhood shops") and no restaurant, cafe, shop or operator is named anywhere on the page, in Winnipeg or abroad.)
 - blog-travel-perspectives-hosting.html (2026-11-22, no commercial businesses named)

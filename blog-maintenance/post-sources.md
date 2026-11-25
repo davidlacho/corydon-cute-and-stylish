@@ -16,6 +16,57 @@ Newest first.
 
 ---
 
+## blog-hilary-duff-winnipeg.html (published 2026-11-25)
+
+- **Date, start time and tour name**: the Canada Life Centre event page for
+  Hilary Duff (canadalifecentre.ca/calendar-events/hilary-duff/), read
+  2026-11-25. It gives "lucky me tour", Saturday January 30, 2027, 7:30 p.m.,
+  an on-sale of Friday February 20 at 10 a.m. (the page itself was published
+  February 12, 2026, which fixes the year), and a Ticketmaster link. It lists
+  no doors time and no support act, which is why the post states neither as a
+  venue fact.
+- **Box office**: canadalifecentre.ca/box-office-information/, read 2026-11-25.
+  Street level at Portage and Donald in the main atrium at Gate 1; during
+  hockey season (Oct 1 to May 31) non-event hours are Wednesday to Friday
+  11 a.m. to 2 p.m., closed Saturday to Tuesday, and on a Saturday event day it
+  opens two hours before the event. Phone 204-987-7825.
+- **Bag policy**: canadalifecentre.ca/fan-guide/bag-policy, read 2026-11-25.
+  4" x 6" x 1.5" or smaller; medical, childcare and diaper bags and media
+  exempt; X-ray screening at Gate 1 (Portage and Donald), Gate 3 (Graham and
+  Hargrave) and Gate 6 (Cityplace Skywalk); no on-site bag check; individual
+  tours may set stricter rules, emailed to ticket holders.
+- **Parking and drop-off curbs**: canadalifecentre.ca/plan-your-visit/parking/,
+  read 2026-11-25. Platinum Parking named as True North's preferred provider
+  with "over 1,700 stalls" bookable in advance, plus ParkMobile and ParkWhiz;
+  the page recommends buying parking ahead. Drop-off curbs listed there:
+  Donald Street between Portage and Graham (both curbs, west side Transit Plus
+  only), Donald south of Graham, eastbound Portage between Carlton and Hargrave
+  in front of Newport Center, eastbound Portage between Donald and Smith, and
+  westbound Portage between Donald and Hargrave.
+- **Transit**: canadalifecentre.ca/plan-your-visit/transit-information/, read
+  2026-11-25: "up to 58 routes servicing Canada Life Centre", with fares and
+  trip planning referred to winnipegtransit.com. The BLUE line detail is the
+  same sourcing as blog-harlem-globetrotters-winnipeg.html.
+- **Tour context and opening acts**: Global News, "Hilary Duff: The Lucky Me
+  World Tour Canadian dates". Nine Canadian stops, Winnipeg January 30, 2027 at
+  Canada Life Centre, between Edmonton (January 27) and Hamilton (February 2);
+  Lauren Spencer Smith opens the 2027 dates, La Roux and Jade LeMac the 2026
+  ones; described as her first full-scale global headline run in almost two
+  decades.
+- **Not published, deliberately**: no ticket price (resale listings gave
+  Winnipeg starting figures tens of dollars apart, some in US dollars, and the
+  arena publishes none); no doors time (the venue lists none, so the post uses
+  the box office's two-hour mark and says what it is); no arena capacity.
+- **Daylight**: sunset 6:19 p.m. and 9 hours 15 minutes of daylight on
+  2027-01-30, from a solar-position API for Winnipeg.
+- **Distance**: 10 minutes and 3.9 km from the house, from the verified
+  distance table in AGENT-INSTRUCTIONS.md.
+- **Hero image**: Unsplash photo-1764643588158-79ac8406f87b, a packed arena
+  bowl seen from the upper deck. Checked unused in articles-data.js,
+  articles_data.json and blog.html; HTTP 200; viewed before use.
+
+---
+
 ## blog-candlelight-concerts-winnipeg.html (published 2026-11-24)
 
 Everything on the page comes from Fever, the series' own ticketing platform,

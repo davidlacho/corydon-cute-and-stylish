@@ -21,15 +21,6 @@
 // to validate the entries and regenerate the static list and JSON-LD in events.html.
 const EVENTS_DATA = [
     {
-      "title": "NHL Heritage Classic: Jets vs Canadiens",
-      "url": "/blog-nhl-heritage-classic-winnipeg-2026.html",
-      "start": "2026-10-25",
-      "end": "2026-10-25",
-      "time": "6 p.m. puck drop",
-      "venue": "Princess Auto Stadium",
-      "status": "confirmed"
-    },
-    {
       "title": "Third + Bird Christmas Market",
       "url": "/blog-winnipeg-holiday-markets.html",
       "start": "2026-11-20",
@@ -520,6 +511,15 @@ const EVENTS_DATA = [
       "start": "2027-01-24",
       "end": "2027-01-24",
       "time": "3 p.m.",
+      "venue": "Canada Life Centre, 300 Portage Ave",
+      "status": "confirmed"
+    },
+    {
+      "title": "Hilary Duff: the lucky me tour",
+      "url": "/blog-hilary-duff-winnipeg.html",
+      "start": "2027-01-30",
+      "end": "2027-01-30",
+      "time": "7:30 p.m.",
       "venue": "Canada Life Centre, 300 Portage Ave",
       "status": "confirmed"
     },

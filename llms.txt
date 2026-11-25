@@ -15,14 +15,15 @@ Owner: Stay Winnipeg
 - [Booking Redirect](https://staywinnipeg.ca/book-now.html)
 
 # Content Overview
-Total Blog Posts: 194
-- Winnipeg Attractions & Activities: 176 guides
+Total Blog Posts: 195
+- Winnipeg Attractions & Activities: 177 guides
 - Hosting & Airbnb Philosophy: 13 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (176 guides)
+## Winnipeg Attractions & Activities (177 guides)
+- [Hilary Duff Winnipeg 2027: January 30 Tickets, Doors](https://staywinnipeg.ca/blog-hilary-duff-winnipeg.html)
 - [Candlelight Concerts Winnipeg: Dates, Prices, Best Nights](https://staywinnipeg.ca/blog-candlelight-concerts-winnipeg.html)
 - [Winnipeg Christmas Lights Tour 2026: Bus or Your Own Car](https://staywinnipeg.ca/blog-winnipeg-christmas-lights-tour.html)
 - [Winterruption Winnipeg 2027: January 20 to 24, Wristbands](https://staywinnipeg.ca/blog-winterruption-winnipeg.html)
@@ -245,11 +246,11 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage showcasing boutique accommodation, tours, and experiences with booking information, guest review highlights, a two-column property overview with image carousel, and a centred booking CTA
-- Blog index page listing all 194 blog posts by category
+- Blog index page listing all 195 blog posts by category
 - Discounted Tours & Experiences page featuring Viator widget for booking tours and activities
 - Winnipeg Events Calendar page (events.html) with day, week and month views of festivals, games, markets, parades and shows; every calendar event links to the blog post that covers it, and the data lives in events-data.js
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
-- 194 individual blog post pages covering local guides, hosting insights, and travel stories
+- 195 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
@@ -325,5 +326,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
-November 24, 2026
+November 25, 2026
 
