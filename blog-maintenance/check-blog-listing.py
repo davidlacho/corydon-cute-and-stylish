@@ -112,6 +112,17 @@ for name, urls in (("noscript card", cards), ("blogPost JSON-LD entry", ld), ("a
     for url in sorted(set(urls) - set(by_url)):
         problems.append(f"{url}: has a blog.html/articles_data.json {name} but is not in articles-data.js")
 
+# Owner's rule (2026-11-25): every link to the Airbnb listing goes through /book-now.html,
+# which records the click before forwarding. Flag any direct href to the listing.
+import glob as _glob
+_direct = re.compile(r"""href\s*[:=]\s*["']https?://(?:www\.)?airbnb\.(?:ca|com)/(?:rooms/716340250371431352|h/corydon-cute-and-stylish)""")
+for _f in sorted(_glob.glob("*.html") + ["blog-components.js", "load-components.js", "src/index-app.jsx"]):
+    if _f in ("book-now.html", "reviews-now.html") or not os.path.exists(_f):
+        continue
+    for _n, _line in enumerate(open(_f, encoding="utf-8"), 1):
+        if _direct.search(_line):
+            problems.append(f"{_f}:{_n}: links straight to Airbnb; use /book-now.html?source=<slug> instead")
+
 if problems:
     print(f"FAIL: {len(problems)} problem(s) across {len(by_url)} posts")
     for p in problems:

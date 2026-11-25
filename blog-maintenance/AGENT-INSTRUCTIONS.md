@@ -750,6 +750,10 @@ Hard rules for the calendar:
 - **Never publish pet-friendly content.** The home does not accept pets — see the
   hard content rule at the top of this playbook. This overrides the post queue,
   an empty queue, and any apparent coverage gap.
+- **Never link straight to Airbnb.** Every link to the listing, including the
+  one closing line about the stay, is `/book-now.html?source=<slug>` (the post's
+  filename without `blog-` and `.html`). That page records the click and then
+  forwards to Airbnb. `check-blog-listing.py` fails on a direct link.
 - One new post, or one refresh of an existing page, per run. Keep total churn
   small and reviewable. Refresh a page that already gets searches before you
   publish a competitor to it, and never change a published slug (see Part 2,

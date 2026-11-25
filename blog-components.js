@@ -232,7 +232,7 @@ function Footer() {
                 React.createElement('a', { href: 'https://staywinnipeg.ca/' }, 'Home'),
                 React.createElement('a', { href: 'https://staywinnipeg.ca/events.html' }, 'Events'),
                 React.createElement('a', { href: 'https://staywinnipeg.ca/blog.html' }, 'Blog'),
-                    React.createElement('a', { href: 'https://www.airbnb.ca/h/corydon-cute-and-stylish' }, 'Book on Airbnb')
+                    React.createElement('a', { href: '/book-now.html?source=footer' }, 'Book on Airbnb')
                 )
             ),
             React.createElement('div', { className: 'footer-col' },

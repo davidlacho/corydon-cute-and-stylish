@@ -349,6 +349,12 @@ Commit `src/index-app.jsx` and `app.js` together. Notes that matter when editing
 - External links: `<a href="[url]" target="_blank" rel="noopener noreferrer">[text]</a>`
 - Internal links: `<a href="https://staywinnipeg.ca/[page].html">[text]</a>`
 - Always use descriptive link text
+- **Links to the Airbnb listing always go through the redirect page**, never straight to
+  airbnb.ca: `<a href="/book-now.html?source=[post-slug-without-blog-]" target="_blank" rel="noopener noreferrer">[text]</a>`.
+  `book-now.html` records the click in Google Analytics (with `source`) and then forwards to
+  the listing. Owner's rule, 2026-11-25. `check-blog-listing.py` fails if any page links to
+  the listing directly. The only exceptions are `book-now.html` and `reviews-now.html`
+  themselves and JSON-LD `"sameAs"` values, which are not clickable links.
 
 ### Images
 
@@ -406,7 +412,7 @@ The land acknowledgement text: "We acknowledge that we are on Treaty 1 territory
 
 ```html
 <a 
-    href="https://www.airbnb.ca/rooms/716340250371431352"
+    href="/book-now.html?source=floating-button"
     class="floating-book-button"
     target="_blank"
     rel="noopener noreferrer"
