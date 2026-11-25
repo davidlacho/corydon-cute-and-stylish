@@ -391,7 +391,38 @@ clicks, and with them these rules:
 - **Never add review or rating markup.** Guest reviews are deliberately kept
   out of schema.org JSON-LD; see "Review Update Workflow" in `CLAUDE.md`.
 
-The Refresh queue in `post-ideas.md` was refilled from this export.
+**Average position, read from Search Console the same day (28 days to
+2026-11-24).** 235 clicks, 25.2K impressions, 0.9% CTR, average position
+11.7. Mobile ranks at 9.0 on average and desktop at 15.2. Position decides
+which fix a page needs, so check it before choosing what to change:
+
+- **Positions 1 to 10 with a low CTR need a snippet fix (title,
+  description, opening), not more content.** Pho (position 9.3, 8 clicks on
+  3,386; "best pho near me" alone 0 on 2,342 at 8.7), Corydon restaurants
+  (9.2), Folk Fest (6.1; every "folk fest 2027" phrasing ranks 5 to 6 and earns
+  no clicks), spring break (7.3, 0 on 393), getting around (8.6), Hargrave St.
+  Market (9.2), pizza (7.2). The page is already on page one; the searcher is
+  choosing something else above or beside it.
+- **Positions 11 to 20 are striking distance.** Breweries (15.9), little free
+  libraries (12.9), wine bars (12.5), "best coffee shops in winnipeg" (17.8),
+  the 24-hour budget page (12.9). These gain the most from a real content
+  refresh: verified facts, more specific answers, and internal links from the
+  site's strongest pages (the Santa parade, Corydon guide and Rainbow Stage
+  pages).
+- **Beyond position 20, do not spend refresh runs chasing the head term.**
+  "things to do in winnipeg" (50.7), "coffee shops winnipeg" (45), "private
+  dining winnipeg" (57), "event space winnipeg" (40), the restaurants hub
+  (63), family activities (37.8), winter activities (33.6). Tourism Winnipeg,
+  directories and the map pack own those. Aim these pages at the longer,
+  specific phrasings they can win instead (private dining and event venues
+  already earn clicks that way, at 26 and 23 on average).
+- **Review snippets will drop to zero, and that is intended.** Search Console
+  listed 117 valid review-snippet items from the old homepage markup. They
+  disappear as Google recrawls the homepage after the 2026-11-25 change. Do not
+  restore the markup to "fix" the report. Manual actions: none.
+
+The Refresh queue in `post-ideas.md` was refilled from this export and
+ordered by these position bands.
 
 ### Event rollover
 
