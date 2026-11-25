@@ -647,19 +647,28 @@ lands on `main`; a branch exists only to carry a change there.
 
 Two separate counts are maintained:
 
-1. **Total reviews** — used in public copy as `"X guest reviews"` and in JSON-LD as `"aggregateRating.reviewCount"`. Increment by 1 for **every** new review.
+1. **Total reviews** — used in public copy as `"X guest reviews"` and in the `#guest-reviews-data` block as `"aggregateRating.reviewCount"`. Increment by 1 for **every** new review.
 2. **5-star reviews** — tracked internally in `llms.txt` only (e.g. `"87 5-star reviews (94 total reviews, …)"`). Increment by 1 only when the new review is 5 stars.
 
 Also update `"aggregateRating.ratingValue"` only when the user explicitly provides a new average (e.g. `"4.91"`).
 
-### 1. Update review data in `index.html` JSON-LD (`LodgingBusiness`)
+### 1. Update review data in `index.html` (`#guest-reviews-data`)
+
+The reviews and the rating live in `<script type="application/json" id="guest-reviews-data">`
+in `index.html`, directly after the `LodgingBusiness` JSON-LD. It is plain JSON with the
+same shape as before (`aggregateRating` plus a `review` array), but it is **not**
+schema.org markup, on purpose. Google's review-snippet rules forbid rating or review
+markup for a business's own listing on its own site and for reviews copied from another
+site (Airbnb), and doing it risks a manual spam action. The owner approved moving them
+out of JSON-LD on 2026-11-25. Never put `aggregateRating`, `review` or a `Product`
+wrapper with ratings back into any `application/ld+json` block on the site.
 
 - Add each new **5-star** review object to the top of the `"review"` array (most recent first). Reviews rated below 5 are counted but never added; see "Only 5-star reviews" below.
 - Fields: `author.name`, `datePublished` (`YYYY-MM-DD`), `reviewBody`, `reviewRating.ratingValue`.
 - Keep review text factual and preserve guest wording unless the user asks for edits.
 - Increment `"aggregateRating.reviewCount"` by 1 per new review.
 - Update `"aggregateRating.ratingValue"` only when explicitly provided.
-- The homepage React reviews carousel and Guest favourite badge read from this JSON-LD automatically — no separate React edits needed for review count display.
+- The homepage React reviews carousel and Guest favourite badge read from this block automatically — no separate React edits needed for review count display.
 
 #### Only 5-star reviews go in the `"review"` array
 
@@ -682,7 +691,7 @@ Search the repo for the old total (`"X guest reviews"`, `reviewCount": "X"`) and
 **`blog-corydon-cute-stylish-winnipeg-airbnb.html`**
 - Meta tags: `description`, `og:description`, `twitter:description`
 - Article body copy (`"With X guest reviews"`, `"Our X guest reviews speak"`, etc.)
-- Page JSON-LD: `"description"` and `"aggregateRating.reviewCount"`
+- Page JSON-LD: `"description"` (it carries no rating markup)
 
 **`blog.html`**
 - `<noscript>` article card description for the Corydon post
@@ -712,7 +721,7 @@ Search the repo for the old total (`"X guest reviews"`, `reviewCount": "X"`) and
 Before finishing, confirm:
 
 - [ ] No stale total counts remain (`grep` for old `"X guest reviews"` and `reviewCount": "X"`)
-- [ ] `aggregateRating.reviewCount` in both `index.html` and `blog-corydon-cute-stylish-winnipeg-airbnb.html` matches the user's stated total
+- [ ] `aggregateRating.reviewCount` in the `index.html` `#guest-reviews-data` block matches the user's stated total, and `grep -c aggregateRating blog-corydon-cute-stylish-winnipeg-airbnb.html` returns 0
 - [ ] `articles-data.js` and `articles_data.json` Corydon descriptions match `blog.html` and the blog post
 - [ ] `llms.txt` documents both 5-star and total counts
 - [ ] New review objects appear at the top of the `"review"` array in `index.html`

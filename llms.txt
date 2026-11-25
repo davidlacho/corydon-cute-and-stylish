@@ -267,26 +267,26 @@ The site combines three content pillars:
 
 When adding guest reviews, update **every** file below. Two counts are tracked separately:
 
-- **Total reviews** → public copy uses `"X guest reviews"`; JSON-LD uses `"aggregateRating.reviewCount"`. Increment by 1 for every new review.
+- **Total reviews** → public copy uses `"X guest reviews"`; the `#guest-reviews-data` block in index.html uses `"aggregateRating.reviewCount"`. Increment by 1 for every new review.
 - **5-star reviews** → tracked in this file only (`"X 5-star reviews (Y total reviews, …)"`). Increment by 1 only when the new review is 5 stars.
 - **Average rating** → update `"aggregateRating.ratingValue"` and `"Rated X.XX out of 5"` copy only when the user explicitly provides a new value.
 
 ## Files and locations to update
 
 ### `index.html` (source of truth for review data)
-- `LodgingBusiness` JSON-LD `"review"` array, add new review objects at the top (most recent first)
-- `LodgingBusiness` JSON-LD `"aggregateRating.reviewCount"` and `"aggregateRating.ratingValue"`
+- `#guest-reviews-data` plain-JSON block (not schema markup; Google forbids self-serving and third-party review markup): add new review objects at the top of `"review"` (most recent first)
+- `#guest-reviews-data` `"aggregateRating.reviewCount"` and `"aggregateRating.ratingValue"`
 - Meta tags: `description`, `DC.description`, `og:description`, `twitter:description`
 - Organization JSON-LD `"description"`
 - FAQ JSON-LD entries mentioning review count
 - `#seo-content` hidden SEO paragraphs
 - Property overview copy (`"Rated … from X guest reviews"`, `"With X guest reviews"`)
-- Homepage React reviews carousel and Guest favourite badge read from JSON-LD automatically, no separate React count edits needed
+- Homepage React reviews carousel and Guest favourite badge read from `#guest-reviews-data` automatically, no separate React count edits needed
 
 ### `blog-corydon-cute-stylish-winnipeg-airbnb.html`
 - Meta tags: `description`, `og:description`, `twitter:description`
 - Article body copy with review counts
-- Page JSON-LD: `"description"` and `"aggregateRating.reviewCount"`
+- Page JSON-LD: `"description"` (no rating markup)
 
 ### `blog.html`
 - `<noscript>` article card description for the Corydon post

@@ -221,7 +221,6 @@
     "image": "https://staywinnipeg.ca/images/2025-10-09-5-Ruskin-Row-00001.jpg",
     "url": "https://staywinnipeg.ca/",
     "sameAs": "https://www.airbnb.ca/rooms/716340250371431352",
-    "telephone": "+1-204-XXX-XXXX",
     "address": {
         "@type": "PostalAddress",
         "addressLocality": "Winnipeg",
@@ -254,6 +253,15 @@
             "value": true
         }
     ],
+    "award": "Guest favourite; top 10% of eligible listings"
+}
+    </script>
+
+    <!-- Guest reviews copied from the Airbnb listing. Plain JSON read by the homepage carousel;
+         deliberately NOT schema.org markup: Google forbids review/rating markup for a business's
+         own listing and for reviews taken from another site (Airbnb). Do not move back into ld+json. -->
+    <script type="application/json" id="guest-reviews-data">
+{
     "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.89",
@@ -261,7 +269,6 @@
         "bestRating": "5",
         "worstRating": "1"
     },
-    "award": "Guest favourite; top 10% of eligible listings",
     "review": [
         {
             "@type": "Review",

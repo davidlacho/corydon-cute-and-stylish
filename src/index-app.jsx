@@ -730,7 +730,9 @@
 
             const getListingJsonLdData = () => {
                 try {
-                    const jsonLdScripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+                    // Reviews live in a plain JSON block (#guest-reviews-data), not schema.org markup;
+                    // Google does not allow review markup for a business's own listing or for Airbnb reviews.
+                    const jsonLdScripts = Array.from(document.querySelectorAll('#guest-reviews-data, script[type="application/ld+json"]'));
                     let listingData = null;
 
                     for (const scriptEl of jsonLdScripts) {
