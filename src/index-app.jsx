@@ -940,7 +940,7 @@
                                 <div className="hero-text fade-in-up">
                                     <h1>
                                         Stay Winnipeg
-                                        <span className="hero-subtitle">Boutique Accommodation, Tours, and Experiences</span>
+                                        <span className="hero-subtitle">Boutique Accommodation and Winnipeg Travel Guides</span>
                                     </h1>
                                     <a
                                         className="airbnb-summary-card"
@@ -1096,26 +1096,6 @@
                     </section>
 
                     <Nearby />
-
-                    <section id="tours-experiences" className="features" aria-labelledby="tours-experiences-heading">
-                        <div className="container">
-                            <h2 id="tours-experiences-heading" className="section-title">Discounted Tours and Experiences</h2>
-                            <p className="section-subtitle">Discover amazing Winnipeg tours and experiences at exclusive discounted prices</p>
-                            <div className="margin-top-3">
-                                <p>Make the most of your Winnipeg stay with our curated selection of discounted tours and experiences! Whether you're looking for guided city tours, cultural experiences, outdoor adventures, or unique activities, we've partnered with trusted providers to bring you exclusive deals on the best Winnipeg has to offer.</p>
-                                <p>From exploring The Forks and the Exchange District to discovering local food tours and cultural attractions, there's something for everyone. Book your perfect Winnipeg experience and create unforgettable memories during your stay.</p>
-                            </div>
-                            <div className="margin-top-3 text-center">
-                                <a 
-                                    href="/tours-experiences.html" 
-                                    className="primary-cta primary-cta-large"
-                                    aria-label="Browse Tours & Experiences"
-                                >
-                                    Browse Tours & Experiences
-                                </a>
-                            </div>
-                        </div>
-                    </section>
 
                     <section id="book" className="features features-book-section">
                         <div className="container">

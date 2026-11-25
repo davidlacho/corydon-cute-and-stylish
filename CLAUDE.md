@@ -705,7 +705,7 @@ Search the repo for the old total (`"X guest reviews"`, `reviewCount": "X"`) and
   - `https://staywinnipeg.ca/blog.html`
   - `https://staywinnipeg.ca/blog-corydon-cute-stylish-winnipeg-airbnb.html`
 - Update `llms.txt` `# Last Updated` date when property stats change.
-- Run required `pa11y` checks for edited pages (`index.html`, `blog.html`, `blog-corydon-cute-stylish-winnipeg-airbnb.html`, plus required homepage/blog/tours checks).
+- Run required `pa11y` checks for edited pages (`index.html`, `blog.html`, `blog-corydon-cute-stylish-winnipeg-airbnb.html`, plus required homepage/blog checks).
 
 ### 4. Verification checklist
 
@@ -1110,7 +1110,7 @@ Before publishing any page, verify:
 
 ## Pa11y Accessibility Checks
 
-Run automated accessibility checks with `pa11y` for homepage, blog listing, tours page, and page-level edits.
+Run automated accessibility checks with `pa11y` for homepage, blog listing, and page-level edits.
 
 ### Required Commands
 
@@ -1124,9 +1124,9 @@ Run automated accessibility checks with `pa11y` for homepage, blog listing, tour
 
 ### When Required
 
-- Any changes to `index.html`, `blog.html`, `tours-experiences.html`, `events.html`, or any `blog-*.html`.
+- Any changes to `index.html`, `blog.html`, `events.html`, or any `blog-*.html`.
 - Any shared component/layout updates.
-- Any CSS changes (`styles.css`, `blog-styles.css`, `tours-styles.css`, `events-styles.css`) that can affect contrast, focus, spacing, or visibility.
+- Any CSS changes (`styles.css`, `blog-styles.css`, `events-styles.css`) that can affect contrast, focus, spacing, or visibility.
 
 ### Failure Handling
 
