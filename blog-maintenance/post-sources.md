@@ -16,6 +16,151 @@ Newest first.
 
 ---
 
+## Refresh-queue pass, 2026-11-25 (owner asked to work the queue)
+
+- **blog-corydon-guide.html**: Added a 'Lunch on Corydon' section naming the places open at midday with own-site hours (Thom Bargen, Confusion Corner, Tommy's weekends, Cheesemongers/Forgotten Flavours/Sugar + Salt for a carry-out lunch), naming the dinner-only rooms (Passero, Saperavi, Sunshine) and a Monday note. Removed Saffron's (domain lapsed, space listed for lease, no current sign it operates) from the list and patio section; corrected Tommy's to four styles, added own-site hours for Saperavi, Sunshine, Thom Bargen, Cheesemongers, Sugar + Salt, changed Passero's link to passerowinnipeg.com, dropped Cafe 22 'open late', and linked the pizza guide. Sibling links to the patios and breakfast posts kept.
+
+- winnipegsunshine.com: 635 Corydon, opens 5 p.m. daily.
+- saperavi.ca: 709 Corydon, Tue-Thu 4-9, Fri-Sat 4-10, Sun 4-8:30, Mon closed; patio dining.
+- thombargen.com/pages/our-cafes: 743 Corydon hours, morning/lunch/evening menus, breakfast burrito.
+- passerowinnipeg.com/hours-bookings: online booking, phone after 4 p.m., no regular lunch.
+- thecheesemongers.ca: 839 Corydon, Tue-Sat 10-6.
+- tommys.pizza: 842 Corydon, hours, four styles, summer patio without reservations.
+- sugarandsaltbakeshoppe.com: 103-897 Corydon, Tue-Fri 11-5, Sat 10-4.
+- santaluciapizza.com: 905 Corydon listed as dine-in location.
+- ccdrinksandfood.com: 500 Corydon hours, Sunday brunch 11-2.
+- evasgelato.com: 101-1001 Corydon.
+- colosseo.ca: address, no hours (pages.dev ordering site not linked from colosseo.ca, not used).
+- Saffron's: saffronsrestaurant.com redirects to unrelated domains; removed. All read 2026-11-25.
+
+- **blog-family-activities.html**: Rebuilt the page by season: the opening now answers winter, spring, summer and fall in one paragraph and links both required sibling posts, and the body runs Winter, Spring, Summer, Fall in that order. Re-verified every attraction (zoo and Zoo Lights select nights and prices, Manitoba Museum prices, aviation closures, CMHR, FortWhyte), removed the unconfirmed FortWhyte 60th-anniversary free day, the past Nov 14/Nov 20 items, the 'free' First Friday claim, bowling/VR at The Rec Room and toboggan lighting, and corrected the pool closing dates. Added Kidsfest, spring break and fall-colours links, and cut the house section to one closing line. Body is about 1,430 words (header says 5 min read; about 7 min now).
+
+- https://www.assiniboinepark.ca/zoo (read 2026-11-25): open year-round 9-4, gates close 3:30, closed Dec 25; gate $25.70 adult / $14.60 child 3-17, online $23.35 / $13.25, before GST; tunnel cleaning Tue/Thu mornings, cloudy up to 2 hours.
+- https://www.assiniboinepark.ca/events/zoolights (read 2026-11-25): Nov 20-Jan 3, select nights (Nov 20-22, 27-29; Dec 4-6, 11-13, 16-23, 26-31; Jan 1-3), 5-10 p.m., last entry 9; $13.50 Nov, $18 Dec-Jan, ages 3+, plus GST; 2 and under free with $0 ticket.
+- https://childrensmuseum.com/ (read 2026-11-25): 45 Forks Market Rd; Eaton's Fairytale Vignettes Nov 14, 2026 to early January; 3 hours free Forks parking with plate registration. Rates page (search): $12.75 plus GST.
+- https://manitobamuseum.ca/plan-your-visit/ (read 2026-11-25): Tue-Sun 10-4, closed Mon; open 7 days May 18-Sep 7, 2026; one ticket covers three attractions; adult $25, youth 3-17 $19, GST included, $1 off online; 0-2 and Indigenous free; 190 Rupert Ave; 45-min Planetarium shows, no late entry. First Friday Dec 4, 2026, 4-9 p.m. (event listing via search); 'free' not confirmed, so removed.
+- https://www.royalaviationmuseum.com/plan-your-visit/location-hours-parking/ (read 2026-11-25): daily 10-5; closed Dec 24-26 and Jan 4-8; parking $5 with admission. Tickets page (search): $16 adult, $13 13-17, $9.50 3-12, free 2 and under, plus GST.
+- https://humanrights.ca/visit (read 2026-11-25): Tue-Sun 10-5; adult $23, youth 7-17 $11, 6 and under free, Indigenous free, first Sunday free.
+- https://www.fortwhyte.org/visit/ (read 2026-11-25): daily 9-5; Dec 24 and 31 9-1, closed Dec 25; adult $13.50, child 3-17 $11.50, 0-2 free, FNIM free; entrances 1961 McCreary Rd and 2505 McGillivray Blvd; north trail gate locks 30 min before close; sleds free and snowshoes $8, Dec-Mar. Nov 29 '60th anniversary free day' not found anywhere: removed. Bison line removed (unconfirmed).
+- City toboggan listing (legacy winnipeg.ca via search): Kildonan Park 2015 Main St, St. Vital Park slides. Lighting claim removed (legacy source).
+- https://www.winnipeg.ca/news/2026-05-25-spray-pads-start-opening-today and 2026-08-20 wind-down notice (via search, 2026-11-25): 30 spray pads May 25-Sep 7, 2026 (nine to Sep 13); heated pools June 19, unheated June 26; pools closed Sep 4-7.
+- Site's own events-data.js / sibling posts: Festival du Voyageur Feb 12-21, 2027 (confirmed); Folklorama Aug 1-14, 2027 (confirmed); Kidsfest typical mid-June; spring break Mar 29-Apr 2, 2027 (blog-winnipeg-spring-break-guide.html); Forks rinks 'in time for Christmas break' (blog-arctic-glacier-winter-park-forks.html).
+- https://www.therecroom.com/winnipeg-tuxedo and https://www.theforks.com/ (read 2026-11-25): see ledger notes.
+- https://manitobamuseum.ca/plan-your-visit/canada-strong-pass-faq/ (read 2026-11-25): free admission for 17 and under ran June 19 to Sept 7, 2026 only; does not affect December prices.
+
+- **blog-gunns-bakery.html**: Opening paragraph now gives the address, posted hours (Thursday close left to a phone call because the site lists both 4 and 5 p.m.), phone and delivery apps, then the family story. Added founders Morris and Florence Gunn, the Badner grocery building and first-kosher-bakery-in-western-Canada fact, Fivie and Bernie plus sister Betty, and Hochman's background; kept the caraway rye story; cut the bakery's own marketing-copy box, the unsourced 'Canada's bread basket' section and the 'isn't just / more than just / testament / rich cultural heritage' phrasing.
+
+- gunnsbakery.com: address, phone, hours (two conflicting blocks; Thursday close 4 or 5 p.m.; no Sunday), Skip/Uber Eats, product list, 'kosher baking since 1937'.
+- thecjn.ca/?p=182967 (CJN, 2019): Arthur 'Fivie' and Bernie Gunn, sister Betty; founders Morris and Florence Gunn, Polish immigrants, 1937; buyer Jon Hochman (BB Camp kitchen, Red River College, Fitzroy, Sherbrook Street Deli); months of training from Fivie; known for bagels, strudels, poppyseed rolls.
+- mhs.mb.ca/docs/sites/gunnsbakery.shtml: Badner Building, one-storey brick, Israel Badner grocery; first kosher bakery in western Canada.
+- Winnipeg Jewish Review (search snippet): sale closed Dec 30, 2018; took over 2019.
+- blog.acu.ca (2013): catering. All read 2026-11-25.
+
+- **blog-hargrave-st-market.html**: Fixed the opening, which wrongly said the Lake of the Woods taproom opens noon to 8 on Sundays (it opens only before Canada Life Centre events). Added a 'Hargrave St. Market hours' list and rebuilt the vendor section as one h3 per counter with what it serves, real menu prices for Gusto North, and each vendor's own hours where published (Gusto North, Saburo, Rose Bar, Lake of the Woods), plus a note that Saburo closes at 7:30 on weekdays. Retitled the menu section 'Is there a Hargrave St. Market menu?' and moved the True North Square food-court paragraph below it; the 'Fools & Horses no longer has a counter here' line was dropped. Body grew by about 250 words, so '5 min read' may want 6.
+
+- https://www.hargravestmarket.com/ and /restaurants : market hours, seven vendors and descriptions, floors (read 2026-11-25)
+- https://gustonorth.com/ and /dinner-menu/ : hours, 2nd floor, OpenTable, hockey-night pizza, prices (read 2026-11-25)
+- https://www.saburo-kitchen.com/ and /menu : hours, unit 240, add-ons (read 2026-11-25)
+- https://therosebar.ca/ : hours, 2nd floor (read 2026-11-25)
+- https://www.lowbrewco.com/winnipeg-taproom/ : taproom hours and Sunday event rule (read 2026-11-25)
+- https://downtownwinnipegbiz.com/business/good-fight-taco/ (via search): partial hours only, not used
+
+- **blog-human-rights-museum.html**: Rewrote the whole body. It now opens with address, hours, adult price and free first Sundays, then covers holiday closures (Dec 24-26, Jan 1, the Jan 11-18, 2027 maintenance week), the full price list and free days, the ten core galleries under their official names (the old 'Holocaust Gallery' name was wrong), current exhibitions with end dates, the Tower of Hope, coat check, food, parking and entrances, and a pairing section linking blog-the-forks.html and blog-the-forks-cmhr-day-plan.html. The promotional closing sections ('more than a collection of exhibits', 'Whether you're...', 'cutting-edge', 'transformative') were removed.
+
+- humanrights.ca/visit and humanrights.ca/visit/hours-admission-fees (read 2026-11-25): Tue-Sun 10 a.m.-5 p.m., closed Mondays; Dec 24, 2026 10-1; closed Dec 25, 26, Jan 1, 2027; closed Jan 11-18, 2027 maintenance week; adult $23, student/senior $18, youth 7-17 $11, children 6 and under, Indigenous Peoples, members free; unlimited same-day access; free first Sundays, July 1, Sept 30, Dec 10; tickets at desk or ticketing.humanrights.ca; address 85 Israel Asper Way; FNP metered parking.
+- humanrights.ca/visit/plan-your-visit: 10 core galleries on seven floors; inclined alabaster ramps; Tower of Hope viewing platform Level 8, tower elevator serves levels 3-8, spiral staircase; no free museum parking, paid on Israel Asper Way, William Stephenson Way, Waterfront Drive; free volunteer coat check; mobility aids and strollers loan with photo ID or credit card; Bistro Boréal Level 1, Cloud Coffee Level 5; no food on ramps or galleries; accessible drop-off entrance north of main; app self-guided tour; English and French.
+- humanrights.ca/exhibition/galleries: names and one-line content of the 10 core galleries (Canadian Journeys largest, 29-metre screen; Indigenous Perspectives 360-degree film; Actions Count = Witness Blanket).
+- humanrights.ca/exhibitions-and-events/exhibitions and homepage: Love in a Dangerous Time to Jan 1, 2027; Palestine Uprooted June 27, 2026-Nov 30, 2028; Reclaiming Power and Place May 3, 2025-Apr 5, 2030; Witness Blanket Sept 20, 2024-Sept 20, 2027; At the Knees of Our Ancestors permanent; Dimensions in Testimony Fri/Sat 1:15 p.m. English, 2:15 p.m. French.
+- humanrights.ca/exhibition/dimensions-in-testimony (search summary): in Examining the Holocaust; survivors Pinchas Gutter (English) and Marguerite Élias Quddus (French).
+- Architect Antoine Predock, opened 2014, Witness Blanket by Carey Newman: general knowledge, not re-fetched.
+- Drive time: AGENT-INSTRUCTIONS table, The Forks 10 min / 3.9 km. Late-November sunset about 4:30 p.m.: approximate, not re-fetched.
+
+- **blog-little-free-libraries.html**: The opening now points to the official world map in its first sentence and names the Winnipeg neighbourhoods where boxes cluster. Added a 'Where Winnipeg's book boxes cluster' list (Little Red Library at Hugo Park, Craig St in Wolseley, Winchester and Mandeville in St. James, Vanscoy and Buckingham in Charleswood, two church boxes with addresses) and a 'Libraries near you' section naming verified WPL branches (Millennium, Osborne, Cornish) for the 'libraries near me' search. Updated the LFL history figures, tightened the starting-your-own section into Winnipeg-specific prose, and cut the Airbnb section and highlight box to one closing line. Body is about 770 words (header says 6 min read; about 4 min now).
+
+- https://littlefreelibrary.org/map/ (read 2026-11-25): search by Near Me, Location (city, state/province or postal code) or charter number; mobile app.
+- https://littlefreelibrary.org/about/history/ (read 2026-11-25): founded 2009 by Todd Bol in Hudson, Wisconsin; model of one-room schoolhouse as tribute to his mother; more than 200,000 boxes celebrated in 2025; 128 countries. https://littlefreelibrary.org/about/: based in St. Paul, Minnesota.
+- https://wpl.winnipeg.ca/library/whatshappening/littlefreelibraries.asp (read 2026-11-25): refers to littlefreelibrary.org map; mailed pamphlets via Ask Us; branch book sale/donation stock, call Branch Head, packed and sealed for contactless pickup, may take time.
+- https://www.winnipeg.ca/recreation-leisure/libraries/locations-and-hours (read 2026-11-25): 20 branches; Millennium 251 Donald St; Osborne 625 Osborne St; Cornish 20 West Gate.
+- Cornish Library: Wikipedia / MHS / winnipegarchitecture (via search, 2026-11-25): opened 1915, Carnegie-funded, east bank of the Assiniboine, 2019-20 renovation added all-glass reading area.
+- https://www.storefrontmb.ca/little-red-library (read 2026-11-25): Little Red Library at Hugo Park on Wellington Crescent, 8'x8' cube of red-film tempered glass on steel frame, inspired by ice-fishing shack, bookcase inside. CTV headline (search): 'Winnipeg's Little Red Library returns to Hugo Park'; built 2016 as river-trail warming hut / free library (search summary).
+- LibraryThing venue listings (via search snippets only; site blocked direct fetch, 2026-11-25): boxes at Craig St (charter #24561), Winchester St (#30462), Mandeville St (#1849), Vanscoy Rd and Buckingham Rd (Charleswood), Windsor Park United Church 1062 Autumnwood Dr (#74051), St. Stephen's Church 220 Helmsdale Ave (East Kildonan). House numbers of private homes deliberately left off the page. These are user-maintained; recheck against the LFL map if it becomes reachable (littlefreelibrary.org blocks curl via Cloudflare).
+- Craig St in Wolseley (realtor/saveonhouse listings, 1910s houses); Wolseley bounds Portage Ave to Assiniboine (Wikipedia). Winchester St in St. James (realtor listing 'Deer Lodge'); Mandeville St in St. James (MHS Fred Morris). Windsor Park United at Autumnwood and Cottonwood (MHS).
+
+- **blog-transportation.html**: Rewrote the opening to answer park and ride, fares, On-Request and Uber/Lyft first. Park and ride is now its own section near the top with one list line per lot (stalls and access streets, McPhillips marked discontinued); added a full On-Request explainer (standard fare, transfers, booking channels, 20-minute pickup, zone hours) and a 'Does Winnipeg have Uber?' section adding Lyft. Corrected the airport buses to end at The Forks/CMHR, dated the D19 Kennedy St move, removed unverifiable trolley prices and the Unicity name, and cut house references to one closing line. Body is about 1,500 words (header still says 6 min read; about 7 min now).
+
+- https://www.winnipeg.ca/services-programs/transportation-roads-parking/transit/fares (read 2026-11-25): 2026 cash $3.45 full / $2.95 youth and senior; e-cash $3.10 / $2.30 youth / $1.55 senior; 24-hour $11.45, 5-day $27.90, 7-day $31.00; children 11 and under free with fare-paying rider; peggo card $5.
+- https://www.winnipeg.ca/news/2025-10-02-winnipeg-transit-extends-its-transfer-window (via search, 2026-11-25): transfer window 90 minutes from Monday, October 6, 2025.
+- Park-ride page does not state whether parking is free, so 'free' was removed from the page.
+- Search summary of winnipeg.ca fare page (2026-11-25): cash accepted, bills and pennies not.
+- https://www.winnipeg.ca/services-programs/transportation-roads-parking/transit/riding-transit/park-ride (read 2026-11-25, both halves): 11 locations listed; hours 6 a.m.-6 p.m. Mon-Fri, Seel and Clarence during regular transit hours; Seel 665 (Seel Ave and Willson Pl), Clarence 400 (Clarence and Waller Aves), Club Regent 70, Kildonan Place 69, Safeway Pembina & Southpark 50, Charleswood Centre 30 (by Laxdal), Garden City ~20 (north side facing Leila, east of terminal), Grant & Cambridge 17 (Bethesda Church lot), Vista Place 15 (St. Mary's & Vista, heated shelter), Southdale 14 (Lakewood & Vermillion), McPhillips Station temporarily discontinued.
+- http://info.winnipegtransit.com/en/service/on-request (read 2026-11-25): standard fares apply, transfers accepted; 12 zones with hours table; book by Winnipeg Transit+ On-Request app, winnipegtransit.com/bookonrequest, or 311; no advance booking; after 10 p.m. app/web only. Zones 104 St. Boniface Industrial Park and 110 St. Boniface daytime only.
+- https://www.winnipeg.ca/people-culture/our-city-our-stories/request-transit-now-available-12-zones-heres-how-it-works (read 2026-11-25): met usually at nearest stop within about 20 min.
+- https://www.uber.com/global/en/cities/winnipeg/ (read 2026-11-25): 24/7, UberX, UberXL up to 6, reserve 30 days ahead, sample fares.
+- https://www.lyft.com/rider/cities/winnipeg-mb (read 2026-11-25): Lyft serves Winnipeg, schedule for later. Lyft blog and CBC (search) on 2024 launch. CBC (search): city bylaw bars ride-hailing from street hails and cash.
+- Search summary of info.winnipegtransit.com/en/service/airport-service and wtlivewpg timetables (2026-11-25): D12 Ellice and D13 Sargent run airport to The Forks, terminating at the Canadian Museum for Human Rights.
+- https://www.winnipeg.ca/news/2026-04-29-transit-improving-downtown-service-summer-recommending-more-changes-fall (read 2026-11-25): D19 terminal on Kennedy Street from the June 21 summer schedule.
+- Uber YWG driver page (search): rideshare pickup on arrivals level.
+- https://www.winnipegtrolley.com/ (read 2026-11-25): 'Launching Soon' only; trolley specifics removed.
+
+- **blog-winnipeg-best-new-food-spots.html**: Replaced the expired Winnipeg Sun poll article (vote deadlines, 22 generic blurbs, unverifiable claims) with a list of new restaurants that opened in 2025-2026 and are still open, each with a street address and neighbourhood. Added four 2026 openings (Peacock, Sottobraccio, House of Ma, Dos Pampas Skyline) and kept 13 verified 2025 openings grouped by neighbourhood; cut nine poll entries that opened in 2024, are second locations, or lack a verifiable 2025 opening date. Recognition claims now match the real lists (enRoute 2025 finalists BabyBaby and Shirley's; Snack Häus No. 3 in 2026; Peacock No. 68 on Canada's 100 Best 2026). The h1 must change: the old one names the poll.
+
+- Tourism Winnipeg Peg City Grub "new & notable" posts, https://www.tourismwinnipeg.com/eat-and-drink/peg-city-grub/read,post/<n> for n = 1631 (Mar 6, 2025), 1632, 1647, 1664 (Sep 12, 2025), 1674, 1677 (Dec 12, 2025), 1681, 1682 (Peacock), 1693, 1695 (C100 2026), 1708 (autumn 2026), 1713 (Snack Häus No. 3), 1714 (Dos Pampas), 1595 (autumn 2024), 1623 (Né de Loup): opening dates, addresses, chefs, dishes. WebFetch 403s; curl with browser UA works.
+- newswire.ca 2025-09-16 Air Canada 2025 finalists (BabyBaby, Shirley's); aircanada.com 2025 Top 10 (no Winnipeg); tastet.ca + enroute.aircanada.com Snack Häus No. 3 2026; ctvnews.ca 2025-09-16.
+- Own sites: sottobracciowpg.com (160 Osborne St, modern Italian), isekairamen.com, selectstartwpg.com, daveandlavernesdiner.com/about, thegreenfalafel.ca, mlynrestaurant.ca, colleenwinnipeg.com, peacockwinnipeg.com; theforks.com dining list (Colleen, Skyr).
+- exchangedistrict.org 2025-03-27 (Select Start), 2026-01-12 (SOHO); CBC and accesswinnipeg.com (Dos Pampas Oct 9, 2026); theposhfoodie.com 2026-08-12 (House of Ma).
+- All read 2026-11-25 (research helper plus direct fetch of sottobracciowpg.com).
+
+- **blog-winnipeg-breweries.html**: Renamed the brew-pub group 'Winnipeg brew pubs' and gave Torque and Half Pints a 'St. James breweries' heading for the st james brewery query; added Kilter in St. Boniface (no hours) and a Fort Garry/St. Boniface section; added the required link to blog-corydon-guide.html and a St. Boniface walking-guide link. Re-verified every taproom: fixed Lake of the Woods weekday closing times, Devil May Care Sunday/early-week hours, Good Neighbour closing time and Osborne shop Sunday hours, Nonsuch Osborne bottle-shop hours; replaced unverified Brazen awards and Barn Hammer's Cypress with what the sites now list; dropped Sookram's patio/history and unverified founding years; trimmed the stay paragraph to one line. Body grew by roughly 150 words, so the '6 min read' header may want 7.
+
+- https://nonsuch.beer/ : brasserie hours, Osborne bottle shop hours, tasting room opening this winter (read 2026-11-25)
+- https://brazenbrewing.ca/ : address, beer list, Dragon's Bane gold medal (read 2026-11-25)
+- https://www.lowbrewco.com/winnipeg-taproom/ : taproom hours, Sunday event rule, wood-fired pizza (read 2026-11-25)
+- https://sookrams.com/ : address and hours (read 2026-11-25)
+- https://www.goodneighbourbrewing.com/ : taproom and Osborne shop hours, spring 2027 kitchen (read 2026-11-25)
+- https://www.barnhammerbrewing.ca/ : hours and beer names (read 2026-11-25)
+- https://www.torquebrewing.beer/ : hours, unit, beer board prices incl. 4 oz $3.75, event space (read 2026-11-25)
+- https://halfpintsbrewing.com/ : hours, growlers, monthly seasonals (read 2026-11-25)
+- https://www.fortgarry.com/ : address, featured brews, tours (read 2026-11-25)
+- https://untappd.com/kilterbrewing : Kilter active (check-ins 22-24 Nov 2026), St. Boniface, top beer Juicii (read 2026-11-25); search results for Kilterpalooza 2026 and Canadian Beer News 2020 taproom opening at 450 Rue Deschambault
+- https://www.littlebrownjug.ca/ : fall/winter hours, flagship 1919 (read 2026-11-25)
+- https://devilmaycarebrewing.com/ : hours (read 2026-11-25)
+- https://www.theforks.com/eat-and-drink/the-common : hours, 20 beers, 22 wines (read 2026-11-25)
+- https://thebeercanwpg.com/ : closed for season, 2027 (read 2026-11-25)
+- 2017 destinationsdetoursdreams.com Ale Trail post (via search): Torque in St. James industrial area
+
+- **blog-winnipeg-coffee.html**: Every café now has a street address and sits in a neighbourhood section (Exchange/downtown, The Forks, Osborne Village/South Osborne, Corydon/Tuxedo, Wolseley, St. Boniface, St. Vital). The roaster section is retitled 'Coffee roasters in Winnipeg' and adds Black Pearl's 460 Dufferin shop, Empty Cup's roastery and Harrisons' Waterfront café; all hours were re-checked (Little Sister, Harrisons and Yellow Derny corrected, Sho/Más hours left unstated) and a late-coffee rundown added. Black Market Provisions was cut (no espresso bar found), the Fools & Horses line now says The Forks is its only location, and the stay section is cut to one line with no street name. Más Coffee Co. was also removed: no 2026 evidence it is operating.
+
+- thombargen.com (four addresses); sprudge.com Winnipeg coffee guide 2021 (roasting from fall 2020, Sherbrook 2012, Parlour Sept 2011, Café Postal Oct 2012); downtownwinnipegbiz.com/business/thom-bargen (Kennedy Mon-Fri 7-4).
+- littlesistercoffeemaker.ca and /pages/contact (three cafés, hours, accessibility); manitoba-inc.ca/more-than-a-cup-of-coffee (roastery at 171 McDermot for a decade; Empty Cup seven locations).
+- harrisonscoffeeco.com (Johnston Terminal café 8-9 weekdays, 8:30-9 weekends; Waterfront 7:30-4, Sat 9-4, Sun 9-2; Roasting Atelier 161-25 Forks Market Rd).
+- foolsandhorses.ca/contact-us (Forks Market only); hargravestmarket.com/restaurants (Empty Cup, roastery Panet Rd 2020; market hours); theforks.com (building 7 a.m.-10 p.m.).
+- parlourcoffee.ca (hours, roasters stocked); shocoffeebar.ca + exchangedistrict.org 2024-10-15 (bar at night); exchangedistrict.org Más directory entry; colosimocoffee.com/cafes; blackpearlcoffee.ca (since 2000, 460 Dufferin, retail hours, holiday closure); saintuary.com (hours, 100-123 James); stellas.ca/locations; cafepostal.ca; woodcockcycle.com Yellow Derny page.
+- All read 2026-11-25 via a research helper.
+
+- **blog-winnipeg-pizza-guide.html**: Rewrote the body to deliver the title's three promises: a wood-fired/Neapolitan section (Pizzeria Gusto with own-site hours, plus Red Ember Common at The Forks), Gondola for Winnipeg thin crust, and Freshslice on Portage for slices, with Parcel Pizza as the sit-down night out and a Corydon section (Tommy's, Santa Lucia, Cafe 22) linking the Corydon guide. Removed a 'Tourism Winnipeg notes' attribution, unverified Parcel claims (New York-style, dill pickle pie, mezzanine), the 'Why go' bold lead-ins and the duplicate stay box; title kept. H1 on the page still reads 'The Best Pizza in Winnipeg: Styles, Rooms and Takeout' and should be set to the title.
+
+- pizzeriagusto.com: 404 Academy Rd, Valoriani oven, hours, patio, OpenTable.
+- theforks.com/eat-and-drink/dine/red-ember-common: hours, Naples stone oven ~750F, under two minutes, counter/Market seating/takeaway.
+- gondola-pizza.com/our-story and /locations: 1964, Oakenwald and Pembina, 1292 Pembina Hwy, delivery neighbourhoods, crusts.
+- parcelpizza.com: 221-A Stradbrook, menu, prices, hours, dine-in cocktails.
+- downtownwinnipegbiz.com/business/freshslice-pizza/: 106-500 Portage, by the slice.
+- tommys.pizza; santaluciapizza.com. All read 2026-11-25.
+- Distance: The Forks 10 min drive and Corydon at Stafford ~10 min walk, from the AGENT-INSTRUCTIONS distance table.
+
+- **blog-winnipeg-wine-bars-guide.html**: Rebuilt the body around the searches: a 'Wine bars in Winnipeg' section (Harth, Cordova, The Oxbow, Rosé Coffee & Wine, The Common) and a separate 'Wine stores in Winnipeg' section (Jones & Company, Ellement, Kenaston Wine Market, plus a pointer to the Corydon bottle-shop post). Every entry now has an address and verified hours where the business publishes them; unverified claims (Harth's closing days and chef, Cordova's owners and fit-out, Ellement's 1994 founding) were removed, and the opening climate line was replaced with a direct answer. Body roughly tripled (about 900 words), so the '4 min read' header should become about 5; the old Corydon Airbnb highlight box was dropped.
+
+- https://harthwpg.com/ , /faq , /menu : address 980 St Anne's Rd, walk-in and reservation policy, dish prices (read 2026-11-25)
+- https://cordovatapas.bar/ : address and hours (read 2026-11-25); https://exchangedistrict.org/business-directory/cordova-tapas-and-wine : wine and beer origins (read 2026-11-25)
+- https://www.oxbowwpg.ca/ : address, hours, Sunday half-price wine, wine list categories (read 2026-11-25)
+- https://www.rosecoffeeandwine.ca/ and /contact : address, concept (read 2026-11-25)
+- https://www.theforks.com/eat-and-drink/the-common : wine count and hours (read 2026-11-25)
+- https://www.joneswines.com/pages/contact : address, hours, text-a-sommelier, curbside (read 2026-11-25); The Cellar Door magazine (issuu, via search) for 1999 founding and 2020 rename
+- https://www.theforks.com/shop/ellement-wine-and-spirits : hours and focus (read 2026-11-25)
+- https://www.bbb.org/ca/mb/category/retail-wine and skipthedishes.com/kenaston-wine-market (via search): Kenaston Wine Market address and delivery
+- Manitoba Specialty Wine Stores Regulation 85/2014 (web2.gov.mb.ca, via search): cap of 9 private wine stores, 8 in Winnipeg (basis for 'only a handful')
+
+---
+
 ## Search Console pass, 2026-11-25 (four pages)
 
 - **blog-christmas-winnipeg.html, winter break dates**: the Winnipeg School

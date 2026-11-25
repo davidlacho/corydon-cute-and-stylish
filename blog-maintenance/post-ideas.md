@@ -39,51 +39,11 @@ listing copies. Keep the slug. Log it under "Used" as
 All twelve original entries were refreshed in one manual pass on 2026-11-11
 (see the Used list and `post-sources.md`).
 
-Refilled 2026-11-25 from the owner's second export and the Search Console
-position data read the same day (see "Search demand, second export" in
-`AGENT-INSTRUCTIONS.md`). Figures are 28-day clicks / impressions / average
-position. Page-one pages with low CTR come first (cheapest wins), then
-striking-distance pages, then pages that need narrower targets.
-
-- blog-corydon-guide.html (19 / 2,177 / 9.2): biggest demand on the site. Add
-  a short "Lunch on Corydon" section naming the places open at midday with
-  hours from the ledger ("best restaurants on corydon winnipeg" earns clicks at
-  5.3% CTR). Tighten the description to name four or five restaurants and the
-  patio and lunch angles. Siblings: best-corydon-patios,
-  best-breakfast-brunch-near-corydon-airbnb.
-- blog-transportation.html (1 / 559 / 8.6): lead the description with park
-  and ride and Transit On-Request; give each park-and-ride lot its own line
-  ("winnipeg park and ride", "clarence park and ride", "transit on request
-  price", "does winnipeg have uber").
-- blog-hargrave-st-market.html (1 / 329 / 9.2): "hargrave st. market menu" is
-  new. List the current vendors with what each serves, checked against the
-  ledger, and say so in the description.
-- blog-winnipeg-pizza-guide.html (0 / 64 / 7.2): retitled 2026-11-25 for "best
-  pizza in winnipeg"; recheck every business against the ledger.
-- blog-winnipeg-breweries.html (9 / 488 / 15.9): striking distance. Verify
-  every taproom's hours, add brew pubs as a named group ("brew pubs
-  winnipeg"), and link it from the Corydon guide.
-- blog-little-free-libraries.html (2 / 429 / 12.9): point to the official map
-  in the opening and list neighbourhood clusters with street names ("little
-  free library", "little free library near me", "libraries near me").
-- blog-winnipeg-wine-bars-guide.html (2 / 285 / 12.5): retitle to lead with
-  "Wine Bars in Winnipeg"; "wine stores winnipeg" (35 impressions, 18.8) also
-  lands here, so give the shops their own section.
-- blog-winnipeg-coffee.html (3 / 1,722 / 24.5): target "best coffee shops in
-  winnipeg" (17.8), not the generic "coffee" phrasings (40 to 55). Street
-  address for every café, grouped by neighbourhood.
-- blog-winnipeg-best-new-food-spots.html (3 / 144 / 27.9): retitle to lead
-  with "New Restaurants in Winnipeg" and re-verify every entry; no other page
-  serves "new restaurants winnipeg".
-- blog-human-rights-museum.html (0 / 161 / 26.5): last modified 2025-04-18 and
-  the title has no searched words. Retitle to lead with "Canadian Museum for
-  Human Rights Winnipeg" plus hours and tickets, and verify every fact.
-- blog-gunns-bakery.html (0 / 47 / 9.4): page one already; put the address
-  and hours in the description and opening ("gunns bakery", "gunn's bakery
-  winnipeg", about 20 impressions a week and new).
-- blog-family-activities.html (0 / 194 / 37.8): do not chase "things to do
-  with kids". Aim the title at "family activities in Winnipeg by season" and
-  link it from the indoor-with-kids page, which ranks at 13.3.
+Refilled 2026-11-25 from the owner's second export and Search Console position
+data, then all twelve entries were worked the same day in one manual pass at the
+owner's request (see the Used list and `post-sources.md`). The queue is empty
+until the owner sends another export; while it is empty, skip the
+every-third-run refresh rule.
 
 ## Queue (use top-down)
 
@@ -266,3 +226,4 @@ itself names, so the covering post has to name the date first):
 - 2026-11-24 - candlelight-concerts-winnipeg - Candlelight Concerts Winnipeg: Dates, Prices, Best Nights (form: **ranked short list**, seven Crescent Arts Centre nights ranked for a visitor with one free evening, each a single paragraph carrying its own date, programmes, start times and opening price, plus the "Where to stay for a Candlelight concert" section the event-post rules allow. Form chosen by the rotation rule: the last three posts were winnipeg-christmas-lights-tour (comparison), winterruption-winnipeg (explainer) and queer-owned-businesses-winnipeg (sectioned list), so ranked short list was free and has not been used in more than ten posts. **First entry of the Events queue**, taken as written; the Refresh queue is empty, so the every-third-run refresh rule was skipped. The queue entry asked for the December 19 date, the programme and the two-seatings question to be re-checked against feverup.com before publishing, and all three were: the Winnipeg Candlelight calendar and the Christmas Classics event page were both read today. Facts are Fever's own. Twenty-five Winnipeg concerts listed, nineteen of them at the Crescent Arts Centre, 525 Wardlaw Avenue, with six at the Canadian Museum for Human Rights (December 6 and 16) and the Winnipeg Art Gallery (January 30, February 7 and 13). Sixty minutes, live string quartet, candles; doors forty-five minutes before, no late entry; ages 8+, under 16 with an adult; seats unassigned within the zone you buy, first come first served on arrival; tickets only in the Fever app or website, none at the venue; no on-site parking; cashless bar. Christmas Classics zone prices: Zone D (balcony) $29.50 + $2.36, Zone C (balcony) $36.00 + $2.88, Zone B $43.50 + $3.48, Zone A $60.00 + $4.80, optional three-candle pack $25. Listeso is the named quartet for December 17 and 18. Crescent dates and opening prices: November 28 Hans Zimmer 6:30 ($23.76) and Queen & The Beatles 8:45 ($26.35); December 17 Christmas Classics 6:30 and 8:45 ($31.86); December 18 same ($37.80); December 19 Christmas Classics 4:30 and 6:30 ($51.84) and Carols on Strings 8:45 ($37.26); January 2 Queen & The Beatles 6:30 ($30.13) and Drake 8:45 ($32.08); January 8 Vivaldi 6:30 ($26.73) and Ed Sheeran Meets Coldplay 8:45 ($31.10); January 16 Hans Zimmer 6:30 ($29.16) and ABBA 8:45 ($26.73); January 22 Taylor Swift 6:30; February 12 Vivaldi 6:30 ($29.16) and Valentine's Classical Romance 8:45 ($32.40); February 26 and March 5 repeat earlier pairings. Venue history from winnipegarchitecture.ca and the Manitoba Historical Society: Crescent Fort Rouge United Church, built 1910 as Fort Rouge Methodist, J. H. G. Russell, Gothic Revival, horseshoe-shaped balcony and a Casavant organ, listed under Osborne Village; the Crescent Arts Centre has run it as a performance space since 2017, which is why the two cheapest ticket zones are balcony seats. **No walk time or distance from the house**: 525 Wardlaw Avenue is not in the verified distance table, so the page says only that it is close enough to walk on a mild evening. Sunsets of 4:32 p.m. on November 28, 4:28 p.m. on December 19 and 4:45 p.m. on January 8, and eight hours twenty minutes of daylight on January 8, came from a solar-position API. Hero: Unsplash photo-1744921006967-30680fe48cf8, hundreds of candles banked on the steps of a church sanctuary with music stands set for a quartet, checked unused across articles-data.js, articles_data.json and blog.html, HTTP 200, and viewed before use. Eight calendar entries added, one per Crescent night the post names, all confirmed. No ledger entries: the post names no restaurant, bar or shop, and the arts centre, the museum and the gallery are institutions.)
 - 2026-11-25 - hilary-duff-winnipeg - Hilary Duff Winnipeg 2027: January 30 Tickets, Doors (form: **question and answer**, seven questions a visitor types, each answered in one paragraph, plus the "Where to stay for the January 30 show" section the event-post rules allow. Form chosen by the rotation rule: the last three posts were candlelight-concerts-winnipeg (ranked short list), winnipeg-christmas-lights-tour (comparison) and winterruption-winnipeg (explainer), so question and answer, walk, one-day plan and host's notes were all free; question and answer suits a show whose searches are "what time", "who is opening" and "what can I bring in". **First entry of the Events queue**, taken as written; the Refresh queue is empty, so the every-third-run refresh rule was skipped. Facts from the arena's own pages: the lucky me tour plays Canada Life Centre, 300 Portage Avenue, on Saturday January 30, 2027 at 7:30 p.m., tickets through Ticketmaster, on sale since Friday February 20, 2026 at 10 a.m.; box office at Portage and Donald in the main atrium at Gate 1, 204-987-7825, open two hours before a Saturday event in hockey season and Wednesday to Friday 11 a.m. to 2 p.m. on non-event days; bag limit 4 by 6 by 1.5 inches with medical and childcare bags exempt, X-ray screening at Gate 1 (Portage and Donald), Gate 3 (Graham and Hargrave) and Gate 6 (Cityplace Skywalk), no on-site bag check, stricter tour rules emailed to ticket holders; up to 58 transit routes serve the arena; Platinum Parking is the preferred operator with more than 1,700 stalls bookable ahead, ParkMobile and ParkWhiz also sell ahead, and the named drop-off curbs are on Donald Street and Portage Avenue. Tour context from Global News: first full-scale global headline run in nearly two decades, nine Canadian stops with Winnipeg between Edmonton on January 27 and Hamilton on February 2, Lauren Spencer Smith opening the 2027 dates and La Roux and Jade LeMac the 2026 ones. **No ticket price on the page**: resale figures disagree by tens of dollars and some are in US dollars, and the arena publishes none. **No doors time either**, since the venue lists none; the post gives the box office's two-hour mark instead and says what it is. Sunset 6:19 p.m. on January 30, 2027 and nine hours fifteen minutes of daylight came from a solar-position API. Hero: Unsplash photo-1764643588158-79ac8406f87b, a packed arena bowl from the upper deck, checked unused across articles-data.js, articles_data.json and blog.html, HTTP 200, and viewed before use. One calendar entry added, confirmed. Ledger: Hargrave St. Market gained this filename; the post names no other business.)
 - 2026-11-25 - (refresh queue, manual pass) - Search Console pass from the owner's second export: rainbow-stage retitled to lead with "Rainbow Stage 2027" plus shows, schedule and tickets (2027 lineup confirmed still unannounced); christmas-winnipeg winter-break dates verified against division calendars and corrected; winnipeg-pizza-guide retitled to "Best Pizza in Winnipeg" (no year, not an event); winnipeg-vietnamese-pho-guide retitled for "best pho near me"; then, from Search Console position data, winnipeg-folk-festival retitled to "Folk Fest 2027 Winnipeg" with tickets and camping (position 6.1, almost no clicks) and winnipeg-spring-break-guide retitled to "Spring Break 2027 Manitoba" with what's on (position 7.3, no clicks). Pizza, pho, folk fest and spring break were retitles only; their facts were not re-verified this pass.
+- 2026-11-25 - (refresh queue, manual pass) - Worked the whole refilled queue: corydon-guide (lunch section, Saffron's removed as unconfirmed), transportation (park and ride, On-Request, Uber/Lyft), hargrave-st-market (vendors and hours), winnipeg-pizza-guide, winnipeg-breweries (brew pubs), little-free-libraries, winnipeg-wine-bars-guide (wine stores), winnipeg-coffee (by neighbourhood), winnipeg-best-new-food-spots (rebuilt as New Restaurants in Winnipeg), human-rights-museum (hours and tickets), gunns-bakery (address and hours), family-activities (by season). Ledger updated; open items: Saffron's Restaurant (681 Corydon) needs a phone check, Winnipeg Trolley Company status unresolved.
