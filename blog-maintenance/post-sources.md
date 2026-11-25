@@ -16,6 +16,27 @@ Newest first.
 
 ---
 
+## Search Console pass, 2026-11-25 (four pages)
+
+- **blog-christmas-winnipeg.html, winter break dates**: the Winnipeg School
+  Division 2026-27 school-day calendar (ICS linked from
+  winnipegsd.ca/wsd-school-day-calendar), read 2026-11-25: Day 5 on Friday,
+  December 18, "Winter Break" every weekday from December 21 to January 1, and
+  Day 6 on Monday, January 4. River East Transcona's event listings
+  (retsd.mb.ca): early dismissal on December 18, Winter Break from December
+  21, first day of classes January 4. Louis Riel's homepage (lrsd.net): "DEC
+  18 Early Dismissal". The earlier claim that "a few run through to Monday,
+  December 21" had no source and was removed. Pembina Trails, Seven Oaks and
+  St. James-Assiniboia calendars could not be read.
+- **blog-rainbow-stage.html, 2027 season**: rainbowstage.ca homepage, /season,
+  /single-tickets/ and /flex-tickets/, read 2026-11-25. No 2027 titles, dates
+  or on-sale dates appear anywhere. Only the title and description changed.
+- **blog-winnipeg-pizza-guide.html and blog-winnipeg-vietnamese-pho-guide.html**:
+  title and description only, so no facts were rechecked. Pho was verified on
+  2026-11-11; pizza's businesses are due for a check against the ledger.
+
+---
+
 ## blog-hilary-duff-winnipeg.html (published 2026-11-25)
 
 - **Date, start time and tour name**: the Canada Life Centre event page for

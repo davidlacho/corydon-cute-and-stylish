@@ -352,6 +352,47 @@ entry. Then set `article:modified_time`, `dateModified` and the sitemap
 `<lastmod>` to today, run `update-llms.py`, and grep the repo for the old title
 to confirm nothing is left.
 
+### Search demand, second export (2026-11-25)
+
+The owner sent queries for Nov 16-22 against Nov 9-15, plus clicks and
+impressions by page. The 2026-11-11 rules above still hold. This export adds
+clicks, and with them these rules:
+
+- **Compare clusters, not single queries.** Add up every phrasing of a topic
+  before calling it up or down. Ignore swings under about 10 impressions and
+  one-word generic queries ("coffee" fell 71 to 4, "coffee shops near me" 37
+  to 1); those are Google testing the page, not demand moving.
+- **Clicks go to pages that answer a planning question.** The Santa Claus
+  parade page (55 clicks on 4,443 impressions), the Corydon restaurants guide
+  (19 / 2,177), the safest-neighbourhoods page (11 / 981), Rainbow Stage
+  (10 / 804), private dining (9 / 626) and breweries (9 / 488) earn most of
+  the site's clicks.
+- **Large impressions with almost no clicks have two causes.** First, "near
+  me" and generic queries, where Google's map pack takes the click: pho
+  (8 / 3,386, mostly "best pho near me"), coffee (3 / 1,722). For these, give
+  every business a street address and group them by neighbourhood so the page
+  is the better answer than the map. Second, titles that state the whole
+  answer, so nobody needs to click: Folk Festival (2 / 1,044, date in the
+  title), spring break (0 / 393). Keep the date in an event title, but make
+  the rest of the title promise what the snippet cannot hold: tickets and
+  prices, lineup, parking, what to bring.
+- **Interest arrives before the organiser announces.** "rainbow stage 2027"
+  rose from 19 to 113 impressions in a week with no 2027 lineup published. A
+  page for an unannounced season must say when the announcement usually comes,
+  and the run must check the organiser's site for it. In early December, read
+  rainbowstage.ca on every run, because the 2026 lineup was announced on
+  December 2, 2025.
+- **Seasonal question pages are refreshed by mid-November.** "when is winter
+  break in winnipeg", "when is christmas break" and their variants added up to
+  about 45 impressions in one week. The answer must be the verified date from
+  the school divisions' own calendars, not an estimate.
+- **The rollover rule works.** Santa parade queries fell from 60 to 2 after the
+  November parade, and the page had already rolled to 2027. Keep doing it.
+- **Never add review or rating markup.** Guest reviews are deliberately kept
+  out of schema.org JSON-LD; see "Review Update Workflow" in `CLAUDE.md`.
+
+The Refresh queue in `post-ideas.md` was refilled from this export.
+
 ### Event rollover
 
 Within a week after an event whose page has a year in its title (parade,
