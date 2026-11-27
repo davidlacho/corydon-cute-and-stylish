@@ -7,6 +7,135 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-27
+
+**Part 1, businesses verified (6, the stalest in the ledger).** Five open, one
+closed. One page corrected.
+
+- **Merchant Kitchen** (314 Donald St) is **closed**, and the ledger entry is
+  now `closed` with the address filled in. Three signals agree: Yelp carries a
+  CLOSED flag on a page updated November 2026, Restaurantji also marks it
+  closed, and themerchantkitchen.com no longer belongs to the restaurant (it
+  301s to an unrelated Czech restaurant site, so the domain has lapsed). No
+  closure announcement or news item was found, which is why the status rests on
+  the dead domain plus the listing flags rather than on one of them alone.
+  **Page corrected:** `blog-hargrave-st-market.html` described The Good Fight
+  Taco as "from the people behind Merchant Kitchen". Hargrave St. Market's own
+  restaurants page, read today, names seven vendors (Gusto North, Yard Burger,
+  The Good Fight Taco, Saburo Kitchen, Empty Cup, Rose Bar, Lake of the Woods
+  Brewing Company) and mentions Merchant Kitchen only as an influence on Good
+  Fight Taco's cooking. The line now describes the food directly and no longer
+  points a reader at a restaurant that has shut. `dateModified` and the sitemap
+  `<lastmod>` bumped.
+- **Warehouse Artworks** (222 McDermot Ave) is open. Still framing, still in
+  the Silvester-Willson Building, with an Exchange District BIZ feature on its
+  45th year and a 2026 Doors Open listing. Listings disagree on hours, so none
+  were added; `blog-doors-open-winnipeg.html` only states the 2026 Doors Open
+  window, which is historical and correct.
+- **IKEA Winnipeg** (500 Sterling Lyon Parkway) is open. ikea.ca's own store
+  page carries the address and hours (Monday to Friday 10 to 8, Saturday 10 to
+  7, Sunday 10 to 6). `blog-vinterfest-market-winnipeg.html` states no store
+  hours and needed no change.
+- **Outlet Collection Winnipeg** (555 Sterling Lyon Parkway) is open. The
+  official site is live, but its cached pages show two different "today's
+  hours" values, so no hours were added anywhere. The mall's own domain
+  (outletcollectionwinnipeg.ca) does not resolve from this sandbox;
+  outletcollectionwinnipeg.com does.
+- **Forgotten Flavours** (858 Corydon Ave) is open. A bakery directory carries
+  the Corydon address with current weekly hours, and Niverville Citizen
+  coverage describes the Corydon shop as a sales depot for product baked in
+  Niverville rather than a café with its own production. Our page does not
+  claim otherwise, so nothing changed, but that distinction is worth keeping in
+  mind the next time the page comes round.
+- **Bar Italia** (737 Corydon Ave) is open. A Yelp page updated January 2026
+  carries daily hours with no closure flag, and the address is consistent
+  across listings. Hours differ between platforms, so none were added.
+
+**Ledger housekeeping.** All six dated today. The new post names no commercial
+business (only the Centennial Concert Hall and Canada Life Centre, both
+venues), so nothing was appended for it. Backfill sweep:
+`blog-wine-beer-spirits-near-corydon-airbnb.html` read and moved to "Swept";
+three entries added at `2026-01-01` since they were not verified, River &
+Osborne Liquor Mart (469 River Ave), Grant Park Liquor Mart (1120 Grant Ave)
+and Grant Park Shopping Centre.
+
+**Correction found while writing, applied across five pages.** The Centennial
+Concert Hall's own parking page names the parkade entrance as **Lily Street**.
+Five posts said "Lily Avenue": the new Beetlejuice post plus
+`blog-gene-simmons-band-winnipeg.html`,
+`blog-jann-arden-holiday-orchestra-winnipeg.html`,
+`blog-wso-christmas-concerts-winnipeg.html` and
+`blog-wso-from-the-inside-out-winnipeg.html`, all of which inherited the error
+from the 2026-11-19 run that first sourced the parkade. All five now say Lily
+Street; the four existing pages had `dateModified` and their sitemap
+`<lastmod>` bumped.
+
+**Part 2, new post.** `blog-beetlejuice-musical-winnipeg.html`, "Beetlejuice
+Winnipeg 2027: Five Shows, Tickets, Parking". First entry of the Events queue,
+taken as written. Form: explainer, which none of the last three posts used
+(question and answer, ranked short list, comparison). The queue entry asked for
+two things to be re-checked before publishing and both were: the hall's own
+Beetlejuice listing confirms the 7:30 p.m. start **and** that the run is five
+performances, not three (Friday January 29 at 7:30, Saturday January 30 at 2
+and 7:30, Sunday January 31 at 2 and 7:30), presented by Broadway Across
+Canada. Also from the hall: single tickets on sale September 14, 2026, group
+sales from May 11, the all-ages ticket rule, and the parkade's weekday-5 p.m.
+versus weekend-two-hours-before opening, which is the one fact that actually
+changes the plan for the two matinees. Run time (about 2h30 with one 15-minute
+intermission), the ages-10-and-up guidance and the "not frightening" line come
+from the production's own FAQ; the stricter 13-and-up recommendation and the
+haze, loud-noise and strobe warnings come from other presenters on the same
+tour and are attributed that way on the page. **No ticket price is published**:
+the hall lists none and two resale sites disagreed by more than thirty dollars,
+one of them probably in US dollars. An AXS listing shows a 6:30 p.m. Sunday
+curtain that the hall's schedule does not, so the page tells the reader to take
+the time from the hall. The January 30 evening clash with the Hilary Duff
+concert at Canada Life Centre is on the page and linked. Registered in
+`articles-data.js`, `articles_data.json`, the `blog.html` noscript grid and
+`blogPost` JSON-LD, and `sitemap.xml`; `llms.txt` regenerated (196 posts);
+`check-blog-listing.py` prints OK.
+
+**Part 2b, events calendar.**
+
+- Added: Beetlejuice the Musical, January 29 to 31, 2027, Centennial Concert
+  Hall, confirmed, pointing at the new post, with the matinees noted in the
+  `time` string.
+- Typical entries starting within 60 days, all five checked, all still
+  typical: Arctic Glacier Winter Park and the Nestaweya River Trail (The Forks'
+  own site announces no 2026-27 season dates and only links a conditions page),
+  the Winnipeg New Music Festival (no 2027 dates from the WSO; the 2026 edition
+  ran January 21 to 29), the Warming Huts (warminghuts.com publishes only the
+  July 1, 2026 registration opening, and says winners are announced each
+  December) and the snow maze at A Maze in Corn (cornmaze.ca says "Opens: mid
+  January 2027", which is a window and not a date, so the January 15 entry
+  stands as typical). None was promoted to confirmed.
+- Still stale, deliberately: Third + Bird Christmas Market (ended November 22)
+  and Rise Above Handmade Holiday Market (ended November 23). Neither organiser
+  has announced a 2027 edition, `blog-winnipeg-holiday-markets.html` is a dated
+  2026 ranking that states no usual window to move them to, and neither is yet
+  30 days past, so none of the three rules applies. They come up for removal
+  after December 22 and 23.
+- Events queue: one event added, **the Princess Proms Concert** at the
+  Centennial Concert Hall. Flagged UNCONFIRMED on purpose: the tour is
+  demonstrably playing Canadian halls this December (Sydney NS on the 19th,
+  Thunder Bay on the 29th at 3:30 p.m.), but the Winnipeg date does not agree
+  across sources, with an events roundup carrying Monday December 14 at 7 p.m.
+  and a resale listing carrying December 30. The hall's own calendar would not
+  render through its ASP event-listing URL this run, so the date has to be
+  settled with the box office before anything is written or calendared. No
+  second event was added: the other December and January finds at both venues
+  (the RWB Nutcracker, the WSO Christmas programs and the Grinch concert,
+  Simple Plan) already have posts or queue entries.
+
+**Owner action: none.** Network access behaved. Two hosts failed and both look
+like the host rather than the allowlist:
+`www.outletcollectionwinnipeg.ca` does not resolve (the `.com` does), and
+`www.broadwayacrosscanada.ca/winnipeg` answers 403 to `WebFetch`. The
+Centennial Concert Hall, cornmaze.ca, warminghuts.com, theforks.com, ikea.ca,
+beetlejuicebroadway.com and images.unsplash.com all loaded.
+
+---
+
 ## 2026-11-25
 
 **Part 1, businesses verified (6, the stalest in the ledger).** All six open. No

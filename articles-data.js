@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-beetlejuice-musical-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-11-27",
+    "title": "Beetlejuice Winnipeg 2027: Five Shows, Tickets, Parking",
+    "image": "https://images.unsplash.com/photo-1545129139-1beb780cf337?q=80&w=1200&auto=format&fit=crop",
+    "imageAlt": "Rows of empty red theatre seats facing a darkened stage",
+    "description": "Beetlejuice the Musical plays the Centennial Concert Hall, 555 Main Street, January 29 to 31, 2027. Five performances, two matinees, tickets and parking.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>6 min read</span>\n                                <span>November 27, 2026</span>"
+  },
+  {
     "url": "/blog-hilary-duff-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-11-25",

@@ -515,6 +515,15 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "Beetlejuice the Musical",
+      "url": "/blog-beetlejuice-musical-winnipeg.html",
+      "start": "2027-01-29",
+      "end": "2027-01-31",
+      "time": "7:30 p.m., with 2 p.m. matinees on January 30 and 31",
+      "venue": "Centennial Concert Hall, 555 Main St",
+      "status": "confirmed"
+    },
+    {
       "title": "Hilary Duff: the lucky me tour",
       "url": "/blog-hilary-duff-winnipeg.html",
       "start": "2027-01-30",

@@ -16,6 +16,57 @@ Newest first.
 
 ---
 
+## blog-beetlejuice-musical-winnipeg.html (published 2026-11-27)
+
+- **Dates, times, presenter, on-sale and venue rules:** the Centennial Concert
+  Hall's own Beetlejuice listing at centennialconcerthall.com, read 2026-11-27.
+  It gives five performances (Friday January 29, 2027 at 7:30 p.m.; Saturday
+  January 30 at 2 p.m. and 7:30 p.m.; Sunday January 31 at 2 p.m. and
+  7:30 p.m.), Broadway Across Canada as presenter, single tickets on sale
+  September 14, 2026 at 10 a.m. and group tickets (ten or more) from May 11,
+  2026, the box office at 555 Main St and 204-949-3999, "Patrons of all ages
+  require a ticket for entry", no cameras or recording devices, and no refunds
+  or exchanges after purchase. No ticket price and no run time are published
+  there, so the page quotes neither from the hall.
+- **The 6:30 p.m. Sunday discrepancy:** an AXS listing carries a 6:30 p.m.
+  Sunday January 31 curtain that the hall's own schedule does not. The page
+  tells the reader to take the time from the hall. Resale prices seen this run
+  disagreed by tens of dollars ($95 and $127.81 before fees on two sites), so
+  no price is quoted.
+- **Parking:** the hall's own parking page, read 2026-11-27. Indoor parkade
+  behind the hall entered from Lily Street, event parking from 5 p.m. Monday to
+  Friday and two hours before showtime on weekends and holidays, advance sales
+  for selected events only, two stated cutoffs (approximately noon on the last
+  business day before the event, and noon on the day of the event), walk-up
+  stalls sold at the parkade entrance first come, ticket from the machine
+  validated by an attendant against the confirmation, and advance prices that
+  may differ from walk-up. No rate is published.
+- **Run time, age and effects:** the production's official FAQ at
+  beetlejuicebroadway.com, read 2026-11-27, gives approximately 2 hours
+  30 minutes including one 15-minute intermission, says the show is not
+  frightening, puts the themes and content at ages 10 and up, and notes
+  occasional strong language. The higher 13-and-up recommendation and the
+  warnings about haze and fog, sudden loud noises and strobe effects come from
+  other presenters' listings on the same tour (the American Theatre Guild's
+  Birmingham page among them), which is why the page attributes them to
+  presenters elsewhere on the tour rather than to the hall.
+- **Tour placement:** NETwork Tours' own show page lists the Winnipeg stop at
+  the Centennial Concert Hall from January 29 to 31, 2027, between Tempe and
+  Pittsburgh, on the second North American tour. The first national tour closed
+  after an 88-city run and the Broadway engagement ran October 8, 2025 to
+  January 3, 2026.
+- **Reused house facts, not re-checked this run:** the 10 min / 4.3 km drive
+  from the house to 555 Main St is from the verified distance table in
+  `AGENT-INSTRUCTIONS.md`. The Main Street bus corridor (routes FX2, FX3, F8,
+  D16 and 43, stops 10629 and 10635), the coat check in the main lobby, the
+  glass-container rule and the closed Rupert Avenue entrance to the Manitoba
+  Centennial Centre were sourced by the 2026-11-19 run for
+  `blog-gene-simmons-band-winnipeg.html` and are carried over.
+- **Not stated on the page:** any ticket price, any doors time, any parkade
+  rate, and any claim about the Centennial Concert Hall's seat count.
+
+---
+
 ## Refresh-queue pass, 2026-11-25 (owner asked to work the queue)
 
 - **blog-corydon-guide.html**: Added a 'Lunch on Corydon' section naming the places open at midday with own-site hours (Thom Bargen, Confusion Corner, Tommy's weekends, Cheesemongers/Forgotten Flavours/Sugar + Salt for a carry-out lunch), naming the dinner-only rooms (Passero, Saperavi, Sunshine) and a Monday note. Removed Saffron's (domain lapsed, space listed for lease, no current sign it operates) from the list and patio section; corrected Tommy's to four styles, added own-site hours for Saperavi, Sunshine, Thom Bargen, Cheesemongers, Sugar + Salt, changed Passero's link to passerowinnipeg.com, dropped Cafe 22 'open late', and linked the pizza guide. Sibling links to the patios and breakfast posts kept.
