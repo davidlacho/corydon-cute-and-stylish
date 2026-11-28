@@ -16,6 +16,45 @@ Newest first.
 
 ---
 
+## blog-simple-plan-winnipeg.html (published 2026-11-28)
+
+- **Date, start time, on-sale and ticket seller:** the Canada Life Centre's own
+  Simple Plan listing at canadalifecentre.ca/calendar-events/simple-plan/, read
+  2026-11-28. Tuesday February 2, 2027 at 7 p.m.; on sale Friday October 9 at
+  10 a.m.; Ticketmaster link. The arena's listing names no support act and no
+  doors time, which is why the post says the arena gives neither. The listing
+  also describes the band as Montreal-formed and marking its 25th anniversary.
+- **The bill:** the tour's own Live Nation event page for "SIMPLE PLAN: BIGGER
+  THAN YOU THINK! Canada Tour" at Canada Life Centre, read 2026-11-28, whose
+  lineup section lists Simple Plan, Yellowcard and Bowling For Soup. The arena's
+  events index (canadalifecentre.ca/events, same day) independently confirms
+  Feb 2, 2027, 7 p.m.
+- **Box office:** canadalifecentre.ca/box-office-information/, re-read
+  2026-11-28. Street level at Portage and Donald in the main atrium at Gate 1;
+  during hockey season (Oct 1 to May 31) a weekday event day opens at 11 a.m.
+  and stays open until event time, while Saturdays, Sundays and major holidays
+  open two hours before. Non-event hours Wednesday to Friday 11 a.m. to 2 p.m.
+  Phone 204-987-7825. The weekday rule is the one this post leans on, since
+  February 2 is a Tuesday.
+- **Bag policy:** canadalifecentre.ca/fan-guide/bag-policy, re-read 2026-11-28.
+  4" x 6" x 1.5" or smaller; medical, childcare and diaper bags exempt; X-ray
+  screening at Gate 1 (Portage and Donald), Gate 3 (Graham and Hargrave) and
+  Gate 6 (Cityplace Skywalk); no on-site bag check; individual events may be
+  stricter and ticket holders are emailed when they are.
+- **Daylight:** sunset 5.24 p.m. and 9 hours 25 minutes of daylight on
+  2027-02-02, from the sunrise-sunset API for 49.8951, -97.1384, converted from
+  UTC to CST (23:24:34 UTC).
+- **Distance:** 10 minutes and 3.9 km from the house, from the verified distance
+  table in AGENT-INSTRUCTIONS.md. The BLUE line's Southwest Transitway and
+  Portage Avenue routing is the same fact the Hilary Duff page carries.
+- **Hero image:** Unsplash photo-1604514288114-3851479df2f2, a black-and-white
+  band on stage (Tim Toomey, shot at Riot Fest), checked against
+  articles-data.js as unused and fetched at 200 before use. No local images/
+  file shows an arena, a stage or a band.
+- **Deliberately not stated:** no doors time, no support running order, no
+  ticket prices (the resale sites quoting $70 and up are not face value), no
+  arena capacity, no parkade price.
+
 ## blog-beetlejuice-musical-winnipeg.html (published 2026-11-27)
 
 - **Dates, times, presenter, on-sale and venue rules:** the Centennial Concert

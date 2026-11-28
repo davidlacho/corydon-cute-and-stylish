@@ -7,6 +7,101 @@ recent entries to avoid repeating work.
 
 ---
 
+## 2026-11-28
+
+**Part 1, businesses verified (6, the stalest in the ledger).** Four confirmed
+open, two could not be settled and are flagged below. All six dated today.
+
+- **River & Osborne Liquor Mart, 469 River Ave** (was 2026-01-01, backfilled and
+  never checked): open. A current retail directory listing carries daily hours
+  and the store phone, 204-987-4012, and Manitoba Liquor & Lotteries still
+  publishes store hours centrally at liquormarts.ca/hours. Hours differ between
+  platforms, so none were added to the page.
+- **Grant Park Liquor Mart, 1120 Grant Ave** (was 2026-01-01): open. MBLL's own
+  holiday notices name the Grant Park location by name, and two directories
+  carry it at that address. Hours conflict between directories, so none added.
+- **Grant Park Shopping Centre, 1120 Grant Ave** (was 2026-01-01): open. A mall
+  directory tracked fourteen tenants there as of September 2026, including
+  Canadian Tire, A&W and H&R Block, and lists Primaris as operator. The only
+  redevelopment coverage found is from 2012; nothing current.
+- **Cafe 22, 823 Corydon Ave**: open. Listings agree on the address (Unit 2),
+  the stone-fired pizza, the patio and the phone, 204-989-5119.
+- **Peking Chinese Restaurant, 840 Corydon Ave**: **unverified, left
+  unchanged.** Listings agree on the address and on dinner-only hours, but one
+  map listing flags it "Closed" with no date, Tripadvisor shows "Closed now"
+  with no hours, and its own site, pekingwpg.ca, answers HTTP 500. No news
+  coverage either way. With no source that settles it, nothing on
+  `blog-corydon-guide.html` was touched. **Owner action if convenient:** a phone
+  call to 204-453-2439 would settle this; it sits on the site's top page.
+- **Saffron's Restaurant, 681 Corydon Ave**: **unverified.** A map listing flags
+  it "Closed" and files it under a different restaurant name at the same
+  address, which reads like a change of tenant, but OpenTable and the menu
+  directories still carry Saffron's with no closure notice and nothing confirms
+  a successor. No page risk either way: its `pages` array is empty, so no post
+  on the site names it.
+
+**Ledger housekeeping.** The new post names one commercial business, Hargrave
+St. Market, which was already listed, so this filename was appended to its
+`pages`. Backfill sweep: `blog-winnipeg-48-hour-itinerary.html` read and moved
+to "Swept"; no new entries, since the only commercial name on it, The Forks
+Market, was already in the ledger and only needed the filename appended. The
+rest of that post names parks, districts and museums, which are out of ledger
+scope.
+
+**Part 2, new post.** `blog-simple-plan-winnipeg.html`, "Simple Plan Winnipeg
+2027: February 2 Tickets and Doors". Form: host's notes, which none of the last
+three posts used (explainer, question and answer, ranked short list). Facts come
+from the arena's own Simple Plan listing, its box-office and bag-policy pages
+and the tour's official Live Nation event page, all read today; provenance is in
+`post-sources.md`. The weekday angle is the page's own: February 2 is a Tuesday,
+so the box office opens at 11 a.m. and stays open until event time instead of
+the two-hours-before rule a weekend show gets.
+
+**The top of the Events queue was skipped, and why.** `princess-proms-winnipeg`
+still cannot be written. The tour's official Live Nation artist page lists seven
+dates (Sydney NS, Moncton, Hamilton, Vancouver, then Newark, Albany and
+Binghamton) and **no Winnipeg date at all**; centennialconcerthall.com returns
+404 on `/events` and `/events/all` and its home page shows a single listing. The
+only Winnipeg support is a resale page naming the hall with no date. Skipped
+under the Events-queue exception, left in place, and the finding written into the
+entry. **Owner decision wanted:** either confirm by phone on 204-949-3999 or let
+the next run delete the entry as a date that was never scheduled here.
+
+**Part 2b, events calendar.** 101 entries, 0 stale.
+
+- Added: Simple Plan: Bigger Than You Think!, February 2, 2027, 7 p.m., Canada
+  Life Centre, confirmed from the arena's own listing.
+- Rolled past editions to typical windows: Third + Bird Christmas Market moved
+  from November 20 to 22, 2026 to November 19 to 21, 2027 (same Friday to Sunday
+  pattern, third weekend of November), and Rise Above Handmade Holiday Market
+  from November 23, 2026 to November 22, 2027, keeping its position as the day
+  after that weekend. Both now `typical`. The 2026 holiday-markets post was not
+  touched; its season still has the Winnipeg Christmas Market running to
+  November 29, so the page itself is a rollover for a later run.
+- Typical entries starting within 60 days, all checked once and all left
+  typical: Arctic Glacier Winter Park and the Nestaweya River Trail (theforks.com
+  publishes no 2026-27 opening date), the A Maze in Corn snow maze (cornmaze.ca
+  says only "Opens: mid January 2027", which is what the entry already assumes),
+  the Warming Huts (warminghuts.com served only a verification interstitial), and
+  the Winnipeg New Music Festival (wso.ca's what's-on listing shows no festival
+  block in January 2027). Nothing was set to confirmed.
+- Added to the Events queue, both confirmed on the orchestra's own what's-on
+  listing: `wso-m-is-for-music-winnipeg` (Saturday January 9, 2027) and
+  `wso-beethoven-sibelius-winnipeg` (January 23 and 24, 2027), both at the
+  Centennial Concert Hall. The rest of the next eight weeks is already covered
+  by existing posts and calendar entries.
+- `events.html` regenerated; `events.html` and `blog.html` `<lastmod>` set to
+  today.
+
+**Pages changed.** New: `blog-simple-plan-winnipeg.html`. Edited:
+`articles-data.js`, `articles_data.json`, `blog.html` (noscript card and
+`blogPost` JSON-LD), `sitemap.xml`, `llms.txt` (197 posts), `events-data.js`,
+`events.html`, `blog-maintenance/business-ledger.json`,
+`blog-maintenance/ledger-sweep.md`, `blog-maintenance/post-ideas.md`,
+`blog-maintenance/post-sources.md`. `check-blog-listing.py` prints OK.
+
+---
+
 ## 2026-11-27
 
 **Part 1, businesses verified (6, the stalest in the ledger).** Five open, one

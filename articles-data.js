@@ -3,6 +3,16 @@
 // On blog.html (with JavaScript), entries with date after the visitor's local calendar day are omitted from the grid until that day.
 const ARTICLES_DATA = [
   {
+    "url": "/blog-simple-plan-winnipeg.html",
+    "category": "winnipeg",
+    "date": "2026-11-28",
+    "title": "Simple Plan Winnipeg 2027: February 2 Tickets and Doors",
+    "image": "https://images.unsplash.com/photo-1604514288114-3851479df2f2?q=80&w=1200&h=800&fit=crop",
+    "imageAlt": "A band performing on a festival stage in black and white, guitarist and singer lit from the side",
+    "description": "Simple Plan play Canada Life Centre on Tuesday, February 2, 2027 at 7 p.m. with Yellowcard and Bowling For Soup. Tickets, the bag rule, gates and transit.",
+    "metaHtml": "<span>Winnipeg Guides</span>\n                                <span>5 min read</span>\n                                <span>November 28, 2026</span>"
+  },
+  {
     "url": "/blog-beetlejuice-musical-winnipeg.html",
     "category": "winnipeg",
     "date": "2026-11-27",

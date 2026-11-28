@@ -14,14 +14,15 @@ Owner: Stay Winnipeg
 - [Booking Redirect](https://staywinnipeg.ca/book-now.html)
 
 # Content Overview
-Total Blog Posts: 196
-- Winnipeg Attractions & Activities: 178 guides
+Total Blog Posts: 197
+- Winnipeg Attractions & Activities: 179 guides
 - Hosting & Airbnb Philosophy: 13 posts
 - Travel Experiences & Stories: 5 posts
 
 # Content Pages by Category
 
-## Winnipeg Attractions & Activities (178 guides)
+## Winnipeg Attractions & Activities (179 guides)
+- [Simple Plan Winnipeg 2027: February 2 Tickets and Doors](https://staywinnipeg.ca/blog-simple-plan-winnipeg.html)
 - [Beetlejuice Winnipeg 2027: Five Shows, Tickets, Parking](https://staywinnipeg.ca/blog-beetlejuice-musical-winnipeg.html)
 - [Hilary Duff Winnipeg 2027: January 30 Tickets, Doors](https://staywinnipeg.ca/blog-hilary-duff-winnipeg.html)
 - [Candlelight Concerts Winnipeg: Dates, Prices, Best Nights](https://staywinnipeg.ca/blog-candlelight-concerts-winnipeg.html)
@@ -246,10 +247,10 @@ Secondary: mid-century modern Winnipeg, Winnipeg accommodation, things to do Win
 
 # Site Structure
 - Main homepage showcasing boutique accommodation with booking information, guest review highlights, a two-column property overview with image carousel, and a centred booking CTA
-- Blog index page listing all 196 blog posts by category
+- Blog index page listing all 197 blog posts by category
 - Winnipeg Events Calendar page (events.html) with day, week and month views of festivals, games, markets, parades and shows; every calendar event links to the blog post that covers it, and the data lives in events-data.js
 - Accessibility statement page outlining WCAG goals, testing tools, and pre-deployment safeguards
-- 196 individual blog post pages covering local guides, hosting insights, and travel stories
+- 197 individual blog post pages covering local guides, hosting insights, and travel stories
 - Image gallery with 70+ property and local attraction photos
 - Sitemap.xml for search engine indexing
 - Robots.txt for search engine crawling guidelines
@@ -324,5 +325,5 @@ Booking: Available through Airbnb at https://www.airbnb.ca/rooms/716340250371431
 Host: Stay Winnipeg (Superhost, 15+ years hosting experience)
 
 # Last Updated
-November 27, 2026
+November 28, 2026
 

@@ -21,25 +21,11 @@
 // to validate the entries and regenerate the static list and JSON-LD in events.html.
 const EVENTS_DATA = [
     {
-      "title": "Third + Bird Christmas Market",
-      "url": "/blog-winnipeg-holiday-markets.html",
-      "start": "2026-11-20",
-      "end": "2026-11-22",
-      "status": "confirmed"
-    },
-    {
       "title": "Zoo Lights at Assiniboine Park Zoo",
       "url": "/blog-family-activities.html",
       "start": "2026-11-20",
       "end": "2027-01-03",
       "venue": "Assiniboine Park Zoo",
-      "status": "confirmed"
-    },
-    {
-      "title": "Rise Above Handmade Holiday Market",
-      "url": "/blog-winnipeg-holiday-markets.html",
-      "start": "2026-11-23",
-      "end": "2026-11-23",
       "status": "confirmed"
     },
     {
@@ -533,6 +519,15 @@ const EVENTS_DATA = [
       "status": "confirmed"
     },
     {
+      "title": "Simple Plan: Bigger Than You Think!",
+      "url": "/blog-simple-plan-winnipeg.html",
+      "start": "2027-02-02",
+      "end": "2027-02-02",
+      "time": "7 p.m.",
+      "venue": "Canada Life Centre, 300 Portage Ave",
+      "status": "confirmed"
+    },
+    {
       "title": "Candlelight: Vivaldi, then Valentine's Classical Romance",
       "url": "/blog-candlelight-concerts-winnipeg.html",
       "start": "2027-02-12",
@@ -860,6 +855,20 @@ const EVENTS_DATA = [
       "end": "2027-11-13",
       "time": "5 p.m.",
       "venue": "Portage Avenue, downtown",
+      "status": "typical"
+    },
+    {
+      "title": "Third + Bird Christmas Market",
+      "url": "/blog-winnipeg-holiday-markets.html",
+      "start": "2027-11-19",
+      "end": "2027-11-21",
+      "status": "typical"
+    },
+    {
+      "title": "Rise Above Handmade Holiday Market",
+      "url": "/blog-winnipeg-holiday-markets.html",
+      "start": "2027-11-22",
+      "end": "2027-11-22",
       "status": "typical"
     }
   ];

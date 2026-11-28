@@ -58,7 +58,7 @@
         "blog-corydon-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-11"
+      "last_verified": "2026-11-28"
     },
     {
       "name": "Cafe 22",
@@ -68,14 +68,14 @@
         "blog-winnipeg-pizza-guide.html"
       ],
       "status": "open",
-      "last_verified": "2026-11-11"
+      "last_verified": "2026-11-28"
     },
     {
       "name": "Saffron's Restaurant",
       "address": "681 Corydon Ave",
       "pages": [],
       "status": "open",
-      "last_verified": "2026-11-11"
+      "last_verified": "2026-11-28"
     },
     {
       "name": "Santa Lucia Pizza",
@@ -578,7 +578,8 @@
         "blog-munschbusters-prairie-theatre-exchange.html",
         "blog-wso-from-the-inside-out-winnipeg.html",
         "blog-hilary-duff-winnipeg.html",
-        "blog-winnipeg-coffee.html"
+        "blog-winnipeg-coffee.html",
+        "blog-simple-plan-winnipeg.html"
       ],
       "status": "open",
       "last_verified": "2026-11-25"
@@ -1375,7 +1376,8 @@
         "blog-the-forks-cmhr-day-plan.html",
         "blog-the-forks.html",
         "blog-things-to-do.html",
-        "blog-transportation.html"
+        "blog-transportation.html",
+        "blog-winnipeg-48-hour-itinerary.html"
       ],
       "status": "open",
       "last_verified": "2026-11-25"
@@ -2400,7 +2402,7 @@
         "blog-wine-beer-spirits-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-11-28"
     },
     {
       "name": "Grant Park Liquor Mart",
@@ -2409,7 +2411,7 @@
         "blog-wine-beer-spirits-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-11-28"
     },
     {
       "name": "Grant Park Shopping Centre",
@@ -2418,7 +2420,7 @@
         "blog-wine-beer-spirits-near-corydon-airbnb.html"
       ],
       "status": "open",
-      "last_verified": "2026-01-01"
+      "last_verified": "2026-11-28"
     }
   ]
 }

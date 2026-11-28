@@ -12,7 +12,6 @@ last because they are partly covered.
 
 ## Not yet swept (top-down)
 
-- blog-winnipeg-48-hour-itinerary.html
 - blog-winnipeg-airport-arrival-guide.html
 - blog-winnipeg-art-gallery.html
 - blog-winnipeg-best-new-food-spots.html
@@ -89,6 +88,7 @@ last because they are partly covered.
 
 ## Swept
 
+- blog-winnipeg-48-hour-itinerary.html (2026-11-28, one page appended, no new entries: The Forks Market was already in the ledger, so this filename went on its pages. Everything else the post names is out of ledger scope by the ledger's own convention: The Forks National Historic Site, Assiniboine Park, The Leaf and the Exchange District are parks and districts, and the Canadian Museum for Human Rights, Qaumajuq, the Winnipeg Art Gallery and the St. Boniface Cathedral are institutions. The post names no restaurant, cafe, bar or shop by name.)
 - blog-wine-beer-spirits-near-corydon-airbnb.html (2026-11-27, three added: River & Osborne Liquor Mart at 469 River Ave, Grant Park Liquor Mart at 1120 Grant Ave and Grant Park Shopping Centre, which holds the second. The post names nothing else commercial; the rest is Manitoba liquor-retail rules and the liquormarts.ca pointer.)
 - blog-wellington-crescent-walk-near-corydon-airbnb.html (2026-11-25, no commercial businesses named. The post is a free residential walk from Crescentwood north to Wellington Crescent; it names streets, the river, the pedestrian bridge and Assiniboine Park, and no restaurant, cafe, shop or operator anywhere on the page.)
 - blog-vegetarian-vegan-eats-corydon.html (2026-11-24)
