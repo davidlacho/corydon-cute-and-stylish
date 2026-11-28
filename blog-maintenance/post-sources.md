@@ -51,6 +51,14 @@ Newest first.
   band on stage (Tim Toomey, shot at Riot Fest), checked against
   articles-data.js as unused and fetched at 200 before use. No local images/
   file shows an arena, a stage or a band.
+- **Transit fare:** info.winnipegtransit.com/fares/transit-fares, read
+  2026-11-28, gives the 2026 full adult fare as $3.45 cash and $3.10 peggo
+  e-cash. A Manitoba government circular carries a different figure; Transit's
+  own page was taken as authoritative. Route D19 is not named on this page: the
+  route listing is JavaScript-rendered and would not load, so the post names
+  only the BLUE line.
+- **Corydon Avenue walk:** about 10 minutes and 700 m, south, from the verified
+  distance table in AGENT-INSTRUCTIONS.md.
 - **Deliberately not stated:** no doors time, no support running order, no
   ticket prices (the resale sites quoting $70 and up are not face value), no
   arena capacity, no parkade price.

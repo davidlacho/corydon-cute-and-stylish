@@ -93,6 +93,8 @@ the next run delete the entry as a date that was never scheduled here.
 - `events.html` regenerated; `events.html` and `blog.html` `<lastmod>` set to
   today.
 
+**Specificity pass, second commit.** The first draft met only two of the playbook's specificity markers, so two sourced details were added: the 2026 adult transit fare ($3.45 cash, $3.10 peggo e-cash, from Transit's own fares page, read today) and the 10 minute, 700 m walk south to Corydon Avenue from the verified distance table. Route D19 was left off; Transit's route pages are JavaScript-rendered and would not load for a check.
+
 **Pages changed.** New: `blog-simple-plan-winnipeg.html`. Edited:
 `articles-data.js`, `articles_data.json`, `blog.html` (noscript card and
 `blogPost` JSON-LD), `sitemap.xml`, `llms.txt` (197 posts), `events-data.js`,
